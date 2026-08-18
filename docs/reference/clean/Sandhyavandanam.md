@@ -25,7 +25,7 @@ on your right palm and drink it
 1) achyutAya namaha 2) anantAya namaha 3) govindAya namaha
 
 uttering the name of केशव kesava, touch the right cheek with the right thumb and
-uttering the name of नारायण ¦ nArAyaNa touch the left cheek with the right thumb.
+uttering the name of नारायण ¦nArAyaNa touch the left cheek with the right thumb.
 
 Similarly uttering each of the following names touch the part of the body indicated
 below with the finger shown against each:
@@ -50,7 +50,7 @@ Face East for prAta sandhyAvandanam and mAdhyAhnikam and north for sAyam
 sandhyAvandanam
 Gently hit the temple with the knuckles five times in all , once after each of the words
 (marked *) in the following sloka:
-शुक्लांबरधरं * विष्णुं * शशिवर्णं * चतुर्भुजम्‌ * * * * ।
+शुक्लांबरधरं * विष्णुं * शशिवर्णं * चतुर्भुजम्‌* * * * ।
 प्रसन्नवदनं * ध्यायेत्‌ सर्वविघ्नोपशान्तये ॥ *
 SuklAMbaradharaM * viShNuM * SaSivarNaM * chaturbhujam * ।
 prasanna vadanaM* dhyAyet sarvavighnopaSAntaye ॥
@@ -82,18 +82,18 @@ sandhyAvandanam
 Keep the left palm on the right thigh with palm facing upwards and keep the closed right
 palm over the left palm and chant the following:
 
-प्रात सन्ध्यावन्दनम्‌ For prAta sandhyavandanam
+प्रात सन्ध्यावन्दनम्‌For prAta sandhyavandanam
 ममोपात्त-समस्त-दुरितक्षयद्वारा श्रीपरमेश्चरप्रीत्यर्थ प्रातः सन्ध्यामुपासिष्ये
 
 mamopAtta-samasta-duritakShayadvArA SrIparameSvaraprItyarthaM
 prAta: sandhyAmupAsiShye
 
-माध्याहिकम्‌ For mAdhyAhnikam
+माध्याहिकम्‌For mAdhyAhnikam
 ममोपात्त-समस्त-दुरितक्षयद्वारा श्रीपरमेश्वरप्रीत्यर्थ माध्याहिकं करिष्ये ॥
 mamopAtta-samasta-duritakShayadvArA SrIparameSwaraprItyarthaM
 mAdhyAhnikaM kariShye ||
 
-सायं सन्ध्यावन्दनम्‌ For sAyam sandhyavandanam
+सायं सन्ध्यावन्दनम्‌For sAyam sandhyavandanam
 ममोपात्त-समस्त-दुरितक्षयद्वारा श्रीपरमेश्वरप्रीत्यर्थं सायं सन्ध्यामुपासिष्ये ॥
 
 mamopAtta-samasta-duritakshayadvArA SrIparameswaraprIrtyarthaM sAyam
@@ -144,7 +144,7 @@ rakShantAm | yadrAtriyA pApamAharSham ॥ manasA vAchA hastAbhyAm ॥
 padbhyAmudareNa sisna । rAtrirstadavaluMpatu | yat kiMcha duritam mayi ।
 idamahaM mAmamrutayonau । surye jyotiShi juhomi svAhA ॥
 Drink the water now.
-माध्याहिकम्‌ For mAdhyAhnikam
+माध्याहिकम्‌For mAdhyAhnikam
 आपः पुनन्तु पृथिवीं पृथिवी पूता पुनातु माम्‌ । पुनन्तु ब्रह्मणस्पतिर्ब्रह्-पूता पुनातु -
 माम्‌ ॥
 यदुच्छिष्ट-मभोज्यं यदव दुश्वरितं मम॑ । सर्व पुनन्तु मामापोऽसतां च प्रंतिग्रहें स्वाहा ॥ -
@@ -152,7 +152,7 @@ Apaha punantu pruthvIm prutivI pUtha punathu mAm । punanthu
 brahmanaspathihi brahma-pUta punatumAm. yaduchishtam abhojyam yadvA
 duscaritam mama sarvam punanthu mamApo asatAm cha pratigraham svAhA ॥
 Drink the water now.
-सायं सन्ध्यावन्दनम्‌ For sAyam sandhyavandanam
+सायं सन्ध्यावन्दनम्‌For sAyam sandhyavandanam
 अग्निश्च मा मन्युश्च मन्युपतयश्च मन्युकृतेभ्यः | पापेभ्यो रक्षन्ताम्‌ । यदहा :
 पापमकार्षम्‌ ॥ मनसा वाचां हस्ताभ्याम्‌ । पदभ्यामुदरेण शिङना | अह -
 स्तदवलुंपतु । यक्किच दुरितं मयि । इदमहं माममृतयोनौ । सत्ये ज्योतिषि जुहोमि
@@ -289,7 +289,7 @@ on your right palm and drink it
 1) achyutAya namaha 2) anantAya namaha 3) govindAya namaha
 
 uttering the name of केशव kesava, touch the right cheek with the right thumb and
-uttering the name of नारायण ¦ nArAyaNa touch the left cheek with the right thumb.
+uttering the name of नारायण ¦nArAyaNa touch the left cheek with the right thumb.
 
 Similarly uttering each of the following names touch the part of the body indicated
 below with the finger shown against each:
@@ -352,7 +352,7 @@ on your right palm and drink it
 1) achyutAya namaha 2) anantAya namaha 3) govindAya namaha
 
 uttering the name of केशव kesava, touch the right cheek with the right thumb and
-uttering the name of नारायण ¦ nArAyaNa touch the left cheek with the right thumb.
+uttering the name of नारायण ¦nArAyaNa touch the left cheek with the right thumb.
 
 Similarly uttering each of the following names touch the part of the body indicated
 below with the finger shown against each:
@@ -380,7 +380,7 @@ Face East for prAta sandhyAvandanam and mAdhyAhnikam and north for sAyam
 sandhyAvandanam
 Gently hit the temple with the knuckles five times in all , once after each of the words
 (marked *) in the following sloka:
-शुक्लांबरधरं * विष्णुं * शशिवर्णं * चतुर्भुजम्‌ * * * * ।
+शुक्लांबरधरं * विष्णुं * शशिवर्णं * चतुर्भुजम्‌* * * * ।
 प्रसन्नवदनं * ध्यायेत्‌ सर्वविघ्नोपशान्तये ॥ *
 SuklAMbaradharaM * viShNuM * SaSivarNaM * chaturbhujam * ।
 prasanna vadanaM* dhyAyet sarvavighnopaSAntaye ॥
@@ -414,21 +414,21 @@ sandhyAvandanam
 Keep the left palm on the right thigh with palm facing upwards and keep the closed right
 palm over the left palm and chant the following:
 
-प्रातः सन्ध्यावन्दनम्‌ For prAta sandhyAvandanam:
+प्रातः सन्ध्यावन्दनम्‌For prAta sandhyAvandanam:
 ममोपात्त-समस्त-दुरितक्षयद्वारा श्रीपरमेश्वरप्रीत्यर्थ प्रातः सन्ध्या गायत्री महामन्त्र जपं
 करिष्ये|
 mamopAtta-samasta-duritakShayadvArA SrIparameSvaraprItyarthaM
 prAta: sandhyA gAyatrI mahAmantra japaM kariShye ॥
 
 Release the hands.
-माध्याहिकम्‌ For mAdhyAhnikam
+माध्याहिकम्‌For mAdhyAhnikam
 ममोपात्त-समस्त-दुरितक्षयद्वारा श्रीपरमेश्वरप्रीत्यर्थ माध्याह्ििक गायत्री महामन्त्र जपं
 करिष्ये ॥
 mamopAtta-samasta-duritakShayadvArA SrIparameSvaraprItyarthaM
 mAdhyAhnika gAyatrI mahamantra japaM kariShye ॥
 
 Release the hands.
-सायं सन्ध्यावन्दनम्‌ For sAyam sandhyavandanam
+सायं सन्ध्यावन्दनम्‌For sAyam sandhyavandanam
 ममोपात्त-समस्त-दुरितक्षयद्वारा श्रीपरमेश्वरप्रीत्यर्थं सायं सन्ध्या गायत्री महामन्त्र जपं
 करिष्ये ॥
 mamopAtta-samasta-duritakshayadvArA SrIparameswaraprIrtyarthaM sAyam
@@ -487,7 +487,7 @@ Now release both the fingers.
 (Face East for prAta sandhyAvandanam and mAdhyAhnikam and West for sAyam
 sandhyAvandanam)
 Keep the fingers at the forehead and utter the mantrA:
-आयात्विति अनुवाकस्य, वामदेव ऋषि , : ।
+आयात्विति अनुवाकस्य, वामदेव ऋषि : ।
 AyAtviti anuvAkasya vAmadeva RuShihi ।
 Keep the fingers at the nose and utter the mantrA:
 अनुष्टुप्‌ छन्द : । anuShTup Chandaha ।
@@ -556,10 +556,10 @@ Now release both the fingers.
 sandhyAvandanam)
 Uttering the following mantras get up with right ring finger touching the floor and after
 completion of mantra stand erect releasing the ring finger:
-प्रात सन्ध्यावन्दनम्‌ For prAta sandhyAvandanam:
+प्रात सन्ध्यावन्दनम्‌For prAta sandhyAvandanam:
 
 प्रातस्सन्ध्योपस्थानं करिष्ये |prataha sandhyA upastAnam karishye
-माध्याक्निकम्‌ For mAdhyAhnikam
+माध्याक्निकम्‌For mAdhyAhnikam
 माध्याह्िक उपस्थानं करिष्ये |mAdhyAhnika upastAnam karishye
 सायं सन्ध्यावन्दनम्‌ For sAyam sandhyavandanam
 साय सन्ध्योपस्थानं करिष्ये |sAyam sandhyA upastAnam karishye
@@ -577,7 +577,7 @@ sandhyAvandanam)
 
 Keep the hands folded in the pose of saying Namaskaram and utter the following
 mantras:
-प्रात सन्ध्यावन्दनम्‌ For prAta SandhyA
+प्रात सन्ध्यावन्दनम्‌For prAta SandhyA
 ओम्‌ मित्रस्य चर्‌षणीधृतः श्रवो देवस्य सानसिम्‌ ।
 
 
@@ -606,7 +606,7 @@ Face east and utter :
 sarvAbyo devatAbyo namaha ।
 कमोऽकार्षीन्‌ मन्युरकार्षीत्‌ नमो नम :
 kamo akArShIn manyurakArShIt namo namaha ।
-माध्याहिकम्‌ For mAdhyAhnikam
+माध्याहिकम्‌For mAdhyAhnikam
 आ सत्येन स्नसा वर्तमानो निवेशयन्नमृतं मर्त्यं च । दिरण्ययेनसविता रथेना देवो याति भुवना
 
 विपश्यन्‌ । उद्वयं तमसपरि पक्यन्तो ज्योतिरुत्तरम्‌ ॥ देवं देवत्रा सूर्यमगन्म ज्योतिरुत्तमम्‌ ॥
@@ -655,7 +655,7 @@ Face east and utter :
 sarvAbyo devatAbhyo namaha ।
 कामोऽकार्षीन्‌ मन्युरकार्षीत्‌ नमो नम :
 kamo akArShIn manyurakArShIt namo namaha ।
-सायं सन्ध्यावन्दनम्‌ For sAyam sandhyA: Face west
+सायं सन्ध्यावन्दनम्‌For sAyam sandhyA: Face west
 ड्मं मे वरुण श्रुधी हवमध्या च मृडय । त्वामवस्युराचके ॥ तत्वा यामि ब्रह्मणा
 
 वन्दमानस्तदाशास्ते यजमानो हविर्भि: । अहेडमानो वरुणेह बोध्युरुशश्स मान आयुः प्रमोषीः ॥
@@ -683,7 +683,7 @@ yattava dharmA yuyopima mA nastasmAdenaso deva rIriSha: || kitavAso
 yadriripurna dIvi yadvA ghA satyamuta yanna vidma | sarvA tA viShya Sithireva
 devAthA te syAma varuNa priyAsa: ||
 
-समष्ट्यभिवादनम्‌ samaShTyaBivAdanam
+समष्ट्यभिवादनम्‌samaShTyaBivAdanam
 Facing east say सन्ध्यायै नम sandhyayai namaha
 Facing south say सावित्यै नम : sAvitrayai namaha
 Facing west say गायत्र्यै नम : gAyatriyai namaha
@@ -733,7 +733,7 @@ keep the palms together and fingers pointing away from you
 4) direct the fingers to floor and say भूम्यै नमः bhUmyai namaha
 5) direct the fingers to top and say ब्रह्मणे नमः brahmaNe namaha
 6) direct the fingers to floor and say विष्णवे नमः viShNave namaha
-यमवन्टनम्‌ yamavandanam
+यमवन्टनम्‌yamavandanam
 Face south and chant the mantras :
 यमाय नमः । यमाय धर्मराजाय मृत्यवे चान्तकाय च ।
 वैवस्वताय कालाय सर्वभूतक्षयाय च ॥
@@ -760,7 +760,7 @@ Rutahum satyaM paraM brahma puruShaM kRuShNa-piMgaLam |
 UrdhvaretaM virUpAkShaM viSvarUpAya vai namo namaha ||
 viSvarUpAya vai nama: om nama iti |
 
-सूर्यनारायण--वन्दनम्‌ _ य नारायण्‌-वन्दटनम्‌ sUryanArAyaNa-vandanam
+सूर्यनारायण--वन्दनम्‌ _ य नारायण्‌-वन्दटनम्‌sUryanArAyaNa-vandanam
 
 (Face East for prAta sandhyAvandanam and mAdhyAhnikam and West for sAyam
 sandhyAvandanam)
@@ -856,7 +856,7 @@ HruShIkeSa हृषीकेश middle Left shoulder
 PadmanAbha पद्मनाभ all Belly button
 Damodara दामोदर all Head
 
-जपस्थान प्रोक्षणम्‌ _ प्रोक्षणम्‌ japasthAna prokShaNam
+जपस्थान प्रोक्षणम्‌ _ प्रोक्षणम्‌japasthAna prokShaNam
 
 (Face East for prAta sandhyAvandanam and mAdhyAhnikam and North for sAyam
 sandhyAvandanam)

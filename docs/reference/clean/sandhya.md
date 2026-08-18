@@ -4,8 +4,8 @@
 ## Page 1
 
 Kṛṣṇa & Śukla Yajur Veda
-Sandhyā          Sandhyā
-vandana       vandana
+Sandhyā      Sandhyā
+vandana    vandana
 [image]
 |, A Xs S “od स्तात ९
 | 24 42 ¢ 19 | कर
@@ -220,9 +220,9 @@ Luminous Truth, the source of all immortality, for the welfare of all beings.
 • Repeat the performance of the aspertion as before with apo hiṣṭā but preceded by;
 da̱dhi̱ krāviṇṇo̍ ākāriṣaṃ ji̱ṣṇor aśva̍sya vā̱jina̍ḥ |
 su̱ra̱bhi no̱ mukhā̍ kara̱t praṇa̱ āyūguṁṣi tāriṣat ||
-May    the    Lord,    the    Supporter,    the    Ruler    and    the    victorious    Measurer    of    the    Cosmos,    the
-Repository    of    all    knowledge    who    has    taken    the    form    of    Hayagriva    and    to    whom    I    offer    my
-obeisance;    free    us    from    all    hindrances    to    the    performance    of       righteous    deeds.    (RV.4.39.6
+May   the   Lord,   the   Supporter,   the   Ruler   and   the   victorious   Measurer   of   the   Cosmos,   the
+Repository   of   all   knowledge   who   has   taken   the   form   of   Hayagriva   and   to   whom   I   offer   my
+obeisance;   free   us   from   all   hindrances   to   the   performance   of     righteous   deeds.   (RV.4.39.6
 TS.1.5.11.4)
 
 9. Arghya Pradānam — Libation to the Sun.

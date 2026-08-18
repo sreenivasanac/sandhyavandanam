@@ -41,6 +41,7 @@ INDIC_FONTS = {
 SPLIT_SPREADS = {"Yajurveda_Kaalai_Sandhyaavandanam.pdf"}  # 2 booklet pages per sheet
 ACCENTS = {"¯": "̄", "´": "́", "˜": "̃", "˙": "̇", "¨": "̈"}
 DEVA = re.compile(r"[ऀ-ॿ]")
+INDIC = re.compile(r"[ऀ-ෟ]")
 
 
 def indic_lang(font):
@@ -68,21 +69,27 @@ def clean_ocr(text):
 
 
 def fold_accents(chars):
-    """chars: list of (c, bbox). Combine TeX-style separate accents into IAST."""
-    out, pending = [], ""
+    """chars: list of (c, bbox). Combine TeX-style separate accents into IAST.
+    Spaces are kept only where there is a real horizontal gap (TeX kerns around
+    accents show up as bogus ' ' chars in the text layer)."""
+    out, pending, prev_x1 = [], "", None
     for i, (c, bb) in enumerate(chars):
         if c in ACCENTS:
-            pending = ACCENTS[c]
+            pending += ACCENTS[c]
+            continue
+        if c == " ":
+            nxt = next((b for ch, b in chars[i + 1:] if ch != " " and ch not in ACCENTS), None)
+            if prev_x1 is not None and nxt is not None and nxt[0] - prev_x1 < 1.0 and bb[2] - bb[0] < 4.5:
+                continue                                # TeX kern, not a word space
+            out.append(c)
             continue
         # a lowered '.' right after a letter is an underdot (ṣ ṇ ṭ ḍ ḥ ṃ ṛ ḷ)
         if c == "." and out and out[-1][0].isalpha() and i and bb[1] > chars[i - 1][1][1] + 2:
             out.append("̣")
             continue
-        if c == " " and out and out[-1] == "̣" and i and bb[1] > chars[i - 1][1][1] - 1 \
-                and i + 1 < len(chars) and chars[i + 1][0].isalpha():
-            continue  # kern-space that TeX puts after \d{}
         out.append(c + pending)
         pending = ""
+        prev_x1 = bb[2]
     txt = "".join(out).replace("ﬁ", "fi").replace("ﬂ", "fl").replace("ı", "i")  # TeX \i
     return unicodedata.normalize("NFC", txt)
 
@@ -127,7 +134,8 @@ def page_atoms(page):
     atoms += _dandas(page, runs)
     atoms += _ocr_runs(page, runs)
     atoms += _ocr_images(page)
-    return [(bb, t) for bb, t in atoms if t.strip()]
+    # lone commas are table separators that sat inside OCR'd Devanagari cells
+    return [(bb, t) for bb, t in atoms if t.strip() and not re.fullmatch(r"[,\s]+", t)]
 
 
 def _flush(run, lang, bb, atoms, indic_runs, textchars):
@@ -160,7 +168,12 @@ def _attach_marks(marks, textchars):
         if best:
             run, i = best
             c, cb = run[i]
-            run[i] = (c + ("́" if kind == "udatta" else "̱"), cb)
+            if kind == "anudatta":
+                run[i] = (c + "̱", cb)
+            elif c.endswith("́"):                        # second tick on same letter = dīrgha svarita
+                run[i] = (c[:-1] + "̎", cb)
+            else:
+                run[i] = (c + "́", cb)
 
 
 def _dandas(page, runs):
@@ -254,7 +267,7 @@ def layout(atoms):
             out.append("")
         text, x1 = "", None
         for bb, t in sorted(ln["items"], key=lambda a: (a[0][0], a[0][2])):
-            glued = x1 is not None and bb[0] - x1 < 1.0 and text[-1:].isascii() and t[:1].isascii()
+            glued = x1 is not None and bb[0] - x1 < 1.0 and not INDIC.search(text[-1:] + t[:1])
             text += ("" if glued else " ") + t      # touching Latin atoms = one word split by pymupdf
             x1 = bb[2]
         out.append(re.sub(r"[ \t]+", " ", text).strip())

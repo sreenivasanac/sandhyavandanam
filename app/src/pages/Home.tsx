@@ -24,7 +24,7 @@ export function Home() {
         ))}
       </div>
       <footer className="font-sans text-sm mt-10 leading-relaxed" style={{ color: 'var(--fg-muted)' }}>
-        <p>Kṛṣṇa Yajur Veda (Āpastamba) sandhyā, Smārta and Śrī Vaiṣṇava variants, compiled from published procedure texts (Sri Rama / srimatham.com; Sunder Kidambi / prapatti.com; K. Chakravarthy; S. Narayanan et al.). Mantra text is under review — please follow your own guru/family tradition where it differs, and report corrections on <a className="underline" href={APP.repo} target="_blank" rel="noreferrer">GitHub</a>.</p>
+        <p>Kṛṣṇa Yajur Veda (Āpastamba) sandhyā, Smārta and Śrī Vaiṣṇava variants, compiled from published procedure texts (Sri Rama / srimatham.com; Sunder Kidambi / prapatti.com; K. Chakravarthy; S. Narayanan et al.). Mantra text is under review — please follow your own guru/family tradition where it differs, and report corrections on <a className="underline" href={APP.repo} target="_blank" rel="noreferrer">GitHub</a>. Chant clips for the non-Vedic (laukika) lines are AI-synthesised with <a className="underline" href="https://prathosh.in/vagdhenu/" target="_blank" rel="noreferrer">Vāgdhenu</a> (Prathosh A P, Apache-2.0) as a pronunciation aid; Vedic mantras with svaras have no audio yet.</p>
       </footer>
     </div>
   )

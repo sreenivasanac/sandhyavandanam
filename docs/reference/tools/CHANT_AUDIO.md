@@ -1,5 +1,7 @@
 # Chant / pronunciation audio — research (2026-08-17)
 
+**Status 2026-08-18: DONE for laukika items.** 134 unique clips rendered locally on the M4 Pro (MPS) with Vāgdhenu at production settings (nfe 64, seed 60), loudness-normalised → AAC 64 kbps in `app/public/audio/`, wired to 157 content items by `app/scripts/audio_shard.py wire`. Shard + results: `vagdhenu/shard-2026-08-18.json`, `vagdhenu/results-2026-08-18.json`. Runbook: `VAGDHENU_LOCAL.md`. Not yet audited by ear — please listen to a sample of clips.
+
 ## Report: prathosh.in projects & Sanskrit/Vedic chant audio options for the Sandhyavandanam PWA
 
 ### TL;DR

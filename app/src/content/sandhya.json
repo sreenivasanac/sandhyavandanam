@@ -33,7 +33,8 @@
             "malayalam": "ഓം അച്യുതായ നമഃ"
           },
           "action": "pour a little water into the right palm and swallow it",
-          "meaning": "Salutations to Acyuta, the unfallen, unchanging one."
+          "meaning": "Salutations to Acyuta, the unfallen, unchanging one.",
+          "audio": "/audio/ddf14c38a5.m4a"
         },
         {
           "kind": "mantra",
@@ -46,7 +47,8 @@
             "malayalam": "ഓം അനന്തായ നമഃ"
           },
           "action": "again pour water and swallow",
-          "meaning": "Salutations to Ananta, the infinite one."
+          "meaning": "Salutations to Ananta, the infinite one.",
+          "audio": "/audio/be1844c3a2.m4a"
         },
         {
           "kind": "mantra",
@@ -59,7 +61,8 @@
             "malayalam": "ഓം ഗോവിന്ദായ നമഃ"
           },
           "action": "again pour water and swallow; then wash the right hand and wipe the lips with the thumb",
-          "meaning": "Salutations to Govinda, protector of the cows and of the earth."
+          "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
+          "audio": "/audio/3aa63e480a.m4a"
         }
       ],
       "image": "/img/steps/acamanam.webp"
@@ -90,7 +93,8 @@
             "malayalam": "ഓം കേശവായ നമഃ"
           },
           "action": "right thumb → right cheek (seat of fire)",
-          "meaning": "Salutations to Keśava, of beautiful locks, slayer of the demon Keśī."
+          "meaning": "Salutations to Keśava, of beautiful locks, slayer of the demon Keśī.",
+          "audio": "/audio/4286e6440d.m4a"
         },
         {
           "kind": "mantra",
@@ -103,7 +107,8 @@
             "malayalam": "ഓം നാരായണായ നമഃ"
           },
           "action": "right thumb → left cheek",
-          "meaning": "Salutations to Nārāyaṇa, the abode and resting place of all beings."
+          "meaning": "Salutations to Nārāyaṇa, the abode and resting place of all beings.",
+          "audio": "/audio/204ce3d430.m4a"
         },
         {
           "kind": "mantra",
@@ -116,7 +121,8 @@
             "malayalam": "ഓം മാധവായ നമഃ"
           },
           "action": "ring finger → right eye (seat of the Sun)",
-          "meaning": "Salutations to Mādhava, consort of Lakṣmī (Mā)."
+          "meaning": "Salutations to Mādhava, consort of Lakṣmī (Mā).",
+          "audio": "/audio/6eb6c342c8.m4a"
         },
         {
           "kind": "mantra",
@@ -129,7 +135,8 @@
             "malayalam": "ഓം ഗോവിന്ദായ നമഃ"
           },
           "action": "ring finger → left eye",
-          "meaning": "Salutations to Govinda, protector of the cows and of the earth."
+          "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
+          "audio": "/audio/3aa63e480a.m4a"
         },
         {
           "kind": "mantra",
@@ -142,7 +149,8 @@
             "malayalam": "ഓം വിഷ്ണവേ നമഃ"
           },
           "action": "index finger → right side of the nose (seat of wind)",
-          "meaning": "Salutations to Viṣṇu, the all-pervading."
+          "meaning": "Salutations to Viṣṇu, the all-pervading.",
+          "audio": "/audio/17c00c4868.m4a"
         },
         {
           "kind": "mantra",
@@ -155,7 +163,8 @@
             "malayalam": "ഓം മധുസൂദനായ നമഃ"
           },
           "action": "index finger → left side of the nose",
-          "meaning": "Salutations to Madhusūdana, slayer of the demon Madhu."
+          "meaning": "Salutations to Madhusūdana, slayer of the demon Madhu.",
+          "audio": "/audio/8ac202ead1.m4a"
         },
         {
           "kind": "mantra",
@@ -168,7 +177,8 @@
             "malayalam": "ഓം ത്രിവിക്രമായ നമഃ"
           },
           "action": "little finger → right ear (seat of Indra)",
-          "meaning": "Salutations to Trivikrama, who measured the worlds in three strides."
+          "meaning": "Salutations to Trivikrama, who measured the worlds in three strides.",
+          "audio": "/audio/6e647be0c5.m4a"
         },
         {
           "kind": "mantra",
@@ -181,7 +191,8 @@
             "malayalam": "ഓം വാമനായ നമഃ"
           },
           "action": "little finger → left ear",
-          "meaning": "Salutations to Vāmana, the dwarf incarnation."
+          "meaning": "Salutations to Vāmana, the dwarf incarnation.",
+          "audio": "/audio/f353a9129a.m4a"
         },
         {
           "kind": "mantra",
@@ -194,7 +205,8 @@
             "malayalam": "ഓം ശ്രീധരായ നമഃ"
           },
           "action": "middle finger → right shoulder (seat of Prajāpati)",
-          "meaning": "Salutations to Śrīdhara, bearer of Śrī on His chest."
+          "meaning": "Salutations to Śrīdhara, bearer of Śrī on His chest.",
+          "audio": "/audio/db0b625666.m4a"
         },
         {
           "kind": "mantra",
@@ -207,7 +219,8 @@
             "malayalam": "ഓം ഹൃഷീകേശായ നമഃ"
           },
           "action": "middle finger → left shoulder",
-          "meaning": "Salutations to Hṛṣīkeśa, lord of the senses."
+          "meaning": "Salutations to Hṛṣīkeśa, lord of the senses.",
+          "audio": "/audio/ac3069f549.m4a"
         },
         {
           "kind": "mantra",
@@ -220,7 +233,8 @@
             "malayalam": "ഓം പദ്മനാഭായ നമഃ"
           },
           "action": "all fingers of the right hand → navel",
-          "meaning": "Salutations to Padmanābha, from whose navel the lotus (of creation) springs."
+          "meaning": "Salutations to Padmanābha, from whose navel the lotus (of creation) springs.",
+          "audio": "/audio/17f864c876.m4a"
         },
         {
           "kind": "mantra",
@@ -233,7 +247,8 @@
             "malayalam": "ഓം ദാമോദരായ നമഃ"
           },
           "action": "all fingers of the right hand → top of the head",
-          "meaning": "Salutations to Dāmodara, who was bound with a rope (dāma) around the waist by Yaśodā."
+          "meaning": "Salutations to Dāmodara, who was bound with a rope (dāma) around the waist by Yaśodā.",
+          "audio": "/audio/c6f76141e1.m4a"
         },
         {
           "kind": "note",
@@ -273,7 +288,8 @@
             "malayalam": "ശുക്ലാംബരധരം വിഷ്ണും ശശിവർണം ചതുർഭുജം ।\nപ്രസന്നവദനം ധ്യായേത് സർവവിഘ്നോപശാന്തയേ ॥"
           },
           "action": "tap the temples with the fists",
-          "meaning": "The all-pervading Lord Viṣṇu is to be meditated upon for the removal of all obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced."
+          "meaning": "The all-pervading Lord Viṣṇu is to be meditated upon for the removal of all obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced.",
+          "audio": "/audio/284018f4bf.m4a"
         },
         {
           "kind": "mantra",
@@ -290,7 +306,8 @@
             "malayalam": "ശുക്ലാംബരധരം വിഷ്ണും ശശിവർണം ചതുർഭുജം ।\nപ്രസന്നവദനം ധ്യായേത് സർവവിഘ്നോപശാന്തയേ ॥"
           },
           "action": "tap the temples with the fists (only if your family does this; Kidambi omits it)",
-          "meaning": "The all-pervading Lord Viṣṇu is to be meditated upon for the removal of all obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced."
+          "meaning": "The all-pervading Lord Viṣṇu is to be meditated upon for the removal of all obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced.",
+          "audio": "/audio/284018f4bf.m4a"
         }
       ]
     },
@@ -435,7 +452,8 @@
             "malayalam": "ഓം ശ്രീ കേശവായ നമഃ"
           },
           "action": "apply the tilakam to the forehead with the wet ring finger",
-          "meaning": "Om, salutations to Śrī Keśava."
+          "meaning": "Om, salutations to Śrī Keśava.",
+          "audio": "/audio/895a7feec5.m4a"
         }
       ]
     },
@@ -466,7 +484,8 @@
             "malayalam": "ആപോ ഹിഷ്ഠേതി മന്ത്രസ്യ സിന്ധുദ്വീപ ഋഷിഃ । ദേവീ ഗായത്രീ ഛന്ദഃ । ആപോ ദേവതാ । അപാം പ്രോക്ഷണേ വിനിയോഗഃ ॥"
           },
           "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the mantra *āpo hiṣṭhā*, Sindhudvīpa is the seer, devī gāyatrī the metre, the Waters the deity; it is applied in the sprinkling of water."
+          "meaning": "Of the mantra *āpo hiṣṭhā*, Sindhudvīpa is the seer, devī gāyatrī the metre, the Waters the deity; it is applied in the sprinkling of water.",
+          "audio": "/audio/16e916873f.m4a"
         },
         {
           "kind": "mantra",
@@ -568,7 +587,8 @@
             "malayalam": "സൂര്യശ്ചേത്യ് അനുവാകസ്യ അഗ്നിർ ഋഷിഃ । ദേവീ ഗായത്രീ ഛന്ദഃ । സൂര്യോ ദേവതാ । അപാം പ്രാശനേ വിനിയോഗഃ ॥"
           },
           "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the anuvāka beginning *sūryaśca*, Agni is the seer, devī gāyatrī the metre, Sūrya the deity; it is applied in the sipping of water."
+          "meaning": "Of the anuvāka beginning *sūryaśca*, Agni is the seer, devī gāyatrī the metre, Sūrya the deity; it is applied in the sipping of water.",
+          "audio": "/audio/cb49df60ca.m4a"
         },
         {
           "kind": "mantra",
@@ -600,7 +620,8 @@
             "malayalam": "ആപഃ പുനന്ത്വ് ഇത്യ് അനുവാകസ്യ ആപ ഋഷിഃ । അനുഷ്ടുപ് ഛന്ദഃ । ബ്രഹ്മണസ്പതിർ ദേവതാ । അപാം പ്രാശനേ വിനിയോഗഃ ॥"
           },
           "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the anuvāka beginning *āpaḥ punantu*, the Waters are the seer, anuṣṭup the metre, Brahmaṇaspati the deity; it is applied in the sipping of water."
+          "meaning": "Of the anuvāka beginning *āpaḥ punantu*, the Waters are the seer, anuṣṭup the metre, Brahmaṇaspati the deity; it is applied in the sipping of water.",
+          "audio": "/audio/8f4683470c.m4a"
         },
         {
           "kind": "mantra",
@@ -632,7 +653,8 @@
             "malayalam": "അഗ്നിശ്ചേത്യ് അനുവാകസ്യ സൂര്യ ഋഷിഃ । ദേവീ ഗായത്രീ ഛന്ദഃ । അഗ്നിർ ദേവതാ । അപാം പ്രാശനേ വിനിയോഗഃ ॥"
           },
           "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the anuvāka beginning *agniśca*, Sūrya is the seer, devī gāyatrī the metre, Agni the deity; it is applied in the sipping of water."
+          "meaning": "Of the anuvāka beginning *agniśca*, Sūrya is the seer, devī gāyatrī the metre, Agni the deity; it is applied in the sipping of water.",
+          "audio": "/audio/93f76f869a.m4a"
         },
         {
           "kind": "mantra",
@@ -683,7 +705,8 @@
             "malayalam": "ദധിക്രാവ്ണ്ണ ഇതി മന്ത്രസ്യ വാമദേവ ഋഷിഃ । അനുഷ്ടുപ് ഛന്ദഃ । ദധിക്രാവാ ദേവതാ । അപാം പ്രോക്ഷണേ വിനിയോഗഃ ॥"
           },
           "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the mantra *dadhikrāvṇṇo*, Vāmadeva is the seer, anuṣṭup the metre, Dadhikrāvan the deity; it is applied in the sprinkling of water."
+          "meaning": "Of the mantra *dadhikrāvṇṇo*, Vāmadeva is the seer, anuṣṭup the metre, Dadhikrāvan the deity; it is applied in the sprinkling of water.",
+          "audio": "/audio/6007ea7111.m4a"
         },
         {
           "kind": "mantra",
@@ -827,7 +850,8 @@
             "malayalam": "അർഘ്യപ്രദാന മന്ത്രസ്യ വിശ്വാമിത്ര ഋഷിഃ । ദേവീ ഗായത്രീ ഛന്ദഃ । സവിതാ ദേവതാ । അർഘ്യപ്രദാനേ വിനിയോഗഃ ॥"
           },
           "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the arghya mantra, Viśvāmitra is the seer, devī gāyatrī the metre, Savitṛ the deity; it is applied in the offering of arghya."
+          "meaning": "Of the arghya mantra, Viśvāmitra is the seer, devī gāyatrī the metre, Savitṛ the deity; it is applied in the offering of arghya.",
+          "audio": "/audio/35ca08621d.m4a"
         },
         {
           "kind": "mantra",
@@ -859,7 +883,8 @@
             "malayalam": "ഓം സൂര്യായ നമഃ । ഇദം അർഘ്യം ॥"
           },
           "action": "after each libation",
-          "meaning": "Om, salutations to the Sun — this is the libation."
+          "meaning": "Om, salutations to the Sun — this is the libation.",
+          "audio": "/audio/5ff62204e6.m4a"
         }
       ],
       "image": "/img/steps/arghya-pradanam.webp"
@@ -925,7 +950,8 @@
             "malayalam": "തുരീയ അർഘ്യപ്രദാന മന്ത്രസ്യ സാന്ദീപനീ ഋഷിഃ । ദേവീ ഗായത്രീ ഛന്ദഃ । സവിതാ ദേവതാ । തുരീയ അർഘ്യപ്രദാനേ വിനിയോഗഃ ॥"
           },
           "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the fourth-arghya mantra, Sāndīpanī is the seer, devī gāyatrī the metre, Savitṛ the deity; it is applied in offering the fourth arghya."
+          "meaning": "Of the fourth-arghya mantra, Sāndīpanī is the seer, devī gāyatrī the metre, Savitṛ the deity; it is applied in offering the fourth arghya.",
+          "audio": "/audio/d616c340ee.m4a"
         },
         {
           "kind": "mantra",
@@ -983,7 +1009,8 @@
             "malayalam": "അസാവാദിത്യോ ബ്രഹ്മ ।"
           },
           "action": "hands in añjali; contemplate the Lord in the centre of the Sun",
-          "meaning": "Yonder Sun is Brahman."
+          "meaning": "Yonder Sun is Brahman.",
+          "audio": "/audio/c5193807a9.m4a"
         },
         {
           "kind": "mantra",
@@ -999,7 +1026,8 @@
             "malayalam": "ബ്രഹ്മൈവാഹം അസ്മി ॥"
           },
           "action": "meditate for a while that you and Brahman are the same",
-          "meaning": "Brahman indeed am I."
+          "meaning": "Brahman indeed am I.",
+          "audio": "/audio/868c741423.m4a"
         }
       ]
     },
@@ -1029,7 +1057,8 @@
             "malayalam": "ഓം അച്യുതായ നമഃ"
           },
           "action": "pour a little water into the right palm and swallow it",
-          "meaning": "Salutations to Acyuta, the unfallen, unchanging one."
+          "meaning": "Salutations to Acyuta, the unfallen, unchanging one.",
+          "audio": "/audio/ddf14c38a5.m4a"
         },
         {
           "kind": "mantra",
@@ -1042,7 +1071,8 @@
             "malayalam": "ഓം അനന്തായ നമഃ"
           },
           "action": "again pour water and swallow",
-          "meaning": "Salutations to Ananta, the infinite one."
+          "meaning": "Salutations to Ananta, the infinite one.",
+          "audio": "/audio/be1844c3a2.m4a"
         },
         {
           "kind": "mantra",
@@ -1055,7 +1085,8 @@
             "malayalam": "ഓം ഗോവിന്ദായ നമഃ"
           },
           "action": "again pour water and swallow; wash the hand and wipe the lips",
-          "meaning": "Salutations to Govinda, protector of the cows and of the earth."
+          "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
+          "audio": "/audio/3aa63e480a.m4a"
         },
         {
           "kind": "mantra",
@@ -1068,7 +1099,8 @@
             "malayalam": "ഓം കേശവായ നമഃ । ഓം നാരായണായ നമഃ । ഓം മാധവായ നമഃ । ഓം ഗോവിന്ദായ നമഃ । ഓം വിഷ്ണവേ നമഃ । ഓം മധുസൂദനായ നമഃ । ഓം ത്രിവിക്രമായ നമഃ । ഓം വാമനായ നമഃ । ഓം ശ്രീധരായ നമഃ । ഓം ഹൃഷീകേശായ നമഃ । ഓം പദ്മനാഭായ നമഃ । ഓം ദാമോദരായ നമഃ ॥"
           },
           "action": "thumb → right, left cheek; ring finger → right, left eye; index → right, left side of nose; little finger → right, left ear; middle finger → right, left shoulder; all fingers → navel, top of head",
-          "meaning": "Salutations to Keśava, Nārāyaṇa, Mādhava, Govinda, Viṣṇu, Madhusūdana, Trivikrama, Vāmana, Śrīdhara, Hṛṣīkeśa, Padmanābha and Dāmodara."
+          "meaning": "Salutations to Keśava, Nārāyaṇa, Mādhava, Govinda, Viṣṇu, Madhusūdana, Trivikrama, Vāmana, Śrīdhara, Hṛṣīkeśa, Padmanābha and Dāmodara.",
+          "audio": "/audio/b4ddf0a701.m4a"
         }
       ]
     },
@@ -1102,7 +1134,8 @@
             "malayalam": "ആദിത്യം തർപയാമി ।"
           },
           "action": "offer water from the fingertips",
-          "meaning": "I satisfy Āditya, the Sun."
+          "meaning": "I satisfy Āditya, the Sun.",
+          "audio": "/audio/6b542269ce.m4a"
         },
         {
           "kind": "mantra",
@@ -1118,7 +1151,8 @@
             "malayalam": "സോമം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Soma, the Moon."
+          "meaning": "I satisfy Soma, the Moon.",
+          "audio": "/audio/d83fed5ff4.m4a"
         },
         {
           "kind": "mantra",
@@ -1134,7 +1168,8 @@
             "malayalam": "അംഗാരകം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Aṅgāraka, Mars."
+          "meaning": "I satisfy Aṅgāraka, Mars.",
+          "audio": "/audio/7390a3564b.m4a"
         },
         {
           "kind": "mantra",
@@ -1150,7 +1185,8 @@
             "malayalam": "ബുധം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Budha, Mercury."
+          "meaning": "I satisfy Budha, Mercury.",
+          "audio": "/audio/8e55e8502a.m4a"
         },
         {
           "kind": "mantra",
@@ -1166,7 +1202,8 @@
             "malayalam": "ബൃഹസ്പതിം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Bṛhaspati, Jupiter."
+          "meaning": "I satisfy Bṛhaspati, Jupiter.",
+          "audio": "/audio/de11c46f1e.m4a"
         },
         {
           "kind": "mantra",
@@ -1182,7 +1219,8 @@
             "malayalam": "ശുക്രം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Śukra, Venus."
+          "meaning": "I satisfy Śukra, Venus.",
+          "audio": "/audio/aa52d320fc.m4a"
         },
         {
           "kind": "mantra",
@@ -1198,7 +1236,8 @@
             "malayalam": "ശനൈശ്ചരം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Śanaiścara, Saturn."
+          "meaning": "I satisfy Śanaiścara, Saturn.",
+          "audio": "/audio/d25e34d363.m4a"
         },
         {
           "kind": "mantra",
@@ -1214,7 +1253,8 @@
             "malayalam": "രാഹും തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Rāhu."
+          "meaning": "I satisfy Rāhu.",
+          "audio": "/audio/6f420059e2.m4a"
         },
         {
           "kind": "mantra",
@@ -1230,7 +1270,8 @@
             "malayalam": "കേതും തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Ketu."
+          "meaning": "I satisfy Ketu.",
+          "audio": "/audio/52da2e0311.m4a"
         },
         {
           "kind": "mantra",
@@ -1243,7 +1284,8 @@
             "malayalam": "കേശവം തർപയാമി ।"
           },
           "action": "pour water into the joined palms, recite, let it flow through the fingers",
-          "meaning": "I satisfy Keśava."
+          "meaning": "I satisfy Keśava.",
+          "audio": "/audio/6fdc0a92d1.m4a"
         },
         {
           "kind": "mantra",
@@ -1256,7 +1298,8 @@
             "malayalam": "നാരായണം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Nārāyaṇa."
+          "meaning": "I satisfy Nārāyaṇa.",
+          "audio": "/audio/215d4a4070.m4a"
         },
         {
           "kind": "mantra",
@@ -1269,7 +1312,8 @@
             "malayalam": "മാധവം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Mādhava."
+          "meaning": "I satisfy Mādhava.",
+          "audio": "/audio/c049546338.m4a"
         },
         {
           "kind": "mantra",
@@ -1282,7 +1326,8 @@
             "malayalam": "ഗോവിന്ദം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Govinda."
+          "meaning": "I satisfy Govinda.",
+          "audio": "/audio/c59a8d9c09.m4a"
         },
         {
           "kind": "mantra",
@@ -1295,7 +1340,8 @@
             "malayalam": "വിഷ്ണും തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Viṣṇu."
+          "meaning": "I satisfy Viṣṇu.",
+          "audio": "/audio/76107b1082.m4a"
         },
         {
           "kind": "mantra",
@@ -1308,7 +1354,8 @@
             "malayalam": "മധുസൂദനം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Madhusūdana."
+          "meaning": "I satisfy Madhusūdana.",
+          "audio": "/audio/70262e7e79.m4a"
         },
         {
           "kind": "mantra",
@@ -1321,7 +1368,8 @@
             "malayalam": "ത്രിവിക്രമം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Trivikrama."
+          "meaning": "I satisfy Trivikrama.",
+          "audio": "/audio/3bd9329ef4.m4a"
         },
         {
           "kind": "mantra",
@@ -1334,7 +1382,8 @@
             "malayalam": "വാമനം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Vāmana."
+          "meaning": "I satisfy Vāmana.",
+          "audio": "/audio/156ee15fb2.m4a"
         },
         {
           "kind": "mantra",
@@ -1347,7 +1396,8 @@
             "malayalam": "ശ്രീധരം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Śrīdhara."
+          "meaning": "I satisfy Śrīdhara.",
+          "audio": "/audio/f20fbfc23e.m4a"
         },
         {
           "kind": "mantra",
@@ -1360,7 +1410,8 @@
             "malayalam": "ഹൃഷീകേശം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Hṛṣīkeśa."
+          "meaning": "I satisfy Hṛṣīkeśa.",
+          "audio": "/audio/5b3d056579.m4a"
         },
         {
           "kind": "mantra",
@@ -1373,7 +1424,8 @@
             "malayalam": "പദ്മനാഭം തർപയാമി ।"
           },
           "action": "offer water",
-          "meaning": "I satisfy Padmanābha."
+          "meaning": "I satisfy Padmanābha.",
+          "audio": "/audio/46c17dd583.m4a"
         },
         {
           "kind": "mantra",
@@ -1386,7 +1438,8 @@
             "malayalam": "ദാമോദരം തർപയാമി ॥"
           },
           "action": "offer water",
-          "meaning": "I satisfy Dāmodara. (The twelve names are the forms of Viṣṇu presiding over the twelve months.)"
+          "meaning": "I satisfy Dāmodara. (The twelve names are the forms of Viṣṇu presiding over the twelve months.)",
+          "audio": "/audio/872b12dcea.m4a"
         },
         {
           "kind": "note",
@@ -1406,7 +1459,8 @@
             "malayalam": "ഓം തത് സത് ബ്രഹ്മാർപണം അസ്തു ॥"
           },
           "action": "one more offering of water from the palm",
-          "meaning": "Om, That is the Truth — may this be an offering to Brahman."
+          "meaning": "Om, That is the Truth — may this be an offering to Brahman.",
+          "audio": "/audio/16f59cef98.m4a"
         }
       ]
     },
@@ -1457,7 +1511,8 @@
             "malayalam": "അപസർപന്തു തേ ഭൂതാ യേ ഭൂതാ ഭൂമിസംസ്ഥിതാഃ ।\nയേ ഭൂതാ വിഘ്നകർതാരസ് തേ ഗച്ഛന്തു ശിവാജ്ഞയാ ॥"
           },
           "action": "bhūmi prārthanā: meditate while reciting",
-          "meaning": "May the beings that dwell on this ground move away; may those beings that cause obstacles depart by the command of Śiva."
+          "meaning": "May the beings that dwell on this ground move away; may those beings that cause obstacles depart by the command of Śiva.",
+          "audio": "/audio/6869005944.m4a"
         },
         {
           "kind": "mantra",
@@ -1470,7 +1525,8 @@
             "malayalam": "ആസന മന്ത്രസ്യ പൃഥിവ്യാ മേരുപൃഷ്ഠ ഋഷിഃ । സുതലം ഛന്ദഃ । ശ്രീ കൂർമോ ദേവതാ । ആസനേ വിനിയോഗഃ ॥"
           },
           "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the seat mantra, Merupṛṣṭha (the back of Mount Meru, addressed to Pṛthivī) is the seer, sutala the metre, Śrī Kūrma (the Tortoise) the deity; it is applied for the seat."
+          "meaning": "Of the seat mantra, Merupṛṣṭha (the back of Mount Meru, addressed to Pṛthivī) is the seer, sutala the metre, Śrī Kūrma (the Tortoise) the deity; it is applied for the seat.",
+          "audio": "/audio/ae3b72f428.m4a"
         },
         {
           "kind": "mantra",
@@ -1483,7 +1539,8 @@
             "malayalam": "പൃഥ്വി ത്വയാ ധൃതാ ലോകാ ദേവി ത്വം വിഷ്ണുനാ ധൃതാ ।\nത്വം ച ധാരയ മാം ദേവി പവിത്രം കുരു ചാസനം ॥"
           },
           "action": "hands in añjali",
-          "meaning": "O Mother Earth, by you the worlds are supported, and you, O Goddess, are supported by Viṣṇu. Support me too, O Goddess, and purify this seat."
+          "meaning": "O Mother Earth, by you the worlds are supported, and you, O Goddess, are supported by Viṣṇu. Support me too, O Goddess, and purify this seat.",
+          "audio": "/audio/7d37c343e3.m4a"
         }
       ]
     },
@@ -1514,7 +1571,8 @@
             "malayalam": "ഓം അച്യുതായ നമഃ"
           },
           "action": "pour a little water into the right palm and swallow it",
-          "meaning": "Salutations to Acyuta, the unfallen, unchanging one."
+          "meaning": "Salutations to Acyuta, the unfallen, unchanging one.",
+          "audio": "/audio/ddf14c38a5.m4a"
         },
         {
           "kind": "mantra",
@@ -1527,7 +1585,8 @@
             "malayalam": "ഓം അനന്തായ നമഃ"
           },
           "action": "again pour water and swallow",
-          "meaning": "Salutations to Ananta, the infinite one."
+          "meaning": "Salutations to Ananta, the infinite one.",
+          "audio": "/audio/be1844c3a2.m4a"
         },
         {
           "kind": "mantra",
@@ -1540,7 +1599,8 @@
             "malayalam": "ഓം ഗോവിന്ദായ നമഃ"
           },
           "action": "again pour water and swallow; wash the hand and wipe the lips",
-          "meaning": "Salutations to Govinda, protector of the cows and of the earth."
+          "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
+          "audio": "/audio/3aa63e480a.m4a"
         },
         {
           "kind": "note",
@@ -1560,7 +1620,8 @@
             "malayalam": "ശുക്ലാംബരധരം വിഷ്ണും ശശിവർണം ചതുർഭുജം ।\nപ്രസന്നവദനം ധ്യായേത് സർവവിഘ്നോപശാന്തയേ ॥"
           },
           "action": "gently tap the temples with the fists, five times, once after each phrase",
-          "meaning": "The all-pervading Lord is to be meditated upon for the removal of obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced."
+          "meaning": "The all-pervading Lord is to be meditated upon for the removal of obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced.",
+          "audio": "/audio/284018f4bf.m4a"
         }
       ]
     },
@@ -1659,7 +1720,8 @@
             "malayalam": "പ്രണവസ്യ ഋഷിർ ബ്രഹ്മാ ।"
           },
           "action": "touch the top of the head",
-          "meaning": "Of the Praṇava (Om) the seer is Brahmā."
+          "meaning": "Of the Praṇava (Om) the seer is Brahmā.",
+          "audio": "/audio/807bb11605.m4a"
         },
         {
           "kind": "mantra",
@@ -1672,7 +1734,8 @@
             "malayalam": "ദേവീ ഗായത്രീ ഛന്ദഃ ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "The metre is Devī Gāyatrī."
+          "meaning": "The metre is Devī Gāyatrī.",
+          "audio": "/audio/1f73467cc5.m4a"
         },
         {
           "kind": "mantra",
@@ -1685,7 +1748,8 @@
             "malayalam": "പരമാത്മാ ദേവതാ ।"
           },
           "action": "touch the chest",
-          "meaning": "The deity is the Supreme Self."
+          "meaning": "The deity is the Supreme Self.",
+          "audio": "/audio/0c7398fd44.m4a"
         },
         {
           "kind": "mantra",
@@ -1698,7 +1762,8 @@
             "malayalam": "ഭൂരാദി സപ്ത വ്യാഹൃതീനാം അത്രി ഭൃഗു കുത്സ വസിഷ്ഠ ഗൗതമ കാശ്യപ ആംഗിരസ ഋഷയഃ ।"
           },
           "action": "touch the top of the head",
-          "meaning": "Of the seven vyāhṛtis beginning with bhūḥ the seers are Atri, Bhṛgu, Kutsa, Vasiṣṭha, Gautama, Kāśyapa and Āṅgirasa."
+          "meaning": "Of the seven vyāhṛtis beginning with bhūḥ the seers are Atri, Bhṛgu, Kutsa, Vasiṣṭha, Gautama, Kāśyapa and Āṅgirasa.",
+          "audio": "/audio/e66c8ef22f.m4a"
         },
         {
           "kind": "mantra",
@@ -1711,7 +1776,8 @@
             "malayalam": "ഗായത്രീ ഉഷ്ണിക് അനുഷ്ടുപ് ബൃഹതീ പങ്ക്തി ത്രിഷ്ടുപ് ജഗത്യഃ ഛന്ദാഗുംസി ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "Their metres are gāyatrī, uṣṇik, anuṣṭup, bṛhatī, paṅkti, triṣṭup and jagatī."
+          "meaning": "Their metres are gāyatrī, uṣṇik, anuṣṭup, bṛhatī, paṅkti, triṣṭup and jagatī.",
+          "audio": "/audio/151d37a7fa.m4a"
         },
         {
           "kind": "mantra",
@@ -1724,7 +1790,8 @@
             "malayalam": "അഗ്നി വായു അർക വാഗീശ വരുണ ഇന്ദ്ര വിശ്വേ ദേവാ ദേവതാഃ ।"
           },
           "action": "touch the chest",
-          "meaning": "Their deities are Agni, Vāyu, Arka (the Sun), Vāgīśa (Bṛhaspati), Varuṇa, Indra and the Viśvedevas."
+          "meaning": "Their deities are Agni, Vāyu, Arka (the Sun), Vāgīśa (Bṛhaspati), Varuṇa, Indra and the Viśvedevas.",
+          "audio": "/audio/8206efa8c9.m4a"
         },
         {
           "kind": "mantra",
@@ -1737,7 +1804,8 @@
             "malayalam": "സാവിത്ര്യാ ഋഷിർ വിശ്വാമിത്രഃ ।"
           },
           "action": "touch the top of the head",
-          "meaning": "Of the Sāvitrī (Gāyatrī mantra) the seer is Viśvāmitra."
+          "meaning": "Of the Sāvitrī (Gāyatrī mantra) the seer is Viśvāmitra.",
+          "audio": "/audio/f46fad909c.m4a"
         },
         {
           "kind": "mantra",
@@ -1750,7 +1818,8 @@
             "malayalam": "ദേവീ ഗായത്രീ ഛന്ദഃ ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "The metre is Devī Gāyatrī."
+          "meaning": "The metre is Devī Gāyatrī.",
+          "audio": "/audio/1f73467cc5.m4a"
         },
         {
           "kind": "mantra",
@@ -1763,7 +1832,8 @@
             "malayalam": "സവിതാ ദേവതാ ।"
           },
           "action": "touch the chest",
-          "meaning": "The deity is Savitā."
+          "meaning": "The deity is Savitā.",
+          "audio": "/audio/822bf8c403.m4a"
         },
         {
           "kind": "mantra",
@@ -1776,7 +1846,8 @@
             "malayalam": "ഗായത്രീ-ശിരസോ ബ്രഹ്മാ ഋഷിഃ ।"
           },
           "action": "touch the top of the head",
-          "meaning": "Of the Gāyatrī-śiras (*Omāpo jyotī…*) the seer is Brahmā."
+          "meaning": "Of the Gāyatrī-śiras (*Omāpo jyotī…*) the seer is Brahmā.",
+          "audio": "/audio/40231a040d.m4a"
         },
         {
           "kind": "mantra",
@@ -1789,7 +1860,8 @@
             "malayalam": "അനുഷ്ടുപ് ഛന്ദഃ ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "The metre is anuṣṭup."
+          "meaning": "The metre is anuṣṭup.",
+          "audio": "/audio/918805a1fc.m4a"
         },
         {
           "kind": "mantra",
@@ -1802,7 +1874,8 @@
             "malayalam": "പരമാത്മാ ദേവതാ ।"
           },
           "action": "touch the chest",
-          "meaning": "The deity is the Supreme Self."
+          "meaning": "The deity is the Supreme Self.",
+          "audio": "/audio/0c7398fd44.m4a"
         },
         {
           "kind": "mantra",
@@ -1815,7 +1888,8 @@
             "malayalam": "സർവേഷാം പ്രാണായാമേ വിനിയോഗഃ ॥"
           },
           "action": "hands in añjali",
-          "meaning": "All of these are employed in prāṇāyāma."
+          "meaning": "All of these are employed in prāṇāyāma.",
+          "audio": "/audio/4cdaf689a0.m4a"
         },
         {
           "kind": "mantra",
@@ -1828,7 +1902,8 @@
             "malayalam": "മുക്താവിദ്രുമ ഹേമനീല ധവലച്ഛായൈർ മുഖൈസ് ത്രീക്ഷണൈഃ\nയുക്താം ഇന്ദുകലാ നിബദ്ധ മകുടാം തത്ത്വാർഥ വർണാത്മികാം ।\nഗായത്രീം വരദാഭയാം കുശകശം ശുഭ്രം കപാലം ഗുണം\nശംഖം ചക്രം അഥാരവിന്ദ യുഗലം ഹസ്തൈർ വഹന്തീം ഭജേ ॥"
           },
           "action": "hands in añjali; meditate on the form of Gāyatrī",
-          "meaning": "I worship Gāyatrī — whose five faces have the hues of pearl, coral, gold, sapphire and white, each with three eyes; whose crown is bound with the crescent moon; who is the very letters that embody the supreme truth; who bears in her hands the boon-gesture and the fear-dispelling gesture, kuśa grass and whip, a white skull, the noose, conch, discus and a pair of lotuses."
+          "meaning": "I worship Gāyatrī — whose five faces have the hues of pearl, coral, gold, sapphire and white, each with three eyes; whose crown is bound with the crescent moon; who is the very letters that embody the supreme truth; who bears in her hands the boon-gesture and the fear-dispelling gesture, kuśa grass and whip, a white skull, the noose, conch, discus and a pair of lotuses.",
+          "audio": "/audio/e23507b939.m4a"
         },
         {
           "kind": "mantra",
@@ -1854,7 +1929,8 @@
             "malayalam": "അർകമണ്ഡല മധ്യസ്ഥം സൂര്യകോടി സമപ്രഭം ।\nബ്രഹ്മാദി സേവ്യ പാദാബ്ജം നൗമി ബ്രഹ്മ രമാസഖം ॥"
           },
           "action": "hands in añjali",
-          "meaning": "I bow to Brahman, the companion of Ramā (Lakṣmī), who stands in the middle of the solar orb, radiant as ten million suns, whose lotus feet are served by Brahmā and the other gods."
+          "meaning": "I bow to Brahman, the companion of Ramā (Lakṣmī), who stands in the middle of the solar orb, radiant as ten million suns, whose lotus feet are served by Brahmā and the other gods.",
+          "audio": "/audio/1fb577460d.m4a"
         },
         {
           "kind": "mantra",
@@ -1903,7 +1979,8 @@
             "malayalam": "ആയാതു ഇതി അനുവാകസ്യ വാമദേവ ഋഷിഃ ।"
           },
           "action": "touch the top of the head",
-          "meaning": "Of the anuvāka beginning *āyātu* the seer is Vāmadeva."
+          "meaning": "Of the anuvāka beginning *āyātu* the seer is Vāmadeva.",
+          "audio": "/audio/0ebafd88e5.m4a"
         },
         {
           "kind": "mantra",
@@ -1916,7 +1993,8 @@
             "malayalam": "അനുഷ്ടുപ് ഛന്ദഃ ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "The metre is anuṣṭup."
+          "meaning": "The metre is anuṣṭup.",
+          "audio": "/audio/918805a1fc.m4a"
         },
         {
           "kind": "mantra",
@@ -1929,7 +2007,8 @@
             "malayalam": "ഗായത്രീ ദേവതാ ।"
           },
           "action": "touch the chest",
-          "meaning": "The deity is Gāyatrī."
+          "meaning": "The deity is Gāyatrī.",
+          "audio": "/audio/1329cbc871.m4a"
         },
         {
           "kind": "mantra",
@@ -1942,7 +2021,8 @@
             "malayalam": "ഗായത്രീ ആവാഹനേ വിനിയോഗഃ ॥"
           },
           "action": "hands in añjali",
-          "meaning": "It is employed in the invocation of Gāyatrī."
+          "meaning": "It is employed in the invocation of Gāyatrī.",
+          "audio": "/audio/49ade4bfc9.m4a"
         },
         {
           "kind": "mantra",
@@ -2039,7 +2119,8 @@
             "malayalam": "പ്രാതർ ധ്യായാമി ഗായത്രീം രവിമണ്ഡല മധ്യഗാം ।\nഋഗ്വേദം ഉച്ചാരയന്തീം രക്തവർണാം കുമാരികാം ।\nഅക്ഷമാലാകരാം ബ്രഹ്മദൈവത്യാം ഹംസവാഹനാം ॥"
           },
           "action": "hands in añjali",
-          "meaning": "In the morning I meditate on Gāyatrī in the middle of the solar orb — a young maiden, red in colour, reciting the Ṛg Veda, holding a rosary, whose deity is Brahmā, riding a swan."
+          "meaning": "In the morning I meditate on Gāyatrī in the middle of the solar orb — a young maiden, red in colour, reciting the Ṛg Veda, holding a rosary, whose deity is Brahmā, riding a swan.",
+          "audio": "/audio/a267c3fbde.m4a"
         },
         {
           "kind": "mantra",
@@ -2055,7 +2136,8 @@
             "malayalam": "മധ്യന്ദിനേ തു സാവിത്രീം രവിമണ്ഡല മധ്യഗാം ।\nയജുർവേദം വ്യാഹരന്തീം ശ്വേതാം ശൂലകരാം ശിവാം ।\nയുവതീം രുദ്രദൈവത്യാം ധ്യായാമി വൃഷവാഹനാം ॥"
           },
           "action": "hands in añjali",
-          "meaning": "At midday I meditate on Sāvitrī in the middle of the solar orb — a young woman, white, auspicious, reciting the Yajur Veda, holding a trident, whose deity is Rudra, riding a bull."
+          "meaning": "At midday I meditate on Sāvitrī in the middle of the solar orb — a young woman, white, auspicious, reciting the Yajur Veda, holding a trident, whose deity is Rudra, riding a bull.",
+          "audio": "/audio/03d8d8f756.m4a"
         },
         {
           "kind": "mantra",
@@ -2071,7 +2153,8 @@
             "malayalam": "സായം സരസ്വതീം ശ്യാമാം രവിമണ്ഡല മധ്യഗാം ।\nസാമവേദം വ്യാഹരന്തീം ചക്രായുധധരാം ശുഭാം ।\nധ്യായാമി വിഷ്ണുദൈവത്യാം വൃദ്ധാം ഗരുഡവാഹനാം ॥"
           },
           "action": "hands in añjali",
-          "meaning": "In the evening I meditate on Sarasvatī in the middle of the solar orb — dark-hued, aged, auspicious, reciting the Sāma Veda, holding the discus, whose deity is Viṣṇu, riding Garuḍa."
+          "meaning": "In the evening I meditate on Sarasvatī in the middle of the solar orb — dark-hued, aged, auspicious, reciting the Sāma Veda, holding the discus, whose deity is Viṣṇu, riding Garuḍa.",
+          "audio": "/audio/1baab8bba2.m4a"
         },
         {
           "kind": "mantra",
@@ -2084,7 +2167,8 @@
             "malayalam": "യോ ദേവസ്സവിതാഽസ്മാകം ധിയോ ധർമാദി ഗോചരാഃ ।\nപ്രേരയേത് തസ്യ യദ് ഭർഗസ് തദ് വരേണ്യം ഉപാസ്മഹേ ॥"
           },
           "action": "hands in añjali",
-          "meaning": "We contemplate that adorable light of the divine Savitā, who impels our thoughts towards dharma and the other aims of life."
+          "meaning": "We contemplate that adorable light of the divine Savitā, who impels our thoughts towards dharma and the other aims of life.",
+          "audio": "/audio/41ce71a61e.m4a"
         },
         {
           "kind": "mantra",
@@ -2098,7 +2182,8 @@
             "malayalam": "ആദിത്യമണ്ഡലേ ധ്യായേത് പരമാത്മാനം അവ്യയം ।\nവിഷ്ണും ചതുർഭുജം രത്നകുണ്ഡലൈർ മണ്ഡിതാംഗനം ॥\nസർവരത്ന സമായുക്ത സർവാഭരണ ഭൂഷിതാം ।\nഏവം ധ്യാത്വാ ജപേൻ നിത്യം മന്ത്രം അഷ്ടോത്തരം ശതം ॥"
           },
           "action": "hands in añjali",
-          "meaning": "One should meditate in the solar orb upon the imperishable Supreme Self, Viṣṇu — four-armed, his body adorned with jewelled earrings, decked with every gem and ornament; having meditated thus one should daily recite the mantra 108 times."
+          "meaning": "One should meditate in the solar orb upon the imperishable Supreme Self, Viṣṇu — four-armed, his body adorned with jewelled earrings, decked with every gem and ornament; having meditated thus one should daily recite the mantra 108 times.",
+          "audio": "/audio/b74f10ce33.m4a"
         }
       ]
     },
@@ -2135,7 +2220,8 @@
             "malayalam": "സാവിത്ര്യാ ഋഷിർ വിശ്വാമിത്രഃ ।"
           },
           "action": "touch the top of the head",
-          "meaning": "Of the Sāvitrī (Gāyatrī mantra) the seer is Viśvāmitra."
+          "meaning": "Of the Sāvitrī (Gāyatrī mantra) the seer is Viśvāmitra.",
+          "audio": "/audio/f46fad909c.m4a"
         },
         {
           "kind": "mantra",
@@ -2148,7 +2234,8 @@
             "malayalam": "ദേവീ ഗായത്രീ ഛന്ദഃ ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "The metre is Devī Gāyatrī."
+          "meaning": "The metre is Devī Gāyatrī.",
+          "audio": "/audio/1f73467cc5.m4a"
         },
         {
           "kind": "mantra",
@@ -2161,7 +2248,8 @@
             "malayalam": "സവിതാ ദേവതാ ।"
           },
           "action": "touch the chest",
-          "meaning": "The deity is Savitā."
+          "meaning": "The deity is Savitā.",
+          "audio": "/audio/822bf8c403.m4a"
         },
         {
           "kind": "mantra",
@@ -2192,7 +2280,8 @@
             "telugu": "ఓం భూః అంగుష్ఠాభ్యాం నమః ।",
             "malayalam": "ഓം ഭൂഃ അംഗുഷ്ഠാഭ്യാം നമഃ ।"
           },
-          "action": "stroke the thumbs with the index fingers of the same hands"
+          "action": "stroke the thumbs with the index fingers of the same hands",
+          "audio": "/audio/d20bce1d2d.m4a"
         },
         {
           "kind": "mantra",
@@ -2205,7 +2294,8 @@
             "telugu": "ఓం భువః తర్జనీభ్యాం నమః ।",
             "malayalam": "ഓം ഭുവഃ തർജനീഭ്യാം നമഃ ।"
           },
-          "action": "stroke the index fingers from palm to tip with the thumbs"
+          "action": "stroke the index fingers from palm to tip with the thumbs",
+          "audio": "/audio/0db8e5b16b.m4a"
         },
         {
           "kind": "mantra",
@@ -2218,7 +2308,8 @@
             "telugu": "ఓం సువః మధ్యమాభ్యాం నమః ।",
             "malayalam": "ഓം സുവഃ മധ്യമാഭ്യാം നമഃ ।"
           },
-          "action": "stroke the middle fingers from palm to tip with the thumbs"
+          "action": "stroke the middle fingers from palm to tip with the thumbs",
+          "audio": "/audio/44a95c95e6.m4a"
         },
         {
           "kind": "mantra",
@@ -2231,7 +2322,8 @@
             "telugu": "ఓం భూః అనామికాభ్యాం నమః ।",
             "malayalam": "ഓം ഭൂഃ അനാമികാഭ്യാം നമഃ ।"
           },
-          "action": "stroke the ring fingers from palm to tip with the thumbs"
+          "action": "stroke the ring fingers from palm to tip with the thumbs",
+          "audio": "/audio/242ad9c96e.m4a"
         },
         {
           "kind": "mantra",
@@ -2244,7 +2336,8 @@
             "telugu": "ఓం భువః కనిష్ఠికాభ్యాం నమః ।",
             "malayalam": "ഓം ഭുവഃ കനിഷ്ഠികാഭ്യാം നമഃ ।"
           },
-          "action": "stroke the little fingers from palm to tip with the thumbs"
+          "action": "stroke the little fingers from palm to tip with the thumbs",
+          "audio": "/audio/4f2c0b9859.m4a"
         },
         {
           "kind": "mantra",
@@ -2257,7 +2350,8 @@
             "telugu": "ఓం సువః కరతల కరపృష్ఠాభ్యాం నమః ।",
             "malayalam": "ഓം സുവഃ കരതല കരപൃഷ്ഠാഭ്യാം നമഃ ।"
           },
-          "action": "touch each palm, then the back of each hand"
+          "action": "touch each palm, then the back of each hand",
+          "audio": "/audio/505d776e1f.m4a"
         },
         {
           "kind": "mantra",
@@ -2270,7 +2364,8 @@
             "telugu": "ఓం భూః హృదయాయ నమః ।",
             "malayalam": "ഓം ഭൂഃ ഹൃദയായ നമഃ ।"
           },
-          "action": "touch the heart with the right fist"
+          "action": "touch the heart with the right fist",
+          "audio": "/audio/9bb382ceaa.m4a"
         },
         {
           "kind": "mantra",
@@ -2283,7 +2378,8 @@
             "telugu": "ఓం భువః శిరసి స్వాహా ।",
             "malayalam": "ഓം ഭുവഃ ശിരസി സ്വാഹാ ।"
           },
-          "action": "touch the head with the right index finger and thumb joined"
+          "action": "touch the head with the right index finger and thumb joined",
+          "audio": "/audio/e67d436f54.m4a"
         },
         {
           "kind": "mantra",
@@ -2296,7 +2392,8 @@
             "telugu": "ఓం సువః శిఖాయై వషట్ ।",
             "malayalam": "ഓം സുവഃ ശിഖായൈ വഷട് ।"
           },
-          "action": "touch the crown of the head with the right hand"
+          "action": "touch the crown of the head with the right hand",
+          "audio": "/audio/190f724f13.m4a"
         },
         {
           "kind": "mantra",
@@ -2309,7 +2406,8 @@
             "telugu": "ఓం భూః కవచాయ హుం ।",
             "malayalam": "ഓം ഭൂഃ കവചായ ഹും ।"
           },
-          "action": "cross the arms over the chest and touch the shoulders"
+          "action": "cross the arms over the chest and touch the shoulders",
+          "audio": "/audio/70361f2d92.m4a"
         },
         {
           "kind": "mantra",
@@ -2322,7 +2420,8 @@
             "telugu": "ఓం భువః నేత్రాభ్యాం వౌషట్ ।",
             "malayalam": "ഓം ഭുവഃ നേത്രാഭ്യാം വൗഷട് ।"
           },
-          "action": "touch the eyes with the right index and middle fingers"
+          "action": "touch the eyes with the right index and middle fingers",
+          "audio": "/audio/d54c115ba3.m4a"
         },
         {
           "kind": "mantra",
@@ -2335,7 +2434,8 @@
             "telugu": "ఓం సువః అస్త్రాయ ఫట్ ।",
             "malayalam": "ഓം സുവഃ അസ്ത്രായ ഫട് ।"
           },
-          "action": "clap the hands three times"
+          "action": "clap the hands three times",
+          "audio": "/audio/a3b5b9bdf5.m4a"
         },
         {
           "kind": "mantra",
@@ -2348,7 +2448,8 @@
             "telugu": "ఓం భూర్ భువస్సువరోం ఇతి దిగ్బంధః ॥",
             "malayalam": "ഓം ഭൂർ ഭുവസ്സുവരോം ഇതി ദിഗ്ബന്ധഃ ॥"
           },
-          "action": "snap the fingers in the eight directions around the head"
+          "action": "snap the fingers in the eight directions around the head",
+          "audio": "/audio/f7e2f25827.m4a"
         },
         {
           "kind": "mantra",
@@ -2411,7 +2512,8 @@
             "malayalam": "ശ്രീമദ് അഷ്ടാക്ഷര മഹാമന്ത്രസ്യ ബദരികാശ്രമവാസീ ശ്രീമന്നാരായണ ഋഷിഃ ।"
           },
           "action": "touch the top of the head",
-          "meaning": "Of the great eight-syllable mantra the seer is Śrīman Nārāyaṇa, dweller in Badarikāśrama."
+          "meaning": "Of the great eight-syllable mantra the seer is Śrīman Nārāyaṇa, dweller in Badarikāśrama.",
+          "audio": "/audio/67910039c6.m4a"
         },
         {
           "kind": "mantra",
@@ -2424,7 +2526,8 @@
             "malayalam": "ദേവീ ഗായത്രീ ഛന്ദഃ ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "The metre is Devī Gāyatrī."
+          "meaning": "The metre is Devī Gāyatrī.",
+          "audio": "/audio/1f73467cc5.m4a"
         },
         {
           "kind": "mantra",
@@ -2437,7 +2540,8 @@
             "malayalam": "പരമാത്മാ ശ്രീമന്നാരായണോ ദേവതാ ।"
           },
           "action": "touch the chest",
-          "meaning": "The deity is the Supreme Self, Śrīman Nārāyaṇa."
+          "meaning": "The deity is the Supreme Self, Śrīman Nārāyaṇa.",
+          "audio": "/audio/27387014ca.m4a"
         },
         {
           "kind": "mantra",
@@ -2450,7 +2554,8 @@
             "malayalam": "ശ്രീമന്നാരായണ പ്രീത്യർഥേ ജപേ വിനിയോഗഃ ॥"
           },
           "action": "hands in añjali",
-          "meaning": "It is employed in japa for the pleasure of Śrīman Nārāyaṇa."
+          "meaning": "It is employed in japa for the pleasure of Śrīman Nārāyaṇa.",
+          "audio": "/audio/efca8e36c2.m4a"
         },
         {
           "kind": "mantra",
@@ -2463,7 +2568,8 @@
             "malayalam": "സവ്യം പാദം പ്രസാര്യ ശ്രിതദുരിതഹരം ദക്ഷിണം കുഞ്ചയിത്വാ\nജാനുന്യാധായ സവ്യേതരം ഇതരഭുജം നാഗഭോഗേ നിധായ ।\nപശ്ചാദ് ബാഹുദ്വയേന പ്രതിഭടശമനേ ധാരയൻ ശംഖചക്രേ\nദേവീഭൂഷാദിജുഷ്ടോ ജനയതു ജഗതാം ശർമ വൈകുണ്ഠനാഥഃ ॥"
           },
           "action": "hands in añjali; meditate on the Lord",
-          "meaning": "May the Lord of Vaikuṇṭha, who removes the sins of those who take refuge in him, bring happiness to the worlds — his left foot stretched forward and the right drawn up, his right hand resting on the knee and the other arm laid on the coils of the serpent, holding in his two rear hands the conch and the discus that quell his foes, attended by the Goddess and adorned with his ornaments."
+          "meaning": "May the Lord of Vaikuṇṭha, who removes the sins of those who take refuge in him, bring happiness to the worlds — his left foot stretched forward and the right drawn up, his right hand resting on the knee and the other arm laid on the coils of the serpent, holding in his two rear hands the conch and the discus that quell his foes, attended by the Goddess and adorned with his ornaments.",
+          "audio": "/audio/cf1e64a00f.m4a"
         },
         {
           "kind": "note",
@@ -2548,7 +2654,8 @@
             "malayalam": "ഉത്തമ ഇത്യ് അനുവാകസ്യ വാമദേവ ഋഷിഃ ।"
           },
           "action": "stand up; touch the top of the head",
-          "meaning": "Of the anuvāka beginning *uttame* the seer is Vāmadeva."
+          "meaning": "Of the anuvāka beginning *uttame* the seer is Vāmadeva.",
+          "audio": "/audio/c54a9c16bd.m4a"
         },
         {
           "kind": "mantra",
@@ -2561,7 +2668,8 @@
             "malayalam": "അനുഷ്ടുപ് ഛന്ദഃ ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "The metre is anuṣṭup."
+          "meaning": "The metre is anuṣṭup.",
+          "audio": "/audio/918805a1fc.m4a"
         },
         {
           "kind": "mantra",
@@ -2574,7 +2682,8 @@
             "malayalam": "ഗായത്രീ ദേവതാ ।"
           },
           "action": "touch the chest",
-          "meaning": "The deity is Gāyatrī."
+          "meaning": "The deity is Gāyatrī.",
+          "audio": "/audio/1329cbc871.m4a"
         },
         {
           "kind": "mantra",
@@ -2587,7 +2696,8 @@
             "malayalam": "ഗായത്രീ ഉദ്വാസനേ വിനിയോഗഃ ॥"
           },
           "action": "hands in añjali",
-          "meaning": "It is employed in taking leave of Gāyatrī."
+          "meaning": "It is employed in taking leave of Gāyatrī.",
+          "audio": "/audio/2db621eb02.m4a"
         },
         {
           "kind": "mantra",
@@ -2646,7 +2756,8 @@
             "malayalam": "മിത്രസ്യേതി ഉപസ്ഥാന മന്ത്രസ്യ വിശ്വാമിത്ര ഋഷിഃ ।"
           },
           "action": "touch the top of the head",
-          "meaning": "Of the upasthāna mantras beginning *mitrasya* the seer is Viśvāmitra."
+          "meaning": "Of the upasthāna mantras beginning *mitrasya* the seer is Viśvāmitra.",
+          "audio": "/audio/d1d8011bdf.m4a"
         },
         {
           "kind": "mantra",
@@ -2662,7 +2773,8 @@
             "malayalam": "ഭീരുഢ് ഗായത്രീ ത്രിഷ്ടുപ് ഛന്ദാഗുംസി ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "The metres are gāyatrī and triṣṭup."
+          "meaning": "The metres are gāyatrī and triṣṭup.",
+          "audio": "/audio/cb843ce7bb.m4a"
         },
         {
           "kind": "mantra",
@@ -2678,7 +2790,8 @@
             "malayalam": "മിത്രോ ദേവതാ ।"
           },
           "action": "touch the chest",
-          "meaning": "The deity is Mitra."
+          "meaning": "The deity is Mitra.",
+          "audio": "/audio/760ec38487.m4a"
         },
         {
           "kind": "mantra",
@@ -2694,7 +2807,8 @@
             "malayalam": "പ്രാതസ്സന്ധ്യോപസ്ഥാനേ വിനിയോഗഃ ॥"
           },
           "action": "hands in añjali",
-          "meaning": "They are employed in the upasthānam of the morning sandhyā."
+          "meaning": "They are employed in the upasthānam of the morning sandhyā.",
+          "audio": "/audio/c5f78e9168.m4a"
         },
         {
           "kind": "mantra",
@@ -2758,7 +2872,8 @@
             "malayalam": "ആസത്യേനേത്യ് ആദി മന്ത്രാണാം ഹിരണ്യസ്തൂപ വിശ്വാമിത്ര കുത്സ വസിഷ്ഠാ ഋഷയഃ ।"
           },
           "action": "touch the top of the head",
-          "meaning": "Of the mantras beginning *ā satyena* the seers are Hiraṇyastūpa, Viśvāmitra, Kutsa and Vasiṣṭha."
+          "meaning": "Of the mantras beginning *ā satyena* the seers are Hiraṇyastūpa, Viśvāmitra, Kutsa and Vasiṣṭha.",
+          "audio": "/audio/ffeee7e56f.m4a"
         },
         {
           "kind": "mantra",
@@ -2774,7 +2889,8 @@
             "malayalam": "ത്രിഷ്ടുപ് ഗായത്രീ ജഗതീ ഉഷ്ണിക് ത്രിഷ്ടുപ് ഛന്ദാഗുംസി ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "The metres are triṣṭup, gāyatrī, jagatī, uṣṇik and triṣṭup."
+          "meaning": "The metres are triṣṭup, gāyatrī, jagatī, uṣṇik and triṣṭup.",
+          "audio": "/audio/d791d3c42e.m4a"
         },
         {
           "kind": "mantra",
@@ -2790,7 +2906,8 @@
             "malayalam": "ആദിത്യോ ദേവതാ ।"
           },
           "action": "touch the chest",
-          "meaning": "The deity is Āditya."
+          "meaning": "The deity is Āditya.",
+          "audio": "/audio/7f61401f3d.m4a"
         },
         {
           "kind": "mantra",
@@ -2806,7 +2923,8 @@
             "malayalam": "മാധ്യാഹ്നിക സന്ധ്യോപസ്ഥാനേ വിനിയോഗഃ ॥"
           },
           "action": "hands in añjali",
-          "meaning": "They are employed in the upasthānam of the midday sandhyā."
+          "meaning": "They are employed in the upasthānam of the midday sandhyā.",
+          "audio": "/audio/c56b9bcf4f.m4a"
         },
         {
           "kind": "mantra",
@@ -2902,7 +3020,8 @@
             "malayalam": "ഇമം മേ വരുണേത്യ് ആദി മന്ത്രാണാം ദേവരാത ഋഷിഃ ।"
           },
           "action": "touch the top of the head",
-          "meaning": "Of the mantras beginning *imaṃ me varuṇa* the seer is Devarāta."
+          "meaning": "Of the mantras beginning *imaṃ me varuṇa* the seer is Devarāta.",
+          "audio": "/audio/dccd58c78c.m4a"
         },
         {
           "kind": "mantra",
@@ -2918,7 +3037,8 @@
             "malayalam": "ഗായത്രീ ത്രിഷ്ടുപ് ജഗത്യഃ ഛന്ദാഗുംസി ।"
           },
           "action": "touch the tip of the nose",
-          "meaning": "The metres are gāyatrī, triṣṭup and jagatī."
+          "meaning": "The metres are gāyatrī, triṣṭup and jagatī.",
+          "audio": "/audio/6328190c21.m4a"
         },
         {
           "kind": "mantra",
@@ -2934,7 +3054,8 @@
             "malayalam": "വരുണോ ദേവതാ ।"
           },
           "action": "touch the chest",
-          "meaning": "The deity is Savitā."
+          "meaning": "The deity is Savitā.",
+          "audio": "/audio/f554e23518.m4a"
         },
         {
           "kind": "mantra",
@@ -2950,7 +3071,8 @@
             "malayalam": "സായം സന്ധ്യോപസ്ഥാനേ വിനിയോഗഃ ॥"
           },
           "action": "hands in añjali",
-          "meaning": "They are employed in the upasthānam of the evening sandhyā."
+          "meaning": "They are employed in the upasthānam of the evening sandhyā.",
+          "audio": "/audio/1af9d6407d.m4a"
         },
         {
           "kind": "mantra",
@@ -3066,7 +3188,8 @@
             "malayalam": "ഓം സന്ധ്യായൈ നമഃ ।"
           },
           "action": "face east (evening: west), hands in añjali",
-          "meaning": "Salutations to Sandhyā, the goddess of the junctures of the day."
+          "meaning": "Salutations to Sandhyā, the goddess of the junctures of the day.",
+          "audio": "/audio/d29a15711d.m4a"
         },
         {
           "kind": "mantra",
@@ -3079,7 +3202,8 @@
             "malayalam": "ഓം സാവിത്ര്യൈ നമഃ ।"
           },
           "action": "face south (evening: north)",
-          "meaning": "Salutations to Sāvitrī."
+          "meaning": "Salutations to Sāvitrī.",
+          "audio": "/audio/ed3f60c0a3.m4a"
         },
         {
           "kind": "mantra",
@@ -3092,7 +3216,8 @@
             "malayalam": "ഓം ഗായത്ര്യൈ നമഃ ।"
           },
           "action": "face west (evening: east)",
-          "meaning": "Salutations to Gāyatrī."
+          "meaning": "Salutations to Gāyatrī.",
+          "audio": "/audio/17efd8a3b2.m4a"
         },
         {
           "kind": "mantra",
@@ -3105,7 +3230,8 @@
             "malayalam": "ഓം സരസ്വത്യൈ നമഃ ।"
           },
           "action": "face north (evening: south)",
-          "meaning": "Salutations to Sarasvatī."
+          "meaning": "Salutations to Sarasvatī.",
+          "audio": "/audio/944217cbc0.m4a"
         },
         {
           "kind": "mantra",
@@ -3118,7 +3244,8 @@
             "malayalam": "ഓം സർവാഭ്യോ ദേവതാഭ്യോ നമോ നമഃ ।"
           },
           "action": "face east (evening: west)",
-          "meaning": "Salutations again and again to all the deities."
+          "meaning": "Salutations again and again to all the deities.",
+          "audio": "/audio/f642995157.m4a"
         },
         {
           "kind": "mantra",
@@ -3131,7 +3258,8 @@
             "malayalam": "കാമോ ഽകാർഷീത് മന്യുർ അകാർഷീത് നമോ നമഃ ॥"
           },
           "action": "hands in añjali",
-          "meaning": "I did not of my own accord commit sin; falling under the sway of desire and anger I sinned unwittingly. Forgive me — I pay my obeisance again and again."
+          "meaning": "I did not of my own accord commit sin; falling under the sway of desire and anger I sinned unwittingly. Forgive me — I pay my obeisance again and again.",
+          "audio": "/audio/6e7a680b8a.m4a"
         },
         {
           "kind": "note",
@@ -3216,7 +3344,8 @@
             "malayalam": "ഓം പ്രാച്യൈ ദിശേ നമഃ ।"
           },
           "action": "face east",
-          "meaning": "Salutation to the eastern quarter."
+          "meaning": "Salutation to the eastern quarter.",
+          "audio": "/audio/6ace384ad6.m4a"
         },
         {
           "kind": "mantra",
@@ -3233,7 +3362,8 @@
             "malayalam": "ഓം ദക്ഷിണായൈ ദിശേ നമഃ ।"
           },
           "action": "face south",
-          "meaning": "Salutation to the southern quarter."
+          "meaning": "Salutation to the southern quarter.",
+          "audio": "/audio/4641e5af8f.m4a"
         },
         {
           "kind": "mantra",
@@ -3250,7 +3380,8 @@
             "malayalam": "ഓം പ്രതീച്യൈ ദിശേ നമഃ ।"
           },
           "action": "face west",
-          "meaning": "Salutation to the western quarter."
+          "meaning": "Salutation to the western quarter.",
+          "audio": "/audio/7127f2abce.m4a"
         },
         {
           "kind": "mantra",
@@ -3267,7 +3398,8 @@
             "malayalam": "ഓം ഉദീച്യൈ ദിശേ നമഃ ।"
           },
           "action": "face north",
-          "meaning": "Salutation to the northern quarter."
+          "meaning": "Salutation to the northern quarter.",
+          "audio": "/audio/ac3f0dad36.m4a"
         },
         {
           "kind": "mantra",
@@ -3283,7 +3415,8 @@
             "malayalam": "ഓം പ്രതീച്യൈ ദിശേ നമഃ ।"
           },
           "action": "face west",
-          "meaning": "Salutation to the western quarter."
+          "meaning": "Salutation to the western quarter.",
+          "audio": "/audio/7127f2abce.m4a"
         },
         {
           "kind": "mantra",
@@ -3299,7 +3432,8 @@
             "malayalam": "ഓം ഉദീച്യൈ ദിശേ നമഃ ।"
           },
           "action": "face north",
-          "meaning": "Salutation to the northern quarter."
+          "meaning": "Salutation to the northern quarter.",
+          "audio": "/audio/ac3f0dad36.m4a"
         },
         {
           "kind": "mantra",
@@ -3315,7 +3449,8 @@
             "malayalam": "ഓം പ്രാച്യൈ ദിശേ നമഃ ।"
           },
           "action": "face east",
-          "meaning": "Salutation to the eastern quarter."
+          "meaning": "Salutation to the eastern quarter.",
+          "audio": "/audio/6ace384ad6.m4a"
         },
         {
           "kind": "mantra",
@@ -3331,7 +3466,8 @@
             "malayalam": "ഓം ദക്ഷിണായൈ ദിശേ നമഃ ।"
           },
           "action": "face south",
-          "meaning": "Salutation to the southern quarter."
+          "meaning": "Salutation to the southern quarter.",
+          "audio": "/audio/4641e5af8f.m4a"
         },
         {
           "kind": "mantra",
@@ -3344,7 +3480,8 @@
             "malayalam": "ഓം ഊർധ്വായ നമഃ ।"
           },
           "action": "face east (evening: west); joined palms pointing up, look above",
-          "meaning": "Salutation to what is above."
+          "meaning": "Salutation to what is above.",
+          "audio": "/audio/f3e899b0ed.m4a"
         },
         {
           "kind": "mantra",
@@ -3357,7 +3494,8 @@
             "malayalam": "ഓം അധരായ നമഃ ।"
           },
           "action": "joined palms pointing down, look below",
-          "meaning": "Salutation to what is below."
+          "meaning": "Salutation to what is below.",
+          "audio": "/audio/7fee8c0c44.m4a"
         },
         {
           "kind": "mantra",
@@ -3370,7 +3508,8 @@
             "malayalam": "ഓം അന്തരിക്ഷായ നമഃ ।"
           },
           "action": "palms up, look towards the sky",
-          "meaning": "Salutation to the mid-region (atmosphere)."
+          "meaning": "Salutation to the mid-region (atmosphere).",
+          "audio": "/audio/d81867b4b5.m4a"
         },
         {
           "kind": "mantra",
@@ -3383,7 +3522,8 @@
             "malayalam": "ഓം ഭൂമ്യൈ നമഃ ।"
           },
           "action": "palms down, look towards the earth",
-          "meaning": "Salutation to the Earth."
+          "meaning": "Salutation to the Earth.",
+          "audio": "/audio/1cd0c33709.m4a"
         },
         {
           "kind": "mantra",
@@ -3399,7 +3539,8 @@
             "malayalam": "ഓം ബ്രഹ്മണേ നമഃ ।"
           },
           "action": "palms up",
-          "meaning": "Salutation to Brahmā."
+          "meaning": "Salutation to Brahmā.",
+          "audio": "/audio/5601b813ae.m4a"
         },
         {
           "kind": "mantra",
@@ -3412,7 +3553,8 @@
             "malayalam": "ഓം വിഷ്ണവേ നമഃ ।"
           },
           "action": "palms down / straight ahead; think of the Lord in the orb of the Sun",
-          "meaning": "Salutation to Viṣṇu."
+          "meaning": "Salutation to Viṣṇu.",
+          "audio": "/audio/464369d074.m4a"
         },
         {
           "kind": "mantra",
@@ -3429,7 +3571,8 @@
             "malayalam": "ഓം രുദ്രായ നമഃ ।"
           },
           "action": "palms up",
-          "meaning": "Salutation to Rudra."
+          "meaning": "Salutation to Rudra.",
+          "audio": "/audio/aaed9124dd.m4a"
         },
         {
           "kind": "mantra",
@@ -3446,7 +3589,8 @@
             "malayalam": "ഓം യമായ നമഃ ।"
           },
           "action": "palms down",
-          "meaning": "Salutation to Yama."
+          "meaning": "Salutation to Yama.",
+          "audio": "/audio/c0d540a4ef.m4a"
         }
       ]
     },
@@ -3479,7 +3623,8 @@
             "malayalam": "യമായ ധർമരാജായ മൃത്യവേ ചാന്തകായ ച ।\nവൈവസ്വതായ കാലായ സർവഭൂതക്ഷയായ ച ॥\nഔദുംബരായ ദധ്നായ നീലായ പരമേഷ്ഠിനേ ।\nവൃകോദരായ ചിത്രായ ചിത്രഗുപ്തായ വൈ നമഃ ॥\nചിത്രഗുപ്തായ വൈ നമ ഓം നമ ഇതി ॥"
           },
           "action": "face south",
-          "meaning": "Salutations to Yama, King Dharma, Death, the Ender, the son of Vivasvān (the Sun), Time, the destroyer of all beings; to Audumbara, Dadhna, the blue-hued one, the supreme lord, the insatiable one, the wondrous one, and to Citragupta who records all deeds — salutations."
+          "meaning": "Salutations to Yama, King Dharma, Death, the Ender, the son of Vivasvān (the Sun), Time, the destroyer of all beings; to Audumbara, Dadhna, the blue-hued one, the supreme lord, the insatiable one, the wondrous one, and to Citragupta who records all deeds — salutations.",
+          "audio": "/audio/0fa84120f2.m4a"
         }
       ]
     },
@@ -3551,7 +3696,8 @@
             "malayalam": "നർമദായൈ നമഃ പ്രാതർ നർമദായൈ നമോ നിശി ।\nനമോ ഽസ്തു നർമദേ തുഭ്യം ത്രാഹി മാം വിഷസർപതഃ ॥\nഅപസർപ സർപ ഭദ്രം തേ ദൂരം ഗച്ഛ മഹായശഃ ।\nജനമേജയസ്യ യജ്ഞാന്തേ ആസ്തീക വചനം സ്മരൻ ॥\nജരത്കാർവോർ ജരത്കാർവാം സമുത്പന്നോ മഹായശഃ ।\nആസ്തീകസ്സത്യസന്ധോ മാം പന്നഗേഭ്യോ ഽഭിരക്ഷതു ॥\nപന്നഗേഭ്യോ ഽഭിരക്ഷതു ഓം നമ ഇതി ॥"
           },
           "action": "face east",
-          "meaning": "Salutation to Narmadā by day, salutation to Narmadā by night; salutations to you, Narmadā — protect me from venomous serpents. Go away, serpent — blessings on you — go far, O renowned one, remembering Āstīka's word at the end of Janamejaya's sacrifice. May Āstīka of great renown, true to his vow, born of Jaratkāru and Jaratkāru, protect me from serpents."
+          "meaning": "Salutation to Narmadā by day, salutation to Narmadā by night; salutations to you, Narmadā — protect me from venomous serpents. Go away, serpent — blessings on you — go far, O renowned one, remembering Āstīka's word at the end of Janamejaya's sacrifice. May Āstīka of great renown, true to his vow, born of Jaratkāru and Jaratkāru, protect me from serpents.",
+          "audio": "/audio/26ab5a6e83.m4a"
         }
       ]
     },
@@ -3589,7 +3735,8 @@
             "telugu": "నమః సవిత్రే జగదేక చక్షుషే జగత్ ప్రసూతి స్థితి నాశ హేతవే ।\nత్రయీమయాయ త్రిగుణాత్మ ధారిణే విరించి నారాయణ శంకరాత్మనే ॥",
             "malayalam": "നമഃ സവിത്രേ ജഗദേക ചക്ഷുഷേ ജഗത് പ്രസൂതി സ്ഥിതി നാശ ഹേതവേ ।\nത്രയീമയായ ത്രിഗുണാത്മ ധാരിണേ വിരിഞ്ചി നാരായണ ശങ്കരാത്മനേ ॥"
           },
-          "meaning": "Salutations to Savitṛ, the sole eye of the world, the cause of the creation, sustenance and dissolution of the universe, who is the three Vedas, who bears the three guṇas, and who is of the nature of Brahmā, Nārāyaṇa and Śaṅkara."
+          "meaning": "Salutations to Savitṛ, the sole eye of the world, the cause of the creation, sustenance and dissolution of the universe, who is the three Vedas, who bears the three guṇas, and who is of the nature of Brahmā, Nārāyaṇa and Śaṅkara.",
+          "audio": "/audio/673d181672.m4a"
         },
         {
           "kind": "mantra",
@@ -3601,7 +3748,8 @@
             "telugu": "ధ్యేయస్సదా సవితృ మండల మధ్యవర్తీ నారాయణః సరసిజాసన సన్నివిష్టః ।\nకేయూరవాన్ మకర కుండలవాన్ కిరీటీ హారీ హిరణ్మయ వపుః ధృత శంఖ చక్రః ॥",
             "malayalam": "ധ്യേയസ്സദാ സവിതൃ മണ്ഡല മധ്യവർതീ നാരായണഃ സരസിജാസന സന്നിവിഷ്ടഃ ।\nകേയൂരവാൻ മകര കുണ്ഡലവാൻ കിരീടീ ഹാരീ ഹിരണ്മയ വപുഃ ധൃത ശംഖ ചക്രഃ ॥"
           },
-          "meaning": "Nārāyaṇa, seated in the centre of the solar orb on a lotus seat, is ever to be meditated upon — adorned with armlets, makara earrings, crown and necklace, of golden body, holding the conch and discus."
+          "meaning": "Nārāyaṇa, seated in the centre of the solar orb on a lotus seat, is ever to be meditated upon — adorned with armlets, makara earrings, crown and necklace, of golden body, holding the conch and discus.",
+          "audio": "/audio/c1f69c88b0.m4a"
         },
         {
           "kind": "mantra",
@@ -3613,7 +3761,8 @@
             "telugu": "శంఖ చక్ర గదా పాణే ద్వారకా నిలయాచ్యుత ।\nగోవింద పుండరీకాక్ష రక్ష మాం శరణాగతం ॥",
             "malayalam": "ശംഖ ചക്ര ഗദാ പാണേ ദ്വാരകാ നിലയാച്യുത ।\nഗോവിന്ദ പുണ്ഡരീകാക്ഷ രക്ഷ മാം ശരണാഗതം ॥"
           },
-          "meaning": "O wielder of conch, discus and mace, dweller in Dvārakā, Acyuta, Govinda, lotus-eyed one — protect me who have taken refuge in You."
+          "meaning": "O wielder of conch, discus and mace, dweller in Dvārakā, Acyuta, Govinda, lotus-eyed one — protect me who have taken refuge in You.",
+          "audio": "/audio/abb9303908.m4a"
         },
         {
           "kind": "mantra",
@@ -3628,7 +3777,8 @@
             "telugu": "ఆకాశాత్ పతితం తోయం యథా గచ్ఛతి సాగరం ।\nసర్వదేవ నమస్కారః కేశవం ప్రతి గచ్ఛతి ॥\nకేశవం ప్రతి గచ్ఛత్య్ ఓం నమ ఇతి ॥",
             "malayalam": "ആകാശാത് പതിതം തോയം യഥാ ഗച്ഛതി സാഗരം ।\nസർവദേവ നമസ്കാരഃ കേശവം പ്രതി ഗച്ഛതി ॥\nകേശവം പ്രതി ഗച്ഛത്യ് ഓം നമ ഇതി ॥"
           },
-          "meaning": "Just as water fallen from the sky reaches the ocean, so salutation to any god reaches Keśava alone."
+          "meaning": "Just as water fallen from the sky reaches the ocean, so salutation to any god reaches Keśava alone.",
+          "audio": "/audio/f99af5ee46.m4a"
         },
         {
           "kind": "mantra",
@@ -3640,7 +3790,8 @@
             "telugu": "నమో బ్రహ్మణ్య దేవాయ గో బ్రాహ్మణ హితాయ చ ।\nజగద్ధితాయ కృష్ణాయ గోవిందాయ నమో నమః ॥",
             "malayalam": "നമോ ബ്രഹ്മണ്യ ദേവായ ഗോ ബ്രാഹ്മണ ഹിതായ ച ।\nജഗദ്ധിതായ കൃഷ്ണായ ഗോവിന്ദായ നമോ നമഃ ॥"
           },
-          "meaning": "Salutations again and again to the God of the brāhmaṇas, the well-wisher of cows and brāhmaṇas, the well-wisher of the world — to Kṛṣṇa, to Govinda."
+          "meaning": "Salutations again and again to the God of the brāhmaṇas, the well-wisher of cows and brāhmaṇas, the well-wisher of the world — to Kṛṣṇa, to Govinda.",
+          "audio": "/audio/b4fee3ec04.m4a"
         },
         {
           "kind": "note",
@@ -3733,7 +3884,8 @@
             "telugu": "శ్రీరంగ మంగలమణిం కరుణా నివాసం శ్రీ వేంకటాద్రి శిఖరాలయ కాలమేఘం ।\nశ్రీ హస్తిశైల శిఖరోజ్వల పారిజాతం శ్రీశం నమామి శిరసా యదుశైలదీపం ॥",
             "malayalam": "ശ്രീരംഗ മംഗലമണിം കരുണാ നിവാസം ശ്രീ വേങ്കടാദ്രി ശിഖരാലയ കാലമേഘം ।\nശ്രീ ഹസ്തിശൈല ശിഖരോജ്വല പാരിജാതം ശ്രീശം നമാമി ശിരസാ യദുശൈലദീപം ॥"
           },
-          "meaning": "I bow my head to the Lord of Śrī — the auspicious jewel of Śrīraṅgam, abode of compassion; the dark rain-cloud dwelling on the peak of Veṅkaṭādri; the pārijāta shining on the summit of Hastiśaila (Kāñcī); the lamp of Yadu hill (Melkoṭe)."
+          "meaning": "I bow my head to the Lord of Śrī — the auspicious jewel of Śrīraṅgam, abode of compassion; the dark rain-cloud dwelling on the peak of Veṅkaṭādri; the pārijāta shining on the summit of Hastiśaila (Kāñcī); the lamp of Yadu hill (Melkoṭe).",
+          "audio": "/audio/987467b6d3.m4a"
         },
         {
           "kind": "note",
@@ -3753,7 +3905,8 @@
             "malayalam": "കായേന വാചാ മനസേന്ദ്രിയൈർ വാ ബുദ്ധ്യാത്മനാ വാ പ്രകൃതേഃ സ്വഭാവാത് ।\nകരോമി യദ് യത് സകലം പരസ്മൈ നാരായണായേതി സമർപയാമി ॥"
           },
           "action": "water in the right palm; let it fall to the ground",
-          "meaning": "Whatever I do with body, speech, mind or senses, with the intellect or the self, or by the very nature of my disposition — all that I offer to the Supreme Nārāyaṇa."
+          "meaning": "Whatever I do with body, speech, mind or senses, with the intellect or the self, or by the very nature of my disposition — all that I offer to the Supreme Nārāyaṇa.",
+          "audio": "/audio/689705d494.m4a"
         },
         {
           "kind": "mantra",
@@ -3766,7 +3919,8 @@
             "telugu": "మంత్రహీనం క్రియాహీనం భక్తిహీనం జనార్దన ।\nయత్ కృతం తు మయా దేవ పరిపూర్ణం తద్ అస్తు తే ॥",
             "malayalam": "മന്ത്രഹീനം ക്രിയാഹീനം ഭക്തിഹീനം ജനാർദന ।\nയത് കൃതം തു മയാ ദേവ പരിപൂർണം തദ് അസ്തു തേ ॥"
           },
-          "meaning": "Deficient as it is in mantra, in method and in devotion, O Janārdana — whatever has been done by me, O God, may it be complete for You."
+          "meaning": "Deficient as it is in mantra, in method and in devotion, O Janārdana — whatever has been done by me, O God, may it be complete for You.",
+          "audio": "/audio/2e134089e6.m4a"
         },
         {
           "kind": "mantra",
@@ -3779,7 +3933,8 @@
             "telugu": "ప్రాయశ్చిత్తాన్య్ అశేషాణి తపః కర్మాత్మకాని వై ।\nయాని తేషాం అశేషాణాం కృష్ణానుస్మరణం పరం ॥\nకృష్ణ కృష్ణ కృష్ణ ।",
             "malayalam": "പ്രായശ്ചിത്താന്യ് അശേഷാണി തപഃ കർമാത്മകാനി വൈ ।\nയാനി തേഷാം അശേഷാണാം കൃഷ്ണാനുസ്മരണം പരം ॥\nകൃഷ്ണ കൃഷ്ണ കൃഷ്ണ ।"
           },
-          "meaning": "Of all the expiations consisting of austerity and ritual action, the highest of them all is the remembrance of Kṛṣṇa."
+          "meaning": "Of all the expiations consisting of austerity and ritual action, the highest of them all is the remembrance of Kṛṣṇa.",
+          "audio": "/audio/239d132f13.m4a"
         }
       ]
     },
@@ -3847,7 +4002,8 @@
             "malayalam": "ശ്രീ കൃഷ്ണായ നമഃ ।"
           },
           "repeat": 10,
-          "meaning": "Salutations to Śrī Kṛṣṇa."
+          "meaning": "Salutations to Śrī Kṛṣṇa.",
+          "audio": "/audio/a7db5a2150.m4a"
         },
         {
           "kind": "note",
@@ -3867,7 +4023,8 @@
             "malayalam": "ഓം തത് സത് ബ്രഹ്മാർപണം അസ്തു ॥"
           },
           "action": "pour a little water",
-          "meaning": "Om, That is Truth — may this be an offering to Brahman."
+          "meaning": "Om, That is Truth — may this be an offering to Brahman.",
+          "audio": "/audio/16f59cef98.m4a"
         },
         {
           "kind": "note",

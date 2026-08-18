@@ -1,0 +1,2032 @@
+[
+ {
+  "id": "ddf14c38a5",
+  "step": "acamanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ अच्युताय नमः"
+  ],
+  "iast": [
+   "oṃ acyutāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/ddf14c38a5.wav"
+ },
+ {
+  "id": "be1844c3a2",
+  "step": "acamanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ अनन्ताय नमः"
+  ],
+  "iast": [
+   "oṃ anantāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/be1844c3a2.wav"
+ },
+ {
+  "id": "3aa63e480a",
+  "step": "acamanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ गोविन्दाय नमः"
+  ],
+  "iast": [
+   "oṃ govindāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/3aa63e480a.wav"
+ },
+ {
+  "id": "4286e6440d",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ केशवाय नमः"
+  ],
+  "iast": [
+   "oṃ keśavāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/4286e6440d.wav"
+ },
+ {
+  "id": "204ce3d430",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ नारायणाय नमः"
+  ],
+  "iast": [
+   "oṃ nārāyaṇāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/204ce3d430.wav"
+ },
+ {
+  "id": "6eb6c342c8",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ माधवाय नमः"
+  ],
+  "iast": [
+   "oṃ mādhavāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/6eb6c342c8.wav"
+ },
+ {
+  "id": "17c00c4868",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ विष्णवे नमः"
+  ],
+  "iast": [
+   "oṃ viṣṇave namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/17c00c4868.wav"
+ },
+ {
+  "id": "8ac202ead1",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ मधुसूदनाय नमः"
+  ],
+  "iast": [
+   "oṃ madhusūdanāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/8ac202ead1.wav"
+ },
+ {
+  "id": "6e647be0c5",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ त्रिविक्रमाय नमः"
+  ],
+  "iast": [
+   "oṃ trivikramāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/6e647be0c5.wav"
+ },
+ {
+  "id": "f353a9129a",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ वामनाय नमः"
+  ],
+  "iast": [
+   "oṃ vāmanāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/f353a9129a.wav"
+ },
+ {
+  "id": "db0b625666",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ श्रीधराय नमः"
+  ],
+  "iast": [
+   "oṃ śrīdharāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/db0b625666.wav"
+ },
+ {
+  "id": "ac3069f549",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ हृषीकेशाय नमः"
+  ],
+  "iast": [
+   "oṃ hṛṣīkeśāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/ac3069f549.wav"
+ },
+ {
+  "id": "17f864c876",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ पद्मनाभाय नमः"
+  ],
+  "iast": [
+   "oṃ padmanābhāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/17f864c876.wav"
+ },
+ {
+  "id": "c6f76141e1",
+  "step": "anga-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ दामोदराय नमः"
+  ],
+  "iast": [
+   "oṃ dāmodarāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/c6f76141e1.wav"
+ },
+ {
+  "id": "284018f4bf",
+  "step": "vighna-apaharanam",
+  "meter": "anushtubh",
+  "padas": [
+   "शुक्लाम्बरधरं विष्णुं शशिवर्णं चतुर्भुजम्",
+   "प्रसन्नवदनं ध्यायेत् सर्वविघ्नोपशान्तये"
+  ],
+  "iast": [
+   "śuklāmbaradharaṃ viṣṇuṃ śaśivarṇaṃ caturbhujam",
+   "prasannavadanaṃ dhyāyet sarvavighnopaśāntaye"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/284018f4bf.wav"
+ },
+ {
+  "id": "895a7feec5",
+  "step": "tilakam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ श्री केशवाय नमः"
+  ],
+  "iast": [
+   "oṃ śrī keśavāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/895a7feec5.wav"
+ },
+ {
+  "id": "16e916873f",
+  "step": "prokshanam",
+  "meter": "gadya",
+  "padas": [
+   "आपो हिष्ठेति मन्त्रस्य सिन्धुद्वीप ऋषिः",
+   "देवी गायत्री छन्दः",
+   "आपो देवता",
+   "अपां प्रोक्षणे विनियोगः"
+  ],
+  "iast": [
+   "āpo hiṣṭheti mantrasya sindhudvīpa ṛṣiḥ",
+   "devī gāyatrī chandaḥ",
+   "āpo devatā",
+   "apāṃ prokṣaṇe viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/16e916873f.wav"
+ },
+ {
+  "id": "cb49df60ca",
+  "step": "prasanam",
+  "meter": "gadya",
+  "padas": [
+   "सूर्यश्चेत्य् अनुवाकस्य अग्निर् ऋषिः",
+   "देवी गायत्री छन्दः",
+   "सूर्यो देवता",
+   "अपां प्राशने विनियोगः"
+  ],
+  "iast": [
+   "sūryaścety anuvākasya agnir ṛṣiḥ",
+   "devī gāyatrī chandaḥ",
+   "sūryo devatā",
+   "apāṃ prāśane viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/cb49df60ca.wav"
+ },
+ {
+  "id": "8f4683470c",
+  "step": "prasanam",
+  "meter": "gadya",
+  "padas": [
+   "आपः पुनन्त्व् इत्य् अनुवाकस्य आप ऋषिः",
+   "अनुष्टुप् छन्दः",
+   "ब्रह्मणस्पतिर् देवता",
+   "अपां प्राशने विनियोगः"
+  ],
+  "iast": [
+   "āpaḥ punantv ity anuvākasya āpa ṛṣiḥ",
+   "anuṣṭup chandaḥ",
+   "brahmaṇaspatir devatā",
+   "apāṃ prāśane viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/8f4683470c.wav"
+ },
+ {
+  "id": "93f76f869a",
+  "step": "prasanam",
+  "meter": "gadya",
+  "padas": [
+   "अग्निश्चेत्य् अनुवाकस्य सूर्य ऋषिः",
+   "देवी गायत्री छन्दः",
+   "अग्निर् देवता",
+   "अपां प्राशने विनियोगः"
+  ],
+  "iast": [
+   "agniścety anuvākasya sūrya ṛṣiḥ",
+   "devī gāyatrī chandaḥ",
+   "agnir devatā",
+   "apāṃ prāśane viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/93f76f869a.wav"
+ },
+ {
+  "id": "6007ea7111",
+  "step": "punar-marjanam",
+  "meter": "gadya",
+  "padas": [
+   "दधिक्राव्ण्ण इति मन्त्रस्य वामदेव ऋषिः",
+   "अनुष्टुप् छन्दः",
+   "दधिक्रावा देवता",
+   "अपां प्रोक्षणे विनियोगः"
+  ],
+  "iast": [
+   "dadhikrāvṇṇa iti mantrasya vāmadeva ṛṣiḥ",
+   "anuṣṭup chandaḥ",
+   "dadhikrāvā devatā",
+   "apāṃ prokṣaṇe viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/6007ea7111.wav"
+ },
+ {
+  "id": "35ca08621d",
+  "step": "arghya-pradanam",
+  "meter": "gadya",
+  "padas": [
+   "अर्घ्यप्रदान मन्त्रस्य विश्वामित्र ऋषिः",
+   "देवी गायत्री छन्दः",
+   "सविता देवता",
+   "अर्घ्यप्रदाने विनियोगः"
+  ],
+  "iast": [
+   "arghyapradāna mantrasya viśvāmitra ṛṣiḥ",
+   "devī gāyatrī chandaḥ",
+   "savitā devatā",
+   "arghyapradāne viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/35ca08621d.wav"
+ },
+ {
+  "id": "5ff62204e6",
+  "step": "arghya-pradanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ सूर्याय नमः",
+   "इदम् अर्घ्यम्"
+  ],
+  "iast": [
+   "oṃ sūryāya namaḥ",
+   "idam arghyam"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/5ff62204e6.wav"
+ },
+ {
+  "id": "d616c340ee",
+  "step": "prayascitta-arghyam",
+  "meter": "gadya",
+  "padas": [
+   "तुरीय अर्घ्यप्रदान मन्त्रस्य सान्दीपनी ऋषिः",
+   "देवी गायत्री छन्दः",
+   "सविता देवता",
+   "तुरीय अर्घ्यप्रदाने विनियोगः"
+  ],
+  "iast": [
+   "turīya arghyapradāna mantrasya sāndīpanī ṛṣiḥ",
+   "devī gāyatrī chandaḥ",
+   "savitā devatā",
+   "turīya arghyapradāne viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/d616c340ee.wav"
+ },
+ {
+  "id": "c5193807a9",
+  "step": "brahma-bhavanam",
+  "meter": "gadya",
+  "padas": [
+   "असावादित्यो ब्रह्म"
+  ],
+  "iast": [
+   "asāvādityo brahma"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/c5193807a9.wav"
+ },
+ {
+  "id": "868c741423",
+  "step": "brahma-bhavanam",
+  "meter": "gadya",
+  "padas": [
+   "ब्रह्मैवाहम् अस्मि"
+  ],
+  "iast": [
+   "brahmaivāham asmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/868c741423.wav"
+ },
+ {
+  "id": "b4ddf0a701",
+  "step": "acamanam-2",
+  "meter": "gadya",
+  "padas": [
+   "ॐ केशवाय नमः",
+   "ॐ नारायणाय नमः",
+   "ॐ माधवाय नमः",
+   "ॐ गोविन्दाय नमः",
+   "ॐ विष्णवे नमः",
+   "ॐ मधुसूदनाय नमः",
+   "ॐ त्रिविक्रमाय नमः",
+   "ॐ वामनाय नमः",
+   "ॐ श्रीधराय नमः",
+   "ॐ हृषीकेशाय नमः",
+   "ॐ पद्मनाभाय नमः",
+   "ॐ दामोदराय नमः"
+  ],
+  "iast": [
+   "oṃ keśavāya namaḥ",
+   "oṃ nārāyaṇāya namaḥ",
+   "oṃ mādhavāya namaḥ",
+   "oṃ govindāya namaḥ",
+   "oṃ viṣṇave namaḥ",
+   "oṃ madhusūdanāya namaḥ",
+   "oṃ trivikramāya namaḥ",
+   "oṃ vāmanāya namaḥ",
+   "oṃ śrīdharāya namaḥ",
+   "oṃ hṛṣīkeśāya namaḥ",
+   "oṃ padmanābhāya namaḥ",
+   "oṃ dāmodarāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/b4ddf0a701.wav"
+ },
+ {
+  "id": "6b542269ce",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "आदित्यं तर्पयामि"
+  ],
+  "iast": [
+   "ādityaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/6b542269ce.wav"
+ },
+ {
+  "id": "d83fed5ff4",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "सोमं तर्पयामि"
+  ],
+  "iast": [
+   "somaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/d83fed5ff4.wav"
+ },
+ {
+  "id": "7390a3564b",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "अङ्गारकं तर्पयामि"
+  ],
+  "iast": [
+   "aṅgārakaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/7390a3564b.wav"
+ },
+ {
+  "id": "8e55e8502a",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "बुधं तर्पयामि"
+  ],
+  "iast": [
+   "budhaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/8e55e8502a.wav"
+ },
+ {
+  "id": "de11c46f1e",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "बृहस्पतिं तर्पयामि"
+  ],
+  "iast": [
+   "bṛhaspatiṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/de11c46f1e.wav"
+ },
+ {
+  "id": "aa52d320fc",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "शुक्रं तर्पयामि"
+  ],
+  "iast": [
+   "śukraṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/aa52d320fc.wav"
+ },
+ {
+  "id": "d25e34d363",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "शनैश्चरं तर्पयामि"
+  ],
+  "iast": [
+   "śanaiścaraṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/d25e34d363.wav"
+ },
+ {
+  "id": "6f420059e2",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "राहुं तर्पयामि"
+  ],
+  "iast": [
+   "rāhuṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/6f420059e2.wav"
+ },
+ {
+  "id": "52da2e0311",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "केतुं तर्पयामि"
+  ],
+  "iast": [
+   "ketuṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/52da2e0311.wav"
+ },
+ {
+  "id": "6fdc0a92d1",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "केशवं तर्पयामि"
+  ],
+  "iast": [
+   "keśavaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/6fdc0a92d1.wav"
+ },
+ {
+  "id": "215d4a4070",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "नारायणं तर्पयामि"
+  ],
+  "iast": [
+   "nārāyaṇaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/215d4a4070.wav"
+ },
+ {
+  "id": "c049546338",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "माधवं तर्पयामि"
+  ],
+  "iast": [
+   "mādhavaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/c049546338.wav"
+ },
+ {
+  "id": "c59a8d9c09",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "गोविन्दं तर्पयामि"
+  ],
+  "iast": [
+   "govindaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/c59a8d9c09.wav"
+ },
+ {
+  "id": "76107b1082",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "विष्णुं तर्पयामि"
+  ],
+  "iast": [
+   "viṣṇuṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/76107b1082.wav"
+ },
+ {
+  "id": "70262e7e79",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "मधुसूदनं तर्पयामि"
+  ],
+  "iast": [
+   "madhusūdanaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/70262e7e79.wav"
+ },
+ {
+  "id": "3bd9329ef4",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "त्रिविक्रमं तर्पयामि"
+  ],
+  "iast": [
+   "trivikramaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/3bd9329ef4.wav"
+ },
+ {
+  "id": "156ee15fb2",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "वामनं तर्पयामि"
+  ],
+  "iast": [
+   "vāmanaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/156ee15fb2.wav"
+ },
+ {
+  "id": "f20fbfc23e",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "श्रीधरं तर्पयामि"
+  ],
+  "iast": [
+   "śrīdharaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/f20fbfc23e.wav"
+ },
+ {
+  "id": "5b3d056579",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "हृषीकेशं तर्पयामि"
+  ],
+  "iast": [
+   "hṛṣīkeśaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/5b3d056579.wav"
+ },
+ {
+  "id": "46c17dd583",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "पद्मनाभं तर्पयामि"
+  ],
+  "iast": [
+   "padmanābhaṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/46c17dd583.wav"
+ },
+ {
+  "id": "872b12dcea",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "दामोदरं तर्पयामि"
+  ],
+  "iast": [
+   "dāmodaraṃ tarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/872b12dcea.wav"
+ },
+ {
+  "id": "16f59cef98",
+  "step": "tarpanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ तत् सत् ब्रह्मार्पणम् अस्तु"
+  ],
+  "iast": [
+   "oṃ tat sat brahmārpaṇam astu"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/16f59cef98.wav"
+ },
+ {
+  "id": "6869005944",
+  "step": "asanam",
+  "meter": "anushtubh",
+  "padas": [
+   "अपसर्पन्तु ते भूता ये भूता भूमिसंस्थिताः",
+   "ये भूता विघ्नकर्तारस् ते गच्छन्तु शिवाज्ञया"
+  ],
+  "iast": [
+   "apasarpantu te bhūtā ye bhūtā bhūmisaṃsthitāḥ",
+   "ye bhūtā vighnakartāras te gacchantu śivājñayā"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/6869005944.wav"
+ },
+ {
+  "id": "ae3b72f428",
+  "step": "asanam",
+  "meter": "gadya",
+  "padas": [
+   "आसन मन्त्रस्य पृथिव्या मेरुपृष्ठ ऋषिः",
+   "सुतलं छन्दः",
+   "श्री कूर्मो देवता",
+   "आसने विनियोगः"
+  ],
+  "iast": [
+   "āsana mantrasya pṛthivyā merupṛṣṭha ṛṣiḥ",
+   "sutalaṃ chandaḥ",
+   "śrī kūrmo devatā",
+   "āsane viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/ae3b72f428.wav"
+ },
+ {
+  "id": "7d37c343e3",
+  "step": "asanam",
+  "meter": "anushtubh",
+  "padas": [
+   "पृथ्वि त्वया धृता लोका देवि त्वं विष्णुना धृता",
+   "त्वं च धारय मां देवि पवित्रं कुरु चासनम्"
+  ],
+  "iast": [
+   "pṛthvi tvayā dhṛtā lokā devi tvaṃ viṣṇunā dhṛtā",
+   "tvaṃ ca dhāraya māṃ devi pavitraṃ kuru cāsanam"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/7d37c343e3.wav"
+ },
+ {
+  "id": "807bb11605",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "प्रणवस्य ऋषिर् ब्रह्मा"
+  ],
+  "iast": [
+   "praṇavasya ṛṣir brahmā"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/807bb11605.wav"
+ },
+ {
+  "id": "1f73467cc5",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "देवी गायत्री छन्दः"
+  ],
+  "iast": [
+   "devī gāyatrī chandaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/1f73467cc5.wav"
+ },
+ {
+  "id": "0c7398fd44",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "परमात्मा देवता"
+  ],
+  "iast": [
+   "paramātmā devatā"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/0c7398fd44.wav"
+ },
+ {
+  "id": "e66c8ef22f",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "भूरादि सप्त व्याहृतीनां अत्रि भृगु कुत्स वसिष्ठ गौतम काश्यप आङ्गिरस ऋषयः"
+  ],
+  "iast": [
+   "bhūrādi sapta vyāhṛtīnāṃ atri bhṛgu kutsa vasiṣṭha gautama kāśyapa āṅgirasa ṛṣayaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/e66c8ef22f.wav"
+ },
+ {
+  "id": "151d37a7fa",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "गायत्री उष्णिक् अनुष्टुप् बृहती पङ्क्ति त्रिष्टुप् जगत्यः छन्दागुंसि"
+  ],
+  "iast": [
+   "gāyatrī uṣṇik anuṣṭup bṛhatī paṅkti triṣṭup jagatyaḥ chandāguṃsi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/151d37a7fa.wav"
+ },
+ {
+  "id": "8206efa8c9",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "अग्नि वायु अर्क वागीश वरुण इन्द्र विश्वे देवा देवताः"
+  ],
+  "iast": [
+   "agni vāyu arka vāgīśa varuṇa indra viśve devā devatāḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/8206efa8c9.wav"
+ },
+ {
+  "id": "f46fad909c",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "सावित्र्या ऋषिर् विश्वामित्रः"
+  ],
+  "iast": [
+   "sāvitryā ṛṣir viśvāmitraḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/f46fad909c.wav"
+ },
+ {
+  "id": "822bf8c403",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "सविता देवता"
+  ],
+  "iast": [
+   "savitā devatā"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/822bf8c403.wav"
+ },
+ {
+  "id": "40231a040d",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "गायत्री-शिरसो ब्रह्मा ऋषिः"
+  ],
+  "iast": [
+   "gāyatrī-śiraso brahmā ṛṣiḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/40231a040d.wav"
+ },
+ {
+  "id": "918805a1fc",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "अनुष्टुप् छन्दः"
+  ],
+  "iast": [
+   "anuṣṭup chandaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/918805a1fc.wav"
+ },
+ {
+  "id": "4cdaf689a0",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "सर्वेषां प्राणायामे विनियोगः"
+  ],
+  "iast": [
+   "sarveṣāṃ prāṇāyāme viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/4cdaf689a0.wav"
+ },
+ {
+  "id": "e23507b939",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "मुक्ताविद्रुम हेमनील धवलच्छायैर् मुखैस् त्रीक्षणैः",
+   "युक्ताम् इन्दुकला निबद्ध मकुटां तत्त्वार्थ वर्णात्मिकाम्",
+   "गायत्रीं वरदाभयां कुशकशं शुभ्रं कपालं गुणं",
+   "शङ्खं चक्रम् अथारविन्द युगलं हस्तैर् वहन्तीं भजे"
+  ],
+  "iast": [
+   "muktāvidruma hemanīla dhavalacchāyair mukhais trīkṣaṇaiḥ",
+   "yuktām indukalā nibaddha makuṭāṃ tattvārtha varṇātmikām",
+   "gāyatrīṃ varadābhayāṃ kuśakaśaṃ śubhraṃ kapālaṃ guṇaṃ",
+   "śaṅkhaṃ cakram athāravinda yugalaṃ hastair vahantīṃ bhaje"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/e23507b939.wav"
+ },
+ {
+  "id": "1fb577460d",
+  "step": "pranayama-nyasam",
+  "meter": "gadya",
+  "padas": [
+   "अर्कमण्डल मध्यस्थं सूर्यकोटि समप्रभम्",
+   "ब्रह्मादि सेव्य पादाब्जं नौमि ब्रह्म रमासखम्"
+  ],
+  "iast": [
+   "arkamaṇḍala madhyasthaṃ sūryakoṭi samaprabham",
+   "brahmādi sevya pādābjaṃ naumi brahma ramāsakham"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/1fb577460d.wav"
+ },
+ {
+  "id": "0ebafd88e5",
+  "step": "gayatri-avahanam",
+  "meter": "gadya",
+  "padas": [
+   "आयातु इति अनुवाकस्य वामदेव ऋषिः"
+  ],
+  "iast": [
+   "āyātu iti anuvākasya vāmadeva ṛṣiḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/0ebafd88e5.wav"
+ },
+ {
+  "id": "1329cbc871",
+  "step": "gayatri-avahanam",
+  "meter": "gadya",
+  "padas": [
+   "गायत्री देवता"
+  ],
+  "iast": [
+   "gāyatrī devatā"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/1329cbc871.wav"
+ },
+ {
+  "id": "49ade4bfc9",
+  "step": "gayatri-avahanam",
+  "meter": "gadya",
+  "padas": [
+   "गायत्री आवाहने विनियोगः"
+  ],
+  "iast": [
+   "gāyatrī āvāhane viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/49ade4bfc9.wav"
+ },
+ {
+  "id": "a267c3fbde",
+  "step": "kala-dhyanam",
+  "meter": "gadya",
+  "padas": [
+   "प्रातर् ध्यायामि गायत्रीं रविमण्डल मध्यगाम्",
+   "ऋग्वेदम् उच्चारयन्तीं रक्तवर्णां कुमारिकाम्",
+   "अक्षमालाकरां ब्रह्मदैवत्यां हंसवाहनाम्"
+  ],
+  "iast": [
+   "prātar dhyāyāmi gāyatrīṃ ravimaṇḍala madhyagām",
+   "ṛgvedam uccārayantīṃ raktavarṇāṃ kumārikām",
+   "akṣamālākarāṃ brahmadaivatyāṃ haṃsavāhanām"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/a267c3fbde.wav"
+ },
+ {
+  "id": "03d8d8f756",
+  "step": "kala-dhyanam",
+  "meter": "gadya",
+  "padas": [
+   "मध्यन्दिने तु सावित्रीं रविमण्डल मध्यगाम्",
+   "यजुर्वेदं व्याहरन्तीं श्वेतां शूलकरां शिवाम्",
+   "युवतीं रुद्रदैवत्यां ध्यायामि वृषवाहनाम्"
+  ],
+  "iast": [
+   "madhyandine tu sāvitrīṃ ravimaṇḍala madhyagām",
+   "yajurvedaṃ vyāharantīṃ śvetāṃ śūlakarāṃ śivām",
+   "yuvatīṃ rudradaivatyāṃ dhyāyāmi vṛṣavāhanām"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/03d8d8f756.wav"
+ },
+ {
+  "id": "1baab8bba2",
+  "step": "kala-dhyanam",
+  "meter": "gadya",
+  "padas": [
+   "सायं सरस्वतीं श्यामां रविमण्डल मध्यगाम्",
+   "सामवेदं व्याहरन्तीं चक्रायुधधरां शुभाम्",
+   "ध्यायामि विष्णुदैवत्यां वृद्धां गरुडवाहनाम्"
+  ],
+  "iast": [
+   "sāyaṃ sarasvatīṃ śyāmāṃ ravimaṇḍala madhyagām",
+   "sāmavedaṃ vyāharantīṃ cakrāyudhadharāṃ śubhām",
+   "dhyāyāmi viṣṇudaivatyāṃ vṛddhāṃ garuḍavāhanām"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/1baab8bba2.wav"
+ },
+ {
+  "id": "41ce71a61e",
+  "step": "kala-dhyanam",
+  "meter": "anushtubh",
+  "padas": [
+   "यो देवस्सविताऽस्माकं धियो धर्मादि गोचराः",
+   "प्रेरयेत् तस्य यद् भर्गस् तद् वरेण्यम् उपास्महे"
+  ],
+  "iast": [
+   "yo devassavitā'smākaṃ dhiyo dharmādi gocarāḥ",
+   "prerayet tasya yad bhargas tad vareṇyam upāsmahe"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/41ce71a61e.wav"
+ },
+ {
+  "id": "b74f10ce33",
+  "step": "kala-dhyanam",
+  "meter": "gadya",
+  "padas": [
+   "आदित्यमण्डले ध्यायेत् परमात्मानम् अव्ययम्",
+   "विष्णुं चतुर्भुजं रत्नकुण्डलैर् मण्डिताङ्गनम्",
+   "सर्वरत्न समायुक्त सर्वाभरण भूषिताम्",
+   "एवं ध्यात्वा जपेन् नित्यं मन्त्रम् अष्टोत्तरं शतम्"
+  ],
+  "iast": [
+   "ādityamaṇḍale dhyāyet paramātmānam avyayam",
+   "viṣṇuṃ caturbhujaṃ ratnakuṇḍalair maṇḍitāṅganam",
+   "sarvaratna samāyukta sarvābharaṇa bhūṣitām",
+   "evaṃ dhyātvā japen nityaṃ mantram aṣṭottaraṃ śatam"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/b74f10ce33.wav"
+ },
+ {
+  "id": "d20bce1d2d",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ भूः अङ्गुष्ठाभ्यां नमः"
+  ],
+  "iast": [
+   "oṃ bhūḥ aṅguṣṭhābhyāṃ namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/d20bce1d2d.wav"
+ },
+ {
+  "id": "0db8e5b16b",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ भुवः तर्जनीभ्यां नमः"
+  ],
+  "iast": [
+   "oṃ bhuvaḥ tarjanībhyāṃ namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/0db8e5b16b.wav"
+ },
+ {
+  "id": "44a95c95e6",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ सुवः मध्यमाभ्यां नमः"
+  ],
+  "iast": [
+   "oṃ suvaḥ madhyamābhyāṃ namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/44a95c95e6.wav"
+ },
+ {
+  "id": "242ad9c96e",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ भूः अनामिकाभ्यां नमः"
+  ],
+  "iast": [
+   "oṃ bhūḥ anāmikābhyāṃ namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/242ad9c96e.wav"
+ },
+ {
+  "id": "4f2c0b9859",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ भुवः कनिष्ठिकाभ्यां नमः"
+  ],
+  "iast": [
+   "oṃ bhuvaḥ kaniṣṭhikābhyāṃ namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/4f2c0b9859.wav"
+ },
+ {
+  "id": "505d776e1f",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ सुवः करतल करपृष्ठाभ्यां नमः"
+  ],
+  "iast": [
+   "oṃ suvaḥ karatala karapṛṣṭhābhyāṃ namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/505d776e1f.wav"
+ },
+ {
+  "id": "9bb382ceaa",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ भूः हृदयाय नमः"
+  ],
+  "iast": [
+   "oṃ bhūḥ hṛdayāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/9bb382ceaa.wav"
+ },
+ {
+  "id": "e67d436f54",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ भुवः शिरसि स्वाहा"
+  ],
+  "iast": [
+   "oṃ bhuvaḥ śirasi svāhā"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/e67d436f54.wav"
+ },
+ {
+  "id": "190f724f13",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ सुवः शिखायै वषट्"
+  ],
+  "iast": [
+   "oṃ suvaḥ śikhāyai vaṣaṭ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/190f724f13.wav"
+ },
+ {
+  "id": "70361f2d92",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ भूः कवचाय हुं"
+  ],
+  "iast": [
+   "oṃ bhūḥ kavacāya huṃ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/70361f2d92.wav"
+ },
+ {
+  "id": "d54c115ba3",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ भुवः नेत्राभ्यां वौषट्"
+  ],
+  "iast": [
+   "oṃ bhuvaḥ netrābhyāṃ vauṣaṭ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/d54c115ba3.wav"
+ },
+ {
+  "id": "a3b5b9bdf5",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ सुवः अस्त्राय फट्"
+  ],
+  "iast": [
+   "oṃ suvaḥ astrāya phaṭ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/a3b5b9bdf5.wav"
+ },
+ {
+  "id": "f7e2f25827",
+  "step": "gayatri-japam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ भूर् भुवस्सुवरोम् इति दिग्बन्धः"
+  ],
+  "iast": [
+   "oṃ bhūr bhuvassuvarom iti digbandhaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/f7e2f25827.wav"
+ },
+ {
+  "id": "67910039c6",
+  "step": "ashtakshara-japam",
+  "meter": "gadya",
+  "padas": [
+   "श्रीमद् अष्टाक्षर महामन्त्रस्य बदरिकाश्रमवासी श्रीमन्नारायण ऋषिः"
+  ],
+  "iast": [
+   "śrīmad aṣṭākṣara mahāmantrasya badarikāśramavāsī śrīmannārāyaṇa ṛṣiḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/67910039c6.wav"
+ },
+ {
+  "id": "27387014ca",
+  "step": "ashtakshara-japam",
+  "meter": "gadya",
+  "padas": [
+   "परमात्मा श्रीमन्नारायणो देवता"
+  ],
+  "iast": [
+   "paramātmā śrīmannārāyaṇo devatā"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/27387014ca.wav"
+ },
+ {
+  "id": "efca8e36c2",
+  "step": "ashtakshara-japam",
+  "meter": "gadya",
+  "padas": [
+   "श्रीमन्नारायण प्रीत्यर्थे जपे विनियोगः"
+  ],
+  "iast": [
+   "śrīmannārāyaṇa prītyarthe jape viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/efca8e36c2.wav"
+ },
+ {
+  "id": "cf1e64a00f",
+  "step": "ashtakshara-japam",
+  "meter": "gadya",
+  "padas": [
+   "सव्यं पादं प्रसार्य श्रितदुरितहरं दक्षिणं कुञ्चयित्वा",
+   "जानुन्याधाय सव्येतरम् इतरभुजं नागभोगे निधाय",
+   "पश्चाद् बाहुद्वयेन प्रतिभटशमने धारयन् शङ्खचक्रे",
+   "देवीभूषादिजुष्टो जनयतु जगतां शर्म वैकुण्ठनाथः"
+  ],
+  "iast": [
+   "savyaṃ pādaṃ prasārya śritaduritaharaṃ dakṣiṇaṃ kuñcayitvā",
+   "jānunyādhāya savyetaram itarabhujaṃ nāgabhoge nidhāya",
+   "paścād bāhudvayena pratibhaṭaśamane dhārayan śaṅkhacakre",
+   "devībhūṣādijuṣṭo janayatu jagatāṃ śarma vaikuṇṭhanāthaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/cf1e64a00f.wav"
+ },
+ {
+  "id": "c54a9c16bd",
+  "step": "gayatri-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "उत्तम इत्य् अनुवाकस्य वामदेव ऋषिः"
+  ],
+  "iast": [
+   "uttama ity anuvākasya vāmadeva ṛṣiḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/c54a9c16bd.wav"
+ },
+ {
+  "id": "2db621eb02",
+  "step": "gayatri-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "गायत्री उद्वासने विनियोगः"
+  ],
+  "iast": [
+   "gāyatrī udvāsane viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/2db621eb02.wav"
+ },
+ {
+  "id": "d1d8011bdf",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "मित्रस्येति उपस्थान मन्त्रस्य विश्वामित्र ऋषिः"
+  ],
+  "iast": [
+   "mitrasyeti upasthāna mantrasya viśvāmitra ṛṣiḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/d1d8011bdf.wav"
+ },
+ {
+  "id": "cb843ce7bb",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "भीरुढ् गायत्री त्रिष्टुप् छन्दागुंसि"
+  ],
+  "iast": [
+   "bhīruḍh gāyatrī triṣṭup chandāguṃsi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/cb843ce7bb.wav"
+ },
+ {
+  "id": "760ec38487",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "मित्रो देवता"
+  ],
+  "iast": [
+   "mitro devatā"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/760ec38487.wav"
+ },
+ {
+  "id": "c5f78e9168",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "प्रातस्सन्ध्योपस्थाने विनियोगः"
+  ],
+  "iast": [
+   "prātassandhyopasthāne viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/c5f78e9168.wav"
+ },
+ {
+  "id": "ffeee7e56f",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "आसत्येनेत्य् आदि मन्त्राणां हिरण्यस्तूप विश्वामित्र कुत्स वसिष्ठा ऋषयः"
+  ],
+  "iast": [
+   "āsatyenety ādi mantrāṇāṃ hiraṇyastūpa viśvāmitra kutsa vasiṣṭhā ṛṣayaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/ffeee7e56f.wav"
+ },
+ {
+  "id": "d791d3c42e",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "त्रिष्टुप् गायत्री जगती उष्णिक् त्रिष्टुप् छन्दागुंसि"
+  ],
+  "iast": [
+   "triṣṭup gāyatrī jagatī uṣṇik triṣṭup chandāguṃsi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/d791d3c42e.wav"
+ },
+ {
+  "id": "7f61401f3d",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "आदित्यो देवता"
+  ],
+  "iast": [
+   "ādityo devatā"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/7f61401f3d.wav"
+ },
+ {
+  "id": "c56b9bcf4f",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "माध्याह्निक सन्ध्योपस्थाने विनियोगः"
+  ],
+  "iast": [
+   "mādhyāhnika sandhyopasthāne viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/c56b9bcf4f.wav"
+ },
+ {
+  "id": "dccd58c78c",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "इमं मे वरुणेत्य् आदि मन्त्राणां देवरात ऋषिः"
+  ],
+  "iast": [
+   "imaṃ me varuṇety ādi mantrāṇāṃ devarāta ṛṣiḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/dccd58c78c.wav"
+ },
+ {
+  "id": "6328190c21",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "गायत्री त्रिष्टुप् जगत्यः छन्दागुंसि"
+  ],
+  "iast": [
+   "gāyatrī triṣṭup jagatyaḥ chandāguṃsi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/6328190c21.wav"
+ },
+ {
+  "id": "f554e23518",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "वरुणो देवता"
+  ],
+  "iast": [
+   "varuṇo devatā"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/f554e23518.wav"
+ },
+ {
+  "id": "1af9d6407d",
+  "step": "surya-upasthanam",
+  "meter": "gadya",
+  "padas": [
+   "सायं सन्ध्योपस्थाने विनियोगः"
+  ],
+  "iast": [
+   "sāyaṃ sandhyopasthāne viniyogaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/1af9d6407d.wav"
+ },
+ {
+  "id": "d29a15711d",
+  "step": "sandhyadi-devata-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ सन्ध्यायै नमः"
+  ],
+  "iast": [
+   "oṃ sandhyāyai namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/d29a15711d.wav"
+ },
+ {
+  "id": "ed3f60c0a3",
+  "step": "sandhyadi-devata-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ सावित्र्यै नमः"
+  ],
+  "iast": [
+   "oṃ sāvitryai namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/ed3f60c0a3.wav"
+ },
+ {
+  "id": "17efd8a3b2",
+  "step": "sandhyadi-devata-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ गायत्र्यै नमः"
+  ],
+  "iast": [
+   "oṃ gāyatryai namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/17efd8a3b2.wav"
+ },
+ {
+  "id": "944217cbc0",
+  "step": "sandhyadi-devata-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ सरस्वत्यै नमः"
+  ],
+  "iast": [
+   "oṃ sarasvatyai namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/944217cbc0.wav"
+ },
+ {
+  "id": "f642995157",
+  "step": "sandhyadi-devata-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ सर्वाभ्यो देवताभ्यो नमो नमः"
+  ],
+  "iast": [
+   "oṃ sarvābhyo devatābhyo namo namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/f642995157.wav"
+ },
+ {
+  "id": "6e7a680b8a",
+  "step": "sandhyadi-devata-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "कामो ऽकार्षीत् मन्युर् अकार्षीत् नमो नमः"
+  ],
+  "iast": [
+   "kāmo 'kārṣīt manyur akārṣīt namo namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/6e7a680b8a.wav"
+ },
+ {
+  "id": "6ace384ad6",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ प्राच्यै दिशे नमः"
+  ],
+  "iast": [
+   "oṃ prācyai diśe namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/6ace384ad6.wav"
+ },
+ {
+  "id": "4641e5af8f",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ दक्षिणायै दिशे नमः"
+  ],
+  "iast": [
+   "oṃ dakṣiṇāyai diśe namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/4641e5af8f.wav"
+ },
+ {
+  "id": "7127f2abce",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ प्रतीच्यै दिशे नमः"
+  ],
+  "iast": [
+   "oṃ pratīcyai diśe namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/7127f2abce.wav"
+ },
+ {
+  "id": "ac3f0dad36",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ उदीच्यै दिशे नमः"
+  ],
+  "iast": [
+   "oṃ udīcyai diśe namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/ac3f0dad36.wav"
+ },
+ {
+  "id": "f3e899b0ed",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ ऊर्ध्वाय नमः"
+  ],
+  "iast": [
+   "oṃ ūrdhvāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/f3e899b0ed.wav"
+ },
+ {
+  "id": "7fee8c0c44",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ अधराय नमः"
+  ],
+  "iast": [
+   "oṃ adharāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/7fee8c0c44.wav"
+ },
+ {
+  "id": "d81867b4b5",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ अन्तरिक्षाय नमः"
+  ],
+  "iast": [
+   "oṃ antarikṣāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/d81867b4b5.wav"
+ },
+ {
+  "id": "1cd0c33709",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ भूम्यै नमः"
+  ],
+  "iast": [
+   "oṃ bhūmyai namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/1cd0c33709.wav"
+ },
+ {
+  "id": "5601b813ae",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ ब्रह्मणे नमः"
+  ],
+  "iast": [
+   "oṃ brahmaṇe namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/5601b813ae.wav"
+ },
+ {
+  "id": "464369d074",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ विष्णवे नमः"
+  ],
+  "iast": [
+   "oṃ viṣṇave namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/464369d074.wav"
+ },
+ {
+  "id": "aaed9124dd",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ रुद्राय नमः"
+  ],
+  "iast": [
+   "oṃ rudrāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/aaed9124dd.wav"
+ },
+ {
+  "id": "c0d540a4ef",
+  "step": "dik-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "ॐ यमाय नमः"
+  ],
+  "iast": [
+   "oṃ yamāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/c0d540a4ef.wav"
+ },
+ {
+  "id": "0fa84120f2",
+  "step": "yama-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "यमाय धर्मराजाय मृत्यवे चान्तकाय च",
+   "वैवस्वताय कालाय सर्वभूतक्षयाय च",
+   "औदुम्बराय दध्नाय नीलाय परमेष्ठिने",
+   "वृकोदराय चित्राय चित्रगुप्ताय वै नमः",
+   "चित्रगुप्ताय वै नम ॐ नम इति"
+  ],
+  "iast": [
+   "yamāya dharmarājāya mṛtyave cāntakāya ca",
+   "vaivasvatāya kālāya sarvabhūtakṣayāya ca",
+   "audumbarāya dadhnāya nīlāya parameṣṭhine",
+   "vṛkodarāya citrāya citraguptāya vai namaḥ",
+   "citraguptāya vai nama oṃ nama iti"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/0fa84120f2.wav"
+ },
+ {
+  "id": "26ab5a6e83",
+  "step": "narmada-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "नर्मदायै नमः प्रातर् नर्मदायै नमो निशि",
+   "नमो ऽस्तु नर्मदे तुभ्यं त्राहि मां विषसर्पतः",
+   "अपसर्प सर्प भद्रं ते दूरं गच्छ महायशः",
+   "जनमेजयस्य यज्ञान्ते आस्तीक वचनं स्मरन्",
+   "जरत्कार्वोर् जरत्कार्वां समुत्पन्नो महायशः",
+   "आस्तीकस्सत्यसन्धो मां पन्नगेभ्यो ऽभिरक्षतु",
+   "पन्नगेभ्यो ऽभिरक्षतु ॐ नम इति"
+  ],
+  "iast": [
+   "narmadāyai namaḥ prātar narmadāyai namo niśi",
+   "namo 'stu narmade tubhyaṃ trāhi māṃ viṣasarpataḥ",
+   "apasarpa sarpa bhadraṃ te dūraṃ gaccha mahāyaśaḥ",
+   "janamejayasya yajñānte āstīka vacanaṃ smaran",
+   "jaratkārvor jaratkārvāṃ samutpanno mahāyaśaḥ",
+   "āstīkassatyasandho māṃ pannagebhyo 'bhirakṣatu",
+   "pannagebhyo 'bhirakṣatu oṃ nama iti"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/26ab5a6e83.wav"
+ },
+ {
+  "id": "673d181672",
+  "step": "surya-narayana-vandanam",
+  "meter": "vamshastha",
+  "padas": [
+   "नमः सवित्रे जगदेक चक्षुषे जगत् प्रसूति स्थिति नाश हेतवे",
+   "त्रयीमयाय त्रिगुणात्म धारिणे विरिञ्चि नारायण शङ्करात्मने"
+  ],
+  "iast": [
+   "namaḥ savitre jagadeka cakṣuṣe jagat prasūti sthiti nāśa hetave",
+   "trayīmayāya triguṇātma dhāriṇe viriñci nārāyaṇa śaṅkarātmane"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/673d181672.wav"
+ },
+ {
+  "id": "c1f69c88b0",
+  "step": "surya-narayana-vandanam",
+  "meter": "vasantatilaka",
+  "padas": [
+   "ध्येयस्सदा सवितृ मण्डल मध्यवर्ती नारायणः सरसिजासन सन्निविष्टः",
+   "केयूरवान् मकर कुण्डलवान् किरीटी हारी हिरण्मय वपुः धृत शङ्ख चक्रः"
+  ],
+  "iast": [
+   "dhyeyassadā savitṛ maṇḍala madhyavartī nārāyaṇaḥ sarasijāsana sanniviṣṭaḥ",
+   "keyūravān makara kuṇḍalavān kirīṭī hārī hiraṇmaya vapuḥ dhṛta śaṅkha cakraḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/c1f69c88b0.wav"
+ },
+ {
+  "id": "abb9303908",
+  "step": "surya-narayana-vandanam",
+  "meter": "anushtubh",
+  "padas": [
+   "शङ्ख चक्र गदा पाणे द्वारका निलयाच्युत",
+   "गोविन्द पुण्डरीकाक्ष रक्ष मां शरणागतम्"
+  ],
+  "iast": [
+   "śaṅkha cakra gadā pāṇe dvārakā nilayācyuta",
+   "govinda puṇḍarīkākṣa rakṣa māṃ śaraṇāgatam"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/abb9303908.wav"
+ },
+ {
+  "id": "f99af5ee46",
+  "step": "surya-narayana-vandanam",
+  "meter": "gadya",
+  "padas": [
+   "आकाशात् पतितं तोयं यथा गच्छति सागरम्",
+   "सर्वदेव नमस्कारः केशवं प्रति गच्छति",
+   "केशवं प्रति गच्छत्य् ॐ नम इति"
+  ],
+  "iast": [
+   "ākāśāt patitaṃ toyaṃ yathā gacchati sāgaram",
+   "sarvadeva namaskāraḥ keśavaṃ prati gacchati",
+   "keśavaṃ prati gacchaty oṃ nama iti"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/f99af5ee46.wav"
+ },
+ {
+  "id": "b4fee3ec04",
+  "step": "surya-narayana-vandanam",
+  "meter": "anushtubh",
+  "padas": [
+   "नमो ब्रह्मण्य देवाय गो ब्राह्मण हिताय च",
+   "जगद्धिताय कृष्णाय गोविन्दाय नमो नमः"
+  ],
+  "iast": [
+   "namo brahmaṇya devāya go brāhmaṇa hitāya ca",
+   "jagaddhitāya kṛṣṇāya govindāya namo namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/b4fee3ec04.wav"
+ },
+ {
+  "id": "987467b6d3",
+  "step": "samarpanam",
+  "meter": "gadya",
+  "padas": [
+   "श्रीरङ्ग मङ्गलमणिं करुणा निवासम् श्री वेङ्कटाद्रि शिखरालय कालमेघम्",
+   "श्री हस्तिशैल शिखरोज्वल पारिजातम् श्रीशं नमामि शिरसा यदुशैलदीपम्"
+  ],
+  "iast": [
+   "śrīraṅga maṅgalamaṇiṃ karuṇā nivāsam śrī veṅkaṭādri śikharālaya kālamegham",
+   "śrī hastiśaila śikharojvala pārijātam śrīśaṃ namāmi śirasā yaduśailadīpam"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/987467b6d3.wav"
+ },
+ {
+  "id": "689705d494",
+  "step": "samarpanam",
+  "meter": "gadya",
+  "padas": [
+   "कायेन वाचा मनसेन्द्रियैर् वा बुद्ध्यात्मना वा प्रकृतेः स्वभावात्",
+   "करोमि यद् यत् सकलं परस्मै नारायणायेति समर्पयामि"
+  ],
+  "iast": [
+   "kāyena vācā manasendriyair vā buddhyātmanā vā prakṛteḥ svabhāvāt",
+   "karomi yad yat sakalaṃ parasmai nārāyaṇāyeti samarpayāmi"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/689705d494.wav"
+ },
+ {
+  "id": "2e134089e6",
+  "step": "samarpanam",
+  "meter": "anushtubh",
+  "padas": [
+   "मन्त्रहीनं क्रियाहीनं भक्तिहीनं जनार्दन",
+   "यत् कृतं तु मया देव परिपूर्णं तद् अस्तु ते"
+  ],
+  "iast": [
+   "mantrahīnaṃ kriyāhīnaṃ bhaktihīnaṃ janārdana",
+   "yat kṛtaṃ tu mayā deva paripūrṇaṃ tad astu te"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/2e134089e6.wav"
+ },
+ {
+  "id": "239d132f13",
+  "step": "samarpanam",
+  "meter": "gadya",
+  "padas": [
+   "प्रायश्चित्तान्य् अशेषाणि तपः कर्मात्मकानि वै",
+   "यानि तेषाम् अशेषाणां कृष्णानुस्मरणं परम्",
+   "कृष्ण कृष्ण कृष्ण"
+  ],
+  "iast": [
+   "prāyaścittāny aśeṣāṇi tapaḥ karmātmakāni vai",
+   "yāni teṣām aśeṣāṇāṃ kṛṣṇānusmaraṇaṃ param",
+   "kṛṣṇa kṛṣṇa kṛṣṇa"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/239d132f13.wav"
+ },
+ {
+  "id": "a7db5a2150",
+  "step": "samapti",
+  "meter": "gadya",
+  "padas": [
+   "श्री कृष्णाय नमः"
+  ],
+  "iast": [
+   "śrī kṛṣṇāya namaḥ"
+  ],
+  "seed": 60,
+  "no_sandhi": false,
+  "out": "/private/tmp/claude-501/-Users-sreenivasanac-SoftwareProjects/3fece47a-b678-44b3-964d-19d7460fc6fc/scratchpad/vagdhenu/out/a7db5a2150.wav"
+ }
+]

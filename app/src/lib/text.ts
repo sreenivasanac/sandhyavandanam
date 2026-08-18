@@ -31,6 +31,7 @@ export function varsFrom(s: Settings, extra: Vars = {}): Vars {
     gotra: s.gotra || '…',
     pravara: s.pravara || '…',
     sutra: s.sutra === 'other' ? '…' : s.sutra,
+    japaCount: String(s.japaCount),
     arsheya: { 1: 'ekārṣeya', 3: 'trayārṣeya', 5: 'pañcārṣeya' }[s.arsheya],
     panchanga: s.detailedSankalpam && s.lat != null && s.lon != null ? panchangaPhrase(panchanga(new Date(), s.lat, s.lon, s.calendar)) : '',
     ...extra,

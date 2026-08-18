@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { KALAS, SCRIPTS, TRADITIONS, type Kala, type Tradition } from '../config'
+import { KALAS, SCRIPTS, TRADITIONS, type Kala, type Tradition } from '../config.ts'
 
 // Mantra text: `iast` is authored (canonical, with Vedic svara combining marks);
 // other scripts are optional pre-rendered forms. Missing scripts are transliterated at runtime.

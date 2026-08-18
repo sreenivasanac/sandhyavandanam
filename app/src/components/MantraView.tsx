@@ -3,6 +3,7 @@ import { repeatFor, type Item } from '../content/schema'
 import { useSettings } from '../lib/settings'
 import { fill, render, stripSvara, type Vars } from '../lib/text'
 import { Md } from './Md'
+import { Opt } from './StepView'
 
 const LANG: Record<string, string> = {
   devanagari: 'sa-Deva', iast: 'sa-Latn', tamil: 'sa-Taml', kannada: 'sa-Knda', telugu: 'sa-Telu', malayalam: 'sa-Mlym',
@@ -18,8 +19,8 @@ export function ItemView({ item, kala, vars }: { item: Item; kala: Kala; vars: V
   const n = repeatFor(item, kala)
   return (
     <div className="my-4">
-      {s.showActions && item.action && (
-        <p className="font-sans text-sm mb-1" style={{ color: 'var(--accent)' }}>▸ {fill(item.action, vars)}</p>
+      {(item.optional || (s.showActions && item.action)) && (
+        <p className="font-sans text-sm mb-1" style={{ color: 'var(--accent)' }}>{s.showActions && item.action ? `▸ ${fill(item.action, vars)}` : ''}{item.optional && <Opt />}</p>
       )}
       <p className="mantra" lang={LANG[s.script]}>{main}</p>
       {roman && <p className="font-serif italic opacity-80 mt-1 whitespace-pre-wrap" lang="sa-Latn">{roman}</p>}

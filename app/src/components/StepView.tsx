@@ -16,7 +16,7 @@ export function StepView({ step, kala, vars, index, total }: { step: Step; kala:
             Step {index + 1}{total ? ` of ${total}` : ''} · {step.section === 'purvanga' ? 'Pūrvāṅgam' : 'Uttarāṅgam'}
           </p>
         )}
-        <h2 className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>{step.title.sa}</h2>
+        <h2 className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>{step.title.sa}{step.optional && <Opt />}</h2>
         <p className="font-sans" style={{ color: 'var(--fg-muted)' }}>{step.title.en}{facing ? ` · ${FACING[facing]}` : ''}</p>
       </header>
       {step.image && <img src={step.image} alt="" className="rounded-xl mb-3 max-h-64 object-contain" />}
@@ -25,3 +25,5 @@ export function StepView({ step, kala, vars, index, total }: { step: Step; kala:
     </article>
   )
 }
+
+export const Opt = () => <span className="ml-2 align-middle rounded-full px-2 py-0.5 font-sans text-xs font-normal" style={{ background: 'var(--accent-soft)', color: 'var(--fg-muted)' }} title="Some families include this; skip if not your practice">optional</span>

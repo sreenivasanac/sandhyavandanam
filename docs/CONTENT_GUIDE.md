@@ -31,3 +31,7 @@ Item  = { kind:"mantra", text:{iast, devanagari?, tamil?, …}, meaning?, action
 ## Workflow
 1. Edit IAST/meanings/actions → `pnpm xlit` (regenerates scripts in place) → `pnpm build` (schema check) → `pnpm test`.
 2. Never hand-edit the generated `devanagari/tamil/kannada/telugu/malayalam` fields.
+
+## Files
+- Authored: `app/src/content/parts/{purvanga,gayatri,uttaranga}.json` — arrays of steps, IAST only.
+- Generated: `app/src/content/sandhya.json` = parts merged in order + scripts pre-rendered (`pnpm xlit`). Do not edit by hand.

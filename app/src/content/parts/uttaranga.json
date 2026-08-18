@@ -1,0 +1,654 @@
+[
+  {
+    "id": "sandhyadi-devata-vandanam",
+    "title": {
+      "sa": "Sandhyādi devatā vandanam",
+      "en": "Salutation to Sandhyā and the deities (Samaṣṭi-abhivādanam)"
+    },
+    "section": "uttaranga",
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "west"
+    },
+    "intro": "Stand with hands in añjali mudrā and turn clockwise, saluting the four directions in turn. Morning and noon: begin facing east (east → south → west → north). Evening: begin facing west (west → north → east → south). Return to the starting direction for the last two mantras.",
+    "sources": [
+      "sandhya.pdf p13",
+      "Kidambi p44–45, 77–78, 108–109",
+      "Sandhyavandanam.pdf p18–21",
+      "Kaalai p9",
+      "Chakravarthy p41–42"
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ sandhyāyai namaḥ |"
+        },
+        "action": "face east (evening: west), hands in añjali",
+        "meaning": "Salutations to Sandhyā, the goddess of the junctures of the day."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ sāvitryai namaḥ |"
+        },
+        "action": "face south (evening: north)",
+        "meaning": "Salutations to Sāvitrī."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ gāyatryai namaḥ |"
+        },
+        "action": "face west (evening: east)",
+        "meaning": "Salutations to Gāyatrī."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ sarasvatyai namaḥ |"
+        },
+        "action": "face north (evening: south)",
+        "meaning": "Salutations to Sarasvatī."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ sarvābhyo devatābhyo namo namaḥ |"
+        },
+        "action": "face east (evening: west)",
+        "meaning": "Salutations again and again to all the deities."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "kāmo 'kārṣīn manyur akārṣīn namo namaḥ ||"
+        },
+        "action": "hands in añjali",
+        "meaning": "I did not of my own accord commit sin; falling under the sway of desire and anger I sinned unwittingly. Forgive me — I pay my obeisance again and again."
+      },
+      {
+        "kind": "note",
+        "text": "Some texts read *kāmo 'kārṣīt manyur akārṣīt namo namaḥ*. One Smārta text (Sandhyavandanam.pdf) keeps the east → south → west → north order at all three kālas, turning to face west only for *sarvābhyo devatābhyo* in the evening. Chakravarthy adds four namaskārams here."
+      }
+    ]
+  },
+  {
+    "id": "abhivadanam",
+    "title": {
+      "sa": "Abhivādanam",
+      "en": "Formal salutation"
+    },
+    "section": "uttaranga",
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "north",
+      "sayam": "west"
+    },
+    "intro": "Bend forward at the waist, cross the forearms (right over left) and touch the ears with the hands; state your lineage and name. Then touch the ground (or the feet of elders present) and stand erect. Fill in your own pravara ṛṣis, gotra, sūtra and name; the app substitutes them from your settings.",
+    "sources": [
+      "sandhya.pdf p13–14",
+      "Kidambi p45–46",
+      "Sandhyavandanam.pdf p21",
+      "Kaalai p9",
+      "Chakravarthy p42"
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuś śākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||"
+        },
+        "action": "bend forward, hands crossed touching the ears; then touch the ground",
+        "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
+      },
+      {
+        "kind": "note",
+        "text": "After the pravara ṛṣis say *trayārṣeya* if your pravara has three ṛṣis and *pañcārṣeya* if it has five (see the gotra–pravara table). Worked example (Sandhyavandanam.pdf): *abhivādaye vaiśvāmitra āghamarṣaṇa kauśika trayārṣeya pravarānvita kauśika gotraḥ āpastamba sūtraḥ yajuś śākhādhyāyī śrī lakṣmīnārāyaṇa śarmā nāmāham asmi bhoḥ*."
+      }
+    ],
+    "image": "/img/steps/abhivadanam.webp"
+  },
+  {
+    "id": "dik-vandanam",
+    "title": {
+      "sa": "Dig-devatā vandanam",
+      "en": "Salutation to the quarters"
+    },
+    "section": "uttaranga",
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "west"
+    },
+    "intro": "Turn clockwise again as before, hands in añjali. Morning and noon start from the east and end with the north; evening starts from the west and ends with the south. Then, facing the starting direction, point the joined palms up and down alternately for the remaining salutations.",
+    "sources": [
+      "sandhya.pdf p14",
+      "Kidambi p46–47, 79–80, 110–111",
+      "Sandhyavandanam.pdf p21–22",
+      "Kaalai p9–10",
+      "Chakravarthy p43"
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "kala": [
+          "pratah",
+          "madhyahnika"
+        ],
+        "text": {
+          "iast": "oṃ prācyai diśe namaḥ |"
+        },
+        "action": "face east",
+        "meaning": "Salutation to the eastern quarter."
+      },
+      {
+        "kind": "mantra",
+        "kala": [
+          "pratah",
+          "madhyahnika"
+        ],
+        "text": {
+          "iast": "oṃ dakṣiṇāyai diśe namaḥ |"
+        },
+        "action": "face south",
+        "meaning": "Salutation to the southern quarter."
+      },
+      {
+        "kind": "mantra",
+        "kala": [
+          "pratah",
+          "madhyahnika"
+        ],
+        "text": {
+          "iast": "oṃ pratīcyai diśe namaḥ |"
+        },
+        "action": "face west",
+        "meaning": "Salutation to the western quarter."
+      },
+      {
+        "kind": "mantra",
+        "kala": [
+          "pratah",
+          "madhyahnika"
+        ],
+        "text": {
+          "iast": "oṃ udīcyai diśe namaḥ |"
+        },
+        "action": "face north",
+        "meaning": "Salutation to the northern quarter."
+      },
+      {
+        "kind": "mantra",
+        "kala": [
+          "sayam"
+        ],
+        "text": {
+          "iast": "oṃ pratīcyai diśe namaḥ |"
+        },
+        "action": "face west",
+        "meaning": "Salutation to the western quarter."
+      },
+      {
+        "kind": "mantra",
+        "kala": [
+          "sayam"
+        ],
+        "text": {
+          "iast": "oṃ udīcyai diśe namaḥ |"
+        },
+        "action": "face north",
+        "meaning": "Salutation to the northern quarter."
+      },
+      {
+        "kind": "mantra",
+        "kala": [
+          "sayam"
+        ],
+        "text": {
+          "iast": "oṃ prācyai diśe namaḥ |"
+        },
+        "action": "face east",
+        "meaning": "Salutation to the eastern quarter."
+      },
+      {
+        "kind": "mantra",
+        "kala": [
+          "sayam"
+        ],
+        "text": {
+          "iast": "oṃ dakṣiṇāyai diśe namaḥ |"
+        },
+        "action": "face south",
+        "meaning": "Salutation to the southern quarter."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ ūrdhvāya namaḥ |"
+        },
+        "action": "face east (evening: west); joined palms pointing up, look above",
+        "meaning": "Salutation to what is above."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ adharāya namaḥ |"
+        },
+        "action": "joined palms pointing down, look below",
+        "meaning": "Salutation to what is below."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ antarikṣāya namaḥ |"
+        },
+        "action": "palms up, look towards the sky",
+        "meaning": "Salutation to the mid-region (atmosphere)."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ bhūmyai namaḥ |"
+        },
+        "action": "palms down, look towards the earth",
+        "meaning": "Salutation to the Earth."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "oṃ brahmaṇe namaḥ |"
+        },
+        "action": "palms up",
+        "meaning": "Salutation to Brahmā."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ viṣṇave namaḥ |"
+        },
+        "action": "palms down / straight ahead; think of the Lord in the orb of the Sun",
+        "meaning": "Salutation to Viṣṇu."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "optional": true,
+        "text": {
+          "iast": "oṃ rudrāya namaḥ |"
+        },
+        "action": "palms up",
+        "meaning": "Salutation to Rudra."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "optional": true,
+        "text": {
+          "iast": "oṃ yamāya namaḥ |"
+        },
+        "action": "palms down",
+        "meaning": "Salutation to Yama."
+      },
+      {
+        "kind": "note",
+        "tradition": [
+          "smarta"
+        ],
+        "text": "The tail of this list varies: sandhya.pdf has *viṣṇave, brahmaṇe, rudrāya*; the Mumbai text has *brahmaṇe, viṣṇave*; the Kaalai text adds *rudrāya, yamāya*; Chakravarthy adds *yamāya* as optional. Śrī Vaiṣṇava texts (Kidambi) end with *viṣṇave namaḥ*."
+      }
+    ]
+  },
+  {
+    "id": "yama-vandanam",
+    "title": {
+      "sa": "Yama vandanam",
+      "en": "Salutation to Yama"
+    },
+    "section": "uttaranga",
+    "tradition": [
+      "smarta"
+    ],
+    "intro": "Face south, hands in añjali, and contemplating Yama, the Lord of Death, recite.",
+    "sources": [
+      "sandhya.pdf p14",
+      "Sandhyavandanam.pdf p22–23",
+      "Kaalai p10",
+      "Chakravarthy p43"
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "yamāya dharmarājāya mṛtyave cāntakāya ca |\nvaivasvatāya kālāya sarvabhūtakṣayāya ca ||\naudumbarāya dadhnāya nīlāya parameṣṭhine |\nvṛkodarāya citrāya citraguptāya vai namaḥ ||\ncitraguptāya vai nama oṃ nama iti ||"
+        },
+        "action": "face south",
+        "meaning": "Salutations to Yama, King Dharma, Death, the Ender, the son of Vivasvān (the Sun), Time, the destroyer of all beings; to Audumbara, Dadhna, the blue-hued one, the supreme lord, the insatiable one, the wondrous one, and to Citragupta who records all deeds — salutations."
+      },
+      {
+        "kind": "note",
+        "text": "sandhya.pdf reads *citraguptāya vai namo namaḥ* and omits the closing *citraguptāya vai nama oṃ nama iti*; the Mumbai text prefixes *yamāya namaḥ*."
+      }
+    ]
+  },
+  {
+    "id": "siva-prarthana",
+    "title": {
+      "sa": "Śiva / Viśvarūpa prārthanā",
+      "en": "Prayer to Śiva as the universal form (Harihara vandanam)"
+    },
+    "section": "uttaranga",
+    "tradition": [
+      "smarta"
+    ],
+    "facing": {
+      "pratah": "north",
+      "madhyahnika": "north",
+      "sayam": "north"
+    },
+    "intro": "Face north, hands in añjali, and recite.",
+    "sources": [
+      "sandhya.pdf p14",
+      "Sandhyavandanam.pdf p23",
+      "Kaalai p10"
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "ṛ̱taguṃ sa̱tyaṃ pa̍raṃ bra̱hma̱ pu̱ruṣa̍ṃ kṛṣṇa̱ piṅga̍lam |\nū̱rdhvare̍taṃ vi̍rūpā̱kṣa̱ṃ vi̱śvarū̍pāya̱ vai namo̱ nama̍ḥ ||\nviśvarūpāya vai nama oṃ nama iti ||"
+        },
+        "action": "face north",
+        "meaning": "The Cosmic Order, the Truth, the Supreme Brahman — the Person dark-blue and tawny, of restrained seed, three-eyed: salutations again and again to Him of universal form."
+      }
+    ]
+  },
+  {
+    "id": "narmada-vandanam",
+    "title": {
+      "sa": "Narmadā-sarpa vandanam",
+      "en": "Salutation to Narmadā and protection from serpents"
+    },
+    "section": "uttaranga",
+    "tradition": [
+      "smarta"
+    ],
+    "optional": true,
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "east"
+    },
+    "intro": "Some families add this. Face east and recite.",
+    "sources": [
+      "Kaalai p11"
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "narmadāyai namaḥ prātar narmadāyai namo niśi |\nnamo 'stu narmade tubhyaṃ trāhi māṃ viṣasarpataḥ ||\napasarpa sarpa bhadraṃ te dūraṃ gaccha mahāyaśaḥ |\njanamejayasya yajñānte āstīka vacanaṃ smaran ||\njaratkārvor jaratkārvāṃ samutpanno mahāyaśaḥ |\nāstīkas satyasandho māṃ pannagebhyo 'bhirakṣatu ||\npannagebhyo 'bhirakṣatu oṃ nama iti ||"
+        },
+        "action": "face east",
+        "meaning": "Salutation to Narmadā by day, salutation to Narmadā by night; salutations to you, Narmadā — protect me from venomous serpents. Go away, serpent — blessings on you — go far, O renowned one, remembering Āstīka's word at the end of Janamejaya's sacrifice. May Āstīka of great renown, true to his vow, born of Jaratkāru and Jaratkāru, protect me from serpents."
+      }
+    ]
+  },
+  {
+    "id": "surya-narayana-vandanam",
+    "title": {
+      "sa": "Sūrya-Nārāyaṇa vandanam",
+      "en": "Salutation to Nārāyaṇa in the Sun"
+    },
+    "section": "uttaranga",
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "west"
+    },
+    "intro": "Face the Sun (east in the morning and at noon, west in the evening) with hands in añjali and, meditating on Nārāyaṇa in the solar orb, recite.",
+    "sources": [
+      "sandhya.pdf p15",
+      "Kidambi p47–48, 80–81, 111–112",
+      "Sandhyavandanam.pdf p23–24",
+      "Kaalai p11–12",
+      "Chakravarthy p43–44"
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "namaḥ savitre jagadeka cakṣuṣe jagat prasūti sthiti nāśa hetave |\ntrayīmayāya triguṇātma dhāriṇe viriñci nārāyaṇa śaṅkarātmane ||"
+        },
+        "meaning": "Salutations to Savitṛ, the sole eye of the world, the cause of the creation, sustenance and dissolution of the universe, who is the three Vedas, who bears the three guṇas, and who is of the nature of Brahmā, Nārāyaṇa and Śaṅkara."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "dhyeyas sadā savitṛ maṇḍala madhyavartī nārāyaṇaḥ sarasijāsana sanniviṣṭaḥ |\nkeyūravān makara kuṇḍalavān kirīṭī hārī hiraṇmaya vapuḥ dhṛta śaṅkha cakraḥ ||"
+        },
+        "meaning": "Nārāyaṇa, seated in the centre of the solar orb on a lotus seat, is ever to be meditated upon — adorned with armlets, makara earrings, crown and necklace, of golden body, holding the conch and discus."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "śaṅkha cakra gadā pāṇe dvārakā nilayācyuta |\ngovinda puṇḍarīkākṣa rakṣa māṃ śaraṇāgatam ||"
+        },
+        "meaning": "O wielder of conch, discus and mace, dweller in Dvārakā, Acyuta, Govinda, lotus-eyed one — protect me who have taken refuge in You."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "ākāśāt patitaṃ toyaṃ yathā gacchati sāgaram |\nsarvadeva namaskāraḥ keśavaṃ prati gacchati ||\nśrī keśavaṃ prati gacchaty oṃ nama iti ||"
+        },
+        "meaning": "Just as water fallen from the sky reaches the ocean, so salutation to any god reaches Keśava alone."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "namo brahmaṇya devāya go brāhmaṇa hitāya ca |\njagaddhitāya kṛṣṇāya govindāya namo namaḥ ||"
+        },
+        "meaning": "Salutations again and again to the God of the brāhmaṇas, the well-wisher of cows and brāhmaṇas, the well-wisher of the world — to Kṛṣṇa, to Govinda."
+      },
+      {
+        "kind": "note",
+        "text": "Chakravarthy marks *namo brahmaṇya devāya* optional and prescribes four sāṣṭāṅga namaskārams (full prostrations) after this vandanam."
+      }
+    ]
+  },
+  {
+    "id": "abhivadanam-2",
+    "title": {
+      "sa": "Abhivādanam (punaḥ)",
+      "en": "Formal salutation again, and ācamanam"
+    },
+    "section": "uttaranga",
+    "intro": "Repeat the abhivādanam exactly as before — bend forward, hands crossed touching the ears, state your lineage and name, touch the ground. Then sit and perform ācamanam (*acyutāya namaḥ, anantāya namaḥ, govindāya namaḥ* and the twelve names).",
+    "sources": [
+      "sandhya.pdf p15",
+      "Kidambi p48, 81, 112",
+      "Sandhyavandanam.pdf p24–26",
+      "Kaalai p12"
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuś śākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||"
+        },
+        "action": "bend forward, hands crossed touching the ears; then touch the ground",
+        "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
+      },
+      {
+        "kind": "note",
+        "text": "Then perform ācamanam."
+      }
+    ]
+  },
+  {
+    "id": "samarpanam",
+    "title": {
+      "sa": "Samarpaṇam",
+      "en": "Dedication of the rite"
+    },
+    "section": "uttaranga",
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "north"
+    },
+    "intro": "Sit down. Take a little water in the right palm and, reciting, let it fall to the ground, dedicating everything done to Nārāyaṇa. Śrī Vaiṣṇavas first close the rite with the sātvika tyāgam (hands in añjali).",
+    "sources": [
+      "sandhya.pdf p15–16",
+      "Kidambi p48–49, 81–82, 112–113",
+      "Sandhyavandanam.pdf p24–25",
+      "Kaalai p12",
+      "Chakravarthy p45–46"
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "tradition": [
+          "srivaishnava"
+        ],
+        "text": {
+          "iast": "bhagavān eva svaniyāmya svarūpa sthiti pravṛtti svaśeṣataika rasena anena ātmanā kartrā svakīyaiś ca upakaraṇaiḥ svārādhanaika prayojanāya paramapuruṣaḥ sarvaśeṣī śriyaḥ patiḥ svaśeṣabhūtam idaṃ {kala} sandhyāvandanākhyaṃ karma svasmai svaprītaye svayam eva kāritavān ||"
+        },
+        "action": "hands in añjali",
+        "meaning": "The Lord Himself — the Supreme Person, master of all, consort of Śrī — through this self of mine as the doer, whose form, existence and activity He governs and whose sole essence is to be His subordinate, and with His own instruments, for the sole purpose of His own worship, has caused this {kalaEn} sandhyāvandanam, which belongs to Him, to be performed for Himself, for His own pleasure."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "srivaishnava"
+        ],
+        "optional": true,
+        "text": {
+          "iast": "śrīraṅga maṅgalamaṇiṃ karuṇā nivāsam śrī veṅkaṭādri śikharālaya kālamegham |\nśrī hastiśaila śikharojvala pārijātam śrīśaṃ namāmi śirasā yaduśailadīpam ||"
+        },
+        "meaning": "I bow my head to the Lord of Śrī — the auspicious jewel of Śrīraṅgam, abode of compassion; the dark rain-cloud dwelling on the peak of Veṅkaṭādri; the pārijāta shining on the summit of Hastiśaila (Kāñcī); the lamp of Yadu hill (Melkoṭe)."
+      },
+      {
+        "kind": "note",
+        "tradition": [
+          "srivaishnava"
+        ],
+        "text": "Chakravarthy reads *śrīraṅga maṅgalanidhiṃ* and gives this verse as optional (for Ahobila Maṭha śiṣyas); Kidambi includes it for all."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "kāyena vācā manasendriyair vā buddhyātmanā vā prakṛteḥ svabhāvāt |\nkaromi yad yat sakalaṃ parasmai nārāyaṇāyeti samarpayāmi ||"
+        },
+        "action": "water in the right palm; let it fall to the ground",
+        "meaning": "Whatever I do with body, speech, mind or senses, with the intellect or the self, or by the very nature of my disposition — all that I offer to the Supreme Nārāyaṇa."
+      },
+      {
+        "kind": "mantra",
+        "optional": true,
+        "text": {
+          "iast": "mantrahīnaṃ kriyāhīnaṃ bhaktihīnaṃ janārdana |\nyat kṛtaṃ tu mayā deva paripūrṇaṃ tad astu te ||"
+        },
+        "meaning": "Deficient as it is in mantra, in method and in devotion, O Janārdana — whatever has been done by me, O God, may it be complete for You."
+      },
+      {
+        "kind": "mantra",
+        "optional": true,
+        "text": {
+          "iast": "prāyaścittāny aśeṣāṇi tapaḥ karmātmakāni vai |\nyāni teṣām aśeṣāṇāṃ kṛṣṇānusmaraṇaṃ param ||\nkṛṣṇa kṛṣṇa kṛṣṇa |"
+        },
+        "meaning": "Of all the expiations consisting of austerity and ritual action, the highest of them all is the remembrance of Kṛṣṇa."
+      }
+    ]
+  },
+  {
+    "id": "samapti",
+    "title": {
+      "sa": "Samāpti / Japasthāna prokṣaṇam",
+      "en": "Conclusion: sprinkling the place of japa"
+    },
+    "section": "uttaranga",
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "north"
+    },
+    "intro": "Take a little water in the hand and sprinkle it on the spot where you sat for the sandhyāvandanam. Touch the sprinkled water with the right ring finger and apply it to the forehead as tilakam. Conclude with brahmārpaṇam, ācamanam and prostration.",
+    "sources": [
+      "sandhya.pdf p16",
+      "Kidambi p48, 81, 112",
+      "Sandhyavandanam.pdf p26",
+      "Kaalai p12",
+      "Chakravarthy p44"
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "a̱dyā no̍ deva savitaḥ pra̱jāva̍t sāvī̱ḥ saubha̍gam | parā̍ du̱ḥṣvapniyagu̍ṃ suva ||\noṃ viśvā̎ni deva savitar duri̱tāni parā̍ suva | yad bha̱draṃ tanna̱ āsu̍va ||"
+        },
+        "action": "sprinkle water on the place of japa; touch it and apply to the forehead",
+        "meaning": "Send us this day, O God Savitṛ, prosperity with progeny; drive away from us the evil dream. O God Savitṛ, drive away from us all sins and misfortunes; send us what is good."
+      },
+      {
+        "kind": "note",
+        "text": "Some texts read *duṣvapnyaguṃ* / *duṣvapniyaguṃ* for *duḥṣvapniyaguṃ*."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "srivaishnava"
+        ],
+        "text": {
+          "iast": "oṃ bhūr bhuva̱s suva̍ḥ |"
+        },
+        "action": "sprinkle water on the place of the sandhyāvandanam (Kidambi's form)",
+        "meaning": "Om — earth, mid-region, heaven."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "srivaishnava"
+        ],
+        "text": {
+          "iast": "śrī kṛṣṇāya namaḥ |"
+        },
+        "repeat": 10,
+        "meaning": "Salutations to Śrī Kṛṣṇa."
+      },
+      {
+        "kind": "note",
+        "tradition": [
+          "srivaishnava"
+        ],
+        "text": "Kidambi performs this sprinkling and the ten *śrī kṛṣṇāya namaḥ* immediately after the second abhivādanam and ācamanam, before the sātvika tyāgam and *kāyena vācā*."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ tat sat brahmārpaṇam astu ||"
+        },
+        "action": "pour a little water",
+        "meaning": "Om, That is Truth — may this be an offering to Brahman."
+      },
+      {
+        "kind": "note",
+        "text": "Perform ācamanam (with the twelve names). Finally prostrate — sāṣṭāṅga namaskāram; Chakravarthy prescribes four prostrations. This completes the {kalaEn} sandhyāvandanam."
+      }
+    ]
+  }
+]

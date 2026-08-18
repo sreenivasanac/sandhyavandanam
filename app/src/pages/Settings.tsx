@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { Fragment, useRef } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { SCRIPTS, SCRIPT_LABEL, TRADITIONS, TRADITION_LABEL } from '../config'
 import gotrasJson from '../content/gotras.json'
@@ -105,7 +105,7 @@ function PanchangaPreview() {
   const rows: [string, string][] = [['saṃvatsara', p.samvatsara], ['ayana', p.ayana], ['ṛtu', p.rtu], ['māsa', (p.adhika ? 'adhika ' : '') + p.masa], ['pakṣa', p.paksha], ['tithi', p.tithi], ['vāra', p.vara], ['nakṣatra', p.nakshatra], ['sunrise', p.sunrise.toLocaleTimeString()]]
   return (
     <dl className="mt-3 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
-      {rows.map(([k, v]) => <><dt key={k} style={{ color: 'var(--fg-muted)' }}>{k}</dt><dd key={k + v} className="font-serif">{v}</dd></>)}
+      {rows.map(([k, v]) => <Fragment key={k}><dt style={{ color: 'var(--fg-muted)' }}>{k}</dt><dd className="font-serif">{v}</dd></Fragment>)}
       <dd className="col-span-2 text-xs mt-1" style={{ color: 'var(--fg-muted)' }}>Values at today's sunrise, Lahiri ayanāṃśa. Please verify against your panchāṅgam once.</dd>
     </dl>
   )

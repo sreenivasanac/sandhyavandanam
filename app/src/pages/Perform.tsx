@@ -31,7 +31,9 @@ export function Perform() {
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
   })
-  useEffect(() => window.scrollTo({ top: 0 }), [i])
+  useEffect(() => {
+    window.scrollTo({ top: 0 }) // braces matter: scrollTo returns a Promise in newer Chrome, which React would treat as a cleanup
+  }, [i])
 
   const step = steps[i]
   if (!step) return <p className="p-8 font-sans">No steps for this selection yet.</p>

@@ -1,27 +1,46 @@
 [
   {
     "id": "acamanam",
-    "title": { "sa": "Ācamanam", "en": "Sipping of water" },
+    "title": {
+      "sa": "Ācamanam",
+      "en": "Sipping of water"
+    },
     "section": "purvanga",
-    "facing": { "pratah": "east", "madhyahnika": "east", "sayam": "east" },
-    "intro": "Having bathed and worn a clean dhoti, sit or squat in kukkuṭāsana facing east, with a small vessel of water and an uddharaṇi (spoon). Fold the right palm so that the little, ring and middle fingers are stretched and the index finger is bent inwards, forming a hollow; pour a small amount of water into it and swallow (do not sip) from the brāhma-tīrtha (base of the thumb) with each of the three names, for the purification of body, speech and mind. Then wash the right hand, wipe the lips with the right thumb from right to left, and wash the hand again. Direction: all sources face east in the morning; at noon Kidambi and the Mumbai Smārta text face east while sandhya.pdf says north; in the evening Kidambi and Chakravarthy face east until arghya-pradānam and west thereafter, sandhya.pdf faces west throughout and the Mumbai Smārta text north.",
-    "sources": ["sandhya.pdf p3", "Kidambi p19–20", "Chakravarthy p13", "Sandhyavandanam.pdf p6", "Kaalai p2"],
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "east"
+    },
+    "intro": "Having bathed and worn a clean dhoti, sit or squat in kukkuṭāsana facing east, with a small vessel of water and an uddharaṇi (spoon). Fold the right palm so that the little, ring and middle fingers are stretched and the index finger is bent inwards, forming a hollow; pour a small amount of water into it and swallow (do not sip) from the brāhma-tīrtha (base of the thumb) with each of the three names, for the purification of body, speech and mind. Then wash the right hand, wipe the lips with the right thumb from right to left, and wash the hand again. Direction: face east in the morning and at noon; in the evening face east until arghya-pradānam and west thereafter (Kidambi, Chakravarthy).",
+    "sources": [
+      "sandhya.pdf p3",
+      "Kidambi p19–20",
+      "Chakravarthy p13",
+      "Sandhyavandanam.pdf p6",
+      "Kaalai p2"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ acyutāya namaḥ" },
+        "text": {
+          "iast": "oṃ acyutāya namaḥ"
+        },
         "action": "pour a little water into the right palm and swallow it",
         "meaning": "Salutations to Acyuta, the unfallen, unchanging one."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ anantāya namaḥ" },
+        "text": {
+          "iast": "oṃ anantāya namaḥ"
+        },
         "action": "again pour water and swallow",
         "meaning": "Salutations to Ananta, the infinite one."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ govindāya namaḥ" },
+        "text": {
+          "iast": "oṃ govindāya namaḥ"
+        },
         "action": "again pour water and swallow; then wash the right hand and wipe the lips with the thumb",
         "meaning": "Salutations to Govinda, protector of the cows and of the earth."
       }
@@ -30,109 +49,159 @@
   },
   {
     "id": "anga-nyasam",
-    "title": { "sa": "Aṅga-nyāsam (Keśavādi dvādaśa nāma)", "en": "Touching the limbs with the twelve names" },
+    "title": {
+      "sa": "Aṅga-nyāsam (Keśavādi dvādaśa nāma)",
+      "en": "Touching the limbs with the twelve names"
+    },
     "section": "purvanga",
     "intro": "Touch the parts of the body indicated with the fingers of the right hand while saying each name, consecrating the body as the temple of God. In each case the thumb touches the middle of the finger used (Chakravarthy). Together with the three sips this forms one ācamanam.",
-    "sources": ["sandhya.pdf p3", "Kidambi p20–21", "Chakravarthy p13–14", "Kaalai p2"],
+    "sources": [
+      "sandhya.pdf p3",
+      "Kidambi p20–21",
+      "Chakravarthy p13–14",
+      "Kaalai p2"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ keśavāya namaḥ" },
+        "text": {
+          "iast": "oṃ keśavāya namaḥ"
+        },
         "action": "right thumb → right cheek (seat of fire)",
         "meaning": "Salutations to Keśava, of beautiful locks, slayer of the demon Keśī."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ nārāyaṇāya namaḥ" },
+        "text": {
+          "iast": "oṃ nārāyaṇāya namaḥ"
+        },
         "action": "right thumb → left cheek",
         "meaning": "Salutations to Nārāyaṇa, the abode and resting place of all beings."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ mādhavāya namaḥ" },
+        "text": {
+          "iast": "oṃ mādhavāya namaḥ"
+        },
         "action": "ring finger → right eye (seat of the Sun)",
         "meaning": "Salutations to Mādhava, consort of Lakṣmī (Mā)."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ govindāya namaḥ" },
+        "text": {
+          "iast": "oṃ govindāya namaḥ"
+        },
         "action": "ring finger → left eye",
         "meaning": "Salutations to Govinda, protector of the cows and of the earth."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ viṣṇave namaḥ" },
+        "text": {
+          "iast": "oṃ viṣṇave namaḥ"
+        },
         "action": "index finger → right side of the nose (seat of wind)",
         "meaning": "Salutations to Viṣṇu, the all-pervading."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ madhusūdanāya namaḥ" },
+        "text": {
+          "iast": "oṃ madhusūdanāya namaḥ"
+        },
         "action": "index finger → left side of the nose",
         "meaning": "Salutations to Madhusūdana, slayer of the demon Madhu."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ trivikramāya namaḥ" },
+        "text": {
+          "iast": "oṃ trivikramāya namaḥ"
+        },
         "action": "little finger → right ear (seat of Indra)",
         "meaning": "Salutations to Trivikrama, who measured the worlds in three strides."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ vāmanāya namaḥ" },
+        "text": {
+          "iast": "oṃ vāmanāya namaḥ"
+        },
         "action": "little finger → left ear",
         "meaning": "Salutations to Vāmana, the dwarf incarnation."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ śrīdharāya namaḥ" },
+        "text": {
+          "iast": "oṃ śrīdharāya namaḥ"
+        },
         "action": "middle finger → right shoulder (seat of Prajāpati)",
         "meaning": "Salutations to Śrīdhara, bearer of Śrī on His chest."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ hṛṣīkeśāya namaḥ" },
+        "text": {
+          "iast": "oṃ hṛṣīkeśāya namaḥ"
+        },
         "action": "middle finger → left shoulder",
         "meaning": "Salutations to Hṛṣīkeśa, lord of the senses."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ padmanābhāya namaḥ" },
+        "text": {
+          "iast": "oṃ padmanābhāya namaḥ"
+        },
         "action": "all fingers of the right hand → navel",
         "meaning": "Salutations to Padmanābha, from whose navel the lotus (of creation) springs."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ dāmodarāya namaḥ" },
+        "text": {
+          "iast": "oṃ dāmodarāya namaḥ"
+        },
         "action": "all fingers of the right hand → top of the head",
         "meaning": "Salutations to Dāmodara, who was bound with a rope (dāma) around the waist by Yaśodā."
       },
       {
         "kind": "note",
-        "tradition": ["srivaishnava"],
+        "tradition": [
+          "srivaishnava"
+        ],
         "text": "Kidambi: this whole ācamanam (three sips and the twelve names) is performed twice."
       }
     ]
   },
   {
     "id": "vighna-apaharanam",
-    "title": { "sa": "Vighna-apaharaṇam (Gaṇapati dhyānam)", "en": "Removal of obstacles" },
+    "title": {
+      "sa": "Vighna-apaharaṇam (Gaṇapati dhyānam)",
+      "en": "Removal of obstacles"
+    },
     "section": "purvanga",
     "intro": "Gently tap both temples with the knuckles (five times in all, once after each phrase marked in the verse), with the thought that the spiritual nectar collected there is spreading through the body. Kidambi's Śrī Vaiṣṇava text omits this step; the Chakravarthy text notes that *viṣṇum* here refers to Gaṇapati (the obstacle-remover).",
-    "sources": ["sandhya.pdf p4", "Chakravarthy p14", "Sandhyavandanam.pdf p2", "Kaalai p2"],
+    "sources": [
+      "sandhya.pdf p4",
+      "Chakravarthy p14",
+      "Sandhyavandanam.pdf p2",
+      "Kaalai p2"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "tradition": ["smarta"],
-        "text": { "iast": "śuklāmbaradharaṃ viṣṇuṃ śaśivarṇaṃ caturbhujam |\nprasannavadanaṃ dhyāyet sarvavighnopaśāntaye ||" },
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "śuklāmbaradharaṃ viṣṇuṃ śaśivarṇaṃ caturbhujam |\nprasannavadanaṃ dhyāyet sarvavighnopaśāntaye ||"
+        },
         "action": "tap the temples with the fists",
         "meaning": "The all-pervading Lord Viṣṇu is to be meditated upon for the removal of all obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced."
       },
       {
         "kind": "mantra",
-        "tradition": ["srivaishnava"],
+        "tradition": [
+          "srivaishnava"
+        ],
         "optional": true,
-        "text": { "iast": "śuklāmbaradharaṃ viṣṇuṃ śaśivarṇaṃ caturbhujam |\nprasannavadanaṃ dhyāyet sarvavighnopaśāntaye ||" },
+        "text": {
+          "iast": "śuklāmbaradharaṃ viṣṇuṃ śaśivarṇaṃ caturbhujam |\nprasannavadanaṃ dhyāyet sarvavighnopaśāntaye ||"
+        },
         "action": "tap the temples with the fists (only if your family does this; Kidambi omits it)",
         "meaning": "The all-pervading Lord Viṣṇu is to be meditated upon for the removal of all obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced."
       }
@@ -140,14 +209,24 @@
   },
   {
     "id": "pranayamam",
-    "title": { "sa": "Prāṇāyāmam", "en": "Control of the breath" },
+    "title": {
+      "sa": "Prāṇāyāmam",
+      "en": "Control of the breath"
+    },
     "section": "purvanga",
     "intro": "Sit erect. Fold the index and middle fingers of the right hand into the palm; the thumb closes the right nostril and the ring and little fingers the left. Close the left nostril and breathe out slowly through the right; close the right nostril, open the left and breathe in fully; then close both nostrils and, with mouth and eyes closed, recite the mantra mentally while holding the breath; open the right nostril and breathe out slowly. Chakravarthy: recite the seven vyāhṛtis while inhaling, the Gāyatrī while holding, and *oṃ āpo jyotī…* while exhaling (ratio 1:3:2). This is one prāṇāyāma; do three. The left hand rests palm-up on the left thigh (thumb and index touching).",
-    "sources": ["sandhya.pdf p4", "Kidambi p21–22", "Chakravarthy p15–16", "Sandhyavandanam.pdf p2–3"],
+    "sources": [
+      "sandhya.pdf p4",
+      "Kidambi p21–22",
+      "Chakravarthy p15–16",
+      "Sandhyavandanam.pdf p2–3"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||" },
+        "text": {
+          "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||"
+        },
         "repeat": 3,
         "action": "recite mentally while holding the breath (three prāṇāyāmas)",
         "meaning": "Om — the material world; Om — the realm of mind; Om — the realm of light; Om — the realm of vastness; Om — the realm of creative delight; Om — the realm of unobstructed will; Om — the realm of the highest Truth. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. He is in the waters, in light, in flavour, in the nectar of immortality; He pervades the three realms — physical, mental and spiritual. All this is denoted by the Praṇava."
@@ -161,67 +240,88 @@
   },
   {
     "id": "sankalpam",
-    "title": { "sa": "Saṅkalpam", "en": "Statement of intent" },
+    "title": {
+      "sa": "Saṅkalpam",
+      "en": "Statement of intent"
+    },
     "section": "purvanga",
     "intro": "In the saṅkalpa posture (left palm upturned on the right thigh, right palm covering it), state the intent for this sandhyā. Smārtas use the *mamopātta…* form, Śrī Vaiṣṇavas the *śrī bhagavadājñayā…* form. If detailed saṅkalpam is switched on, the day's pañcāṅga (year, ayana, ṛtu, month, pakṣa, tithi, vāra, nakṣatra) is inserted before the kāla. Afterwards wash the right palm with water (Chakravarthy).",
-    "sources": ["sandhya.pdf p4–5", "Kidambi p22", "Chakravarthy p16–17", "Sandhyavandanam.pdf p3", "Kaalai p3"],
+    "sources": [
+      "sandhya.pdf p4–5",
+      "Kidambi p22",
+      "Chakravarthy p16–17",
+      "Sandhyavandanam.pdf p3",
+      "Kaalai p3"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "tradition": ["smarta"],
-        "text": { "iast": "hariḥ oṃ tatsat | govinda govinda govinda | mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {panchanga}{kala} sandhyām upāsiṣye ||" },
-        "meaning": "Hari, Om, That is the Truth. Govinda, Govinda, Govinda. For the destruction of all the sins I have accumulated and to please the Supreme Lord, I now perform my {kalaEn} sandhyā worship."
-      },
-      {
-        "kind": "note",
-        "tradition": ["smarta"],
-        "kala": ["madhyahnika"],
-        "text": "The Mumbai Smārta text words the noon saṅkalpa as *…prītyarthaṃ mādhyāhnikaṃ kariṣye*."
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {panchanga}{kala} sandhyām upāsiṣye ||"
+        },
+        "meaning": "For the destruction of all the sins I have accumulated and to please the Supreme Lord, I now perform my {kalaEn} sandhyā worship."
       },
       {
         "kind": "mantra",
-        "tradition": ["srivaishnava"],
-        "text": { "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {panchanga}{kala} sandhyām upāsiṣye ||" },
-        "meaning": "Hari, Om, That is the Truth. Govinda, Govinda, Govinda. By the command of the Lord and to please Śrīman Nārāyaṇa, I now perform my {kalaEn} sandhyā worship."
-      },
-      {
-        "kind": "note",
-        "tradition": ["srivaishnava"],
-        "text": "sandhya.pdf gives the Vaiṣṇava saṅkalpa as *bhagavad ājñayā bhagavat kaiṅkarya rūpaṃ {kala} sandhyām upāsiṣye* (as service to Him); some combine both: *śrī bhagavadājñayā bhagavat kaiṅkarya rūpaṃ śrīmannārāyaṇa prītyarthaṃ*."
+        "tradition": [
+          "srivaishnava"
+        ],
+        "text": {
+          "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {panchanga}{kala} sandhyām upāsiṣye ||"
+        },
+        "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now perform my {kalaEn} sandhyā worship."
       }
     ]
   },
   {
     "id": "satvika-tyagam",
-    "title": { "sa": "Sātvika tyāgam", "en": "Dedication of the act to the Lord (opening)" },
+    "title": {
+      "sa": "Sātvika tyāgam",
+      "en": "Dedication of the act to the Lord (opening)"
+    },
     "section": "purvanga",
-    "tradition": ["srivaishnava"],
+    "tradition": [
+      "srivaishnava"
+    ],
     "intro": "With both hands in añjali mudrā (namaste), surrender the agency and fruit of the act to the Lord: He, the indweller, causes this sandhyāvandanam to be done through you, with His own instruments, for His own pleasure.",
-    "sources": ["Kidambi p22–23", "Chakravarthy p17"],
+    "sources": [
+      "Kidambi p22–23",
+      "Chakravarthy p17"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "bhagavāneva svaniyāmya svarūpasthiti pravṛtti svaśeṣataika rasena anena ātmanā kartrā svakīyaiśca upakaraṇaiḥ svārādhanaika prayojanāya paramapuruṣaḥ sarvaśeṣī śriyaḥ patiḥ svaśeṣabhūtaṃ idaṃ {kala} sandhyāvandanākhyaṃ karma svasmai svaprītaye svayameva kārayati ||" },
+        "text": {
+          "iast": "bhagavāneva svaniyāmya svarūpasthiti pravṛtti svaśeṣataika rasena anena ātmanā kartrā svakīyaiśca upakaraṇaiḥ svārādhanaika prayojanāya paramapuruṣaḥ sarvaśeṣī śriyaḥ patiḥ svaśeṣabhūtaṃ idaṃ {kala} sandhyāvandanākhyaṃ karma svasmai svaprītaye svayameva kārayati ||"
+        },
         "action": "hands in añjali",
         "meaning": "The Lord Himself — the Supreme Person, the master of all, the consort of Śrī — through this self as agent, whose nature, existence and activity are controlled by Him and whose sole delight is being His servant, and with instruments that are His own, for the sole purpose of His own worship, Himself causes this act called the {kalaEn} sandhyāvandanam, which belongs to Him, to be performed for His own sake and for His own pleasure."
-      },
-      {
-        "kind": "note",
-        "text": "Chakravarthy's wording begins *oṃ bhagavāneva…* and reads *svaśeṣataika rasena mayā svakīyaiśca upakaraṇaiḥ … karma bhagavān svasmai svaprītaye svayameva kārayati*."
       }
     ]
   },
   {
     "id": "tilakam",
-    "title": { "sa": "Tilakam / Ūrdhva-puṇḍram", "en": "Applying the forehead mark" },
+    "title": {
+      "sa": "Tilakam / Ūrdhva-puṇḍram",
+      "en": "Applying the forehead mark"
+    },
     "section": "purvanga",
     "optional": true,
-    "intro": "If the ūrdhva-puṇḍram or tilakam was not applied after the bath, apply it now: dip the ring finger (sandhya.pdf: middle finger) in water from the vessel, trace *oṃ keśavāya namaḥ* on the water, and apply the mark to the middle of the forehead while reciting.",
-    "sources": ["sandhya.pdf p5", "Sandhyavandanam.pdf p4", "Kaalai p3"],
+    "intro": "If the ūrdhva-puṇḍram or tilakam was not applied after the bath, apply it now: dip the ring finger in water from the vessel, trace *oṃ keśavāya namaḥ* on the water, and apply the mark to the middle of the forehead while reciting.",
+    "sources": [
+      "sandhya.pdf p5",
+      "Sandhyavandanam.pdf p4",
+      "Kaalai p3"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ śrī keśavāya namaḥ" },
+        "text": {
+          "iast": "oṃ śrī keśavāya namaḥ"
+        },
         "action": "apply the tilakam to the forehead with the wet ring finger",
         "meaning": "Om, salutations to Śrī Keśava."
       }
@@ -229,45 +329,68 @@
   },
   {
     "id": "prokshanam",
-    "title": { "sa": "Prokṣaṇam / Mārjanam", "en": "Sprinkling of water" },
+    "title": {
+      "sa": "Prokṣaṇam / Mārjanam",
+      "en": "Sprinkling of water"
+    },
     "section": "purvanga",
-    "intro": "Hold the vessel in the left hand; take a little water in the right palm (or on the ring finger from the uddharaṇi) and sprinkle it on the head with the fingers of the right hand, once with each line. Nyāsa first: touch the top of the head while naming the ṛṣi, the tip of the nose for the chandas, the heart for the devatā, and join the palms in añjali for the viniyoga (Kidambi, Chakravarthy; the srimatham, Mumbai and Kaalai Smārta texts omit the nyāsa).",
-    "sources": ["sandhya.pdf p5", "Kidambi p23–25", "Chakravarthy p18–19", "Sandhyavandanam.pdf p4", "Kaalai p3"],
+    "intro": "Hold the vessel in the left hand; take a little water in the right palm (or on the ring finger from the uddharaṇi) and sprinkle it on the head with the fingers of the right hand, once with each line. Nyāsa first: touch the top of the head while naming the ṛṣi, the tip of the nose for the chandas, the heart for the devatā, and join the palms in añjali for the viniyoga (Kidambi, Chakravarthy).",
+    "sources": [
+      "sandhya.pdf p5",
+      "Kidambi p23–25",
+      "Chakravarthy p18–19",
+      "Sandhyavandanam.pdf p4",
+      "Kaalai p3"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "āpo hiṣṭheti mantrasya sindhudvīpa ṛṣiḥ | devī gāyatrī chandaḥ | āpo devatā | apāṃ prokṣaṇe viniyogaḥ ||" },
+        "text": {
+          "iast": "āpo hiṣṭheti mantrasya sindhudvīpa ṛṣiḥ | devī gāyatrī chandaḥ | āpo devatā | apāṃ prokṣaṇe viniyogaḥ ||"
+        },
         "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
         "meaning": "Of the mantra *āpo hiṣṭhā*, Sindhudvīpa is the seer, devī gāyatrī the metre, the Waters the deity; it is applied in the sprinkling of water."
       },
       {
         "kind": "mantra",
-        "tradition": ["srivaishnava"],
-        "text": { "iast": "oṃ bhūr bhuva̱s suva̍ḥ |\ntat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi |\ndhiyo̱ yo na̍ḥ praco̱dayā̎t ||" },
+        "tradition": [
+          "srivaishnava"
+        ],
+        "text": {
+          "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |\ntat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi |\ndhiyo̱ yo na̍ḥ praco̱dayā̎t ||"
+        },
         "action": "prelude (Kidambi): sprinkle on the head three times, once with each line",
         "meaning": "Om, earth, atmosphere, heaven. May we meditate upon that adorable light of the divine Savitṛ; may He impel our thoughts."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍ś śi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |" },
+        "text": {
+          "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍śśi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |"
+        },
         "action": "sprinkle on the head once with each of these seven lines",
         "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like mothers in their tender love. To Him we come gladly, (to whose abode you lead us)."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "yasya̱ kṣayā̍ya̱ jinva̍tha |" },
-        "action": "sprinkle on the feet (Kidambi: knees; Chakravarthy: big toes)",
+        "text": {
+          "iast": "yasya̱ kṣayā̍ya̱ jinva̍tha |"
+        },
+        "action": "sprinkle on the big toes",
         "meaning": "…for whose abode you quicken us."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "āpo̍ ja̱naya̍thā ca naḥ |" },
+        "text": {
+          "iast": "āpo̍ ja̱naya̍thā ca naḥ |"
+        },
         "action": "sprinkle again on the head",
         "meaning": "O Waters, make us pure and grant us to be reborn with splendour."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūr bhuva̱s suva̍ḥ |" },
+        "text": {
+          "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |"
+        },
         "action": "take a little water in the palm and circle it around the head clockwise, sprinkling it around yourself",
         "meaning": "Om, earth, atmosphere, heaven."
       }
@@ -275,50 +398,83 @@
   },
   {
     "id": "prasanam",
-    "title": { "sa": "Prāśanam", "en": "Sipping with the atonement mantra" },
+    "title": {
+      "sa": "Prāśanam",
+      "en": "Sipping with the atonement mantra"
+    },
     "section": "purvanga",
     "intro": "Nyāsa as before (head – nose – heart – añjali). Then pour a small amount of water into the hollow of the right palm, recite the mantra for the kāla, and swallow (do not sip) the water from the brahma-tīrtha. Afterwards perform ācamanam.",
-    "sources": ["sandhya.pdf p5–6", "Kidambi p25–26, p57–58, p89–90", "Chakravarthy p20–21", "Sandhyavandanam.pdf p4–5", "Kaalai p3–4"],
+    "sources": [
+      "sandhya.pdf p5–6",
+      "Kidambi p25–26, p57–58, p89–90",
+      "Chakravarthy p20–21",
+      "Sandhyavandanam.pdf p4–5",
+      "Kaalai p3–4"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "kala": ["pratah"],
-        "text": { "iast": "sūryaścety anuvākasya agnir ṛṣiḥ | devī gāyatrī chandaḥ | sūryo devatā | apāṃ prāśane viniyogaḥ ||" },
+        "kala": [
+          "pratah"
+        ],
+        "text": {
+          "iast": "sūryaścety anuvākasya agnir ṛṣiḥ | devī gāyatrī chandaḥ | sūryo devatā | apāṃ prāśane viniyogaḥ ||"
+        },
         "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
         "meaning": "Of the anuvāka beginning *sūryaśca*, Agni is the seer, devī gāyatrī the metre, Sūrya the deity; it is applied in the sipping of water."
       },
       {
         "kind": "mantra",
-        "kala": ["pratah"],
-        "text": { "iast": "sūryaśca mā manyuśca manyupatayaśca manyu̍kṛte̱bhyaḥ | pāpebhyo̍ rakṣa̱ntām | yad rātriyā pāpa̍m akā̱rṣam | manasā vācā̍ hastā̱bhyām | padbhyām udare̍ṇa śi̱śnā | rātri̱s tad ava̍lu̱mpatu | yat kiñca̍ duri̱taṃ mayi̍ | idam ahaṃ mām amṛ̍ta yo̱nau | sūrye jyotiṣi juho̍mi svā̱hā ||" },
+        "kala": [
+          "pratah"
+        ],
+        "text": {
+          "iast": "sūryaśca mā manyuśca manyupatayaśca manyu̍kṛte̱bhyaḥ | pāpebhyo̍ rakṣa̱ntām | yad rātriyā pāpa̍m akā̱rṣam | manasā vācā̍ hastā̱bhyām | padbhyām udare̍ṇa śi̱śnā | rātri̱s tad ava̍lu̱mpatu | yat kiñca̍ duri̱taṃ mayi̍ | idam ahaṃ mām amṛ̍ta yo̱nau | sūrye jyotiṣi juho̍mi svā̱hā ||"
+        },
         "action": "recite with the water in the right palm, then swallow it",
         "meaning": "May the Sun, anger, the lords of anger and (the deities presiding over) the sins born of anger protect me. Whatever sin I have committed by night — by thought, speech, hands, feet, belly or organ — may the night efface it. Whatever evil remains in me, I offer myself as an oblation into the Sun, the source of immortality, the Light. Svāhā."
       },
       {
         "kind": "mantra",
-        "kala": ["madhyahnika"],
-        "text": { "iast": "āpaḥ punantv ity anuvākasya āpa ṛṣiḥ | anuṣṭup chandaḥ | brahmaṇaspatir devatā | apāṃ prāśane viniyogaḥ ||" },
+        "kala": [
+          "madhyahnika"
+        ],
+        "text": {
+          "iast": "āpaḥ punantv ity anuvākasya āpa ṛṣiḥ | anuṣṭup chandaḥ | brahmaṇaspatir devatā | apāṃ prāśane viniyogaḥ ||"
+        },
         "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
         "meaning": "Of the anuvāka beginning *āpaḥ punantu*, the Waters are the seer, anuṣṭup the metre, Brahmaṇaspati the deity; it is applied in the sipping of water."
       },
       {
         "kind": "mantra",
-        "kala": ["madhyahnika"],
-        "text": { "iast": "āpa̍ḥ punantu pṛthi̱vīṃ pṛ̍thi̱vī pū̱tā pu̍nātu̱ mām | pu̱nantu̱ brahma̍ṇa̱spati̱r brahma̍ pū̱tā pu̍nātu̱ mām | yad ucchi̍ṣṭa̱m abho̎jya̱ṃ yad vā̍ du̱ścari̍ta̱ṃ mama̍ | sarva̍ṃ punantu̱ mām āpo̍'sa̱tāṃ ca̍ prati̱graha̱guṃ svāhā̎ ||" },
+        "kala": [
+          "madhyahnika"
+        ],
+        "text": {
+          "iast": "āpa̍ḥ punantu pṛthi̱vīṃ pṛ̍thi̱vī pū̱tā pu̍nātu̱ mām | pu̱nantu̱ brahma̍ṇa̱spati̱r brahma̍ pū̱tā pu̍nātu̱ mām | yad ucchi̍ṣṭa̱m abho̎jya̱ṃ yad vā̍ du̱ścari̍ta̱ṃ mama̍ | sarva̍ṃ punantu̱ mām āpo̍'sa̱tāṃ ca̍ prati̱graha̱guṃ svāhā̎ ||"
+        },
         "action": "recite with the water in the right palm, then swallow it",
         "meaning": "May the waters purify the earth; may the purified earth purify me. May the Lord of prayer purify me; may the purified Veda purify me. Whatever remnant I have eaten, whatever forbidden food, whatever misdeed of mine, whatever gift accepted from the unworthy — may the waters purify me of all. Svāhā."
       },
       {
         "kind": "mantra",
-        "kala": ["sayam"],
-        "text": { "iast": "agniścety anuvākasya sūrya ṛṣiḥ | devī gāyatrī chandaḥ | agnir devatā | apāṃ prāśane viniyogaḥ ||" },
+        "kala": [
+          "sayam"
+        ],
+        "text": {
+          "iast": "agniścety anuvākasya sūrya ṛṣiḥ | devī gāyatrī chandaḥ | agnir devatā | apāṃ prāśane viniyogaḥ ||"
+        },
         "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
         "meaning": "Of the anuvāka beginning *agniśca*, Sūrya is the seer, devī gāyatrī the metre, Agni the deity; it is applied in the sipping of water."
       },
       {
         "kind": "mantra",
-        "kala": ["sayam"],
-        "text": { "iast": "agniśca mā manyuśca manyupatayaśca manyu̍kṛte̱bhyaḥ | pāpebhyo̍ rakṣa̱ntām | yad ahnā pāpa̍m akā̱rṣam | manasā vācā̍ hastā̱bhyām | padbhyām udare̍ṇa śi̱śnā | aha̱s tad ava̍lu̱mpatu | yat kiñca̍ duri̱taṃ mayi̍ | idam ahaṃ mām amṛ̍ta yo̱nau | satye jyotiṣi juho̍mi svā̱hā ||" },
+        "kala": [
+          "sayam"
+        ],
+        "text": {
+          "iast": "agniśca mā manyuśca manyupatayaśca manyu̍kṛte̱bhyaḥ | pāpebhyo̍ rakṣa̱ntām | yad ahnā pāpa̍m akā̱rṣam | manasā vācā̍ hastā̱bhyām | padbhyām udare̍ṇa śi̱śnā | aha̱s tad ava̍lu̱mpatu | yat kiñca̍ duri̱taṃ mayi̍ | idam ahaṃ mām amṛ̍ta yo̱nau | satye jyotiṣi juho̍mi svā̱hā ||"
+        },
         "action": "recite with the water in the right palm, then swallow it",
         "meaning": "May Agni, anger, the lords of anger and (the deities presiding over) the sins born of anger protect me. Whatever sin I have committed by day — by thought, speech, hands, feet, belly or organ — may the day efface it. Whatever evil remains in me, I offer myself as an oblation into Truth, the source of immortality, the Light. Svāhā."
       },
@@ -330,44 +486,65 @@
   },
   {
     "id": "punar-marjanam",
-    "title": { "sa": "Punaḥ prokṣaṇam / Punar-mārjanam", "en": "Repeated sprinkling" },
+    "title": {
+      "sa": "Punaḥ prokṣaṇam / Punar-mārjanam",
+      "en": "Repeated sprinkling"
+    },
     "section": "purvanga",
     "intro": "Nyāsa as before. Then sprinkle water on the head with the *dadhikrāvṇṇo* verse, and repeat the sprinkling with *āpo hiṣṭhā* exactly as in prokṣaṇam.",
-    "sources": ["sandhya.pdf p6", "Kidambi p26–28", "Chakravarthy p21–22", "Sandhyavandanam.pdf p6–7", "Kaalai p4"],
+    "sources": [
+      "sandhya.pdf p6",
+      "Kidambi p26–28",
+      "Chakravarthy p21–22",
+      "Sandhyavandanam.pdf p6–7",
+      "Kaalai p4"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "dadhikrāvṇṇa iti mantrasya vāmadeva ṛṣiḥ | anuṣṭup chandaḥ | dadhikrāvā devatā | apāṃ prokṣaṇe viniyogaḥ ||" },
+        "text": {
+          "iast": "dadhikrāvṇṇa iti mantrasya vāmadeva ṛṣiḥ | anuṣṭup chandaḥ | dadhikrāvā devatā | apāṃ prokṣaṇe viniyogaḥ ||"
+        },
         "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
         "meaning": "Of the mantra *dadhikrāvṇṇo*, Vāmadeva is the seer, anuṣṭup the metre, Dadhikrāvan the deity; it is applied in the sprinkling of water."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "da̱dhi̱krāvṇṇo̍ akāriṣaṃ ji̱ṣṇor aśva̍sya vā̱jina̍ḥ |\nsu̱ra̱bhi no̱ mukhā̍ kara̱t praṇa̱ āyū̍guṃṣi tāriṣat ||" },
+        "text": {
+          "iast": "da̱dhi̱krāvṇṇo̍ akāriṣaṃ ji̱ṣṇor aśva̍sya vā̱jina̍ḥ |\nsu̱ra̱bhi no̱ mukhā̍ kara̱t praṇa̱ āyū̍guṃṣi tāriṣat ||"
+        },
         "action": "sprinkle on the head once with each of the four pādas",
         "meaning": "I have glorified Dadhikrāvan, the victorious, swift steed (the Lord as Hayagrīva). May He make our mouths fragrant and lengthen our lives. (RV 4.39.6; TS 1.5.11.4)"
       },
       {
         "kind": "mantra",
-        "text": { "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍ś śi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |" },
+        "text": {
+          "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍śśi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |"
+        },
         "action": "sprinkle on the head once with each of these seven lines",
         "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like mothers in their tender love. To Him we come gladly, (to whose abode you lead us)."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "yasya̱ kṣayā̍ya̱ jinva̍tha |" },
-        "action": "sprinkle on the feet (Kidambi: knees; Chakravarthy: big toes)",
+        "text": {
+          "iast": "yasya̱ kṣayā̍ya̱ jinva̍tha |"
+        },
+        "action": "sprinkle on the big toes",
         "meaning": "…for whose abode you quicken us."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "āpo̍ ja̱naya̍thā ca naḥ |" },
+        "text": {
+          "iast": "āpo̍ ja̱naya̍thā ca naḥ |"
+        },
         "action": "sprinkle again on the head",
         "meaning": "O Waters, make us pure and grant us to be reborn with splendour."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūr bhuva̱s suva̍ḥ |" },
+        "text": {
+          "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |"
+        },
         "action": "take a little water in the palm and circle it around the head clockwise, sprinkling it around yourself",
         "meaning": "Om, earth, atmosphere, heaven."
       }
@@ -375,48 +552,81 @@
   },
   {
     "id": "arghya-pradanam",
-    "title": { "sa": "Arghya-pradānam", "en": "Libation to the Sun" },
+    "title": {
+      "sa": "Arghya-pradānam",
+      "en": "Libation to the Sun"
+    },
     "section": "purvanga",
-    "facing": { "pratah": "east", "madhyahnika": "east", "sayam": "west" },
-    "intro": "Perform prāṇāyāma (Chakravarthy: one round), touch the right ear, and take the saṅkalpa posture for the saṅkalpa; then nyāsa. Stand erect (morning and noon facing east; in the evening face west from now on) holding the vessel between the thumb and index finger of the left hand; join both palms facing upwards, pour water into the hollow of the joined palms and raise them to the level of the forehead. Recite the Gāyatrī aloud and, looking towards the sun and rising on the heels, release the water from the fingertips (deva-tīrtha) — thrown up towards the sun (Chakravarthy) or poured on the ground (sandhya.pdf); if standing in a river or tank, offer with cupped palms. Three libations in the morning and evening; at noon two (Mumbai Smārta text, Chakravarthy) — Kidambi gives one, noting a sampradāya of two. Chakravarthy: at noon standing or sitting; in the evening sitting.",
-    "sources": ["sandhya.pdf p6–7", "Kidambi p28–29, p60–61, p92–93", "Chakravarthy p23–25", "Sandhyavandanam.pdf p7", "Kaalai p4"],
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "west"
+    },
+    "intro": "Perform prāṇāyāma (Chakravarthy: one round), touch the right ear, and take the saṅkalpa posture for the saṅkalpa; then nyāsa. Stand erect (morning and noon facing east; in the evening face west from now on) holding the vessel between the thumb and index finger of the left hand; join both palms facing upwards, pour water into the hollow of the joined palms and raise them to the level of the forehead. Recite the Gāyatrī aloud and, looking towards the sun and rising on the heels, release the water from the fingertips (deva-tīrtha), thrown up towards the sun; if standing in a river or tank, offer with cupped palms. Three libations in the morning and evening; at noon one (Kidambi, who notes that some sampradāyas offer two). Chakravarthy: at noon standing or sitting; in the evening sitting.",
+    "sources": [
+      "sandhya.pdf p6–7",
+      "Kidambi p28–29, p60–61, p92–93",
+      "Chakravarthy p23–25",
+      "Sandhyavandanam.pdf p7",
+      "Kaalai p4"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||" },
+        "text": {
+          "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||"
+        },
         "action": "prāṇāyāma as before (recite mentally holding the breath); then touch the right ear and take the saṅkalpa posture",
         "meaning": "Om — the seven realms; may we meditate upon that adorable light of the divine Creator, may He impel our intellect; He is the waters, light, flavour, immortality, Brahman, pervading the three worlds — Om."
       },
       {
         "kind": "mantra",
-        "tradition": ["smarta"],
-        "text": { "iast": "hariḥ oṃ tatsat | govinda govinda govinda | mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā sūryārghya pradānaṃ kariṣye ||" },
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā sūryārghya pradānaṃ kariṣye ||"
+        },
         "meaning": "For the destruction of all my sins and to please the Supreme Lord, I now offer the {kalaEn} sandhyā libations of water to the Sun."
       },
       {
         "kind": "mantra",
-        "tradition": ["srivaishnava"],
-        "text": { "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā arghyapradānaṃ kariṣye ||" },
+        "tradition": [
+          "srivaishnava"
+        ],
+        "text": {
+          "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā arghyapradānaṃ kariṣye ||"
+        },
         "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now offer the {kalaEn} sandhyā libations of water (to the Sun)."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "arghyapradāna mantrasya viśvāmitra ṛṣiḥ | devī gāyatrī chandaḥ | savitā devatā | arghyapradāne viniyogaḥ ||" },
+        "text": {
+          "iast": "arghyapradāna mantrasya viśvāmitra ṛṣiḥ | devī gāyatrī chandaḥ | savitā devatā | arghyapradāne viniyogaḥ ||"
+        },
         "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
         "meaning": "Of the arghya mantra, Viśvāmitra is the seer, devī gāyatrī the metre, Savitṛ the deity; it is applied in the offering of arghya."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūr bhuva̱s suva̍ḥ | tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||" },
-        "repeat": { "pratah": 3, "madhyahnika": 2, "sayam": 3 },
+        "text": {
+          "iast": "oṃ bhūr bhuva̱ssuva̍ḥ | tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||"
+        },
+        "repeat": {
+          "pratah": 3,
+          "madhyahnika": 1,
+          "sayam": 3
+        },
         "action": "stand, water in the joined palms raised to the forehead; recite, rise on the heels looking at the sun and release the water from the fingertips — once per libation",
         "meaning": "Om, earth, atmosphere, heaven. We meditate upon that adorable light of the divine Savitṛ; may He impel our thoughts."
       },
       {
         "kind": "mantra",
         "optional": true,
-        "text": { "iast": "oṃ sūryāya namaḥ | idam arghyam ||" },
-        "action": "sandhya.pdf adds this after each libation",
+        "text": {
+          "iast": "oṃ sūryāya namaḥ | idam arghyam ||"
+        },
+        "action": "after each libation",
         "meaning": "Om, salutations to the Sun — this is the libation."
       }
     ],
@@ -424,11 +634,19 @@
   },
   {
     "id": "prayascitta-arghyam",
-    "title": { "sa": "Prāyaścitta-arghyam (turīyārghyam)", "en": "Atonement libation" },
+    "title": {
+      "sa": "Prāyaścitta-arghyam (turīyārghyam)",
+      "en": "Atonement libation"
+    },
     "section": "purvanga",
     "optional": true,
     "intro": "If the sandhyā is being performed after the prescribed time (after sunrise in the morning, after sunset in the evening; at noon only in some sampradāyas — Kidambi), an extra fourth libation is offered as atonement. Prāṇāyāma, śrotrācamanam and the saṅkalpa posture; saṅkalpa; nyāsa; then, standing as before with water in the joined palms raised to the forehead, recite and release the water once, rising on the heels and looking towards the sun.",
-    "sources": ["sandhya.pdf p7", "Kidambi p29–31, p61–63, p93–95", "Chakravarthy p25–27", "Sandhyavandanam.pdf p8"],
+    "sources": [
+      "sandhya.pdf p7",
+      "Kidambi p29–31, p61–63, p93–95",
+      "Chakravarthy p25–27",
+      "Sandhyavandanam.pdf p8"
+    ],
     "items": [
       {
         "kind": "note",
@@ -436,54 +654,83 @@
       },
       {
         "kind": "mantra",
-        "tradition": ["smarta"],
-        "text": { "iast": "hariḥ oṃ tatsat | govinda govinda govinda | mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā kālātīta prāyaścittārthaṃ turīyārghya pradānaṃ kariṣye ||" },
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā kālātīta prāyaścittārthaṃ turīyārghya pradānaṃ kariṣye ||"
+        },
         "meaning": "For the destruction of all my sins and to please the Supreme Lord, I now offer a fourth libation to the Sun to atone for performing my {kalaEn} sandhyā after the prescribed time."
       },
       {
         "kind": "mantra",
-        "tradition": ["srivaishnava"],
-        "text": { "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā kālātīta doṣa prāyaścittārthaṃ turīya arghyapradānaṃ kariṣye ||" },
+        "tradition": [
+          "srivaishnava"
+        ],
+        "text": {
+          "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā kālātīta doṣa prāyaścittārthaṃ turīya arghyapradānaṃ kariṣye ||"
+        },
         "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now offer a fourth libation to atone for the fault of performing my {kalaEn} sandhyā after the prescribed time."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "turīya arghyapradāna mantrasya sāndīpanī ṛṣiḥ | devī gāyatrī chandaḥ | savitā devatā | turīya arghyapradāne viniyogaḥ ||" },
+        "text": {
+          "iast": "turīya arghyapradāna mantrasya sāndīpanī ṛṣiḥ | devī gāyatrī chandaḥ | savitā devatā | turīya arghyapradāne viniyogaḥ ||"
+        },
         "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
         "meaning": "Of the fourth-arghya mantra, Sāndīpanī is the seer, devī gāyatrī the metre, Savitṛ the deity; it is applied in offering the fourth arghya."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t |\noṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam ||" },
+        "text": {
+          "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t |\noṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam ||"
+        },
         "repeat": 1,
-        "action": "offer the single extra libation with the vyāhṛtis, the Gāyatrī and the vyāhṛtis again (Kidambi, Chakravarthy); sandhya.pdf and the Mumbai text offer it with the Gāyatrī as before",
+        "action": "offer the single extra libation with the vyāhṛtis, the Gāyatrī and the vyāhṛtis again",
         "meaning": "Om — the seven realms. May we meditate upon that adorable light of the divine Savitṛ; may He impel our thoughts. Om — the seven realms."
       }
     ]
   },
   {
     "id": "brahma-bhavanam",
-    "title": { "sa": "Ātma-pradakṣiṇam · Sandhyopāsanam (Brahma-bhāvanam)", "en": "Circling oneself; contemplation of the Sun as Brahman" },
+    "title": {
+      "sa": "Ātma-pradakṣiṇam · Sandhyopāsanam (Brahma-bhāvanam)",
+      "en": "Circling oneself; contemplation of the Sun as Brahman"
+    },
     "section": "purvanga",
-    "intro": "Take a little water in the right palm and, reciting *oṃ bhūr bhuvas suvaḥ*, circle the hand around the head clockwise while turning yourself once clockwise on the spot, letting the water fall around you. Then, standing facing the sun with hands in añjali (Kaalai: after a prāṇāyāma), meditate on the Lord in the centre of the Sun and on the meaning of the sentence for a minute or two, eyes closed. Do not rush this.",
-    "sources": ["sandhya.pdf p7–8", "Kidambi p31, p63, p95", "Chakravarthy p27", "Sandhyavandanam.pdf p8", "Kaalai p4"],
+    "intro": "Take a little water in the right palm and, reciting *oṃ bhūr bhuvas suvaḥ*, circle the hand around the head clockwise while turning yourself once clockwise on the spot, letting the water fall around you. Then, standing facing the sun with hands in añjali, meditate on the Lord in the centre of the Sun and on the meaning of the sentence for a minute or two, eyes closed. Do not rush this.",
+    "sources": [
+      "sandhya.pdf p7–8",
+      "Kidambi p31, p63, p95",
+      "Chakravarthy p27",
+      "Sandhyavandanam.pdf p8",
+      "Kaalai p4"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūr bhuva̱s suva̍ḥ |" },
+        "text": {
+          "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |"
+        },
         "action": "circle the water around the head clockwise while turning yourself clockwise (ātma-pradakṣiṇam)",
         "meaning": "Om, earth, atmosphere, heaven."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "asāvādityo brahma |" },
+        "text": {
+          "iast": "asāvādityo brahma |"
+        },
         "action": "hands in añjali; contemplate the Lord in the centre of the Sun",
         "meaning": "Yonder Sun is Brahman."
       },
       {
         "kind": "mantra",
-        "tradition": ["smarta"],
-        "text": { "iast": "brahmaivāham asmi ||" },
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "brahmaivāham asmi ||"
+        },
         "action": "meditate for a while that you and Brahman are the same",
         "meaning": "Brahman indeed am I."
       }
@@ -491,32 +738,48 @@
   },
   {
     "id": "acamanam-2",
-    "title": { "sa": "Ācamanam", "en": "Sipping of water" },
+    "title": {
+      "sa": "Ācamanam",
+      "en": "Sipping of water"
+    },
     "section": "purvanga",
     "intro": "Sit in kukkuṭāsana and perform ācamanam again: swallow water three times with the three names, then touch the limbs with the twelve names.",
-    "sources": ["sandhya.pdf p8", "Kidambi p31", "Sandhyavandanam.pdf p9", "Kaalai p4"],
+    "sources": [
+      "sandhya.pdf p8",
+      "Kidambi p31",
+      "Sandhyavandanam.pdf p9",
+      "Kaalai p4"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ acyutāya namaḥ" },
+        "text": {
+          "iast": "oṃ acyutāya namaḥ"
+        },
         "action": "pour a little water into the right palm and swallow it",
         "meaning": "Salutations to Acyuta, the unfallen, unchanging one."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ anantāya namaḥ" },
+        "text": {
+          "iast": "oṃ anantāya namaḥ"
+        },
         "action": "again pour water and swallow",
         "meaning": "Salutations to Ananta, the infinite one."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ govindāya namaḥ" },
+        "text": {
+          "iast": "oṃ govindāya namaḥ"
+        },
         "action": "again pour water and swallow; wash the hand and wipe the lips",
         "meaning": "Salutations to Govinda, protector of the cows and of the earth."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ keśavāya namaḥ | oṃ nārāyaṇāya namaḥ | oṃ mādhavāya namaḥ | oṃ govindāya namaḥ | oṃ viṣṇave namaḥ | oṃ madhusūdanāya namaḥ | oṃ trivikramāya namaḥ | oṃ vāmanāya namaḥ | oṃ śrīdharāya namaḥ | oṃ hṛṣīkeśāya namaḥ | oṃ padmanābhāya namaḥ | oṃ dāmodarāya namaḥ ||" },
+        "text": {
+          "iast": "oṃ keśavāya namaḥ | oṃ nārāyaṇāya namaḥ | oṃ mādhavāya namaḥ | oṃ govindāya namaḥ | oṃ viṣṇave namaḥ | oṃ madhusūdanāya namaḥ | oṃ trivikramāya namaḥ | oṃ vāmanāya namaḥ | oṃ śrīdharāya namaḥ | oṃ hṛṣīkeśāya namaḥ | oṃ padmanābhāya namaḥ | oṃ dāmodarāya namaḥ ||"
+        },
         "action": "thumb → right, left cheek; ring finger → right, left eye; index → right, left side of nose; little finger → right, left ear; middle finger → right, left shoulder; all fingers → navel, top of head",
         "meaning": "Salutations to Keśava, Nārāyaṇa, Mādhava, Govinda, Viṣṇu, Madhusūdana, Trivikrama, Vāmana, Śrīdhara, Hṛṣīkeśa, Padmanābha and Dāmodara."
       }
@@ -524,40 +787,227 @@
   },
   {
     "id": "tarpanam",
-    "title": { "sa": "Tarpaṇam", "en": "Libations to the planets and the twelve names" },
+    "title": {
+      "sa": "Tarpaṇam",
+      "en": "Libations to the planets and the twelve names"
+    },
     "section": "purvanga",
     "intro": "Sit in kukkuṭāsana holding the vessel between the thumb and index finger of the left hand; join both palms facing upwards. For each name pour water into the hollow of the joined palms, recite, and let the water flow out through the fingertips of both hands (deva-tīrtha) onto the ground or plate — like arghya but without rising on the heels. Smārtas offer to the nine grahas and then the twelve names; Śrī Vaiṣṇavas (Kidambi) to the twelve names only.",
-    "sources": ["sandhya.pdf p8", "Kidambi p31–33 (12 only)", "Chakravarthy p28", "Sandhyavandanam.pdf p9–10", "Kaalai p4–5"],
+    "sources": [
+      "sandhya.pdf p8",
+      "Kidambi p31–33 (12 only)",
+      "Chakravarthy p28",
+      "Sandhyavandanam.pdf p9–10",
+      "Kaalai p4–5"
+    ],
     "items": [
-      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "ādityaṃ tarpayāmi |" }, "action": "offer water from the fingertips", "meaning": "I satisfy Āditya, the Sun." },
-      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "somaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Soma, the Moon." },
-      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "aṅgārakaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Aṅgāraka, Mars." },
-      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "budhaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Budha, Mercury." },
-      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "bṛhaspatiṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Bṛhaspati, Jupiter." },
-      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "śukraṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Śukra, Venus." },
-      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "śanaiścaraṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Śanaiścara, Saturn." },
-      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "rāhuṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Rāhu." },
-      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "ketuṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Ketu." },
-      { "kind": "mantra", "text": { "iast": "keśavaṃ tarpayāmi |" }, "action": "pour water into the joined palms, recite, let it flow through the fingers", "meaning": "I satisfy Keśava." },
-      { "kind": "mantra", "text": { "iast": "nārāyaṇaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Nārāyaṇa." },
-      { "kind": "mantra", "text": { "iast": "mādhavaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Mādhava." },
-      { "kind": "mantra", "text": { "iast": "govindaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Govinda." },
-      { "kind": "mantra", "text": { "iast": "viṣṇuṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Viṣṇu." },
-      { "kind": "mantra", "text": { "iast": "madhusūdanaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Madhusūdana." },
-      { "kind": "mantra", "text": { "iast": "trivikramaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Trivikrama." },
-      { "kind": "mantra", "text": { "iast": "vāmanaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Vāmana." },
-      { "kind": "mantra", "text": { "iast": "śrīdharaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Śrīdhara." },
-      { "kind": "mantra", "text": { "iast": "hṛṣīkeśaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Hṛṣīkeśa." },
-      { "kind": "mantra", "text": { "iast": "padmanābhaṃ tarpayāmi |" }, "action": "offer water", "meaning": "I satisfy Padmanābha." },
-      { "kind": "mantra", "text": { "iast": "dāmodaraṃ tarpayāmi ||" }, "action": "offer water", "meaning": "I satisfy Dāmodara. (The twelve names are the forms of Viṣṇu presiding over the twelve months.)" },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "ādityaṃ tarpayāmi |"
+        },
+        "action": "offer water from the fingertips",
+        "meaning": "I satisfy Āditya, the Sun."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "somaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Soma, the Moon."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "aṅgārakaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Aṅgāraka, Mars."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "budhaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Budha, Mercury."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "bṛhaspatiṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Bṛhaspati, Jupiter."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "śukraṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Śukra, Venus."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "śanaiścaraṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Śanaiścara, Saturn."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "rāhuṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Rāhu."
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "ketuṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Ketu."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "keśavaṃ tarpayāmi |"
+        },
+        "action": "pour water into the joined palms, recite, let it flow through the fingers",
+        "meaning": "I satisfy Keśava."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "nārāyaṇaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Nārāyaṇa."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "mādhavaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Mādhava."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "govindaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Govinda."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "viṣṇuṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Viṣṇu."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "madhusūdanaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Madhusūdana."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "trivikramaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Trivikrama."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "vāmanaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Vāmana."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "śrīdharaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Śrīdhara."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "hṛṣīkeśaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Hṛṣīkeśa."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "padmanābhaṃ tarpayāmi |"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Padmanābha."
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "dāmodaraṃ tarpayāmi ||"
+        },
+        "action": "offer water",
+        "meaning": "I satisfy Dāmodara. (The twelve names are the forms of Viṣṇu presiding over the twelve months.)"
+      },
       {
         "kind": "note",
         "text": "Then perform ācamanam (three sips and the twelve names)."
       },
       {
         "kind": "mantra",
-        "tradition": ["smarta"],
-        "text": { "iast": "oṃ tat sat brahmārpaṇam astu ||" },
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "oṃ tat sat brahmārpaṇam astu ||"
+        },
         "action": "one more offering of water from the palm",
         "meaning": "Om, That is the Truth — may this be an offering to Brahman."
       }
@@ -565,36 +1015,57 @@
   },
   {
     "id": "asanam",
-    "title": { "sa": "Japasthala prokṣaṇam · Āsanam", "en": "Sprinkling the place of japa; the seat mantra" },
+    "title": {
+      "sa": "Japasthala prokṣaṇam · Āsanam",
+      "en": "Sprinkling the place of japa; the seat mantra"
+    },
     "section": "purvanga",
-    "facing": { "pratah": "east", "madhyahnika": "east", "sayam": "west" },
-    "intro": "Sprinkle a little water on a clean spot for the japa with *oṃ bhūr bhuvas suvaḥ*. Sit (Kidambi: stand) in the sprinkled area facing east — west in the evening — and touch the ground. Nyāsa (head – nose – heart – añjali), then recite the seat mantra with hands in añjali. The Kaalai Smārta text adds a prayer to the earth to clear the spot of obstructing beings.",
-    "sources": ["sandhya.pdf p8", "Kidambi p33–34, p65–66, p97–98", "Kaalai p5–6"],
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "west"
+    },
+    "intro": "Sprinkle a little water on a clean spot for the japa with *oṃ bhūr bhuvas suvaḥ*. Stand in the sprinkled area facing east — west in the evening. Nyāsa (head – nose – heart – añjali), then recite the seat mantra with hands in añjali. Some Smārtas first add a prayer to the earth to clear the spot of obstructing beings.",
+    "sources": [
+      "sandhya.pdf p8",
+      "Kidambi p33–34, p65–66, p97–98",
+      "Kaalai p5–6"
+    ],
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūr bhuva̱s suva̍ḥ |" },
+        "text": {
+          "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |"
+        },
         "action": "sprinkle water on the place where you will sit for japa",
         "meaning": "Om, earth, atmosphere, heaven."
       },
       {
         "kind": "mantra",
-        "tradition": ["smarta"],
+        "tradition": [
+          "smarta"
+        ],
         "optional": true,
-        "text": { "iast": "apasarpantu te bhūtā ye bhūtā bhūmisaṃsthitāḥ |\nye bhūtā vighnakartāras te gacchantu śivājñayā ||" },
-        "action": "bhūmi prārthanā (Kaalai): meditate while reciting",
+        "text": {
+          "iast": "apasarpantu te bhūtā ye bhūtā bhūmisaṃsthitāḥ |\nye bhūtā vighnakartāras te gacchantu śivājñayā ||"
+        },
+        "action": "bhūmi prārthanā: meditate while reciting",
         "meaning": "May the beings that dwell on this ground move away; may those beings that cause obstacles depart by the command of Śiva."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "āsana mantrasya pṛthivyā merupṛṣṭha ṛṣiḥ | sutalaṃ chandaḥ | śrī kūrmo devatā | āsane viniyogaḥ ||" },
+        "text": {
+          "iast": "āsana mantrasya pṛthivyā merupṛṣṭha ṛṣiḥ | sutalaṃ chandaḥ | śrī kūrmo devatā | āsane viniyogaḥ ||"
+        },
         "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
         "meaning": "Of the seat mantra, Merupṛṣṭha (the back of Mount Meru, addressed to Pṛthivī) is the seer, sutala the metre, Śrī Kūrma (the Tortoise) the deity; it is applied for the seat."
       },
       {
         "kind": "mantra",
-        "text": { "iast": "pṛthvi tvayā dhṛtā lokā devi tvaṃ viṣṇunā dhṛtā |\ntvaṃ ca dhāraya māṃ devi pavitraṃ kuru cāsanam ||" },
-        "action": "hands in añjali; touch the ground",
+        "text": {
+          "iast": "pṛthvi tvayā dhṛtā lokā devi tvaṃ viṣṇunā dhṛtā |\ntvaṃ ca dhāraya māṃ devi pavitraṃ kuru cāsanam ||"
+        },
+        "action": "hands in añjali",
         "meaning": "O Mother Earth, by you the worlds are supported, and you, O Goddess, are supported by Viṣṇu. Support me too, O Goddess, and purify this seat."
       }
     ]

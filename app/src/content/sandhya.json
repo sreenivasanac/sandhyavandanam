@@ -13,7 +13,7 @@
         "madhyahnika": "east",
         "sayam": "east"
       },
-      "intro": "Having bathed and worn a clean dhoti, sit or squat in kukkuṭāsana facing east, with a small vessel of water and an uddharaṇi (spoon). Fold the right palm so that the little, ring and middle fingers are stretched and the index finger is bent inwards, forming a hollow; pour a small amount of water into it and swallow (do not sip) from the brāhma-tīrtha (base of the thumb) with each of the three names, for the purification of body, speech and mind. Then wash the right hand, wipe the lips with the right thumb from right to left, and wash the hand again. Direction: all sources face east in the morning; at noon Kidambi and the Mumbai Smārta text face east while sandhya.pdf says north; in the evening Kidambi and Chakravarthy face east until arghya-pradānam and west thereafter, sandhya.pdf faces west throughout and the Mumbai Smārta text north.",
+      "intro": "Having bathed and worn a clean dhoti, sit or squat in kukkuṭāsana facing east, with a small vessel of water and an uddharaṇi (spoon). Fold the right palm so that the little, ring and middle fingers are stretched and the index finger is bent inwards, forming a hollow; pour a small amount of water into it and swallow (do not sip) from the brāhma-tīrtha (base of the thumb) with each of the three names, for the purification of body, speech and mind. Then wash the right hand, wipe the lips with the right thumb from right to left, and wash the hand again. Direction: face east in the morning and at noon; in the evening face east until arghya-pradānam and west thereafter (Kidambi, Chakravarthy).",
       "sources": [
         "sandhya.pdf p3",
         "Kidambi p19–20",
@@ -312,12 +312,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||",
-            "devanagari": "ॐ भूः । ॐ भुवः । ओगुं सुवः । ॐ महः । ॐ जनः । ॐ तपः । ओगुं स॒त्यम् ।\nॐ तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥\nॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स् सुव॒रोम् ॥",
-            "tamil": "ௐ பூ⁴ஃ । ௐ பு⁴வஃ । ஓகு³ம் ஸுவஃ । ௐ மஹஃ । ௐ ஜனஃ । ௐ தபஃ । ஓகு³ம் ஸ॒த்யம் ।\nௐ தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥\nௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॒ரோம் ॥",
-            "kannada": "ಓಂ ಭೂಃ । ಓಂ ಭುವಃ । ಓಗುಂ ಸುವಃ । ಓಂ ಮಹಃ । ಓಂ ಜನಃ । ಓಂ ತಪಃ । ಓಗುಂ ಸ॒ತ್ಯಂ ।\nಓಂ ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥\nಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ ಸುವ॒ರೋಂ ॥",
-            "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్ సువ॒రోం ॥",
-            "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ് സുവ॒രോം ॥"
+            "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||",
+            "devanagari": "ॐ भूः । ॐ भुवः । ओगुं सुवः । ॐ महः । ॐ जनः । ॐ तपः । ओगुं स॒त्यम् ।\nॐ तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥\nॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स्सुव॒रोम् ॥",
+            "tamil": "ௐ பூ⁴ஃ । ௐ பு⁴வஃ । ஓகு³ம் ஸுவஃ । ௐ மஹஃ । ௐ ஜனஃ । ௐ தபஃ । ஓகு³ம் ஸ॒த்யம் ।\nௐ தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥\nௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॒ரோம் ॥",
+            "kannada": "ಓಂ ಭೂಃ । ಓಂ ಭುವಃ । ಓಗುಂ ಸುವಃ । ಓಂ ಮಹಃ । ಓಂ ಜನಃ । ಓಂ ತಪಃ । ಓಗುಂ ಸ॒ತ್ಯಂ ।\nಓಂ ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥\nಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ಸುವ॒ರೋಂ ॥",
+            "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్సువ॒రోం ॥",
+            "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
           "repeat": 3,
           "action": "recite mentally while holding the breath (three prāṇāyāmas)",
@@ -352,24 +352,14 @@
             "smarta"
           ],
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {panchanga}{kala} sandhyām upāsiṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {panchanga}{kala} सन्ध्याम् उपासिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {panchanga}{kala} ஸந்த்⁴யாம் உபாஸிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {panchanga}{kala} ಸಂಧ್ಯಾಂ ಉಪಾಸಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {panchanga}{kala} సంధ్యాం ఉపాసిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {panchanga}{kala} സന്ധ്യാം ഉപാസിഷ്യേ ॥"
+            "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {panchanga}{kala} sandhyām upāsiṣye ||",
+            "devanagari": "ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {panchanga}{kala} सन्ध्याम् उपासिष्ये ॥",
+            "tamil": "மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {panchanga}{kala} ஸந்த்⁴யாம் உபாஸிஷ்யே ॥",
+            "kannada": "ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {panchanga}{kala} ಸಂಧ್ಯಾಂ ಉಪಾಸಿಷ್ಯೇ ॥",
+            "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {panchanga}{kala} సంధ్యాం ఉపాసిష్యే ॥",
+            "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {panchanga}{kala} സന്ധ്യാം ഉപാസിഷ്യേ ॥"
           },
-          "meaning": "Hari, Om, That is the Truth. Govinda, Govinda, Govinda. For the destruction of all the sins I have accumulated and to please the Supreme Lord, I now perform my {kalaEn} sandhyā worship."
-        },
-        {
-          "kind": "note",
-          "tradition": [
-            "smarta"
-          ],
-          "kala": [
-            "madhyahnika"
-          ],
-          "text": "The Mumbai Smārta text words the noon saṅkalpa as *…prītyarthaṃ mādhyāhnikaṃ kariṣye*."
+          "meaning": "For the destruction of all the sins I have accumulated and to please the Supreme Lord, I now perform my {kalaEn} sandhyā worship."
         },
         {
           "kind": "mantra",
@@ -377,21 +367,14 @@
             "srivaishnava"
           ],
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {panchanga}{kala} sandhyām upāsiṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {panchanga}{kala} सन्ध्याम् उपासिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {panchanga}{kala} ஸந்த்⁴யாம் உபாஸிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {panchanga}{kala} ಸಂಧ್ಯಾಂ ಉಪಾಸಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {panchanga}{kala} సంధ్యాం ఉపాసిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {panchanga}{kala} സന്ധ്യാം ഉപാസിഷ്യേ ॥"
+            "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {panchanga}{kala} sandhyām upāsiṣye ||",
+            "devanagari": "श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {panchanga}{kala} सन्ध्याम् उपासिष्ये ॥",
+            "tamil": "ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {panchanga}{kala} ஸந்த்⁴யாம் உபாஸிஷ்யே ॥",
+            "kannada": "ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {panchanga}{kala} ಸಂಧ್ಯಾಂ ಉಪಾಸಿಷ್ಯೇ ॥",
+            "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {panchanga}{kala} సంధ్యాం ఉపాసిష్యే ॥",
+            "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {panchanga}{kala} സന്ധ്യാം ഉപാസിഷ്യേ ॥"
           },
-          "meaning": "Hari, Om, That is the Truth. Govinda, Govinda, Govinda. By the command of the Lord and to please Śrīman Nārāyaṇa, I now perform my {kalaEn} sandhyā worship."
-        },
-        {
-          "kind": "note",
-          "tradition": [
-            "srivaishnava"
-          ],
-          "text": "sandhya.pdf gives the Vaiṣṇava saṅkalpa as *bhagavad ājñayā bhagavat kaiṅkarya rūpaṃ {kala} sandhyām upāsiṣye* (as service to Him); some combine both: *śrī bhagavadājñayā bhagavat kaiṅkarya rūpaṃ śrīmannārāyaṇa prītyarthaṃ*."
+          "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now perform my {kalaEn} sandhyā worship."
         }
       ]
     },
@@ -423,10 +406,6 @@
           },
           "action": "hands in añjali",
           "meaning": "The Lord Himself — the Supreme Person, the master of all, the consort of Śrī — through this self as agent, whose nature, existence and activity are controlled by Him and whose sole delight is being His servant, and with instruments that are His own, for the sole purpose of His own worship, Himself causes this act called the {kalaEn} sandhyāvandanam, which belongs to Him, to be performed for His own sake and for His own pleasure."
-        },
-        {
-          "kind": "note",
-          "text": "Chakravarthy's wording begins *oṃ bhagavāneva…* and reads *svaśeṣataika rasena mayā svakīyaiśca upakaraṇaiḥ … karma bhagavān svasmai svaprītaye svayameva kārayati*."
         }
       ]
     },
@@ -438,7 +417,7 @@
       },
       "section": "purvanga",
       "optional": true,
-      "intro": "If the ūrdhva-puṇḍram or tilakam was not applied after the bath, apply it now: dip the ring finger (sandhya.pdf: middle finger) in water from the vessel, trace *oṃ keśavāya namaḥ* on the water, and apply the mark to the middle of the forehead while reciting.",
+      "intro": "If the ūrdhva-puṇḍram or tilakam was not applied after the bath, apply it now: dip the ring finger in water from the vessel, trace *oṃ keśavāya namaḥ* on the water, and apply the mark to the middle of the forehead while reciting.",
       "sources": [
         "sandhya.pdf p5",
         "Sandhyavandanam.pdf p4",
@@ -467,7 +446,7 @@
         "en": "Sprinkling of water"
       },
       "section": "purvanga",
-      "intro": "Hold the vessel in the left hand; take a little water in the right palm (or on the ring finger from the uddharaṇi) and sprinkle it on the head with the fingers of the right hand, once with each line. Nyāsa first: touch the top of the head while naming the ṛṣi, the tip of the nose for the chandas, the heart for the devatā, and join the palms in añjali for the viniyoga (Kidambi, Chakravarthy; the srimatham, Mumbai and Kaalai Smārta texts omit the nyāsa).",
+      "intro": "Hold the vessel in the left hand; take a little water in the right palm (or on the ring finger from the uddharaṇi) and sprinkle it on the head with the fingers of the right hand, once with each line. Nyāsa first: touch the top of the head while naming the ṛṣi, the tip of the nose for the chandas, the heart for the devatā, and join the palms in añjali for the viniyoga (Kidambi, Chakravarthy).",
       "sources": [
         "sandhya.pdf p5",
         "Kidambi p23–25",
@@ -495,12 +474,12 @@
             "srivaishnava"
           ],
           "text": {
-            "iast": "oṃ bhūr bhuva̱s suva̍ḥ |\ntat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi |\ndhiyo̱ yo na̍ḥ praco̱dayā̎t ||",
-            "devanagari": "ॐ भूर् भुव॒स् सुवः॑ ।\nतत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि ।\nधियो॒ यो नः॑ प्रचो॒दया᳚त् ॥",
-            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॑ஃ ।\nதத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி ।\nதி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥",
-            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ ಸುವಃ॑ ।\nತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ ।\nಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥",
-            "telugu": "ఓం భూర్ భువ॒స్ సువః॑ ।\nతత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి ।\nధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥",
-            "malayalam": "ഓം ഭൂർ ഭുവ॒സ് സുവഃ॑ ।\nതത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി ।\nധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥"
+            "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |\ntat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi |\ndhiyo̱ yo na̍ḥ praco̱dayā̎t ||",
+            "devanagari": "ॐ भूर् भुव॒स्सुवः॑ ।\nतत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि ।\nधियो॒ यो नः॑ प्रचो॒दया᳚त् ॥",
+            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॑ஃ ।\nதத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி ।\nதி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥",
+            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ಸುವಃ॑ ।\nತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ ।\nಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥",
+            "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।\nతత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి ।\nధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥",
+            "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।\nതത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി ।\nധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥"
           },
           "action": "prelude (Kidambi): sprinkle on the head three times, once with each line",
           "meaning": "Om, earth, atmosphere, heaven. May we meditate upon that adorable light of the divine Savitṛ; may He impel our thoughts."
@@ -508,12 +487,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍ś śi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |",
-            "devanagari": "आपो॒ हिष्ठा म॑यो॒ भुवः॑ । ता न॑ ऊ॒र्जे द॑धातन । म॒हे रणा॑य॒ चक्ष॑से ।\nयो व॑श् शि॒वत॑मो॒ रसः॑ । तस्य॑ भाजयते॒ह नः॑ । उ॒श॒तीरि॑व मा॒तरः॑ ।\nतस्मा॒ अर॑ङ्ग माम वः ।",
-            "tamil": "ஆபோ॒ ஹிஷ்டா² ம॑யோ॒ பு⁴வ॑ஃ । தா ந॑ ஊ॒ர்ஜே த॑³தா⁴தன । ம॒ஹே ரணா॑ய॒ சக்ஷ॑ஸே ।\nயோ வ॑ஶ் ஶி॒வத॑மோ॒ ரஸ॑ஃ । தஸ்ய॑ பா⁴ஜயதே॒ஹ ந॑ஃ । உ॒ஶ॒தீரி॑வ மா॒தர॑ஃ ।\nதஸ்மா॒ அர॑ங்க³ மாம வஃ ।",
-            "kannada": "ಆಪೋ॒ ಹಿಷ್ಠಾ ಮ॑ಯೋ॒ ಭುವಃ॑ । ತಾ ನ॑ ಊ॒ರ್ಜೇ ದ॑ಧಾತನ । ಮ॒ಹೇ ರಣಾ॑ಯ॒ ಚಕ್ಷ॑ಸೇ ।\nಯೋ ವ॑ಶ್ ಶಿ॒ವತ॑ಮೋ॒ ರಸಃ॑ । ತಸ್ಯ॑ ಭಾಜಯತೇ॒ಹ ನಃ॑ । ಉ॒ಶ॒ತೀರಿ॑ವ ಮಾ॒ತರಃ॑ ।\nತಸ್ಮಾ॒ ಅರಂ॑ಗ ಮಾಮ ವಃ ।",
-            "telugu": "ఆపో॒ హిష్ఠా మ॑యో॒ భువః॑ । తా న॑ ఊ॒ర్జే ద॑ధాతన । మ॒హే రణా॑య॒ చక్ష॑సే ।\nయో వ॑శ్ శి॒వత॑మో॒ రసః॑ । తస్య॑ భాజయతే॒హ నః॑ । ఉ॒శ॒తీరి॑వ మా॒తరః॑ ।\nతస్మా॒ అరం॑గ మామ వః ।",
-            "malayalam": "ആപോ॒ ഹിഷ്ഠാ മ॑യോ॒ ഭുവഃ॑ । താ ന॑ ഊ॒ർജേ ദ॑ധാതന । മ॒ഹേ രണാ॑യ॒ ചക്ഷ॑സേ ।\nയോ വ॑ശ് ശി॒വത॑മോ॒ രസഃ॑ । തസ്യ॑ ഭാജയതേ॒ഹ നഃ॑ । ഉ॒ശ॒തീരി॑വ മാ॒തരഃ॑ ।\nതസ്മാ॒ അരം॑ഗ മാമ വഃ ।"
+            "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍śśi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |",
+            "devanagari": "आपो॒ हिष्ठा म॑यो॒ भुवः॑ । ता न॑ ऊ॒र्जे द॑धातन । म॒हे रणा॑य॒ चक्ष॑से ।\nयो व॑श्शि॒वत॑मो॒ रसः॑ । तस्य॑ भाजयते॒ह नः॑ । उ॒श॒तीरि॑व मा॒तरः॑ ।\nतस्मा॒ अर॑ङ्ग माम वः ।",
+            "tamil": "ஆபோ॒ ஹிஷ்டா² ம॑யோ॒ பு⁴வ॑ஃ । தா ந॑ ஊ॒ர்ஜே த॑³தா⁴தன । ம॒ஹே ரணா॑ய॒ சக்ஷ॑ஸே ।\nயோ வ॑ஶ்ஶி॒வத॑மோ॒ ரஸ॑ஃ । தஸ்ய॑ பா⁴ஜயதே॒ஹ ந॑ஃ । உ॒ஶ॒தீரி॑வ மா॒தர॑ஃ ।\nதஸ்மா॒ அர॑ங்க³ மாம வஃ ।",
+            "kannada": "ಆಪೋ॒ ಹಿಷ್ಠಾ ಮ॑ಯೋ॒ ಭುವಃ॑ । ತಾ ನ॑ ಊ॒ರ್ಜೇ ದ॑ಧಾತನ । ಮ॒ಹೇ ರಣಾ॑ಯ॒ ಚಕ್ಷ॑ಸೇ ।\nಯೋ ವ॑ಶ್ಶಿ॒ವತ॑ಮೋ॒ ರಸಃ॑ । ತಸ್ಯ॑ ಭಾಜಯತೇ॒ಹ ನಃ॑ । ಉ॒ಶ॒ತೀರಿ॑ವ ಮಾ॒ತರಃ॑ ।\nತಸ್ಮಾ॒ ಅರಂ॑ಗ ಮಾಮ ವಃ ।",
+            "telugu": "ఆపో॒ హిష్ఠా మ॑యో॒ భువః॑ । తా న॑ ఊ॒ర్జే ద॑ధాతన । మ॒హే రణా॑య॒ చక్ష॑సే ।\nయో వ॑శ్శి॒వత॑మో॒ రసః॑ । తస్య॑ భాజయతే॒హ నః॑ । ఉ॒శ॒తీరి॑వ మా॒తరః॑ ।\nతస్మా॒ అరం॑గ మామ వః ।",
+            "malayalam": "ആപോ॒ ഹിഷ്ഠാ മ॑യോ॒ ഭുവഃ॑ । താ ന॑ ഊ॒ർജേ ദ॑ധാതന । മ॒ഹേ രണാ॑യ॒ ചക്ഷ॑സേ ।\nയോ വ॑ശ്ശി॒വത॑മോ॒ രസഃ॑ । തസ്യ॑ ഭാജയതേ॒ഹ നഃ॑ । ഉ॒ശ॒തീരി॑വ മാ॒തരഃ॑ ।\nതസ്മാ॒ അരം॑ഗ മാമ വഃ ।"
           },
           "action": "sprinkle on the head once with each of these seven lines",
           "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like mothers in their tender love. To Him we come gladly, (to whose abode you lead us)."
@@ -528,7 +507,7 @@
             "telugu": "యస్య॒ క్షయా॑య॒ జిన్వ॑థ ।",
             "malayalam": "യസ്യ॒ ക്ഷയാ॑യ॒ ജിന്വ॑ഥ ।"
           },
-          "action": "sprinkle on the feet (Kidambi: knees; Chakravarthy: big toes)",
+          "action": "sprinkle on the big toes",
           "meaning": "…for whose abode you quicken us."
         },
         {
@@ -547,12 +526,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūr bhuva̱s suva̍ḥ |",
-            "devanagari": "ॐ भूर् भुव॒स् सुवः॑ ।",
-            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॑ஃ ।",
-            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ ಸುವಃ॑ ।",
-            "telugu": "ఓం భూర్ భువ॒స్ సువః॑ ।",
-            "malayalam": "ഓം ഭൂർ ഭുവ॒സ് സുവഃ॑ ।"
+            "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |",
+            "devanagari": "ॐ भूर् भुव॒स्सुवः॑ ।",
+            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॑ஃ ।",
+            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ಸುವಃ॑ ।",
+            "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।",
+            "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।"
           },
           "action": "take a little water in the palm and circle it around the head clockwise, sprinkling it around yourself",
           "meaning": "Om, earth, atmosphere, heaven."
@@ -722,12 +701,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍ś śi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |",
-            "devanagari": "आपो॒ हिष्ठा म॑यो॒ भुवः॑ । ता न॑ ऊ॒र्जे द॑धातन । म॒हे रणा॑य॒ चक्ष॑से ।\nयो व॑श् शि॒वत॑मो॒ रसः॑ । तस्य॑ भाजयते॒ह नः॑ । उ॒श॒तीरि॑व मा॒तरः॑ ।\nतस्मा॒ अर॑ङ्ग माम वः ।",
-            "tamil": "ஆபோ॒ ஹிஷ்டா² ம॑யோ॒ பு⁴வ॑ஃ । தா ந॑ ஊ॒ர்ஜே த॑³தா⁴தன । ம॒ஹே ரணா॑ய॒ சக்ஷ॑ஸே ।\nயோ வ॑ஶ் ஶி॒வத॑மோ॒ ரஸ॑ஃ । தஸ்ய॑ பா⁴ஜயதே॒ஹ ந॑ஃ । உ॒ஶ॒தீரி॑வ மா॒தர॑ஃ ।\nதஸ்மா॒ அர॑ங்க³ மாம வஃ ।",
-            "kannada": "ಆಪೋ॒ ಹಿಷ್ಠಾ ಮ॑ಯೋ॒ ಭುವಃ॑ । ತಾ ನ॑ ಊ॒ರ್ಜೇ ದ॑ಧಾತನ । ಮ॒ಹೇ ರಣಾ॑ಯ॒ ಚಕ್ಷ॑ಸೇ ।\nಯೋ ವ॑ಶ್ ಶಿ॒ವತ॑ಮೋ॒ ರಸಃ॑ । ತಸ್ಯ॑ ಭಾಜಯತೇ॒ಹ ನಃ॑ । ಉ॒ಶ॒ತೀರಿ॑ವ ಮಾ॒ತರಃ॑ ।\nತಸ್ಮಾ॒ ಅರಂ॑ಗ ಮಾಮ ವಃ ।",
-            "telugu": "ఆపో॒ హిష్ఠా మ॑యో॒ భువః॑ । తా న॑ ఊ॒ర్జే ద॑ధాతన । మ॒హే రణా॑య॒ చక్ష॑సే ।\nయో వ॑శ్ శి॒వత॑మో॒ రసః॑ । తస్య॑ భాజయతే॒హ నః॑ । ఉ॒శ॒తీరి॑వ మా॒తరః॑ ।\nతస్మా॒ అరం॑గ మామ వః ।",
-            "malayalam": "ആപോ॒ ഹിഷ്ഠാ മ॑യോ॒ ഭുവഃ॑ । താ ന॑ ഊ॒ർജേ ദ॑ധാതന । മ॒ഹേ രണാ॑യ॒ ചക്ഷ॑സേ ।\nയോ വ॑ശ് ശി॒വത॑മോ॒ രസഃ॑ । തസ്യ॑ ഭാജയതേ॒ഹ നഃ॑ । ഉ॒ശ॒തീരി॑വ മാ॒തരഃ॑ ।\nതസ്മാ॒ അരം॑ഗ മാമ വഃ ।"
+            "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍śśi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |",
+            "devanagari": "आपो॒ हिष्ठा म॑यो॒ भुवः॑ । ता न॑ ऊ॒र्जे द॑धातन । म॒हे रणा॑य॒ चक्ष॑से ।\nयो व॑श्शि॒वत॑मो॒ रसः॑ । तस्य॑ भाजयते॒ह नः॑ । उ॒श॒तीरि॑व मा॒तरः॑ ।\nतस्मा॒ अर॑ङ्ग माम वः ।",
+            "tamil": "ஆபோ॒ ஹிஷ்டா² ம॑யோ॒ பு⁴வ॑ஃ । தா ந॑ ஊ॒ர்ஜே த॑³தா⁴தன । ம॒ஹே ரணா॑ய॒ சக்ஷ॑ஸே ।\nயோ வ॑ஶ்ஶி॒வத॑மோ॒ ரஸ॑ஃ । தஸ்ய॑ பா⁴ஜயதே॒ஹ ந॑ஃ । உ॒ஶ॒தீரி॑வ மா॒தர॑ஃ ।\nதஸ்மா॒ அர॑ங்க³ மாம வஃ ।",
+            "kannada": "ಆಪೋ॒ ಹಿಷ್ಠಾ ಮ॑ಯೋ॒ ಭುವಃ॑ । ತಾ ನ॑ ಊ॒ರ್ಜೇ ದ॑ಧಾತನ । ಮ॒ಹೇ ರಣಾ॑ಯ॒ ಚಕ್ಷ॑ಸೇ ।\nಯೋ ವ॑ಶ್ಶಿ॒ವತ॑ಮೋ॒ ರಸಃ॑ । ತಸ್ಯ॑ ಭಾಜಯತೇ॒ಹ ನಃ॑ । ಉ॒ಶ॒ತೀರಿ॑ವ ಮಾ॒ತರಃ॑ ।\nತಸ್ಮಾ॒ ಅರಂ॑ಗ ಮಾಮ ವಃ ।",
+            "telugu": "ఆపో॒ హిష్ఠా మ॑యో॒ భువః॑ । తా న॑ ఊ॒ర్జే ద॑ధాతన । మ॒హే రణా॑య॒ చక్ష॑సే ।\nయో వ॑శ్శి॒వత॑మో॒ రసః॑ । తస్య॑ భాజయతే॒హ నః॑ । ఉ॒శ॒తీరి॑వ మా॒తరః॑ ।\nతస్మా॒ అరం॑గ మామ వః ।",
+            "malayalam": "ആപോ॒ ഹിഷ്ഠാ മ॑യോ॒ ഭുവഃ॑ । താ ന॑ ഊ॒ർജേ ദ॑ധാതന । മ॒ഹേ രണാ॑യ॒ ചക്ഷ॑സേ ।\nയോ വ॑ശ്ശി॒വത॑മോ॒ രസഃ॑ । തസ്യ॑ ഭാജയതേ॒ഹ നഃ॑ । ഉ॒ശ॒തീരി॑വ മാ॒തരഃ॑ ।\nതസ്മാ॒ അരം॑ഗ മാമ വഃ ।"
           },
           "action": "sprinkle on the head once with each of these seven lines",
           "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like mothers in their tender love. To Him we come gladly, (to whose abode you lead us)."
@@ -742,7 +721,7 @@
             "telugu": "యస్య॒ క్షయా॑య॒ జిన్వ॑థ ।",
             "malayalam": "യസ്യ॒ ക്ഷയാ॑യ॒ ജിന്വ॑ഥ ।"
           },
-          "action": "sprinkle on the feet (Kidambi: knees; Chakravarthy: big toes)",
+          "action": "sprinkle on the big toes",
           "meaning": "…for whose abode you quicken us."
         },
         {
@@ -761,12 +740,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūr bhuva̱s suva̍ḥ |",
-            "devanagari": "ॐ भूर् भुव॒स् सुवः॑ ।",
-            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॑ஃ ।",
-            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ ಸುವಃ॑ ।",
-            "telugu": "ఓం భూర్ భువ॒స్ సువః॑ ।",
-            "malayalam": "ഓം ഭൂർ ഭുവ॒സ് സുവഃ॑ ।"
+            "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |",
+            "devanagari": "ॐ भूर् भुव॒स्सुवः॑ ।",
+            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॑ஃ ।",
+            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ಸುವಃ॑ ।",
+            "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।",
+            "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।"
           },
           "action": "take a little water in the palm and circle it around the head clockwise, sprinkling it around yourself",
           "meaning": "Om, earth, atmosphere, heaven."
@@ -785,7 +764,7 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Perform prāṇāyāma (Chakravarthy: one round), touch the right ear, and take the saṅkalpa posture for the saṅkalpa; then nyāsa. Stand erect (morning and noon facing east; in the evening face west from now on) holding the vessel between the thumb and index finger of the left hand; join both palms facing upwards, pour water into the hollow of the joined palms and raise them to the level of the forehead. Recite the Gāyatrī aloud and, looking towards the sun and rising on the heels, release the water from the fingertips (deva-tīrtha) — thrown up towards the sun (Chakravarthy) or poured on the ground (sandhya.pdf); if standing in a river or tank, offer with cupped palms. Three libations in the morning and evening; at noon two (Mumbai Smārta text, Chakravarthy) — Kidambi gives one, noting a sampradāya of two. Chakravarthy: at noon standing or sitting; in the evening sitting.",
+      "intro": "Perform prāṇāyāma (Chakravarthy: one round), touch the right ear, and take the saṅkalpa posture for the saṅkalpa; then nyāsa. Stand erect (morning and noon facing east; in the evening face west from now on) holding the vessel between the thumb and index finger of the left hand; join both palms facing upwards, pour water into the hollow of the joined palms and raise them to the level of the forehead. Recite the Gāyatrī aloud and, looking towards the sun and rising on the heels, release the water from the fingertips (deva-tīrtha), thrown up towards the sun; if standing in a river or tank, offer with cupped palms. Three libations in the morning and evening; at noon one (Kidambi, who notes that some sampradāyas offer two). Chakravarthy: at noon standing or sitting; in the evening sitting.",
       "sources": [
         "sandhya.pdf p6–7",
         "Kidambi p28–29, p60–61, p92–93",
@@ -797,12 +776,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||",
-            "devanagari": "ॐ भूः । ॐ भुवः । ओगुं सुवः । ॐ महः । ॐ जनः । ॐ तपः । ओगुं स॒त्यम् ।\nॐ तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥\nॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स् सुव॒रोम् ॥",
-            "tamil": "ௐ பூ⁴ஃ । ௐ பு⁴வஃ । ஓகு³ம் ஸுவஃ । ௐ மஹஃ । ௐ ஜனஃ । ௐ தபஃ । ஓகு³ம் ஸ॒த்யம் ।\nௐ தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥\nௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॒ரோம் ॥",
-            "kannada": "ಓಂ ಭೂಃ । ಓಂ ಭುವಃ । ಓಗುಂ ಸುವಃ । ಓಂ ಮಹಃ । ಓಂ ಜನಃ । ಓಂ ತಪಃ । ಓಗುಂ ಸ॒ತ್ಯಂ ।\nಓಂ ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥\nಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ ಸುವ॒ರೋಂ ॥",
-            "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్ సువ॒రోం ॥",
-            "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ് സുവ॒രോം ॥"
+            "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||",
+            "devanagari": "ॐ भूः । ॐ भुवः । ओगुं सुवः । ॐ महः । ॐ जनः । ॐ तपः । ओगुं स॒त्यम् ।\nॐ तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥\nॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स्सुव॒रोम् ॥",
+            "tamil": "ௐ பூ⁴ஃ । ௐ பு⁴வஃ । ஓகு³ம் ஸுவஃ । ௐ மஹஃ । ௐ ஜனஃ । ௐ தபஃ । ஓகு³ம் ஸ॒த்யம் ।\nௐ தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥\nௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॒ரோம் ॥",
+            "kannada": "ಓಂ ಭೂಃ । ಓಂ ಭುವಃ । ಓಗುಂ ಸುವಃ । ಓಂ ಮಹಃ । ಓಂ ಜನಃ । ಓಂ ತಪಃ । ಓಗುಂ ಸ॒ತ್ಯಂ ।\nಓಂ ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥\nಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ಸುವ॒ರೋಂ ॥",
+            "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్సువ॒రోం ॥",
+            "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
           "action": "prāṇāyāma as before (recite mentally holding the breath); then touch the right ear and take the saṅkalpa posture",
           "meaning": "Om — the seven realms; may we meditate upon that adorable light of the divine Creator, may He impel our intellect; He is the waters, light, flavour, immortality, Brahman, pervading the three worlds — Om."
@@ -813,12 +792,12 @@
             "smarta"
           ],
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā sūryārghya pradānaṃ kariṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {kala} सन्ध्या सूर्यार्घ्य प्रदानं करिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா ஸூர்யார்க்⁴ய ப்ரதா³னம் கரிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಸೂರ್ಯಾರ್ಘ್ಯ ಪ್ರದಾನಂ ಕರಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యా సూర్యార్ఘ్య ప్రదానం కరిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ സൂര്യാർഘ്യ പ്രദാനം കരിഷ്യേ ॥"
+            "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā sūryārghya pradānaṃ kariṣye ||",
+            "devanagari": "ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {kala} सन्ध्या सूर्यार्घ्य प्रदानं करिष्ये ॥",
+            "tamil": "மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா ஸூர்யார்க்⁴ய ப்ரதா³னம் கரிஷ்யே ॥",
+            "kannada": "ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಸೂರ್ಯಾರ್ಘ್ಯ ಪ್ರದಾನಂ ಕರಿಷ್ಯೇ ॥",
+            "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యా సూర్యార్ఘ్య ప్రదానం కరిష్యే ॥",
+            "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ സൂര്യാർഘ്യ പ്രദാനം കരിഷ്യേ ॥"
           },
           "meaning": "For the destruction of all my sins and to please the Supreme Lord, I now offer the {kalaEn} sandhyā libations of water to the Sun."
         },
@@ -828,12 +807,12 @@
             "srivaishnava"
           ],
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā arghyapradānaṃ kariṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {kala} सन्ध्या अर्घ्यप्रदानं करिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா அர்க்⁴யப்ரதா³னம் கரிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಅರ್ಘ್ಯಪ್ರದಾನಂ ಕರಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా అర్ఘ్యప్రదానం కరిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ അർഘ്യപ്രദാനം കരിഷ്യേ ॥"
+            "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā arghyapradānaṃ kariṣye ||",
+            "devanagari": "श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {kala} सन्ध्या अर्घ्यप्रदानं करिष्ये ॥",
+            "tamil": "ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா அர்க்⁴யப்ரதா³னம் கரிஷ்யே ॥",
+            "kannada": "ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಅರ್ಘ್ಯಪ್ರದಾನಂ ಕರಿಷ್ಯೇ ॥",
+            "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా అర్ఘ్యప్రదానం కరిష్యే ॥",
+            "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ അർഘ്യപ്രദാനം കരിഷ്യേ ॥"
           },
           "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now offer the {kalaEn} sandhyā libations of water (to the Sun)."
         },
@@ -853,16 +832,16 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūr bhuva̱s suva̍ḥ | tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||",
-            "devanagari": "ॐ भूर् भुव॒स् सुवः॑ । तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥",
-            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॑ஃ । தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥",
-            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ ಸುವಃ॑ । ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥",
-            "telugu": "ఓం భూర్ భువ॒స్ సువః॑ । తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥",
-            "malayalam": "ഓം ഭൂർ ഭുവ॒സ് സുവഃ॑ । തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥"
+            "iast": "oṃ bhūr bhuva̱ssuva̍ḥ | tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||",
+            "devanagari": "ॐ भूर् भुव॒स्सुवः॑ । तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥",
+            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॑ஃ । தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥",
+            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ಸುವಃ॑ । ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥",
+            "telugu": "ఓం భూర్ భువ॒స్సువః॑ । తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥",
+            "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ । തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥"
           },
           "repeat": {
             "pratah": 3,
-            "madhyahnika": 2,
+            "madhyahnika": 1,
             "sayam": 3
           },
           "action": "stand, water in the joined palms raised to the forehead; recite, rise on the heels looking at the sun and release the water from the fingertips — once per libation",
@@ -879,7 +858,7 @@
             "telugu": "ఓం సూర్యాయ నమః । ఇదం అర్ఘ్యం ॥",
             "malayalam": "ഓം സൂര്യായ നമഃ । ഇദം അർഘ്യം ॥"
           },
-          "action": "sandhya.pdf adds this after each libation",
+          "action": "after each libation",
           "meaning": "Om, salutations to the Sun — this is the libation."
         }
       ],
@@ -911,12 +890,12 @@
             "smarta"
           ],
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā kālātīta prāyaścittārthaṃ turīyārghya pradānaṃ kariṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {kala} सन्ध्या कालातीत प्रायश्चित्तार्थं तुरीयार्घ्य प्रदानं करिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா காலாதீத ப்ராயஶ்சித்தார்த²ம் துரீயார்க்⁴ய ப்ரதா³னம் கரிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಕಾಲಾತೀತ ಪ್ರಾಯಶ್ಚಿತ್ತಾರ್ಥಂ ತುರೀಯಾರ್ಘ್ಯ ಪ್ರದಾನಂ ಕರಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యా కాలాతీత ప్రాయశ్చిత్తార్థం తురీయార్ఘ్య ప్రదానం కరిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ കാലാതീത പ്രായശ്ചിത്താർഥം തുരീയാർഘ്യ പ്രദാനം കരിഷ്യേ ॥"
+            "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā kālātīta prāyaścittārthaṃ turīyārghya pradānaṃ kariṣye ||",
+            "devanagari": "ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {kala} सन्ध्या कालातीत प्रायश्चित्तार्थं तुरीयार्घ्य प्रदानं करिष्ये ॥",
+            "tamil": "மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா காலாதீத ப்ராயஶ்சித்தார்த²ம் துரீயார்க்⁴ய ப்ரதா³னம் கரிஷ்யே ॥",
+            "kannada": "ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಕಾಲಾತೀತ ಪ್ರಾಯಶ್ಚಿತ್ತಾರ್ಥಂ ತುರೀಯಾರ್ಘ್ಯ ಪ್ರದಾನಂ ಕರಿಷ್ಯೇ ॥",
+            "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యా కాలాతీత ప్రాయశ్చిత్తార్థం తురీయార్ఘ్య ప్రదానం కరిష్యే ॥",
+            "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ കാലാതീത പ്രായശ്ചിത്താർഥം തുരീയാർഘ്യ പ്രദാനം കരിഷ്യേ ॥"
           },
           "meaning": "For the destruction of all my sins and to please the Supreme Lord, I now offer a fourth libation to the Sun to atone for performing my {kalaEn} sandhyā after the prescribed time."
         },
@@ -926,12 +905,12 @@
             "srivaishnava"
           ],
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā kālātīta doṣa prāyaścittārthaṃ turīya arghyapradānaṃ kariṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {kala} सन्ध्या कालातीत दोष प्रायश्चित्तार्थं तुरीय अर्घ्यप्रदानं करिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா காலாதீத தோ³ஷ ப்ராயஶ்சித்தார்த²ம் துரீய அர்க்⁴யப்ரதா³னம் கரிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಕಾಲಾತೀತ ದೋಷ ಪ್ರಾಯಶ್ಚಿತ್ತಾರ್ಥಂ ತುರೀಯ ಅರ್ಘ್ಯಪ್ರದಾನಂ ಕರಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా కాలాతీత దోష ప్రాయశ్చిత్తార్థం తురీయ అర్ఘ్యప్రదానం కరిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ കാലാതീത ദോഷ പ്രായശ്ചിത്താർഥം തുരീയ അർഘ്യപ്രദാനം കരിഷ്യേ ॥"
+            "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā kālātīta doṣa prāyaścittārthaṃ turīya arghyapradānaṃ kariṣye ||",
+            "devanagari": "श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {kala} सन्ध्या कालातीत दोष प्रायश्चित्तार्थं तुरीय अर्घ्यप्रदानं करिष्ये ॥",
+            "tamil": "ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா காலாதீத தோ³ஷ ப்ராயஶ்சித்தார்த²ம் துரீய அர்க்⁴யப்ரதா³னம் கரிஷ்யே ॥",
+            "kannada": "ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಕಾಲಾತೀತ ದೋಷ ಪ್ರಾಯಶ್ಚಿತ್ತಾರ್ಥಂ ತುರೀಯ ಅರ್ಘ್ಯಪ್ರದಾನಂ ಕರಿಷ್ಯೇ ॥",
+            "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా కాలాతీత దోష ప్రాయశ్చిత్తార్థం తురీయ అర్ఘ్యప్రదానం కరిష్యే ॥",
+            "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ കാലാതീത ദോഷ പ്രായശ്ചിത്താർഥം തുരീയ അർഘ്യപ്രദാനം കരിഷ്യേ ॥"
           },
           "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now offer a fourth libation to atone for the fault of performing my {kalaEn} sandhyā after the prescribed time."
         },
@@ -959,7 +938,7 @@
             "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ।\nഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ॥"
           },
           "repeat": 1,
-          "action": "offer the single extra libation with the vyāhṛtis, the Gāyatrī and the vyāhṛtis again (Kidambi, Chakravarthy); sandhya.pdf and the Mumbai text offer it with the Gāyatrī as before",
+          "action": "offer the single extra libation with the vyāhṛtis, the Gāyatrī and the vyāhṛtis again",
           "meaning": "Om — the seven realms. May we meditate upon that adorable light of the divine Savitṛ; may He impel our thoughts. Om — the seven realms."
         }
       ]
@@ -971,7 +950,7 @@
         "en": "Circling oneself; contemplation of the Sun as Brahman"
       },
       "section": "purvanga",
-      "intro": "Take a little water in the right palm and, reciting *oṃ bhūr bhuvas suvaḥ*, circle the hand around the head clockwise while turning yourself once clockwise on the spot, letting the water fall around you. Then, standing facing the sun with hands in añjali (Kaalai: after a prāṇāyāma), meditate on the Lord in the centre of the Sun and on the meaning of the sentence for a minute or two, eyes closed. Do not rush this.",
+      "intro": "Take a little water in the right palm and, reciting *oṃ bhūr bhuvas suvaḥ*, circle the hand around the head clockwise while turning yourself once clockwise on the spot, letting the water fall around you. Then, standing facing the sun with hands in añjali, meditate on the Lord in the centre of the Sun and on the meaning of the sentence for a minute or two, eyes closed. Do not rush this.",
       "sources": [
         "sandhya.pdf p7–8",
         "Kidambi p31, p63, p95",
@@ -983,12 +962,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūr bhuva̱s suva̍ḥ |",
-            "devanagari": "ॐ भूर् भुव॒स् सुवः॑ ।",
-            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॑ஃ ।",
-            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ ಸುವಃ॑ ।",
-            "telugu": "ఓం భూర్ భువ॒స్ సువః॑ ।",
-            "malayalam": "ഓം ഭൂർ ഭുവ॒സ് സുവഃ॑ ।"
+            "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |",
+            "devanagari": "ॐ भूर् भुव॒स्सुवः॑ ।",
+            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॑ஃ ।",
+            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ಸುವಃ॑ ।",
+            "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।",
+            "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।"
           },
           "action": "circle the water around the head clockwise while turning yourself clockwise (ātma-pradakṣiṇam)",
           "meaning": "Om, earth, atmosphere, heaven."
@@ -1443,7 +1422,7 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Sprinkle a little water on a clean spot for the japa with *oṃ bhūr bhuvas suvaḥ*. Sit (Kidambi: stand) in the sprinkled area facing east — west in the evening — and touch the ground. Nyāsa (head – nose – heart – añjali), then recite the seat mantra with hands in añjali. The Kaalai Smārta text adds a prayer to the earth to clear the spot of obstructing beings.",
+      "intro": "Sprinkle a little water on a clean spot for the japa with *oṃ bhūr bhuvas suvaḥ*. Stand in the sprinkled area facing east — west in the evening. Nyāsa (head – nose – heart – añjali), then recite the seat mantra with hands in añjali. Some Smārtas first add a prayer to the earth to clear the spot of obstructing beings.",
       "sources": [
         "sandhya.pdf p8",
         "Kidambi p33–34, p65–66, p97–98",
@@ -1453,12 +1432,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūr bhuva̱s suva̍ḥ |",
-            "devanagari": "ॐ भूर् भुव॒स् सुवः॑ ।",
-            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॑ஃ ।",
-            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ ಸುವಃ॑ ।",
-            "telugu": "ఓం భూర్ భువ॒స్ సువః॑ ।",
-            "malayalam": "ഓം ഭൂർ ഭുവ॒സ് സുവഃ॑ ।"
+            "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |",
+            "devanagari": "ॐ भूर् भुव॒स्सुवः॑ ।",
+            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॑ஃ ।",
+            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ಸುವಃ॑ ।",
+            "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।",
+            "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।"
           },
           "action": "sprinkle water on the place where you will sit for japa",
           "meaning": "Om, earth, atmosphere, heaven."
@@ -1477,7 +1456,7 @@
             "telugu": "అపసర్పంతు తే భూతా యే భూతా భూమిసంస్థితాః ।\nయే భూతా విఘ్నకర్తారస్ తే గచ్ఛంతు శివాజ్ఞయా ॥",
             "malayalam": "അപസർപന്തു തേ ഭൂതാ യേ ഭൂതാ ഭൂമിസംസ്ഥിതാഃ ।\nയേ ഭൂതാ വിഘ്നകർതാരസ് തേ ഗച്ഛന്തു ശിവാജ്ഞയാ ॥"
           },
-          "action": "bhūmi prārthanā (Kaalai): meditate while reciting",
+          "action": "bhūmi prārthanā: meditate while reciting",
           "meaning": "May the beings that dwell on this ground move away; may those beings that cause obstacles depart by the command of Śiva."
         },
         {
@@ -1503,7 +1482,7 @@
             "telugu": "పృథ్వి త్వయా ధృతా లోకా దేవి త్వం విష్ణునా ధృతా ।\nత్వం చ ధారయ మాం దేవి పవిత్రం కురు చాసనం ॥",
             "malayalam": "പൃഥ്വി ത്വയാ ധൃതാ ലോകാ ദേവി ത്വം വിഷ്ണുനാ ധൃതാ ।\nത്വം ച ധാരയ മാം ദേവി പവിത്രം കുരു ചാസനം ॥"
           },
-          "action": "hands in añjali; touch the ground",
+          "action": "hands in añjali",
           "meaning": "O Mother Earth, by you the worlds are supported, and you, O Goddess, are supported by Viṣṇu. Support me too, O Goddess, and purify this seat."
         }
       ]
@@ -1580,7 +1559,7 @@
             "telugu": "శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజం ।\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే ॥",
             "malayalam": "ശുക്ലാംബരധരം വിഷ്ണും ശശിവർണം ചതുർഭുജം ।\nപ്രസന്നവദനം ധ്യായേത് സർവവിഘ്നോപശാന്തയേ ॥"
           },
-          "action": "gently tap the temples with the fists (some texts: five times, once after each word)",
+          "action": "gently tap the temples with the fists, five times, once after each phrase",
           "meaning": "The all-pervading Lord is to be meditated upon for the removal of obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced."
         }
       ]
@@ -1604,12 +1583,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||",
-            "devanagari": "ॐ भूः । ॐ भुवः । ओगुं सुवः । ॐ महः । ॐ जनः । ॐ तपः । ओगुं स॒त्यम् ।\nॐ तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥\nॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स् सुव॒रोम् ॥",
-            "tamil": "ௐ பூ⁴ஃ । ௐ பு⁴வஃ । ஓகு³ம் ஸுவஃ । ௐ மஹஃ । ௐ ஜனஃ । ௐ தபஃ । ஓகு³ம் ஸ॒த்யம் ।\nௐ தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥\nௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॒ரோம் ॥",
-            "kannada": "ಓಂ ಭೂಃ । ಓಂ ಭುವಃ । ಓಗುಂ ಸುವಃ । ಓಂ ಮಹಃ । ಓಂ ಜನಃ । ಓಂ ತಪಃ । ಓಗುಂ ಸ॒ತ್ಯಂ ।\nಓಂ ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥\nಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ ಸುವ॒ರೋಂ ॥",
-            "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్ సువ॒రోం ॥",
-            "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ് സുവ॒രോം ॥"
+            "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||",
+            "devanagari": "ॐ भूः । ॐ भुवः । ओगुं सुवः । ॐ महः । ॐ जनः । ॐ तपः । ओगुं स॒त्यम् ।\nॐ तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥\nॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स्सुव॒रोम् ॥",
+            "tamil": "ௐ பூ⁴ஃ । ௐ பு⁴வஃ । ஓகு³ம் ஸுவஃ । ௐ மஹஃ । ௐ ஜனஃ । ௐ தபஃ । ஓகு³ம் ஸ॒த்யம் ।\nௐ தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥\nௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॒ரோம் ॥",
+            "kannada": "ಓಂ ಭೂಃ । ಓಂ ಭುವಃ । ಓಗುಂ ಸುವಃ । ಓಂ ಮಹಃ । ಓಂ ಜನಃ । ಓಂ ತಪಃ । ಓಗುಂ ಸ॒ತ್ಯಂ ।\nಓಂ ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥\nಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ಸುವ॒ರೋಂ ॥",
+            "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్సువ॒రోం ॥",
+            "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
           "repeat": 3,
           "action": "prāṇāyāma, three rounds",
@@ -1621,12 +1600,12 @@
             "smarta"
           ],
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā {japaCount} vāraṃ gāyatrī mahāmantra japaṃ kariṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {kala} सन्ध्या {japaCount} वारं गायत्री महामन्त्र जपं करिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா {japaCount} வாரம் கா³யத்ரீ மஹாமந்த்ர ஜபம் கரிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ {japaCount} ವಾರಂ ಗಾಯತ್ರೀ ಮಹಾಮಂತ್ರ ಜಪಂ ಕರಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యా {japaCount} వారం గాయత్రీ మహామంత్ర జపం కరిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ {japaCount} വാരം ഗായത്രീ മഹാമന്ത്ര ജപം കരിഷ്യേ ॥"
+            "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā {japaCount} vāraṃ gāyatrī mahāmantra japaṃ kariṣye ||",
+            "devanagari": "ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {kala} सन्ध्या {japaCount} वारं गायत्री महामन्त्र जपं करिष्ये ॥",
+            "tamil": "மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா {japaCount} வாரம் கா³யத்ரீ மஹாமந்த்ர ஜபம் கரிஷ்யே ॥",
+            "kannada": "ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ {japaCount} ವಾರಂ ಗಾಯತ್ರೀ ಮಹಾಮಂತ್ರ ಜಪಂ ಕರಿಷ್ಯೇ ॥",
+            "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యా {japaCount} వారం గాయత్రీ మహామంత్ర జపం కరిష్యే ॥",
+            "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ {japaCount} വാരം ഗായത്രീ മഹാമന്ത്ര ജപം കരിഷ്യേ ॥"
           },
           "action": "saṅkalpa posture",
           "meaning": "For the absolution of all my sins and to invoke the grace of the Supreme Lord, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the great Gāyatrī mantra {japaCount} times."
@@ -1637,19 +1616,19 @@
             "srivaishnava"
           ],
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā {japaCount} vāraṃ gāyatrī mahāmantra japaṃ kariṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {kala} सन्ध्या {japaCount} वारं गायत्री महामन्त्र जपं करिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா {japaCount} வாரம் கா³யத்ரீ மஹாமந்த்ர ஜபம் கரிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ {japaCount} ವಾರಂ ಗಾಯತ್ರೀ ಮಹಾಮಂತ್ರ ಜಪಂ ಕರಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా {japaCount} వారం గాయత్రీ మహామంత్ర జపం కరిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ {japaCount} വാരം ഗായത്രീ മഹാമന്ത്ര ജപം കരിഷ്യേ ॥"
+            "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā {japaCount} vāraṃ gāyatrī mantra japaṃ kariṣye ||",
+            "devanagari": "श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {kala} सन्ध्या {japaCount} वारं गायत्री मन्त्र जपं करिष्ये ॥",
+            "tamil": "ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா {japaCount} வாரம் கா³யத்ரீ மந்த்ர ஜபம் கரிஷ்யே ॥",
+            "kannada": "ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ {japaCount} ವಾರಂ ಗಾಯತ್ರೀ ಮಂತ್ರ ಜಪಂ ಕರಿಷ್ಯೇ ॥",
+            "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా {japaCount} వారం గాయత్రీ మంత్ర జపం కరిష్యే ॥",
+            "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ {japaCount} വാരം ഗായത്രീ മന്ത്ര ജപം കരിഷ്യേ ॥"
           },
           "action": "saṅkalpa posture",
-          "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the great Gāyatrī mantra {japaCount} times."
+          "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the Gāyatrī mantra {japaCount} times."
         },
         {
           "kind": "note",
-          "text": "Say the count in Sanskrit: *aṣṭottara-śata-vāraṃ* (108), *aṣṭāviṃśati-vāraṃ* (28) or *daśa-vāraṃ* (10); Chakravarthy has *…saṅkhyayā* instead of *vāraṃ*. Conventional counts are 108, 28 or at least 10 (some also give 32 or 1008); one Smārta text prescribes 108 in the morning, 32 at noon and 64 in the evening. Set your count in Settings."
+          "text": "Say the count in Sanskrit: *aṣṭottara-śata-vāraṃ* (108), *aṣṭāviṃśati-vāraṃ* (28) or *daśa-vāraṃ* (10). Conventional counts are 108, 28 or at least 10 (Chakravarthy also lists 32 and 1008). Set your count in Settings."
         }
       ]
     },
@@ -1839,10 +1818,6 @@
           "meaning": "All of these are employed in prāṇāyāma."
         },
         {
-          "kind": "note",
-          "text": "Some Smārta texts omit the Gāyatrī-śiras nyāsa and treat it, with the three verses that follow, as optional (Chakravarthy); the Mumbai and Kaalai booklets stop after the vyāhṛti nyāsa."
-        },
-        {
           "kind": "mantra",
           "text": {
             "iast": "muktāvidruma hemanīla dhavalacchāyair mukhais trīkṣaṇaiḥ\nyuktām indukalā nibaddha makuṭāṃ tattvārtha varṇātmikām |\ngāyatrīṃ varadābhayāṃ kuśakaśaṃ śubhraṃ kapālaṃ guṇaṃ\nśaṅkhaṃ cakram athāravinda yugalaṃ hastair vahantīṃ bhaje ||",
@@ -1856,18 +1831,14 @@
           "meaning": "I worship Gāyatrī — whose five faces have the hues of pearl, coral, gold, sapphire and white, each with three eyes; whose crown is bound with the crescent moon; who is the very letters that embody the supreme truth; who bears in her hands the boon-gesture and the fear-dispelling gesture, kuśa grass and whip, a white skull, the noose, conch, discus and a pair of lotuses."
         },
         {
-          "kind": "note",
-          "text": "Kidambi reads *varadābhayāṃ kuśakaśaṃ*; other texts read *varadābhayāṅkuśakaśāṃ* (goad and whip)."
-        },
-        {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||",
-            "devanagari": "ॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स् सुव॒रोम् ॥",
-            "tamil": "ௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॒ரோம் ॥",
-            "kannada": "ಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ ಸುವ॒ರೋಂ ॥",
-            "telugu": "ఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్ సువ॒రోం ॥",
-            "malayalam": "ഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ് സുവ॒രോം ॥"
+            "iast": "oṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||",
+            "devanagari": "ॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स्सुव॒रोम् ॥",
+            "tamil": "ௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॒ரோம் ॥",
+            "kannada": "ಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ಸುವ॒ರೋಂ ॥",
+            "telugu": "ఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్సువ॒రోం ॥",
+            "malayalam": "ഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
           "action": "with both hands gently touch the body from head to foot (ātma-pariśuddhi)",
           "meaning": "Om is the waters, the light, the essence, the nectar of immortality, Brahman — earth, mid-region and heaven; Om."
@@ -1888,12 +1859,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||",
-            "devanagari": "ॐ भूः । ॐ भुवः । ओगुं सुवः । ॐ महः । ॐ जनः । ॐ तपः । ओगुं स॒त्यम् ।\nॐ तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥\nॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स् सुव॒रोम् ॥",
-            "tamil": "ௐ பூ⁴ஃ । ௐ பு⁴வஃ । ஓகு³ம் ஸுவஃ । ௐ மஹஃ । ௐ ஜனஃ । ௐ தபஃ । ஓகு³ம் ஸ॒த்யம் ।\nௐ தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥\nௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॒ரோம் ॥",
-            "kannada": "ಓಂ ಭೂಃ । ಓಂ ಭುವಃ । ಓಗುಂ ಸುವಃ । ಓಂ ಮಹಃ । ಓಂ ಜನಃ । ಓಂ ತಪಃ । ಓಗುಂ ಸ॒ತ್ಯಂ ।\nಓಂ ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥\nಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ ಸುವ॒ರೋಂ ॥",
-            "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్ సువ॒రోం ॥",
-            "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ് സുവ॒രോം ॥"
+            "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||",
+            "devanagari": "ॐ भूः । ॐ भुवः । ओगुं सुवः । ॐ महः । ॐ जनः । ॐ तपः । ओगुं स॒त्यम् ।\nॐ तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥\nॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स्सुव॒रोम् ॥",
+            "tamil": "ௐ பூ⁴ஃ । ௐ பு⁴வஃ । ஓகு³ம் ஸுவஃ । ௐ மஹஃ । ௐ ஜனஃ । ௐ தபஃ । ஓகு³ம் ஸ॒த்யம் ।\nௐ தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥\nௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॒ரோம் ॥",
+            "kannada": "ಓಂ ಭೂಃ । ಓಂ ಭುವಃ । ಓಗುಂ ಸುವಃ । ಓಂ ಮಹಃ । ಓಂ ಜನಃ । ಓಂ ತಪಃ । ಓಗುಂ ಸ॒ತ್ಯಂ ।\nಓಂ ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥\nಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ಸುವ॒ರೋಂ ॥",
+            "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్సువ॒రోం ॥",
+            "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
           "repeat": 3,
           "action": "prāṇāyāma, three rounds",
@@ -1901,7 +1872,7 @@
         },
         {
           "kind": "note",
-          "text": "It is also the practice to recite this prāṇāyāma mantra ten times (without breath-control) instead of performing prāṇāyāma three times (Kidambi; the Kaalai booklet prescribes ten prāṇāyāmas)."
+          "text": "It is also the practice to recite this prāṇāyāma mantra ten times (without breath-control) instead of performing prāṇāyāma three times (Kidambi)."
         }
       ]
     },
@@ -1989,12 +1960,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "ojo̍'si̱ saho̍'si̱ bala̍m asi̱ bhrājo̍'si de̱vānā̱ṃ dhāma̱ nāmā̍si̱ viśva̍m asi vi̱śvāyu̱s sarva̍m asi sa̱rvāyur abhibhūroṃ ||",
-            "devanagari": "ओजो᳚सि॒ सहो᳚सि॒ बल॑म् असि॒ भ्राजो᳚सि दे॒वानां॒ धाम॒ नामा॑सि॒ विश्व॑म् असि वि॒श्वायु॒स् सर्व॑म् असि स॒र्वायुर् अभिभूरों ॥",
-            "tamil": "ஓஜோ᳚ஸி॒ ஸஹோ᳚ஸி॒ ப³ல॑ம் அஸி॒ ப்⁴ராஜோ᳚ஸி தே॒³வானாம்॒ தா⁴ம॒ நாமா॑ஸி॒ விஶ்வ॑ம் அஸி வி॒ஶ்வாயு॒ஸ் ஸர்வ॑ம் அஸி ஸ॒ர்வாயுர் அபி⁴பூ⁴ரோம் ॥",
-            "kannada": "ಓಜೋ᳚ಸಿ॒ ಸಹೋ᳚ಸಿ॒ ಬಲಂ॑ ಅಸಿ॒ ಭ್ರಾಜೋ᳚ಸಿ ದೇ॒ವಾನಾಂ॒ ಧಾಮ॒ ನಾಮಾ॑ಸಿ॒ ವಿಶ್ವಂ॑ ಅಸಿ ವಿ॒ಶ್ವಾಯು॒ಸ್ ಸರ್ವಂ॑ ಅಸಿ ಸ॒ರ್ವಾಯುರ್ ಅಭಿಭೂರೋಂ ॥",
-            "telugu": "ఓజో᳚సి॒ సహో᳚సి॒ బలం॑ అసి॒ భ్రాజో᳚సి దే॒వానాం॒ ధామ॒ నామా॑సి॒ విశ్వం॑ అసి వి॒శ్వాయు॒స్ సర్వం॑ అసి స॒ర్వాయుర్ అభిభూరోం ॥",
-            "malayalam": "ഓജോ᳚സി॒ സഹോ᳚സി॒ ബലം॑ അസി॒ ഭ്രാജോ᳚സി ദേ॒വാനാം॒ ധാമ॒ നാമാ॑സി॒ വിശ്വം॑ അസി വി॒ശ്വായു॒സ് സർവം॑ അസി സ॒ർവായുർ അഭിഭൂരോം ॥"
+            "iast": "ojo̍'si̱ saho̍'si̱ bala̍m asi̱ bhrājo̍'si de̱vānā̱ṃ dhāma̱ nāmā̍si̱ viśva̍m asi vi̱śvāyu̱ssarva̍m asi sa̱rvāyur abhibhūroṃ ||",
+            "devanagari": "ओजो᳚सि॒ सहो᳚सि॒ बल॑म् असि॒ भ्राजो᳚सि दे॒वानां॒ धाम॒ नामा॑सि॒ विश्व॑म् असि वि॒श्वायु॒स्सर्व॑म् असि स॒र्वायुर् अभिभूरों ॥",
+            "tamil": "ஓஜோ᳚ஸி॒ ஸஹோ᳚ஸி॒ ப³ல॑ம் அஸி॒ ப்⁴ராஜோ᳚ஸி தே॒³வானாம்॒ தா⁴ம॒ நாமா॑ஸி॒ விஶ்வ॑ம் அஸி வி॒ஶ்வாயு॒ஸ்ஸர்வ॑ம் அஸி ஸ॒ர்வாயுர் அபி⁴பூ⁴ரோம் ॥",
+            "kannada": "ಓಜೋ᳚ಸಿ॒ ಸಹೋ᳚ಸಿ॒ ಬಲಂ॑ ಅಸಿ॒ ಭ್ರಾಜೋ᳚ಸಿ ದೇ॒ವಾನಾಂ॒ ಧಾಮ॒ ನಾಮಾ॑ಸಿ॒ ವಿಶ್ವಂ॑ ಅಸಿ ವಿ॒ಶ್ವಾಯು॒ಸ್ಸರ್ವಂ॑ ಅಸಿ ಸ॒ರ್ವಾಯುರ್ ಅಭಿಭೂರೋಂ ॥",
+            "telugu": "ఓజో᳚సి॒ సహో᳚సి॒ బలం॑ అసి॒ భ్రాజో᳚సి దే॒వానాం॒ ధామ॒ నామా॑సి॒ విశ్వం॑ అసి వి॒శ్వాయు॒స్సర్వం॑ అసి స॒ర్వాయుర్ అభిభూరోం ॥",
+            "malayalam": "ഓജോ᳚സി॒ സഹോ᳚സി॒ ബലം॑ അസി॒ ഭ്രാജോ᳚സി ദേ॒വാനാം॒ ധാമ॒ നാമാ॑സി॒ വിശ്വം॑ അസി വി॒ശ്വായു॒സ്സർവം॑ അസി സ॒ർവായുർ അഭിഭൂരോം ॥"
           },
           "action": "hands in añjali",
           "meaning": "You are vigour, you are might, you are strength, you are splendour; you are the abode and the name of the gods; you are the universe and the life of the universe; you are everything and the life of everything; you are the conqueror of all — Om. I invoke your presence in the form of the Praṇava."
@@ -2105,12 +2076,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "yo devas savitā'smākaṃ dhiyo dharmādi gocarāḥ |\nprerayet tasya yad bhargas tad vareṇyam upāsmahe ||",
-            "devanagari": "यो देवस् सविताऽस्माकं धियो धर्मादि गोचराः ।\nप्रेरयेत् तस्य यद् भर्गस् तद् वरेण्यम् उपास्महे ॥",
-            "tamil": "யோ தே³வஸ் ஸவிதா(அ)ஸ்மாகம் தி⁴யோ த⁴ர்மாதி³ கோ³சராஃ ।\nப்ரேரயேத் தஸ்ய யத்³ ப⁴ர்க³ஸ் தத்³ வரேண்யம் உபாஸ்மஹே ॥",
-            "kannada": "ಯೋ ದೇವಸ್ ಸವಿತಾಽಸ್ಮಾಕಂ ಧಿಯೋ ಧರ್ಮಾದಿ ಗೋಚರಾಃ ।\nಪ್ರೇರಯೇತ್ ತಸ್ಯ ಯದ್ ಭರ್ಗಸ್ ತದ್ ವರೇಣ್ಯಂ ಉಪಾಸ್ಮಹೇ ॥",
-            "telugu": "యో దేవస్ సవితాఽస్మాకం ధియో ధర్మాది గోచరాః ।\nప్రేరయేత్ తస్య యద్ భర్గస్ తద్ వరేణ్యం ఉపాస్మహే ॥",
-            "malayalam": "യോ ദേവസ് സവിതാഽസ്മാകം ധിയോ ധർമാദി ഗോചരാഃ ।\nപ്രേരയേത് തസ്യ യദ് ഭർഗസ് തദ് വരേണ്യം ഉപാസ്മഹേ ॥"
+            "iast": "yo devassavitā'smākaṃ dhiyo dharmādi gocarāḥ |\nprerayet tasya yad bhargas tad vareṇyam upāsmahe ||",
+            "devanagari": "यो देवस्सविताऽस्माकं धियो धर्मादि गोचराः ।\nप्रेरयेत् तस्य यद् भर्गस् तद् वरेण्यम् उपास्महे ॥",
+            "tamil": "யோ தே³வஸ்ஸவிதா(அ)ஸ்மாகம் தி⁴யோ த⁴ர்மாதி³ கோ³சராஃ ।\nப்ரேரயேத் தஸ்ய யத்³ ப⁴ர்க³ஸ் தத்³ வரேண்யம் உபாஸ்மஹே ॥",
+            "kannada": "ಯೋ ದೇವಸ್ಸವಿತಾಽಸ್ಮಾಕಂ ಧಿಯೋ ಧರ್ಮಾದಿ ಗೋಚರಾಃ ।\nಪ್ರೇರಯೇತ್ ತಸ್ಯ ಯದ್ ಭರ್ಗಸ್ ತದ್ ವರೇಣ್ಯಂ ಉಪಾಸ್ಮಹೇ ॥",
+            "telugu": "యో దేవస్సవితాఽస్మాకం ధియో ధర్మాది గోచరాః ।\nప్రేరయేత్ తస్య యద్ భర్గస్ తద్ వరేణ్యం ఉపాస్మహే ॥",
+            "malayalam": "യോ ദേവസ്സവിതാഽസ്മാകം ധിയോ ധർമാദി ഗോചരാഃ ।\nപ്രേരയേത് തസ്യ യദ് ഭർഗസ് തദ് വരേണ്യം ഉപാസ്മഹേ ॥"
           },
           "action": "hands in añjali",
           "meaning": "We contemplate that adorable light of the divine Savitā, who impels our thoughts towards dharma and the other aims of life."
@@ -2180,10 +2151,6 @@
           "meaning": "The metre is Devī Gāyatrī."
         },
         {
-          "kind": "note",
-          "text": "Some Smārta texts read *nicṛd-gāyatrī chandaḥ* here."
-        },
-        {
           "kind": "mantra",
           "text": {
             "iast": "savitā devatā |",
@@ -2212,7 +2179,7 @@
         {
           "kind": "note",
           "optional": true,
-          "text": "Kara-nyāsa and aṅga-nyāsa (sandhya.pdf; not in Kidambi or the Smārta booklets):"
+          "text": "Kara-nyāsa and aṅga-nyāsa (optional):"
         },
         {
           "kind": "mantra",
@@ -2374,24 +2341,24 @@
           "kind": "mantra",
           "optional": true,
           "text": {
-            "iast": "oṃ bhūr bhuvas suvarom iti digbandhaḥ ||",
-            "devanagari": "ॐ भूर् भुवस् सुवरोम् इति दिग्बन्धः ॥",
-            "tamil": "ௐ பூ⁴ர் பு⁴வஸ் ஸுவரோம் இதி தி³க்³ப³ந்த⁴ஃ ॥",
-            "kannada": "ಓಂ ಭೂರ್ ಭುವಸ್ ಸುವರೋಂ ಇತಿ ದಿಗ್ಬಂಧಃ ॥",
-            "telugu": "ఓం భూర్ భువస్ సువరోం ఇతి దిగ్బంధః ॥",
-            "malayalam": "ഓം ഭൂർ ഭുവസ് സുവരോം ഇതി ദിഗ്ബന്ധഃ ॥"
+            "iast": "oṃ bhūr bhuvassuvarom iti digbandhaḥ ||",
+            "devanagari": "ॐ भूर् भुवस्सुवरोम् इति दिग्बन्धः ॥",
+            "tamil": "ௐ பூ⁴ர் பு⁴வஸ்ஸுவரோம் இதி தி³க்³ப³ந்த⁴ஃ ॥",
+            "kannada": "ಓಂ ಭೂರ್ ಭುವಸ್ಸುವರೋಂ ಇತಿ ದಿಗ್ಬಂಧಃ ॥",
+            "telugu": "ఓం భూర్ భువస్సువరోం ఇతి దిగ్బంధః ॥",
+            "malayalam": "ഓം ഭൂർ ഭുവസ്സുവരോം ഇതി ദിഗ്ബന്ധഃ ॥"
           },
           "action": "snap the fingers in the eight directions around the head"
         },
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūr bhuva̱s suva̍ḥ | tat sa̍vi̱tur vare̎ṇya̱ṃ | bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||",
-            "devanagari": "ॐ भूर् भुव॒स् सुवः॑ । तत् स॑वि॒तुर् वरे᳚ण्यं॒ । भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥",
-            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॑ஃ । தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ । ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥",
-            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ ಸುವಃ॑ । ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ । ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥",
-            "telugu": "ఓం భూర్ భువ॒స్ సువః॑ । తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ । భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥",
-            "malayalam": "ഓം ഭൂർ ഭുവ॒സ് സുവഃ॑ । തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ । ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥"
+            "iast": "oṃ bhūr bhuva̱ssuva̍ḥ | tat sa̍vi̱tur vare̎ṇya̱ṃ | bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||",
+            "devanagari": "ॐ भूर् भुव॒स्सुवः॑ । तत् स॑वि॒तुर् वरे᳚ण्यं॒ । भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥",
+            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॑ஃ । தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ । ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥",
+            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ಸುವಃ॑ । ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ । ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥",
+            "telugu": "ఓం భూర్ భువ॒స్సువః॑ । తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ । భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥",
+            "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ । തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ । ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥"
           },
           "action": "recite {japaCount} times, silently, hands covered, counting on the finger-joints",
           "meaning": "Om. Earth, mid-region, heaven. We meditate upon that adorable light of the divine Savitā, the Creator; may He impel our intellect."
@@ -2423,15 +2390,15 @@
           "kind": "mantra",
           "optional": true,
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {japaCount} vāraṃ śrī aṣṭākṣara mahāmantra japaṃ kariṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {japaCount} वारं श्री अष्टाक्षर महामन्त्र जपं करिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {japaCount} வாரம் ஶ்ரீ அஷ்டாக்ஷர மஹாமந்த்ர ஜபம் கரிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {japaCount} ವಾರಂ ಶ್ರೀ ಅಷ್ಟಾಕ್ಷರ ಮಹಾಮಂತ್ರ ಜಪಂ ಕರಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {japaCount} వారం శ్రీ అష్టాక్షర మహామంత్ర జపం కరిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {japaCount} വാരം ശ്രീ അഷ്ടാക്ഷര മഹാമന്ത്ര ജപം കരിഷ്യേ ॥"
+            "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {japaCount} vāraṃ śrī aṣṭākṣara mantra japaṃ kariṣye ||",
+            "devanagari": "श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {japaCount} वारं श्री अष्टाक्षर मन्त्र जपं करिष्ये ॥",
+            "tamil": "ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {japaCount} வாரம் ஶ்ரீ அஷ்டாக்ஷர மந்த்ர ஜபம் கரிஷ்யே ॥",
+            "kannada": "ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {japaCount} ವಾರಂ ಶ್ರೀ ಅಷ್ಟಾಕ್ಷರ ಮಂತ್ರ ಜಪಂ ಕರಿಷ್ಯೇ ॥",
+            "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {japaCount} వారం శ్రీ అష్టాక్షర మంత్ర జపం కరిష్యే ॥",
+            "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {japaCount} വാരം ശ്രീ അഷ്ടാക്ഷര മന്ത്ര ജപം കരിഷ്യേ ॥"
           },
           "action": "saṅkalpa posture (Chakravarthy; Kidambi has no separate saṅkalpa)",
-          "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I perform the japa of the great eight-syllable mantra {japaCount} times."
+          "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I perform the japa of the eight-syllable mantra {japaCount} times."
         },
         {
           "kind": "mantra",
@@ -2515,7 +2482,7 @@
         "en": "Sending off Gāyatrī"
       },
       "section": "uttaranga",
-      "intro": "After the japa perform prāṇāyāma three times, take the saṅkalpa posture and resolve to perform the upasthānam. Then stand up (Smārta booklets: rise while touching the ground with the right ring finger, then stand erect), do the nyāsa and, with hands in añjali, recite *Uttame śikhare*, taking leave of the Goddess (udvāsana mudrā: open the joined palms outward).",
+      "intro": "After the japa perform prāṇāyāma three times, take the saṅkalpa posture and resolve to perform the upasthānam. Then stand up, do the nyāsa and, with hands in añjali, recite *Uttame śikhare*, taking leave of the Goddess (udvāsana mudrā: open the joined palms outward).",
       "sources": [
         "sandhya.pdf p11",
         "Kidambi p42–43, p74–75, p106–107",
@@ -2527,12 +2494,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||",
-            "devanagari": "ॐ भूः । ॐ भुवः । ओगुं सुवः । ॐ महः । ॐ जनः । ॐ तपः । ओगुं स॒त्यम् ।\nॐ तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥\nॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स् सुव॒रोम् ॥",
-            "tamil": "ௐ பூ⁴ஃ । ௐ பு⁴வஃ । ஓகு³ம் ஸுவஃ । ௐ மஹஃ । ௐ ஜனஃ । ௐ தபஃ । ஓகு³ம் ஸ॒த்யம் ।\nௐ தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥\nௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॒ரோம் ॥",
-            "kannada": "ಓಂ ಭೂಃ । ಓಂ ಭುವಃ । ಓಗುಂ ಸುವಃ । ಓಂ ಮಹಃ । ಓಂ ಜನಃ । ಓಂ ತಪಃ । ಓಗುಂ ಸ॒ತ್ಯಂ ।\nಓಂ ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥\nಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ ಸುವ॒ರೋಂ ॥",
-            "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్ సువ॒రోం ॥",
-            "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ് സുവ॒രോം ॥"
+            "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||",
+            "devanagari": "ॐ भूः । ॐ भुवः । ओगुं सुवः । ॐ महः । ॐ जनः । ॐ तपः । ओगुं स॒त्यम् ।\nॐ तत् स॑वि॒तुर् वरे᳚ण्यं॒ भर्गो॑ दे॒वस्य॑ धीमहि । धियो॒ यो नः॑ प्रचो॒दया᳚त् ॥\nॐ आपो॒ ज्योती॒ रसो॒ऽमृतं॒ ब्रह्म॒ भूर् भुव॒स्सुव॒रोम् ॥",
+            "tamil": "ௐ பூ⁴ஃ । ௐ பு⁴வஃ । ஓகு³ம் ஸுவஃ । ௐ மஹஃ । ௐ ஜனஃ । ௐ தபஃ । ஓகு³ம் ஸ॒த்யம் ।\nௐ தத் ஸ॑வி॒துர் வரே᳚ண்யம்॒ ப⁴ர்கோ॑³ தே॒³வஸ்ய॑ தீ⁴மஹி । தி⁴யோ॒ யோ ந॑ஃ ப்ரசோ॒த³யா᳚த் ॥\nௐ ஆபோ॒ ஜ்யோதீ॒ ரஸோ॒(அ)ம்ருதம்॒ ப்³ரஹ்ம॒ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॒ரோம் ॥",
+            "kannada": "ಓಂ ಭೂಃ । ಓಂ ಭುವಃ । ಓಗುಂ ಸುವಃ । ಓಂ ಮಹಃ । ಓಂ ಜನಃ । ಓಂ ತಪಃ । ಓಗುಂ ಸ॒ತ್ಯಂ ।\nಓಂ ತತ್ ಸ॑ವಿ॒ತುರ್ ವರೇ᳚ಣ್ಯಂ॒ ಭರ್ಗೋ॑ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥\nಓಂ ಆಪೋ॒ ಜ್ಯೋತೀ॒ ರಸೋ॒ಽಮೃತಂ॒ ಬ್ರಹ್ಮ॒ ಭೂರ್ ಭುವ॒ಸ್ಸುವ॒ರೋಂ ॥",
+            "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్సువ॒రోం ॥",
+            "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
           "repeat": 3,
           "action": "prāṇāyāma, three rounds",
@@ -2544,12 +2511,12 @@
             "smarta"
           ],
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyopasthānaṃ kariṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {kala} सन्ध्योपस्थानं करिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யோபஸ்தா²னம் கரிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯೋಪಸ್ಥಾನಂ ಕರಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యోపస్థానం కరిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യോപസ്ഥാനം കരിഷ്യേ ॥"
+            "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyopasthānaṃ kariṣye ||",
+            "devanagari": "ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {kala} सन्ध्योपस्थानं करिष्ये ॥",
+            "tamil": "மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யோபஸ்தா²னம் கரிஷ்யே ॥",
+            "kannada": "ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯೋಪಸ್ಥಾನಂ ಕರಿಷ್ಯೇ ॥",
+            "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యోపస్థానం కరిష్యే ॥",
+            "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യോപസ്ഥാനം കരിഷ്യേ ॥"
           },
           "action": "saṅkalpa posture (brahmāñjali)",
           "meaning": "For the destruction of all my sins and to please the Supreme Lord, I shall perform the upasthānam of the {kalaEn} sandhyā."
@@ -2560,19 +2527,15 @@
             "srivaishnava"
           ],
           "text": {
-            "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā upasthānaṃ kariṣye ||",
-            "devanagari": "हरिः ॐ तत्सत् । गोविन्द गोविन्द गोविन्द । श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {kala} सन्ध्या उपस्थानं करिष्ये ॥",
-            "tamil": "ஹரிஃ ௐ தத்ஸத் । கோ³விந்த³ கோ³விந்த³ கோ³விந்த³ । ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா உபஸ்தா²னம் கரிஷ்யே ॥",
-            "kannada": "ಹರಿಃ ಓಂ ತತ್ಸತ್ । ಗೋವಿಂದ ಗೋವಿಂದ ಗೋವಿಂದ । ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಉಪಸ್ಥಾನಂ ಕರಿಷ್ಯೇ ॥",
-            "telugu": "హరిః ఓం తత్సత్ । గోవింద గోవింద గోవింద । శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా ఉపస్థానం కరిష్యే ॥",
-            "malayalam": "ഹരിഃ ഓം തത്സത് । ഗോവിന്ദ ഗോവിന്ദ ഗോവിന്ദ । ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ ഉപസ്ഥാനം കരിഷ്യേ ॥"
+            "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā upasthānaṃ kariṣye ||",
+            "devanagari": "श्री भगवदाज्ञया श्रीमन्नारायण प्रीत्यर्थं {kala} सन्ध्या उपस्थानं करिष्ये ॥",
+            "tamil": "ஶ்ரீ ப⁴க³வதா³ஜ்ஞயா ஶ்ரீமந்நாராயண ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா உபஸ்தா²னம் கரிஷ்யே ॥",
+            "kannada": "ಶ್ರೀ ಭಗವದಾಜ್ಞಯಾ ಶ್ರೀಮನ್ನಾರಾಯಣ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಉಪಸ್ಥಾನಂ ಕರಿಷ್ಯೇ ॥",
+            "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా ఉపస్థానం కరిష్యే ॥",
+            "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ ഉപസ്ഥാനം കരിഷ്യേ ॥"
           },
           "action": "saṅkalpa posture (brahmāñjali)",
           "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I shall perform the upasthānam of the {kalaEn} sandhyā."
-        },
-        {
-          "kind": "note",
-          "text": "The printed texts give this saṅkalpa in short form: *{kala} sandhyopasthānaṃ kariṣye* (sandhya.pdf) or *{kala} sandhyā gāyatrī upasthānaṃ kariṣye* (Chakravarthy, Kaalai)."
         },
         {
           "kind": "mantra",
@@ -2723,12 +2686,12 @@
             "pratah"
           ],
           "text": {
-            "iast": "prātas sandhyopasthāne viniyogaḥ ||",
-            "devanagari": "प्रातस् सन्ध्योपस्थाने विनियोगः ॥",
-            "tamil": "ப்ராதஸ் ஸந்த்⁴யோபஸ்தா²னே விநியோக³ஃ ॥",
-            "kannada": "ಪ್ರಾತಸ್ ಸಂಧ್ಯೋಪಸ್ಥಾನೇ ವಿನಿಯೋಗಃ ॥",
-            "telugu": "ప్రాతస్ సంధ్యోపస్థానే వినియోగః ॥",
-            "malayalam": "പ്രാതസ് സന്ധ്യോപസ്ഥാനേ വിനിയോഗഃ ॥"
+            "iast": "prātassandhyopasthāne viniyogaḥ ||",
+            "devanagari": "प्रातस्सन्ध्योपस्थाने विनियोगः ॥",
+            "tamil": "ப்ராதஸ்ஸந்த்⁴யோபஸ்தா²னே விநியோக³ஃ ॥",
+            "kannada": "ಪ್ರಾತಸ್ಸಂಧ್ಯೋಪಸ್ಥಾನೇ ವಿನಿಯೋಗಃ ॥",
+            "telugu": "ప్రాతస్సంధ్యోపస్థానే వినియోగః ॥",
+            "malayalam": "പ്രാതസ്സന്ധ്യോപസ്ഥാനേ വിനിയോഗഃ ॥"
           },
           "action": "hands in añjali",
           "meaning": "They are employed in the upasthānam of the morning sandhyā."
@@ -2739,12 +2702,12 @@
             "pratah"
           ],
           "text": {
-            "iast": "mi̱trasya̍ carṣaṇī̱ dhṛta̱ś śravo̍ de̱vasya̍ sāna̱sim |\nsa̱tyaṃ ci̱tra śra̍vastamam ||",
-            "devanagari": "मि॒त्रस्य॑ चर्षणी॒ धृत॒श् श्रवो॑ दे॒वस्य॑ सान॒सिम् ।\nस॒त्यं चि॒त्र श्र॑वस्तमम् ॥",
-            "tamil": "மி॒த்ரஸ்ய॑ சர்ஷணீ॒ த்⁴ருத॒ஶ் ஶ்ரவோ॑ தே॒³வஸ்ய॑ ஸான॒ஸிம் ।\nஸ॒த்யம் சி॒த்ர ஶ்ர॑வஸ்தமம் ॥",
-            "kannada": "ಮಿ॒ತ್ರಸ್ಯ॑ ಚರ್ಷಣೀ॒ ಧೃತ॒ಶ್ ಶ್ರವೋ॑ ದೇ॒ವಸ್ಯ॑ ಸಾನ॒ಸಿಂ ।\nಸ॒ತ್ಯಂ ಚಿ॒ತ್ರ ಶ್ರ॑ವಸ್ತಮಂ ॥",
-            "telugu": "మి॒త్రస్య॑ చర్షణీ॒ ధృత॒శ్ శ్రవో॑ దే॒వస్య॑ సాన॒సిం ।\nస॒త్యం చి॒త్ర శ్ర॑వస్తమం ॥",
-            "malayalam": "മി॒ത്രസ്യ॑ ചർഷണീ॒ ധൃത॒ശ് ശ്രവോ॑ ദേ॒വസ്യ॑ സാന॒സിം ।\nസ॒ത്യം ചി॒ത്ര ശ്ര॑വസ്തമം ॥"
+            "iast": "mi̱trasya̍ carṣaṇī̱ dhṛta̱śśravo̍ de̱vasya̍ sāna̱sim |\nsa̱tyaṃ ci̱tra śra̍vastamam ||",
+            "devanagari": "मि॒त्रस्य॑ चर्षणी॒ धृत॒श्श्रवो॑ दे॒वस्य॑ सान॒सिम् ।\nस॒त्यं चि॒त्र श्र॑वस्तमम् ॥",
+            "tamil": "மி॒த்ரஸ்ய॑ சர்ஷணீ॒ த்⁴ருத॒ஶ்ஶ்ரவோ॑ தே॒³வஸ்ய॑ ஸான॒ஸிம் ।\nஸ॒த்யம் சி॒த்ர ஶ்ர॑வஸ்தமம் ॥",
+            "kannada": "ಮಿ॒ತ್ರಸ್ಯ॑ ಚರ್ಷಣೀ॒ ಧೃತ॒ಶ್ಶ್ರವೋ॑ ದೇ॒ವಸ್ಯ॑ ಸಾನ॒ಸಿಂ ।\nಸ॒ತ್ಯಂ ಚಿ॒ತ್ರ ಶ್ರ॑ವಸ್ತಮಂ ॥",
+            "telugu": "మి॒త్రస్య॑ చర్షణీ॒ ధృత॒శ్శ్రవో॑ దే॒వస్య॑ సాన॒సిం ।\nస॒త్యం చి॒త్ర శ్ర॑వస్తమం ॥",
+            "malayalam": "മി॒ത്രസ്യ॑ ചർഷണീ॒ ധൃത॒ശ്ശ്രവോ॑ ദേ॒വസ്യ॑ സാന॒സിം ।\nസ॒ത്യം ചി॒ത്ര ശ്ര॑വസ്തമം ॥"
           },
           "action": "hands in añjali",
           "meaning": "I praise the glory of the divine Mitra, upholder of peoples — glory that is easily won, true and most wondrous to hear."
@@ -2899,12 +2862,12 @@
             "madhyahnika"
           ],
           "text": {
-            "iast": "paśye̍ma śa̱rada̍ś śa̱taṃ | jīve̍ma śa̱rada̍ś śa̱taṃ | nandā̍ma śa̱rada̍ś śa̱taṃ | modā̍ma śa̱rada̍ś śa̱taṃ | bhavā̍ma śa̱rada̍ś śa̱taṃ | śṛṇavā̍ma śa̱rada̍ś śa̱taṃ | prabra̍vāma śa̱rada̍ś śa̱taṃ | ajī̍tāsyāma śa̱rada̍ś śa̱taṃ | jyok ca̱ sūrya̍ṃ dṛ̱śe ||",
-            "devanagari": "पश्ये॑म श॒रद॑श् श॒तं । जीवे॑म श॒रद॑श् श॒तं । नन्दा॑म श॒रद॑श् श॒तं । मोदा॑म श॒रद॑श् श॒तं । भवा॑म श॒रद॑श् श॒तं । शृणवा॑म श॒रद॑श् श॒तं । प्रब्र॑वाम श॒रद॑श् श॒तं । अजी॑तास्याम श॒रद॑श् श॒तं । ज्योक् च॒ सूर्यं॑ दृ॒शे ॥",
-            "tamil": "பஶ்யே॑ம ஶ॒ரத॑³ஶ் ஶ॒தம் । ஜீவே॑ம ஶ॒ரத॑³ஶ் ஶ॒தம் । நந்தா॑³ம ஶ॒ரத॑³ஶ் ஶ॒தம் । மோதா॑³ம ஶ॒ரத॑³ஶ் ஶ॒தம் । ப⁴வா॑ம ஶ॒ரத॑³ஶ் ஶ॒தம் । ஶ்ருணவா॑ம ஶ॒ரத॑³ஶ் ஶ॒தம் । ப்ரப்³ர॑வாம ஶ॒ரத॑³ஶ் ஶ॒தம் । அஜீ॑தாஸ்யாம ஶ॒ரத॑³ஶ் ஶ॒தம் । ஜ்யோக் ச॒ ஸூர்யம்॑ த்³ரு॒ஶே ॥",
-            "kannada": "ಪಶ್ಯೇ॑ಮ ಶ॒ರದ॑ಶ್ ಶ॒ತಂ । ಜೀವೇ॑ಮ ಶ॒ರದ॑ಶ್ ಶ॒ತಂ । ನಂದಾ॑ಮ ಶ॒ರದ॑ಶ್ ಶ॒ತಂ । ಮೋದಾ॑ಮ ಶ॒ರದ॑ಶ್ ಶ॒ತಂ । ಭವಾ॑ಮ ಶ॒ರದ॑ಶ್ ಶ॒ತಂ । ಶೃಣವಾ॑ಮ ಶ॒ರದ॑ಶ್ ಶ॒ತಂ । ಪ್ರಬ್ರ॑ವಾಮ ಶ॒ರದ॑ಶ್ ಶ॒ತಂ । ಅಜೀ॑ತಾಸ್ಯಾಮ ಶ॒ರದ॑ಶ್ ಶ॒ತಂ । ಜ್ಯೋಕ್ ಚ॒ ಸೂರ್ಯಂ॑ ದೃ॒ಶೇ ॥",
-            "telugu": "పశ్యే॑మ శ॒రద॑శ్ శ॒తం । జీవే॑మ శ॒రద॑శ్ శ॒తం । నందా॑మ శ॒రద॑శ్ శ॒తం । మోదా॑మ శ॒రద॑శ్ శ॒తం । భవా॑మ శ॒రద॑శ్ శ॒తం । శృణవా॑మ శ॒రద॑శ్ శ॒తం । ప్రబ్ర॑వామ శ॒రద॑శ్ శ॒తం । అజీ॑తాస్యామ శ॒రద॑శ్ శ॒తం । జ్యోక్ చ॒ సూర్యం॑ దృ॒శే ॥",
-            "malayalam": "പശ്യേ॑മ ശ॒രദ॑ശ് ശ॒തം । ജീവേ॑മ ശ॒രദ॑ശ് ശ॒തം । നന്ദാ॑മ ശ॒രദ॑ശ് ശ॒തം । മോദാ॑മ ശ॒രദ॑ശ് ശ॒തം । ഭവാ॑മ ശ॒രദ॑ശ് ശ॒തം । ശൃണവാ॑മ ശ॒രദ॑ശ് ശ॒തം । പ്രബ്ര॑വാമ ശ॒രദ॑ശ് ശ॒തം । അജീ॑താസ്യാമ ശ॒രദ॑ശ് ശ॒തം । ജ്യോക് ച॒ സൂര്യം॑ ദൃ॒ശേ ॥"
+            "iast": "paśye̍ma śa̱rada̍śśa̱taṃ | jīve̍ma śa̱rada̍śśa̱taṃ | nandā̍ma śa̱rada̍śśa̱taṃ | modā̍ma śa̱rada̍śśa̱taṃ | bhavā̍ma śa̱rada̍śśa̱taṃ | śṛṇavā̍ma śa̱rada̍śśa̱taṃ | prabra̍vāma śa̱rada̍śśa̱taṃ | ajī̍tāsyāma śa̱rada̍śśa̱taṃ | jyok ca̱ sūrya̍ṃ dṛ̱śe ||",
+            "devanagari": "पश्ये॑म श॒रद॑श्श॒तं । जीवे॑म श॒रद॑श्श॒तं । नन्दा॑म श॒रद॑श्श॒तं । मोदा॑म श॒रद॑श्श॒तं । भवा॑म श॒रद॑श्श॒तं । शृणवा॑म श॒रद॑श्श॒तं । प्रब्र॑वाम श॒रद॑श्श॒तं । अजी॑तास्याम श॒रद॑श्श॒तं । ज्योक् च॒ सूर्यं॑ दृ॒शे ॥",
+            "tamil": "பஶ்யே॑ம ஶ॒ரத॑³ஶ்ஶ॒தம் । ஜீவே॑ம ஶ॒ரத॑³ஶ்ஶ॒தம் । நந்தா॑³ம ஶ॒ரத॑³ஶ்ஶ॒தம் । மோதா॑³ம ஶ॒ரத॑³ஶ்ஶ॒தம் । ப⁴வா॑ம ஶ॒ரத॑³ஶ்ஶ॒தம் । ஶ்ருணவா॑ம ஶ॒ரத॑³ஶ்ஶ॒தம் । ப்ரப்³ர॑வாம ஶ॒ரத॑³ஶ்ஶ॒தம் । அஜீ॑தாஸ்யாம ஶ॒ரத॑³ஶ்ஶ॒தம் । ஜ்யோக் ச॒ ஸூர்யம்॑ த்³ரு॒ஶே ॥",
+            "kannada": "ಪಶ್ಯೇ॑ಮ ಶ॒ರದ॑ಶ್ಶ॒ತಂ । ಜೀವೇ॑ಮ ಶ॒ರದ॑ಶ್ಶ॒ತಂ । ನಂದಾ॑ಮ ಶ॒ರದ॑ಶ್ಶ॒ತಂ । ಮೋದಾ॑ಮ ಶ॒ರದ॑ಶ್ಶ॒ತಂ । ಭವಾ॑ಮ ಶ॒ರದ॑ಶ್ಶ॒ತಂ । ಶೃಣವಾ॑ಮ ಶ॒ರದ॑ಶ್ಶ॒ತಂ । ಪ್ರಬ್ರ॑ವಾಮ ಶ॒ರದ॑ಶ್ಶ॒ತಂ । ಅಜೀ॑ತಾಸ್ಯಾಮ ಶ॒ರದ॑ಶ್ಶ॒ತಂ । ಜ್ಯೋಕ್ ಚ॒ ಸೂರ್ಯಂ॑ ದೃ॒ಶೇ ॥",
+            "telugu": "పశ్యే॑మ శ॒రద॑శ్శ॒తం । జీవే॑మ శ॒రద॑శ్శ॒తం । నందా॑మ శ॒రద॑శ్శ॒తం । మోదా॑మ శ॒రద॑శ్శ॒తం । భవా॑మ శ॒రద॑శ్శ॒తం । శృణవా॑మ శ॒రద॑శ్శ॒తం । ప్రబ్ర॑వామ శ॒రద॑శ్శ॒తం । అజీ॑తాస్యామ శ॒రద॑శ్శ॒తం । జ్యోక్ చ॒ సూర్యం॑ దృ॒శే ॥",
+            "malayalam": "പശ്യേ॑മ ശ॒രദ॑ശ്ശ॒തം । ജീവേ॑മ ശ॒രദ॑ശ്ശ॒തം । നന്ദാ॑മ ശ॒രദ॑ശ്ശ॒തം । മോദാ॑മ ശ॒രദ॑ശ്ശ॒തം । ഭവാ॑മ ശ॒രദ॑ശ്ശ॒തം । ശൃണവാ॑മ ശ॒രദ॑ശ്ശ॒തം । പ്രബ്ര॑വാമ ശ॒രദ॑ശ്ശ॒തം । അജീ॑താസ്യാമ ശ॒രദ॑ശ്ശ॒തം । ജ്യോക് ച॒ സൂര്യം॑ ദൃ॒ശേ ॥"
           },
           "action": "look at the sun through the vyoma (gālinī) mudrā: left palm up, right palm down, middle and ring fingers of both hands folded in, right index over left little finger and right little finger over left index, the folded fingers tucked under the opposite thumbs, leaving a small slit between the hands",
           "meaning": "May we see for a hundred autumns, may we live for a hundred autumns, may we rejoice for a hundred autumns, may we be glad for a hundred autumns, may we flourish for a hundred autumns, may we hear for a hundred autumns, may we speak well for a hundred autumns, may we be undefeated for a hundred autumns — and long may we behold the Sun."
@@ -2915,12 +2878,12 @@
             "madhyahnika"
           ],
           "text": {
-            "iast": "ya uda̍gān maha̱to'rṇavā̎t vi̱bhrāja̍mānaḥ sari̱rasya̱ madhyā̱t sa mā̍ vṛṣa̱bho lo̍hitā̱kṣas sūryo̍ vipa̱ścin mana̍sā punātu ||",
-            "devanagari": "य उद॑गान् मह॒तोऽर्णवा᳚त् वि॒भ्राज॑मानः सरि॒रस्य॒ मध्या॒त् स मा॑ वृष॒भो लो॑हिता॒क्षस् सूर्यो॑ विप॒श्चिन् मन॑सा पुनातु ॥",
-            "tamil": "ய உத॑³கா³ன் மஹ॒தோ(அ)ர்ணவா᳚த் வி॒ப்⁴ராஜ॑மானஃ ஸரி॒ரஸ்ய॒ மத்⁴யா॒த் ஸ மா॑ வ்ருஷ॒போ⁴ லோ॑ஹிதா॒க்ஷஸ் ஸூர்யோ॑ விப॒ஶ்சின் மன॑ஸா புனாது ॥",
-            "kannada": "ಯ ಉದ॑ಗಾನ್ ಮಹ॒ತೋಽರ್ಣವಾ᳚ತ್ ವಿ॒ಭ್ರಾಜ॑ಮಾನಃ ಸರಿ॒ರಸ್ಯ॒ ಮಧ್ಯಾ॒ತ್ ಸ ಮಾ॑ ವೃಷ॒ಭೋ ಲೋ॑ಹಿತಾ॒ಕ್ಷಸ್ ಸೂರ್ಯೋ॑ ವಿಪ॒ಶ್ಚಿನ್ ಮನ॑ಸಾ ಪುನಾತು ॥",
-            "telugu": "య ఉద॑గాన్ మహ॒తోఽర్ణవా᳚త్ వి॒భ్రాజ॑మానః సరి॒రస్య॒ మధ్యా॒త్ స మా॑ వృష॒భో లో॑హితా॒క్షస్ సూర్యో॑ విప॒శ్చిన్ మన॑సా పునాతు ॥",
-            "malayalam": "യ ഉദ॑ഗാൻ മഹ॒തോഽർണവാ᳚ത് വി॒ഭ്രാജ॑മാനഃ സരി॒രസ്യ॒ മധ്യാ॒ത് സ മാ॑ വൃഷ॒ഭോ ലോ॑ഹിതാ॒ക്ഷസ് സൂര്യോ॑ വിപ॒ശ്ചിൻ മന॑സാ പുനാതു ॥"
+            "iast": "ya uda̍gān maha̱to'rṇavā̎t vi̱bhrāja̍mānaḥ sari̱rasya̱ madhyā̱t sa mā̍ vṛṣa̱bho lo̍hitā̱kṣassūryo̍ vipa̱ścin mana̍sā punātu ||",
+            "devanagari": "य उद॑गान् मह॒तोऽर्णवा᳚त् वि॒भ्राज॑मानः सरि॒रस्य॒ मध्या॒त् स मा॑ वृष॒भो लो॑हिता॒क्षस्सूर्यो॑ विप॒श्चिन् मन॑सा पुनातु ॥",
+            "tamil": "ய உத॑³கா³ன் மஹ॒தோ(அ)ர்ணவா᳚த் வி॒ப்⁴ராஜ॑மானஃ ஸரி॒ரஸ்ய॒ மத்⁴யா॒த் ஸ மா॑ வ்ருஷ॒போ⁴ லோ॑ஹிதா॒க்ஷஸ்ஸூர்யோ॑ விப॒ஶ்சின் மன॑ஸா புனாது ॥",
+            "kannada": "ಯ ಉದ॑ಗಾನ್ ಮಹ॒ತೋಽರ್ಣವಾ᳚ತ್ ವಿ॒ಭ್ರಾಜ॑ಮಾನಃ ಸರಿ॒ರಸ್ಯ॒ ಮಧ್ಯಾ॒ತ್ ಸ ಮಾ॑ ವೃಷ॒ಭೋ ಲೋ॑ಹಿತಾ॒ಕ್ಷಸ್ಸೂರ್ಯೋ॑ ವಿಪ॒ಶ್ಚಿನ್ ಮನ॑ಸಾ ಪುನಾತು ॥",
+            "telugu": "య ఉద॑గాన్ మహ॒తోఽర్ణవా᳚త్ వి॒భ్రాజ॑మానః సరి॒రస్య॒ మధ్యా॒త్ స మా॑ వృష॒భో లో॑హితా॒క్షస్సూర్యో॑ విప॒శ్చిన్ మన॑సా పునాతు ॥",
+            "malayalam": "യ ഉദ॑ഗാൻ മഹ॒തോഽർണവാ᳚ത് വി॒ഭ്രാജ॑മാനഃ സരി॒രസ്യ॒ മധ്യാ॒ത് സ മാ॑ വൃഷ॒ഭോ ലോ॑ഹിതാ॒ക്ഷസ്സൂര്യോ॑ വിപ॒ശ്ചിൻ മന॑സാ പുനാതു ॥"
           },
           "action": "hands in añjali",
           "meaning": "He who has risen out of the great ocean, blazing from the midst of the waters — may that Sun, the strong bull, red-eyed and all-seeing, purify me in mind."
@@ -2963,12 +2926,12 @@
             "sayam"
           ],
           "text": {
-            "iast": "savitā devatā |",
-            "devanagari": "सविता देवता ।",
-            "tamil": "ஸவிதா தே³வதா ।",
-            "kannada": "ಸವಿತಾ ದೇವತಾ ।",
-            "telugu": "సవితా దేవతా ।",
-            "malayalam": "സവിതാ ദേവതാ ।"
+            "iast": "varuṇo devatā |",
+            "devanagari": "वरुणो देवता ।",
+            "tamil": "வருணோ தே³வதா ।",
+            "kannada": "ವರುಣೋ ದೇವತಾ ।",
+            "telugu": "వరుణో దేవతా ।",
+            "malayalam": "വരുണോ ദേവതാ ।"
           },
           "action": "touch the chest",
           "meaning": "The deity is Savitā."
@@ -3160,19 +3123,19 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "kāmo 'kārṣīn manyur akārṣīn namo namaḥ ||",
-            "devanagari": "कामो ऽकार्षीन् मन्युर् अकार्षीन् नमो नमः ॥",
-            "tamil": "காமோ (அ)கார்ஷீன் மன்யுர் அகார்ஷீன் நமோ நமஃ ॥",
-            "kannada": "ಕಾಮೋ ಽಕಾರ್ಷೀನ್ ಮನ್ಯುರ್ ಅಕಾರ್ಷೀನ್ ನಮೋ ನಮಃ ॥",
-            "telugu": "కామో ఽకార్షీన్ మన్యుర్ అకార్షీన్ నమో నమః ॥",
-            "malayalam": "കാമോ ഽകാർഷീൻ മന്യുർ അകാർഷീൻ നമോ നമഃ ॥"
+            "iast": "kāmo 'kārṣīt manyur akārṣīt namo namaḥ ||",
+            "devanagari": "कामो ऽकार्षीत् मन्युर् अकार्षीत् नमो नमः ॥",
+            "tamil": "காமோ (அ)கார்ஷீத் மன்யுர் அகார்ஷீத் நமோ நமஃ ॥",
+            "kannada": "ಕಾಮೋ ಽಕಾರ್ಷೀತ್ ಮನ್ಯುರ್ ಅಕಾರ್ಷೀತ್ ನಮೋ ನಮಃ ॥",
+            "telugu": "కామో ఽకార్షీత్ మన్యుర్ అకార్షీత్ నమో నమః ॥",
+            "malayalam": "കാമോ ഽകാർഷീത് മന്യുർ അകാർഷീത് നമോ നമഃ ॥"
           },
           "action": "hands in añjali",
           "meaning": "I did not of my own accord commit sin; falling under the sway of desire and anger I sinned unwittingly. Forgive me — I pay my obeisance again and again."
         },
         {
           "kind": "note",
-          "text": "Kidambi prints the words without sandhi: *kāmo 'kārṣīt manyur akārṣīt namo namaḥ*. One Smārta text (Sandhyavandanam.pdf) keeps the east → south → west → north order at all three kālas, turning to face west only for *sarvābhyo devatābhyo* in the evening. Chakravarthy adds four namaskārams here."
+          "text": "Chakravarthy adds four namaskārams here."
         }
       ]
     },
@@ -3200,12 +3163,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuś śākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||",
-            "devanagari": "अभिवादये {pravara} {arsheya} प्रवरान्वित {gotra} गोत्रः {sutra} सूत्रः यजुश् शाखाध्यायी श्री {name} शर्मा नामाहम् अस्मि भोः ॥",
-            "tamil": "அபி⁴வாத³யே {pravara} {arsheya} ப்ரவரான்வித {gotra} கோ³த்ரஃ {sutra} ஸூத்ரஃ யஜுஶ் ஶாகா²த்⁴யாயீ ஶ்ரீ {name} ஶர்மா நாமாஹம் அஸ்மி போ⁴ஃ ॥",
-            "kannada": "ಅಭಿವಾದಯೇ {pravara} {arsheya} ಪ್ರವರಾನ್ವಿತ {gotra} ಗೋತ್ರಃ {sutra} ಸೂತ್ರಃ ಯಜುಶ್ ಶಾಖಾಧ್ಯಾಯೀ ಶ್ರೀ {name} ಶರ್ಮಾ ನಾಮಾಹಂ ಅಸ್ಮಿ ಭೋಃ ॥",
-            "telugu": "అభివాదయే {pravara} {arsheya} ప్రవరాన్విత {gotra} గోత్రః {sutra} సూత్రః యజుశ్ శాఖాధ్యాయీ శ్రీ {name} శర్మా నామాహం అస్మి భోః ॥",
-            "malayalam": "അഭിവാദയേ {pravara} {arsheya} പ്രവരാന്വിത {gotra} ഗോത്രഃ {sutra} സൂത്രഃ യജുശ് ശാഖാധ്യായീ ശ്രീ {name} ശർമാ നാമാഹം അസ്മി ഭോഃ ॥"
+            "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuśśākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||",
+            "devanagari": "अभिवादये {pravara} {arsheya} प्रवरान्वित {gotra} गोत्रः {sutra} सूत्रः यजुश्शाखाध्यायी श्री {name} शर्मा नामाहम् अस्मि भोः ॥",
+            "tamil": "அபி⁴வாத³யே {pravara} {arsheya} ப்ரவரான்வித {gotra} கோ³த்ரஃ {sutra} ஸூத்ரஃ யஜுஶ்ஶாகா²த்⁴யாயீ ஶ்ரீ {name} ஶர்மா நாமாஹம் அஸ்மி போ⁴ஃ ॥",
+            "kannada": "ಅಭಿವಾದಯೇ {pravara} {arsheya} ಪ್ರವರಾನ್ವಿತ {gotra} ಗೋತ್ರಃ {sutra} ಸೂತ್ರಃ ಯಜುಶ್ಶಾಖಾಧ್ಯಾಯೀ ಶ್ರೀ {name} ಶರ್ಮಾ ನಾಮಾಹಂ ಅಸ್ಮಿ ಭೋಃ ॥",
+            "telugu": "అభివాదయే {pravara} {arsheya} ప్రవరాన్విత {gotra} గోత్రః {sutra} సూత్రః యజుశ్శాఖాధ్యాయీ శ్రీ {name} శర్మా నామాహం అస్మి భోః ॥",
+            "malayalam": "അഭിവാദയേ {pravara} {arsheya} പ്രവരാന്വിത {gotra} ഗോത്രഃ {sutra} സൂത്രഃ യജുശ്ശാഖാധ്യായീ ശ്രീ {name} ശർമാ നാമാഹം അസ്മി ഭോഃ ॥"
           },
           "action": "bend forward, hands crossed touching the ears; then touch the ground",
           "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
@@ -3484,13 +3447,6 @@
           },
           "action": "palms down",
           "meaning": "Salutation to Yama."
-        },
-        {
-          "kind": "note",
-          "tradition": [
-            "smarta"
-          ],
-          "text": "The tail of this list varies: sandhya.pdf has *viṣṇave, brahmaṇe, rudrāya*; the Mumbai text has *brahmaṇe, viṣṇave*; the Kaalai text adds *rudrāya, yamāya*; Chakravarthy adds *yamāya* as optional. Śrī Vaiṣṇava texts (Kidambi) end with *viṣṇave namaḥ*."
         }
       ]
     },
@@ -3524,10 +3480,6 @@
           },
           "action": "face south",
           "meaning": "Salutations to Yama, King Dharma, Death, the Ender, the son of Vivasvān (the Sun), Time, the destroyer of all beings; to Audumbara, Dadhna, the blue-hued one, the supreme lord, the insatiable one, the wondrous one, and to Citragupta who records all deeds — salutations."
-        },
-        {
-          "kind": "note",
-          "text": "sandhya.pdf reads *citraguptāya vai namo namaḥ* and omits the closing *citraguptāya vai nama oṃ nama iti*; the Mumbai text prefixes *yamāya namaḥ*."
         }
       ]
     },
@@ -3583,7 +3535,7 @@
         "pratah": "east",
         "madhyahnika": "east"
       },
-      "intro": "Some families add this (the Kaalai text, a morning manual, has it facing east). Recite with hands in añjali.",
+      "intro": "Some families add this, facing east. Recite with hands in añjali.",
       "sources": [
         "Kaalai p11"
       ],
@@ -3591,19 +3543,15 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "narmadāyai namaḥ prātar narmadāyai namo niśi |\nnamo 'stu narmade tubhyaṃ trāhi māṃ viṣasarpataḥ ||\napasarpa sarpa bhadraṃ te dūraṃ gaccha mahāyaśaḥ |\njanamejayasya yajñānte āstīka vacanaṃ smaran ||\njaratkārvor jaratkārvāṃ samutpanno mahāyaśaḥ |\nāstīkas satyasandho māṃ pannagebhyo 'bhirakṣatu ||\npannagebhyo 'bhirakṣatu oṃ nama iti ||",
-            "devanagari": "नर्मदायै नमः प्रातर् नर्मदायै नमो निशि ।\nनमो ऽस्तु नर्मदे तुभ्यं त्राहि मां विषसर्पतः ॥\nअपसर्प सर्प भद्रं ते दूरं गच्छ महायशः ।\nजनमेजयस्य यज्ञान्ते आस्तीक वचनं स्मरन् ॥\nजरत्कार्वोर् जरत्कार्वां समुत्पन्नो महायशः ।\nआस्तीकस् सत्यसन्धो मां पन्नगेभ्यो ऽभिरक्षतु ॥\nपन्नगेभ्यो ऽभिरक्षतु ॐ नम इति ॥",
-            "tamil": "நர்மதா³யை நமஃ ப்ராதர் நர்மதா³யை நமோ நிஶி ।\nநமோ (அ)ஸ்து நர்மதே³ துப்⁴யம் த்ராஹி மாம் விஷஸர்பதஃ ॥\nஅபஸர்ப ஸர்ப ப⁴த்³ரம் தே தூ³ரம் க³ச்ச² மஹாயஶஃ ।\nஜனமேஜயஸ்ய யஜ்ஞாந்தே ஆஸ்தீக வசனம் ஸ்மரன் ॥\nஜரத்கார்வோர் ஜரத்கார்வாம் ஸமுத்பன்னோ மஹாயஶஃ ।\nஆஸ்தீகஸ் ஸத்யஸந்தோ⁴ மாம் பன்னகே³ப்⁴யோ (அ)பி⁴ரக்ஷது ॥\nபன்னகே³ப்⁴யோ (அ)பி⁴ரக்ஷது ௐ நம இதி ॥",
-            "kannada": "ನರ್ಮದಾಯೈ ನಮಃ ಪ್ರಾತರ್ ನರ್ಮದಾಯೈ ನಮೋ ನಿಶಿ ।\nನಮೋ ಽಸ್ತು ನರ್ಮದೇ ತುಭ್ಯಂ ತ್ರಾಹಿ ಮಾಂ ವಿಷಸರ್ಪತಃ ॥\nಅಪಸರ್ಪ ಸರ್ಪ ಭದ್ರಂ ತೇ ದೂರಂ ಗಚ್ಛ ಮಹಾಯಶಃ ।\nಜನಮೇಜಯಸ್ಯ ಯಜ್ಞಾಂತೇ ಆಸ್ತೀಕ ವಚನಂ ಸ್ಮರನ್ ॥\nಜರತ್ಕಾರ್ವೋರ್ ಜರತ್ಕಾರ್ವಾಂ ಸಮುತ್ಪನ್ನೋ ಮಹಾಯಶಃ ।\nಆಸ್ತೀಕಸ್ ಸತ್ಯಸಂಧೋ ಮಾಂ ಪನ್ನಗೇಭ್ಯೋ ಽಭಿರಕ್ಷತು ॥\nಪನ್ನಗೇಭ್ಯೋ ಽಭಿರಕ್ಷತು ಓಂ ನಮ ಇತಿ ॥",
-            "telugu": "నర్మదాయై నమః ప్రాతర్ నర్మదాయై నమో నిశి ।\nనమో ఽస్తు నర్మదే తుభ్యం త్రాహి మాం విషసర్పతః ॥\nఅపసర్ప సర్ప భద్రం తే దూరం గచ్ఛ మహాయశః ।\nజనమేజయస్య యజ్ఞాంతే ఆస్తీక వచనం స్మరన్ ॥\nజరత్కార్వోర్ జరత్కార్వాం సముత్పన్నో మహాయశః ।\nఆస్తీకస్ సత్యసంధో మాం పన్నగేభ్యో ఽభిరక్షతు ॥\nపన్నగేభ్యో ఽభిరక్షతు ఓం నమ ఇతి ॥",
-            "malayalam": "നർമദായൈ നമഃ പ്രാതർ നർമദായൈ നമോ നിശി ।\nനമോ ഽസ്തു നർമദേ തുഭ്യം ത്രാഹി മാം വിഷസർപതഃ ॥\nഅപസർപ സർപ ഭദ്രം തേ ദൂരം ഗച്ഛ മഹായശഃ ।\nജനമേജയസ്യ യജ്ഞാന്തേ ആസ്തീക വചനം സ്മരൻ ॥\nജരത്കാർവോർ ജരത്കാർവാം സമുത്പന്നോ മഹായശഃ ।\nആസ്തീകസ് സത്യസന്ധോ മാം പന്നഗേഭ്യോ ഽഭിരക്ഷതു ॥\nപന്നഗേഭ്യോ ഽഭിരക്ഷതു ഓം നമ ഇതി ॥"
+            "iast": "narmadāyai namaḥ prātar narmadāyai namo niśi |\nnamo 'stu narmade tubhyaṃ trāhi māṃ viṣasarpataḥ ||\napasarpa sarpa bhadraṃ te dūraṃ gaccha mahāyaśaḥ |\njanamejayasya yajñānte āstīka vacanaṃ smaran ||\njaratkārvor jaratkārvāṃ samutpanno mahāyaśaḥ |\nāstīkassatyasandho māṃ pannagebhyo 'bhirakṣatu ||\npannagebhyo 'bhirakṣatu oṃ nama iti ||",
+            "devanagari": "नर्मदायै नमः प्रातर् नर्मदायै नमो निशि ।\nनमो ऽस्तु नर्मदे तुभ्यं त्राहि मां विषसर्पतः ॥\nअपसर्प सर्प भद्रं ते दूरं गच्छ महायशः ।\nजनमेजयस्य यज्ञान्ते आस्तीक वचनं स्मरन् ॥\nजरत्कार्वोर् जरत्कार्वां समुत्पन्नो महायशः ।\nआस्तीकस्सत्यसन्धो मां पन्नगेभ्यो ऽभिरक्षतु ॥\nपन्नगेभ्यो ऽभिरक्षतु ॐ नम इति ॥",
+            "tamil": "நர்மதா³யை நமஃ ப்ராதர் நர்மதா³யை நமோ நிஶி ।\nநமோ (அ)ஸ்து நர்மதே³ துப்⁴யம் த்ராஹி மாம் விஷஸர்பதஃ ॥\nஅபஸர்ப ஸர்ப ப⁴த்³ரம் தே தூ³ரம் க³ச்ச² மஹாயஶஃ ।\nஜனமேஜயஸ்ய யஜ்ஞாந்தே ஆஸ்தீக வசனம் ஸ்மரன் ॥\nஜரத்கார்வோர் ஜரத்கார்வாம் ஸமுத்பன்னோ மஹாயஶஃ ।\nஆஸ்தீகஸ்ஸத்யஸந்தோ⁴ மாம் பன்னகே³ப்⁴யோ (அ)பி⁴ரக்ஷது ॥\nபன்னகே³ப்⁴யோ (அ)பி⁴ரக்ஷது ௐ நம இதி ॥",
+            "kannada": "ನರ್ಮದಾಯೈ ನಮಃ ಪ್ರಾತರ್ ನರ್ಮದಾಯೈ ನಮೋ ನಿಶಿ ।\nನಮೋ ಽಸ್ತು ನರ್ಮದೇ ತುಭ್ಯಂ ತ್ರಾಹಿ ಮಾಂ ವಿಷಸರ್ಪತಃ ॥\nಅಪಸರ್ಪ ಸರ್ಪ ಭದ್ರಂ ತೇ ದೂರಂ ಗಚ್ಛ ಮಹಾಯಶಃ ।\nಜನಮೇಜಯಸ್ಯ ಯಜ್ಞಾಂತೇ ಆಸ್ತೀಕ ವಚನಂ ಸ್ಮರನ್ ॥\nಜರತ್ಕಾರ್ವೋರ್ ಜರತ್ಕಾರ್ವಾಂ ಸಮುತ್ಪನ್ನೋ ಮಹಾಯಶಃ ।\nಆಸ್ತೀಕಸ್ಸತ್ಯಸಂಧೋ ಮಾಂ ಪನ್ನಗೇಭ್ಯೋ ಽಭಿರಕ್ಷತು ॥\nಪನ್ನಗೇಭ್ಯೋ ಽಭಿರಕ್ಷತು ಓಂ ನಮ ಇತಿ ॥",
+            "telugu": "నర్మదాయై నమః ప్రాతర్ నర్మదాయై నమో నిశి ।\nనమో ఽస్తు నర్మదే తుభ్యం త్రాహి మాం విషసర్పతః ॥\nఅపసర్ప సర్ప భద్రం తే దూరం గచ్ఛ మహాయశః ।\nజనమేజయస్య యజ్ఞాంతే ఆస్తీక వచనం స్మరన్ ॥\nజరత్కార్వోర్ జరత్కార్వాం సముత్పన్నో మహాయశః ।\nఆస్తీకస్సత్యసంధో మాం పన్నగేభ్యో ఽభిరక్షతు ॥\nపన్నగేభ్యో ఽభిరక్షతు ఓం నమ ఇతి ॥",
+            "malayalam": "നർമദായൈ നമഃ പ്രാതർ നർമദായൈ നമോ നിശി ।\nനമോ ഽസ്തു നർമദേ തുഭ്യം ത്രാഹി മാം വിഷസർപതഃ ॥\nഅപസർപ സർപ ഭദ്രം തേ ദൂരം ഗച്ഛ മഹായശഃ ।\nജനമേജയസ്യ യജ്ഞാന്തേ ആസ്തീക വചനം സ്മരൻ ॥\nജരത്കാർവോർ ജരത്കാർവാം സമുത്പന്നോ മഹായശഃ ।\nആസ്തീകസ്സത്യസന്ധോ മാം പന്നഗേഭ്യോ ഽഭിരക്ഷതു ॥\nപന്നഗേഭ്യോ ഽഭിരക്ഷതു ഓം നമ ഇതി ॥"
           },
           "action": "face east",
           "meaning": "Salutation to Narmadā by day, salutation to Narmadā by night; salutations to you, Narmadā — protect me from venomous serpents. Go away, serpent — blessings on you — go far, O renowned one, remembering Āstīka's word at the end of Janamejaya's sacrifice. May Āstīka of great renown, true to his vow, born of Jaratkāru and Jaratkāru, protect me from serpents."
-        },
-        {
-          "kind": "note",
-          "text": "Text as printed in the Kaalai booklet. The classical form of the third verse is *jaratkāror jaratkārvāṃ samutpanno mahāyaśāḥ* (Āstīka, son of the sage Jaratkāru and his wife Jaratkāru)."
         }
       ]
     },
@@ -3646,12 +3594,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "dhyeyas sadā savitṛ maṇḍala madhyavartī nārāyaṇaḥ sarasijāsana sanniviṣṭaḥ |\nkeyūravān makara kuṇḍalavān kirīṭī hārī hiraṇmaya vapuḥ dhṛta śaṅkha cakraḥ ||",
-            "devanagari": "ध्येयस् सदा सवितृ मण्डल मध्यवर्ती नारायणः सरसिजासन सन्निविष्टः ।\nकेयूरवान् मकर कुण्डलवान् किरीटी हारी हिरण्मय वपुः धृत शङ्ख चक्रः ॥",
-            "tamil": "த்⁴யேயஸ் ஸதா³ ஸவித்ரு மண்ட³ல மத்⁴யவர்தீ நாராயணஃ ஸரஸிஜாஸன ஸந்நிவிஷ்டஃ ।\nகேயூரவான் மகர குண்ட³லவான் கிரீடீ ஹாரீ ஹிரண்மய வபுஃ த்⁴ருத ஶங்க² சக்ரஃ ॥",
-            "kannada": "ಧ್ಯೇಯಸ್ ಸದಾ ಸವಿತೃ ಮಂಡಲ ಮಧ್ಯವರ್ತೀ ನಾರಾಯಣಃ ಸರಸಿಜಾಸನ ಸನ್ನಿವಿಷ್ಟಃ ।\nಕೇಯೂರವಾನ್ ಮಕರ ಕುಂಡಲವಾನ್ ಕಿರೀಟೀ ಹಾರೀ ಹಿರಣ್ಮಯ ವಪುಃ ಧೃತ ಶಂಖ ಚಕ್ರಃ ॥",
-            "telugu": "ధ్యేయస్ సదా సవితృ మండల మధ్యవర్తీ నారాయణః సరసిజాసన సన్నివిష్టః ।\nకేయూరవాన్ మకర కుండలవాన్ కిరీటీ హారీ హిరణ్మయ వపుః ధృత శంఖ చక్రః ॥",
-            "malayalam": "ധ്യേയസ് സദാ സവിതൃ മണ്ഡല മധ്യവർതീ നാരായണഃ സരസിജാസന സന്നിവിഷ്ടഃ ।\nകേയൂരവാൻ മകര കുണ്ഡലവാൻ കിരീടീ ഹാരീ ഹിരണ്മയ വപുഃ ധൃത ശംഖ ചക്രഃ ॥"
+            "iast": "dhyeyassadā savitṛ maṇḍala madhyavartī nārāyaṇaḥ sarasijāsana sanniviṣṭaḥ |\nkeyūravān makara kuṇḍalavān kirīṭī hārī hiraṇmaya vapuḥ dhṛta śaṅkha cakraḥ ||",
+            "devanagari": "ध्येयस्सदा सवितृ मण्डल मध्यवर्ती नारायणः सरसिजासन सन्निविष्टः ।\nकेयूरवान् मकर कुण्डलवान् किरीटी हारी हिरण्मय वपुः धृत शङ्ख चक्रः ॥",
+            "tamil": "த்⁴யேயஸ்ஸதா³ ஸவித்ரு மண்ட³ல மத்⁴யவர்தீ நாராயணஃ ஸரஸிஜாஸன ஸந்நிவிஷ்டஃ ।\nகேயூரவான் மகர குண்ட³லவான் கிரீடீ ஹாரீ ஹிரண்மய வபுஃ த்⁴ருத ஶங்க² சக்ரஃ ॥",
+            "kannada": "ಧ್ಯೇಯಸ್ಸದಾ ಸವಿತೃ ಮಂಡಲ ಮಧ್ಯವರ್ತೀ ನಾರಾಯಣಃ ಸರಸಿಜಾಸನ ಸನ್ನಿವಿಷ್ಟಃ ।\nಕೇಯೂರವಾನ್ ಮಕರ ಕುಂಡಲವಾನ್ ಕಿರೀಟೀ ಹಾರೀ ಹಿರಣ್ಮಯ ವಪುಃ ಧೃತ ಶಂಖ ಚಕ್ರಃ ॥",
+            "telugu": "ధ్యేయస్సదా సవితృ మండల మధ్యవర్తీ నారాయణః సరసిజాసన సన్నివిష్టః ।\nకేయూరవాన్ మకర కుండలవాన్ కిరీటీ హారీ హిరణ్మయ వపుః ధృత శంఖ చక్రః ॥",
+            "malayalam": "ധ്യേയസ്സദാ സവിതൃ മണ്ഡല മധ്യവർതീ നാരായണഃ സരസിജാസന സന്നിവിഷ്ടഃ ।\nകേയൂരവാൻ മകര കുണ്ഡലവാൻ കിരീടീ ഹാരീ ഹിരണ്മയ വപുഃ ധൃത ശംഖ ചക്രഃ ॥"
           },
           "meaning": "Nārāyaṇa, seated in the centre of the solar orb on a lotus seat, is ever to be meditated upon — adorned with armlets, makara earrings, crown and necklace, of golden body, holding the conch and discus."
         },
@@ -3718,12 +3666,12 @@
         {
           "kind": "mantra",
           "text": {
-            "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuś śākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||",
-            "devanagari": "अभिवादये {pravara} {arsheya} प्रवरान्वित {gotra} गोत्रः {sutra} सूत्रः यजुश् शाखाध्यायी श्री {name} शर्मा नामाहम् अस्मि भोः ॥",
-            "tamil": "அபி⁴வாத³யே {pravara} {arsheya} ப்ரவரான்வித {gotra} கோ³த்ரஃ {sutra} ஸூத்ரஃ யஜுஶ் ஶாகா²த்⁴யாயீ ஶ்ரீ {name} ஶர்மா நாமாஹம் அஸ்மி போ⁴ஃ ॥",
-            "kannada": "ಅಭಿವಾದಯೇ {pravara} {arsheya} ಪ್ರವರಾನ್ವಿತ {gotra} ಗೋತ್ರಃ {sutra} ಸೂತ್ರಃ ಯಜುಶ್ ಶಾಖಾಧ್ಯಾಯೀ ಶ್ರೀ {name} ಶರ್ಮಾ ನಾಮಾಹಂ ಅಸ್ಮಿ ಭೋಃ ॥",
-            "telugu": "అభివాదయే {pravara} {arsheya} ప్రవరాన్విత {gotra} గోత్రః {sutra} సూత్రః యజుశ్ శాఖాధ్యాయీ శ్రీ {name} శర్మా నామాహం అస్మి భోః ॥",
-            "malayalam": "അഭിവാദയേ {pravara} {arsheya} പ്രവരാന്വിത {gotra} ഗോത്രഃ {sutra} സൂത്രഃ യജുശ് ശാഖാധ്യായീ ശ്രീ {name} ശർമാ നാമാഹം അസ്മി ഭോഃ ॥"
+            "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuśśākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||",
+            "devanagari": "अभिवादये {pravara} {arsheya} प्रवरान्वित {gotra} गोत्रः {sutra} सूत्रः यजुश्शाखाध्यायी श्री {name} शर्मा नामाहम् अस्मि भोः ॥",
+            "tamil": "அபி⁴வாத³யே {pravara} {arsheya} ப்ரவரான்வித {gotra} கோ³த்ரஃ {sutra} ஸூத்ரஃ யஜுஶ்ஶாகா²த்⁴யாயீ ஶ்ரீ {name} ஶர்மா நாமாஹம் அஸ்மி போ⁴ஃ ॥",
+            "kannada": "ಅಭಿವಾದಯೇ {pravara} {arsheya} ಪ್ರವರಾನ್ವಿತ {gotra} ಗೋತ್ರಃ {sutra} ಸೂತ್ರಃ ಯಜುಶ್ಶಾಖಾಧ್ಯಾಯೀ ಶ್ರೀ {name} ಶರ್ಮಾ ನಾಮಾಹಂ ಅಸ್ಮಿ ಭೋಃ ॥",
+            "telugu": "అభివాదయే {pravara} {arsheya} ప్రవరాన్విత {gotra} గోత్రః {sutra} సూత్రః యజుశ్శాఖాధ్యాయీ శ్రీ {name} శర్మా నామాహం అస్మి భోః ॥",
+            "malayalam": "അഭിവാദയേ {pravara} {arsheya} പ്രവരാന്വിത {gotra} ഗോത്രഃ {sutra} സൂത്രഃ യജുശ്ശാഖാധ്യായീ ശ്രീ {name} ശർമാ നാമാഹം അസ്മി ഭോഃ ॥"
           },
           "action": "bend forward, hands crossed touching the ears; then touch the ground",
           "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
@@ -3792,7 +3740,7 @@
           "tradition": [
             "srivaishnava"
           ],
-          "text": "Chakravarthy reads *śrīraṅga maṅgalanidhiṃ* and gives this verse as optional (for Ahobila Maṭha śiṣyas); Kidambi includes it for all."
+          "text": "Chakravarthy gives this verse as optional (for Ahobila Maṭha śiṣyas); Kidambi includes it for all."
         },
         {
           "kind": "mantra",
@@ -3870,21 +3818,17 @@
           "meaning": "Send us this day, O God Savitṛ, prosperity with progeny; drive away from us the evil dream. O God Savitṛ, drive away from us all sins and misfortunes; send us what is good."
         },
         {
-          "kind": "note",
-          "text": "Some texts read *duṣvapnyaguṃ* / *duṣvapniyaguṃ* for *duḥṣvapniyaguṃ*; sandhya.pdf prints *savitur* where the Ṛgveda (5.82.5) and the Kaalai text have the vocative *savitar / savitaḥ*."
-        },
-        {
           "kind": "mantra",
           "tradition": [
             "srivaishnava"
           ],
           "text": {
-            "iast": "oṃ bhūr bhuva̱s suva̍ḥ |",
-            "devanagari": "ॐ भूर् भुव॒स् सुवः॑ ।",
-            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ் ஸுவ॑ஃ ।",
-            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ ಸುವಃ॑ ।",
-            "telugu": "ఓం భూర్ భువ॒స్ సువః॑ ।",
-            "malayalam": "ഓം ഭൂർ ഭുവ॒സ് സുവഃ॑ ।"
+            "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |",
+            "devanagari": "ॐ भूर् भुव॒स्सुवः॑ ।",
+            "tamil": "ௐ பூ⁴ர் பு⁴வ॒ஸ்ஸுவ॑ஃ ।",
+            "kannada": "ಓಂ ಭೂರ್ ಭುವ॒ಸ್ಸುವಃ॑ ।",
+            "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।",
+            "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।"
           },
           "action": "sprinkle water on the place of the sandhyāvandanam (Kidambi's form)",
           "meaning": "Om — earth, mid-region, heaven."

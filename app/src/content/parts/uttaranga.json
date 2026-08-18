@@ -63,14 +63,14 @@
       {
         "kind": "mantra",
         "text": {
-          "iast": "kāmo 'kārṣīn manyur akārṣīn namo namaḥ ||"
+          "iast": "kāmo 'kārṣīt manyur akārṣīt namo namaḥ ||"
         },
         "action": "hands in añjali",
         "meaning": "I did not of my own accord commit sin; falling under the sway of desire and anger I sinned unwittingly. Forgive me — I pay my obeisance again and again."
       },
       {
         "kind": "note",
-        "text": "Kidambi prints the words without sandhi: *kāmo 'kārṣīt manyur akārṣīt namo namaḥ*. One Smārta text (Sandhyavandanam.pdf) keeps the east → south → west → north order at all three kālas, turning to face west only for *sarvābhyo devatābhyo* in the evening. Chakravarthy adds four namaskārams here."
+        "text": "Chakravarthy adds four namaskārams here."
       }
     ]
   },
@@ -98,7 +98,7 @@
       {
         "kind": "mantra",
         "text": {
-          "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuś śākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||"
+          "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuśśākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||"
         },
         "action": "bend forward, hands crossed touching the ears; then touch the ground",
         "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
@@ -297,13 +297,6 @@
         },
         "action": "palms down",
         "meaning": "Salutation to Yama."
-      },
-      {
-        "kind": "note",
-        "tradition": [
-          "smarta"
-        ],
-        "text": "The tail of this list varies: sandhya.pdf has *viṣṇave, brahmaṇe, rudrāya*; the Mumbai text has *brahmaṇe, viṣṇave*; the Kaalai text adds *rudrāya, yamāya*; Chakravarthy adds *yamāya* as optional. Śrī Vaiṣṇava texts (Kidambi) end with *viṣṇave namaḥ*."
       }
     ]
   },
@@ -332,10 +325,6 @@
         },
         "action": "face south",
         "meaning": "Salutations to Yama, King Dharma, Death, the Ender, the son of Vivasvān (the Sun), Time, the destroyer of all beings; to Audumbara, Dadhna, the blue-hued one, the supreme lord, the insatiable one, the wondrous one, and to Citragupta who records all deeds — salutations."
-      },
-      {
-        "kind": "note",
-        "text": "sandhya.pdf reads *citraguptāya vai namo namaḥ* and omits the closing *citraguptāya vai nama oṃ nama iti*; the Mumbai text prefixes *yamāya namaḥ*."
       }
     ]
   },
@@ -386,7 +375,7 @@
       "pratah": "east",
       "madhyahnika": "east"
     },
-    "intro": "Some families add this (the Kaalai text, a morning manual, has it facing east). Recite with hands in añjali.",
+    "intro": "Some families add this, facing east. Recite with hands in añjali.",
     "sources": [
       "Kaalai p11"
     ],
@@ -394,14 +383,10 @@
       {
         "kind": "mantra",
         "text": {
-          "iast": "narmadāyai namaḥ prātar narmadāyai namo niśi |\nnamo 'stu narmade tubhyaṃ trāhi māṃ viṣasarpataḥ ||\napasarpa sarpa bhadraṃ te dūraṃ gaccha mahāyaśaḥ |\njanamejayasya yajñānte āstīka vacanaṃ smaran ||\njaratkārvor jaratkārvāṃ samutpanno mahāyaśaḥ |\nāstīkas satyasandho māṃ pannagebhyo 'bhirakṣatu ||\npannagebhyo 'bhirakṣatu oṃ nama iti ||"
+          "iast": "narmadāyai namaḥ prātar narmadāyai namo niśi |\nnamo 'stu narmade tubhyaṃ trāhi māṃ viṣasarpataḥ ||\napasarpa sarpa bhadraṃ te dūraṃ gaccha mahāyaśaḥ |\njanamejayasya yajñānte āstīka vacanaṃ smaran ||\njaratkārvor jaratkārvāṃ samutpanno mahāyaśaḥ |\nāstīkassatyasandho māṃ pannagebhyo 'bhirakṣatu ||\npannagebhyo 'bhirakṣatu oṃ nama iti ||"
         },
         "action": "face east",
         "meaning": "Salutation to Narmadā by day, salutation to Narmadā by night; salutations to you, Narmadā — protect me from venomous serpents. Go away, serpent — blessings on you — go far, O renowned one, remembering Āstīka's word at the end of Janamejaya's sacrifice. May Āstīka of great renown, true to his vow, born of Jaratkāru and Jaratkāru, protect me from serpents."
-      },
-      {
-        "kind": "note",
-        "text": "Text as printed in the Kaalai booklet. The classical form of the third verse is *jaratkāror jaratkārvāṃ samutpanno mahāyaśāḥ* (Āstīka, son of the sage Jaratkāru and his wife Jaratkāru)."
       }
     ]
   },
@@ -439,7 +424,7 @@
       {
         "kind": "mantra",
         "text": {
-          "iast": "dhyeyas sadā savitṛ maṇḍala madhyavartī nārāyaṇaḥ sarasijāsana sanniviṣṭaḥ |\nkeyūravān makara kuṇḍalavān kirīṭī hārī hiraṇmaya vapuḥ dhṛta śaṅkha cakraḥ ||"
+          "iast": "dhyeyassadā savitṛ maṇḍala madhyavartī nārāyaṇaḥ sarasijāsana sanniviṣṭaḥ |\nkeyūravān makara kuṇḍalavān kirīṭī hārī hiraṇmaya vapuḥ dhṛta śaṅkha cakraḥ ||"
         },
         "meaning": "Nārāyaṇa, seated in the centre of the solar orb on a lotus seat, is ever to be meditated upon — adorned with armlets, makara earrings, crown and necklace, of golden body, holding the conch and discus."
       },
@@ -491,7 +476,7 @@
       {
         "kind": "mantra",
         "text": {
-          "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuś śākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||"
+          "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuśśākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||"
         },
         "action": "bend forward, hands crossed touching the ears; then touch the ground",
         "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
@@ -550,7 +535,7 @@
         "tradition": [
           "srivaishnava"
         ],
-        "text": "Chakravarthy reads *śrīraṅga maṅgalanidhiṃ* and gives this verse as optional (for Ahobila Maṭha śiṣyas); Kidambi includes it for all."
+        "text": "Chakravarthy gives this verse as optional (for Ahobila Maṭha śiṣyas); Kidambi includes it for all."
       },
       {
         "kind": "mantra",
@@ -608,16 +593,12 @@
         "meaning": "Send us this day, O God Savitṛ, prosperity with progeny; drive away from us the evil dream. O God Savitṛ, drive away from us all sins and misfortunes; send us what is good."
       },
       {
-        "kind": "note",
-        "text": "Some texts read *duṣvapnyaguṃ* / *duṣvapniyaguṃ* for *duḥṣvapniyaguṃ*; sandhya.pdf prints *savitur* where the Ṛgveda (5.82.5) and the Kaalai text have the vocative *savitar / savitaḥ*."
-      },
-      {
         "kind": "mantra",
         "tradition": [
           "srivaishnava"
         ],
         "text": {
-          "iast": "oṃ bhūr bhuva̱s suva̍ḥ |"
+          "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |"
         },
         "action": "sprinkle water on the place of the sandhyāvandanam (Kidambi's form)",
         "meaning": "Om — earth, mid-region, heaven."

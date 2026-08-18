@@ -20,7 +20,9 @@ export interface Settings {
   showActions: boolean
   fontScale: number // 1 = base
   theme: 'system' | 'light' | 'dark'
-  // location for panchanga (optional)
+  // detailed saṅkalpam (panchāṅga) — needs a location
+  detailedSankalpam: boolean
+  calendar: 'solar' | 'lunar' // solar = Tamil usage (meṣa māse…), lunar = Kannada/Telugu (caitra māse…)
   lat?: number
   lon?: number
   place?: string
@@ -42,6 +44,8 @@ export const DEFAULTS: Settings = {
   showActions: true,
   fontScale: 1,
   theme: 'system',
+  detailedSankalpam: false,
+  calendar: 'solar',
 }
 
 type Store = Settings & { set: (patch: Partial<Settings>) => void; reset: () => void }

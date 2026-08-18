@@ -2,14 +2,15 @@ import Sanscript from '@indic-transliteration/sanscript'
 import type { Script } from '../config'
 import type { Text } from '../content/schema'
 import type { Settings } from './settings'
+import { panchanga, panchangaPhrase } from './panchanga.ts'
 
 // IAST combining svara marks (as authored) → Devanagari-block Vedic marks used by all Indic fonts.
 // anudātta ̱ (U+0331) → ॒ (U+0952); svarita ̍ (U+030D) → ॑ (U+0951); dīrgha-svarita ̎ (U+030E) → ᳚ (U+1CDA)
 const SVARA: Record<string, string> = { '̱': '॒', '̍': '॑', '̎': '᳚' }
 const SVARA_RE = /[̱̍̎]/g
-// Fonts shape tone marks correctly only AFTER a visarga/anusvāra/candrabindu (Deva, Taml, Knda, Telu, Mlym);
-// IAST puts the accent on the vowel (na̍ḥ), so swap: न॑ः → नः॑
-const SVARA_BEFORE_SIGN = /([॒॑᳚])([ँ-ःஂஃఁ-ఃಁ-ಃംഃ])/g
+// Deva/Knda/Telu/Mlym fonts shape tone marks correctly only AFTER a visarga/anusvāra/candrabindu;
+// IAST puts the accent on the vowel (na̍ḥ), so swap: न॑ः → नः॑. (Tamil ஃ is the opposite — leave it.)
+const SVARA_BEFORE_SIGN = /([॒॑᳚])([ँ-ःఁ-ఃಁ-ಃംഃ])/g
 
 /** Transliterate IAST → target script. Sanscript passes combining marks through; we remap them. */
 export function xlit(iast: string, script: Script): string {
@@ -31,6 +32,7 @@ export function varsFrom(s: Settings, extra: Vars = {}): Vars {
     pravara: s.pravara || '…',
     sutra: s.sutra === 'other' ? '…' : s.sutra,
     arsheya: { 1: 'ekārṣeya', 3: 'trayārṣeya', 5: 'pañcārṣeya' }[s.arsheya],
+    panchanga: s.detailedSankalpam && s.lat != null && s.lon != null ? panchangaPhrase(panchanga(new Date(), s.lat, s.lon, s.calendar)) : '',
     ...extra,
   }
 }

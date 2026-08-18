@@ -1,0 +1,81 @@
+{
+ "s1_gayatri": {
+  "devanagari": "ॐ भूर् भुवः सुवः । तत् सवितुर् वरेण्यं । भर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥",
+  "tamil": "ௐ பூர் புவஃ ஸுவஃ । தத் ஸவிதுர் வரேண்யம் । பர்கோ தேவஸ்ய தீமஹி । தியோ யோ நஃ ப்ரசோதயாத் ॥",
+  "kannada": "ಓಂ ಭೂರ್ ಭುವಃ ಸುವಃ । ತತ್ ಸವಿತುರ್ ವರೇಣ್ಯಂ । ಭರ್ಗೋ ದೇವಸ್ಯ ಧೀಮಹಿ । ಧಿಯೋ ಯೋ ನಃ ಪ್ರಚೋದಯಾತ್ ॥",
+  "telugu": "ఓం భూర్ భువః సువః । తత్ సవితుర్ వరేణ్యం । భర్గో దేవస్య ధీమహి । ధియో యో నః ప్రచోదయాత్ ॥",
+  "malayalam": "ഓം ഭൂര് ഭുവഃ സുവഃ । തത് സവിതുര് വരേണ്യം । ഭര്ഗോ ദേവസ്യ ധീമഹി । ധിയോ യോ നഃ പ്രചോദയാത് ॥",
+  "gujarati": "ૐ ભૂર્ ભુવઃ સુવઃ । તત્ સવિતુર્ વરેણ્યં । ભર્ગો દેવસ્ય ધીમહિ । ધિયો યો નઃ પ્રચોદયાત્ ॥",
+  "bengali": "ওঁ ভূর্ ভুবঃ সুবঃ । তত্ সবিতুর্ বরেণ্যং । ভর্গো দেবস্য ধীমহি । ধিযো যো নঃ প্রচোদযাত্ ॥",
+  "itrans": "OM bhUr bhuvaH suvaH | tat savitur vareNyaM | bhargo devasya dhImahi | dhiyo yo naH prachodayAt ||",
+  "hk": "OM bhUr bhuvaH suvaH | tat savitur vareNyaM | bhargo devasya dhImahi | dhiyo yo naH pracodayAt ||",
+  "_roundtrip_iast": "oṃ bhūr bhuvaḥ suvaḥ | tat savitur vareṇyaṃ | bhargo devasya dhīmahi | dhiyo yo naḥ pracodayāt ||",
+  "_roundtrip_ok": true
+ },
+ "s2_apohistha": {
+  "devanagari": "आपो हिष्ठा मयोभुवः । ता न ऊर्जे दधातन । महेरणाय चक्षसे ।",
+  "tamil": "ஆபோ ஹிஷ்டா மயோபுவஃ । தா ந ஊர்ஜே ததாதந । மஹேரணாய சக்ஷஸே ।",
+  "kannada": "ಆಪೋ ಹಿಷ್ಠಾ ಮಯೋಭುವಃ । ತಾ ನ ಊರ್ಜೇ ದಧಾತನ । ಮಹೇರಣಾಯ ಚಕ್ಷಸೇ ।",
+  "telugu": "ఆపో హిష్ఠా మయోభువః । తా న ఊర్జే దధాతన । మహేరణాయ చక్షసే ।",
+  "malayalam": "ആപോ ഹിഷ്ഠാ മയോഭുവഃ । താ ന ഊര്ജേ ദധാതന । മഹേരണായ ചക്ഷസേ ।",
+  "gujarati": "આપો હિષ્ઠા મયોભુવઃ । તા ન ઊર્જે દધાતન । મહેરણાય ચક્ષસે ।",
+  "bengali": "আপো হিষ্ঠা মযোভুবঃ । তা ন ঊর্জে দধাতন । মহেরণায চক্ষসে ।",
+  "itrans": "Apo hiShThA mayobhuvaH | tA na Urje dadhAtana | maheraNAya chakShase |",
+  "hk": "Apo hiSThA mayobhuvaH | tA na Urje dadhAtana | maheraNAya cakSase |",
+  "_roundtrip_iast": "āpo hiṣṭhā mayobhuvaḥ | tā na ūrje dadhātana | maheraṇāya cakṣase |",
+  "_roundtrip_ok": true
+ },
+ "s3_kesava": {
+  "devanagari": "केशवाय नमः । नारायणाय नमः । माधवाय नमः । गोविन्दाय नमः । विष्णवे नमः । मधुसूदनाय नमः । त्रिविक्रमाय नमः । वामनाय नमः । श्रीधराय नमः । हृषीकेशाय नमः । पद्मनाभाय नमः । दामोदराय नमः",
+  "tamil": "கேஶவாய நமஃ । நாராயணாய நமஃ । மாதவாய நமஃ । கோவிந்தாய நமஃ । விஷ்ணவே நமஃ । மதுஸூதநாய நமஃ । த்ரிவிக்ரமாய நமஃ । வாமநாய நமஃ । ஶ்ரீதராய நமஃ । ஹ்ரு'ஷீகேஶாய நமஃ । பத்மநாபாய நமஃ । தாமோதராய நமஃ",
+  "kannada": "ಕೇಶವಾಯ ನಮಃ । ನಾರಾಯಣಾಯ ನಮಃ । ಮಾಧವಾಯ ನಮಃ । ಗೋವಿನ್ದಾಯ ನಮಃ । ವಿಷ್ಣವೇ ನಮಃ । ಮಧುಸೂದನಾಯ ನಮಃ । ತ್ರಿವಿಕ್ರಮಾಯ ನಮಃ । ವಾಮನಾಯ ನಮಃ । ಶ್ರೀಧರಾಯ ನಮಃ । ಹೃಷೀಕೇಶಾಯ ನಮಃ । ಪದ್ಮನಾಭಾಯ ನಮಃ । ದಾಮೋದರಾಯ ನಮಃ",
+  "telugu": "కేశవాయ నమః । నారాయణాయ నమః । మాధవాయ నమః । గోవిన్దాయ నమః । విష్ణవే నమః । మధుసూదనాయ నమః । త్రివిక్రమాయ నమః । వామనాయ నమః । శ్రీధరాయ నమః । హృషీకేశాయ నమః । పద్మనాభాయ నమః । దామోదరాయ నమః",
+  "malayalam": "കേശവായ നമഃ । നാരായണായ നമഃ । മാധവായ നമഃ । ഗോവിന്ദായ നമഃ । വിഷ്ണവേ നമഃ । മധുസൂദനായ നമഃ । ത്രിവിക്രമായ നമഃ । വാമനായ നമഃ । ശ്രീധരായ നമഃ । ഹൃഷീകേശായ നമഃ । പദ്മനാഭായ നമഃ । ദാമോദരായ നമഃ",
+  "gujarati": "કેશવાય નમઃ । નારાયણાય નમઃ । માધવાય નમઃ । ગોવિન્દાય નમઃ । વિષ્ણવે નમઃ । મધુસૂદનાય નમઃ । ત્રિવિક્રમાય નમઃ । વામનાય નમઃ । શ્રીધરાય નમઃ । હૃષીકેશાય નમઃ । પદ્મનાભાય નમઃ । દામોદરાય નમઃ",
+  "bengali": "কেশবায নমঃ । নারাযণায নমঃ । মাধবায নমঃ । গোবিন্দায নমঃ । বিষ্ণবে নমঃ । মধুসূদনায নমঃ । ত্রিবিক্রমায নমঃ । বামনায নমঃ । শ্রীধরায নমঃ । হৃষীকেশায নমঃ । পদ্মনাভায নমঃ । দামোদরায নমঃ",
+  "itrans": "keshavAya namaH | nArAyaNAya namaH | mAdhavAya namaH | govindAya namaH | viShNave namaH | madhusUdanAya namaH | trivikramAya namaH | vAmanAya namaH | shrIdharAya namaH | hRRiShIkeshAya namaH | padmanAbhAya namaH | dAmodarAya namaH",
+  "hk": "kezavAya namaH | nArAyaNAya namaH | mAdhavAya namaH | govindAya namaH | viSNave namaH | madhusUdanAya namaH | trivikramAya namaH | vAmanAya namaH | zrIdharAya namaH | hRSIkezAya namaH | padmanAbhAya namaH | dAmodarAya namaH",
+  "_roundtrip_iast": "keśavāya namaḥ | nārāyaṇāya namaḥ | mādhavāya namaḥ | govindāya namaḥ | viṣṇave namaḥ | madhusūdanāya namaḥ | trivikramāya namaḥ | vāmanāya namaḥ | śrīdharāya namaḥ | hṛṣīkeśāya namaḥ | padmanābhāya namaḥ | dāmodarāya namaḥ",
+  "_roundtrip_ok": true
+ },
+ "s4_vedic_iast": {
+  "devanagari": "अ̱ग्निमी̎ऴे पु̱रोहि̍तं य̱ज्ञस्य̍ दे̱वमृ̱त्विज̎म्",
+  "tamil": "அ̱க்நிமீ̎ழே பு̱ரோஹி̍தம் ய̱ஜ்ஞஸ்ய̍ தே̱வம்ரு'̱த்விஜ̎ம்",
+  "kannada": "ಅ̱ಗ್ನಿಮೀ̎ೞೇ ಪು̱ರೋಹಿ̍ತಂ ಯ̱ಜ್ಞಸ್ಯ̍ ದೇ̱ವಮೃ̱ತ್ವಿಜ̎ಮ್",
+  "telugu": "అ̱గ్నిమీ̎ఴే పు̱రోహి̍తం య̱జ్ఞస్య̍ దే̱వమృ̱త్విజ̎మ్",
+  "malayalam": "അ̱ഗ്നിമീ̎ഴേ പു̱രോഹി̍തം യ̱ജ്ഞസ്യ̍ ദേ̱വമൃ̱ത്വിജ̎മ്",
+  "gujarati": "અ̱ગ્નિમી̎ળ઼ે પુ̱રોહિ̍તં ય̱જ્ઞસ્ય̍ દે̱વમૃ̱ત્વિજ̎મ્",
+  "bengali": "অ̱গ্নিমী̎ষ়ে পু̱রোহি̍তং য̱জ্ঞস্য̍ দে̱বমৃ̱ত্বিজ̎ম্",
+  "itrans": "a̱gnimI̎zhe pu̱rohi̍taM ya̱j~nasya̍ de̱vamRRi̱tvija̎m",
+  "hk": "a̱gnimI̎zhe pu̱rohi̍taM ya̱jJasya̍ de̱vamṞtvija̎m",
+  "_roundtrip_iast": "a̱gnimī̎ḻe pu̱rohi̍taṃ ya̱jñasya̍ de̱vamṛ̱tvija̎m",
+  "_roundtrip_ok": true
+ },
+ "s4_vedic_deva": {
+  "devanagari": "अ॒ग्निमी᳚ळे पु॒रोहि॑तं",
+  "tamil": "அ॒க்நிமீ᳚ளே பு॒ரோஹி॑தம்",
+  "kannada": "ಅ॒ಗ್ನಿಮೀ᳚ಳೇ ಪು॒ರೋಹಿ॑ತಂ",
+  "telugu": "అ॒గ్నిమీ᳚ళే పు॒రోహి॑తం",
+  "malayalam": "അ॒ഗ്നിമീ᳚ളേ പു॒രോഹി॑തം",
+  "gujarati": "અ॒ગ્નિમી᳚ળે પુ॒રોહિ॑તં",
+  "bengali": "অ॒গ্নিমী᳚ল়ে পু॒রোহি॑তং",
+  "itrans": "a\\_gnimI᳚Le pu\\_rohi\\'taM",
+  "hk": "a॒gnimI᳚Le pu॒rohi॑taM",
+  "iast": "a॒gnimī᳚l̤e pu॒rohi̭taṃ",
+  "_roundtrip_dev": "अ॒ग्निमी᳚ळे पु॒रोहि॑तं",
+  "_roundtrip_ok": true
+ },
+ "s5_yajur": {
+  "devanagari": "ॐ भूर्भुवस्सुवः । नमग्ग्ं ते रुद्र मन्यव उतोत इषवे नमः । तेऽस्तु । कॢप्तं । संस्कृतं सꣳस्कृतम् । गङ्गा । नमोऽस्तु । ऌ वोwएल्: कॢप्त । चन्द्रबिन्दु: सꣳशयः",
+  "tamil": "ௐ பூர்புவஸ்ஸுவஃ । நமக்க்ம் தே ருத்ர மந்யவ உதோத இஷவே நமஃ । தேऽஸ்து । க்லு'ப்தம் । ஸம்ஸ்க்ரு'தம் ஸம்̐ஸ்க்ரு'தம் । கங்கா । நமோऽஸ்து । லு' வோwஏல்: க்லு'ப்த । சந்த்ரபிந்து: ஸம்̐ஶயஃ",
+  "kannada": "ಓಂ ಭೂರ್ಭುವಸ್ಸುವಃ । ನಮಗ್ಗ್ಂ ತೇ ರುದ್ರ ಮನ್ಯವ ಉತೋತ ಇಷವೇ ನಮಃ । ತೇಽಸ್ತು । ಕೢಪ್ತಂ । ಸಂಸ್ಕೃತಂ ಸಮ್̐ಸ್ಕೃತಮ್ । ಗಙ್ಗಾ । ನಮೋಽಸ್ತು । ಌ ವೋwಏಲ್: ಕೢಪ್ತ । ಚನ್ದ್ರಬಿನ್ದು: ಸಮ್̐ಶಯಃ",
+  "telugu": "ఓం భూర్భువస్సువః । నమగ్గ్ం తే రుద్ర మన్యవ ఉతోత ఇషవే నమః । తేఽస్తు । కౢప్తం । సంస్కృతం సమ్̐స్కృతమ్ । గఙ్గా । నమోఽస్తు । ఌ వోwఏల్: కౢప్త । చన్ద్రబిన్దు: సమ్̐శయః",
+  "malayalam": "ഓം ഭൂര്ഭുവസ്സുവഃ । നമഗ്ഗ്ം തേ രുദ്ര മന്യവ ഉതോത ഇഷവേ നമഃ । തേഽസ്തു । കൢപ്തം । സംസ്കൃതം സമ്̐സ്കൃതമ് । ഗങ്ഗാ । നമോഽസ്തു । ഌ വോwഏല്: കൢപ്ത । ചന്ദ്രബിന്ദു: സമ്̐ശയഃ",
+  "gujarati": "ૐ ભૂર્ભુવસ્સુવઃ । નમગ્ગ્ં તે રુદ્ર મન્યવ ઉતોત ઇષવે નમઃ । તેઽસ્તુ । કૢપ્તં । સંસ્કૃતં સમ્̐સ્કૃતમ્ । ગઙ્ગા । નમોઽસ્તુ । ઌ વોwએલ્: કૢપ્ત । ચન્દ્રબિન્દુ: સમ્̐શયઃ",
+  "bengali": "ওঁ ভূর্ভুবস্সুবঃ । নমগ্গ্ং তে রুদ্র মন্যব উতোত ইষবে নমঃ । তেঽস্তু । কৢপ্তং । সংস্কৃতং সম্̐স্কৃতম্ । গঙ্গা । নমোঽস্তু । ঌ বোwএল্: কৢপ্ত । চন্দ্রবিন্দু: সম্̐শযঃ",
+  "itrans": "OM bhUrbhuvassuvaH | namaggM te rudra manyava utota iShave namaH | te.astu | kLLiptaM | saMskRRitaM sam̐skRRitam | ga~NgA | namo.astu | LLi vowel: kLLipta | chandrabindu: sam̐shayaH",
+  "hk": "OM bhUrbhuvassuvaH | namaggM te rudra manyava utota iSave namaH | te'stu | klRptaM | saMskRtaM sam̐skRtam | gaGgA | namo'stu | lR vowel: klRpta | candrabindu: sam̐zayaH",
+  "_roundtrip_iast": "oṃ bhūrbhuvassuvaḥ | namaggṃ te rudra manyava utota iṣave namaḥ | te'stu | kḷptaṃ | saṃskṛtaṃ sam̐skṛtam | gaṅgā | namo'stu | ḷ vowel: kḷpta | candrabindu: sam̐śayaḥ",
+  "_roundtrip_ok": true
+ }
+}

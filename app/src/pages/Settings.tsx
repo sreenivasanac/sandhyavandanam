@@ -4,6 +4,7 @@ import { SCRIPTS, SCRIPT_LABEL, TRADITIONS, TRADITION_LABEL } from '../config'
 import gotrasJson from '../content/gotras.json'
 import { exportSettings, importSettings, useSettings, type Settings as S } from '../lib/settings'
 import { xlit } from '../lib/text'
+import { panchanga } from '../lib/panchanga'
 
 const GOTRAS = gotrasJson.gotras
 const ARSHEYA: Record<number, string> = { 1: 'ekārṣeya', 3: 'trayārṣeya', 5: 'pañcārṣeya' }
@@ -52,6 +53,22 @@ export function Settings({ onboarding = false }: { onboarding?: boolean }) {
         <Field label="Gāyatrī japa count"><select className="input w-auto" value={s.japaCount} onChange={(e) => set({ japaCount: Number(e.target.value) as S['japaCount'] })}>{[108, 28, 10].map((n) => <option key={n} value={n}>{n}</option>)}</select></Field>
       </Section>
 
+      <Section title="Saṅkalpam details (panchāṅga)">
+        <Toggle label="Add saṃvatsara · ayana · ṛtu · māsa · pakṣa · tithi · vāra · nakṣatra to the saṅkalpam (computed for today at your location)" v={s.detailedSankalpam} on={(v) => set({ detailedSankalpam: v })} />
+        <Field label="Calendar convention">
+          <select className="input w-auto" value={s.calendar} onChange={(e) => set({ calendar: e.target.value as S['calendar'] })}>
+            <option value="solar">Solar months — Tamil usage (meṣa māse…)</option>
+            <option value="lunar">Lunar months — Kannada/Telugu usage (caitra māse…)</option>
+          </select>
+        </Field>
+        <div className="grid grid-cols-2 gap-3">
+          <Field label="Latitude"><input className="input" type="number" step="0.01" value={s.lat ?? ''} onChange={(e) => set({ lat: e.target.value === '' ? undefined : Number(e.target.value) })} placeholder="13.08" /></Field>
+          <Field label="Longitude"><input className="input" type="number" step="0.01" value={s.lon ?? ''} onChange={(e) => set({ lon: e.target.value === '' ? undefined : Number(e.target.value) })} placeholder="80.27" /></Field>
+        </div>
+        <button className="btn btn-ghost" onClick={() => navigator.geolocation?.getCurrentPosition((p) => set({ lat: +p.coords.latitude.toFixed(2), lon: +p.coords.longitude.toFixed(2) }), () => alert('Location unavailable — enter latitude/longitude manually.'))}>Use my location</button>
+        {s.detailedSankalpam && s.lat != null && s.lon != null && <PanchangaPreview />}
+      </Section>
+
       <Section title="Display">
         <Field label="Mantra script">
           <div className="flex flex-wrap gap-2">
@@ -78,6 +95,19 @@ export function Settings({ onboarding = false }: { onboarding?: boolean }) {
         </Section>
       )}
     </div>
+  )
+}
+
+/** Today's computed panchāṅga so the user can sanity-check against their local calendar. */
+function PanchangaPreview() {
+  const s = useSettings()
+  const p = panchanga(new Date(), s.lat!, s.lon!, s.calendar)
+  const rows: [string, string][] = [['saṃvatsara', p.samvatsara], ['ayana', p.ayana], ['ṛtu', p.rtu], ['māsa', (p.adhika ? 'adhika ' : '') + p.masa], ['pakṣa', p.paksha], ['tithi', p.tithi], ['vāra', p.vara], ['nakṣatra', p.nakshatra], ['sunrise', p.sunrise.toLocaleTimeString()]]
+  return (
+    <dl className="mt-3 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
+      {rows.map(([k, v]) => <><dt key={k} style={{ color: 'var(--fg-muted)' }}>{k}</dt><dd key={k + v} className="font-serif">{v}</dd></>)}
+      <dd className="col-span-2 text-xs mt-1" style={{ color: 'var(--fg-muted)' }}>Values at today's sunrise, Lahiri ayanāṃśa. Please verify against your panchāṅgam once.</dd>
+    </dl>
   )
 }
 

@@ -3,10 +3,12 @@
 @import '@fontsource/gentium-book-plus/700.css';
 @import '@fontsource/noto-serif-devanagari/400.css';
 @import '@fontsource/noto-serif-devanagari/600.css';
-@import '@fontsource/noto-serif-tamil/400.css';
 @import '@fontsource/noto-serif-kannada/400.css';
 @import '@fontsource/noto-serif-telugu/400.css';
 @import '@fontsource/noto-serif-malayalam/400.css';
+
+/* Full Noto Serif Tamil (fontsource subset strips the Vedic accent marks U+0951/0952/1CDA) */
+@font-face { font-family: 'Noto Serif Tamil'; src: url('/fonts/NotoSerifTamil-Regular.ttf') format('truetype'); font-display: swap; }
 
 /* Theme tokens: cream / saffron / deep red. Dark mode via [data-theme=dark] or system. */
 @custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));

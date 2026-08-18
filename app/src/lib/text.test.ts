@@ -7,6 +7,7 @@ test('svara marks map to Devanagari and follow visarga/anusvāra', () => {
   assert.equal(xlit('dhiyo̱ yo na̍ḥ', 'devanagari'), 'धियो॒ यो नः॑')
   assert.equal(xlit('vare̎ṇyaṃ', 'devanagari'), 'वरे᳚ण्यं')
   assert.equal(xlit('suva̍ḥ', 'kannada'), 'ಸುವಃ॑')
+  assert.equal(xlit('na̍ḥ', 'tamil'), 'ந॑ஃ') // Tamil: accent stays before āytham
   assert.equal(xlit('oguṃ satyam', 'devanagari'), 'ओगुं सत्यम्')
 })
 test('iast passthrough, strip, fill, md', () => {

@@ -58,7 +58,8 @@
           "action": "sip water",
           "meaning": "Salutations to Govinda, protector of the world."
         }
-      ]
+      ],
+      "image": "/img/steps/acamanam.webp"
     },
     {
       "id": "anga-nyasam",
@@ -274,7 +275,8 @@
           "kind": "note",
           "text": "Then touch the right ear with the right hand (śrotrācamanam), and make brahmāñjali: left palm upturned on the right thigh, right hand downturned clasping it."
         }
-      ]
+      ],
+      "image": "/img/steps/pranayamam.webp"
     },
     {
       "id": "sankalpam",
@@ -549,7 +551,8 @@
           "action": "pour the water from the fingertips with each recitation",
           "meaning": "We meditate on the adorable light of the divine Savitṛ; may He impel our thoughts. Salutations to the Sun — this libation."
         }
-      ]
+      ],
+      "image": "/img/steps/arghya-pradanam.webp"
     },
     {
       "id": "prayascitta-arghyam",
@@ -729,7 +732,8 @@
           },
           "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
         }
-      ]
+      ],
+      "image": "/img/steps/abhivadanam.webp"
     }
   ]
 }

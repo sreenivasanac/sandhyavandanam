@@ -23,6 +23,7 @@ export function Perform() {
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if (['SELECT', 'INPUT', 'TEXTAREA', 'AUDIO'].includes((e.target as HTMLElement).tagName)) return
       if (e.key === 'ArrowRight' || e.key === ' ') go(i + 1)
       if (e.key === 'ArrowLeft') go(i - 1)
       if (e.key === 'Escape') nav('/')

@@ -18,6 +18,7 @@ export interface Settings {
   showTransliteration: boolean
   showMeaning: boolean
   showActions: boolean
+  showAudio: boolean // chant clips where available
   fontScale: number // 1 = base
   theme: 'system' | 'light' | 'dark'
   // detailed saṅkalpam (panchāṅga) — needs a location
@@ -42,6 +43,7 @@ export const DEFAULTS: Settings = {
   showTransliteration: true,
   showMeaning: true,
   showActions: true,
+  showAudio: true,
   fontScale: 1,
   theme: 'system',
   detailedSankalpam: false,

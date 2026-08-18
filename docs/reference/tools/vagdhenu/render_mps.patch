@@ -1,0 +1,79 @@
+--- src/render.py.orig	2026-08-17 20:17:27
++++ src/render.py	2026-08-17 20:20:01
+@@ -3,7 +3,7 @@
+ change is structural: model loaded once, render_clip() called per clip with a per-clip seed.
+ Writes DRY hemistich wavs (tanpura/assembly happen later in postaudio).
+ shard JSON: [{"id","meter","padas":[deva,...],"seed":60,"no_sandhi":true,"out":"/abs/clip.wav"}]"""
+-import os, sys, glob, json, argparse, numpy as np, soundfile as sf, torch
++import os, sys, glob, json, argparse, time, numpy as np, soundfile as sf, torch
+ HERE = os.path.dirname(os.path.abspath(__file__))     # src/  (prep_text.py sits beside this file)
+ REPO = os.path.dirname(HERE)
+ sys.path.insert(0, HERE)
+@@ -12,6 +12,9 @@
+ from f5_tts.model import DiT
+ CHAMP = os.environ.get("CHAMP_ROOT", os.path.join(REPO, "models"))   # weights land here (scripts/download_weights.py)
+ SR = 24000
++# device: cuda > mps > cpu (VAGDHENU_DEVICE overrides, e.g. =cpu)
++DEV = os.environ.get("VAGDHENU_DEVICE") or ("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
++print(f"[device] {DEV}", flush=True)
+ FALLBACK_METER = "vasantatilaka"   # unknown/unmatched vṛtta -> this reference instead of erroring (see get_ref)
+ 
+ # ── helpers copied VERBATIM from render_production.py ──────────────────────────────────
+@@ -157,6 +160,7 @@
+     t = txt.rstrip(" ।॥|.,;:!?‌‍")
+     return len(t) > 0 and t[-1] in _VIRAMA
+ 
++_T_LOAD = time.time()
+ # ── args + model load (ONCE) ──────────────────────────────────────────────────────────
+ ap = argparse.ArgumentParser()
+ ap.add_argument("--shard", required=True)
+@@ -178,21 +182,21 @@
+ vocab = next((v for v in _vocab_cands if v and os.path.exists(v)), None)
+ if vocab is None:
+     raise SystemExit("vocab.txt not found — run scripts/download_weights.py")
+-cfm = load_model(DiT, CFG, mel_spec_type="vocos", vocab_file=vocab, device="cuda")
++cfm = load_model(DiT, CFG, mel_spec_type="vocos", vocab_file=vocab, device=DEV)
+ ck = torch.load(a.voice, map_location="cpu", weights_only=True)
+ ema = {k.replace("ema_model.", ""): v for k, v in ck["ema_model_state_dict"].items() if k not in ("initted", "step")}
+ cfm.load_state_dict(ema, strict=False); cfm.eval()
+-real_voc = load_vocoder("vocos")
++real_voc = load_vocoder("vocos", device=DEV)
+ class Cap:
+     def __init__(s, r): s.r = r; s.last = None
+     def decode(s, m): s.last = m.detach().cpu().numpy(); return s.r.decode(m)
+ cap = Cap(real_voc)
+ g = bigvgan.BigVGAN.from_pretrained("nvidia/bigvgan_v2_24khz_100band_256x", use_cuda_kernel=False)
+ bsd = torch.load(a.voc, map_location="cpu"); bsd = bsd.get("model", bsd)
+-g.load_state_dict(bsd); g.remove_weight_norm(); g = g.cuda().eval()
++g.load_state_dict(bsd); g.remove_weight_norm(); g = g.to(DEV).eval()
+ for p in g.parameters(): p.requires_grad = False
+ def bvgan(mel):
+-    m = torch.from_numpy(mel).cuda()
++    m = torch.from_numpy(mel).to(DEV)
+     with torch.no_grad():
+         if m.dim()==3 and m.shape[1]!=100 and m.shape[2]==100: m = m.transpose(1,2)
+         return g(m).squeeze().cpu().numpy().astype(np.float32)
+@@ -278,7 +282,7 @@
+         for att in range(4):
+             torch.manual_seed(seed + att)
+             _fixd = (ref_len + NSYLL[i]*sps) if (sps > 0 and NSYLL) else None
+-            w, sr, _ = infer_process(_ra, _rt, p, cfm, cap, mel_spec_type="vocos", speed=spd, nfe_step=a.nfe, cfg_strength=a.cfg, device="cuda", fix_duration=_fixd)
++            w, sr, _ = infer_process(_ra, _rt, p, cfm, cap, mel_spec_type="vocos", speed=spd, nfe_step=a.nfe, cfg_strength=a.cfg, device=DEV, fix_duration=_fixd)
+             w = np.array(w, dtype=np.float32)
+             if np.abs(w).max() > 1.5: w = w/32768.0
+             if float(np.sqrt((w**2).mean())) > 0.04: au = w; break
+@@ -296,11 +300,12 @@
+     return {"id": clip["id"], "dur": round(len(final)/SR, 3), "pieces": len(PIECES), "seed": seed, "out": out}
+ 
+ clips = json.load(open(a.shard, encoding="utf-8"))
+-print(f"[batch] {len(clips)} clips, model loaded", flush=True)
++print(f"[batch] {len(clips)} clips, model loaded in {time.time()-_T_LOAD:.0f}s", flush=True)
+ results = []
+ for clip in clips:
+     try:
+-        r = render_clip(clip); results.append(r); print(f"OK {r['id']} {r['dur']}s seed{r['seed']}", flush=True)
++        _t0 = time.time(); r = render_clip(clip); r["sec"] = round(time.time() - _t0, 1); results.append(r)
++        print(f"OK {r['id']} {r['dur']}s seed{r['seed']} ({r['sec']}s wall, RTF {r['sec']/max(r['dur'],1e-6):.1f})", flush=True)
+     except Exception as e:
+         results.append({"id": clip["id"], "error": str(e)}); print(f"FAIL {clip['id']} {e}", flush=True)
+ json.dump(results, open(a.results, "w"), ensure_ascii=False, indent=1)

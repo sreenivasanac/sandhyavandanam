@@ -3,7 +3,7 @@
 ## Report: prathosh.in projects & Sanskrit/Vedic chant audio options for the Sandhyavandanam PWA
 
 ### TL;DR
-- **Vāgdhenu** is a real, open (Apache-2.0), high-quality **laukika Sanskrit śloka-to-chant TTS**. It explicitly does **not** do Vedic svaras ("No Vedic svaras" on the model card; "not intended for Vedic texts" on the Vāgbodhinī page). Needs a CUDA GPU (~1.8 GB weights). Usable only for the non-Vedic bits of Sandhyavandanam (saṅkalpa prose, dhyāna ślokas, ācamana names).
+- **Vāgdhenu** is a real, open (Apache-2.0), high-quality **laukika Sanskrit śloka-to-chant TTS**. It explicitly does **not** do Vedic svaras ("No Vedic svaras" on the model card; "not intended for Vedic texts" on the Vāgbodhinī page). Upstream assumes a CUDA GPU (~1.8 GB weights), but it **runs on the M4 Pro via MPS** after a small patch — see `VAGDHENU_LOCAL.md` (≈17 s per hemistich; whole corpus ≈ 1–2 h) and `GPU_OPTIONS.md` for rentals. Usable only for the non-Vedic bits of Sandhyavandanam (saṅkalpa prose, dhyāna ślokas, ācamana names).
 - **Vāgbodhinī** = Vāgdhenu + **Su-śrotā** ASR = a chant *tutor* (verify user's recitation). Su-śrotā's normalisation **drops Vedic accent marks** — it cannot score svaras. Server + GPU app, not embeddable in a static PWA.
 - **No TTS anywhere (open or commercial) honours udātta/anudātta/svarita.** Even Prathosh's own Vedic app (VedaVaaNi) uses **professionally recorded human chanters** (Sringeri/Kanchi), not TTS.
 - **Recommendation:** v1 chant feature = ship **human-recorded mp3s per step** (own/consented recording, or a licence-cleared source), plain `<audio>`. Optionally pre-generate the laukika ślokas with Vāgdhenu offline. Defer svara-TTS and pronunciation scoring.

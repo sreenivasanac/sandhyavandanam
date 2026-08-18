@@ -78,6 +78,7 @@ export function Settings({ onboarding = false }: { onboarding?: boolean }) {
         <Toggle label="Show Roman transliteration under the mantra" v={s.showTransliteration} on={(v) => set({ showTransliteration: v })} />
         <Toggle label="Show meaning (English)" v={s.showMeaning} on={(v) => set({ showMeaning: v })} />
         <Toggle label="Show action hints (what to do while reciting)" v={s.showActions} on={(v) => set({ showActions: v })} />
+        <Toggle label="Show chant buttons (AI-synthesised laukika chanting via Vāgdhenu — a pronunciation aid, not a substitute for your guru; Vedic mantras with svaras have no audio)" v={s.showAudio} on={(v) => set({ showAudio: v })} />
         <Field label={`Text size · ${Math.round(s.fontScale * 100)}%`}><input type="range" min={0.85} max={1.6} step={0.05} value={s.fontScale} onChange={(e) => set({ fontScale: Number(e.target.value) })} className="w-full" /></Field>
         <Field label="Theme"><select className="input w-auto" value={s.theme} onChange={(e) => set({ theme: e.target.value as S['theme'] })}><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></Field>
       </Section>

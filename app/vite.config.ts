@@ -23,7 +23,11 @@ export default defineConfig({
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
         ],
       },
-      workbox: { globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'] },
+      workbox: {
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2,woff,ttf,json,webp}'],
+        // chant clips are fetched on first play and then kept for offline use
+        runtimeCaching: [{ urlPattern: /\/audio\/.*\.m4a$/, handler: 'CacheFirst', options: { cacheName: 'chants', expiration: { maxEntries: 400 } } }],
+      },
     }),
   ],
 })

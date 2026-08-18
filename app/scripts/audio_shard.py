@@ -3,7 +3,7 @@
 # ///
 """Build the Vāgdhenu batch-render shard from the content, and (after rendering) wire audio paths back in.
 
-  uv run scripts/audio_shard.py build  > vagdhenu_shard.json   # items to render (laukika only)
+  uv run scripts/audio_shard.py build /abs/outdir > shard.json   # Vāgdhenu shard (laukika only)
   uv run scripts/audio_shard.py wire  public/audio               # set item.audio for every rendered file
 
 Selection: mantras WITHOUT Vedic svara marks and WITHOUT {placeholders} (Vāgdhenu is laukika-only; personalised
@@ -35,7 +35,18 @@ def laukika_items():
             yield step, item
 
 
-def build() -> None:
+VOWELS = re.compile(r"[aāiīuūṛṝḷeo]|ai|au")
+# syllables per half-verse (2 pādas) → Vāgdhenu reference-bank metre key; anything else is chanted as prose
+METRE = {16: "anushtubh", 22: "upajati", 24: "vamshastha", 28: "vasantatilaka", 30: "malini", 38: "shardulavikridita", 42: "sragdhara"}
+
+
+def guess_meter(lines: list[str]) -> str:
+    counts = {len(VOWELS.findall(l)) for l in lines}
+    return METRE[next(iter(counts))] if len(counts) == 1 and next(iter(counts)) in METRE else "gadya"
+
+
+def build(outdir: str) -> None:
+    """Vāgdhenu shard: one clip per unique laukika mantra; padas = lines (Devanagari, dandas stripped)."""
     seen, shard = set(), []
     for step, item in laukika_items():
         t = item["text"]["iast"]
@@ -43,11 +54,18 @@ def build() -> None:
         if i in seen:
             continue  # same mantra repeated in several steps → render once
         seen.add(i)
-        padas = [p.strip() for p in re.split(r"\n|\|\|?", t) if p.strip()]
-        is_verse = "\n" in t and len(padas) in (2, 4)  # crude: 2/4 line items are ślokas, else prose (gadya)
-        shard.append({"id": i, "step": step["id"], "meter": "auto" if is_verse else "gadya", "padas": padas, "seed": 1, "out": f"{i}.wav"})
+        lines = [p.strip(" |") for p in t.split("\n") if p.strip(" |")]
+        meter = guess_meter(lines) if len(lines) in (2, 4) else "gadya"
+        # for prose keep the source's `|` groups as separate padas (short breath groups chant better)
+        src_padas = lines if meter != "gadya" else [p.strip() for p in re.split(r"\n|\|\|?", t) if p.strip()]
+        deva = item["text"]["devanagari"]
+        deva_padas = [p.strip() for p in re.split(r"\n|॥|।", deva) if p.strip()]
+        if len(deva_padas) != len(src_padas):  # fall back to whole text as one pada
+            deva_padas = [re.sub(r"[।॥\n]+", " ", deva).strip()]
+        shard.append({"id": i, "step": step["id"], "meter": meter, "padas": deva_padas, "iast": src_padas, "seed": 60, "no_sandhi": False, "out": f"{outdir}/{i}.wav"})
     json.dump(shard, sys.stdout, ensure_ascii=False, indent=1)
-    print(f"\n# {len(shard)} unique items, {sum(len(''.join(s['padas'])) for s in shard)} chars", file=sys.stderr)
+    from collections import Counter
+    print(f"\n# {len(shard)} unique items, {sum(len(s['padas']) for s in shard)} padas, metres {dict(Counter(s['meter'] for s in shard))}", file=sys.stderr)
 
 
 def wire(audio_dir: Path) -> None:
@@ -75,7 +93,7 @@ def wire(audio_dir: Path) -> None:
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "build"
     if cmd == "build":
-        build()
+        build(sys.argv[2] if len(sys.argv) > 2 else "out")
     elif cmd == "wire":
         wire(Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / "public/audio")
     else:

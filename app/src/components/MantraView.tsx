@@ -4,6 +4,7 @@ import { useSettings } from '../lib/settings'
 import { fill, render, stripSvara, type Vars } from '../lib/text'
 import { Md } from './Md'
 import { Opt } from './StepView'
+import { Chant } from './Chant'
 
 const LANG: Record<string, string> = {
   devanagari: 'sa-Deva', iast: 'sa-Latn', tamil: 'sa-Taml', kannada: 'sa-Knda', telugu: 'sa-Telu', malayalam: 'sa-Mlym',
@@ -28,7 +29,7 @@ export function ItemView({ item, kala, vars }: { item: Item; kala: Kala; vars: V
       {s.showMeaning && item.meaning && (
         <p className="mt-2 font-sans text-[0.95rem] leading-relaxed" style={{ color: 'var(--fg-muted)' }}><Md text={fill(item.meaning, vars)} /></p>
       )}
-      {item.audio && <audio controls preload="none" src={item.audio} className="mt-2 w-full max-w-sm" />}
+      {item.audio && s.showAudio && <Chant src={item.audio} label="AI-chanted (Vāgdhenu), pronunciation guide" />}
     </div>
   )
 }

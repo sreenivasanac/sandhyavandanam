@@ -70,7 +70,7 @@
       },
       {
         "kind": "note",
-        "text": "Some texts read *kāmo 'kārṣīt manyur akārṣīt namo namaḥ*. One Smārta text (Sandhyavandanam.pdf) keeps the east → south → west → north order at all three kālas, turning to face west only for *sarvābhyo devatābhyo* in the evening. Chakravarthy adds four namaskārams here."
+        "text": "Kidambi prints the words without sandhi: *kāmo 'kārṣīt manyur akārṣīt namo namaḥ*. One Smārta text (Sandhyavandanam.pdf) keeps the east → south → west → north order at all three kālas, turning to face west only for *sarvābhyo devatābhyo* in the evening. Chakravarthy adds four namaskārams here."
       }
     ]
   },
@@ -83,7 +83,7 @@
     "section": "uttaranga",
     "facing": {
       "pratah": "east",
-      "madhyahnika": "north",
+      "madhyahnika": "east",
       "sayam": "west"
     },
     "intro": "Bend forward at the waist, cross the forearms (right over left) and touch the ears with the hands; state your lineage and name. Then touch the ground (or the feet of elders present) and stand erect. Fill in your own pravara ṛṣis, gotra, sūtra and name; the app substitutes them from your settings.",
@@ -384,10 +384,9 @@
     "optional": true,
     "facing": {
       "pratah": "east",
-      "madhyahnika": "east",
-      "sayam": "east"
+      "madhyahnika": "east"
     },
-    "intro": "Some families add this. Face east and recite.",
+    "intro": "Some families add this (the Kaalai text, a morning manual, has it facing east). Recite with hands in añjali.",
     "sources": [
       "Kaalai p11"
     ],
@@ -399,6 +398,10 @@
         },
         "action": "face east",
         "meaning": "Salutation to Narmadā by day, salutation to Narmadā by night; salutations to you, Narmadā — protect me from venomous serpents. Go away, serpent — blessings on you — go far, O renowned one, remembering Āstīka's word at the end of Janamejaya's sacrifice. May Āstīka of great renown, true to his vow, born of Jaratkāru and Jaratkāru, protect me from serpents."
+      },
+      {
+        "kind": "note",
+        "text": "Text as printed in the Kaalai booklet. The classical form of the third verse is *jaratkāror jaratkārvāṃ samutpanno mahāyaśāḥ* (Āstīka, son of the sage Jaratkāru and his wife Jaratkāru)."
       }
     ]
   },
@@ -453,7 +456,7 @@
           "smarta"
         ],
         "text": {
-          "iast": "ākāśāt patitaṃ toyaṃ yathā gacchati sāgaram |\nsarvadeva namaskāraḥ keśavaṃ prati gacchati ||\nśrī keśavaṃ prati gacchaty oṃ nama iti ||"
+          "iast": "ākāśāt patitaṃ toyaṃ yathā gacchati sāgaram |\nsarvadeva namaskāraḥ keśavaṃ prati gacchati ||\nkeśavaṃ prati gacchaty oṃ nama iti ||"
         },
         "meaning": "Just as water fallen from the sky reaches the ocean, so salutation to any god reaches Keśava alone."
       },
@@ -509,7 +512,7 @@
     "facing": {
       "pratah": "east",
       "madhyahnika": "east",
-      "sayam": "north"
+      "sayam": "west"
     },
     "intro": "Sit down. Take a little water in the right palm and, reciting, let it fall to the ground, dedicating everything done to Nārāyaṇa. Śrī Vaiṣṇavas first close the rite with the sātvika tyāgam (hands in añjali).",
     "sources": [
@@ -526,7 +529,7 @@
           "srivaishnava"
         ],
         "text": {
-          "iast": "bhagavān eva svaniyāmya svarūpa sthiti pravṛtti svaśeṣataika rasena anena ātmanā kartrā svakīyaiś ca upakaraṇaiḥ svārādhanaika prayojanāya paramapuruṣaḥ sarvaśeṣī śriyaḥ patiḥ svaśeṣabhūtam idaṃ {kala} sandhyāvandanākhyaṃ karma svasmai svaprītaye svayam eva kāritavān ||"
+          "iast": "bhagavāneva svaniyāmya svarūpasthiti pravṛtti svaśeṣataika rasena anena ātmanā kartrā svakīyaiśca upakaraṇaiḥ svārādhanaika prayojanāya paramapuruṣaḥ sarvaśeṣī śriyaḥ patiḥ svaśeṣabhūtaṃ idaṃ {kala} sandhyāvandanākhyaṃ karma svasmai svaprītaye svayameva kāritavān ||"
         },
         "action": "hands in añjali",
         "meaning": "The Lord Himself — the Supreme Person, master of all, consort of Śrī — through this self of mine as the doer, whose form, existence and activity He governs and whose sole essence is to be His subordinate, and with His own instruments, for the sole purpose of His own worship, has caused this {kalaEn} sandhyāvandanam, which belongs to Him, to be performed for Himself, for His own pleasure."
@@ -585,7 +588,7 @@
     "facing": {
       "pratah": "east",
       "madhyahnika": "east",
-      "sayam": "north"
+      "sayam": "west"
     },
     "intro": "Take a little water in the hand and sprinkle it on the spot where you sat for the sandhyāvandanam. Touch the sprinkled water with the right ring finger and apply it to the forehead as tilakam. Conclude with brahmārpaṇam, ācamanam and prostration.",
     "sources": [
@@ -606,7 +609,7 @@
       },
       {
         "kind": "note",
-        "text": "Some texts read *duṣvapnyaguṃ* / *duṣvapniyaguṃ* for *duḥṣvapniyaguṃ*."
+        "text": "Some texts read *duṣvapnyaguṃ* / *duṣvapniyaguṃ* for *duḥṣvapniyaguṃ*; sandhya.pdf prints *savitur* where the Ṛgveda (5.82.5) and the Kaalai text have the vocative *savitar / savitaḥ*."
       },
       {
         "kind": "mantra",

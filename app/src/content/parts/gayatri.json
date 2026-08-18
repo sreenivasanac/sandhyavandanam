@@ -7,14 +7,14 @@
     "intro": "Several texts begin the Gāyatrī-japa portion (Uttarāṅgam) with a fresh ācamanam — sip water three times from the brāhma-tīrtha — followed by the Keśavādi aṅga-nyāsam as at the start; Smārta texts add the Gaṇapati dhyānam. Kidambi goes straight from the āsana mantra to prāṇāyāma and the japa saṅkalpam.",
     "sources": ["sandhya.pdf p8", "Chakravarthy p29–30", "Sandhyavandanam.pdf p12", "Kaalai p6"],
     "items": [
-      { "kind": "mantra", "text": { "iast": "oṃ acyutāya namaḥ" }, "action": "sip water", "meaning": "Salutations to Acyuta, the unfallen one." },
-      { "kind": "mantra", "text": { "iast": "oṃ anantāya namaḥ" }, "action": "sip water", "meaning": "Salutations to Ananta, the infinite one." },
-      { "kind": "mantra", "text": { "iast": "oṃ govindāya namaḥ" }, "action": "sip water", "meaning": "Salutations to Govinda, protector of the world." },
+      { "kind": "mantra", "text": { "iast": "oṃ acyutāya namaḥ" }, "action": "pour a little water into the right palm and swallow it", "meaning": "Salutations to Acyuta, the unfallen, unchanging one." },
+      { "kind": "mantra", "text": { "iast": "oṃ anantāya namaḥ" }, "action": "again pour water and swallow", "meaning": "Salutations to Ananta, the infinite one." },
+      { "kind": "mantra", "text": { "iast": "oṃ govindāya namaḥ" }, "action": "again pour water and swallow; wash the hand and wipe the lips", "meaning": "Salutations to Govinda, protector of the cows and of the earth." },
       { "kind": "note", "text": "Then touch the limbs with the twelve names *keśavāya namaḥ … dāmodarāya namaḥ* as in Aṅga-nyāsam." },
       {
         "kind": "mantra",
         "tradition": ["smarta"],
-        "text": { "iast": "śuklāṃbaradharaṃ viṣṇuṃ śaśivarṇaṃ caturbhujam |\nprasannavadanaṃ dhyāyet sarvavighnopaśāntaye ||" },
+        "text": { "iast": "śuklāmbaradharaṃ viṣṇuṃ śaśivarṇaṃ caturbhujam |\nprasannavadanaṃ dhyāyet sarvavighnopaśāntaye ||" },
         "action": "gently tap the temples with the fists (some texts: five times, once after each word)",
         "meaning": "The all-pervading Lord is to be meditated upon for the removal of obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced."
       }
@@ -29,7 +29,7 @@
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ satyam |\noṃ tat sa̍vi̱tur vare̎ṇyaṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||" },
+        "text": { "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||" },
         "repeat": 3,
         "action": "prāṇāyāma, three rounds",
         "meaning": "Om — the material world; Om — the realm of mind; Om — the realm of light; Om — the realm of vastness; Om — the realm of creative delight; Om — the realm of unobstructed will; Om — the realm of the highest Truth. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. He is in the waters, in light, in flavour, in the nectar of immortality, and pervades the three realms — physical, mental and spiritual. All this is denoted by the Praṇava."
@@ -48,7 +48,6 @@
         "action": "saṅkalpa posture",
         "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the great Gāyatrī mantra {japaCount} times."
       },
-      { "kind": "note", "tradition": ["srivaishnava"], "text": "Some texts read *śrī bhagavadājñayā bhagavat-kaiṅkarya-rūpaṃ* in place of *śrīmannārāyaṇa prītyarthaṃ*." },
       { "kind": "note", "text": "Say the count in Sanskrit: *aṣṭottara-śata-vāraṃ* (108), *aṣṭāviṃśati-vāraṃ* (28) or *daśa-vāraṃ* (10); Chakravarthy has *…saṅkhyayā* instead of *vāraṃ*. Conventional counts are 108, 28 or at least 10 (some also give 32 or 1008); one Smārta text prescribes 108 in the morning, 32 at noon and 64 in the evening. Set your count in Settings." }
     ]
   },
@@ -77,9 +76,9 @@
         "kind": "mantra",
         "text": { "iast": "muktāvidruma hemanīla dhavalacchāyair mukhais trīkṣaṇaiḥ\nyuktām indukalā nibaddha makuṭāṃ tattvārtha varṇātmikām |\ngāyatrīṃ varadābhayāṃ kuśakaśaṃ śubhraṃ kapālaṃ guṇaṃ\nśaṅkhaṃ cakram athāravinda yugalaṃ hastair vahantīṃ bhaje ||" },
         "action": "hands in añjali; meditate on the form of Gāyatrī",
-        "meaning": "I worship Gāyatrī — whose five faces have the hues of pearl, coral, gold, sapphire and white, each with three eyes; whose crown is bound with the crescent moon; who is the very letters that embody the supreme truth; who bears in her hands the boon-gesture and the fear-dispelling gesture, kuśa grass and whip (goad and whip), a white skull, the noose, conch, discus and a pair of lotuses."
+        "meaning": "I worship Gāyatrī — whose five faces have the hues of pearl, coral, gold, sapphire and white, each with three eyes; whose crown is bound with the crescent moon; who is the very letters that embody the supreme truth; who bears in her hands the boon-gesture and the fear-dispelling gesture, kuśa grass and whip, a white skull, the noose, conch, discus and a pair of lotuses."
       },
-      { "kind": "note", "text": "Some texts read *varadābhayāṅkuśakaśāṃ* (goad and whip) for *varadābhayāṃ kuśakaśaṃ*." },
+      { "kind": "note", "text": "Kidambi reads *varadābhayāṃ kuśakaśaṃ*; other texts read *varadābhayāṅkuśakaśāṃ* (goad and whip)." },
       {
         "kind": "mantra",
         "text": { "iast": "oṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||" },
@@ -94,7 +93,7 @@
       },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ satyam |\noṃ tat sa̍vi̱tur vare̎ṇyaṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||" },
+        "text": { "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||" },
         "repeat": 3,
         "action": "prāṇāyāma, three rounds",
         "meaning": "Om — the seven worlds. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. Om is the waters, the light, the essence, the nectar of immortality, Brahman — the three realms; Om."
@@ -109,7 +108,7 @@
     "intro": "Nyāsa: touch the head, nose and chest. Then with hands in añjali recite the invocation. At each *āvāhayāmi* open the joined palms and move both hands in a circle inward towards the heart (āvāhana mudrā), returning to añjali — inviting the Goddess to be seated in the lotus of the heart.",
     "sources": ["sandhya.pdf p10", "Kidambi p37–39, p69–71, p101–103", "Chakravarthy p35–36", "Sandhyavandanam.pdf p15", "Kaalai p7"],
     "items": [
-      { "kind": "mantra", "text": { "iast": "āyātv iti anuvākasya vāmadeva ṛṣiḥ |" }, "action": "touch the top of the head", "meaning": "Of the anuvāka beginning *āyātu* the seer is Vāmadeva." },
+      { "kind": "mantra", "text": { "iast": "āyātu iti anuvākasya vāmadeva ṛṣiḥ |" }, "action": "touch the top of the head", "meaning": "Of the anuvāka beginning *āyātu* the seer is Vāmadeva." },
       { "kind": "mantra", "text": { "iast": "anuṣṭup chandaḥ |" }, "action": "touch the tip of the nose", "meaning": "The metre is anuṣṭup." },
       { "kind": "mantra", "text": { "iast": "gāyatrī devatā |" }, "action": "touch the chest", "meaning": "The deity is Gāyatrī." },
       { "kind": "mantra", "text": { "iast": "gāyatrī āvāhane viniyogaḥ ||" }, "action": "hands in añjali", "meaning": "It is employed in the invocation of Gāyatrī." },
@@ -203,7 +202,7 @@
       { "kind": "mantra", "optional": true, "text": { "iast": "oṃ bhūr bhuvas suvarom iti digbandhaḥ ||" }, "action": "snap the fingers in the eight directions around the head" },
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūr bhuva̱s suva̍ḥ | tat sa̍vi̱tur vare̎ṇyaṃ | bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||" },
+        "text": { "iast": "oṃ bhūr bhuva̱s suva̍ḥ | tat sa̍vi̱tur vare̎ṇya̱ṃ | bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||" },
         "action": "recite {japaCount} times, silently, hands covered, counting on the finger-joints",
         "meaning": "Om. Earth, mid-region, heaven. We meditate upon that adorable light of the divine Savitā, the Creator; may He impel our intellect."
       },
@@ -222,7 +221,7 @@
       {
         "kind": "mantra",
         "optional": true,
-        "text": { "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {japaCount} vāraṃ śrī aṣṭākṣara mahāmantra japaṃ kariṣye ||" },
+        "text": { "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {japaCount} vāraṃ śrī aṣṭākṣara mahāmantra japaṃ kariṣye ||" },
         "action": "saṅkalpa posture (Chakravarthy; Kidambi has no separate saṅkalpa)",
         "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I perform the japa of the great eight-syllable mantra {japaCount} times."
       },
@@ -249,14 +248,14 @@
     "items": [
       {
         "kind": "mantra",
-        "text": { "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ satyam |\noṃ tat sa̍vi̱tur vare̎ṇyaṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||" },
+        "text": { "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱s suva̱rom ||" },
         "repeat": 3,
         "action": "prāṇāyāma, three rounds",
         "meaning": "Om — the seven worlds. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. Om is the waters, the light, the essence, the nectar of immortality, Brahman — the three realms; Om."
       },
-      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "{kala} sandhyopasthānaṃ kariṣye ||" }, "action": "saṅkalpa posture (brahmāñjali)", "meaning": "I shall perform the upasthānam of the {kalaEn} sandhyā." },
-      { "kind": "mantra", "tradition": ["srivaishnava"], "text": { "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā upasthānaṃ kariṣye ||" }, "action": "saṅkalpa posture (brahmāñjali)", "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I shall perform the upasthānam of the {kalaEn} sandhyā." },
-      { "kind": "note", "text": "Some Smārta texts say *{kala} sandhyā gāyatrī upasthānaṃ kariṣye*." },
+      { "kind": "mantra", "tradition": ["smarta"], "text": { "iast": "hariḥ oṃ tatsat | govinda govinda govinda | mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyopasthānaṃ kariṣye ||" }, "action": "saṅkalpa posture (brahmāñjali)", "meaning": "For the destruction of all my sins and to please the Supreme Lord, I shall perform the upasthānam of the {kalaEn} sandhyā." },
+      { "kind": "mantra", "tradition": ["srivaishnava"], "text": { "iast": "hariḥ oṃ tatsat | govinda govinda govinda | śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā upasthānaṃ kariṣye ||" }, "action": "saṅkalpa posture (brahmāñjali)", "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I shall perform the upasthānam of the {kalaEn} sandhyā." },
+      { "kind": "note", "text": "The printed texts give this saṅkalpa in short form: *{kala} sandhyopasthānaṃ kariṣye* (sandhya.pdf) or *{kala} sandhyā gāyatrī upasthānaṃ kariṣye* (Chakravarthy, Kaalai)." },
       { "kind": "mantra", "text": { "iast": "uttama ity anuvākasya vāmadeva ṛṣiḥ |" }, "action": "stand up; touch the top of the head", "meaning": "Of the anuvāka beginning *uttame* the seer is Vāmadeva." },
       { "kind": "mantra", "text": { "iast": "anuṣṭup chandaḥ |" }, "action": "touch the tip of the nose", "meaning": "The metre is anuṣṭup." },
       { "kind": "mantra", "text": { "iast": "gāyatrī devatā |" }, "action": "touch the chest", "meaning": "The deity is Gāyatrī." },
@@ -310,14 +309,14 @@
       {
         "kind": "mantra",
         "kala": ["madhyahnika"],
-        "text": { "iast": "ā sa̱tyena̱ raja̍sā̱ varta̍māno nive̱śaya̍nn a̱mṛta̱ṃ martya̍ñ ca |\nhi̱ra̱ṇyaye̍na savi̱tā rathe̱nā''de̱vo yā̍ti̱ bhuva̍nā vi̱paśyan̍ ||" },
+        "text": { "iast": "ā sa̱tyena̱ raja̍sā̱ varta̍māno nive̱śaya̍nn a̱mṛta̱ṃ martya̍ñ ca |\nhi̱ra̱ṇyaye̍na savi̱tā rathe̱nā''de̱vo yā̍ti̱ bhuva̍nā vi̱paśya̍n ||" },
         "action": "hands in añjali",
         "meaning": "Moving through the shining realm with truth, settling the immortal and the mortal in their places, the god Savitā comes in his golden chariot, beholding all the worlds."
       },
       {
         "kind": "mantra",
         "kala": ["madhyahnika"],
-        "text": { "iast": "ud va̱yaṃ tama̍sa̱s pari̱ paśya̍nto̱ jyoti̱r utta̍ram |\nde̱vaṃ de̍va̱trā sūrya̱m aga̍nma̱ jyoti̍r utta̱mam ||\nudu̱tyaṃ jā̱tave̍dasaṃ de̱vaṃ va̍hanti ke̱tava̍ḥ | dṛ̱śe viśvā̍ya̱ sūrya̎m ||" },
+        "text": { "iast": "ud va̱yaṃ tama̍sa̱s pari̱ paśya̍nto̱ jyoti̱r utta̍ram |\nde̱vaṃ de̍va̱trā sūrya̱m aga̍nma̱ jyoti̍r utta̱mam ||\nudu̱tyaṃ jā̱tave̍dasaṃ de̱vaṃ va̍hanti ke̱tava̍ḥ | dṛ̱śe viśvā̍ya̱ sūrya̍m ||" },
         "action": "hands in añjali",
         "meaning": "Looking up beyond the darkness to the higher light, we have reached Sūrya, god among gods, the highest light. Up rises that god Sūrya, knower of all beings, borne by his rays — for all to see."
       },

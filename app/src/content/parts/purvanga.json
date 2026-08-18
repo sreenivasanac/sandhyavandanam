@@ -249,7 +249,7 @@
       },
       {
         "kind": "mantra",
-        "text": { "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̱ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍ś śi̱vata̍mo̱ rasa̱ḥ | tasya̍ bhājayate̱ha naḥ | u̱śa̱tīri̍va mā̱taraḥ |\ntasmā̱ ara̍ṅga māma vaḥ |" },
+        "text": { "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍ś śi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |" },
         "action": "sprinkle on the head once with each of these seven lines",
         "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like mothers in their tender love. To Him we come gladly, (to whose abode you lead us)."
       },
@@ -304,7 +304,7 @@
       {
         "kind": "mantra",
         "kala": ["madhyahnika"],
-        "text": { "iast": "āpa̍ḥ punantu pṛthi̱vīṃ pṛ̍thi̱vī pū̱tā pu̍nātu̱ mām | pu̱nantu̱ brahma̍ṇa̱spati̱r brahma̍ pū̱tā pu̍nātu̱ mām | yad ucchi̍ṣṭam abho̎jya̱ṃ yad vā̍ du̱ścari̍ta̱ṃ mama̍ | sarva̍ṃ punantu̱ mām āpo̍'sa̱tāṃ ca̍ prati̱graha̱guṃ svāhā̎ ||" },
+        "text": { "iast": "āpa̍ḥ punantu pṛthi̱vīṃ pṛ̍thi̱vī pū̱tā pu̍nātu̱ mām | pu̱nantu̱ brahma̍ṇa̱spati̱r brahma̍ pū̱tā pu̍nātu̱ mām | yad ucchi̍ṣṭa̱m abho̎jya̱ṃ yad vā̍ du̱ścari̍ta̱ṃ mama̍ | sarva̍ṃ punantu̱ mām āpo̍'sa̱tāṃ ca̍ prati̱graha̱guṃ svāhā̎ ||" },
         "action": "recite with the water in the right palm, then swallow it",
         "meaning": "May the waters purify the earth; may the purified earth purify me. May the Lord of prayer purify me; may the purified Veda purify me. Whatever remnant I have eaten, whatever forbidden food, whatever misdeed of mine, whatever gift accepted from the unworthy — may the waters purify me of all. Svāhā."
       },
@@ -349,7 +349,7 @@
       },
       {
         "kind": "mantra",
-        "text": { "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̱ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍ś śi̱vata̍mo̱ rasa̱ḥ | tasya̍ bhājayate̱ha naḥ | u̱śa̱tīri̍va mā̱taraḥ |\ntasmā̱ ara̍ṅga māma vaḥ |" },
+        "text": { "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍ś śi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |" },
         "action": "sprinkle on the head once with each of these seven lines",
         "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like mothers in their tender love. To Him we come gladly, (to whose abode you lead us)."
       },
@@ -418,11 +418,6 @@
         "text": { "iast": "oṃ sūryāya namaḥ | idam arghyam ||" },
         "action": "sandhya.pdf adds this after each libation",
         "meaning": "Om, salutations to the Sun — this is the libation."
-      },
-      {
-        "kind": "note",
-        "kala": ["madhyahnika"],
-        "text": "Kidambi offers the noon arghya once, noting that some sampradāyas offer it twice; the Mumbai Smārta text and Chakravarthy give two; sandhya.pdf gives three at all three kālas."
       }
     ],
     "image": "/img/steps/arghya-pradanam.webp"
@@ -431,6 +426,7 @@
     "id": "prayascitta-arghyam",
     "title": { "sa": "Prāyaścitta-arghyam (turīyārghyam)", "en": "Atonement libation" },
     "section": "purvanga",
+    "optional": true,
     "intro": "If the sandhyā is being performed after the prescribed time (after sunrise in the morning, after sunset in the evening; at noon only in some sampradāyas — Kidambi), an extra fourth libation is offered as atonement. Prāṇāyāma, śrotrācamanam and the saṅkalpa posture; saṅkalpa; nyāsa; then, standing as before with water in the joined palms raised to the forehead, recite and release the water once, rising on the heels and looking towards the sun.",
     "sources": ["sandhya.pdf p7", "Kidambi p29–31, p61–63, p93–95", "Chakravarthy p25–27", "Sandhyavandanam.pdf p8"],
     "items": [
@@ -504,7 +500,7 @@
         "kind": "mantra",
         "text": { "iast": "oṃ acyutāya namaḥ" },
         "action": "pour a little water into the right palm and swallow it",
-        "meaning": "Salutations to Acyuta, the unfallen one."
+        "meaning": "Salutations to Acyuta, the unfallen, unchanging one."
       },
       {
         "kind": "mantra",
@@ -516,7 +512,7 @@
         "kind": "mantra",
         "text": { "iast": "oṃ govindāya namaḥ" },
         "action": "again pour water and swallow; wash the hand and wipe the lips",
-        "meaning": "Salutations to Govinda, protector of the world."
+        "meaning": "Salutations to Govinda, protector of the cows and of the earth."
       },
       {
         "kind": "mantra",

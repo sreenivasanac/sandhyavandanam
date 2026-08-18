@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+@import '@fontsource/gentium-book-plus/400.css';
+@import '@fontsource/gentium-book-plus/700.css';
+@import '@fontsource/noto-serif-devanagari/400.css';
+@import '@fontsource/noto-serif-devanagari/600.css';
+@import '@fontsource/noto-serif-tamil/400.css';
+@import '@fontsource/noto-serif-kannada/400.css';
+@import '@fontsource/noto-serif-telugu/400.css';
+@import '@fontsource/noto-serif-malayalam/400.css';
+
+/* Theme tokens: cream / saffron / deep red. Dark mode via [data-theme=dark] or system. */
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Gentium Book Plus', 'Noto Serif', Georgia, serif;
+  --font-indic: 'Noto Serif Devanagari', 'Noto Serif Tamil', 'Noto Serif Kannada', 'Noto Serif Telugu',
+    'Noto Serif Malayalam', 'Gentium Book Plus', serif;
+
+  --color-cream-50: #fdf7ec;
+  --color-cream-100: #f7ecd6;
+  --color-cream-200: #eddcb8;
+  --color-saffron-400: #e9a23b;
+  --color-saffron-500: #d98a1f;
+  --color-saffron-600: #b86f12;
+  --color-rust-600: #b3411b;
+  --color-rust-700: #8f2f10;
+  --color-rust-800: #6b220b;
+  --color-ink-900: #2b1a12;
+  --color-ink-700: #4d3527;
+  --color-ink-500: #7a6252;
+}
+
+:root {
+  --bg: var(--color-cream-50);
+  --bg-card: #fffdf8;
+  --fg: var(--color-ink-900);
+  --fg-muted: var(--color-ink-500);
+  --accent: var(--color-rust-600);
+  --accent-soft: var(--color-cream-100);
+  --border: var(--color-cream-200);
+  --font-scale: 1;
+  color-scheme: light;
+}
+[data-theme='dark'] {
+  --bg: #1b120d;
+  --bg-card: #241811;
+  --fg: #f3e7d3;
+  --fg-muted: #b89f88;
+  --accent: var(--color-saffron-400);
+  --accent-soft: #33221a;
+  --border: #3d2a1f;
+  color-scheme: dark;
+}
+
+html {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-serif);
+  font-size: calc(16px * var(--font-scale));
+}
+body { min-height: 100dvh; }
+
+.mantra {
+  font-family: var(--font-indic);
+  font-size: 1.5rem;
+  line-height: 2.1;
+  white-space: pre-wrap;
+  font-feature-settings: 'kern', 'liga', 'calt';
+}
+.mantra[lang='sa-Latn'] { font-family: var(--font-serif); font-size: 1.25rem; line-height: 1.9; }
+.card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 1rem; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 font-sans font-medium transition; }
+.btn-primary { background: var(--accent); color: #fff; }
+.btn-primary:hover { filter: brightness(1.08); }
+.btn-ghost { background: var(--accent-soft); color: var(--fg); }
+.btn:disabled { opacity: 0.4; pointer-events: none; }
+.input { @apply w-full rounded-lg border px-3 py-2 font-sans; background: var(--bg-card); border-color: var(--border); color: var(--fg); }
+.label { @apply block font-sans text-sm mb-1; color: var(--fg-muted); }

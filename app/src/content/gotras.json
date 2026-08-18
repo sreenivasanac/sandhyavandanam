@@ -1,0 +1,25 @@
+{
+  "_note": "gotra → pravara (IAST). Starter list; to be reconciled against Kaalai PDF appendix and Kidambi table 70. 'arsheya' = 1/3/5 (ekārṣeya/trayārṣeya/pañcārṣeya).",
+  "gotras": [
+    { "gotra": "bhāradvāja", "pravara": "āṅgirasa bārhaspatya bhāradvāja", "arsheya": 3 },
+    { "gotra": "kauśika", "pravara": "vaiśvāmitra āghamarṣaṇa kauśika", "arsheya": 3 },
+    { "gotra": "śrīvatsa", "pravara": "bhārgava cyāvana āpnavāna aurva jāmadagnya", "arsheya": 5 },
+    { "gotra": "vasiṣṭha", "pravara": "vāsiṣṭha", "arsheya": 1 },
+    { "gotra": "kauṇḍinya", "pravara": "vāsiṣṭha maitrāvaruṇa kauṇḍinya", "arsheya": 3 },
+    { "gotra": "ātreya", "pravara": "ātreya ārcanānasa śyāvāśva", "arsheya": 3 },
+    { "gotra": "hārīta", "pravara": "āṅgirasa āmbarīṣa yauvanāśva", "arsheya": 3 },
+    { "gotra": "kāśyapa", "pravara": "kāśyapa āvatsāra naidhruva", "arsheya": 3 },
+    { "gotra": "gautama", "pravara": "āṅgirasa āyāsya gautama", "arsheya": 3 },
+    { "gotra": "sāṅkṛti", "pravara": "śāṭhya sāṅkṛtya kauravīta", "arsheya": 3 },
+    { "gotra": "viśvāmitra", "pravara": "vaiśvāmitra devarāta audala", "arsheya": 3 },
+    { "gotra": "śāṇḍilya", "pravara": "śāṇḍilya asita devala", "arsheya": 3 },
+    { "gotra": "gārgya", "pravara": "āṅgirasa bārhaspatya bhāradvāja śainya gārgya", "arsheya": 5 },
+    { "gotra": "vādhūla", "pravara": "bhārgava vaitahavya sāvedasa", "arsheya": 3 },
+    { "gotra": "mudgala", "pravara": "āṅgirasa bhārmyaśva maudgalya", "arsheya": 3 },
+    { "gotra": "kutsa", "pravara": "āṅgirasa māndhātra kautsa", "arsheya": 3 },
+    { "gotra": "kaṇva", "pravara": "āṅgirasa ājamīḍha kāṇva", "arsheya": 3 },
+    { "gotra": "agastya", "pravara": "āgastya dārḍhacyuta aidhmavāha", "arsheya": 3 },
+    { "gotra": "kapi", "pravara": "āṅgirasa āmahīyava aurukṣaya", "arsheya": 3 },
+    { "gotra": "vatsa", "pravara": "bhārgava cyāvana āpnavāna aurva jāmadagnya", "arsheya": 5 }
+  ]
+}

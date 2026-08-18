@@ -23,6 +23,9 @@ export function Home() {
           </div>
         ))}
       </div>
+      <footer className="font-sans text-sm mt-10 leading-relaxed" style={{ color: 'var(--fg-muted)' }}>
+        <p>Kṛṣṇa Yajur Veda (Āpastamba) sandhyā, Smārta and Śrī Vaiṣṇava variants, compiled from published procedure texts (Sri Rama / srimatham.com; Sunder Kidambi / prapatti.com; K. Chakravarthy; S. Narayanan et al.). Mantra text is under review — please follow your own guru/family tradition where it differs, and report corrections on <a className="underline" href={APP.repo} target="_blank" rel="noreferrer">GitHub</a>.</p>
+      </footer>
     </div>
   )
 }

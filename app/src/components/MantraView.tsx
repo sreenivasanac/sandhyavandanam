@@ -20,13 +20,13 @@ export function ItemView({ item, kala, vars }: { item: Item; kala: Kala; vars: V
   return (
     <div className="my-4">
       {(item.optional || (s.showActions && item.action)) && (
-        <p className="font-sans text-sm mb-1" style={{ color: 'var(--accent)' }}>{s.showActions && item.action ? `▸ ${fill(item.action, vars)}` : ''}{item.optional && <Opt />}</p>
+        <p className="font-sans text-sm mb-1" style={{ color: 'var(--accent)' }}>{s.showActions && item.action ? <>▸ <Md text={fill(item.action, vars)} /></> : null}{item.optional && <Opt />}</p>
       )}
       <p className="mantra" lang={LANG[s.script]}>{main}</p>
       {roman && <p className="font-serif italic opacity-80 mt-1 whitespace-pre-wrap" lang="sa-Latn">{roman}</p>}
       {n && n > 1 && <p className="font-sans text-sm mt-1" style={{ color: 'var(--fg-muted)' }}>× {n}</p>}
       {s.showMeaning && item.meaning && (
-        <p className="mt-2 font-sans text-[0.95rem] leading-relaxed" style={{ color: 'var(--fg-muted)' }}>{fill(item.meaning, vars)}</p>
+        <p className="mt-2 font-sans text-[0.95rem] leading-relaxed" style={{ color: 'var(--fg-muted)' }}><Md text={fill(item.meaning, vars)} /></p>
       )}
       {item.audio && <audio controls preload="none" src={item.audio} className="mt-2 w-full max-w-sm" />}
     </div>

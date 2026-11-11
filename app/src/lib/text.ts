@@ -52,3 +52,11 @@ export function render(text: Text, script: Script, vars: Vars): string {
 export function md(s: string): (string | { i: string })[] {
   return s.split(/\*([^*]+)\*/g).map((part, n) => (n % 2 ? { i: part } : part)).filter((p) => p !== '')
 }
+
+/** Split an instruction paragraph into sentences for a numbered "what to do" list. */
+export function sentences(s: string): string[] {
+  return s.split(/(?<=[.!?])\s+(?=[A-ZĀĪŚṢ*(])/).map((x) => x.trim()).filter(Boolean)
+}
+
+/** Nyāsa lines (ṛṣi / chandas / devatā / viniyoga declarations) are rendered more quietly than the mantra proper. */
+export const isNyasa = (iast: string) => /(ṛṣi[ḥr]|ṛṣayaḥ|chanda[ḥs]|chandāguṃsi|devatā[ḥ]?|viniyogaḥ)\s*[|]*\s*$/.test(iast.trim().split('\n').pop() ?? '')

@@ -1,27 +1,41 @@
-import type { Kala } from '../config'
+import type { Kala, Phase } from '../config'
 import type { Step } from '../content/schema'
-import { fill, type Vars } from '../lib/text'
+import { fill, sentences, type Vars } from '../lib/text'
+import { useSettings } from '../lib/settings'
+import { JapaCounter } from './JapaCounter'
 import { ItemView } from './MantraView'
 import { Md } from './Md'
 
 const FACING = { east: 'Face east', north: 'Face north', west: 'Face west' }
 
-export function StepView({ step, kala, vars, index, total }: { step: Step; kala: Kala; vars: Vars; index?: number; total?: number }) {
+export function StepView({ step, kala, vars, index, total, phase }: { step: Step; kala: Kala; vars: Vars; index?: number; total?: number; phase?: Phase }) {
   const facing = step.facing?.[kala]
+  const japaCount = useSettings((s) => s.japaCount)
+  const todo = step.intro ? sentences(fill(step.intro, vars)) : []
   return (
     <article className="card p-5 sm:p-7">
       <header className="mb-3">
         {index !== undefined && (
           <p className="font-sans text-xs uppercase tracking-wider" style={{ color: 'var(--fg-muted)' }}>
-            Step {index + 1}{total ? ` of ${total}` : ''} · {step.section === 'purvanga' ? 'Pūrvāṅgam' : 'Uttarāṅgam'}
+            Step {index + 1}{total ? ` of ${total}` : ''} · {phase ? phase.en : step.section === 'purvanga' ? 'Pūrvāṅgam' : 'Uttarāṅgam'}
           </p>
         )}
         <h2 className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>{step.title.sa}{step.optional && <Opt />}</h2>
         <p className="font-sans" style={{ color: 'var(--fg-muted)' }}>{step.title.en}{facing ? ` · ${FACING[facing]}` : ''}</p>
       </header>
       {step.image && <img src={step.image} alt="" className="rounded-xl mb-3 max-h-64 object-contain" />}
-      {step.intro && <p className="font-sans leading-relaxed mb-2"><Md text={fill(step.intro, vars)} /></p>}
+      {todo.length > 2 ? (
+        <ol className="font-sans leading-relaxed mb-2 grid gap-1.5">
+          {todo.map((line, i) => (
+            <li key={i} className="flex gap-2.5">
+              <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-md text-xs font-bold" style={{ background: 'var(--accent-soft)', color: 'var(--accent)' }}>{i + 1}</span>
+              <span><Md text={line} /></span>
+            </li>
+          ))}
+        </ol>
+      ) : step.intro && <p className="font-sans leading-relaxed mb-2"><Md text={fill(step.intro, vars)} /></p>}
       {step.items.map((it, i) => <ItemView key={i} item={it} kala={kala} vars={vars} />)}
+      {step.id === 'gayatri-japam' && <JapaCounter target={japaCount} />}
     </article>
   )
 }

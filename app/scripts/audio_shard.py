@@ -37,6 +37,7 @@ def laukika_items():
 
 VOWELS = re.compile(r"[aāiīuūṛṝḷeo]|ai|au")
 # syllables per half-verse (2 pādas) → Vāgdhenu reference-bank metre key; anything else is chanted as prose
+PROSE_REF = "anushtubh"
 METRE = {16: "anushtubh", 22: "upajati", 24: "vamshastha", 28: "vasantatilaka", 30: "malini", 38: "shardulavikridita", 42: "sragdhara"}
 
 
@@ -56,13 +57,18 @@ def build(outdir: str) -> None:
         seen.add(i)
         lines = [p.strip(" |") for p in t.split("\n") if p.strip(" |")]
         meter = guess_meter(lines) if len(lines) in (2, 4) else "gadya"
+        verse = meter != "gadya"
+        # Prose is chanted on the anuṣṭubh reference: Vāgdhenu's own prose ("gadya") reference swallowed the first
+        # syllable/word of short lines (found by transcribing every clip — see docs/reference/tools/CHANT_AUDIO.md).
+        meter = meter if verse else PROSE_REF
         # for prose keep the source's `|` groups as separate padas (short breath groups chant better)
-        src_padas = lines if meter != "gadya" else [p.strip() for p in re.split(r"\n|\|\|?", t) if p.strip()]
+        src_padas = lines if verse else [p.strip() for p in re.split(r"\n|\|\|?", t) if p.strip()]
         deva = item["text"]["devanagari"]
         deva_padas = [p.strip() for p in re.split(r"\n|॥|।", deva) if p.strip()]
         if len(deva_padas) != len(src_padas):  # fall back to whole text as one pada
             deva_padas = [re.sub(r"[।॥\n]+", " ", deva).strip()]
-        shard.append({"id": i, "step": step["id"], "meter": meter, "padas": deva_padas, "iast": src_padas, "seed": 60, "no_sandhi": False, "out": f"{outdir}/{i}.wav"})
+        shard.append({"id": i, "step": step["id"], "meter": meter, "padas": deva_padas, "iast": src_padas, "seed": 60, "no_sandhi": True,  # speak exactly what is shown (no engine-side sandhi)
+                      "ref": re.sub(r"\s+", " ", deva).strip(), "out": f"{outdir}/{i}.wav"})
     json.dump(shard, sys.stdout, ensure_ascii=False, indent=1)
     from collections import Counter
     print(f"\n# {len(shard)} unique items, {sum(len(s['padas']) for s in shard)} padas, metres {dict(Counter(s['meter'] for s in shard))}", file=sys.stderr)

@@ -1,7 +1,7 @@
 import type { Kala } from '../config'
 import { repeatFor, type Item } from '../content/schema'
 import { useSettings } from '../lib/settings'
-import { fill, render, stripSvara, type Vars } from '../lib/text'
+import { fill, isNyasa, render, stripSvara, type Vars } from '../lib/text'
 import { Md } from './Md'
 import { Opt } from './StepView'
 import { Chant } from './Chant'
@@ -18,12 +18,13 @@ export function ItemView({ item, kala, vars }: { item: Item; kala: Kala; vars: V
   const main = render(item.text, s.script, vars)
   const roman = s.script !== 'iast' && s.showTransliteration ? stripSvara(render(item.text, 'iast', vars)) : null
   const n = repeatFor(item, kala)
+  const nyasa = isNyasa(item.text.iast)
   return (
     <div className="my-4">
       {(item.optional || (s.showActions && item.action)) && (
         <p className="font-sans text-sm mb-1" style={{ color: 'var(--accent)' }}>{s.showActions && item.action ? <>▸ <Md text={fill(item.action, vars)} /></> : null}{item.optional && <Opt />}</p>
       )}
-      <p className="mantra" lang={LANG[s.script]}>{main}</p>
+      <p className={nyasa ? 'mantra !text-[1.15rem] !leading-[1.9] opacity-85' : 'mantra'} lang={LANG[s.script]}>{main}</p>
       {roman && <p className="font-serif italic opacity-80 mt-1 whitespace-pre-wrap" lang="sa-Latn">{roman}</p>}
       {n && n > 1 && <p className="font-sans text-sm mt-1" style={{ color: 'var(--fg-muted)' }}>× {n}</p>}
       {s.showMeaning && item.meaning && (

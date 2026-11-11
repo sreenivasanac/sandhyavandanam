@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { APP, KALAS, KALA_LABEL, TRADITION_LABEL, suggestKala } from '../config'
 import { useSettings } from '../lib/settings'
+import { panchanga } from '../lib/panchanga'
 
 export function Home() {
   const s = useSettings()
@@ -11,6 +12,7 @@ export function Home() {
       <p className="font-sans mb-8" style={{ color: 'var(--fg-muted)' }}>
         {s.name ? `Namaste, ${s.name}. ` : ''}{TRADITION_LABEL[s.tradition]} · <Link to="/settings" className="underline">settings</Link>
       </p>
+      {s.lat != null && s.lon != null && <Today lat={s.lat} lon={s.lon} calendar={s.calendar} />}
       <div className="grid gap-4">
         {KALAS.map((k) => (
           <div key={k} className="card p-5 flex flex-wrap items-center gap-3">
@@ -27,5 +29,21 @@ export function Home() {
         <p>Kṛṣṇa Yajur Veda (Āpastamba) sandhyā, Smārta and Śrī Vaiṣṇava variants, compiled from published procedure texts (Sri Rama / srimatham.com; Sunder Kidambi / prapatti.com; K. Chakravarthy; S. Narayanan et al.). Mantra text is under review — please follow your own guru/family tradition where it differs, and report corrections on <a className="underline" href={APP.repo} target="_blank" rel="noreferrer">GitHub</a>. Chant clips for the non-Vedic (laukika) lines are AI-synthesised with <a className="underline" href="https://prathosh.in/vagdhenu/" target="_blank" rel="noreferrer">Vāgdhenu</a> (Prathosh A P, Apache-2.0) as a pronunciation aid; Vedic mantras with svaras have no audio yet.</p>
       </footer>
     </div>
+  )
+}
+
+/** Today's pañcāṅga at the saved location — context only; shown when a location is set in Settings. */
+function Today({ lat, lon, calendar }: { lat: number; lon: number; calendar: 'solar' | 'lunar' }) {
+  const p = panchanga(new Date(), lat, lon, calendar)
+  // Times are shown in the device's zone; say so when the saved place is clearly in another zone.
+  const elsewhere = Math.abs(-new Date().getTimezoneOffset() / 60 - lon / 15) > 1.5
+  const cell = (k: string, v: string) => <div><span className="block text-xs" style={{ color: 'var(--fg-muted)' }}>{k}</span><b className="font-serif">{v}</b></div>
+  return (
+    <section className="card p-4 mb-4 font-sans grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm">
+      {cell('Tithi', `${p.paksha} ${p.tithi.replace(/(āyāṃ|yāṃ)$/, (m) => (m === 'āyāṃ' ? 'ā' : 'ī'))}`)}
+      {cell('Nakṣatra', p.nakshatra)}
+      {cell('Māsa', (p.adhika ? 'adhika ' : '') + p.masa)}
+      {cell(elsewhere ? 'Sunrise there (your clock)' : 'Sunrise', p.sunrise.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }))}
+    </section>
   )
 }

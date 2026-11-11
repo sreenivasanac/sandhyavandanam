@@ -2,6 +2,21 @@
 
 **Status 2026-08-18: DONE for laukika items.** 134 unique clips rendered locally on the M4 Pro (MPS) with Vāgdhenu at production settings (nfe 64, seed 60), loudness-normalised → AAC 64 kbps in `app/public/audio/`, wired to 157 content items by `app/scripts/audio_shard.py wire`. Shard + results: `vagdhenu/shard-2026-08-18.json`, `vagdhenu/results-2026-08-18.json`. Runbook: `VAGDHENU_LOCAL.md`. Not yet audited by ear — please listen to a sample of clips.
 
+## Audit 2026-11-10 — "what is chanted differs from what is shown"
+
+Every clip was transcribed with the Su-śrotā Sanskrit recogniser (`vagdhenu/hear.py`; cross-checked with Whisper large-v3) and compared akṣara-by-akṣara with the text the app displays. Findings on the August render:
+
+| Defect | Clips | Cause | Fix |
+|---|---|---|---|
+| First syllable or first word missing (`viṣṇuṃ tarpayāmi` → "…ntarpayāmi", `anuṣṭup chandaḥ` → silence, `śrī kūrmo` → "kūrmo") | ~25 of 134, mostly short prose lines | Vāgdhenu's prose (`gadya`) reference voice swallows the onset of each pāda | Prose is now chanted on the `anushtubh` reference (0 onset losses in the test set) |
+| Audio joins words that the screen shows apart (`bhūḥ aṅguṣṭhābhyāṃ` → "bhūraṅguṣṭhābhyāṃ", `suvaḥ astrāya` → "suvo'strāya") | all nyāsa lines | rendered with engine-side sandhi on | `no_sandhi: true` — speak exactly what is shown |
+| One file unplayable, one cut off mid-verse (Yama vandanam) | 2 | a stale background job overwrote files with a failing encoder; long pāda truncated | re-rendered; every file is now decoded and checked |
+| "oṃ" seemingly never spoken | 50 | **not a defect** — Su-śrotā never transcribes oṃ; Whisper hears "ओम" and the waveform has ~0.4 s of voicing there | oṃ is excluded from the comparison |
+
+New pipeline (`~/vagdhenu-work/run/loop.sh`): render (MLX backend, ~6 s/clip on M4 Pro) → transcribe → any clip with akṣara error > 10 % is re-rendered with other seeds / references, and the best take is kept. Results per clip are archived in `vagdhenu/check-<date>.json`. Clips that still fail after all retries are **not shipped** (the line simply has no chant button).
+
+Loading Su-śrotā with stock NeMo: the checkpoint needs AI4Bharat's NeMo fork; instead we pass `sushrota_cfg_stock_nemo.yaml` (tokenizer type `agg`, fork-only keys removed) as `override_config_path` and decode the CTC head on the Sanskrit slice.
+
 ## Report: prathosh.in projects & Sanskrit/Vedic chant audio options for the Sandhyavandanam PWA
 
 ### TL;DR

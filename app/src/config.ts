@@ -42,3 +42,18 @@ export function suggestKala(d = new Date()): Kala {
   if (h < 16) return 'madhyahnika'
   return 'sayam'
 }
+
+// The ritual in four phases. `from` = id of the first step of the phase (order follows the content).
+export const PHASES = [
+  { id: 'prep', sa: 'Saṅkalpa', en: 'Preparation & intent', from: 'acamanam' },
+  { id: 'arghya', sa: 'Mārjana · Arghya', en: 'Purification & offering to the Sun', from: 'prokshanam' },
+  { id: 'japa', sa: 'Gāyatrī japa', en: 'Invocation & japa', from: 'asanam' },
+  { id: 'close', sa: 'Upasthāna', en: 'Salutations & conclusion', from: 'surya-upasthanam' },
+] as const
+export type Phase = (typeof PHASES)[number]
+
+/** Phase of each step in an ordered step list (a step belongs to the latest phase whose `from` has been passed). */
+export function phasesFor(stepIds: string[]): Phase[] {
+  let cur: Phase = PHASES[0]
+  return stepIds.map((id) => (cur = PHASES.find((p) => p.from === id) ?? cur))
+}

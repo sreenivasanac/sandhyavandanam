@@ -2,7 +2,9 @@
 
 A web app (PWA; native later via Capacitor) that guides practitioners through Sandhyāvandanam — step-by-step actions, mantras in the script of your choice with transliteration, and meanings.
 
-**Status**: early alpha — app skeleton runs (`cd app && pnpm install && pnpm dev`); content being authored from the sources. See [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md) for scope/decisions and [docs/reference/source-analysis.md](docs/reference/source-analysis.md) for the analysis of source texts.
+**Live**: https://sandhya.pragnyalabs.com
+
+**Status**: alpha — full Kṛṣṇa Yajur Smārta + Śrī Vaiṣṇava sandhyā for all three kālas, chant clips for the non-Vedic lines; mantra text still awaits review by a knowledgeable person (`docs/REVIEW_NOTES.md`). See [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md) for scope/decisions and [docs/reference/source-analysis.md](docs/reference/source-analysis.md) for the analysis of source texts.
 
 ## Layout
 - `app/` — the PWA (Vite + React + TS + Tailwind). `pnpm dev | build | test | xlit`.
@@ -19,3 +21,12 @@ A web app (PWA; native later via Capacitor) that guides practitioners through Sa
 - Kaustubha Chakravarthy, *Yajurveda Sandhyavandanam – detailed procedure with illustrations* (2010)
 - Anonymous, *Sandhyavandanam (Smārta, Āpastamba)*
 - Videos: Soulful Mantra — *See, Learn And Perform Sandhyavandanam (Yajur–Smartha)*; Sringeri Gurubandhava — *Meaning of Sandhyavandanam Mantras* (Lalith Gannavaram)
+
+## Deployment
+Static build served by nginx on the pragnyalabs Hetzner server (`/var/www/sandhya`, HTTPS via Let's Encrypt; wildcard DNS for `*.pragnyalabs.com`).
+
+```bash
+cd app && pnpm deploy   # test, build, rsync dist/ to the server (needs the `hetzner-agent` SSH host)
+```
+
+The site was created once with `ssh hetzner-agent 'sudo new-site sandhya /var/www/sandhya'`; redeploys only replace the files.

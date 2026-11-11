@@ -22,7 +22,7 @@ Help practitioners perform Sandhyāvandanam correctly: what to do at each step, 
 - Vite + React + TypeScript + Tailwind; PWA via `vite-plugin-pwa`.
 - Content: `app/src/content/sandhya.json` (see `docs/CONTENT_GUIDE.md`), zod-validated at load; `node --test` for logic.
 - Panchanga: `astronomy-engine` + own logic (`app/src/lib/panchanga.ts`, tested against known dates).
-- No backend. Public GitHub repo `sreenivasanac/sandhyavandanam`. Deployment deferred.
+- No backend. Public GitHub repo `sreenivasanac/sandhyavandanam`. Deployed as static files at https://sandhya.pragnyalabs.com (see README).
 
 ## Design
 Warm traditional-modern: cream / saffron / deep-red palette, large readable Indic type, light + dark mode, high contrast (phone-on-floor at dawn/dusk). Accessibility basics (font scaling, contrast, keyboard nav).

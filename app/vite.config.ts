@@ -25,8 +25,8 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,woff,ttf,json,webp}'],
-        // chant clips are fetched on first play and then kept for offline use
-        runtimeCaching: [{ urlPattern: /\/audio\/.*\.m4a$/, handler: 'CacheFirst', options: { cacheName: 'chants-v2' // bump when clips are re-rendered under the same file names, expiration: { maxEntries: 400 } } }],
+        // chant clips are fetched on first play and then kept for offline use (bump cacheName when clips are re-rendered)
+        runtimeCaching: [{ urlPattern: /\/audio\/.*\.m4a$/, handler: 'CacheFirst', options: { cacheName: 'chants-v2', expiration: { maxEntries: 400 } } }],
       },
     }),
   ],

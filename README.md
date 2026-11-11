@@ -26,7 +26,7 @@ A web app (PWA; native later via Capacitor) that guides practitioners through Sa
 Static build served by nginx on the pragnyalabs Hetzner server (`/var/www/sandhya`, HTTPS via Let's Encrypt; wildcard DNS for `*.pragnyalabs.com`).
 
 ```bash
-cd app && pnpm deploy   # test, build, rsync dist/ to the server (needs the `hetzner-agent` SSH host)
+cd app && pnpm run deploy   # test, build, rsync dist/ to the server (needs the `hetzner-agent` SSH host)
 ```
 
 The site was created once with `ssh hetzner-agent 'sudo new-site sandhya /var/www/sandhya'`; redeploys only replace the files.

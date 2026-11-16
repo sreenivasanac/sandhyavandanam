@@ -1,43 +1,49 @@
-import type { Kala, Phase } from '../config'
+import type { Kala } from '../config'
 import type { Step } from '../content/schema'
-import { fill, sentences, type Vars } from '../lib/text'
 import { useSettings } from '../lib/settings'
+import { fill, sentences, type Vars } from '../lib/text'
+import { Icon } from './Icon'
 import { JapaCounter } from './JapaCounter'
 import { ItemView } from './MantraView'
 import { Md } from './Md'
 
 const FACING = { east: 'Face east', north: 'Face north', west: 'Face west' }
 
-export function StepView({ step, kala, vars, index, total, phase }: { step: Step; kala: Kala; vars: Vars; index?: number; total?: number; phase?: Phase }) {
+/** One step: title, where to face, what to do, then each line to recite. Sits directly on the page (no card). */
+export function StepView({ step, kala, vars, number }: { step: Step; kala: Kala; vars: Vars; number?: number }) {
+  const s = useSettings()
   const facing = step.facing?.[kala]
-  const japaCount = useSettings((s) => s.japaCount)
-  const todo = step.intro ? sentences(fill(step.intro, vars)) : []
+  const todo = step.intro && s.showInstructions ? sentences(fill(step.intro, vars)) : []
   return (
-    <article className="card p-5 sm:p-7">
-      <header className="mb-3">
-        {index !== undefined && (
-          <p className="font-sans text-xs uppercase tracking-wider" style={{ color: 'var(--fg-muted)' }}>
-            Step {index + 1}{total ? ` of ${total}` : ''} · {phase ? phase.en : step.section === 'purvanga' ? 'Pūrvāṅgam' : 'Uttarāṅgam'}
+    <article>
+      <header className="mb-5">
+        <h2 className="display text-[2rem] sm:text-[2.4rem]">
+          {number !== undefined && <span className="faint mr-2 tabular-nums">{number}</span>}{step.title.sa}
+        </h2>
+        <p className="muted mt-1 text-lg">{step.title.en}</p>
+        {(facing || step.optional) && (
+          <p className="mt-3 flex flex-wrap gap-2 text-[0.95rem]">
+            {facing && <span className="inline-flex items-center gap-1.5 rounded-full px-3 py-1" style={{ background: 'var(--wash)' }}><Icon name="compass" size={17} />{FACING[facing]}</span>}
+            {step.optional && <span className="rounded-full px-3 py-1 muted" style={{ background: 'var(--wash)' }}>Optional: skip if it is not your practice</span>}
           </p>
         )}
-        <h2 className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>{step.title.sa}{step.optional && <Opt />}</h2>
-        <p className="font-sans" style={{ color: 'var(--fg-muted)' }}>{step.title.en}{facing ? ` · ${FACING[facing]}` : ''}</p>
       </header>
-      {step.image && <img src={step.image} alt="" className="rounded-xl mb-3 max-h-64 object-contain" />}
-      {todo.length > 2 ? (
-        <ol className="font-sans leading-relaxed mb-2 grid gap-1.5">
+      {s.showInstructions && step.image && (
+        <img src={step.image} alt="" className="mb-5 max-h-60 w-full rounded-2xl object-contain" style={{ background: '#fbf3e6' }} />
+      )}
+      {todo.length > 1 ? (
+        <ol className="prose-ui mb-4 grid gap-2.5">
           {todo.map((line, i) => (
-            <li key={i} className="flex gap-2.5">
-              <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-md text-xs font-bold" style={{ background: 'var(--accent-soft)', color: 'var(--accent)' }}>{i + 1}</span>
+            <li key={i} className="grid grid-cols-[1.4rem_1fr] gap-1">
+              <span className="font-semibold tabular-nums" style={{ color: 'var(--turmeric)' }}>{i + 1}</span>
               <span><Md text={line} /></span>
             </li>
           ))}
         </ol>
-      ) : step.intro && <p className="font-sans leading-relaxed mb-2"><Md text={fill(step.intro, vars)} /></p>}
+      ) : todo.length === 1 && <p className="prose-ui mb-4"><Md text={todo[0]} /></p>}
+      {(todo.length > 0 || (s.showInstructions && step.image)) && step.items.length > 0 && <hr className="rule my-2" />}
       {step.items.map((it, i) => <ItemView key={i} item={it} kala={kala} vars={vars} />)}
-      {step.id === 'gayatri-japam' && <JapaCounter target={japaCount} />}
+      {step.id === 'gayatri-japam' && <JapaCounter target={s.japaCount} />}
     </article>
   )
 }
-
-export const Opt = () => <span className="ml-2 align-middle rounded-full px-2 py-0.5 font-sans text-xs font-normal" style={{ background: 'var(--accent-soft)', color: 'var(--fg-muted)' }} title="Some families include this; skip if not your practice">optional</span>

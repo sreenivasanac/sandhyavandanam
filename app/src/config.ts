@@ -3,8 +3,8 @@ export const APP = {
   name: 'Sandhyāvandanam',
   shortName: 'Sandhyā',
   description: 'Guided Sandhyāvandanam: steps, mantras in your script, and meanings.',
-  themeColor: '#b3411b', // deep saffron-red
-  backgroundColor: '#fdf7ec', // cream
+  themeColor: '#a52a1e', // kumkum
+  backgroundColor: '#faf7f2', // rice paper
   repo: 'https://github.com/sreenivasanac/sandhyavandanam',
 } as const
 
@@ -36,7 +36,14 @@ export const SCRIPT_LABEL: Record<Script, string> = {
 }
 
 /** Suggest a kāla from the wall clock. Rough windows; the user can override. */
-export function suggestKala(d = new Date()): Kala {
+export function suggestKala(d = new Date(), sunrise?: Date, sunset?: Date | null): Kala {
+  if (sunrise && sunset) {
+    // Sandhyā is done around the juncture: morning until ~3 h after sunrise, evening from ~1.5 h before sunset.
+    const t = d.getTime()
+    if (t < sunrise.getTime() + 3 * 3600e3) return 'pratah'
+    if (t < sunset.getTime() - 1.5 * 3600e3) return 'madhyahnika'
+    return 'sayam'
+  }
   const h = d.getHours()
   if (h < 10) return 'pratah'
   if (h < 16) return 'madhyahnika'

@@ -4,7 +4,7 @@ import { useSettings } from './lib/settings'
 import { Home } from './pages/Home'
 import { Perform } from './pages/Perform'
 import { Read } from './pages/Read'
-import { Settings } from './pages/Settings'
+import { Settings, Welcome } from './pages/Settings'
 
 export default function App() {
   useTheme()
@@ -12,7 +12,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={onboarded ? <Home /> : <Settings onboarding />} />
+        <Route path="/" element={onboarded ? <Home /> : <Welcome />} />
         <Route path="/perform/:kala" element={<Perform />} />
         <Route path="/read/:kala" element={<Read />} />
         <Route path="/settings" element={<Settings />} />

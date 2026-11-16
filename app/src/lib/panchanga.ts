@@ -16,6 +16,7 @@ export interface Panchanga {
   vara: string
   nakshatra: string
   sunrise: Date
+  sunset: Date | null
 }
 
 const SAMVATSARA = ['prabhava', 'vibhava', 'śukla', 'pramoda', 'prajāpati', 'āṅgīrasa', 'śrīmukha', 'bhāva', 'yuva', 'dhātṛ', 'īśvara', 'bahudhānya', 'pramāthi', 'vikrama', 'vṛṣa', 'citrabhānu', 'subhānu', 'tāraṇa', 'pārthiva', 'vyaya', 'sarvajit', 'sarvadhāri', 'virodhi', 'vikṛti', 'khara', 'nandana', 'vijaya', 'jaya', 'manmatha', 'durmukhi', 'hevilambi', 'vilambi', 'vikāri', 'śārvari', 'plava', 'śubhakṛt', 'śobhakṛt', 'krodhi', 'viśvāvasu', 'parābhava', 'plavaṅga', 'kīlaka', 'saumya', 'sādhāraṇa', 'virodhikṛt', 'paridhāvi', 'pramādīca', 'ānanda', 'rākṣasa', 'nala', 'piṅgala', 'kālayukti', 'siddhārthi', 'raudri', 'durmati', 'dundubhi', 'rudhirodgāri', 'raktākṣi', 'krodhana', 'akṣaya']
@@ -44,6 +45,7 @@ export function panchanga(date: Date, lat: number, lon: number, calendar: Calend
   const rise = A.SearchRiseSet(A.Body.Sun, obs, +1, A.MakeTime(dayStart), 1)
   const t = rise ?? A.MakeTime(new Date(dayStart.getTime() + 6 * 3600e3)) // polar fallback: 06:00
   const sunrise = t.date
+  const sunset = A.SearchRiseSet(A.Body.Sun, obs, -1, t, 1)?.date ?? null
   const L = local(sunrise)
 
   const elong = norm(A.EclipticGeoMoon(t).lon - A.SunPosition(t).elon)
@@ -72,7 +74,7 @@ export function panchanga(date: Date, lat: number, lon: number, calendar: Calend
 
   const masa = calendar === 'solar' ? SOLAR_MASA[rasi] : LUNAR_MASA[lunarIdx]
   const rtu = RTU[Math.floor((calendar === 'solar' ? rasi : lunarIdx) / 2)]
-  return { samvatsara, ayana, rtu, masa, adhika: calendar === 'lunar' && adhika, paksha, tithi, vara, nakshatra, sunrise }
+  return { samvatsara, ayana, rtu, masa, adhika: calendar === 'lunar' && adhika, paksha, tithi, vara, nakshatra, sunrise, sunset }
 }
 
 /** IAST placeholders for the detailed saṅkalpam. */

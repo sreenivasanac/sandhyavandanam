@@ -25,7 +25,13 @@ Help practitioners perform Sandhyāvandanam correctly: what to do at each step, 
 - No backend. Public GitHub repo `sreenivasanac/sandhyavandanam`. Deployed as static files at https://sandhya.pragnyalabs.com (see README).
 
 ## Design
-Warm traditional-modern: cream / saffron / deep-red palette, large readable Indic type, light + dark mode, high contrast (phone-on-floor at dawn/dusk). Accessibility basics (font scaling, contrast, keyboard nav).
+Redesigned 2026-11-15. The user is mid-ritual with wet hands and the phone a metre away, so: large type, few controls, thumb-sized targets, swipe to move on.
+- **Signature**: the home screen draws the sun's path with the three junctures (sandhyās) marked and the sun at its real position; the sky tint follows the kāla.
+- **Palette**: rice paper `#faf7f2`, lamp-black ink `#211c2b`, kumkum `#a52a1e` (actions), turmeric `#d99a1f` (sun, progress), night indigo `#15131c` (dark). Tokens in `app/src/index.css`.
+- **Type**: Tiro Devanagari Sanskrit for mantras, titles and transliteration (its Latin has every IAST mark); Source Sans 3 for instructions; Noto Serif for the other Indic scripts.
+- **Interaction** (after Emil Kowalski's design-engineering notes): press feedback on every control, strong ease-out under 300 ms, no animation on keyboard moves, swipe between steps with rubber-banding, Vaul pull-up sheets for the step list and display options.
+- **Behaviour**: resume where you stopped, the day's three sandhyās ticked off on completion, Learning/Reciting display presets, three-screen first run, city picker for the pañcāṅga place.
+- Avoided on purpose: all-caps eyebrow labels, dot-joined meta strings, arrows in button text, identical rounded cards.
 
 ## Open questions
 - Link to the "Sanskrit chant / shloka" reference project mentioned at kickoff (not received).

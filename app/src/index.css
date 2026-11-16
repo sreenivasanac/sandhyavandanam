@@ -1,8 +1,8 @@
 @import 'tailwindcss';
+@import '@fontsource/tiro-devanagari-sanskrit/400.css';
+@import '@fontsource/tiro-devanagari-sanskrit/400-italic.css';
+@import '@fontsource-variable/source-sans-3/wght.css';
 @import '@fontsource/gentium-book-plus/400.css';
-@import '@fontsource/gentium-book-plus/700.css';
-@import '@fontsource/noto-serif-devanagari/400.css';
-@import '@fontsource/noto-serif-devanagari/600.css';
 @import '@fontsource/noto-serif-kannada/400.css';
 @import '@fontsource/noto-serif-telugu/400.css';
 @import '@fontsource/noto-serif-malayalam/400.css';
@@ -10,72 +10,161 @@
 /* Full Noto Serif Tamil (fontsource subset strips the Vedic accent marks U+0951/0952/1CDA) */
 @font-face { font-family: 'Noto Serif Tamil'; src: url('/fonts/NotoSerifTamil-Regular.ttf') format('truetype'); font-display: swap; }
 
-/* Theme tokens: cream / saffron / deep red. Dark mode via [data-theme=dark] or system. */
 @custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
 
 @theme {
-  --font-sans: ui-sans-serif, system-ui, sans-serif;
-  --font-serif: 'Gentium Book Plus', 'Noto Serif', Georgia, serif;
-  --font-indic: 'Noto Serif Devanagari', 'Noto Serif Tamil', 'Noto Serif Kannada', 'Noto Serif Telugu',
-    'Noto Serif Malayalam', 'Gentium Book Plus', serif;
-
-  --color-cream-50: #fdf7ec;
-  --color-cream-100: #f7ecd6;
-  --color-cream-200: #eddcb8;
-  --color-saffron-400: #e9a23b;
-  --color-saffron-500: #d98a1f;
-  --color-saffron-600: #b86f12;
-  --color-rust-600: #b3411b;
-  --color-rust-700: #8f2f10;
-  --color-rust-800: #6b220b;
-  --color-ink-900: #2b1a12;
-  --color-ink-700: #4d3527;
-  --color-ink-500: #7a6252;
+  /* Tiro Devanagari Sanskrit carries a Latin with every IAST diacritic, so titles and mantras share one voice. */
+  --font-serif: 'Tiro Devanagari Sanskrit', 'Gentium Book Plus', Georgia, serif;
+  --font-sans: 'Source Sans 3 Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-indic: 'Tiro Devanagari Sanskrit', 'Noto Serif Tamil', 'Noto Serif Kannada', 'Noto Serif Telugu', 'Noto Serif Malayalam', serif;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
 }
 
+/* Palette from the ritual's own materials: rice paper, lamp-black ink, kumkum, turmeric. */
 :root {
-  --bg: var(--color-cream-50);
-  --bg-card: #fffdf8;
-  --fg: var(--color-ink-900);
-  --fg-muted: var(--color-ink-500);
-  --accent: var(--color-rust-600);
-  --accent-soft: var(--color-cream-100);
-  --border: var(--color-cream-200);
+  --paper: #faf7f2;
+  --surface: #ffffff;
+  --ink: #211c2b;
+  --ink-2: #5b5566;
+  --ink-3: #8a8494;
+  --line: #e7e0d6;
+  --wash: #f3ebe0;
+  --kumkum: #a52a1e;
+  --on-kumkum: #fffaf5;
+  --turmeric: #d99a1f;
   --font-scale: 1;
   color-scheme: light;
+  /* legacy aliases used by older components */
+  --bg: var(--paper); --bg-card: var(--surface); --fg: var(--ink); --fg-muted: var(--ink-2);
+  --accent: var(--kumkum); --accent-soft: var(--wash); --border: var(--line);
 }
 [data-theme='dark'] {
-  --bg: #1b120d;
-  --bg-card: #241811;
-  --fg: #f3e7d3;
-  --fg-muted: #b89f88;
-  --accent: var(--color-saffron-400);
-  --accent-soft: #33221a;
-  --border: #3d2a1f;
+  --paper: #15131c;
+  --surface: #1d1a27;
+  --ink: #efe9df;
+  --ink-2: #b9b1c2;
+  --ink-3: #8a8494;
+  --line: #302b3e;
+  --wash: #262231;
+  --kumkum: #ee7b68;
+  --on-kumkum: #1b1210;
+  --turmeric: #e9b44c;
   color-scheme: dark;
 }
 
 html {
-  background: var(--bg);
-  color: var(--fg);
-  font-family: var(--font-serif);
-  font-size: calc(16px * var(--font-scale));
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: calc(17px * var(--font-scale));
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 body { min-height: 100dvh; }
+::selection { background: color-mix(in srgb, var(--turmeric) 35%, transparent); }
+:focus-visible { outline: 2px solid var(--kumkum); outline-offset: 2px; border-radius: 6px; }
+
+/* ---------- type ---------- */
+.display { font-family: var(--font-serif); font-weight: 400; letter-spacing: -0.01em; line-height: 1.12; }
+.muted { color: var(--ink-2); }
+.faint { color: var(--ink-3); }
+.prose-ui { line-height: 1.6; max-width: 68ch; }
 
 .mantra {
   font-family: var(--font-indic);
-  font-size: 1.5rem;
-  line-height: 2.1;
+  font-size: calc(1.55rem * var(--mantra-scale, 1));
+  line-height: 2;
   white-space: pre-wrap;
-  font-feature-settings: 'kern', 'liga', 'calt';
+  text-wrap: pretty;
 }
-.mantra[lang='sa-Latn'] { font-family: var(--font-serif); font-size: 1.25rem; line-height: 1.9; }
-.card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 1rem; }
-.btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 font-sans font-medium transition; }
-.btn-primary { background: var(--accent); color: #fff; }
-.btn-primary:hover { filter: brightness(1.08); }
-.btn-ghost { background: var(--accent-soft); color: var(--fg); }
-.btn:disabled { opacity: 0.4; pointer-events: none; }
-.input { @apply w-full rounded-lg border px-3 py-2 font-sans; background: var(--bg-card); border-color: var(--border); color: var(--fg); }
-.label { @apply block font-sans text-sm mb-1; color: var(--fg-muted); }
+.mantra[lang='sa-Latn'] { font-family: 'Gentium Book Plus', var(--font-serif); font-size: calc(1.3rem * var(--mantra-scale, 1)); line-height: 1.8; }
+.mantra[lang='sa-Taml'] { font-family: 'Noto Serif Tamil', serif; line-height: 2.1; }
+.mantra[lang='sa-Knda'] { font-family: 'Noto Serif Kannada', serif; }
+.mantra[lang='sa-Telu'] { font-family: 'Noto Serif Telugu', serif; }
+.mantra[lang='sa-Mlym'] { font-family: 'Noto Serif Malayalam', serif; }
+.mantra-quiet { font-size: calc(1.2rem * var(--mantra-scale, 1)); line-height: 1.85; color: var(--ink-2); }
+.hint::first-letter { text-transform: uppercase; }
+.translit { font-family: var(--font-serif); font-style: italic; color: var(--ink-2); white-space: pre-wrap; line-height: 1.6; }
+
+/* ---------- controls ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  min-height: 2.75rem; padding: 0 1.1rem; border-radius: 0.8rem;
+  font-family: var(--font-sans); font-weight: 600; font-size: 1rem; line-height: 1;
+  cursor: pointer; user-select: none; touch-action: manipulation;
+  transition: transform 140ms var(--ease-out), background-color 160ms ease, opacity 160ms ease;
+}
+.btn:active { transform: scale(0.97); }
+.btn:disabled { opacity: 0.35; pointer-events: none; }
+.btn-primary { background: var(--kumkum); color: var(--on-kumkum); }
+.btn-quiet { background: var(--wash); color: var(--ink); }
+.btn-ghost { background: var(--wash); color: var(--ink); } /* legacy name */
+.btn-plain { background: transparent; color: var(--ink-2); padding: 0 0.6rem; font-weight: 500; }
+.btn-lg { min-height: 3.5rem; border-radius: 1rem; font-size: 1.1rem; }
+@media (hover: hover) {
+  .btn-primary:hover { background: color-mix(in srgb, var(--kumkum) 90%, var(--ink)); }
+  .btn-quiet:hover, .btn-ghost:hover { background: color-mix(in srgb, var(--wash) 80%, var(--ink-3)); }
+  .btn-plain:hover { color: var(--ink); }
+}
+.icon-btn {
+  display: inline-grid; place-items: center; width: 2.75rem; height: 2.75rem; border-radius: 999px;
+  color: var(--ink-2); cursor: pointer; touch-action: manipulation;
+  transition: transform 140ms var(--ease-out), background-color 160ms ease;
+}
+.icon-btn:active { transform: scale(0.92); }
+@media (hover: hover) { .icon-btn:hover { background: var(--wash); color: var(--ink); } }
+
+.chip {
+  display: inline-flex; align-items: center; gap: 0.4rem; min-height: 2.5rem; padding: 0 0.9rem;
+  border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  font-weight: 500; cursor: pointer; touch-action: manipulation;
+  transition: transform 140ms var(--ease-out), border-color 160ms ease, background-color 160ms ease;
+}
+.chip:active { transform: scale(0.97); }
+.chip[aria-pressed='true'], .chip[aria-checked='true'] { border-color: var(--kumkum); background: color-mix(in srgb, var(--kumkum) 9%, var(--surface)); color: var(--kumkum); }
+
+.input { width: 100%; min-height: 2.75rem; border-radius: 0.7rem; border: 1px solid var(--line); padding: 0 0.8rem; background: var(--surface); color: var(--ink); font: inherit; }
+.input:focus { outline: 2px solid var(--kumkum); outline-offset: 0; border-color: transparent; }
+.label { display: block; font-size: 0.9rem; margin-bottom: 0.3rem; color: var(--ink-2); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 1.1rem; }
+.rule { border-top: 1px solid var(--line); }
+
+/* switch (checkbox with role=switch) */
+.switch { appearance: none; width: 2.6rem; height: 1.55rem; border-radius: 999px; background: var(--line); position: relative; cursor: pointer; flex: none; transition: background-color 160ms ease; }
+.switch::after { content: ''; position: absolute; top: 0.15rem; left: 0.15rem; width: 1.25rem; height: 1.25rem; border-radius: 50%; background: var(--surface); box-shadow: 0 1px 2px rgb(0 0 0 / 0.25); transition: transform 180ms var(--ease-out); }
+.switch:checked { background: var(--kumkum); }
+.switch:checked::after { transform: translateX(1.05rem); }
+
+/* ---------- sky (follows the kāla) ---------- */
+[data-kala='pratah'] { --sky-a: #f3b99a; --sky-b: #f8dcc0; --sun: #e2603a; }
+[data-kala='madhyahnika'] { --sky-a: #bcd9ec; --sky-b: #e6f1f4; --sun: #e9a91c; }
+[data-kala='sayam'] { --sky-a: #6d5a96; --sky-b: #e9a37c; --sun: #d9542f; }
+[data-theme='dark'] [data-kala='pratah'] { --sky-a: #4a2d3a; --sky-b: #2a2030; }
+[data-theme='dark'] [data-kala='madhyahnika'] { --sky-a: #23384c; --sky-b: #1c2230; }
+[data-theme='dark'] [data-kala='sayam'] { --sky-a: #2c2350; --sky-b: #4a2a3c; }
+.sky { background: linear-gradient(180deg, var(--sky-a), var(--sky-b) 62%, var(--paper)); }
+
+/* ---------- sheets (Vaul) ---------- */
+.sheet-overlay { position: fixed; inset: 0; background: rgb(20 16 28 / 0.4); z-index: 40; }
+.sheet {
+  position: fixed; inset-inline: 0; bottom: 0; z-index: 50; max-height: 88dvh; display: flex; flex-direction: column;
+  background: var(--paper); border-radius: 1.25rem 1.25rem 0 0; outline: none;
+  margin-inline: auto; max-width: 34rem; padding-bottom: env(safe-area-inset-bottom);
+}
+.sheet-handle { width: 2.5rem; height: 0.3rem; border-radius: 999px; background: var(--line); margin: 0.6rem auto 0.2rem; flex: none; }
+
+/* ---------- step change: direction-aware, only for pointer-initiated moves ---------- */
+@keyframes step-next { from { opacity: 0; transform: translateX(14px); } }
+@keyframes step-prev { from { opacity: 0; transform: translateX(-14px); } }
+.step-next { animation: step-next 220ms var(--ease-out); }
+.step-prev { animation: step-prev 220ms var(--ease-out); }
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } }
+.rise { animation: rise 420ms var(--ease-out) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 1ms !important; transition-duration: 1ms !important; }
+}
+
+/* A chip used as a large choice card (tradition, script, display preset). */
+.chip.choice { flex-direction: column; align-items: flex-start; gap: 0.2rem; min-height: 0; padding: 0.8rem 1rem; border-radius: 1rem; text-align: left; }

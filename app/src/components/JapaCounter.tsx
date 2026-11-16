@@ -1,25 +1,33 @@
 import { useState } from 'react'
 
-/** Tap counter for the Gāyatrī japa — a memory aid only; vibrates briefly at the target where supported. */
+/** Tap counter for the Gāyatrī japa — a memory aid. A light tick on each count, a longer buzz at the target. */
 export function JapaCounter({ target }: { target: number }) {
   const [n, setN] = useState(0)
   const tap = () => {
-    const next = Math.min(n + 1, target)
-    if (next === target && n !== target) navigator.vibrate?.(200)
-    setN(next)
+    if (n >= target) return
+    navigator.vibrate?.(n + 1 === target ? [60, 60, 200] : 8)
+    setN(n + 1)
   }
+  const C = 2 * Math.PI * 96
+  const done = n >= target
   return (
-    <div className="my-6 text-center font-sans">
-      <button type="button" onClick={tap} aria-label={`Count one japa, ${n} of ${target}`}
-        className="mx-auto flex size-44 flex-col items-center justify-center rounded-full border-2 select-none touch-manipulation"
-        style={{ borderColor: 'var(--accent)', background: 'var(--accent-soft)' }}>
-        <b className="font-serif text-6xl">{n}</b>
-        <span className="text-sm" style={{ color: 'var(--fg-muted)' }}>of {target}{n === target ? ' ✓' : ''}</span>
-        <span className="text-xs mt-1" style={{ color: 'var(--accent)' }}>tap to count</span>
+    <div className="my-8 text-center">
+      <button type="button" onClick={tap} aria-label={`Count one. ${n} of ${target} done`}
+        className="relative mx-auto grid size-56 touch-manipulation select-none place-items-center rounded-full transition-transform duration-150 active:scale-[0.97]"
+        style={{ background: 'var(--surface)', boxShadow: '0 0 0 1px var(--line)' }}>
+        <svg className="absolute inset-0 -rotate-90" viewBox="0 0 224 224" aria-hidden>
+          <circle cx="112" cy="112" r="96" fill="none" stroke="var(--wash)" strokeWidth="8" />
+          <circle cx="112" cy="112" r="96" fill="none" stroke="var(--turmeric)" strokeWidth="8" strokeLinecap="round"
+            strokeDasharray={C} strokeDashoffset={C * (1 - n / target)} style={{ transition: 'stroke-dashoffset 300ms var(--ease-out)' }} />
+        </svg>
+        <span>
+          <b className="display block text-7xl tabular-nums">{n}</b>
+          <span className="muted text-sm">{done ? `${target} complete` : `of ${target}, tap to count`}</span>
+        </span>
       </button>
-      <div className="mt-3 flex justify-center gap-2">
-        <button type="button" className="btn btn-ghost !py-1.5" onClick={() => setN(Math.max(0, n - 1))} aria-label="Undo one">−1</button>
-        <button type="button" className="btn btn-ghost !py-1.5" onClick={() => setN(0)}>Reset</button>
+      <div className="mt-4 flex justify-center gap-2">
+        <button type="button" className="btn btn-plain" onClick={() => setN(Math.max(0, n - 1))} disabled={n === 0}>Undo one</button>
+        <button type="button" className="btn btn-plain" onClick={() => setN(0)} disabled={n === 0}>Start again</button>
       </div>
     </div>
   )

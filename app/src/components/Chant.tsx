@@ -21,8 +21,7 @@ export function Chant({ src }: { src: string }) {
     if (current && current !== a) current.pause()
     current = a
     a.currentTime = 0
-    a.play().catch(() => setPlaying(false))
-    track('chant')
+    a.play().then(() => track('chant')).catch(() => setPlaying(false))
   }
   const C = 2 * Math.PI * 19
   return (

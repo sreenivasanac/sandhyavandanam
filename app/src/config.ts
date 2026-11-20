@@ -9,10 +9,11 @@ export const APP = {
   url: 'https://sandhya.pragnyalabs.com',
 } as const
 
-// Self-hosted Umami. Empty websiteId switches analytics off.
+// Self-hosted Umami, reached through this site's own /u/ path (nginx proxies it to the Umami container), so the
+// tracker is first-party. Empty websiteId switches analytics off.
 export const ANALYTICS = {
   host: 'sandhya.pragnyalabs.com',
-  script: 'https://analytics.pragnyalabs.com/script.js',
+  script: '/u/p.js',
   websiteId: 'c98f0bcc-e172-4ca5-a26c-9ae13d89112f',
 } as const
 

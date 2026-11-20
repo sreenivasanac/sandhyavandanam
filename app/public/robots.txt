@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sandhya.pragnyalabs.com/sitemap.xml

@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { track } from '../lib/track'
 
 let current: HTMLAudioElement | null = null // only one clip plays at a time
 
@@ -21,6 +22,7 @@ export function Chant({ src }: { src: string }) {
     current = a
     a.currentTime = 0
     a.play().catch(() => setPlaying(false))
+    track('chant')
   }
   const C = 2 * Math.PI * 19
   return (

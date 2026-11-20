@@ -10,6 +10,7 @@ import { useWakeLock } from '../lib/hooks'
 import { useProgress } from '../lib/progress'
 import { useSettings } from '../lib/settings'
 import { varsFrom } from '../lib/text'
+import { track } from '../lib/track'
 import { useSwipe } from '../lib/useSwipe'
 
 /**
@@ -42,7 +43,7 @@ export function Perform() {
   }, [i, steps.length, setSp])
   const next = useCallback(() => go(i + 1), [go, i])
   const prev = useCallback(() => go(i - 1), [go, i])
-  const finish = () => { markDone(kala); nav('/', { state: { completed: kala } }) }
+  const finish = () => { markDone(kala); track('complete', { kala, tradition: s.tradition }); nav('/', { state: { completed: kala } }) }
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -58,6 +59,10 @@ export function Perform() {
   }, [go, i, nav, list, display])
 
   const step = steps[i]
+  // Analytics: one "begin" per visit to this screen, and one "phase" each time a new phase is reached (how far people get).
+  useEffect(() => { track('begin', { kala, tradition: s.tradition, script: s.script }) }, [kala]) // eslint-disable-line react-hooks/exhaustive-deps
+  const phaseId = phases[i]?.id
+  useEffect(() => { if (phaseId) track('phase', { kala, phase: phaseId }) }, [kala, phaseId])
   useEffect(() => {
     window.scrollTo({ top: 0 }) // braces matter: scrollTo returns a Promise in newer Chrome, which React would treat as a cleanup
     if (step) setResume(kala, step.id)

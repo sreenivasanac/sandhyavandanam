@@ -6,6 +6,10 @@ A web app (PWA; native later via Capacitor) that guides practitioners through Sa
 
 **Status**: alpha — full Kṛṣṇa Yajur Smārta + Śrī Vaiṣṇava sandhyā for all three kālas, chant clips for the non-Vedic lines; mantra text still awaits review by a knowledgeable person (`docs/REVIEW_NOTES.md`). See [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md) for scope/decisions and [docs/reference/source-analysis.md](docs/reference/source-analysis.md) for the analysis of source texts.
 
+| Home | A step | Mantra, meaning, chant | Display options |
+|---|---|---|---|
+| ![Home: the sun's path with the three sandhyās](docs/screenshots/home.png) | ![A step with its instructions](docs/screenshots/perform.png) | ![A mantra with transliteration, meaning and chant button](docs/screenshots/mantra.png) | ![Display options sheet](docs/screenshots/display.png) |
+
 ## Layout
 - `app/` — the PWA (Vite + React + TS + Tailwind). `pnpm dev | build | test | xlit`.
 - `docs/CONTENT_GUIDE.md` — how mantras/steps are authored; `docs/REVIEW_NOTES.md` — open items for a knowledgeable reviewer.
@@ -30,3 +34,6 @@ cd app && pnpm run deploy   # test, build, rsync dist/ to the server (needs the 
 ```
 
 The site was created once with `ssh hetzner-agent 'sudo new-site sandhya /var/www/sandhya'`; redeploys only replace the files.
+
+## Analytics
+Anonymous usage counts go to a self-hosted [Umami](https://umami.is) at `analytics.pragnyalabs.com` (no cookies; nothing the user types is sent). The tracker loads only on the production host (`ANALYTICS` in `app/src/config.ts`; an empty `websiteId` switches it off). Besides page views the app records four events: `begin` (kāla, tradition, script), `phase` (how far people get), `complete`, and `chant` (a chant clip played). See `app/src/lib/track.ts`.

@@ -6,6 +6,14 @@ export const APP = {
   themeColor: '#a52a1e', // kumkum
   backgroundColor: '#faf7f2', // rice paper
   repo: 'https://github.com/sreenivasanac/sandhyavandanam',
+  url: 'https://sandhya.pragnyalabs.com',
+} as const
+
+// Self-hosted Umami. Empty websiteId switches analytics off.
+export const ANALYTICS = {
+  host: 'sandhya.pragnyalabs.com',
+  script: 'https://analytics.pragnyalabs.com/script.js',
+  websiteId: 'c98f0bcc-e172-4ca5-a26c-9ae13d89112f',
 } as const
 
 export const KALAS = ['pratah', 'madhyahnika', 'sayam'] as const

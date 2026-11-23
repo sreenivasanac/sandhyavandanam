@@ -291,7 +291,7 @@
           "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||"
         },
         "repeat": 3,
-        "action": "Recite silently while holding your breath, as in the Prāṇāyāmam step.",
+        "action": "Recite silently while holding your breath.",
         "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
         "unit": "rounds"
       },
@@ -468,7 +468,7 @@
         "text": {
           "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍śśi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |"
         },
-        "action": "Sprinkle water on your head, once with each line.",
+        "action": "Sprinkle water on your head seven times, once with each of the seven phrases (each phrase ends at a bar).",
         "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like loving mothers. We come gladly to Him,"
       },
       {
@@ -626,7 +626,7 @@
         "text": {
           "iast": "da̱dhi̱krāvṇṇo̍ akāriṣaṃ ji̱ṣṇor aśva̍sya vā̱jina̍ḥ |\nsu̱ra̱bhi no̱ mukhā̍ kara̱t praṇa̱ āyū̍guṃṣi tāriṣat ||"
         },
-        "action": "Sprinkle water on your head, once with each quarter-line.",
+        "action": "Sprinkle water on your head four times, once with each quarter of the verse.",
         "meaning": "I have praised Dadhikrāvan, the victorious, swift steed (the Lord as Hayagrīva). May He make our mouths fragrant and lengthen our lives."
       },
       {
@@ -634,7 +634,7 @@
         "text": {
           "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍śśi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |"
         },
-        "action": "Sprinkle water on your head, once with each line.",
+        "action": "Sprinkle water on your head seven times, once with each of the seven phrases (each phrase ends at a bar).",
         "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like loving mothers. We come gladly to Him,"
       },
       {

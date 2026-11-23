@@ -43,7 +43,7 @@ export function Read() {
             <h2 className="mb-1 font-semibold">{ph.en}</h2>
             <ol>
               {steps.map((st, n) => phases[n] === ph && (
-                <li key={st.id}><a href={`#${st.id}`} className="grid grid-cols-[1.8rem_1fr] py-1 hover:underline"><span className="faint tabular-nums">{n + 1}</span><span className="font-serif">{st.title.sa}</span></a></li>
+                <li key={st.id}><a href={`#${st.id}`} className="grid min-h-11 grid-cols-[1.8rem_1fr] items-center py-1 hover:underline"><span className="faint tabular-nums">{n + 1}</span><span className="font-serif">{st.title.sa}</span></a></li>
               ))}
             </ol>
           </div>

@@ -13,7 +13,7 @@ export function JapaCounter({ target }: { target: number }) {
   return (
     <div className="my-8 text-center">
       <button type="button" onClick={tap} aria-label={`Count one. ${n} of ${target} done`}
-        className="relative mx-auto grid size-56 touch-manipulation select-none place-items-center rounded-full transition-transform duration-150 active:scale-[0.97]"
+        className="relative mx-auto grid aspect-square w-56 max-w-full touch-manipulation select-none place-items-center rounded-full transition-transform duration-150 active:scale-[0.97]"
         style={{ background: 'var(--surface)', boxShadow: '0 0 0 1px var(--line)' }}>
         <svg className="absolute inset-0 -rotate-90" viewBox="0 0 224 224" aria-hidden>
           <circle cx="112" cy="112" r="96" fill="none" stroke="var(--wash)" strokeWidth="8" />

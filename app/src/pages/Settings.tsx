@@ -26,7 +26,7 @@ function useLineage() {
 }
 
 const Field = ({ label, hint, children }: { label: string; hint?: string; children: React.ReactNode }) => (
-  <label className="mb-4 block"><span className="label">{label}</span>{children}{hint && <span className="muted mt-1 block text-sm">{hint}</span>}</label>
+  <label className="mb-4 block"><span className="label">{label}</span>{children}{hint && <span className="muted mt-1 block text-sm [overflow-wrap:anywhere]">{hint}</span>}</label>
 )
 
 function TraditionPicker() {

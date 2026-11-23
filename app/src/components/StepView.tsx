@@ -37,7 +37,7 @@ export function StepView({ step, kala, vars, number }: { step: Step; kala: Kala;
         <ol className="prose-ui mb-4 grid gap-2.5">
           {todo.map((line, i) => (
             <li key={i} className="grid grid-cols-[1.4rem_1fr] gap-1">
-              <span className="font-semibold tabular-nums" style={{ color: 'var(--turmeric)' }}>{i + 1}</span>
+              <span className="font-semibold tabular-nums" style={{ color: 'var(--kumkum)' }}>{i + 1}</span>
               <span><Md text={line} /></span>
             </li>
           ))}

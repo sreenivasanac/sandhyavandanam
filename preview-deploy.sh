@@ -2,7 +2,10 @@
 # Deploy this branch's build to a preview subdomain for comparison: ./preview-deploy.sh <sub>   (e.g. sandhya-a)
 # Previews are marked noindex and blocked in robots.txt; analytics does not run on them (it is tied to the production host).
 set -euo pipefail
-SUB="$1"; cd "$(dirname "$0")/app"
+SUB="${1:-}"
+# the name becomes a server directory that rsync --delete empties, so accept only a plain preview label
+[[ "$SUB" =~ ^sandhya-[a-z0-9-]+$ ]] || { echo "usage: $0 sandhya-<name>" >&2; exit 1; }
+cd "$(dirname "$0")/app"
 pnpm build >/dev/null
 python3 - "$SUB" <<'PY'
 import sys,re
@@ -16,5 +19,5 @@ PY
 rm -f dist/sitemap.xml
 ssh -o BatchMode=yes hetzner-agent "sudo mkdir -p /var/www/$SUB && sudo chown agent:www-data /var/www/$SUB"
 rsync -az --delete dist/ hetzner-agent:/var/www/$SUB/
-ssh -o BatchMode=yes hetzner-agent "test -f /etc/nginx/sites-enabled/$SUB.pragnyalabs.com.conf || sudo new-site $SUB /var/www/$SUB 2>&1 | tail -1"
-curl -s -o /dev/null -w "%{http_code} https://$SUB.pragnyalabs.com/\n" "https://$SUB.pragnyalabs.com/"
+ssh -o BatchMode=yes hetzner-agent "test -f /etc/nginx/sites-enabled/$SUB.pragnyalabs.com.conf || sudo new-site $SUB /var/www/$SUB"
+curl -sS --fail -o /dev/null -w "%{http_code} https://$SUB.pragnyalabs.com/\n" "https://$SUB.pragnyalabs.com/"

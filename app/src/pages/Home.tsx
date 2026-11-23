@@ -33,6 +33,8 @@ export function Home() {
   const set = p?.sunset?.getTime() ?? new Date(now).setHours(18, 0, 0, 0)
   const f = (now.getTime() - rise) / (set - rise)
   const kala = suggestKala(now, p?.sunrise, p?.sunset)
+  // Night: more than about an hour past sunset or before sunrise — the sky goes dark and the sun is gone.
+  const night = now.getTime() > set + 70 * 60e3 || now.getTime() < rise - 70 * 60e3
   const times: Record<Kala, number> = { pratah: rise, madhyahnika: (rise + set) / 2, sayam: set }
   const label: Record<Kala, string> = { pratah: 'Sunrise', madhyahnika: 'Midday', sayam: 'Sunset' }
 
@@ -41,25 +43,34 @@ export function Home() {
   const isDone = !!today[kala]
 
   return (
-    <div data-kala={kala} className="min-h-dvh">
+    <div data-kala={kala} data-sky={night ? 'night' : 'day'} className="min-h-dvh">
       <div className="sky">
         <div className="mx-auto max-w-xl px-5 pt-[calc(env(safe-area-inset-top)+0.75rem)]">
           <div className="flex items-center justify-between">
             <span className="font-serif text-lg">{APP.name}</span>
             <Link to="/settings" className="icon-btn" aria-label="Settings"><Icon name="sliders" /></Link>
           </div>
-          <div className="mt-1"><SunArc f={f} done={today} active={kala} /></div>
+          <div className="mt-3"><SunArc f={f} done={today} active={kala} night={night} /></div>
+        </div>
+      </div>
+
+      {/* the three times, set under their marks on the horizon */}
+      <div className="mx-auto max-w-xl px-5" aria-hidden>
+        <div className="muted relative mt-1.5 h-5 text-xs tabular-nums">
+          {hasPlace && KALAS.map((k, n) => (
+            <span key={k} className="absolute -translate-x-1/2 whitespace-nowrap" style={{ left: `${[11.25, 50, 88.75][n]}%` }}>{clock(times[k])}</span>
+          ))}
         </div>
       </div>
 
       <main className="mx-auto max-w-xl px-5 pb-16">
         {completed && (
-          <p className="rise mb-5 mt-2 flex items-center gap-2 rounded-2xl px-4 py-3" style={{ background: 'var(--wash)' }} role="status">
+          <p className="rise mb-5 mt-3 flex items-center gap-2 rounded-2xl px-4 py-3" style={{ background: 'var(--wash)' }} role="status">
             <span style={{ color: 'var(--turmeric)' }}><Icon name="check" /></span>{KALA_LABEL[completed].sa} sandhyā complete.
           </p>
         )}
 
-        <section className="rise">
+        <section className="mt-5">
           <h1 className="display text-[2.75rem]">{KALA_LABEL[kala].sa} sandhyā</h1>
           <p className="muted mt-2 text-lg">
             {isDone ? `Completed at ${clock(today[kala]!)}` : hasPlace ? `${label[kala]} ${clock(times[kala])}, ${relative(times[kala] - now.getTime())}` : `${KALA_LABEL[kala].en} sandhyā`}

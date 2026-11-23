@@ -84,6 +84,7 @@ body { min-height: 100dvh; }
 .mantra[lang='sa-Telu'] { font-family: 'Noto Serif Telugu', serif; }
 .mantra[lang='sa-Mlym'] { font-family: 'Noto Serif Malayalam', serif; }
 .mantra-quiet { font-size: calc(1.2rem * var(--mantra-scale, 1)); line-height: 1.85; color: var(--ink-2); }
+.hint { color: var(--ink); font-weight: 600; font-size: 0.92rem; line-height: 1.4; }
 .hint::first-letter { text-transform: uppercase; }
 .translit { font-family: var(--font-serif); font-style: italic; color: var(--ink-2); white-space: pre-wrap; line-height: 1.6; }
 
@@ -97,13 +98,13 @@ body { min-height: 100dvh; }
 }
 .btn:active { transform: scale(0.97); }
 .btn:disabled { opacity: 0.35; pointer-events: none; }
-.btn-primary { background: var(--kumkum); color: var(--on-kumkum); }
+.btn-primary { background: var(--ink); color: var(--paper); }
 .btn-quiet { background: var(--wash); color: var(--ink); }
 .btn-ghost { background: var(--wash); color: var(--ink); } /* legacy name */
 .btn-plain { background: transparent; color: var(--ink-2); padding: 0 0.6rem; font-weight: 500; }
 .btn-lg { min-height: 3.5rem; border-radius: 1rem; font-size: 1.1rem; }
 @media (hover: hover) {
-  .btn-primary:hover { background: color-mix(in srgb, var(--kumkum) 90%, var(--ink)); }
+  .btn-primary:hover { background: color-mix(in srgb, var(--ink) 88%, var(--paper)); }
   .btn-quiet:hover, .btn-ghost:hover { background: color-mix(in srgb, var(--wash) 80%, var(--ink-3)); }
   .btn-plain:hover { color: var(--ink); }
 }
@@ -133,17 +134,23 @@ body { min-height: 100dvh; }
 /* switch (checkbox with role=switch) */
 .switch { appearance: none; width: 2.6rem; height: 1.55rem; border-radius: 999px; background: var(--line); position: relative; cursor: pointer; flex: none; transition: background-color 160ms ease; }
 .switch::after { content: ''; position: absolute; top: 0.15rem; left: 0.15rem; width: 1.25rem; height: 1.25rem; border-radius: 50%; background: var(--surface); box-shadow: 0 1px 2px rgb(0 0 0 / 0.25); transition: transform 180ms var(--ease-out); }
-.switch:checked { background: var(--kumkum); }
+.switch:checked { background: var(--ink); }
 .switch:checked::after { transform: translateX(1.05rem); }
 
-/* ---------- sky (follows the kāla) ---------- */
-[data-kala='pratah'] { --sky-a: #f3b99a; --sky-b: #f8dcc0; --sun: #e2603a; }
-[data-kala='madhyahnika'] { --sky-a: #bcd9ec; --sky-b: #e6f1f4; --sun: #e9a91c; }
-[data-kala='sayam'] { --sky-a: #6d5a96; --sky-b: #e9a37c; --sun: #d9542f; }
-[data-theme='dark'] [data-kala='pratah'] { --sky-a: #4a2d3a; --sky-b: #2a2030; }
-[data-theme='dark'] [data-kala='madhyahnika'] { --sky-a: #23384c; --sky-b: #1c2230; }
-[data-theme='dark'] [data-kala='sayam'] { --sky-a: #2c2350; --sky-b: #4a2a3c; }
-.sky { background: linear-gradient(180deg, var(--sky-a), var(--sky-b) 62%, var(--paper)); }
+/* ---------- sky (follows the hour) ----------
+   The top of the home screen is the sky; it ends in a hard horizon, and the page below is the ground.
+   --sky-ink is the colour of text and strokes drawn on the sky. */
+[data-kala='pratah'] { --sky-a: #efb99b; --sky-b: #f6d9c0; --sky-ink: #3a2430; --sun: #dd5a34; }
+[data-kala='madhyahnika'] { --sky-a: #b9d6ea; --sky-b: #dcebf1; --sky-ink: #1f2c3d; --sun: #e3a213; }
+[data-kala='sayam'] { --sky-a: #55467f; --sky-b: #d68b70; --sky-ink: #fbf1e6; --sun: #f4c15d; }
+[data-sky='night'] { --sky-a: #1b1830; --sky-b: #2d2748; --sky-ink: #e9e3f3; }
+[data-theme='dark'] [data-kala='pratah'] { --sky-a: #3b2634; --sky-b: #5a3640; --sky-ink: #f3e3da; }
+[data-theme='dark'] [data-kala='madhyahnika'] { --sky-a: #1d3145; --sky-b: #2b4459; --sky-ink: #e2edf5; }
+[data-theme='dark'] [data-kala='sayam'] { --sky-a: #2a2248; --sky-b: #5b3345; --sky-ink: #f3e3da; }
+[data-theme='dark'] [data-sky='night'] { --sky-a: #100e1c; --sky-b: #1d1a30; --sky-ink: #dcd6ea; }
+.sky { background: linear-gradient(180deg, var(--sky-a), var(--sky-b)); color: var(--sky-ink); border-bottom: 1.5px solid var(--ink); }
+.sky .icon-btn { color: var(--sky-ink); }
+@media (hover: hover) { .sky .icon-btn:hover { background: color-mix(in srgb, var(--sky-ink) 14%, transparent); color: var(--sky-ink); } }
 
 /* ---------- sheets (Vaul) ---------- */
 .sheet-overlay { position: fixed; inset: 0; background: rgb(20 16 28 / 0.4); z-index: 40; }

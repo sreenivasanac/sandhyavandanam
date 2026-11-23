@@ -23,7 +23,7 @@ export function ItemView({ item, kala, vars }: { item: Item; kala: Kala; vars: V
   return (
     <div className="py-3.5">
       {(hint || item.optional) && (
-        <p className="hint mb-1 text-[0.95rem] leading-snug" style={{ color: 'var(--kumkum)' }}>
+        <p className="hint mb-1">
           {hint && <Md text={fill(item.action!, vars)} />}
           {item.optional && <span className="faint">{hint ? ' (optional)' : 'Optional'}</span>}
         </p>

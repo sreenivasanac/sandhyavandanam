@@ -99,7 +99,7 @@ export function Welcome() {
           {screens.map((_, i) => <span key={i} className="h-1.5 w-6 rounded-full" style={{ background: i <= n ? 'var(--kumkum)' : 'var(--line)' }} />)}
         </div>
       </div>
-      <div key={n} className="rise mt-8 flex-1">
+      <div key={n} className="mt-8 flex-1">
         <h1 className="display text-[2.1rem]">{cur.title}</h1>
         {cur.lead && <p className="muted mt-2">{cur.lead}</p>}
         <div className="mt-6">{cur.body}</div>

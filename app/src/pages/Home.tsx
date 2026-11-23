@@ -44,42 +44,28 @@ export function Home() {
 
   return (
     <div data-kala={kala} data-sky={night ? 'night' : 'day'} className="min-h-dvh">
+      {/* the whole top of the screen is the sky at this hour; the action sits in it */}
       <div className="sky">
-        <div className="mx-auto max-w-xl px-5 pt-[calc(env(safe-area-inset-top)+0.75rem)]">
+        <div className="mx-auto max-w-xl px-5 pb-7 pt-[calc(env(safe-area-inset-top)+0.75rem)]">
           <div className="flex items-center justify-between">
-            <span className="font-serif text-lg">{APP.name}</span>
-            <Link to="/settings" className="icon-btn" aria-label="Settings"><Icon name="sliders" /></Link>
+            <span className="font-semibold">{APP.name}</span>
+            <Link to="/settings" className="icon-btn -mr-2" aria-label="Settings"><Icon name="sliders" /></Link>
           </div>
-          <div className="mt-3"><SunArc f={f} done={today} active={kala} night={night} /></div>
-        </div>
-      </div>
-
-      {/* the three times, set under their marks on the horizon */}
-      <div className="mx-auto max-w-xl px-5" aria-hidden>
-        <div className="muted relative mt-1.5 h-5 text-xs tabular-nums">
-          {hasPlace && KALAS.map((k, n) => (
-            <span key={k} className="absolute -translate-x-1/2 whitespace-nowrap" style={{ left: `${[11.25, 50, 88.75][n]}%` }}>{clock(times[k])}</span>
-          ))}
-        </div>
-      </div>
-
-      <main className="mx-auto max-w-xl px-5 pb-16">
-        {completed && (
-          <p className="rise mb-5 mt-3 flex items-center gap-2 rounded-2xl px-4 py-3" style={{ background: 'var(--wash)' }} role="status">
-            <span style={{ color: 'var(--turmeric)' }}><Icon name="check" /></span>{KALA_LABEL[completed].sa} sandhyā complete.
-          </p>
-        )}
-
-        <section className="mt-5">
-          <h1 className="display text-[2.75rem]">{KALA_LABEL[kala].sa} sandhyā</h1>
-          <p className="muted mt-2 text-lg">
+          <div className="mt-4"><SunArc f={f} done={today} active={kala} night={night} /></div>
+          <div className="relative mt-2 h-5 text-xs font-semibold tabular-nums opacity-80" aria-hidden>
+            {hasPlace && KALAS.map((k, n) => (
+              <span key={k} className="absolute -translate-x-1/2 whitespace-nowrap" style={{ left: `${[11.25, 50, 88.75][n]}%` }}>{clock(times[k])}</span>
+            ))}
+          </div>
+          <h1 className="display mt-7 text-[3.1rem]">{KALA_LABEL[kala].sa}<br />sandhyā</h1>
+          <p className="mt-3 text-lg font-medium opacity-85">
             {isDone ? `Completed at ${clock(today[kala]!)}` : hasPlace ? `${label[kala]} ${clock(times[kala])}, ${relative(times[kala] - now.getTime())}` : `${KALA_LABEL[kala].en} sandhyā`}
           </p>
           <div className="mt-6 grid gap-2">
             {resumeAt > 0 ? (
               <>
-                <Link to={`/perform/${kala}?s=${resumeAt}`} className="btn btn-primary btn-lg !justify-between !px-5">
-                  <span className="text-left"><span className="block text-xs font-medium opacity-75">Continue at step {resumeAt + 1}</span><span className="block font-serif text-[1.15rem] font-normal">{steps[resumeAt].title.sa}</span></span>
+                <Link to={`/perform/${kala}?s=${resumeAt}`} className="btn btn-primary btn-lg !justify-between !px-6">
+                  <span className="text-left"><span className="block text-xs font-medium opacity-75">Continue at step {resumeAt + 1}</span><span className="block text-[1.1rem]">{steps[resumeAt].title.sa}</span></span>
                   <Icon name="right" />
                 </Link>
                 <Link to={`/perform/${kala}`} onClick={clearResume} className="btn btn-plain">Start from the beginning</Link>
@@ -88,33 +74,39 @@ export function Home() {
               <Link to={`/perform/${kala}`} className={`btn btn-lg ${isDone ? 'btn-quiet' : 'btn-primary'}`}>{isDone ? 'Perform again' : `Begin ${KALA_LABEL[kala].sa} sandhyā`}</Link>
             )}
           </div>
-        </section>
+        </div>
+      </div>
 
-        <section className="mt-10" aria-label="Today's three sandhyās">
-          <h2 className="mb-1 font-semibold">Today</h2>
-          <ul>
+      <main className="mx-auto max-w-xl px-5 pb-16">
+        {completed && (
+          <p className="rise mt-5 flex items-center gap-2 rounded-2xl px-4 py-3 font-medium" style={{ background: 'var(--wash)' }} role="status">
+            <Icon name="check" />{KALA_LABEL[completed].sa} sandhyā complete.
+          </p>
+        )}
+
+        <section className="mt-8" aria-label="Today's three sandhyās">
+          <h2 className="mb-3 text-xl font-extrabold tracking-tight">Today</h2>
+          <ul className="grid grid-cols-3 gap-2">
             {KALAS.map((k) => (
-              <li key={k} className="flex items-center gap-1 border-t py-1" style={{ borderColor: 'var(--line)' }}>
-                <Link to={`/perform/${k}`} className="group flex min-h-14 flex-1 items-center gap-3 rounded-xl py-2 transition-transform active:scale-[0.99]">
-                  <span className="grid size-7 shrink-0 place-items-center rounded-full border" style={today[k] ? { background: 'var(--ink)', color: 'var(--paper)', borderColor: 'var(--ink)' } : { borderColor: 'var(--ink-3)' }}>
-                    {today[k] && <Icon name="check" size={16} />}
+              <li key={k} data-kala={k} data-sky="day" className="grid min-w-0 gap-1 text-center">
+                <Link to={`/perform/${k}`} className="tile flex aspect-[4/5] flex-col justify-between p-3 text-left">
+                  <span className="grid size-6 place-items-center rounded-full" style={today[k] ? { background: 'var(--sky-ink)', color: 'var(--sky-a)' } : { border: '1.5px solid var(--sky-ink)', opacity: 0.6 }}>
+                    {today[k] && <Icon name="check" size={14} />}
                   </span>
-                  <span className="flex-1">
-                    <span className="font-serif text-xl">{KALA_LABEL[k].sa}</span>
-                    <span className="muted block text-sm">
-                      {today[k] ? `Done at ${clock(today[k]!)}` : KALA_LABEL[k].en}
-                    </span>
+                  <span>
+                    <span className="block truncate text-[0.85rem] font-bold leading-tight">{KALA_LABEL[k].sa}</span>
+                    <span className="block text-xs font-medium tabular-nums opacity-80">{today[k] ? `Done ${clock(today[k]!)}` : hasPlace ? clock(times[k]) : KALA_LABEL[k].en}</span>
                   </span>
                 </Link>
-                <Link to={`/read/${k}`} className="btn btn-plain" aria-label={`Read the ${KALA_LABEL[k].en.toLowerCase()} procedure`}>Read</Link>
+                <Link to={`/read/${k}`} className="btn btn-plain !min-h-11 text-sm" aria-label={`Read the ${KALA_LABEL[k].en.toLowerCase()} procedure`}>Read</Link>
               </li>
             ))}
           </ul>
         </section>
 
-        <section className="mt-8 border-t pt-5" style={{ borderColor: 'var(--line)' }}>
+        <section className="mt-6 rounded-[1.25rem] p-4" style={{ background: 'var(--wash)' }}>
           {p ? (
-            <p className="font-serif text-lg leading-relaxed">
+            <p className="text-lg font-semibold leading-snug">
               {p.paksha} {nominative(p.tithi)}, {p.nakshatra} nakṣatra, {p.adhika ? 'adhika ' : ''}{p.masa} māsa
               <span className="muted block font-sans text-sm">Computed for your saved location at today's sunrise. Check it against your pañcāṅgam.</span>
             </p>

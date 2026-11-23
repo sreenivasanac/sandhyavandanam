@@ -176,3 +176,22 @@ body { min-height: 100dvh; }
 
 /* A chip used as a large choice card (tradition, script, display preset). */
 .chip.choice { flex-direction: column; align-items: flex-start; gap: 0.2rem; min-height: 0; padding: 0.8rem 1rem; border-radius: 1rem; text-align: left; }
+
+/* ---------- Design C · Daylight ----------
+   One flat field of colour per time of day (saffron dawn, blue noon, ember dusk, indigo night),
+   a white page, heavy sans titles, and one of everything: one button shape (pill), one tile, one radius scale. */
+:root { --paper: #ffffff; --surface: #ffffff; --ink: #15161a; --ink-2: #52555e; --ink-3: #8b8e97; --line: #e6e7ea; --wash: #f1f2f4; --turmeric: #e08a00; }
+[data-theme='dark'] { --paper: #0f1013; --surface: #17181c; --ink: #f2f2f4; --ink-2: #a9acb5; --ink-3: #777a84; --line: #2a2c33; --wash: #1d1f24; }
+[data-kala='pratah'], [data-theme='dark'] [data-kala='pratah'] { --sky-a: #f6a21e; --sky-b: #f6a21e; --sky-ink: #2a1800; --sun: #fff1c9; }
+[data-kala='madhyahnika'], [data-theme='dark'] [data-kala='madhyahnika'] { --sky-a: #7cc4f0; --sky-b: #7cc4f0; --sky-ink: #06243a; --sun: #ffd63a; }
+[data-kala='sayam'], [data-theme='dark'] [data-kala='sayam'] { --sky-a: #c9432a; --sky-b: #c9432a; --sky-ink: #fff3e8; --sun: #ffc861; }
+[data-sky='night'], [data-theme='dark'] [data-sky='night'] { --sky-a: #1b1f52; --sky-b: #1b1f52; --sky-ink: #e9eaff; }
+.sky { background: var(--sky-a); border-bottom: 0; border-radius: 0 0 2rem 2rem; }
+.tile { background: var(--sky-a); color: var(--sky-ink); border-radius: 1.25rem; transition: transform 160ms var(--ease-out); }
+.tile:active { transform: scale(0.97); }
+.display { font-family: var(--font-sans); font-weight: 800; letter-spacing: -0.03em; line-height: 1.02; }
+.btn, .btn-lg { border-radius: 999px; }
+.sky .btn-primary { background: var(--sky-ink); color: var(--sky-a); }
+.sky .btn-quiet { background: color-mix(in srgb, var(--sky-ink) 14%, transparent); color: var(--sky-ink); }
+.sky .btn-plain { color: var(--sky-ink); }
+.hint { color: var(--ink-2); }

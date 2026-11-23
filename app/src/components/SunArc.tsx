@@ -14,8 +14,8 @@ export function SunArc({ f, done, active, night }: { f: number; done: Partial<Re
   const marks: [Kala, number][] = [['pratah', 0], ['madhyahnika', 0.5], ['sayam', 1]]
   return (
     <svg viewBox="0 0 320 112" className="block w-full overflow-visible" role="img" aria-label="The sun's path today with the three sandhyā times marked">
-      <path d={path} fill="none" stroke="var(--sky-ink)" strokeOpacity="0.45" strokeWidth="1.25" strokeDasharray="0.5 5" strokeLinecap="round" />
-      {up && <circle cx={sx} cy={sy} r="12" fill="var(--sun)" />}
+      <path d={path} fill="none" stroke="var(--sky-ink)" strokeOpacity="0.35" strokeWidth="2" strokeLinecap="round" />
+      {up && <circle cx={sx} cy={sy} r="17" fill="var(--sun)" />}
       {night && (
         // a waning crescent: a disc with a sky-coloured disc laid over it
         <g>
@@ -28,8 +28,8 @@ export function SunArc({ f, done, active, night }: { f: number; done: Partial<Re
         const isDone = !!done[k]
         return (
           <g key={k}>
-            <circle cx={x} cy={y} r={k === active ? 6.5 : 5} fill={isDone ? 'var(--ink)' : 'var(--paper)'} stroke="var(--ink)" strokeWidth="1.5" />
-            {isDone && <path d={`M${x - 2.6} ${y + 0.2}l1.9 1.9 3.4-4`} fill="none" stroke="var(--paper)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />}
+            <circle cx={x} cy={y} r={k === active ? 6.5 : 5} fill={isDone ? 'var(--sky-ink)' : 'var(--sky-a)'} stroke="var(--sky-ink)" strokeWidth="2" />
+            {isDone && <path d={`M${x - 2.6} ${y + 0.2}l1.9 1.9 3.4-4`} fill="none" stroke="var(--sky-a)" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />}
           </g>
         )
       })}

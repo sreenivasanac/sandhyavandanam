@@ -73,12 +73,12 @@ export function Perform() {
   const last = i === steps.length - 1
   return (
     <div data-kala={kala} className="mx-auto min-h-dvh max-w-2xl">
-      <header className="sticky top-0 z-10 px-2 pt-[env(safe-area-inset-top)]" style={{ background: 'color-mix(in srgb, var(--paper) 92%, transparent)', backdropFilter: 'blur(10px)' }}>
+      <header className="sticky top-0 z-10 px-2 pt-[env(safe-area-inset-top)]" style={{ background: 'var(--sky-a)', color: 'var(--sky-ink)' }}>
         <div className="flex h-13 items-center">
           <Link to="/" className="icon-btn" aria-label="Leave and go home"><Icon name="left" /></Link>
           <button className="mx-auto rounded-lg px-3 py-1 text-center leading-tight" onClick={() => setList(true)} aria-label={`${KALA_LABEL[kala].sa} sandhyā, step ${i + 1} of ${steps.length}. Show all steps`}>
-            <span className="font-serif text-[1.05rem]">{KALA_LABEL[kala].sa} sandhyā</span>
-            <span className="muted block text-sm tabular-nums">Step {i + 1} of {steps.length}</span>
+            <span className="text-[1.05rem] font-bold">{KALA_LABEL[kala].sa} sandhyā</span>
+            <span className="block text-sm tabular-nums opacity-80">Step {i + 1} of {steps.length}</span>
           </button>
           <button className="icon-btn" onClick={() => setDisplay(true)} aria-label="Display options"><Icon name="sliders" /></button>
         </div>
@@ -87,8 +87,8 @@ export function Perform() {
             const idx = steps.map((_, n) => n).filter((n) => phases[n] === ph)
             const done = idx.filter((n) => n <= i).length
             return (
-              <div key={ph.id} className="h-[3px] overflow-hidden rounded-full" style={{ flex: idx.length, background: 'var(--line)' }}>
-                <div className="h-full rounded-full" style={{ width: `${(done / Math.max(1, idx.length)) * 100}%`, background: 'var(--turmeric)', transition: 'width 300ms var(--ease-out)' }} />
+              <div key={ph.id} className="h-[3px] overflow-hidden rounded-full" style={{ flex: idx.length, background: 'color-mix(in srgb, var(--sky-ink) 22%, transparent)' }}>
+                <div className="h-full rounded-full" style={{ width: `${(done / Math.max(1, idx.length)) * 100}%`, background: 'var(--sky-ink)', transition: 'width 300ms var(--ease-out)' }} />
               </div>
             )
           })}

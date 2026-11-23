@@ -21,7 +21,7 @@ export function ItemView({ item, kala, vars }: { item: Item; kala: Kala; vars: V
   const n = repeatFor(item, kala)
   const hint = s.showActions && item.action
   return (
-    <div className="py-3.5">
+    <div className="mantra-item py-4">
       {(hint || item.optional) && (
         <p className="hint mb-1">
           {hint && <Md text={fill(item.action!, vars)} />}

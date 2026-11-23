@@ -102,7 +102,7 @@ export function Home() {
                   <span className="flex-1">
                     <span className="font-serif text-xl">{KALA_LABEL[k].sa}</span>
                     <span className="muted block text-sm">
-                      {today[k] ? `Done at ${clock(today[k]!)}` : hasPlace ? `${label[k]} ${clock(times[k])}` : KALA_LABEL[k].en}
+                      {today[k] ? `Done at ${clock(today[k]!)}` : KALA_LABEL[k].en}
                     </span>
                   </span>
                 </Link>

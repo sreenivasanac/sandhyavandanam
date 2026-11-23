@@ -86,6 +86,7 @@ body { min-height: 100dvh; }
 .mantra-quiet { font-size: calc(1.2rem * var(--mantra-scale, 1)); line-height: 1.85; color: var(--ink-2); }
 .hint { color: var(--ink); font-weight: 600; font-size: 0.92rem; line-height: 1.4; }
 .hint::first-letter { text-transform: uppercase; }
+.mantra-item + .mantra-item { border-top: 1px solid var(--line); }
 .translit { font-family: var(--font-serif); font-style: italic; color: var(--ink-2); white-space: pre-wrap; line-height: 1.6; }
 
 /* ---------- controls ---------- */

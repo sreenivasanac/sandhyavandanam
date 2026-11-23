@@ -88,13 +88,13 @@ export function Home() {
           <h2 className="mb-3 text-xl font-extrabold tracking-tight">Today</h2>
           <ul className="grid grid-cols-3 gap-2">
             {KALAS.map((k) => (
-              <li key={k} data-kala={k} data-sky="day" className="grid min-w-0 gap-1 text-center">
-                <Link to={`/perform/${k}`} className="tile flex aspect-[4/5] flex-col justify-between p-3 text-left">
+              <li key={k} data-kala={k} data-sky="day" className="flex min-w-0 flex-col gap-1 text-center">
+                <Link to={`/perform/${k}`} className="tile flex aspect-[4/5] min-w-0 flex-col justify-between p-2.5 text-left">
                   <span className="grid size-6 place-items-center rounded-full" style={today[k] ? { background: 'var(--sky-ink)', color: 'var(--sky-a)' } : { border: '1.5px solid var(--sky-ink)', opacity: 0.6 }}>
                     {today[k] && <Icon name="check" size={14} />}
                   </span>
                   <span>
-                    <span className="block truncate text-[0.85rem] font-bold leading-tight">{KALA_LABEL[k].sa}</span>
+                    <span className="block truncate text-[0.78rem] font-bold leading-tight tracking-tight min-[380px]:text-[0.9rem]">{KALA_LABEL[k].sa}</span>
                     <span className="block text-xs font-medium tabular-nums opacity-80">{today[k] ? `Done ${clock(today[k]!)}` : hasPlace ? clock(times[k]) : KALA_LABEL[k].en}</span>
                   </span>
                 </Link>
@@ -108,7 +108,7 @@ export function Home() {
           {p ? (
             <p className="text-lg font-semibold leading-snug">
               {p.paksha} {nominative(p.tithi)}, {p.nakshatra} nakṣatra, {p.adhika ? 'adhika ' : ''}{p.masa} māsa
-              <span className="muted block font-sans text-sm">Computed for your saved location at today's sunrise. Check it against your pañcāṅgam.</span>
+              <span className="muted mt-1 block text-sm font-normal">Computed for your saved location at today's sunrise. Check it against your pañcāṅgam.</span>
             </p>
           ) : (
             <p className="muted">

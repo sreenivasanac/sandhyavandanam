@@ -33,7 +33,7 @@ export function ItemView({ item, kala, vars }: { item: Item; kala: Kala; vars: V
         {item.audio && s.showAudio && <div className="pt-1.5"><Chant src={item.audio} /></div>}
       </div>
       {roman && <p className="translit mt-0.5" lang="sa-Latn">{roman}</p>}
-      {n && n > 1 && <p className="mt-1.5 text-sm font-semibold" style={{ color: 'var(--turmeric)' }}>Say {n} times</p>}
+      {n && n > 1 && <p className="mt-1.5 text-sm font-semibold" style={{ color: 'var(--turmeric)' }}>{item.unit === 'rounds' ? `Do ${n} rounds` : `Say ${n} times`}</p>}
       {s.showMeaning && item.meaning && <p className="prose-ui mt-2 text-[0.95rem] muted"><Md text={fill(item.meaning, vars)} /></p>}
     </div>
   )

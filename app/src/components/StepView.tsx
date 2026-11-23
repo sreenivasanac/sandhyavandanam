@@ -13,7 +13,9 @@ const FACING = { east: 'Face east', north: 'Face north', west: 'Face west' }
 export function StepView({ step, kala, vars, number }: { step: Step; kala: Kala; vars: Vars; number?: number }) {
   const s = useSettings()
   const facing = step.facing?.[kala]
-  const todo = step.intro && s.showInstructions ? sentences(fill(step.intro, vars)) : []
+  const todo = !s.showInstructions ? []
+    : step.todo ? step.todo.map((l) => fill(typeof l === 'string' ? l : l.text, vars))
+    : step.intro ? sentences(fill(step.intro, vars)) : []
   return (
     <article>
       <header className="mb-5">

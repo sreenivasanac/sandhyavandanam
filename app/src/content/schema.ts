@@ -19,6 +19,7 @@ export const MantraItem = z.object({
   meaning: z.string().optional(), // English, markdown-lite
   action: z.string().optional(), // what to do while reciting
   repeat: z.union([z.number(), z.partialRecord(z.enum(KALAS), z.number())]).optional(),
+  unit: z.enum(['times', 'rounds']).optional(), // how `repeat` is worded: "Say 3 times" (default) or "Do 3 rounds" (prāṇāyāma)
   audio: z.string().optional(), // reserved: path/URL to chant audio
   verified: z.boolean().optional(),
   ...Applicability,
@@ -32,11 +33,16 @@ export const Item = z.discriminatedUnion('kind', [MantraItem, NoteItem])
 export type Item = z.infer<typeof Item>
 export type MantraItem = z.infer<typeof MantraItem>
 
+// One line of a step's "what to do" list. A plain string applies always; the object form limits it to a kāla or tradition.
+export const TodoLine = z.union([z.string(), z.object({ text: z.string(), kala: Applicability.kala, tradition: Applicability.tradition })])
+export type TodoLine = z.infer<typeof TodoLine>
+
 export const Step = z.object({
   id: z.string(),
   title: z.object({ sa: z.string(), en: z.string() }),
   section: z.enum(['purvanga', 'uttaranga']),
-  intro: z.string().optional(), // instructions before the mantras (markdown-lite)
+  intro: z.string().optional(), // legacy: one paragraph, split into lines by sentence
+  todo: z.array(TodoLine).optional(), // preferred: one short action per line (markdown-lite); replaces `intro` when present
   facing: z.partialRecord(z.enum(KALAS), z.enum(['east', 'north', 'west'])).optional(),
   image: z.string().optional(),
   items: z.array(Item),
@@ -54,8 +60,12 @@ const applies = (x: { kala?: Kala[]; tradition?: Tradition[] }, kala: Kala, trad
 export function stepsFor(content: Content, kala: Kala, tradition: Tradition): Step[] {
   return content.steps
     .filter((s) => applies(s, kala, tradition))
-    .map((s) => ({ ...s, items: s.items.filter((i) => applies(i, kala, tradition)) }))
-    .filter((s) => s.items.length > 0 || s.intro)
+    .map((s) => ({
+      ...s,
+      items: s.items.filter((i) => applies(i, kala, tradition)),
+      todo: s.todo?.filter((l) => typeof l === 'string' || applies(l, kala, tradition)),
+    }))
+    .filter((s) => s.items.length > 0 || s.intro || s.todo?.length)
 }
 
 export function repeatFor(item: MantraItem, kala: Kala): number | undefined {

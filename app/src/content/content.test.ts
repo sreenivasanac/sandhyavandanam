@@ -16,6 +16,7 @@ test('step ids unique; placeholders known; every mantra has all scripts', () => 
   const c = Content.parse(raw)
   const ids = c.steps.map((s) => s.id)
   assert.equal(new Set(ids).size, ids.length, 'duplicate step id: ' + ids.filter((x, i) => ids.indexOf(x) !== i))
+  for (const s of c.steps) for (const l of s.todo ?? []) for (const m of (typeof l === 'string' ? l : l.text).matchAll(/\{(\w+)\}/g)) assert.ok(ALLOWED.has(m[1]), `unknown placeholder {${m[1]}} in ${s.id} todo`)
   for (const s of c.steps) for (const it of s.items) {
     const texts = it.kind === 'mantra' ? [it.text.iast, it.meaning ?? '', it.action ?? ''] : [it.text]
     for (const t of texts) for (const m of t.matchAll(/\{(\w+)\}/g)) assert.ok(ALLOWED.has(m[1]), `unknown placeholder {${m[1]}} in ${s.id}`)

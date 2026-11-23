@@ -1,7 +1,9 @@
 @import 'tailwindcss';
 @import '@fontsource/tiro-devanagari-sanskrit/400.css';
 @import '@fontsource/tiro-devanagari-sanskrit/400-italic.css';
-@import '@fontsource-variable/source-sans-3/wght.css';
+@import '@fontsource-variable/source-serif-4/opsz.css';
+@import '@fontsource-variable/source-serif-4/opsz-italic.css';
+@import '@fontsource/ibm-plex-mono/400.css';
 @import '@fontsource/gentium-book-plus/400.css';
 @import '@fontsource/noto-serif-kannada/400.css';
 @import '@fontsource/noto-serif-telugu/400.css';
@@ -15,7 +17,9 @@
 @theme {
   /* Tiro Devanagari Sanskrit carries a Latin with every IAST diacritic, so titles and mantras share one voice. */
   --font-serif: 'Tiro Devanagari Sanskrit', 'Gentium Book Plus', Georgia, serif;
-  --font-sans: 'Source Sans 3 Variable', ui-sans-serif, system-ui, sans-serif;
+  /* Pothi: the reading face is a serif too; "sans" is kept as the token name for body text. */
+  --font-sans: 'Source Serif 4 Variable', 'Tiro Devanagari Sanskrit', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
   --font-indic: 'Tiro Devanagari Sanskrit', 'Noto Serif Tamil', 'Noto Serif Kannada', 'Noto Serif Telugu', 'Noto Serif Malayalam', serif;
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
@@ -176,3 +180,54 @@ body { min-height: 100dvh; }
 
 /* A chip used as a large choice card (tradition, script, display preset). */
 .chip.choice { flex-direction: column; align-items: flex-start; gap: 0.2rem; min-height: 0; padding: 0.8rem 1rem; border-radius: 1rem; text-align: left; }
+
+
+/* =====================================================================================
+   Design B · Pothi — a manuscript page. Aged paper, sepia ink, oxblood rubrics (instructions
+   in red, as in printed ritual manuals), one small radius, fine rules instead of filled shapes.
+   ===================================================================================== */
+:root {
+  --paper: #f4ecdc; --surface: #faf4e6; --ink: #2a2118; --ink-2: #6a5b4b; --ink-3: #96866f;
+  --line: #d9cbb1; --wash: #ebe0ca; --kumkum: #7c2018; --on-kumkum: #fbf3e2; --turmeric: #a27a1f;
+  --shell: #1b1611;
+}
+[data-theme='dark'] {
+  --paper: #1d1913; --surface: #252019; --ink: #ebe0cb; --ink-2: #b5a68f; --ink-3: #8b7d69;
+  --line: #3a3226; --wash: #2c261d; --kumkum: #d98a72; --on-kumkum: #1d1510; --turmeric: #c9a556;
+  --shell: #0f0d0a;
+}
+html { background: var(--shell); font-size: calc(17.5px * var(--font-scale)); font-optical-sizing: auto; }
+/* the page: full-bleed on a phone, a sheet lying on a dark desk on wider screens */
+#root { background: var(--paper); min-height: 100dvh; max-width: 44rem; margin-inline: auto; position: relative; }
+@media (min-width: 46rem) { #root { box-shadow: 0 0 0 1px #0006, 0 30px 80px -20px #000a; } }
+.display { letter-spacing: 0; line-height: 1.15; }
+.mono { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.02em; }
+.prose-ui { line-height: 1.62; }
+.hint { color: var(--kumkum); font-style: italic; font-weight: 400; font-size: 1rem; }
+.translit { color: var(--ink-2); }
+.mantra-item + .mantra-item { border-top: 0; }
+.mantra-item { padding-block: 1.1rem; }
+:focus-visible { border-radius: 2px; }
+
+.btn { border-radius: 3px; font-family: var(--font-sans); font-weight: 500; letter-spacing: 0.01em; }
+.btn-lg { border-radius: 3px; }
+.btn-primary { background: var(--kumkum); color: var(--on-kumkum); }
+@media (hover: hover) { .btn-primary:hover { background: color-mix(in srgb, var(--kumkum) 88%, var(--ink)); } }
+.btn-quiet, .btn-ghost { background: transparent; box-shadow: inset 0 0 0 1px var(--line); }
+.chip { border-radius: 3px; background: transparent; }
+.chip.choice { border-radius: 3px; }
+.chip[aria-pressed='true'], .chip[aria-checked='true'] { background: var(--wash); border-color: var(--ink); color: var(--ink); }
+.input { border-radius: 3px; background: var(--surface); }
+.card { border-radius: 3px; }
+.icon-btn { border-radius: 3px; }
+.switch:checked { background: var(--kumkum); }
+.sheet { border-radius: 6px 6px 0 0; }
+.rounded-2xl, .rounded-xl, .rounded-full.px-3 { border-radius: 3px !important; }
+
+/* ornaments */
+.ornament { display: flex; align-items: center; gap: 0.8rem; color: var(--ink-3); }
+.ornament::before, .ornament::after { content: ''; flex: 1; border-top: 1px solid var(--line); }
+/* an index row with dot leaders, as in a book's table of contents */
+.leader { flex: 1; border-bottom: 1px dotted var(--ink-3); transform: translateY(-0.35em); min-width: 1.5rem; }
+.sky { background: none; color: var(--ink); border-bottom: 0; }
+.sky .icon-btn { color: var(--ink-2); }

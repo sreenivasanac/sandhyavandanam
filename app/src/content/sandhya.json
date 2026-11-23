@@ -541,6 +541,7 @@
     },
     {
       "id": "prokshanam",
+      "image": "/img/steps/prokshanam.webp",
       "title": {
         "sa": "Prokṣaṇam / Mārjanam",
         "en": "Sprinkling of water"
@@ -1245,6 +1246,7 @@
     },
     {
       "id": "tarpanam",
+      "image": "/img/steps/tarpanam.webp",
       "title": {
         "sa": "Tarpaṇam",
         "en": "Offering water to the deities"
@@ -2993,6 +2995,7 @@
     },
     {
       "id": "surya-upasthanam",
+      "image": "/img/steps/surya-upasthanam.webp",
       "title": {
         "sa": "Sūrya upasthānam",
         "en": "Standing salutation to the Sun"

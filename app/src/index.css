@@ -231,3 +231,6 @@ html { background: var(--shell); font-size: calc(17.5px * var(--font-scale)); fo
 .leader { flex: 1; border-bottom: 1px dotted var(--ink-3); transform: translateY(-0.35em); min-width: 1.5rem; }
 .sky { background: none; color: var(--ink); border-bottom: 0; }
 .sky .icon-btn { color: var(--ink-2); }
+
+/* step drawings are dark ink on transparent; turn the ink light on the dark page */
+[data-theme='dark'] .step-figure { filter: invert(1) brightness(0.92); }

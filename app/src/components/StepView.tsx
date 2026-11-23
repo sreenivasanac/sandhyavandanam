@@ -31,7 +31,7 @@ export function StepView({ step, kala, vars, number }: { step: Step; kala: Kala;
         )}
       </header>
       {s.showInstructions && step.image && (
-        <img src={step.image} alt="" className="mb-5 max-h-60 w-full rounded-2xl object-contain" style={{ background: '#fbf3e6' }} />
+        <img src={step.image} alt="" className="step-figure mx-auto mb-5 max-h-64 object-contain" />
       )}
       {todo.length > 1 ? (
         <ol className="prose-ui mb-4 grid gap-2.5">

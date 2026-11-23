@@ -18,3 +18,7 @@
 - The generated character wears an ūrdhva-puṇḍra (Vaiṣṇava) mark; generate a vibhūti/tradition-neutral variant or per-tradition images.
 - Steps still to illustrate: prokṣaṇam (sprinkling), prāśanam (sipping), brahmāñjali, tarpaṇam (deva-tīrtha pour), Gāyatrī nyāsa/mudrās, upasthānam (standing añjali), dik-vandanam, sāṣṭāṅga namaskāram.
 - Every image needs a knowledgeable human check before release (finger positions).
+
+## Step drawings (2026-11-23)
+
+The eight step figures in `app/public/img/steps/` are black ink line drawings from Nano Banana Pro (treg `piapi.image-gen.gemini-3-pro-image`, about $0.105 each), converted to dark ink on a transparent background so they sit on the page colour and invert in dark mode (`.step-figure`). Each was checked by eye: sacred thread from the left shoulder, right hand doing the action, plain forehead (no tradition mark). The tarpaṇam drawing is mirrored for the thread. A saṅkalpa-posture drawing was tried twice and rejected (hands not on the right thigh).

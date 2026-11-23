@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Icon } from '../components/Icon'
 import { DisplaySheet } from '../components/Sheets'
@@ -13,6 +13,14 @@ import { varsFrom } from '../lib/text'
 export function Read() {
   const { kala: k } = useParams()
   const kala = (KALAS as readonly string[]).includes(k ?? '') ? (k as Kala) : 'pratah'
+  // Each read page is its own search result: give it its own title and canonical address, and put the home ones back on leaving.
+  useEffect(() => {
+    const link = document.querySelector<HTMLLinkElement>('link[rel=canonical]')
+    const before = { title: document.title, href: link?.href }
+    document.title = `${KALA_LABEL[kala].sa} sandhyā: the full ${KALA_LABEL[kala].en.toLowerCase()} procedure`
+    if (link) link.href = `${location.origin}/read/${kala}`
+    return () => { document.title = before.title; if (link && before.href) link.href = before.href }
+  }, [kala])
   const s = useSettings()
   const steps = useMemo(() => stepsFor(content, kala, s.tradition), [kala, s.tradition])
   const phases = useMemo(() => phasesFor(steps.map((x) => x.id)), [steps])

@@ -3,11 +3,10 @@
     "id": "uttaranga-acamanam",
     "title": {
       "sa": "Ācamanam (uttarāṅga-ārambhe)",
-      "en": "Ācamanam at the start of the Uttarāṅgam"
+      "en": "Ācamanam at the start of the Gāyatrī part"
     },
     "section": "uttaranga",
     "optional": true,
-    "intro": "Several texts begin the Gāyatrī-japa portion (Uttarāṅgam) with a fresh ācamanam — sip water three times from the brāhma-tīrtha — followed by the Keśavādi aṅga-nyāsam as at the start; Smārta texts add the Gaṇapati dhyānam. Kidambi goes straight from the āsana mantra to prāṇāyāma and the japa saṅkalpam.",
     "sources": [
       "sandhya.pdf p8",
       "Chakravarthy p29–30",
@@ -20,7 +19,7 @@
         "text": {
           "iast": "oṃ acyutāya namaḥ"
         },
-        "action": "pour a little water into the right palm and swallow it",
+        "action": "Pour a little water into your right palm and swallow it.",
         "meaning": "Salutations to Acyuta, the unfallen, unchanging one.",
         "audio": "/audio/ddf14c38a5.m4a"
       },
@@ -29,7 +28,7 @@
         "text": {
           "iast": "oṃ anantāya namaḥ"
         },
-        "action": "again pour water and swallow",
+        "action": "Pour water into your palm again and swallow it.",
         "meaning": "Salutations to Ananta, the infinite one.",
         "audio": "/audio/be1844c3a2.m4a"
       },
@@ -38,13 +37,9 @@
         "text": {
           "iast": "oṃ govindāya namaḥ"
         },
-        "action": "again pour water and swallow; wash the hand and wipe the lips",
+        "action": "Pour water once more and swallow it. Then wash your hand and wipe your lips as described in the first step.",
         "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
         "audio": "/audio/3aa63e480a.m4a"
-      },
-      {
-        "kind": "note",
-        "text": "Then touch the limbs with the twelve names *keśavāya namaḥ … dāmodarāya namaḥ* as in Aṅga-nyāsam."
       },
       {
         "kind": "mantra",
@@ -54,9 +49,20 @@
         "text": {
           "iast": "śuklāmbaradharaṃ viṣṇuṃ śaśivarṇaṃ caturbhujam |\nprasannavadanaṃ dhyāyet sarvavighnopaśāntaye ||"
         },
-        "action": "gently tap the temples with the fists, five times, once after each phrase",
-        "meaning": "The all-pervading Lord is to be meditated upon for the removal of obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced.",
+        "action": "Tap your temples gently with your fists, once after each phrase (five times in all).",
+        "meaning": "The all-pervading Lord Viṣṇu is to be meditated upon for the removal of all obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced.",
         "audio": "/audio/284018f4bf.m4a"
+      }
+    ],
+    "todo": [
+      "Some families begin the Gāyatrī part with a fresh ācamanam. Do it now if yours does.",
+      "Take a small sip of water and swallow it with each of the three names, as in the first Ācamanam step.",
+      "Then touch your body with the twelve names, as in the Aṅga-nyāsam step.",
+      {
+        "text": "Then say the Gaṇapati verse and tap your temples, as in the Removing obstacles step.",
+        "tradition": [
+          "smarta"
+        ]
       }
     ]
   },
@@ -67,7 +73,6 @@
       "en": "Resolve for the Gāyatrī japa"
     },
     "section": "uttaranga",
-    "intro": "Perform prāṇāyāma three times, touch the right ear, and take the saṅkalpa posture: left palm upturned on the right thigh, right palm over it (brahmāñjali). Recite the saṅkalpa for your tradition, naming the number of times you will recite the Gāyatrī. Then release the hands.",
     "sources": [
       "sandhya.pdf p8–9",
       "Kidambi p34, p66–67, p98",
@@ -82,8 +87,9 @@
           "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||"
         },
         "repeat": 3,
-        "action": "prāṇāyāma, three rounds",
-        "meaning": "Om — the material world; Om — the realm of mind; Om — the realm of light; Om — the realm of vastness; Om — the realm of creative delight; Om — the realm of unobstructed will; Om — the realm of the highest Truth. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. He is in the waters, in light, in flavour, in the nectar of immortality, and pervades the three realms — physical, mental and spiritual. All this is denoted by the Praṇava."
+        "action": "Recite silently while holding your breath, as in the Prāṇāyāmam step.",
+        "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
+        "unit": "rounds"
       },
       {
         "kind": "mantra",
@@ -93,7 +99,7 @@
         "text": {
           "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā {japaCount} vāraṃ gāyatrī mahāmantra japaṃ kariṣye ||"
         },
-        "action": "saṅkalpa posture",
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
         "meaning": "For the absolution of all my sins and to invoke the grace of the Supreme Lord, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the great Gāyatrī mantra {japaCount} times."
       },
       {
@@ -104,23 +110,28 @@
         "text": {
           "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā {japaCount} vāraṃ gāyatrī mantra japaṃ kariṣye ||"
         },
-        "action": "saṅkalpa posture",
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
         "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the Gāyatrī mantra {japaCount} times."
       },
       {
         "kind": "note",
-        "text": "Say the count in Sanskrit: *aṣṭottara-śata-vāraṃ* (108), *aṣṭāviṃśati-vāraṃ* (28) or *daśa-vāraṃ* (10). Conventional counts are 108, 28 or at least 10 (Chakravarthy also lists 32 and 1008). Set your count in Settings."
+        "text": "Say the count in Sanskrit: *aṣṭottara-śata-vāraṃ* for 108, *aṣṭāviṃśati-vāraṃ* for 28, or *daśa-vāraṃ* for 10. You can change your count in Settings."
       }
+    ],
+    "todo": [
+      "Do prāṇāyāma three times, as in the Prāṇāyāmam step.",
+      "Touch your right ear and take the saṅkalpa posture.",
+      "Say the saṅkalpa for your tradition, naming how many times you will recite the Gāyatrī.",
+      "Then release your hands."
     ]
   },
   {
     "id": "pranayama-nyasam",
     "title": {
       "sa": "Prāṇāyāma-mantra nyāsam",
-      "en": "Nyāsa for the prāṇāyāma mantra"
+      "en": "Touching the body before prāṇāyāma"
     },
     "section": "uttaranga",
-    "intro": "Touch the top of the head, the tip of the nose and the chest with the right fingers as each line names the seer, metre and deity — first for the Praṇava, then the seven vyāhṛtis, the Gāyatrī, and the Gāyatrī-śiras. Then, with hands in añjali, meditate on Gāyatrī with the *Muktāvidruma* verse, touch the body from head to foot with *Omāpo jyotī*, salute the Lord in the solar orb, and perform prāṇāyāma three times.",
     "sources": [
       "Kidambi p35–37, p67–69, p99–101",
       "Chakravarthy p32–34",
@@ -134,7 +145,7 @@
         "text": {
           "iast": "praṇavasya ṛṣir brahmā |"
         },
-        "action": "touch the top of the head",
+        "action": "Touch the top of your head.",
         "meaning": "Of the Praṇava (Om) the seer is Brahmā.",
         "audio": "/audio/807bb11605.m4a"
       },
@@ -143,7 +154,7 @@
         "text": {
           "iast": "devī gāyatrī chandaḥ |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "The metre is Devī Gāyatrī.",
         "audio": "/audio/1f73467cc5.m4a"
       },
@@ -152,7 +163,7 @@
         "text": {
           "iast": "paramātmā devatā |"
         },
-        "action": "touch the chest",
+        "action": "Touch your heart.",
         "meaning": "The deity is the Supreme Self.",
         "audio": "/audio/0c7398fd44.m4a"
       },
@@ -161,7 +172,7 @@
         "text": {
           "iast": "bhūrādi sapta vyāhṛtīnāṃ atri bhṛgu kutsa vasiṣṭha gautama kāśyapa āṅgirasa ṛṣayaḥ |"
         },
-        "action": "touch the top of the head",
+        "action": "Touch the top of your head.",
         "meaning": "Of the seven vyāhṛtis beginning with bhūḥ the seers are Atri, Bhṛgu, Kutsa, Vasiṣṭha, Gautama, Kāśyapa and Āṅgirasa.",
         "audio": "/audio/e66c8ef22f.m4a"
       },
@@ -170,7 +181,7 @@
         "text": {
           "iast": "gāyatrī uṣṇik anuṣṭup bṛhatī paṅkti triṣṭup jagatyaḥ chandāguṃsi |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "Their metres are gāyatrī, uṣṇik, anuṣṭup, bṛhatī, paṅkti, triṣṭup and jagatī.",
         "audio": "/audio/151d37a7fa.m4a"
       },
@@ -179,7 +190,7 @@
         "text": {
           "iast": "agni vāyu arka vāgīśa varuṇa indra viśve devā devatāḥ |"
         },
-        "action": "touch the chest",
+        "action": "Touch your heart.",
         "meaning": "Their deities are Agni, Vāyu, Arka (the Sun), Vāgīśa (Bṛhaspati), Varuṇa, Indra and the Viśvedevas.",
         "audio": "/audio/8206efa8c9.m4a"
       },
@@ -188,7 +199,7 @@
         "text": {
           "iast": "sāvitryā ṛṣir viśvāmitraḥ |"
         },
-        "action": "touch the top of the head",
+        "action": "Touch the top of your head.",
         "meaning": "Of the Sāvitrī (Gāyatrī mantra) the seer is Viśvāmitra.",
         "audio": "/audio/f46fad909c.m4a"
       },
@@ -197,7 +208,7 @@
         "text": {
           "iast": "devī gāyatrī chandaḥ |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "The metre is Devī Gāyatrī.",
         "audio": "/audio/1f73467cc5.m4a"
       },
@@ -206,7 +217,7 @@
         "text": {
           "iast": "savitā devatā |"
         },
-        "action": "touch the chest",
+        "action": "Touch your heart.",
         "meaning": "The deity is Savitā.",
         "audio": "/audio/822bf8c403.m4a"
       },
@@ -215,7 +226,7 @@
         "text": {
           "iast": "gāyatrī-śiraso brahmā ṛṣiḥ |"
         },
-        "action": "touch the top of the head",
+        "action": "Touch the top of your head.",
         "meaning": "Of the Gāyatrī-śiras (*Omāpo jyotī…*) the seer is Brahmā.",
         "audio": "/audio/40231a040d.m4a"
       },
@@ -224,7 +235,7 @@
         "text": {
           "iast": "anuṣṭup chandaḥ |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "The metre is anuṣṭup.",
         "audio": "/audio/918805a1fc.m4a"
       },
@@ -233,7 +244,7 @@
         "text": {
           "iast": "paramātmā devatā |"
         },
-        "action": "touch the chest",
+        "action": "Touch your heart.",
         "meaning": "The deity is the Supreme Self.",
         "audio": "/audio/0c7398fd44.m4a"
       },
@@ -242,7 +253,7 @@
         "text": {
           "iast": "sarveṣāṃ prāṇāyāme viniyogaḥ ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "All of these are employed in prāṇāyāma.",
         "audio": "/audio/4cdaf689a0.m4a"
       },
@@ -251,8 +262,8 @@
         "text": {
           "iast": "muktāvidruma hemanīla dhavalacchāyair mukhais trīkṣaṇaiḥ\nyuktām indukalā nibaddha makuṭāṃ tattvārtha varṇātmikām |\ngāyatrīṃ varadābhayāṃ kuśakaśaṃ śubhraṃ kapālaṃ guṇaṃ\nśaṅkhaṃ cakram athāravinda yugalaṃ hastair vahantīṃ bhaje ||"
         },
-        "action": "hands in añjali; meditate on the form of Gāyatrī",
-        "meaning": "I worship Gāyatrī — whose five faces have the hues of pearl, coral, gold, sapphire and white, each with three eyes; whose crown is bound with the crescent moon; who is the very letters that embody the supreme truth; who bears in her hands the boon-gesture and the fear-dispelling gesture, kuśa grass and whip, a white skull, the noose, conch, discus and a pair of lotuses.",
+        "action": "Say this with your palms joined, meditating on the form of Gāyatrī.",
+        "meaning": "I worship Gāyatrī: five-faced (pearl, coral, gold, sapphire and white), three-eyed, crowned with the crescent moon, the very letters of supreme truth. In her hands she holds the boon and protection gestures, kuśa grass and whip, a white skull, noose, conch, discus and two lotuses.",
         "audio": "/audio/e23507b939.m4a"
       },
       {
@@ -260,16 +271,16 @@
         "text": {
           "iast": "oṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||"
         },
-        "action": "with both hands gently touch the body from head to foot (ātma-pariśuddhi)",
-        "meaning": "Om is the waters, the light, the essence, the nectar of immortality, Brahman — earth, mid-region and heaven; Om."
+        "action": "Gently touch your body from head to foot with both hands.",
+        "meaning": "Om is the waters, the light, the essence, the nectar of immortality, Brahman: earth, atmosphere and heaven; Om."
       },
       {
         "kind": "mantra",
         "text": {
           "iast": "arkamaṇḍala madhyasthaṃ sūryakoṭi samaprabham |\nbrahmādi sevya pādābjaṃ naumi brahma ramāsakham ||"
         },
-        "action": "hands in añjali",
-        "meaning": "I bow to Brahman, the companion of Ramā (Lakṣmī), who stands in the middle of the solar orb, radiant as ten million suns, whose lotus feet are served by Brahmā and the other gods.",
+        "action": "Say this with your palms joined.",
+        "meaning": "I bow to Brahman, the companion of Ramā (Lakṣmī), who stands in the middle of the disc of the Sun, radiant as ten million suns, whose lotus feet are served by Brahmā and the other gods.",
         "audio": "/audio/1fb577460d.m4a"
       },
       {
@@ -278,13 +289,22 @@
           "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||"
         },
         "repeat": 3,
-        "action": "prāṇāyāma, three rounds",
-        "meaning": "Om — the seven worlds. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. Om is the waters, the light, the essence, the nectar of immortality, Brahman — the three realms; Om."
+        "action": "Recite silently while holding your breath, as in the Prāṇāyāmam step.",
+        "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
+        "unit": "rounds"
       },
       {
         "kind": "note",
-        "text": "It is also the practice to recite this prāṇāyāma mantra ten times (without breath-control) instead of performing prāṇāyāma three times (Kidambi)."
+        "text": "You may instead recite this prāṇāyāma mantra ten times, without holding your breath, in place of three rounds of prāṇāyāma."
       }
+    ],
+    "todo": [
+      "Touch the top of your head, the tip of your nose and your heart with your right fingers as each line names the seer, metre and deity.",
+      "Do this first for the Praṇava (the syllable Om), then for the seven vyāhṛtis, the Gāyatrī, and the Gāyatrī-śiras.",
+      "Then, with palms joined in añjali, meditate on Gāyatrī using the *muktāvidruma* verse.",
+      "Touch your body from head to foot with *oṃ āpo jyotī…*.",
+      "Bow to the Lord in the disc of the Sun.",
+      "Finally, do prāṇāyāma three times again."
     ]
   },
   {
@@ -294,7 +314,6 @@
       "en": "Invocation of Gāyatrī"
     },
     "section": "uttaranga",
-    "intro": "Nyāsa: touch the head, nose and chest. Then with hands in añjali recite the invocation. At each *āvāhayāmi* open the joined palms and move both hands in a circle inward towards the heart (āvāhana mudrā), returning to añjali — inviting the Goddess to be seated in the lotus of the heart.",
     "sources": [
       "sandhya.pdf p10",
       "Kidambi p37–39, p69–71, p101–103",
@@ -308,7 +327,7 @@
         "text": {
           "iast": "āyātu iti anuvākasya vāmadeva ṛṣiḥ |"
         },
-        "action": "touch the top of the head",
+        "action": "Touch the top of your head.",
         "meaning": "Of the anuvāka beginning *āyātu* the seer is Vāmadeva.",
         "audio": "/audio/0ebafd88e5.m4a"
       },
@@ -317,7 +336,7 @@
         "text": {
           "iast": "anuṣṭup chandaḥ |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "The metre is anuṣṭup.",
         "audio": "/audio/918805a1fc.m4a"
       },
@@ -326,7 +345,7 @@
         "text": {
           "iast": "gāyatrī devatā |"
         },
-        "action": "touch the chest",
+        "action": "Touch your heart.",
         "meaning": "The deity is Gāyatrī.",
         "audio": "/audio/1329cbc871.m4a"
       },
@@ -335,8 +354,8 @@
         "text": {
           "iast": "gāyatrī āvāhane viniyogaḥ ||"
         },
-        "action": "hands in añjali",
-        "meaning": "It is employed in the invocation of Gāyatrī.",
+        "action": "Say this with your palms joined.",
+        "meaning": "It is used for the invocation of Gāyatrī.",
         "audio": "/audio/49ade4bfc9.m4a"
       },
       {
@@ -344,7 +363,7 @@
         "text": {
           "iast": "āyā̍tu̱ vara̍dā de̱vī̱ a̱kṣara̍ṃ brahma̱saṃmi̍tam |\ngā̱ya̱trī̎ṃ chanda̍sāṃ mā̱tedaṃ bra̍hma ju̱ṣasva̍ naḥ ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "May the boon-conferring divine Gāyatrī come here, she who is the imperishable, equal to Brahman; O Gāyatrī, mother of the metres, favour us with this knowledge of Brahman."
       },
       {
@@ -352,15 +371,15 @@
         "text": {
           "iast": "ojo̍'si̱ saho̍'si̱ bala̍m asi̱ bhrājo̍'si de̱vānā̱ṃ dhāma̱ nāmā̍si̱ viśva̍m asi vi̱śvāyu̱ssarva̍m asi sa̱rvāyur abhibhūroṃ ||"
         },
-        "action": "hands in añjali",
-        "meaning": "You are vigour, you are might, you are strength, you are splendour; you are the abode and the name of the gods; you are the universe and the life of the universe; you are everything and the life of everything; you are the conqueror of all — Om. I invoke your presence in the form of the Praṇava."
+        "action": "Say this with your palms joined.",
+        "meaning": "You are vigour, you are might, you are strength, you are splendour; you are the abode and the name of the gods; you are the universe and the life of the universe; you are everything and the life of everything; you are the conqueror of all — Om. I invoke you in the form of Om."
       },
       {
         "kind": "mantra",
         "text": {
           "iast": "gāyatrīm ā̍vāhayā̱mi |"
         },
-        "action": "āvāhana mudrā: open the palms and circle both hands towards the heart",
+        "action": "Make the āvāhana mudrā: open your palms and circle both hands towards your heart.",
         "meaning": "I invoke Gāyatrī (the Goddess of the morning)."
       },
       {
@@ -368,7 +387,7 @@
         "text": {
           "iast": "sāvitrīm ā̍vāhayā̱mi |"
         },
-        "action": "repeat the āvāhana mudrā",
+        "action": "Make the āvāhana mudrā again.",
         "meaning": "I invoke Sāvitrī (the Goddess of midday)."
       },
       {
@@ -376,19 +395,25 @@
         "text": {
           "iast": "sarasvatīm ā̍vāhayā̱mi ||"
         },
-        "action": "repeat the āvāhana mudrā",
+        "action": "Make the āvāhana mudrā again.",
         "meaning": "I invoke Sarasvatī (the Goddess of the evening)."
       }
+    ],
+    "todo": [
+      "Do the nyāsa, as in Prokṣaṇam: touch your head, nose and heart.",
+      "With palms joined in añjali, recite the invocation.",
+      "At each *āvāhayāmi*, open your joined palms and move both hands in a circle inward towards your heart (the *āvāhana mudrā*), then return to añjali.",
+      "This invites the Goddess to sit in the lotus of your heart.",
+      "Recite all three invocations: Gāyatrī, Sāvitrī and Sarasvatī."
     ]
   },
   {
     "id": "kala-dhyanam",
     "title": {
       "sa": "Gāyatrī dhyānam",
-      "en": "Meditation on Gāyatrī for the time of day"
+      "en": "Meditation on Gāyatrī for your time of day"
     },
     "section": "uttaranga",
-    "intro": "With hands in añjali, meditate on the Goddess in the form proper to the hour — Gāyatrī in the morning, Sāvitrī at noon, Sarasvatī in the evening — and then on Savitā, the divine impeller of our intellect.",
     "sources": [
       "sandhya.pdf p10–11",
       "Kidambi p39–40, p71–72, p103–104",
@@ -403,8 +428,8 @@
         "text": {
           "iast": "prātar dhyāyāmi gāyatrīṃ ravimaṇḍala madhyagām |\nṛgvedam uccārayantīṃ raktavarṇāṃ kumārikām |\nakṣamālākarāṃ brahmadaivatyāṃ haṃsavāhanām ||"
         },
-        "action": "hands in añjali",
-        "meaning": "In the morning I meditate on Gāyatrī in the middle of the solar orb — a young maiden, red in colour, reciting the Ṛg Veda, holding a rosary, whose deity is Brahmā, riding a swan.",
+        "action": "Say this with your palms joined.",
+        "meaning": "In the morning I meditate on Gāyatrī in the middle of the disc of the Sun — a young maiden, red in colour, reciting the Ṛg Veda, holding a rosary, whose deity is Brahmā, riding a swan.",
         "audio": "/audio/a267c3fbde.m4a"
       },
       {
@@ -415,8 +440,8 @@
         "text": {
           "iast": "madhyandine tu sāvitrīṃ ravimaṇḍala madhyagām |\nyajurvedaṃ vyāharantīṃ śvetāṃ śūlakarāṃ śivām |\nyuvatīṃ rudradaivatyāṃ dhyāyāmi vṛṣavāhanām ||"
         },
-        "action": "hands in añjali",
-        "meaning": "At midday I meditate on Sāvitrī in the middle of the solar orb — a young woman, white, auspicious, reciting the Yajur Veda, holding a trident, whose deity is Rudra, riding a bull.",
+        "action": "Say this with your palms joined.",
+        "meaning": "At midday I meditate on Sāvitrī in the middle of the disc of the Sun — a young woman, white, auspicious, reciting the Yajur Veda, holding a trident, whose deity is Rudra, riding a bull.",
         "audio": "/audio/03d8d8f756.m4a"
       },
       {
@@ -427,8 +452,8 @@
         "text": {
           "iast": "sāyaṃ sarasvatīṃ śyāmāṃ ravimaṇḍala madhyagām |\nsāmavedaṃ vyāharantīṃ cakrāyudhadharāṃ śubhām |\ndhyāyāmi viṣṇudaivatyāṃ vṛddhāṃ garuḍavāhanām ||"
         },
-        "action": "hands in añjali",
-        "meaning": "In the evening I meditate on Sarasvatī in the middle of the solar orb — dark-hued, aged, auspicious, reciting the Sāma Veda, holding the discus, whose deity is Viṣṇu, riding Garuḍa.",
+        "action": "Say this with your palms joined.",
+        "meaning": "In the evening I meditate on Sarasvatī in the middle of the disc of the Sun — dark-hued, aged, auspicious, reciting the Sāma Veda, holding the discus, whose deity is Viṣṇu, riding Garuḍa.",
         "audio": "/audio/1baab8bba2.m4a"
       },
       {
@@ -436,8 +461,8 @@
         "text": {
           "iast": "yo devassavitā'smākaṃ dhiyo dharmādi gocarāḥ |\nprerayet tasya yad bhargas tad vareṇyam upāsmahe ||"
         },
-        "action": "hands in añjali",
-        "meaning": "We contemplate that adorable light of the divine Savitā, who impels our thoughts towards dharma and the other aims of life.",
+        "action": "Say this with your palms joined.",
+        "meaning": "We meditate on that adorable light of the divine Savitā, who guides our thoughts towards dharma and the other aims of life.",
         "audio": "/audio/41ce71a61e.m4a"
       },
       {
@@ -446,10 +471,32 @@
         "text": {
           "iast": "ādityamaṇḍale dhyāyet paramātmānam avyayam |\nviṣṇuṃ caturbhujaṃ ratnakuṇḍalair maṇḍitāṅganam ||\nsarvaratna samāyukta sarvābharaṇa bhūṣitām |\nevaṃ dhyātvā japen nityaṃ mantram aṣṭottaraṃ śatam ||"
         },
-        "action": "hands in añjali",
-        "meaning": "One should meditate in the solar orb upon the imperishable Supreme Self, Viṣṇu — four-armed, his body adorned with jewelled earrings, decked with every gem and ornament; having meditated thus one should daily recite the mantra 108 times.",
+        "action": "Say this with your palms joined.",
+        "meaning": "Meditate in the disc of the Sun on the imperishable Supreme Self, Viṣṇu: four-armed, his body adorned with jewelled earrings and every ornament. Having meditated thus, recite the mantra daily 108 times.",
         "audio": "/audio/b74f10ce33.m4a"
       }
+    ],
+    "todo": [
+      "Join your palms in añjali.",
+      {
+        "text": "Meditate on Gāyatrī, the goddess of the morning.",
+        "kala": [
+          "pratah"
+        ]
+      },
+      {
+        "text": "Meditate on Sāvitrī, the goddess of midday.",
+        "kala": [
+          "madhyahnika"
+        ]
+      },
+      {
+        "text": "Meditate on Sarasvatī, the goddess of the evening.",
+        "kala": [
+          "sayam"
+        ]
+      },
+      "Then meditate on Savitā, who guides our thoughts."
     ]
   },
   {
@@ -465,7 +512,6 @@
       "madhyahnika": "east",
       "sayam": "west"
     },
-    "intro": "Nyāsa: touch the head, nose and chest. Then the japa itself — the heart of the sandhyā. Cover both hands with the upper cloth (some rest it on the left shoulder); Smārtas hold the sacred thread between the thumbs. Join the hands with the palms facing you and hold them at the level of the face in the morning, the chest at noon and the navel in the evening. Morning and noon japa is done standing, evening japa seated (Chakravarthy). Count on the finger-joints of both hands — one hand for units, the other for tens. Recite silently: with the lips moving but no audible sound (upāṃśu) or purely in the mind (mānasa); the Gāyatrī is never chanted aloud in japa. A few repetitions said correctly, with the pauses, are better than many said hurriedly.",
     "sources": [
       "sandhya.pdf p9–11",
       "Kidambi p39–40, p71–72, p103–104",
@@ -479,7 +525,7 @@
         "text": {
           "iast": "sāvitryā ṛṣir viśvāmitraḥ |"
         },
-        "action": "touch the top of the head",
+        "action": "Touch the top of your head.",
         "meaning": "Of the Sāvitrī (Gāyatrī mantra) the seer is Viśvāmitra.",
         "audio": "/audio/f46fad909c.m4a"
       },
@@ -488,7 +534,7 @@
         "text": {
           "iast": "devī gāyatrī chandaḥ |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "The metre is Devī Gāyatrī.",
         "audio": "/audio/1f73467cc5.m4a"
       },
@@ -497,7 +543,7 @@
         "text": {
           "iast": "savitā devatā |"
         },
-        "action": "touch the chest",
+        "action": "Touch your heart.",
         "meaning": "The deity is Savitā.",
         "audio": "/audio/822bf8c403.m4a"
       },
@@ -506,13 +552,13 @@
         "text": {
           "iast": "{kala} sandhyā jape viniyogaḥ ||"
         },
-        "action": "hands in añjali",
-        "meaning": "It is employed in the japa of the {kalaEn} sandhyā."
+        "action": "Say this with your palms joined.",
+        "meaning": "It is used for the japa of the {kalaEn} sandhyā."
       },
       {
         "kind": "note",
         "optional": true,
-        "text": "Kara-nyāsa and aṅga-nyāsa (optional):"
+        "text": "The next thirteen lines are optional hand and body touches (kara-nyāsa and aṅga-nyāsa). Skip them if they are not your practice."
       },
       {
         "kind": "mantra",
@@ -520,7 +566,7 @@
         "text": {
           "iast": "oṃ bhūḥ aṅguṣṭhābhyāṃ namaḥ |"
         },
-        "action": "stroke the thumbs with the index fingers of the same hands",
+        "action": "Touch each thumb with the index finger of the same hand.",
         "audio": "/audio/d20bce1d2d.m4a"
       },
       {
@@ -529,7 +575,7 @@
         "text": {
           "iast": "oṃ bhuvaḥ tarjanībhyāṃ namaḥ |"
         },
-        "action": "stroke the index fingers from palm to tip with the thumbs",
+        "action": "Stroke each index finger from palm to tip with the thumb.",
         "audio": "/audio/0db8e5b16b.m4a"
       },
       {
@@ -538,7 +584,7 @@
         "text": {
           "iast": "oṃ suvaḥ madhyamābhyāṃ namaḥ |"
         },
-        "action": "stroke the middle fingers from palm to tip with the thumbs",
+        "action": "Stroke each middle finger from palm to tip with the thumb.",
         "audio": "/audio/44a95c95e6.m4a"
       },
       {
@@ -547,7 +593,7 @@
         "text": {
           "iast": "oṃ bhūḥ anāmikābhyāṃ namaḥ |"
         },
-        "action": "stroke the ring fingers from palm to tip with the thumbs",
+        "action": "Stroke each ring finger from palm to tip with the thumb.",
         "audio": "/audio/242ad9c96e.m4a"
       },
       {
@@ -556,7 +602,7 @@
         "text": {
           "iast": "oṃ bhuvaḥ kaniṣṭhikābhyāṃ namaḥ |"
         },
-        "action": "stroke the little fingers from palm to tip with the thumbs",
+        "action": "Stroke each little finger from palm to tip with the thumb.",
         "audio": "/audio/4f2c0b9859.m4a"
       },
       {
@@ -565,7 +611,7 @@
         "text": {
           "iast": "oṃ suvaḥ karatala karapṛṣṭhābhyāṃ namaḥ |"
         },
-        "action": "touch each palm, then the back of each hand",
+        "action": "Touch each palm, then the back of each hand.",
         "audio": "/audio/505d776e1f.m4a"
       },
       {
@@ -574,7 +620,7 @@
         "text": {
           "iast": "oṃ bhūḥ hṛdayāya namaḥ |"
         },
-        "action": "touch the heart with the right fist",
+        "action": "Touch your heart with your right fist.",
         "audio": "/audio/9bb382ceaa.m4a"
       },
       {
@@ -583,7 +629,7 @@
         "text": {
           "iast": "oṃ bhuvaḥ śirasi svāhā |"
         },
-        "action": "touch the head with the right index finger and thumb joined",
+        "action": "Touch your head with the right index finger and thumb joined.",
         "audio": "/audio/e67d436f54.m4a"
       },
       {
@@ -592,7 +638,7 @@
         "text": {
           "iast": "oṃ suvaḥ śikhāyai vaṣaṭ |"
         },
-        "action": "touch the crown of the head with the right hand",
+        "action": "Touch the crown of your head with your right hand.",
         "audio": "/audio/190f724f13.m4a"
       },
       {
@@ -601,7 +647,7 @@
         "text": {
           "iast": "oṃ bhūḥ kavacāya huṃ |"
         },
-        "action": "cross the arms over the chest and touch the shoulders",
+        "action": "Cross your arms over your chest and touch your shoulders.",
         "audio": "/audio/70361f2d92.m4a"
       },
       {
@@ -610,7 +656,7 @@
         "text": {
           "iast": "oṃ bhuvaḥ netrābhyāṃ vauṣaṭ |"
         },
-        "action": "touch the eyes with the right index and middle fingers",
+        "action": "Touch your eyes with the right index and middle fingers.",
         "audio": "/audio/d54c115ba3.m4a"
       },
       {
@@ -619,7 +665,7 @@
         "text": {
           "iast": "oṃ suvaḥ astrāya phaṭ |"
         },
-        "action": "clap the hands three times",
+        "action": "Clap your hands three times.",
         "audio": "/audio/a3b5b9bdf5.m4a"
       },
       {
@@ -628,7 +674,7 @@
         "text": {
           "iast": "oṃ bhūr bhuvassuvarom iti digbandhaḥ ||"
         },
-        "action": "snap the fingers in the eight directions around the head",
+        "action": "Snap your fingers in the eight directions around your head.",
         "audio": "/audio/f7e2f25827.m4a"
       },
       {
@@ -636,13 +682,59 @@
         "text": {
           "iast": "oṃ bhūr bhuva̱ssuva̍ḥ | tat sa̍vi̱tur vare̎ṇya̱ṃ | bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||"
         },
-        "action": "recite {japaCount} times, silently, hands covered, counting on the finger-joints",
-        "meaning": "Om. Earth, mid-region, heaven. We meditate upon that adorable light of the divine Savitā, the Creator; may He impel our intellect."
+        "action": "Recite {japaCount} times, silently, with your hands covered, counting on your finger-joints.",
+        "meaning": "Om, earth, atmosphere, heaven. We meditate on the adorable light of the divine Savitā; may He guide our thoughts."
       },
       {
         "kind": "note",
-        "text": "In japa the mantra is recited in four sections, each in one breath: *oṃ bhūr bhuvas suvaḥ* | *tat savitur vareṇyaṃ* | *bhargo devasya dhīmahi* | *dhiyo yo naḥ pracodayāt*. *vareṇyaṃ* is pronounced *vareṇiyaṃ* so that the mantra has its full twenty-four syllables (Kidambi)."
+        "text": "In japa the mantra is said in four sections, each in one breath: *oṃ bhūr bhuvas suvaḥ* | *tat savitur vareṇyaṃ* | *bhargo devasya dhīmahi* | *dhiyo yo naḥ pracodayāt*. Say *vareṇyaṃ* as *vareṇiyaṃ*, so that the mantra has its full twenty-four syllables."
       }
+    ],
+    "todo": [
+      "Do the nyāsa, as in Prokṣaṇam: touch your head, nose and heart.",
+      "Cover both hands with your upper cloth (the cloth worn over the shoulders). Some people rest it on the left shoulder.",
+      {
+        "text": "Hold the sacred thread between your thumbs.",
+        "tradition": [
+          "smarta"
+        ]
+      },
+      "Join your hands with the palms facing you.",
+      {
+        "text": "Hold your hands at the level of your face.",
+        "kala": [
+          "pratah"
+        ]
+      },
+      {
+        "text": "Hold your hands at the level of your chest.",
+        "kala": [
+          "madhyahnika"
+        ]
+      },
+      {
+        "text": "Hold your hands at the level of your navel.",
+        "kala": [
+          "sayam"
+        ]
+      },
+      {
+        "text": "Do the japa standing.",
+        "kala": [
+          "pratah",
+          "madhyahnika"
+        ]
+      },
+      {
+        "text": "Do the japa seated.",
+        "kala": [
+          "sayam"
+        ]
+      },
+      "Count on the finger-joints of both hands: one hand for units, the other for tens. You can also use the counter below.",
+      "Recite silently: either with your lips moving but no sound (*upāṃśu*), or only in your mind (*mānasa*).",
+      "In japa the Gāyatrī is never said aloud.",
+      "A few repetitions said correctly, with the pauses, are better than many said hurriedly."
     ]
   },
   {
@@ -656,7 +748,6 @@
       "srivaishnava"
     ],
     "optional": true,
-    "intro": "For those who have received samāśrayaṇam from an ācārya. Recite the taniyans of your ācārya-paramparā. Do prāṇāyāma three times using the aṣṭākṣara mantra in place of the prāṇāyāma mantra; then the nyāsa, the dhyāna verse, and the japa of the aṣṭākṣara as many times as resolved for the Gāyatrī. Ahobila Maṭha disciples do this here, before the upasthānam; others after the whole sandhyā (Chakravarthy). Some do it after the Gāyatrī udvāsanam (Kidambi).",
     "sources": [
       "Kidambi p41–43, p73–75, p105–107",
       "Chakravarthy p37–38"
@@ -668,7 +759,7 @@
         "text": {
           "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {japaCount} vāraṃ śrī aṣṭākṣara mantra japaṃ kariṣye ||"
         },
-        "action": "saṅkalpa posture (Chakravarthy; Kidambi has no separate saṅkalpa)",
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
         "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I perform the japa of the eight-syllable mantra {japaCount} times."
       },
       {
@@ -676,7 +767,7 @@
         "text": {
           "iast": "śrīmad aṣṭākṣara mahāmantrasya badarikāśramavāsī śrīmannārāyaṇa ṛṣiḥ |"
         },
-        "action": "touch the top of the head",
+        "action": "Touch the top of your head.",
         "meaning": "Of the great eight-syllable mantra the seer is Śrīman Nārāyaṇa, dweller in Badarikāśrama.",
         "audio": "/audio/67910039c6.m4a"
       },
@@ -685,7 +776,7 @@
         "text": {
           "iast": "devī gāyatrī chandaḥ |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "The metre is Devī Gāyatrī.",
         "audio": "/audio/1f73467cc5.m4a"
       },
@@ -694,7 +785,7 @@
         "text": {
           "iast": "paramātmā śrīmannārāyaṇo devatā |"
         },
-        "action": "touch the chest",
+        "action": "Touch your heart.",
         "meaning": "The deity is the Supreme Self, Śrīman Nārāyaṇa.",
         "audio": "/audio/27387014ca.m4a"
       },
@@ -703,8 +794,8 @@
         "text": {
           "iast": "śrīmannārāyaṇa prītyarthe jape viniyogaḥ ||"
         },
-        "action": "hands in añjali",
-        "meaning": "It is employed in japa for the pleasure of Śrīman Nārāyaṇa.",
+        "action": "Say this with your palms joined.",
+        "meaning": "It is used for japa for the pleasure of Śrīman Nārāyaṇa.",
         "audio": "/audio/efca8e36c2.m4a"
       },
       {
@@ -712,18 +803,22 @@
         "text": {
           "iast": "savyaṃ pādaṃ prasārya śritaduritaharaṃ dakṣiṇaṃ kuñcayitvā\njānunyādhāya savyetaram itarabhujaṃ nāgabhoge nidhāya |\npaścād bāhudvayena pratibhaṭaśamane dhārayan śaṅkhacakre\ndevībhūṣādijuṣṭo janayatu jagatāṃ śarma vaikuṇṭhanāthaḥ ||"
         },
-        "action": "hands in añjali; meditate on the Lord",
+        "action": "Say this with your palms joined, meditating on the Lord.",
         "meaning": "May the Lord of Vaikuṇṭha, who removes the sins of those who take refuge in him, bring happiness to the worlds — his left foot stretched forward and the right drawn up, his right hand resting on the knee and the other arm laid on the coils of the serpent, holding in his two rear hands the conch and the discus that quell his foes, attended by the Goddess and adorned with his ornaments.",
         "audio": "/audio/cf1e64a00f.m4a"
       },
       {
         "kind": "note",
-        "text": "Now recite the aṣṭākṣara mantra, as imparted by your ācārya, {japaCount} times (or as many times as resolved). The printed texts do not reproduce the mantra itself."
-      },
-      {
-        "kind": "note",
-        "text": "Chakravarthy closes with ācamanam, sprinkling the japa spot with *oṃ bhūr bhuvas suvaḥ*, and *sarvaṃ śrī kṛṣṇārpaṇam astu*."
+        "text": "Now recite the aṣṭākṣara mantra, as taught by your ācārya, {japaCount} times (or as many times as you resolved). It is not printed here."
       }
+    ],
+    "todo": [
+      "This step is only for those who have received initiation (samāśrayaṇam) from an ācārya (teacher).",
+      "Recite the taniyans (verses of praise) of your ācārya-paramparā (line of teachers).",
+      "Do prāṇāyāma three times, using the aṣṭākṣara mantra in place of the prāṇāyāma mantra.",
+      "Then do the nyāsa and the dhyāna verse.",
+      "Recite the aṣṭākṣara mantra as many times as you resolved for the Gāyatrī.",
+      "Do this step at the point your ācārya or family teaches; families differ on where it goes."
     ]
   },
   {
@@ -733,7 +828,6 @@
       "en": "Sending off Gāyatrī"
     },
     "section": "uttaranga",
-    "intro": "After the japa perform prāṇāyāma three times, take the saṅkalpa posture and resolve to perform the upasthānam. Then stand up, do the nyāsa and, with hands in añjali, recite *Uttame śikhare*, taking leave of the Goddess (udvāsana mudrā: open the joined palms outward).",
     "sources": [
       "sandhya.pdf p11",
       "Kidambi p42–43, p74–75, p106–107",
@@ -748,8 +842,9 @@
           "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||"
         },
         "repeat": 3,
-        "action": "prāṇāyāma, three rounds",
-        "meaning": "Om — the seven worlds. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. Om is the waters, the light, the essence, the nectar of immortality, Brahman — the three realms; Om."
+        "action": "Recite silently while holding your breath, as in the Prāṇāyāmam step.",
+        "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
+        "unit": "rounds"
       },
       {
         "kind": "mantra",
@@ -759,7 +854,7 @@
         "text": {
           "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyopasthānaṃ kariṣye ||"
         },
-        "action": "saṅkalpa posture (brahmāñjali)",
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
         "meaning": "For the destruction of all my sins and to please the Supreme Lord, I shall perform the upasthānam of the {kalaEn} sandhyā."
       },
       {
@@ -770,7 +865,7 @@
         "text": {
           "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā upasthānaṃ kariṣye ||"
         },
-        "action": "saṅkalpa posture (brahmāñjali)",
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
         "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I shall perform the upasthānam of the {kalaEn} sandhyā."
       },
       {
@@ -778,7 +873,7 @@
         "text": {
           "iast": "uttama ity anuvākasya vāmadeva ṛṣiḥ |"
         },
-        "action": "stand up; touch the top of the head",
+        "action": "Stand up and touch the top of your head.",
         "meaning": "Of the anuvāka beginning *uttame* the seer is Vāmadeva.",
         "audio": "/audio/c54a9c16bd.m4a"
       },
@@ -787,7 +882,7 @@
         "text": {
           "iast": "anuṣṭup chandaḥ |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "The metre is anuṣṭup.",
         "audio": "/audio/918805a1fc.m4a"
       },
@@ -796,7 +891,7 @@
         "text": {
           "iast": "gāyatrī devatā |"
         },
-        "action": "touch the chest",
+        "action": "Touch your heart.",
         "meaning": "The deity is Gāyatrī.",
         "audio": "/audio/1329cbc871.m4a"
       },
@@ -805,8 +900,8 @@
         "text": {
           "iast": "gāyatrī udvāsane viniyogaḥ ||"
         },
-        "action": "hands in añjali",
-        "meaning": "It is employed in taking leave of Gāyatrī.",
+        "action": "Say this with your palms joined.",
+        "meaning": "It is used for taking leave of Gāyatrī.",
         "audio": "/audio/2db621eb02.m4a"
       },
       {
@@ -814,7 +909,7 @@
         "text": {
           "iast": "u̱ttame̍ śikha̍re de̱vī̱ bhū̱myāṃ pa̍rvata̱mūrdha̍ni |\nbrā̱hmaṇe̎bhyo hya̍nujñā̱na̱ṃ ga̱ccha de̍vi ya̱thā su̍kham ||"
         },
-        "action": "hands in añjali; udvāsana mudrā",
+        "action": "Say this with your palms joined, then open them outward (udvāsana mudrā).",
         "meaning": "O Goddess, having granted your leave to the brāhmaṇas, return at your pleasure to your abode on the highest peak, on the summit of the mountain on earth."
       },
       {
@@ -822,8 +917,15 @@
         "tradition": [
           "srivaishnava"
         ],
-        "text": "Some perform the aṣṭākṣara japam at this point rather than immediately after the Gāyatrī japam."
+        "text": "Some families do the aṣṭākṣara japam at this point instead of right after the Gāyatrī japam."
       }
+    ],
+    "todo": [
+      "Do prāṇāyāma three times, as in the Prāṇāyāmam step.",
+      "Take the saṅkalpa posture and resolve to do the upasthānam (the Sun salutation in the next step).",
+      "Stand up and do the nyāsa.",
+      "With palms joined in añjali, recite *Uttame śikhare* to take leave of the Goddess.",
+      "Open your joined palms outward (the *udvāsana mudrā*)."
     ]
   },
   {
@@ -838,7 +940,6 @@
       "madhyahnika": "east",
       "sayam": "west"
     },
-    "intro": "Standing with hands in añjali — facing east in the morning and at noon, west in the evening — do the nyāsa for the hour and recite the hymn to the Sun: to Mitra in the morning, to Āditya at noon, to Varuṇa in the evening.",
     "sources": [
       "sandhya.pdf p11–13",
       "Kidambi p43–44, p75–77, p107–108",
@@ -855,7 +956,7 @@
         "text": {
           "iast": "mitrasyeti upasthāna mantrasya viśvāmitra ṛṣiḥ |"
         },
-        "action": "touch the top of the head",
+        "action": "Touch the top of your head.",
         "meaning": "Of the upasthāna mantras beginning *mitrasya* the seer is Viśvāmitra.",
         "audio": "/audio/d1d8011bdf.m4a"
       },
@@ -867,7 +968,7 @@
         "text": {
           "iast": "bhurig gāyatrī triṣṭup chandāguṃsi |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "The metres are gāyatrī and triṣṭup.",
         "audio": "/audio/2b502ba333.m4a"
       },
@@ -879,7 +980,7 @@
         "text": {
           "iast": "mitro devatā |"
         },
-        "action": "touch the chest",
+        "action": "Touch your heart.",
         "meaning": "The deity is Mitra.",
         "audio": "/audio/760ec38487.m4a"
       },
@@ -891,8 +992,8 @@
         "text": {
           "iast": "prātassandhyopasthāne viniyogaḥ ||"
         },
-        "action": "hands in añjali",
-        "meaning": "They are employed in the upasthānam of the morning sandhyā.",
+        "action": "Say this with your palms joined.",
+        "meaning": "They are used in the Sun salutation of the morning sandhyā.",
         "audio": "/audio/c5f78e9168.m4a"
       },
       {
@@ -903,7 +1004,7 @@
         "text": {
           "iast": "mi̱trasya̍ carṣaṇī̱ dhṛta̱śśravo̍ de̱vasya̍ sāna̱sim |\nsa̱tyaṃ ci̱tra śra̍vastamam ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "I praise the glory of the divine Mitra, upholder of peoples — glory that is easily won, true and most wondrous to hear."
       },
       {
@@ -914,7 +1015,7 @@
         "text": {
           "iast": "mi̱tro janā̍n yātayati prajā̱nan mi̱tro dā̍dhāra pṛthi̱vīm u̱ta dyām |\nmi̱traḥ kṛ̱ṣṭīr ani̍miṣā̱'bhica̍ṣṭe sa̱tyāya̍ ha̱vyaṃ ghṛ̱tava̍d vidhema ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "Mitra, all-knowing, sets people to their tasks; Mitra upholds the earth and the heaven. Mitra gazes with unclosing eyes upon all mankind; to the True One let us offer the oblation soaked in ghee."
       },
       {
@@ -925,7 +1026,7 @@
         "text": {
           "iast": "pra sa mi̍tra̱ marto̍ astu̱ praya̍svā̱n yasta̍ āditya̱ śikṣa̍ti vra̱tena̍ |\nna ha̍nyate̱ na jī̍yate̱ tvoto̱ naina̱m aguṃho̍ aśno̱ty anti̍to̱ na dū̱rāt ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "O Mitra, O Āditya, may the mortal who serves you with his vow and offerings prosper: protected by you he is neither slain nor overcome, and sin does not reach him from near or from far."
       },
       {
@@ -936,7 +1037,7 @@
         "text": {
           "iast": "āsatyenety ādi mantrāṇāṃ hiraṇyastūpa viśvāmitra kutsa vasiṣṭhā ṛṣayaḥ |"
         },
-        "action": "touch the top of the head",
+        "action": "Touch the top of your head.",
         "meaning": "Of the mantras beginning *ā satyena* the seers are Hiraṇyastūpa, Viśvāmitra, Kutsa and Vasiṣṭha.",
         "audio": "/audio/ffeee7e56f.m4a"
       },
@@ -948,7 +1049,7 @@
         "text": {
           "iast": "triṣṭup gāyatrī jagatī uṣṇik triṣṭup chandāguṃsi |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "The metres are triṣṭup, gāyatrī, jagatī, uṣṇik and triṣṭup.",
         "audio": "/audio/d791d3c42e.m4a"
       },
@@ -960,7 +1061,7 @@
         "text": {
           "iast": "ādityo devatā |"
         },
-        "action": "touch the chest",
+        "action": "Touch your heart.",
         "meaning": "The deity is Āditya.",
         "audio": "/audio/7f61401f3d.m4a"
       },
@@ -972,8 +1073,8 @@
         "text": {
           "iast": "mādhyāhnika sandhyopasthāne viniyogaḥ ||"
         },
-        "action": "hands in añjali",
-        "meaning": "They are employed in the upasthānam of the midday sandhyā.",
+        "action": "Say this with your palms joined.",
+        "meaning": "They are used in the Sun salutation of the midday sandhyā.",
         "audio": "/audio/c56b9bcf4f.m4a"
       },
       {
@@ -984,7 +1085,7 @@
         "text": {
           "iast": "ā sa̱tyena̱ raja̍sā̱ varta̍māno nive̱śaya̍nn a̱mṛta̱ṃ martya̍ñ ca |\nhi̱ra̱ṇyaye̍na savi̱tā rathe̱nā''de̱vo yā̍ti̱ bhuva̍nā vi̱paśya̍n ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "Moving through the shining realm with truth, settling the immortal and the mortal in their places, the god Savitā comes in his golden chariot, beholding all the worlds."
       },
       {
@@ -995,7 +1096,7 @@
         "text": {
           "iast": "ud va̱yaṃ tama̍sa̱s pari̱ paśya̍nto̱ jyoti̱r utta̍ram |\nde̱vaṃ de̍va̱trā sūrya̱m aga̍nma̱ jyoti̍r utta̱mam ||\nudu̱tyaṃ jā̱tave̍dasaṃ de̱vaṃ va̍hanti ke̱tava̍ḥ | dṛ̱śe viśvā̍ya̱ sūrya̍m ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "Looking up beyond the darkness to the higher light, we have reached Sūrya, god among gods, the highest light. Up rises that god Sūrya, knower of all beings, borne by his rays — for all to see."
       },
       {
@@ -1006,8 +1107,8 @@
         "text": {
           "iast": "ci̱traṃ de̱vānā̱m uda̍gā̱d anī̍kaṃ cakṣu̍r mi̱trasya̱ varu̍ṇasyā̱gneḥ |\nā prā̱ dyāvā̍pṛthi̱vī a̱ntari̍kṣa̱guṃ sūrya̍ ā̱tmā jaga̍tas ta̱sthuṣa̍ś ca ||\ntac cakṣu̍r de̱vahi̍taṃ pu̱rastā̎c chu̱kram u̱ccara̍t |"
         },
-        "action": "hands in añjali",
-        "meaning": "The wondrous face of the gods has risen — the eye of Mitra, Varuṇa and Agni; Sūrya, the Self of all that moves and stands, has filled heaven, earth and the mid-region. That bright eye set by the gods rises in the east."
+        "action": "Say this with your palms joined.",
+        "meaning": "The wondrous face of the gods has risen — the eye of Mitra, Varuṇa and Agni; Sūrya, the Self of all that moves and stands, has filled heaven, earth and the atmosphere. That bright eye set by the gods rises in the east."
       },
       {
         "kind": "mantra",
@@ -1017,7 +1118,7 @@
         "text": {
           "iast": "paśye̍ma śa̱rada̍śśa̱taṃ | jīve̍ma śa̱rada̍śśa̱taṃ | nandā̍ma śa̱rada̍śśa̱taṃ | modā̍ma śa̱rada̍śśa̱taṃ | bhavā̍ma śa̱rada̍śśa̱taṃ | śṛṇavā̍ma śa̱rada̍śśa̱taṃ | prabra̍vāma śa̱rada̍śśa̱taṃ | ajī̍tāsyāma śa̱rada̍śśa̱taṃ | jyok ca̱ sūrya̍ṃ dṛ̱śe ||"
         },
-        "action": "look at the sun through the vyoma (gālinī) mudrā: left palm up, right palm down, middle and ring fingers of both hands folded in, right index over left little finger and right little finger over left index, the folded fingers tucked under the opposite thumbs, leaving a small slit between the hands",
+        "action": "Look at the sun through the vyoma mudrā while you say this.",
         "meaning": "May we see for a hundred autumns, may we live for a hundred autumns, may we rejoice for a hundred autumns, may we be glad for a hundred autumns, may we flourish for a hundred autumns, may we hear for a hundred autumns, may we speak well for a hundred autumns, may we be undefeated for a hundred autumns — and long may we behold the Sun."
       },
       {
@@ -1028,7 +1129,7 @@
         "text": {
           "iast": "ya uda̍gān maha̱to'rṇavā̎t vi̱bhrāja̍mānaḥ sari̱rasya̱ madhyā̱t sa mā̍ vṛṣa̱bho lo̍hitā̱kṣassūryo̍ vipa̱ścin mana̍sā punātu ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "He who has risen out of the great ocean, blazing from the midst of the waters — may that Sun, the strong bull, red-eyed and all-seeing, purify me in mind."
       },
       {
@@ -1039,7 +1140,7 @@
         "text": {
           "iast": "imaṃ me varuṇety ādi mantrāṇāṃ devarāta ṛṣiḥ |"
         },
-        "action": "touch the top of the head",
+        "action": "Touch the top of your head.",
         "meaning": "Of the mantras beginning *imaṃ me varuṇa* the seer is Devarāta.",
         "audio": "/audio/dccd58c78c.m4a"
       },
@@ -1051,7 +1152,7 @@
         "text": {
           "iast": "gāyatrī triṣṭup jagatyaḥ chandāguṃsi |"
         },
-        "action": "touch the tip of the nose",
+        "action": "Touch the tip of your nose.",
         "meaning": "The metres are gāyatrī, triṣṭup and jagatī.",
         "audio": "/audio/6328190c21.m4a"
       },
@@ -1063,8 +1164,8 @@
         "text": {
           "iast": "varuṇo devatā |"
         },
-        "action": "touch the chest",
-        "meaning": "The deity is Savitā.",
+        "action": "Touch your heart.",
+        "meaning": "The deity is Varuṇa.",
         "audio": "/audio/f554e23518.m4a"
       },
       {
@@ -1075,8 +1176,8 @@
         "text": {
           "iast": "sāyaṃ sandhyopasthāne viniyogaḥ ||"
         },
-        "action": "hands in añjali",
-        "meaning": "They are employed in the upasthānam of the evening sandhyā.",
+        "action": "Say this with your palms joined.",
+        "meaning": "They are used in the Sun salutation of the evening sandhyā.",
         "audio": "/audio/1af9d6407d.m4a"
       },
       {
@@ -1087,7 +1188,7 @@
         "text": {
           "iast": "i̱maṃ me̍ varuṇa śrudhī̱ hava̍m a̱dyā ca̍ mṛḍaya | tvām a̍va̱syur āca̍ke ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "O Varuṇa, hear this my call and be gracious even now; seeking your protection I approach you."
       },
       {
@@ -1098,7 +1199,7 @@
         "text": {
           "iast": "tat tvā̍ yāmi̱ brahma̍ṇā̱ vanda̍mānas ta̱dā śā̎ste̱ yaja̍māno ha̱virbhi̍ḥ |\nahe̍ḍamāno varuṇe̱ha bo̱dhy uru̍śaguṃsa̱ mā na̱ āyu̱ḥ pra mo̍ṣīḥ ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "Praising you with prayer I approach you for that which the sacrificer seeks with his oblations. O Varuṇa of wide renown, be not angry; take heed of us here, and do not steal away our life."
       },
       {
@@ -1109,8 +1210,8 @@
         "text": {
           "iast": "yac ci̱d dhi te̱ viśo̍ yathā̱ pra de̍va varuṇa vra̱tam |\nmi̱nī̱masi̱ dyavi̍dyavi ||"
         },
-        "action": "hands in añjali",
-        "meaning": "Whatever ordinance of yours, O god Varuṇa, we — like ordinary people — transgress day after day…"
+        "action": "Say this with your palms joined.",
+        "meaning": "Whatever your laws, O god Varuṇa, we break day after day, as ordinary people do."
       },
       {
         "kind": "mantra",
@@ -1120,7 +1221,7 @@
         "text": {
           "iast": "yat kiñce̱daṃ va̍ruṇa̱ daivye̱ jane̍'bhidro̱haṃ ma̍nu̱ṣyā̎ś carā̍masi |\naci̍ttī̱ yat tava̱ dharmā̍ yuyopi̱ma mā na̱s tasmā̱d ena̍so deva rīriṣaḥ ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "Whatever wrong we humans have here committed against the divine folk, O Varuṇa; whatever of your laws we have broken through heedlessness — O god, do not harm us for that sin."
       },
       {
@@ -1131,8 +1232,54 @@
         "text": {
           "iast": "ki̱ta̱vāso̱ yad ri̍ri̱pur na dī̱vi yad vā̍ ghā sa̱tyam u̱ta yan na vi̱dma |\nsarvā̱ tā vi ṣya̍ śithi̱reva̍ de̱vāthā̍ te syāma varuṇa pri̱yāsa̍ḥ ||"
         },
-        "action": "hands in añjali",
+        "action": "Say this with your palms joined.",
         "meaning": "Whatever wrong was done, like gamblers cheating at play; whatever we did knowingly, and whatever we know not — loosen all these from us, O god, like slackened bonds, and may we be dear to you, O Varuṇa."
+      }
+    ],
+    "todo": [
+      "Stand with your palms joined in añjali.",
+      "Do the nyāsa for your time of day.",
+      {
+        "text": "Recite the hymn to Mitra.",
+        "kala": [
+          "pratah"
+        ]
+      },
+      {
+        "text": "Recite the hymn to Āditya.",
+        "kala": [
+          "madhyahnika"
+        ]
+      },
+      {
+        "text": "Recite the hymn to Varuṇa.",
+        "kala": [
+          "sayam"
+        ]
+      },
+      {
+        "text": "For the vyoma (gālinī) mudrā, place your left palm up and your right palm down.",
+        "kala": [
+          "madhyahnika"
+        ]
+      },
+      {
+        "text": "Fold the middle and ring fingers of both hands inward.",
+        "kala": [
+          "madhyahnika"
+        ]
+      },
+      {
+        "text": "Put your right index finger over your left little finger, and your right little finger over your left index finger.",
+        "kala": [
+          "madhyahnika"
+        ]
+      },
+      {
+        "text": "Tuck the folded fingers under the opposite thumbs, leaving a small slit between your hands.",
+        "kala": [
+          "madhyahnika"
+        ]
       }
     ]
   }

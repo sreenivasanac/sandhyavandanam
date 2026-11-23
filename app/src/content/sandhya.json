@@ -2,6 +2,25 @@
   "version": "0.2.0",
   "steps": [
     {
+      "id": "before-you-begin",
+      "title": {
+        "sa": "Before you begin",
+        "en": "What you need"
+      },
+      "section": "purvanga",
+      "todo": [
+        "Begin after your bath, in clean clothes (traditionally a dhoti).",
+        "Have a small vessel of water and a small spoon (uddharaṇi) in front of you.",
+        "Keep a plate or tray ready to catch the water you pour out.",
+        "Keep an upper cloth (the cloth worn over the shoulders) ready for the Gāyatrī japa.",
+        "Choose a clean place with room to stand and to turn all the way around.",
+        "Keep your phone where you can read it without touching it.",
+        "Many steps say *palms joined in añjali*: press your palms together in front of your chest, as in a namaste.",
+        "The steps follow your time of day (kāla) and your tradition, which you chose in the app."
+      ],
+      "items": []
+    },
+    {
       "id": "acamanam",
       "title": {
         "sa": "Ācamanam",
@@ -13,7 +32,6 @@
         "madhyahnika": "east",
         "sayam": "east"
       },
-      "intro": "Having bathed and worn a clean dhoti, sit or squat in kukkuṭāsana facing east, with a small vessel of water and an uddharaṇi (spoon). Fold the right palm so that the little, ring and middle fingers are stretched and the index finger is bent inwards, forming a hollow; pour a small amount of water into it and swallow (do not sip) from the brāhma-tīrtha (base of the thumb) with each of the three names, for the purification of body, speech and mind. Then wash the right hand, wipe the lips with the right thumb from right to left, and wash the hand again. Direction: face east in the morning and at noon; in the evening face east until arghya-pradānam and west thereafter (Kidambi, Chakravarthy).",
       "sources": [
         "sandhya.pdf p3",
         "Kidambi p19–20",
@@ -32,7 +50,7 @@
             "telugu": "ఓం అచ్యుతాయ నమః",
             "malayalam": "ഓം അച്യുതായ നമഃ"
           },
-          "action": "pour a little water into the right palm and swallow it",
+          "action": "Pour a little water into your right palm and swallow it.",
           "meaning": "Salutations to Acyuta, the unfallen, unchanging one.",
           "audio": "/audio/ddf14c38a5.m4a"
         },
@@ -46,7 +64,7 @@
             "telugu": "ఓం అనంతాయ నమః",
             "malayalam": "ഓം അനന്തായ നമഃ"
           },
-          "action": "again pour water and swallow",
+          "action": "Pour water into your palm again and swallow it.",
           "meaning": "Salutations to Ananta, the infinite one.",
           "audio": "/audio/be1844c3a2.m4a"
         },
@@ -60,21 +78,35 @@
             "telugu": "ఓం గోవిందాయ నమః",
             "malayalam": "ഓം ഗോവിന്ദായ നമഃ"
           },
-          "action": "again pour water and swallow; then wash the right hand and wipe the lips with the thumb",
+          "action": "Pour water once more and swallow it. Then wash your hand and wipe your lips as described in the first step.",
           "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
           "audio": "/audio/3aa63e480a.m4a"
         }
       ],
-      "image": "/img/steps/acamanam.webp"
+      "image": "/img/steps/acamanam.webp",
+      "todo": [
+        "Squat or sit low on your heels (this posture is called kukkuṭāsana).",
+        "Hold a small vessel of water and a small spoon (uddharaṇi).",
+        "Make a hollow of your right palm: keep the little, ring and middle fingers straight and bend the index finger inward.",
+        "Pour a small amount of water into the hollow.",
+        "With each of the three names, take a small sip from the base of your thumb (the brāhma-tīrtha) and swallow it. This purifies body, speech and mind.",
+        "After the third name, wash your right hand.",
+        "Wipe your lips with the right thumb, from right to left, then wash the hand again.",
+        {
+          "text": "In the evening you face east until the offering of water to the Sun (Arghya-pradānam), and west after that.",
+          "kala": [
+            "sayam"
+          ]
+        }
+      ]
     },
     {
       "id": "anga-nyasam",
       "title": {
         "sa": "Aṅga-nyāsam (Keśavādi dvādaśa nāma)",
-        "en": "Touching the limbs with the twelve names"
+        "en": "Touching the body with the twelve names"
       },
       "section": "purvanga",
-      "intro": "Touch the parts of the body indicated with the fingers of the right hand while saying each name, consecrating the body as the temple of God. In each case the thumb touches the middle of the finger used (Chakravarthy). Together with the three sips this forms one ācamanam.",
       "sources": [
         "sandhya.pdf p3",
         "Kidambi p20–21",
@@ -92,7 +124,7 @@
             "telugu": "ఓం కేశవాయ నమః",
             "malayalam": "ഓം കേശവായ നമഃ"
           },
-          "action": "right thumb → right cheek (seat of fire)",
+          "action": "Touch your right cheek with your right thumb.",
           "meaning": "Salutations to Keśava, of beautiful locks, slayer of the demon Keśī.",
           "audio": "/audio/4286e6440d.m4a"
         },
@@ -106,7 +138,7 @@
             "telugu": "ఓం నారాయణాయ నమః",
             "malayalam": "ഓം നാരായണായ നമഃ"
           },
-          "action": "right thumb → left cheek",
+          "action": "Touch your left cheek with your right thumb.",
           "meaning": "Salutations to Nārāyaṇa, the abode and resting place of all beings.",
           "audio": "/audio/204ce3d430.m4a"
         },
@@ -120,7 +152,7 @@
             "telugu": "ఓం మాధవాయ నమః",
             "malayalam": "ഓം മാധവായ നമഃ"
           },
-          "action": "ring finger → right eye (seat of the Sun)",
+          "action": "Touch your right eye with your right ring finger.",
           "meaning": "Salutations to Mādhava, consort of Lakṣmī (Mā).",
           "audio": "/audio/6eb6c342c8.m4a"
         },
@@ -134,7 +166,7 @@
             "telugu": "ఓం గోవిందాయ నమః",
             "malayalam": "ഓം ഗോവിന്ദായ നമഃ"
           },
-          "action": "ring finger → left eye",
+          "action": "Touch your left eye with your right ring finger.",
           "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
           "audio": "/audio/3aa63e480a.m4a"
         },
@@ -148,7 +180,7 @@
             "telugu": "ఓం విష్ణవే నమః",
             "malayalam": "ഓം വിഷ്ണവേ നമഃ"
           },
-          "action": "index finger → right side of the nose (seat of wind)",
+          "action": "Touch the right side of your nose with your right index finger.",
           "meaning": "Salutations to Viṣṇu, the all-pervading.",
           "audio": "/audio/17c00c4868.m4a"
         },
@@ -162,7 +194,7 @@
             "telugu": "ఓం మధుసూదనాయ నమః",
             "malayalam": "ഓം മധുസൂദനായ നമഃ"
           },
-          "action": "index finger → left side of the nose",
+          "action": "Touch the left side of your nose with your right index finger.",
           "meaning": "Salutations to Madhusūdana, slayer of the demon Madhu.",
           "audio": "/audio/8ac202ead1.m4a"
         },
@@ -176,7 +208,7 @@
             "telugu": "ఓం త్రివిక్రమాయ నమః",
             "malayalam": "ഓം ത്രിവിക്രമായ നമഃ"
           },
-          "action": "little finger → right ear (seat of Indra)",
+          "action": "Touch your right ear with your right little finger.",
           "meaning": "Salutations to Trivikrama, who measured the worlds in three strides.",
           "audio": "/audio/6e647be0c5.m4a"
         },
@@ -190,7 +222,7 @@
             "telugu": "ఓం వామనాయ నమః",
             "malayalam": "ഓം വാമനായ നമഃ"
           },
-          "action": "little finger → left ear",
+          "action": "Touch your left ear with your right little finger.",
           "meaning": "Salutations to Vāmana, the dwarf incarnation.",
           "audio": "/audio/f353a9129a.m4a"
         },
@@ -204,7 +236,7 @@
             "telugu": "ఓం శ్రీధరాయ నమః",
             "malayalam": "ഓം ശ്രീധരായ നമഃ"
           },
-          "action": "middle finger → right shoulder (seat of Prajāpati)",
+          "action": "Touch your right shoulder with your right middle finger.",
           "meaning": "Salutations to Śrīdhara, bearer of Śrī on His chest.",
           "audio": "/audio/db0b625666.m4a"
         },
@@ -218,7 +250,7 @@
             "telugu": "ఓం హృషీకేశాయ నమః",
             "malayalam": "ഓം ഹൃഷീകേശായ നമഃ"
           },
-          "action": "middle finger → left shoulder",
+          "action": "Touch your left shoulder with your right middle finger.",
           "meaning": "Salutations to Hṛṣīkeśa, lord of the senses.",
           "audio": "/audio/ac3069f549.m4a"
         },
@@ -232,7 +264,7 @@
             "telugu": "ఓం పద్మనాభాయ నమః",
             "malayalam": "ഓം പദ്മനാഭായ നമഃ"
           },
-          "action": "all fingers of the right hand → navel",
+          "action": "Touch your navel with all the fingers of your right hand.",
           "meaning": "Salutations to Padmanābha, from whose navel the lotus (of creation) springs.",
           "audio": "/audio/17f864c876.m4a"
         },
@@ -246,7 +278,7 @@
             "telugu": "ఓం దామోదరాయ నమః",
             "malayalam": "ഓം ദാമോദരായ നമഃ"
           },
-          "action": "all fingers of the right hand → top of the head",
+          "action": "Touch the top of your head with all the fingers of your right hand.",
           "meaning": "Salutations to Dāmodara, who was bound with a rope (dāma) around the waist by Yaśodā.",
           "audio": "/audio/c6f76141e1.m4a"
         },
@@ -255,18 +287,23 @@
           "tradition": [
             "srivaishnava"
           ],
-          "text": "Kidambi: this whole ācamanam (three sips and the twelve names) is performed twice."
+          "text": "Repeat the whole ācamanam (the three sips and these twelve names) once more."
         }
+      ],
+      "todo": [
+        "Touch each place named below with your right hand while saying each name.",
+        "Each time, rest your thumb against the middle of the finger you are using.",
+        "This makes your body a temple of God.",
+        "This continues the ācamanam: three sips, then these twelve names."
       ]
     },
     {
       "id": "vighna-apaharanam",
       "title": {
         "sa": "Vighna-apaharaṇam (Gaṇapati dhyānam)",
-        "en": "Removal of obstacles"
+        "en": "Removing obstacles"
       },
       "section": "purvanga",
-      "intro": "Gently tap both temples with the knuckles (five times in all, once after each phrase marked in the verse), with the thought that the spiritual nectar collected there is spreading through the body. Kidambi's Śrī Vaiṣṇava text omits this step; the Chakravarthy text notes that *viṣṇum* here refers to Gaṇapati (the obstacle-remover).",
       "sources": [
         "sandhya.pdf p4",
         "Chakravarthy p14",
@@ -287,7 +324,7 @@
             "telugu": "శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజం ।\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే ॥",
             "malayalam": "ശുക്ലാംബരധരം വിഷ്ണും ശശിവർണം ചതുർഭുജം ।\nപ്രസന്നവദനം ധ്യായേത് സർവവിഘ്നോപശാന്തയേ ॥"
           },
-          "action": "tap the temples with the fists",
+          "action": "Tap your temples with your fists.",
           "meaning": "The all-pervading Lord Viṣṇu is to be meditated upon for the removal of all obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced.",
           "audio": "/audio/284018f4bf.m4a"
         },
@@ -305,9 +342,19 @@
             "telugu": "శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజం ।\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే ॥",
             "malayalam": "ശുക്ലാംബരധരം വിഷ്ണും ശശിവർണം ചതുർഭുജം ।\nപ്രസന്നവദനം ധ്യായേത് സർവവിഘ്നോപശാന്തയേ ॥"
           },
-          "action": "tap the temples with the fists (only if your family does this; Kidambi omits it)",
+          "action": "Tap your temples with your fists.",
           "meaning": "The all-pervading Lord Viṣṇu is to be meditated upon for the removal of all obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced.",
           "audio": "/audio/284018f4bf.m4a"
+        }
+      ],
+      "todo": [
+        "Gently tap both temples with your knuckles, once after each phrase of the verse (five times in all).",
+        "Think that the spiritual nectar collected at the temples is spreading through your body.",
+        {
+          "text": "Do this only if your family does it.",
+          "tradition": [
+            "srivaishnava"
+          ]
         }
       ]
     },
@@ -318,7 +365,6 @@
         "en": "Control of the breath"
       },
       "section": "purvanga",
-      "intro": "Sit erect. Fold the index and middle fingers of the right hand into the palm; the thumb closes the right nostril and the ring and little fingers the left. Close the left nostril and breathe out slowly through the right; close the right nostril, open the left and breathe in fully; then close both nostrils and, with mouth and eyes closed, recite the mantra mentally while holding the breath; open the right nostril and breathe out slowly. Chakravarthy: recite the seven vyāhṛtis while inhaling, the Gāyatrī while holding, and *oṃ āpo jyotī…* while exhaling (ratio 1:3:2). This is one prāṇāyāma; do three. The left hand rests palm-up on the left thigh (thumb and index touching).",
       "sources": [
         "sandhya.pdf p4",
         "Kidambi p21–22",
@@ -337,15 +383,24 @@
             "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
           "repeat": 3,
-          "action": "recite mentally while holding the breath (three prāṇāyāmas)",
-          "meaning": "Om — the material world; Om — the realm of mind; Om — the realm of light; Om — the realm of vastness; Om — the realm of creative delight; Om — the realm of unobstructed will; Om — the realm of the highest Truth. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. He is in the waters, in light, in flavour, in the nectar of immortality; He pervades the three realms — physical, mental and spiritual. All this is denoted by the Praṇava."
+          "action": "Recite silently while holding your breath, as in the Prāṇāyāmam step.",
+          "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
+          "unit": "rounds"
         },
         {
           "kind": "note",
-          "text": "Then touch the right ear with the fingers of the right hand (śrotrācamanam — Gaṅgā resides in the right ear), and make brahmāñjali: left palm upturned on the right thigh, right palm downturned clasping it. This is also the saṅkalpa posture."
+          "text": "After the third round, touch your right ear with the fingers of your right hand (this is called śrotrācamanam; Gaṅgā is said to live in the right ear). Then take the *saṅkalpa posture*: left palm face up on your right thigh, right palm face down over it (also called brahmāñjali)."
         }
       ],
-      "image": "/img/steps/pranayamam.webp"
+      "image": "/img/steps/pranayamam.webp",
+      "todo": [
+        "Sit upright. Rest your left hand on your left thigh, palm up, with thumb and index finger touching.",
+        "Fold the index and middle fingers of your right hand into the palm. The thumb closes the right nostril; the ring and little fingers close the left.",
+        "Close the left nostril and breathe out slowly through the right.",
+        "Close the right nostril, open the left, and breathe in fully.",
+        "Close both nostrils. With mouth and eyes closed, recite the mantra silently in your mind while holding your breath. The mantra includes the seven *vyāhṛtis* (the words naming the seven worlds, *oṃ bhūḥ*, *oṃ bhuvaḥ*, …).",
+        "Open the right nostril and breathe out slowly. This is one round; do three rounds."
+      ]
     },
     {
       "id": "sankalpam",
@@ -354,7 +409,6 @@
         "en": "Statement of intent"
       },
       "section": "purvanga",
-      "intro": "In the saṅkalpa posture (left palm upturned on the right thigh, right palm covering it), state the intent for this sandhyā. Smārtas use the *mamopātta…* form, Śrī Vaiṣṇavas the *śrī bhagavadājñayā…* form. If detailed saṅkalpam is switched on, the day's pañcāṅga (year, ayana, ṛtu, month, pakṣa, tithi, vāra, nakṣatra) is inserted before the kāla. Afterwards wash the right palm with water (Chakravarthy).",
       "sources": [
         "sandhya.pdf p4–5",
         "Kidambi p22",
@@ -376,7 +430,8 @@
             "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {panchanga}{kala} సంధ్యాం ఉపాసిష్యే ॥",
             "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {panchanga}{kala} സന്ധ്യാം ഉപാസിഷ്യേ ॥"
           },
-          "meaning": "For the destruction of all the sins I have accumulated and to please the Supreme Lord, I now perform my {kalaEn} sandhyā worship."
+          "meaning": "For the destruction of all the sins I have accumulated and to please the Supreme Lord, I now perform my {kalaEn} sandhyā worship.",
+          "action": "Say the saṅkalpa in the saṅkalpa posture."
         },
         {
           "kind": "mantra",
@@ -391,21 +446,39 @@
             "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {panchanga}{kala} సంధ్యాం ఉపాసిష్యే ॥",
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {panchanga}{kala} സന്ധ്യാം ഉപാസിഷ്യേ ॥"
           },
-          "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now perform my {kalaEn} sandhyā worship."
+          "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now perform my {kalaEn} sandhyā worship.",
+          "action": "Say the saṅkalpa in the saṅkalpa posture."
         }
+      ],
+      "todo": [
+        "Take the saṅkalpa posture from the previous step.",
+        "State your intent for this sandhyā by reciting the saṅkalpa below.",
+        {
+          "text": "Recite the form beginning *mamopātta…*.",
+          "tradition": [
+            "smarta"
+          ]
+        },
+        {
+          "text": "Recite the form beginning *śrī bhagavadājñayā…*.",
+          "tradition": [
+            "srivaishnava"
+          ]
+        },
+        "If detailed saṅkalpam is switched on in Settings, the day's details (pañcāṅga: year, ayana, ṛtu, month, pakṣa, tithi, vāra, nakṣatra) are added before the time of day (kāla).",
+        "Afterwards, wash your right palm with water."
       ]
     },
     {
       "id": "satvika-tyagam",
       "title": {
         "sa": "Sātvika tyāgam",
-        "en": "Dedication of the act to the Lord (opening)"
+        "en": "Offering this act to the Lord"
       },
       "section": "purvanga",
       "tradition": [
         "srivaishnava"
       ],
-      "intro": "With both hands in añjali mudrā (namaste), surrender the agency and fruit of the act to the Lord: He, the indweller, causes this sandhyāvandanam to be done through you, with His own instruments, for His own pleasure.",
       "sources": [
         "Kidambi p22–23",
         "Chakravarthy p17"
@@ -421,9 +494,13 @@
             "telugu": "భగవానేవ స్వనియామ్య స్వరూపస్థితి ప్రవృత్తి స్వశేషతైక రసేన అనేన ఆత్మనా కర్త్రా స్వకీయైశ్చ ఉపకరణైః స్వారాధనైక ప్రయోజనాయ పరమపురుషః సర్వశేషీ శ్రియః పతిః స్వశేషభూతం ఇదం {kala} సంధ్యావందనాఖ్యం కర్మ స్వస్మై స్వప్రీతయే స్వయమేవ కారయతి ॥",
             "malayalam": "ഭഗവാനേവ സ്വനിയാമ്യ സ്വരൂപസ്ഥിതി പ്രവൃത്തി സ്വശേഷതൈക രസേന അനേന ആത്മനാ കർത്രാ സ്വകീയൈശ്ച ഉപകരണൈഃ സ്വാരാധനൈക പ്രയോജനായ പരമപുരുഷഃ സർവശേഷീ ശ്രിയഃ പതിഃ സ്വശേഷഭൂതം ഇദം {kala} സന്ധ്യാവന്ദനാഖ്യം കർമ സ്വസ്മൈ സ്വപ്രീതയേ സ്വയമേവ കാരയതി ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "The Lord Himself — the Supreme Person, the master of all, the consort of Śrī — through this self as agent, whose nature, existence and activity are controlled by Him and whose sole delight is being His servant, and with instruments that are His own, for the sole purpose of His own worship, Himself causes this act called the {kalaEn} sandhyāvandanam, which belongs to Him, to be performed for His own sake and for His own pleasure."
+          "action": "Say this with your palms joined in añjali.",
+          "meaning": "The Lord Himself, the Supreme Person, master of all and consort of Śrī, is having this {kalaEn} sandhyāvandanam done through me. I am His servant, my nature and actions are ruled by Him, and the tools I use are His. It is done for His own worship and His own pleasure."
         }
+      ],
+      "todo": [
+        "Join your palms in añjali.",
+        "Say that the Lord, who lives within you, is having this sandhyāvandanam done through you, with His own tools, for His own pleasure."
       ]
     },
     {
@@ -434,7 +511,6 @@
       },
       "section": "purvanga",
       "optional": true,
-      "intro": "If the ūrdhva-puṇḍram or tilakam was not applied after the bath, apply it now: dip the ring finger in water from the vessel, trace *oṃ keśavāya namaḥ* on the water, and apply the mark to the middle of the forehead while reciting.",
       "sources": [
         "sandhya.pdf p5",
         "Sandhyavandanam.pdf p4",
@@ -451,10 +527,16 @@
             "telugu": "ఓం శ్రీ కేశవాయ నమః",
             "malayalam": "ഓം ശ്രീ കേശവായ നമഃ"
           },
-          "action": "apply the tilakam to the forehead with the wet ring finger",
+          "action": "Apply the tilakam to your forehead with the wet ring finger.",
           "meaning": "Om, salutations to Śrī Keśava.",
           "audio": "/audio/895a7feec5.m4a"
         }
+      ],
+      "todo": [
+        "If you did not apply the tilakam (the mark on the forehead, ūrdhva-puṇḍram) after your bath, apply it now.",
+        "Dip your ring finger in the water in your vessel.",
+        "Trace the mantra on the water.",
+        "Apply the mark to the middle of your forehead while reciting it."
       ]
     },
     {
@@ -464,7 +546,6 @@
         "en": "Sprinkling of water"
       },
       "section": "purvanga",
-      "intro": "Hold the vessel in the left hand; take a little water in the right palm (or on the ring finger from the uddharaṇi) and sprinkle it on the head with the fingers of the right hand, once with each line. Nyāsa first: touch the top of the head while naming the ṛṣi, the tip of the nose for the chandas, the heart for the devatā, and join the palms in añjali for the viniyoga (Kidambi, Chakravarthy).",
       "sources": [
         "sandhya.pdf p5",
         "Kidambi p23–25",
@@ -483,8 +564,8 @@
             "telugu": "ఆపో హిష్ఠేతి మంత్రస్య సింధుద్వీప ఋషిః । దేవీ గాయత్రీ ఛందః । ఆపో దేవతా । అపాం ప్రోక్షణే వినియోగః ॥",
             "malayalam": "ആപോ ഹിഷ്ഠേതി മന്ത്രസ്യ സിന്ധുദ്വീപ ഋഷിഃ । ദേവീ ഗായത്രീ ഛന്ദഃ । ആപോ ദേവതാ । അപാം പ്രോക്ഷണേ വിനിയോഗഃ ॥"
           },
-          "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the mantra *āpo hiṣṭhā*, Sindhudvīpa is the seer, devī gāyatrī the metre, the Waters the deity; it is applied in the sprinkling of water.",
+          "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
+          "meaning": "Of the mantra *āpo hiṣṭhā*, Sindhudvīpa is the seer, devī gāyatrī the metre, the Waters the deity; it is used in the sprinkling of water.",
           "audio": "/audio/16e916873f.m4a"
         },
         {
@@ -500,8 +581,8 @@
             "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।\nతత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి ।\nధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥",
             "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।\nതത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി ।\nധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥"
           },
-          "action": "prelude (Kidambi): sprinkle on the head three times, once with each line",
-          "meaning": "Om, earth, atmosphere, heaven. May we meditate upon that adorable light of the divine Savitṛ; may He impel our thoughts."
+          "action": "Sprinkle water on your head three times, once with each line.",
+          "meaning": "Om, earth, atmosphere, heaven. We meditate on the adorable light of the divine Savitā; may He guide our thoughts."
         },
         {
           "kind": "mantra",
@@ -513,8 +594,8 @@
             "telugu": "ఆపో॒ హిష్ఠా మ॑యో॒ భువః॑ । తా న॑ ఊ॒ర్జే ద॑ధాతన । మ॒హే రణా॑య॒ చక్ష॑సే ।\nయో వ॑శ్శి॒వత॑మో॒ రసః॑ । తస్య॑ భాజయతే॒హ నః॑ । ఉ॒శ॒తీరి॑వ మా॒తరః॑ ।\nతస్మా॒ అరం॑గ మామ వః ।",
             "malayalam": "ആപോ॒ ഹിഷ്ഠാ മ॑യോ॒ ഭുവഃ॑ । താ ന॑ ഊ॒ർജേ ദ॑ധാതന । മ॒ഹേ രണാ॑യ॒ ചക്ഷ॑സേ ।\nയോ വ॑ശ്ശി॒വത॑മോ॒ രസഃ॑ । തസ്യ॑ ഭാജയതേ॒ഹ നഃ॑ । ഉ॒ശ॒തീരി॑വ മാ॒തരഃ॑ ।\nതസ്മാ॒ അരം॑ഗ മാമ വഃ ।"
           },
-          "action": "sprinkle on the head once with each of these seven lines",
-          "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like mothers in their tender love. To Him we come gladly, (to whose abode you lead us)."
+          "action": "Sprinkle water on your head, once with each line.",
+          "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like loving mothers. We come gladly to Him,"
         },
         {
           "kind": "mantra",
@@ -526,8 +607,8 @@
             "telugu": "యస్య॒ క్షయా॑య॒ జిన్వ॑థ ।",
             "malayalam": "യസ്യ॒ ക്ഷയാ॑യ॒ ജിന്വ॑ഥ ।"
           },
-          "action": "sprinkle on the big toes",
-          "meaning": "…for whose abode you quicken us."
+          "action": "Sprinkle a little water on your big toes.",
+          "meaning": "for whose dwelling you give us life."
         },
         {
           "kind": "mantra",
@@ -539,7 +620,7 @@
             "telugu": "ఆపో॑ జ॒నయ॑థా చ నః ।",
             "malayalam": "ആപോ॑ ജ॒നയ॑ഥാ ച നഃ ।"
           },
-          "action": "sprinkle again on the head",
+          "action": "Sprinkle water on your head again.",
           "meaning": "O Waters, make us pure and grant us to be reborn with splendour."
         },
         {
@@ -552,9 +633,16 @@
             "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।",
             "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।"
           },
-          "action": "take a little water in the palm and circle it around the head clockwise, sprinkling it around yourself",
+          "action": "Circle a little water clockwise around your head and let the drops fall around you.",
           "meaning": "Om, earth, atmosphere, heaven."
         }
+      ],
+      "todo": [
+        "Hold the vessel in your left hand.",
+        "Do the nyāsa (touches made before a mantra): touch the top of your head while naming the seer (ṛṣi), the tip of your nose for the metre (chandas), and your heart for the deity (devatā).",
+        "Then join your palms in añjali (palms together at the chest) for the mantra's use (viniyoga).",
+        "Take a little water in your right palm (or on your ring finger, using the uddharaṇi).",
+        "Sprinkle it on your head with your right fingers, once with each line."
       ]
     },
     {
@@ -564,7 +652,6 @@
         "en": "Sipping with the atonement mantra"
       },
       "section": "purvanga",
-      "intro": "Nyāsa as before (head – nose – heart – añjali). Then pour a small amount of water into the hollow of the right palm, recite the mantra for the kāla, and swallow (do not sip) the water from the brahma-tīrtha. Afterwards perform ācamanam.",
       "sources": [
         "sandhya.pdf p5–6",
         "Kidambi p25–26, p57–58, p89–90",
@@ -586,8 +673,8 @@
             "telugu": "సూర్యశ్చేత్య్ అనువాకస్య అగ్నిర్ ఋషిః । దేవీ గాయత్రీ ఛందః । సూర్యో దేవతా । అపాం ప్రాశనే వినియోగః ॥",
             "malayalam": "സൂര്യശ്ചേത്യ് അനുവാകസ്യ അഗ്നിർ ഋഷിഃ । ദേവീ ഗായത്രീ ഛന്ദഃ । സൂര്യോ ദേവതാ । അപാം പ്രാശനേ വിനിയോഗഃ ॥"
           },
-          "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the anuvāka beginning *sūryaśca*, Agni is the seer, devī gāyatrī the metre, Sūrya the deity; it is applied in the sipping of water.",
+          "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
+          "meaning": "Of the anuvāka beginning *sūryaśca*, Agni is the seer, devī gāyatrī the metre, Sūrya the deity; it is used in the sipping of water.",
           "audio": "/audio/cb49df60ca.m4a"
         },
         {
@@ -603,8 +690,8 @@
             "telugu": "సూర్యశ్చ మా మన్యుశ్చ మన్యుపతయశ్చ మన్యు॑కృతే॒భ్యః । పాపేభ్యో॑ రక్షం॒తాం । యద్ రాత్రియా పాపం॑ అకా॒ర్షం । మనసా వాచా॑ హస్తా॒భ్యాం । పద్భ్యాం ఉదరే॑ణ శి॒శ్నా । రాత్రి॒స్ తద్ అవ॑లుం॒పతు । యత్ కించ॑ దురి॒తం మయి॑ । ఇదం అహం మాం అమృ॑త యో॒నౌ । సూర్యే జ్యోతిషి జుహో॑మి స్వా॒హా ॥",
             "malayalam": "സൂര്യശ്ച മാ മന്യുശ്ച മന്യുപതയശ്ച മന്യു॑കൃതേ॒ഭ്യഃ । പാപേഭ്യോ॑ രക്ഷ॒ന്താം । യദ് രാത്രിയാ പാപം॑ അകാ॒ർഷം । മനസാ വാചാ॑ ഹസ്താ॒ഭ്യാം । പദ്ഭ്യാം ഉദരേ॑ണ ശി॒ശ്നാ । രാത്രി॒സ് തദ് അവ॑ലു॒മ്പതു । യത് കിഞ്ച॑ ദുരി॒തം മയി॑ । ഇദം അഹം മാം അമൃ॑ത യോ॒നൗ । സൂര്യേ ജ്യോതിഷി ജുഹോ॑മി സ്വാ॒ഹാ ॥"
           },
-          "action": "recite with the water in the right palm, then swallow it",
-          "meaning": "May the Sun, anger, the lords of anger and (the deities presiding over) the sins born of anger protect me. Whatever sin I have committed by night — by thought, speech, hands, feet, belly or organ — may the night efface it. Whatever evil remains in me, I offer myself as an oblation into the Sun, the source of immortality, the Light. Svāhā."
+          "action": "Recite with the water in your right palm, then swallow it.",
+          "meaning": "May the Sun, anger, the lords of anger and the deities of the sins born of anger protect me. Whatever sin I have done by night, by thought, speech, hands, feet, belly or organ, may the night wipe it away. Whatever evil remains in me, I offer into the Sun, the light, the source of immortality. Svāhā."
         },
         {
           "kind": "mantra",
@@ -619,8 +706,8 @@
             "telugu": "ఆపః పునంత్వ్ ఇత్య్ అనువాకస్య ఆప ఋషిః । అనుష్టుప్ ఛందః । బ్రహ్మణస్పతిర్ దేవతా । అపాం ప్రాశనే వినియోగః ॥",
             "malayalam": "ആപഃ പുനന്ത്വ് ഇത്യ് അനുവാകസ്യ ആപ ഋഷിഃ । അനുഷ്ടുപ് ഛന്ദഃ । ബ്രഹ്മണസ്പതിർ ദേവതാ । അപാം പ്രാശനേ വിനിയോഗഃ ॥"
           },
-          "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the anuvāka beginning *āpaḥ punantu*, the Waters are the seer, anuṣṭup the metre, Brahmaṇaspati the deity; it is applied in the sipping of water.",
+          "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
+          "meaning": "Of the anuvāka beginning *āpaḥ punantu*, the Waters are the seer, anuṣṭup the metre, Brahmaṇaspati the deity; it is used in the sipping of water.",
           "audio": "/audio/8f4683470c.m4a"
         },
         {
@@ -636,7 +723,7 @@
             "telugu": "ఆపః॑ పునంతు పృథి॒వీం పృ॑థి॒వీ పూ॒తా పు॑నాతు॒ మాం । పు॒నంతు॒ బ్రహ్మ॑ణ॒స్పతి॒ర్ బ్రహ్మ॑ పూ॒తా పు॑నాతు॒ మాం । యద్ ఉచ్ఛి॑ష్టం॒ అభో᳚జ్యం॒ యద్ వా॑ దు॒శ్చరి॑తం॒ మమ॑ । సర్వం॑ పునంతు॒ మాం ఆపో᳚స॒తాం చ॑ ప్రతి॒గ్రహ॒గుం స్వాహా᳚ ॥",
             "malayalam": "ആപഃ॑ പുനന്തു പൃഥി॒വീം പൃ॑ഥി॒വീ പൂ॒താ പു॑നാതു॒ മാം । പു॒നന്തു॒ ബ്രഹ്മ॑ണ॒സ്പതി॒ർ ബ്രഹ്മ॑ പൂ॒താ പു॑നാതു॒ മാം । യദ് ഉച്ഛി॑ഷ്ടം॒ അഭോ᳚ജ്യം॒ യദ് വാ॑ ദു॒ശ്ചരി॑തം॒ മമ॑ । സർവം॑ പുനന്തു॒ മാം ആപോ᳚സ॒താം ച॑ പ്രതി॒ഗ്രഹ॒ഗും സ്വാഹാ᳚ ॥"
           },
-          "action": "recite with the water in the right palm, then swallow it",
+          "action": "Recite with the water in your right palm, then swallow it.",
           "meaning": "May the waters purify the earth; may the purified earth purify me. May the Lord of prayer purify me; may the purified Veda purify me. Whatever remnant I have eaten, whatever forbidden food, whatever misdeed of mine, whatever gift accepted from the unworthy — may the waters purify me of all. Svāhā."
         },
         {
@@ -652,8 +739,8 @@
             "telugu": "అగ్నిశ్చేత్య్ అనువాకస్య సూర్య ఋషిః । దేవీ గాయత్రీ ఛందః । అగ్నిర్ దేవతా । అపాం ప్రాశనే వినియోగః ॥",
             "malayalam": "അഗ്നിശ്ചേത്യ് അനുവാകസ്യ സൂര്യ ഋഷിഃ । ദേവീ ഗായത്രീ ഛന്ദഃ । അഗ്നിർ ദേവതാ । അപാം പ്രാശനേ വിനിയോഗഃ ॥"
           },
-          "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the anuvāka beginning *agniśca*, Sūrya is the seer, devī gāyatrī the metre, Agni the deity; it is applied in the sipping of water.",
+          "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
+          "meaning": "Of the anuvāka beginning *agniśca*, Sūrya is the seer, devī gāyatrī the metre, Agni the deity; it is used in the sipping of water.",
           "audio": "/audio/93f76f869a.m4a"
         },
         {
@@ -669,13 +756,16 @@
             "telugu": "అగ్నిశ్చ మా మన్యుశ్చ మన్యుపతయశ్చ మన్యు॑కృతే॒భ్యః । పాపేభ్యో॑ రక్షం॒తాం । యద్ అహ్నా పాపం॑ అకా॒ర్షం । మనసా వాచా॑ హస్తా॒భ్యాం । పద్భ్యాం ఉదరే॑ణ శి॒శ్నా । అహ॒స్ తద్ అవ॑లుం॒పతు । యత్ కించ॑ దురి॒తం మయి॑ । ఇదం అహం మాం అమృ॑త యో॒నౌ । సత్యే జ్యోతిషి జుహో॑మి స్వా॒హా ॥",
             "malayalam": "അഗ്നിശ്ച മാ മന്യുശ്ച മന്യുപതയശ്ച മന്യു॑കൃതേ॒ഭ്യഃ । പാപേഭ്യോ॑ രക്ഷ॒ന്താം । യദ് അഹ്നാ പാപം॑ അകാ॒ർഷം । മനസാ വാചാ॑ ഹസ്താ॒ഭ്യാം । പദ്ഭ്യാം ഉദരേ॑ണ ശി॒ശ്നാ । അഹ॒സ് തദ് അവ॑ലു॒മ്പതു । യത് കിഞ്ച॑ ദുരി॒തം മയി॑ । ഇദം അഹം മാം അമൃ॑ത യോ॒നൗ । സത്യേ ജ്യോതിഷി ജുഹോ॑മി സ്വാ॒ഹാ ॥"
           },
-          "action": "recite with the water in the right palm, then swallow it",
-          "meaning": "May Agni, anger, the lords of anger and (the deities presiding over) the sins born of anger protect me. Whatever sin I have committed by day — by thought, speech, hands, feet, belly or organ — may the day efface it. Whatever evil remains in me, I offer myself as an oblation into Truth, the source of immortality, the Light. Svāhā."
-        },
-        {
-          "kind": "note",
-          "text": "Then perform ācamanam (three sips with *acyutāya, anantāya, govindāya namaḥ* and the twelve names)."
+          "action": "Recite with the water in your right palm, then swallow it.",
+          "meaning": "May Agni, anger, the lords of anger and the deities of the sins born of anger protect me. Whatever sin I have done by day, by thought, speech, hands, feet, belly or organ, may the day wipe it away. Whatever evil remains in me, I offer into Truth, the light, the source of immortality. Svāhā."
         }
+      ],
+      "todo": [
+        "Do the nyāsa, as in Prokṣaṇam: touch your head, nose and heart, then join your palms.",
+        "Pour a small amount of water into the hollow of your right palm.",
+        "Recite the mantra for your time of day.",
+        "Swallow the water from the base of your thumb (the brāhma-tīrtha).",
+        "Then do the ācamanam as in the first step: three sips with the three names, then the twelve names."
       ]
     },
     {
@@ -685,7 +775,6 @@
         "en": "Repeated sprinkling"
       },
       "section": "purvanga",
-      "intro": "Nyāsa as before. Then sprinkle water on the head with the *dadhikrāvṇṇo* verse, and repeat the sprinkling with *āpo hiṣṭhā* exactly as in prokṣaṇam.",
       "sources": [
         "sandhya.pdf p6",
         "Kidambi p26–28",
@@ -704,8 +793,8 @@
             "telugu": "దధిక్రావ్ణ్ణ ఇతి మంత్రస్య వామదేవ ఋషిః । అనుష్టుప్ ఛందః । దధిక్రావా దేవతా । అపాం ప్రోక్షణే వినియోగః ॥",
             "malayalam": "ദധിക്രാവ്ണ്ണ ഇതി മന്ത്രസ്യ വാമദേവ ഋഷിഃ । അനുഷ്ടുപ് ഛന്ദഃ । ദധിക്രാവാ ദേവതാ । അപാം പ്രോക്ഷണേ വിനിയോഗഃ ॥"
           },
-          "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the mantra *dadhikrāvṇṇo*, Vāmadeva is the seer, anuṣṭup the metre, Dadhikrāvan the deity; it is applied in the sprinkling of water.",
+          "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
+          "meaning": "Of the mantra *dadhikrāvṇṇo*, Vāmadeva is the seer, anuṣṭup the metre, Dadhikrāvan the deity; it is used in the sprinkling of water.",
           "audio": "/audio/6007ea7111.m4a"
         },
         {
@@ -718,8 +807,8 @@
             "telugu": "ద॒ధి॒క్రావ్ణ్ణో॑ అకారిషం జి॒ష్ణోర్ అశ్వ॑స్య వా॒జినః॑ ।\nసు॒ర॒భి నో॒ ముఖా॑ కర॒త్ ప్రణ॒ ఆయూ॑గుంషి తారిషత్ ॥",
             "malayalam": "ദ॒ധി॒ക്രാവ്ണ്ണോ॑ അകാരിഷം ജി॒ഷ്ണോർ അശ്വ॑സ്യ വാ॒ജിനഃ॑ ।\nസു॒ര॒ഭി നോ॒ മുഖാ॑ കര॒ത് പ്രണ॒ ആയൂ॑ഗുംഷി താരിഷത് ॥"
           },
-          "action": "sprinkle on the head once with each of the four pādas",
-          "meaning": "I have glorified Dadhikrāvan, the victorious, swift steed (the Lord as Hayagrīva). May He make our mouths fragrant and lengthen our lives. (RV 4.39.6; TS 1.5.11.4)"
+          "action": "Sprinkle water on your head, once with each quarter-line.",
+          "meaning": "I have praised Dadhikrāvan, the victorious, swift steed (the Lord as Hayagrīva). May He make our mouths fragrant and lengthen our lives."
         },
         {
           "kind": "mantra",
@@ -731,8 +820,8 @@
             "telugu": "ఆపో॒ హిష్ఠా మ॑యో॒ భువః॑ । తా న॑ ఊ॒ర్జే ద॑ధాతన । మ॒హే రణా॑య॒ చక్ష॑సే ।\nయో వ॑శ్శి॒వత॑మో॒ రసః॑ । తస్య॑ భాజయతే॒హ నః॑ । ఉ॒శ॒తీరి॑వ మా॒తరః॑ ।\nతస్మా॒ అరం॑గ మామ వః ।",
             "malayalam": "ആപോ॒ ഹിഷ്ഠാ മ॑യോ॒ ഭുവഃ॑ । താ ന॑ ഊ॒ർജേ ദ॑ധാതന । മ॒ഹേ രണാ॑യ॒ ചക്ഷ॑സേ ।\nയോ വ॑ശ്ശി॒വത॑മോ॒ രസഃ॑ । തസ്യ॑ ഭാജയതേ॒ഹ നഃ॑ । ഉ॒ശ॒തീരി॑വ മാ॒തരഃ॑ ।\nതസ്മാ॒ അരം॑ഗ മാമ വഃ ।"
           },
-          "action": "sprinkle on the head once with each of these seven lines",
-          "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like mothers in their tender love. To Him we come gladly, (to whose abode you lead us)."
+          "action": "Sprinkle water on your head, once with each line.",
+          "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like loving mothers. We come gladly to Him,"
         },
         {
           "kind": "mantra",
@@ -744,8 +833,8 @@
             "telugu": "యస్య॒ క్షయా॑య॒ జిన్వ॑థ ।",
             "malayalam": "യസ്യ॒ ക്ഷയാ॑യ॒ ജിന്വ॑ഥ ।"
           },
-          "action": "sprinkle on the big toes",
-          "meaning": "…for whose abode you quicken us."
+          "action": "Sprinkle a little water on your big toes.",
+          "meaning": "for whose dwelling you give us life."
         },
         {
           "kind": "mantra",
@@ -757,7 +846,7 @@
             "telugu": "ఆపో॑ జ॒నయ॑థా చ నః ।",
             "malayalam": "ആപോ॑ ജ॒നയ॑ഥാ ച നഃ ।"
           },
-          "action": "sprinkle again on the head",
+          "action": "Sprinkle water on your head again.",
           "meaning": "O Waters, make us pure and grant us to be reborn with splendour."
         },
         {
@@ -770,16 +859,22 @@
             "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।",
             "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।"
           },
-          "action": "take a little water in the palm and circle it around the head clockwise, sprinkling it around yourself",
+          "action": "Circle a little water clockwise around your head and let the drops fall around you.",
           "meaning": "Om, earth, atmosphere, heaven."
         }
+      ],
+      "todo": [
+        "This is a second sprinkling, after Prāśanam.",
+        "Do the nyāsa, as in Prokṣaṇam: touch your head, nose and heart, then join your palms.",
+        "Sprinkle water on your head once with each of the four *pādas* (quarter-lines) of the *dadhikrāvṇṇo* verse.",
+        "Then sprinkle again with *āpo hiṣṭhā*, exactly as in Prokṣaṇam."
       ]
     },
     {
       "id": "arghya-pradanam",
       "title": {
         "sa": "Arghya-pradānam",
-        "en": "Libation to the Sun"
+        "en": "Offering water to the Sun"
       },
       "section": "purvanga",
       "facing": {
@@ -787,7 +882,6 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Perform prāṇāyāma (Chakravarthy: one round), touch the right ear, and take the saṅkalpa posture for the saṅkalpa; then nyāsa. Stand erect (morning and noon facing east; in the evening face west from now on) holding the vessel between the thumb and index finger of the left hand; join both palms facing upwards, pour water into the hollow of the joined palms and raise them to the level of the forehead. Recite the Gāyatrī aloud and, looking towards the sun and rising on the heels, release the water from the fingertips (deva-tīrtha), thrown up towards the sun; if standing in a river or tank, offer with cupped palms. Three libations in the morning and evening; at noon one (Kidambi, who notes that some sampradāyas offer two). Chakravarthy: at noon standing or sitting; in the evening sitting.",
       "sources": [
         "sandhya.pdf p6–7",
         "Kidambi p28–29, p60–61, p92–93",
@@ -806,8 +900,8 @@
             "telugu": "ఓం భూః । ఓం భువః । ఓగుం సువః । ఓం మహః । ఓం జనః । ఓం తపః । ఓగుం స॒త్యం ।\nఓం తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥\nఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్సువ॒రోం ॥",
             "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
-          "action": "prāṇāyāma as before (recite mentally holding the breath); then touch the right ear and take the saṅkalpa posture",
-          "meaning": "Om — the seven realms; may we meditate upon that adorable light of the divine Creator, may He impel our intellect; He is the waters, light, flavour, immortality, Brahman, pervading the three worlds — Om."
+          "action": "Recite silently while holding your breath, as in the Prāṇāyāmam step. Then touch your right ear and take the saṅkalpa posture.",
+          "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds."
         },
         {
           "kind": "mantra",
@@ -822,7 +916,8 @@
             "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యా సూర్యార్ఘ్య ప్రదానం కరిష్యే ॥",
             "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ സൂര്യാർഘ്യ പ്രദാനം കരിഷ്യേ ॥"
           },
-          "meaning": "For the destruction of all my sins and to please the Supreme Lord, I now offer the {kalaEn} sandhyā libations of water to the Sun."
+          "meaning": "To destroy all my sins and to please the Supreme Lord, I now make the {kalaEn} sandhyā offerings of water to the Sun.",
+          "action": "Say the saṅkalpa in the saṅkalpa posture."
         },
         {
           "kind": "mantra",
@@ -837,7 +932,8 @@
             "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా అర్ఘ్యప్రదానం కరిష్యే ॥",
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ അർഘ്യപ്രദാനം കരിഷ്യേ ॥"
           },
-          "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now offer the {kalaEn} sandhyā libations of water (to the Sun)."
+          "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now make the {kalaEn} sandhyā offerings of water to the Sun.",
+          "action": "Say the saṅkalpa in the saṅkalpa posture."
         },
         {
           "kind": "mantra",
@@ -849,8 +945,8 @@
             "telugu": "అర్ఘ్యప్రదాన మంత్రస్య విశ్వామిత్ర ఋషిః । దేవీ గాయత్రీ ఛందః । సవితా దేవతా । అర్ఘ్యప్రదానే వినియోగః ॥",
             "malayalam": "അർഘ്യപ്രദാന മന്ത്രസ്യ വിശ്വാമിത്ര ഋഷിഃ । ദേവീ ഗായത്രീ ഛന്ദഃ । സവിതാ ദേവതാ । അർഘ്യപ്രദാനേ വിനിയോഗഃ ॥"
           },
-          "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the arghya mantra, Viśvāmitra is the seer, devī gāyatrī the metre, Savitṛ the deity; it is applied in the offering of arghya.",
+          "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
+          "meaning": "Of the arghya mantra, Viśvāmitra is the seer, devī gāyatrī the metre, Savitā the deity; it is used for offering arghya (water to the Sun).",
           "audio": "/audio/35ca08621d.m4a"
         },
         {
@@ -868,8 +964,8 @@
             "madhyahnika": 1,
             "sayam": 3
           },
-          "action": "stand, water in the joined palms raised to the forehead; recite, rise on the heels looking at the sun and release the water from the fingertips — once per libation",
-          "meaning": "Om, earth, atmosphere, heaven. We meditate upon that adorable light of the divine Savitṛ; may He impel our thoughts."
+          "action": "Recite this aloud, then rise on your heels, look at the sun and let the water run from your fingertips.",
+          "meaning": "Om, earth, atmosphere, heaven. We meditate on the adorable light of the divine Savitā; may He guide our thoughts."
         },
         {
           "kind": "mantra",
@@ -882,22 +978,44 @@
             "telugu": "ఓం సూర్యాయ నమః । ఇదం అర్ఘ్యం ॥",
             "malayalam": "ഓം സൂര്യായ നമഃ । ഇദം അർഘ്യം ॥"
           },
-          "action": "after each libation",
-          "meaning": "Om, salutations to the Sun — this is the libation.",
+          "action": "Say this after each offering of water.",
+          "meaning": "Om, salutations to the Sun. This is the offering.",
           "audio": "/audio/5ff62204e6.m4a"
         }
       ],
-      "image": "/img/steps/arghya-pradanam.webp"
+      "image": "/img/steps/arghya-pradanam.webp",
+      "todo": [
+        "Do prāṇāyāma, as in the Prāṇāyāmam step. Then touch your right ear and take the saṅkalpa posture.",
+        "Say the saṅkalpa, then do the nyāsa.",
+        "Stand upright. Hold the vessel between the thumb and index finger of your left hand.",
+        "Join both palms facing upward and pour water into the hollow of your joined palms.",
+        "Raise your joined palms to the level of your forehead.",
+        "Recite the Gāyatrī aloud (in japa later it is silent).",
+        "Look towards the sun, rise on your heels, and let the water run out from your fingertips (the deva-tīrtha), thrown up towards the sun.",
+        {
+          "text": "Make this offering three times.",
+          "kala": [
+            "pratah",
+            "sayam"
+          ]
+        },
+        {
+          "text": "Make this offering once.",
+          "kala": [
+            "madhyahnika"
+          ]
+        },
+        "If you are standing in a river or tank, offer the water with cupped palms."
+      ]
     },
     {
       "id": "prayascitta-arghyam",
       "title": {
         "sa": "Prāyaścitta-arghyam (turīyārghyam)",
-        "en": "Atonement libation"
+        "en": "Extra offering if you are late"
       },
       "section": "purvanga",
       "optional": true,
-      "intro": "If the sandhyā is being performed after the prescribed time (after sunrise in the morning, after sunset in the evening; at noon only in some sampradāyas — Kidambi), an extra fourth libation is offered as atonement. Prāṇāyāma, śrotrācamanam and the saṅkalpa posture; saṅkalpa; nyāsa; then, standing as before with water in the joined palms raised to the forehead, recite and release the water once, rising on the heels and looking towards the sun.",
       "sources": [
         "sandhya.pdf p7",
         "Kidambi p29–31, p61–63, p93–95",
@@ -905,10 +1023,6 @@
         "Sandhyavandanam.pdf p8"
       ],
       "items": [
-        {
-          "kind": "note",
-          "text": "Prāṇāyāma as before (*oṃ bhūḥ … bhūr bhuvas suvarom*), touch the right ear, then the saṅkalpa posture."
-        },
         {
           "kind": "mantra",
           "tradition": [
@@ -922,7 +1036,8 @@
             "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యా కాలాతీత ప్రాయశ్చిత్తార్థం తురీయార్ఘ్య ప్రదానం కరిష్యే ॥",
             "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ കാലാതീത പ്രായശ്ചിത്താർഥം തുരീയാർഘ്യ പ്രദാനം കരിഷ്യേ ॥"
           },
-          "meaning": "For the destruction of all my sins and to please the Supreme Lord, I now offer a fourth libation to the Sun to atone for performing my {kalaEn} sandhyā after the prescribed time."
+          "meaning": "To destroy all my sins and to please the Supreme Lord, I now make a fourth offering of water to the Sun to atone for doing my {kalaEn} sandhyā after the proper time.",
+          "action": "Say the saṅkalpa in the saṅkalpa posture."
         },
         {
           "kind": "mantra",
@@ -937,7 +1052,8 @@
             "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా కాలాతీత దోష ప్రాయశ్చిత్తార్థం తురీయ అర్ఘ్యప్రదానం కరిష్యే ॥",
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ കാലാതീത ദോഷ പ്രായശ്ചിത്താർഥം തുരീയ അർഘ്യപ്രദാനം കരിഷ്യേ ॥"
           },
-          "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now offer a fourth libation to atone for the fault of performing my {kalaEn} sandhyā after the prescribed time."
+          "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now make a fourth offering of water to atone for the fault of doing my {kalaEn} sandhyā after the proper time.",
+          "action": "Say the saṅkalpa in the saṅkalpa posture."
         },
         {
           "kind": "mantra",
@@ -949,8 +1065,8 @@
             "telugu": "తురీయ అర్ఘ్యప్రదాన మంత్రస్య సాందీపనీ ఋషిః । దేవీ గాయత్రీ ఛందః । సవితా దేవతా । తురీయ అర్ఘ్యప్రదానే వినియోగః ॥",
             "malayalam": "തുരീയ അർഘ്യപ്രദാന മന്ത്രസ്യ സാന്ദീപനീ ഋഷിഃ । ദേവീ ഗായത്രീ ഛന്ദഃ । സവിതാ ദേവതാ । തുരീയ അർഘ്യപ്രദാനേ വിനിയോഗഃ ॥"
           },
-          "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the fourth-arghya mantra, Sāndīpanī is the seer, devī gāyatrī the metre, Savitṛ the deity; it is applied in offering the fourth arghya.",
+          "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
+          "meaning": "Of the fourth-arghya mantra, Sāndīpanī is the seer, devī gāyatrī the metre, Savitā the deity; it is used for offering the fourth arghya.",
           "audio": "/audio/d616c340ee.m4a"
         },
         {
@@ -964,19 +1080,31 @@
             "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ।\nഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ॥"
           },
           "repeat": 1,
-          "action": "offer the single extra libation with the vyāhṛtis, the Gāyatrī and the vyāhṛtis again",
-          "meaning": "Om — the seven realms. May we meditate upon that adorable light of the divine Savitṛ; may He impel our thoughts. Om — the seven realms."
+          "action": "Recite this, rise on your heels, look at the sun and let the water run from your fingertips.",
+          "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Savitā; may He guide our thoughts. Om, the seven worlds."
         }
+      ],
+      "todo": [
+        "Do this step only if you are doing the sandhyā late: after sunrise in the morning, or after sunset in the evening.",
+        {
+          "text": "At noon, only some families do this extra offering.",
+          "kala": [
+            "madhyahnika"
+          ]
+        },
+        "Do prāṇāyāma, touch your right ear and take the saṅkalpa posture, as in the Prāṇāyāmam step.",
+        "Say the saṅkalpa, then do the nyāsa.",
+        "Stand with water in your joined palms at forehead level.",
+        "Recite the mantra, rise on your heels, look at the sun and make one extra offering."
       ]
     },
     {
       "id": "brahma-bhavanam",
       "title": {
         "sa": "Ātma-pradakṣiṇam · Sandhyopāsanam (Brahma-bhāvanam)",
-        "en": "Circling oneself; contemplation of the Sun as Brahman"
+        "en": "Turning around and meditating on the Sun"
       },
       "section": "purvanga",
-      "intro": "Take a little water in the right palm and, reciting *oṃ bhūr bhuvas suvaḥ*, circle the hand around the head clockwise while turning yourself once clockwise on the spot, letting the water fall around you. Then, standing facing the sun with hands in añjali, meditate on the Lord in the centre of the Sun and on the meaning of the sentence for a minute or two, eyes closed. Do not rush this.",
       "sources": [
         "sandhya.pdf p7–8",
         "Kidambi p31, p63, p95",
@@ -995,7 +1123,7 @@
             "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।",
             "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।"
           },
-          "action": "circle the water around the head clockwise while turning yourself clockwise (ātma-pradakṣiṇam)",
+          "action": "Circle the water clockwise around your head while turning clockwise.",
           "meaning": "Om, earth, atmosphere, heaven."
         },
         {
@@ -1008,7 +1136,7 @@
             "telugu": "అసావాదిత్యో బ్రహ్మ ।",
             "malayalam": "അസാവാദിത്യോ ബ്രഹ്മ ।"
           },
-          "action": "hands in añjali; contemplate the Lord in the centre of the Sun",
+          "action": "Say this with your palms joined, contemplating the Lord in the centre of the Sun.",
           "meaning": "Yonder Sun is Brahman.",
           "audio": "/audio/c5193807a9.m4a"
         },
@@ -1025,20 +1153,27 @@
             "telugu": "బ్రహ్మైవాహం అస్మి ॥",
             "malayalam": "ബ്രഹ്മൈവാഹം അസ്മി ॥"
           },
-          "action": "meditate for a while that you and Brahman are the same",
+          "action": "Meditate for a while that you and Brahman are the same.",
           "meaning": "Brahman indeed am I.",
           "audio": "/audio/868c741423.m4a"
         }
+      ],
+      "todo": [
+        "Take a little water in your right palm.",
+        "Recite *oṃ bhūr bhuvas suvaḥ* and circle your hand clockwise around your head.",
+        "At the same time, turn once clockwise on the spot, letting the water fall around you.",
+        "Face the sun with your palms joined in añjali and close your eyes.",
+        "Meditate for a minute or two on the Lord in the centre of the Sun and on the meaning of the words you recite.",
+        "Do not rush this."
       ]
     },
     {
       "id": "acamanam-2",
       "title": {
         "sa": "Ācamanam",
-        "en": "Sipping of water"
+        "en": "Sipping of water (second time)"
       },
       "section": "purvanga",
-      "intro": "Sit in kukkuṭāsana and perform ācamanam again: swallow water three times with the three names, then touch the limbs with the twelve names.",
       "sources": [
         "sandhya.pdf p8",
         "Kidambi p31",
@@ -1056,7 +1191,7 @@
             "telugu": "ఓం అచ్యుతాయ నమః",
             "malayalam": "ഓം അച്യുതായ നമഃ"
           },
-          "action": "pour a little water into the right palm and swallow it",
+          "action": "Pour a little water into your right palm and swallow it.",
           "meaning": "Salutations to Acyuta, the unfallen, unchanging one.",
           "audio": "/audio/ddf14c38a5.m4a"
         },
@@ -1070,7 +1205,7 @@
             "telugu": "ఓం అనంతాయ నమః",
             "malayalam": "ഓം അനന്തായ നമഃ"
           },
-          "action": "again pour water and swallow",
+          "action": "Pour water into your palm again and swallow it.",
           "meaning": "Salutations to Ananta, the infinite one.",
           "audio": "/audio/be1844c3a2.m4a"
         },
@@ -1084,7 +1219,7 @@
             "telugu": "ఓం గోవిందాయ నమః",
             "malayalam": "ഓം ഗോവിന്ദായ നമഃ"
           },
-          "action": "again pour water and swallow; wash the hand and wipe the lips",
+          "action": "Pour water once more and swallow it. Then wash your hand and wipe your lips as described in the first step.",
           "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
           "audio": "/audio/3aa63e480a.m4a"
         },
@@ -1098,20 +1233,23 @@
             "telugu": "ఓం కేశవాయ నమః । ఓం నారాయణాయ నమః । ఓం మాధవాయ నమః । ఓం గోవిందాయ నమః । ఓం విష్ణవే నమః । ఓం మధుసూదనాయ నమః । ఓం త్రివిక్రమాయ నమః । ఓం వామనాయ నమః । ఓం శ్రీధరాయ నమః । ఓం హృషీకేశాయ నమః । ఓం పద్మనాభాయ నమః । ఓం దామోదరాయ నమః ॥",
             "malayalam": "ഓം കേശവായ നമഃ । ഓം നാരായണായ നമഃ । ഓം മാധവായ നമഃ । ഓം ഗോവിന്ദായ നമഃ । ഓം വിഷ്ണവേ നമഃ । ഓം മധുസൂദനായ നമഃ । ഓം ത്രിവിക്രമായ നമഃ । ഓം വാമനായ നമഃ । ഓം ശ്രീധരായ നമഃ । ഓം ഹൃഷീകേശായ നമഃ । ഓം പദ്മനാഭായ നമഃ । ഓം ദാമോദരായ നമഃ ॥"
           },
-          "action": "thumb → right, left cheek; ring finger → right, left eye; index → right, left side of nose; little finger → right, left ear; middle finger → right, left shoulder; all fingers → navel, top of head",
+          "action": "Touch the same twelve places as in the Aṅga-nyāsam step, one for each name.",
           "meaning": "Salutations to Keśava, Nārāyaṇa, Mādhava, Govinda, Viṣṇu, Madhusūdana, Trivikrama, Vāmana, Śrīdhara, Hṛṣīkeśa, Padmanābha and Dāmodara.",
           "audio": "/audio/b4ddf0a701.m4a"
         }
+      ],
+      "todo": [
+        "Squat or sit low on your heels (kukkuṭāsana) and do the ācamanam again.",
+        "Take a sip and swallow it with each of the three names, then touch your body with the twelve names."
       ]
     },
     {
       "id": "tarpanam",
       "title": {
         "sa": "Tarpaṇam",
-        "en": "Libations to the planets and the twelve names"
+        "en": "Offering water to the deities"
       },
       "section": "purvanga",
-      "intro": "Sit in kukkuṭāsana holding the vessel between the thumb and index finger of the left hand; join both palms facing upwards. For each name pour water into the hollow of the joined palms, recite, and let the water flow out through the fingertips of both hands (deva-tīrtha) onto the ground or plate — like arghya but without rising on the heels. Smārtas offer to the nine grahas and then the twelve names; Śrī Vaiṣṇavas (Kidambi) to the twelve names only.",
       "sources": [
         "sandhya.pdf p8",
         "Kidambi p31–33 (12 only)",
@@ -1133,8 +1271,8 @@
             "telugu": "ఆదిత్యం తర్పయామి ।",
             "malayalam": "ആദിത്യം തർപയാമി ।"
           },
-          "action": "offer water from the fingertips",
-          "meaning": "I satisfy Āditya, the Sun.",
+          "action": "Pour water into your joined palms, recite, and let it run out through your fingertips.",
+          "meaning": "I offer water to Āditya, the Sun.",
           "audio": "/audio/6b542269ce.m4a"
         },
         {
@@ -1150,8 +1288,8 @@
             "telugu": "సోమం తర్పయామి ।",
             "malayalam": "സോമം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Soma, the Moon.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Soma, the Moon.",
           "audio": "/audio/d83fed5ff4.m4a"
         },
         {
@@ -1167,8 +1305,8 @@
             "telugu": "అంగారకం తర్పయామి ।",
             "malayalam": "അംഗാരകം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Aṅgāraka, Mars.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Aṅgāraka, Mars.",
           "audio": "/audio/7390a3564b.m4a"
         },
         {
@@ -1184,8 +1322,8 @@
             "telugu": "బుధం తర్పయామి ।",
             "malayalam": "ബുധം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Budha, Mercury.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Budha, Mercury.",
           "audio": "/audio/8e55e8502a.m4a"
         },
         {
@@ -1201,8 +1339,8 @@
             "telugu": "బృహస్పతిం తర్పయామి ।",
             "malayalam": "ബൃഹസ്പതിം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Bṛhaspati, Jupiter.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Bṛhaspati, Jupiter.",
           "audio": "/audio/de11c46f1e.m4a"
         },
         {
@@ -1218,8 +1356,8 @@
             "telugu": "శుక్రం తర్పయామి ।",
             "malayalam": "ശുക്രം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Śukra, Venus.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Śukra, Venus.",
           "audio": "/audio/aa52d320fc.m4a"
         },
         {
@@ -1235,8 +1373,8 @@
             "telugu": "శనైశ్చరం తర్పయామి ।",
             "malayalam": "ശനൈശ്ചരം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Śanaiścara, Saturn.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Śanaiścara, Saturn.",
           "audio": "/audio/d25e34d363.m4a"
         },
         {
@@ -1252,8 +1390,8 @@
             "telugu": "రాహుం తర్పయామి ।",
             "malayalam": "രാഹും തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Rāhu.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Rāhu.",
           "audio": "/audio/6f420059e2.m4a"
         },
         {
@@ -1269,8 +1407,8 @@
             "telugu": "కేతుం తర్పయామి ।",
             "malayalam": "കേതും തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Ketu.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Ketu.",
           "audio": "/audio/52da2e0311.m4a"
         },
         {
@@ -1283,8 +1421,8 @@
             "telugu": "కేశవం తర్పయామి ।",
             "malayalam": "കേശവം തർപയാമി ।"
           },
-          "action": "pour water into the joined palms, recite, let it flow through the fingers",
-          "meaning": "I satisfy Keśava.",
+          "action": "Pour water into your joined palms, recite, and let it run out through your fingertips.",
+          "meaning": "I offer water to Keśava.",
           "audio": "/audio/6fdc0a92d1.m4a"
         },
         {
@@ -1297,8 +1435,8 @@
             "telugu": "నారాయణం తర్పయామి ।",
             "malayalam": "നാരായണം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Nārāyaṇa.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Nārāyaṇa.",
           "audio": "/audio/215d4a4070.m4a"
         },
         {
@@ -1311,8 +1449,8 @@
             "telugu": "మాధవం తర్పయామి ।",
             "malayalam": "മാധവം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Mādhava.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Mādhava.",
           "audio": "/audio/c049546338.m4a"
         },
         {
@@ -1325,8 +1463,8 @@
             "telugu": "గోవిందం తర్పయామి ।",
             "malayalam": "ഗോവിന്ദം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Govinda.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Govinda.",
           "audio": "/audio/c59a8d9c09.m4a"
         },
         {
@@ -1339,8 +1477,8 @@
             "telugu": "విష్ణుం తర్పయామి ।",
             "malayalam": "വിഷ്ണും തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Viṣṇu.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Viṣṇu.",
           "audio": "/audio/76107b1082.m4a"
         },
         {
@@ -1353,8 +1491,8 @@
             "telugu": "మధుసూదనం తర్పయామి ।",
             "malayalam": "മധുസൂദനം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Madhusūdana.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Madhusūdana.",
           "audio": "/audio/70262e7e79.m4a"
         },
         {
@@ -1367,8 +1505,8 @@
             "telugu": "త్రివిక్రమం తర్పయామి ।",
             "malayalam": "ത്രിവിക്രമം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Trivikrama.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Trivikrama.",
           "audio": "/audio/3bd9329ef4.m4a"
         },
         {
@@ -1381,8 +1519,8 @@
             "telugu": "వామనం తర్పయామి ।",
             "malayalam": "വാമനം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Vāmana.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Vāmana.",
           "audio": "/audio/156ee15fb2.m4a"
         },
         {
@@ -1395,8 +1533,8 @@
             "telugu": "శ్రీధరం తర్పయామి ।",
             "malayalam": "ശ്രീധരം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Śrīdhara.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Śrīdhara.",
           "audio": "/audio/f20fbfc23e.m4a"
         },
         {
@@ -1409,8 +1547,8 @@
             "telugu": "హృషీకేశం తర్పయామి ।",
             "malayalam": "ഹൃഷീകേശം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Hṛṣīkeśa.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Hṛṣīkeśa.",
           "audio": "/audio/5b3d056579.m4a"
         },
         {
@@ -1423,8 +1561,8 @@
             "telugu": "పద్మనాభం తర్పయామి ।",
             "malayalam": "പദ്മനാഭം തർപയാമി ।"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Padmanābha.",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Padmanābha.",
           "audio": "/audio/46c17dd583.m4a"
         },
         {
@@ -1437,13 +1575,13 @@
             "telugu": "దామోదరం తర్పయామి ॥",
             "malayalam": "ദാമോദരം തർപയാമി ॥"
           },
-          "action": "offer water",
-          "meaning": "I satisfy Dāmodara. (The twelve names are the forms of Viṣṇu presiding over the twelve months.)",
+          "action": "Offer water through your fingertips.",
+          "meaning": "I offer water to Dāmodara.",
           "audio": "/audio/872b12dcea.m4a"
         },
         {
           "kind": "note",
-          "text": "Then perform ācamanam (three sips and the twelve names)."
+          "text": "Now do the ācamanam: three sips with the three names, then the twelve names."
         },
         {
           "kind": "mantra",
@@ -1458,17 +1596,37 @@
             "telugu": "ఓం తత్ సత్ బ్రహ్మార్పణం అస్తు ॥",
             "malayalam": "ഓം തത് സത് ബ്രഹ്മാർപണം അസ്തു ॥"
           },
-          "action": "one more offering of water from the palm",
+          "action": "Make one more offering of water from your palm.",
           "meaning": "Om, That is the Truth — may this be an offering to Brahman.",
           "audio": "/audio/16f59cef98.m4a"
         }
+      ],
+      "todo": [
+        "Squat or sit low (kukkuṭāsana). Hold the vessel between the thumb and index finger of your left hand.",
+        "Join both palms facing upward.",
+        "For each name, pour water into the hollow of your joined palms and recite.",
+        "Let the water run out through the fingertips of both hands (the deva-tīrtha) onto the ground or a plate.",
+        "This is like the offering to the Sun, but you do not rise on your heels.",
+        {
+          "text": "Offer to the nine planets (grahas) first, then to the twelve names.",
+          "tradition": [
+            "smarta"
+          ]
+        },
+        {
+          "text": "Offer to the twelve names only.",
+          "tradition": [
+            "srivaishnava"
+          ]
+        },
+        "The twelve names are forms of Viṣṇu, one for each month."
       ]
     },
     {
       "id": "asanam",
       "title": {
         "sa": "Japasthala prokṣaṇam · Āsanam",
-        "en": "Sprinkling the place of japa; the seat mantra"
+        "en": "Preparing your place; the seat mantra"
       },
       "section": "purvanga",
       "facing": {
@@ -1476,7 +1634,6 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Sprinkle a little water on a clean spot for the japa with *oṃ bhūr bhuvas suvaḥ*. Stand in the sprinkled area facing east — west in the evening. Nyāsa (head – nose – heart – añjali), then recite the seat mantra with hands in añjali. Some Smārtas first add a prayer to the earth to clear the spot of obstructing beings.",
       "sources": [
         "sandhya.pdf p8",
         "Kidambi p33–34, p65–66, p97–98",
@@ -1493,7 +1650,7 @@
             "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।",
             "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।"
           },
-          "action": "sprinkle water on the place where you will sit for japa",
+          "action": "Sprinkle water on the place where you will sit for japa.",
           "meaning": "Om, earth, atmosphere, heaven."
         },
         {
@@ -1510,7 +1667,7 @@
             "telugu": "అపసర్పంతు తే భూతా యే భూతా భూమిసంస్థితాః ।\nయే భూతా విఘ్నకర్తారస్ తే గచ్ఛంతు శివాజ్ఞయా ॥",
             "malayalam": "അപസർപന്തു തേ ഭൂതാ യേ ഭൂതാ ഭൂമിസംസ്ഥിതാഃ ।\nയേ ഭൂതാ വിഘ്നകർതാരസ് തേ ഗച്ഛന്തു ശിവാജ്ഞയാ ॥"
           },
-          "action": "bhūmi prārthanā: meditate while reciting",
+          "action": "Say this prayer to the earth, meditating on its meaning.",
           "meaning": "May the beings that dwell on this ground move away; may those beings that cause obstacles depart by the command of Śiva.",
           "audio": "/audio/6869005944.m4a"
         },
@@ -1524,8 +1681,8 @@
             "telugu": "ఆసన మంత్రస్య పృథివ్యా మేరుపృష్ఠ ఋషిః । సుతలం ఛందః । శ్రీ కూర్మో దేవతా । ఆసనే వినియోగః ॥",
             "malayalam": "ആസന മന്ത്രസ്യ പൃഥിവ്യാ മേരുപൃഷ്ഠ ഋഷിഃ । സുതലം ഛന്ദഃ । ശ്രീ കൂർമോ ദേവതാ । ആസനേ വിനിയോഗഃ ॥"
           },
-          "action": "nyāsa: touch head (ṛṣi), tip of nose (chandas), heart (devatā); then añjali (viniyoga)",
-          "meaning": "Of the seat mantra, Merupṛṣṭha (the back of Mount Meru, addressed to Pṛthivī) is the seer, sutala the metre, Śrī Kūrma (the Tortoise) the deity; it is applied for the seat.",
+          "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
+          "meaning": "Of the seat mantra, Merupṛṣṭha (the back of Mount Meru, addressed to Pṛthivī) is the seer, sutala the metre, Śrī Kūrma (the Tortoise) the deity; it is used for the seat.",
           "audio": "/audio/ae3b72f428.m4a"
         },
         {
@@ -1538,21 +1695,31 @@
             "telugu": "పృథ్వి త్వయా ధృతా లోకా దేవి త్వం విష్ణునా ధృతా ।\nత్వం చ ధారయ మాం దేవి పవిత్రం కురు చాసనం ॥",
             "malayalam": "പൃഥ്വി ത്വയാ ധൃതാ ലോകാ ദേവി ത്വം വിഷ്ണുനാ ധൃതാ ।\nത്വം ച ധാരയ മാം ദേവി പവിത്രം കുരു ചാസനം ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "O Mother Earth, by you the worlds are supported, and you, O Goddess, are supported by Viṣṇu. Support me too, O Goddess, and purify this seat.",
           "audio": "/audio/7d37c343e3.m4a"
         }
+      ],
+      "todo": [
+        "Sprinkle a little water on a clean spot where you will do the *japa* (quiet repeating of a mantra), reciting *oṃ bhūr bhuvas suvaḥ*.",
+        "Stand on the sprinkled spot.",
+        {
+          "text": "You may first say the optional prayer to the earth below.",
+          "tradition": [
+            "smarta"
+          ]
+        },
+        "Do the nyāsa, as in Prokṣaṇam, then recite the seat mantra with your palms joined in añjali."
       ]
     },
     {
       "id": "uttaranga-acamanam",
       "title": {
         "sa": "Ācamanam (uttarāṅga-ārambhe)",
-        "en": "Ācamanam at the start of the Uttarāṅgam"
+        "en": "Ācamanam at the start of the Gāyatrī part"
       },
       "section": "uttaranga",
       "optional": true,
-      "intro": "Several texts begin the Gāyatrī-japa portion (Uttarāṅgam) with a fresh ācamanam — sip water three times from the brāhma-tīrtha — followed by the Keśavādi aṅga-nyāsam as at the start; Smārta texts add the Gaṇapati dhyānam. Kidambi goes straight from the āsana mantra to prāṇāyāma and the japa saṅkalpam.",
       "sources": [
         "sandhya.pdf p8",
         "Chakravarthy p29–30",
@@ -1570,7 +1737,7 @@
             "telugu": "ఓం అచ్యుతాయ నమః",
             "malayalam": "ഓം അച്യുതായ നമഃ"
           },
-          "action": "pour a little water into the right palm and swallow it",
+          "action": "Pour a little water into your right palm and swallow it.",
           "meaning": "Salutations to Acyuta, the unfallen, unchanging one.",
           "audio": "/audio/ddf14c38a5.m4a"
         },
@@ -1584,7 +1751,7 @@
             "telugu": "ఓం అనంతాయ నమః",
             "malayalam": "ഓം അനന്തായ നമഃ"
           },
-          "action": "again pour water and swallow",
+          "action": "Pour water into your palm again and swallow it.",
           "meaning": "Salutations to Ananta, the infinite one.",
           "audio": "/audio/be1844c3a2.m4a"
         },
@@ -1598,13 +1765,9 @@
             "telugu": "ఓం గోవిందాయ నమః",
             "malayalam": "ഓം ഗോവിന്ദായ നമഃ"
           },
-          "action": "again pour water and swallow; wash the hand and wipe the lips",
+          "action": "Pour water once more and swallow it. Then wash your hand and wipe your lips as described in the first step.",
           "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
           "audio": "/audio/3aa63e480a.m4a"
-        },
-        {
-          "kind": "note",
-          "text": "Then touch the limbs with the twelve names *keśavāya namaḥ … dāmodarāya namaḥ* as in Aṅga-nyāsam."
         },
         {
           "kind": "mantra",
@@ -1619,9 +1782,20 @@
             "telugu": "శుక్లాంబరధరం విష్ణుం శశివర్ణం చతుర్భుజం ।\nప్రసన్నవదనం ధ్యాయేత్ సర్వవిఘ్నోపశాంతయే ॥",
             "malayalam": "ശുക്ലാംബരധരം വിഷ്ണും ശശിവർണം ചതുർഭുജം ।\nപ്രസന്നവദനം ധ്യായേത് സർവവിഘ്നോപശാന്തയേ ॥"
           },
-          "action": "gently tap the temples with the fists, five times, once after each phrase",
-          "meaning": "The all-pervading Lord is to be meditated upon for the removal of obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced.",
+          "action": "Tap your temples gently with your fists, once after each phrase (five times in all).",
+          "meaning": "The all-pervading Lord Viṣṇu is to be meditated upon for the removal of all obstacles — clad in white garments, resplendent like the moon, four-armed and cheerful-faced.",
           "audio": "/audio/284018f4bf.m4a"
+        }
+      ],
+      "todo": [
+        "Some families begin the Gāyatrī part with a fresh ācamanam. Do it now if yours does.",
+        "Take a small sip of water and swallow it with each of the three names, as in the first Ācamanam step.",
+        "Then touch your body with the twelve names, as in the Aṅga-nyāsam step.",
+        {
+          "text": "Then say the Gaṇapati verse and tap your temples, as in the Removing obstacles step.",
+          "tradition": [
+            "smarta"
+          ]
         }
       ]
     },
@@ -1632,7 +1806,6 @@
         "en": "Resolve for the Gāyatrī japa"
       },
       "section": "uttaranga",
-      "intro": "Perform prāṇāyāma three times, touch the right ear, and take the saṅkalpa posture: left palm upturned on the right thigh, right palm over it (brahmāñjali). Recite the saṅkalpa for your tradition, naming the number of times you will recite the Gāyatrī. Then release the hands.",
       "sources": [
         "sandhya.pdf p8–9",
         "Kidambi p34, p66–67, p98",
@@ -1652,8 +1825,9 @@
             "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
           "repeat": 3,
-          "action": "prāṇāyāma, three rounds",
-          "meaning": "Om — the material world; Om — the realm of mind; Om — the realm of light; Om — the realm of vastness; Om — the realm of creative delight; Om — the realm of unobstructed will; Om — the realm of the highest Truth. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. He is in the waters, in light, in flavour, in the nectar of immortality, and pervades the three realms — physical, mental and spiritual. All this is denoted by the Praṇava."
+          "action": "Recite silently while holding your breath, as in the Prāṇāyāmam step.",
+          "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
+          "unit": "rounds"
         },
         {
           "kind": "mantra",
@@ -1668,7 +1842,7 @@
             "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యా {japaCount} వారం గాయత్రీ మహామంత్ర జపం కరిష్యే ॥",
             "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ {japaCount} വാരം ഗായത്രീ മഹാമന്ത്ര ജപം കരിഷ്യേ ॥"
           },
-          "action": "saṅkalpa posture",
+          "action": "Say the saṅkalpa in the saṅkalpa posture.",
           "meaning": "For the absolution of all my sins and to invoke the grace of the Supreme Lord, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the great Gāyatrī mantra {japaCount} times."
         },
         {
@@ -1684,23 +1858,28 @@
             "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా {japaCount} వారం గాయత్రీ మంత్ర జపం కరిష్యే ॥",
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ {japaCount} വാരം ഗായത്രീ മന്ത്ര ജപം കരിഷ്യേ ॥"
           },
-          "action": "saṅkalpa posture",
+          "action": "Say the saṅkalpa in the saṅkalpa posture.",
           "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the Gāyatrī mantra {japaCount} times."
         },
         {
           "kind": "note",
-          "text": "Say the count in Sanskrit: *aṣṭottara-śata-vāraṃ* (108), *aṣṭāviṃśati-vāraṃ* (28) or *daśa-vāraṃ* (10). Conventional counts are 108, 28 or at least 10 (Chakravarthy also lists 32 and 1008). Set your count in Settings."
+          "text": "Say the count in Sanskrit: *aṣṭottara-śata-vāraṃ* for 108, *aṣṭāviṃśati-vāraṃ* for 28, or *daśa-vāraṃ* for 10. You can change your count in Settings."
         }
+      ],
+      "todo": [
+        "Do prāṇāyāma three times, as in the Prāṇāyāmam step.",
+        "Touch your right ear and take the saṅkalpa posture.",
+        "Say the saṅkalpa for your tradition, naming how many times you will recite the Gāyatrī.",
+        "Then release your hands."
       ]
     },
     {
       "id": "pranayama-nyasam",
       "title": {
         "sa": "Prāṇāyāma-mantra nyāsam",
-        "en": "Nyāsa for the prāṇāyāma mantra"
+        "en": "Touching the body before prāṇāyāma"
       },
       "section": "uttaranga",
-      "intro": "Touch the top of the head, the tip of the nose and the chest with the right fingers as each line names the seer, metre and deity — first for the Praṇava, then the seven vyāhṛtis, the Gāyatrī, and the Gāyatrī-śiras. Then, with hands in añjali, meditate on Gāyatrī with the *Muktāvidruma* verse, touch the body from head to foot with *Omāpo jyotī*, salute the Lord in the solar orb, and perform prāṇāyāma three times.",
       "sources": [
         "Kidambi p35–37, p67–69, p99–101",
         "Chakravarthy p32–34",
@@ -1719,7 +1898,7 @@
             "telugu": "ప్రణవస్య ఋషిర్ బ్రహ్మా ।",
             "malayalam": "പ്രണവസ്യ ഋഷിർ ബ്രഹ്മാ ।"
           },
-          "action": "touch the top of the head",
+          "action": "Touch the top of your head.",
           "meaning": "Of the Praṇava (Om) the seer is Brahmā.",
           "audio": "/audio/807bb11605.m4a"
         },
@@ -1733,7 +1912,7 @@
             "telugu": "దేవీ గాయత్రీ ఛందః ।",
             "malayalam": "ദേവീ ഗായത്രീ ഛന്ദഃ ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "The metre is Devī Gāyatrī.",
           "audio": "/audio/1f73467cc5.m4a"
         },
@@ -1747,7 +1926,7 @@
             "telugu": "పరమాత్మా దేవతా ।",
             "malayalam": "പരമാത്മാ ദേവതാ ।"
           },
-          "action": "touch the chest",
+          "action": "Touch your heart.",
           "meaning": "The deity is the Supreme Self.",
           "audio": "/audio/0c7398fd44.m4a"
         },
@@ -1761,7 +1940,7 @@
             "telugu": "భూరాది సప్త వ్యాహృతీనాం అత్రి భృగు కుత్స వసిష్ఠ గౌతమ కాశ్యప ఆంగిరస ఋషయః ।",
             "malayalam": "ഭൂരാദി സപ്ത വ്യാഹൃതീനാം അത്രി ഭൃഗു കുത്സ വസിഷ്ഠ ഗൗതമ കാശ്യപ ആംഗിരസ ഋഷയഃ ।"
           },
-          "action": "touch the top of the head",
+          "action": "Touch the top of your head.",
           "meaning": "Of the seven vyāhṛtis beginning with bhūḥ the seers are Atri, Bhṛgu, Kutsa, Vasiṣṭha, Gautama, Kāśyapa and Āṅgirasa.",
           "audio": "/audio/e66c8ef22f.m4a"
         },
@@ -1775,7 +1954,7 @@
             "telugu": "గాయత్రీ ఉష్ణిక్ అనుష్టుప్ బృహతీ పంక్తి త్రిష్టుప్ జగత్యః ఛందాగుంసి ।",
             "malayalam": "ഗായത്രീ ഉഷ്ണിക് അനുഷ്ടുപ് ബൃഹതീ പങ്ക്തി ത്രിഷ്ടുപ് ജഗത്യഃ ഛന്ദാഗുംസി ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "Their metres are gāyatrī, uṣṇik, anuṣṭup, bṛhatī, paṅkti, triṣṭup and jagatī.",
           "audio": "/audio/151d37a7fa.m4a"
         },
@@ -1789,7 +1968,7 @@
             "telugu": "అగ్ని వాయు అర్క వాగీశ వరుణ ఇంద్ర విశ్వే దేవా దేవతాః ।",
             "malayalam": "അഗ്നി വായു അർക വാഗീശ വരുണ ഇന്ദ്ര വിശ്വേ ദേവാ ദേവതാഃ ।"
           },
-          "action": "touch the chest",
+          "action": "Touch your heart.",
           "meaning": "Their deities are Agni, Vāyu, Arka (the Sun), Vāgīśa (Bṛhaspati), Varuṇa, Indra and the Viśvedevas.",
           "audio": "/audio/8206efa8c9.m4a"
         },
@@ -1803,7 +1982,7 @@
             "telugu": "సావిత్ర్యా ఋషిర్ విశ్వామిత్రః ।",
             "malayalam": "സാവിത്ര്യാ ഋഷിർ വിശ്വാമിത്രഃ ।"
           },
-          "action": "touch the top of the head",
+          "action": "Touch the top of your head.",
           "meaning": "Of the Sāvitrī (Gāyatrī mantra) the seer is Viśvāmitra.",
           "audio": "/audio/f46fad909c.m4a"
         },
@@ -1817,7 +1996,7 @@
             "telugu": "దేవీ గాయత్రీ ఛందః ।",
             "malayalam": "ദേവീ ഗായത്രീ ഛന്ദഃ ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "The metre is Devī Gāyatrī.",
           "audio": "/audio/1f73467cc5.m4a"
         },
@@ -1831,7 +2010,7 @@
             "telugu": "సవితా దేవతా ।",
             "malayalam": "സവിതാ ദേവതാ ।"
           },
-          "action": "touch the chest",
+          "action": "Touch your heart.",
           "meaning": "The deity is Savitā.",
           "audio": "/audio/822bf8c403.m4a"
         },
@@ -1845,7 +2024,7 @@
             "telugu": "గాయత్రీ-శిరసో బ్రహ్మా ఋషిః ।",
             "malayalam": "ഗായത്രീ-ശിരസോ ബ്രഹ്മാ ഋഷിഃ ।"
           },
-          "action": "touch the top of the head",
+          "action": "Touch the top of your head.",
           "meaning": "Of the Gāyatrī-śiras (*Omāpo jyotī…*) the seer is Brahmā.",
           "audio": "/audio/40231a040d.m4a"
         },
@@ -1859,7 +2038,7 @@
             "telugu": "అనుష్టుప్ ఛందః ।",
             "malayalam": "അനുഷ്ടുപ് ഛന്ദഃ ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "The metre is anuṣṭup.",
           "audio": "/audio/918805a1fc.m4a"
         },
@@ -1873,7 +2052,7 @@
             "telugu": "పరమాత్మా దేవతా ।",
             "malayalam": "പരമാത്മാ ദേവതാ ।"
           },
-          "action": "touch the chest",
+          "action": "Touch your heart.",
           "meaning": "The deity is the Supreme Self.",
           "audio": "/audio/0c7398fd44.m4a"
         },
@@ -1887,7 +2066,7 @@
             "telugu": "సర్వేషాం ప్రాణాయామే వినియోగః ॥",
             "malayalam": "സർവേഷാം പ്രാണായാമേ വിനിയോഗഃ ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "All of these are employed in prāṇāyāma.",
           "audio": "/audio/4cdaf689a0.m4a"
         },
@@ -1901,8 +2080,8 @@
             "telugu": "ముక్తావిద్రుమ హేమనీల ధవలచ్ఛాయైర్ ముఖైస్ త్రీక్షణైః\nయుక్తాం ఇందుకలా నిబద్ధ మకుటాం తత్త్వార్థ వర్ణాత్మికాం ।\nగాయత్రీం వరదాభయాం కుశకశం శుభ్రం కపాలం గుణం\nశంఖం చక్రం అథారవింద యుగలం హస్తైర్ వహంతీం భజే ॥",
             "malayalam": "മുക്താവിദ്രുമ ഹേമനീല ധവലച്ഛായൈർ മുഖൈസ് ത്രീക്ഷണൈഃ\nയുക്താം ഇന്ദുകലാ നിബദ്ധ മകുടാം തത്ത്വാർഥ വർണാത്മികാം ।\nഗായത്രീം വരദാഭയാം കുശകശം ശുഭ്രം കപാലം ഗുണം\nശംഖം ചക്രം അഥാരവിന്ദ യുഗലം ഹസ്തൈർ വഹന്തീം ഭജേ ॥"
           },
-          "action": "hands in añjali; meditate on the form of Gāyatrī",
-          "meaning": "I worship Gāyatrī — whose five faces have the hues of pearl, coral, gold, sapphire and white, each with three eyes; whose crown is bound with the crescent moon; who is the very letters that embody the supreme truth; who bears in her hands the boon-gesture and the fear-dispelling gesture, kuśa grass and whip, a white skull, the noose, conch, discus and a pair of lotuses.",
+          "action": "Say this with your palms joined, meditating on the form of Gāyatrī.",
+          "meaning": "I worship Gāyatrī: five-faced (pearl, coral, gold, sapphire and white), three-eyed, crowned with the crescent moon, the very letters of supreme truth. In her hands she holds the boon and protection gestures, kuśa grass and whip, a white skull, noose, conch, discus and two lotuses.",
           "audio": "/audio/e23507b939.m4a"
         },
         {
@@ -1915,8 +2094,8 @@
             "telugu": "ఓం ఆపో॒ జ్యోతీ॒ రసో॒ఽమృతం॒ బ్రహ్మ॒ భూర్ భువ॒స్సువ॒రోం ॥",
             "malayalam": "ഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
-          "action": "with both hands gently touch the body from head to foot (ātma-pariśuddhi)",
-          "meaning": "Om is the waters, the light, the essence, the nectar of immortality, Brahman — earth, mid-region and heaven; Om."
+          "action": "Gently touch your body from head to foot with both hands.",
+          "meaning": "Om is the waters, the light, the essence, the nectar of immortality, Brahman: earth, atmosphere and heaven; Om."
         },
         {
           "kind": "mantra",
@@ -1928,8 +2107,8 @@
             "telugu": "అర్కమండల మధ్యస్థం సూర్యకోటి సమప్రభం ।\nబ్రహ్మాది సేవ్య పాదాబ్జం నౌమి బ్రహ్మ రమాసఖం ॥",
             "malayalam": "അർകമണ്ഡല മധ്യസ്ഥം സൂര്യകോടി സമപ്രഭം ।\nബ്രഹ്മാദി സേവ്യ പാദാബ്ജം നൗമി ബ്രഹ്മ രമാസഖം ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "I bow to Brahman, the companion of Ramā (Lakṣmī), who stands in the middle of the solar orb, radiant as ten million suns, whose lotus feet are served by Brahmā and the other gods.",
+          "action": "Say this with your palms joined.",
+          "meaning": "I bow to Brahman, the companion of Ramā (Lakṣmī), who stands in the middle of the disc of the Sun, radiant as ten million suns, whose lotus feet are served by Brahmā and the other gods.",
           "audio": "/audio/1fb577460d.m4a"
         },
         {
@@ -1943,13 +2122,22 @@
             "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
           "repeat": 3,
-          "action": "prāṇāyāma, three rounds",
-          "meaning": "Om — the seven worlds. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. Om is the waters, the light, the essence, the nectar of immortality, Brahman — the three realms; Om."
+          "action": "Recite silently while holding your breath, as in the Prāṇāyāmam step.",
+          "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
+          "unit": "rounds"
         },
         {
           "kind": "note",
-          "text": "It is also the practice to recite this prāṇāyāma mantra ten times (without breath-control) instead of performing prāṇāyāma three times (Kidambi)."
+          "text": "You may instead recite this prāṇāyāma mantra ten times, without holding your breath, in place of three rounds of prāṇāyāma."
         }
+      ],
+      "todo": [
+        "Touch the top of your head, the tip of your nose and your heart with your right fingers as each line names the seer, metre and deity.",
+        "Do this first for the Praṇava (the syllable Om), then for the seven vyāhṛtis, the Gāyatrī, and the Gāyatrī-śiras.",
+        "Then, with palms joined in añjali, meditate on Gāyatrī using the *muktāvidruma* verse.",
+        "Touch your body from head to foot with *oṃ āpo jyotī…*.",
+        "Bow to the Lord in the disc of the Sun.",
+        "Finally, do prāṇāyāma three times again."
       ]
     },
     {
@@ -1959,7 +2147,6 @@
         "en": "Invocation of Gāyatrī"
       },
       "section": "uttaranga",
-      "intro": "Nyāsa: touch the head, nose and chest. Then with hands in añjali recite the invocation. At each *āvāhayāmi* open the joined palms and move both hands in a circle inward towards the heart (āvāhana mudrā), returning to añjali — inviting the Goddess to be seated in the lotus of the heart.",
       "sources": [
         "sandhya.pdf p10",
         "Kidambi p37–39, p69–71, p101–103",
@@ -1978,7 +2165,7 @@
             "telugu": "ఆయాతు ఇతి అనువాకస్య వామదేవ ఋషిః ।",
             "malayalam": "ആയാതു ഇതി അനുവാകസ്യ വാമദേവ ഋഷിഃ ।"
           },
-          "action": "touch the top of the head",
+          "action": "Touch the top of your head.",
           "meaning": "Of the anuvāka beginning *āyātu* the seer is Vāmadeva.",
           "audio": "/audio/0ebafd88e5.m4a"
         },
@@ -1992,7 +2179,7 @@
             "telugu": "అనుష్టుప్ ఛందః ।",
             "malayalam": "അനുഷ്ടുപ് ഛന്ദഃ ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "The metre is anuṣṭup.",
           "audio": "/audio/918805a1fc.m4a"
         },
@@ -2006,7 +2193,7 @@
             "telugu": "గాయత్రీ దేవతా ।",
             "malayalam": "ഗായത്രീ ദേവതാ ।"
           },
-          "action": "touch the chest",
+          "action": "Touch your heart.",
           "meaning": "The deity is Gāyatrī.",
           "audio": "/audio/1329cbc871.m4a"
         },
@@ -2020,8 +2207,8 @@
             "telugu": "గాయత్రీ ఆవాహనే వినియోగః ॥",
             "malayalam": "ഗായത്രീ ആവാഹനേ വിനിയോഗഃ ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "It is employed in the invocation of Gāyatrī.",
+          "action": "Say this with your palms joined.",
+          "meaning": "It is used for the invocation of Gāyatrī.",
           "audio": "/audio/49ade4bfc9.m4a"
         },
         {
@@ -2034,7 +2221,7 @@
             "telugu": "ఆయా॑తు॒ వర॑దా దే॒వీ॒ అ॒క్షరం॑ బ్రహ్మ॒సంమి॑తం ।\nగా॒య॒త్రీం᳚ ఛంద॑సాం మా॒తేదం బ్ర॑హ్మ జు॒షస్వ॑ నః ॥",
             "malayalam": "ആയാ॑തു॒ വര॑ദാ ദേ॒വീ॒ അ॒ക്ഷരം॑ ബ്രഹ്മ॒സംമി॑തം ।\nഗാ॒യ॒ത്രീം᳚ ഛന്ദ॑സാം മാ॒തേദം ബ്ര॑ഹ്മ ജു॒ഷസ്വ॑ നഃ ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "May the boon-conferring divine Gāyatrī come here, she who is the imperishable, equal to Brahman; O Gāyatrī, mother of the metres, favour us with this knowledge of Brahman."
         },
         {
@@ -2047,8 +2234,8 @@
             "telugu": "ఓజో᳚సి॒ సహో᳚సి॒ బలం॑ అసి॒ భ్రాజో᳚సి దే॒వానాం॒ ధామ॒ నామా॑సి॒ విశ్వం॑ అసి వి॒శ్వాయు॒స్సర్వం॑ అసి స॒ర్వాయుర్ అభిభూరోం ॥",
             "malayalam": "ഓജോ᳚സി॒ സഹോ᳚സി॒ ബലം॑ അസി॒ ഭ്രാജോ᳚സി ദേ॒വാനാം॒ ധാമ॒ നാമാ॑സി॒ വിശ്വം॑ അസി വി॒ശ്വായു॒സ്സർവം॑ അസി സ॒ർവായുർ അഭിഭൂരോം ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "You are vigour, you are might, you are strength, you are splendour; you are the abode and the name of the gods; you are the universe and the life of the universe; you are everything and the life of everything; you are the conqueror of all — Om. I invoke your presence in the form of the Praṇava."
+          "action": "Say this with your palms joined.",
+          "meaning": "You are vigour, you are might, you are strength, you are splendour; you are the abode and the name of the gods; you are the universe and the life of the universe; you are everything and the life of everything; you are the conqueror of all — Om. I invoke you in the form of Om."
         },
         {
           "kind": "mantra",
@@ -2060,7 +2247,7 @@
             "telugu": "గాయత్రీం ఆ॑వాహయా॒మి ।",
             "malayalam": "ഗായത്രീം ആ॑വാഹയാ॒മി ।"
           },
-          "action": "āvāhana mudrā: open the palms and circle both hands towards the heart",
+          "action": "Make the āvāhana mudrā: open your palms and circle both hands towards your heart.",
           "meaning": "I invoke Gāyatrī (the Goddess of the morning)."
         },
         {
@@ -2073,7 +2260,7 @@
             "telugu": "సావిత్రీం ఆ॑వాహయా॒మి ।",
             "malayalam": "സാവിത്രീം ആ॑വാഹയാ॒മി ।"
           },
-          "action": "repeat the āvāhana mudrā",
+          "action": "Make the āvāhana mudrā again.",
           "meaning": "I invoke Sāvitrī (the Goddess of midday)."
         },
         {
@@ -2086,19 +2273,25 @@
             "telugu": "సరస్వతీం ఆ॑వాహయా॒మి ॥",
             "malayalam": "സരസ്വതീം ആ॑വാഹയാ॒മി ॥"
           },
-          "action": "repeat the āvāhana mudrā",
+          "action": "Make the āvāhana mudrā again.",
           "meaning": "I invoke Sarasvatī (the Goddess of the evening)."
         }
+      ],
+      "todo": [
+        "Do the nyāsa, as in Prokṣaṇam: touch your head, nose and heart.",
+        "With palms joined in añjali, recite the invocation.",
+        "At each *āvāhayāmi*, open your joined palms and move both hands in a circle inward towards your heart (the *āvāhana mudrā*), then return to añjali.",
+        "This invites the Goddess to sit in the lotus of your heart.",
+        "Recite all three invocations: Gāyatrī, Sāvitrī and Sarasvatī."
       ]
     },
     {
       "id": "kala-dhyanam",
       "title": {
         "sa": "Gāyatrī dhyānam",
-        "en": "Meditation on Gāyatrī for the time of day"
+        "en": "Meditation on Gāyatrī for your time of day"
       },
       "section": "uttaranga",
-      "intro": "With hands in añjali, meditate on the Goddess in the form proper to the hour — Gāyatrī in the morning, Sāvitrī at noon, Sarasvatī in the evening — and then on Savitā, the divine impeller of our intellect.",
       "sources": [
         "sandhya.pdf p10–11",
         "Kidambi p39–40, p71–72, p103–104",
@@ -2118,8 +2311,8 @@
             "telugu": "ప్రాతర్ ధ్యాయామి గాయత్రీం రవిమండల మధ్యగాం ।\nఋగ్వేదం ఉచ్చారయంతీం రక్తవర్ణాం కుమారికాం ।\nఅక్షమాలాకరాం బ్రహ్మదైవత్యాం హంసవాహనాం ॥",
             "malayalam": "പ്രാതർ ധ്യായാമി ഗായത്രീം രവിമണ്ഡല മധ്യഗാം ।\nഋഗ്വേദം ഉച്ചാരയന്തീം രക്തവർണാം കുമാരികാം ।\nഅക്ഷമാലാകരാം ബ്രഹ്മദൈവത്യാം ഹംസവാഹനാം ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "In the morning I meditate on Gāyatrī in the middle of the solar orb — a young maiden, red in colour, reciting the Ṛg Veda, holding a rosary, whose deity is Brahmā, riding a swan.",
+          "action": "Say this with your palms joined.",
+          "meaning": "In the morning I meditate on Gāyatrī in the middle of the disc of the Sun — a young maiden, red in colour, reciting the Ṛg Veda, holding a rosary, whose deity is Brahmā, riding a swan.",
           "audio": "/audio/a267c3fbde.m4a"
         },
         {
@@ -2135,8 +2328,8 @@
             "telugu": "మధ్యందినే తు సావిత్రీం రవిమండల మధ్యగాం ।\nయజుర్వేదం వ్యాహరంతీం శ్వేతాం శూలకరాం శివాం ।\nయువతీం రుద్రదైవత్యాం ధ్యాయామి వృషవాహనాం ॥",
             "malayalam": "മധ്യന്ദിനേ തു സാവിത്രീം രവിമണ്ഡല മധ്യഗാം ।\nയജുർവേദം വ്യാഹരന്തീം ശ്വേതാം ശൂലകരാം ശിവാം ।\nയുവതീം രുദ്രദൈവത്യാം ധ്യായാമി വൃഷവാഹനാം ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "At midday I meditate on Sāvitrī in the middle of the solar orb — a young woman, white, auspicious, reciting the Yajur Veda, holding a trident, whose deity is Rudra, riding a bull.",
+          "action": "Say this with your palms joined.",
+          "meaning": "At midday I meditate on Sāvitrī in the middle of the disc of the Sun — a young woman, white, auspicious, reciting the Yajur Veda, holding a trident, whose deity is Rudra, riding a bull.",
           "audio": "/audio/03d8d8f756.m4a"
         },
         {
@@ -2152,8 +2345,8 @@
             "telugu": "సాయం సరస్వతీం శ్యామాం రవిమండల మధ్యగాం ।\nసామవేదం వ్యాహరంతీం చక్రాయుధధరాం శుభాం ।\nధ్యాయామి విష్ణుదైవత్యాం వృద్ధాం గరుడవాహనాం ॥",
             "malayalam": "സായം സരസ്വതീം ശ്യാമാം രവിമണ്ഡല മധ്യഗാം ।\nസാമവേദം വ്യാഹരന്തീം ചക്രായുധധരാം ശുഭാം ।\nധ്യായാമി വിഷ്ണുദൈവത്യാം വൃദ്ധാം ഗരുഡവാഹനാം ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "In the evening I meditate on Sarasvatī in the middle of the solar orb — dark-hued, aged, auspicious, reciting the Sāma Veda, holding the discus, whose deity is Viṣṇu, riding Garuḍa.",
+          "action": "Say this with your palms joined.",
+          "meaning": "In the evening I meditate on Sarasvatī in the middle of the disc of the Sun — dark-hued, aged, auspicious, reciting the Sāma Veda, holding the discus, whose deity is Viṣṇu, riding Garuḍa.",
           "audio": "/audio/1baab8bba2.m4a"
         },
         {
@@ -2166,8 +2359,8 @@
             "telugu": "యో దేవస్సవితాఽస్మాకం ధియో ధర్మాది గోచరాః ।\nప్రేరయేత్ తస్య యద్ భర్గస్ తద్ వరేణ్యం ఉపాస్మహే ॥",
             "malayalam": "യോ ദേവസ്സവിതാഽസ്മാകം ധിയോ ധർമാദി ഗോചരാഃ ।\nപ്രേരയേത് തസ്യ യദ് ഭർഗസ് തദ് വരേണ്യം ഉപാസ്മഹേ ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "We contemplate that adorable light of the divine Savitā, who impels our thoughts towards dharma and the other aims of life.",
+          "action": "Say this with your palms joined.",
+          "meaning": "We meditate on that adorable light of the divine Savitā, who guides our thoughts towards dharma and the other aims of life.",
           "audio": "/audio/41ce71a61e.m4a"
         },
         {
@@ -2181,10 +2374,32 @@
             "telugu": "ఆదిత్యమండలే ధ్యాయేత్ పరమాత్మానం అవ్యయం ।\nవిష్ణుం చతుర్భుజం రత్నకుండలైర్ మండితాంగనం ॥\nసర్వరత్న సమాయుక్త సర్వాభరణ భూషితాం ।\nఏవం ధ్యాత్వా జపేన్ నిత్యం మంత్రం అష్టోత్తరం శతం ॥",
             "malayalam": "ആദിത്യമണ്ഡലേ ധ്യായേത് പരമാത്മാനം അവ്യയം ।\nവിഷ്ണും ചതുർഭുജം രത്നകുണ്ഡലൈർ മണ്ഡിതാംഗനം ॥\nസർവരത്ന സമായുക്ത സർവാഭരണ ഭൂഷിതാം ।\nഏവം ധ്യാത്വാ ജപേൻ നിത്യം മന്ത്രം അഷ്ടോത്തരം ശതം ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "One should meditate in the solar orb upon the imperishable Supreme Self, Viṣṇu — four-armed, his body adorned with jewelled earrings, decked with every gem and ornament; having meditated thus one should daily recite the mantra 108 times.",
+          "action": "Say this with your palms joined.",
+          "meaning": "Meditate in the disc of the Sun on the imperishable Supreme Self, Viṣṇu: four-armed, his body adorned with jewelled earrings and every ornament. Having meditated thus, recite the mantra daily 108 times.",
           "audio": "/audio/b74f10ce33.m4a"
         }
+      ],
+      "todo": [
+        "Join your palms in añjali.",
+        {
+          "text": "Meditate on Gāyatrī, the goddess of the morning.",
+          "kala": [
+            "pratah"
+          ]
+        },
+        {
+          "text": "Meditate on Sāvitrī, the goddess of midday.",
+          "kala": [
+            "madhyahnika"
+          ]
+        },
+        {
+          "text": "Meditate on Sarasvatī, the goddess of the evening.",
+          "kala": [
+            "sayam"
+          ]
+        },
+        "Then meditate on Savitā, who guides our thoughts."
       ]
     },
     {
@@ -2200,7 +2415,6 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Nyāsa: touch the head, nose and chest. Then the japa itself — the heart of the sandhyā. Cover both hands with the upper cloth (some rest it on the left shoulder); Smārtas hold the sacred thread between the thumbs. Join the hands with the palms facing you and hold them at the level of the face in the morning, the chest at noon and the navel in the evening. Morning and noon japa is done standing, evening japa seated (Chakravarthy). Count on the finger-joints of both hands — one hand for units, the other for tens. Recite silently: with the lips moving but no audible sound (upāṃśu) or purely in the mind (mānasa); the Gāyatrī is never chanted aloud in japa. A few repetitions said correctly, with the pauses, are better than many said hurriedly.",
       "sources": [
         "sandhya.pdf p9–11",
         "Kidambi p39–40, p71–72, p103–104",
@@ -2219,7 +2433,7 @@
             "telugu": "సావిత్ర్యా ఋషిర్ విశ్వామిత్రః ।",
             "malayalam": "സാവിത്ര്യാ ഋഷിർ വിശ്വാമിത്രഃ ।"
           },
-          "action": "touch the top of the head",
+          "action": "Touch the top of your head.",
           "meaning": "Of the Sāvitrī (Gāyatrī mantra) the seer is Viśvāmitra.",
           "audio": "/audio/f46fad909c.m4a"
         },
@@ -2233,7 +2447,7 @@
             "telugu": "దేవీ గాయత్రీ ఛందః ।",
             "malayalam": "ദേവീ ഗായത്രീ ഛന്ദഃ ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "The metre is Devī Gāyatrī.",
           "audio": "/audio/1f73467cc5.m4a"
         },
@@ -2247,7 +2461,7 @@
             "telugu": "సవితా దేవతా ।",
             "malayalam": "സവിതാ ദേവതാ ।"
           },
-          "action": "touch the chest",
+          "action": "Touch your heart.",
           "meaning": "The deity is Savitā.",
           "audio": "/audio/822bf8c403.m4a"
         },
@@ -2261,13 +2475,13 @@
             "telugu": "{kala} సంధ్యా జపే వినియోగః ॥",
             "malayalam": "{kala} സന്ധ്യാ ജപേ വിനിയോഗഃ ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "It is employed in the japa of the {kalaEn} sandhyā."
+          "action": "Say this with your palms joined.",
+          "meaning": "It is used for the japa of the {kalaEn} sandhyā."
         },
         {
           "kind": "note",
           "optional": true,
-          "text": "Kara-nyāsa and aṅga-nyāsa (optional):"
+          "text": "The next thirteen lines are optional hand and body touches (kara-nyāsa and aṅga-nyāsa). Skip them if they are not your practice."
         },
         {
           "kind": "mantra",
@@ -2280,7 +2494,7 @@
             "telugu": "ఓం భూః అంగుష్ఠాభ్యాం నమః ।",
             "malayalam": "ഓം ഭൂഃ അംഗുഷ്ഠാഭ്യാം നമഃ ।"
           },
-          "action": "stroke the thumbs with the index fingers of the same hands",
+          "action": "Touch each thumb with the index finger of the same hand.",
           "audio": "/audio/d20bce1d2d.m4a"
         },
         {
@@ -2294,7 +2508,7 @@
             "telugu": "ఓం భువః తర్జనీభ్యాం నమః ।",
             "malayalam": "ഓം ഭുവഃ തർജനീഭ്യാം നമഃ ।"
           },
-          "action": "stroke the index fingers from palm to tip with the thumbs",
+          "action": "Stroke each index finger from palm to tip with the thumb.",
           "audio": "/audio/0db8e5b16b.m4a"
         },
         {
@@ -2308,7 +2522,7 @@
             "telugu": "ఓం సువః మధ్యమాభ్యాం నమః ।",
             "malayalam": "ഓം സുവഃ മധ്യമാഭ്യാം നമഃ ।"
           },
-          "action": "stroke the middle fingers from palm to tip with the thumbs",
+          "action": "Stroke each middle finger from palm to tip with the thumb.",
           "audio": "/audio/44a95c95e6.m4a"
         },
         {
@@ -2322,7 +2536,7 @@
             "telugu": "ఓం భూః అనామికాభ్యాం నమః ।",
             "malayalam": "ഓം ഭൂഃ അനാമികാഭ്യാം നമഃ ।"
           },
-          "action": "stroke the ring fingers from palm to tip with the thumbs",
+          "action": "Stroke each ring finger from palm to tip with the thumb.",
           "audio": "/audio/242ad9c96e.m4a"
         },
         {
@@ -2336,7 +2550,7 @@
             "telugu": "ఓం భువః కనిష్ఠికాభ్యాం నమః ।",
             "malayalam": "ഓം ഭുവഃ കനിഷ്ഠികാഭ്യാം നമഃ ।"
           },
-          "action": "stroke the little fingers from palm to tip with the thumbs",
+          "action": "Stroke each little finger from palm to tip with the thumb.",
           "audio": "/audio/4f2c0b9859.m4a"
         },
         {
@@ -2350,7 +2564,7 @@
             "telugu": "ఓం సువః కరతల కరపృష్ఠాభ్యాం నమః ।",
             "malayalam": "ഓം സുവഃ കരതല കരപൃഷ്ഠാഭ്യാം നമഃ ।"
           },
-          "action": "touch each palm, then the back of each hand",
+          "action": "Touch each palm, then the back of each hand.",
           "audio": "/audio/505d776e1f.m4a"
         },
         {
@@ -2364,7 +2578,7 @@
             "telugu": "ఓం భూః హృదయాయ నమః ।",
             "malayalam": "ഓം ഭൂഃ ഹൃദയായ നമഃ ।"
           },
-          "action": "touch the heart with the right fist",
+          "action": "Touch your heart with your right fist.",
           "audio": "/audio/9bb382ceaa.m4a"
         },
         {
@@ -2378,7 +2592,7 @@
             "telugu": "ఓం భువః శిరసి స్వాహా ।",
             "malayalam": "ഓം ഭുവഃ ശിരസി സ്വാഹാ ।"
           },
-          "action": "touch the head with the right index finger and thumb joined",
+          "action": "Touch your head with the right index finger and thumb joined.",
           "audio": "/audio/e67d436f54.m4a"
         },
         {
@@ -2392,7 +2606,7 @@
             "telugu": "ఓం సువః శిఖాయై వషట్ ।",
             "malayalam": "ഓം സുവഃ ശിഖായൈ വഷട് ।"
           },
-          "action": "touch the crown of the head with the right hand",
+          "action": "Touch the crown of your head with your right hand.",
           "audio": "/audio/190f724f13.m4a"
         },
         {
@@ -2406,7 +2620,7 @@
             "telugu": "ఓం భూః కవచాయ హుం ।",
             "malayalam": "ഓം ഭൂഃ കവചായ ഹും ।"
           },
-          "action": "cross the arms over the chest and touch the shoulders",
+          "action": "Cross your arms over your chest and touch your shoulders.",
           "audio": "/audio/70361f2d92.m4a"
         },
         {
@@ -2420,7 +2634,7 @@
             "telugu": "ఓం భువః నేత్రాభ్యాం వౌషట్ ।",
             "malayalam": "ഓം ഭുവഃ നേത്രാഭ്യാം വൗഷട് ।"
           },
-          "action": "touch the eyes with the right index and middle fingers",
+          "action": "Touch your eyes with the right index and middle fingers.",
           "audio": "/audio/d54c115ba3.m4a"
         },
         {
@@ -2434,7 +2648,7 @@
             "telugu": "ఓం సువః అస్త్రాయ ఫట్ ।",
             "malayalam": "ഓം സുവഃ അസ്ത്രായ ഫട് ।"
           },
-          "action": "clap the hands three times",
+          "action": "Clap your hands three times.",
           "audio": "/audio/a3b5b9bdf5.m4a"
         },
         {
@@ -2448,7 +2662,7 @@
             "telugu": "ఓం భూర్ భువస్సువరోం ఇతి దిగ్బంధః ॥",
             "malayalam": "ഓം ഭൂർ ഭുവസ്സുവരോം ഇതി ദിഗ്ബന്ധഃ ॥"
           },
-          "action": "snap the fingers in the eight directions around the head",
+          "action": "Snap your fingers in the eight directions around your head.",
           "audio": "/audio/f7e2f25827.m4a"
         },
         {
@@ -2461,13 +2675,59 @@
             "telugu": "ఓం భూర్ భువ॒స్సువః॑ । తత్ స॑వి॒తుర్ వరే᳚ణ్యం॒ । భర్గో॑ దే॒వస్య॑ ధీమహి । ధియో॒ యో నః॑ ప్రచో॒దయా᳚త్ ॥",
             "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ । തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ । ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥"
           },
-          "action": "recite {japaCount} times, silently, hands covered, counting on the finger-joints",
-          "meaning": "Om. Earth, mid-region, heaven. We meditate upon that adorable light of the divine Savitā, the Creator; may He impel our intellect."
+          "action": "Recite {japaCount} times, silently, with your hands covered, counting on your finger-joints.",
+          "meaning": "Om, earth, atmosphere, heaven. We meditate on the adorable light of the divine Savitā; may He guide our thoughts."
         },
         {
           "kind": "note",
-          "text": "In japa the mantra is recited in four sections, each in one breath: *oṃ bhūr bhuvas suvaḥ* | *tat savitur vareṇyaṃ* | *bhargo devasya dhīmahi* | *dhiyo yo naḥ pracodayāt*. *vareṇyaṃ* is pronounced *vareṇiyaṃ* so that the mantra has its full twenty-four syllables (Kidambi)."
+          "text": "In japa the mantra is said in four sections, each in one breath: *oṃ bhūr bhuvas suvaḥ* | *tat savitur vareṇyaṃ* | *bhargo devasya dhīmahi* | *dhiyo yo naḥ pracodayāt*. Say *vareṇyaṃ* as *vareṇiyaṃ*, so that the mantra has its full twenty-four syllables."
         }
+      ],
+      "todo": [
+        "Do the nyāsa, as in Prokṣaṇam: touch your head, nose and heart.",
+        "Cover both hands with your upper cloth (the cloth worn over the shoulders). Some people rest it on the left shoulder.",
+        {
+          "text": "Hold the sacred thread between your thumbs.",
+          "tradition": [
+            "smarta"
+          ]
+        },
+        "Join your hands with the palms facing you.",
+        {
+          "text": "Hold your hands at the level of your face.",
+          "kala": [
+            "pratah"
+          ]
+        },
+        {
+          "text": "Hold your hands at the level of your chest.",
+          "kala": [
+            "madhyahnika"
+          ]
+        },
+        {
+          "text": "Hold your hands at the level of your navel.",
+          "kala": [
+            "sayam"
+          ]
+        },
+        {
+          "text": "Do the japa standing.",
+          "kala": [
+            "pratah",
+            "madhyahnika"
+          ]
+        },
+        {
+          "text": "Do the japa seated.",
+          "kala": [
+            "sayam"
+          ]
+        },
+        "Count on the finger-joints of both hands: one hand for units, the other for tens. You can also use the counter below.",
+        "Recite silently: either with your lips moving but no sound (*upāṃśu*), or only in your mind (*mānasa*).",
+        "In japa the Gāyatrī is never said aloud.",
+        "A few repetitions said correctly, with the pauses, are better than many said hurriedly."
       ]
     },
     {
@@ -2481,7 +2741,6 @@
         "srivaishnava"
       ],
       "optional": true,
-      "intro": "For those who have received samāśrayaṇam from an ācārya. Recite the taniyans of your ācārya-paramparā. Do prāṇāyāma three times using the aṣṭākṣara mantra in place of the prāṇāyāma mantra; then the nyāsa, the dhyāna verse, and the japa of the aṣṭākṣara as many times as resolved for the Gāyatrī. Ahobila Maṭha disciples do this here, before the upasthānam; others after the whole sandhyā (Chakravarthy). Some do it after the Gāyatrī udvāsanam (Kidambi).",
       "sources": [
         "Kidambi p41–43, p73–75, p105–107",
         "Chakravarthy p37–38"
@@ -2498,7 +2757,7 @@
             "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {japaCount} వారం శ్రీ అష్టాక్షర మంత్ర జపం కరిష్యే ॥",
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {japaCount} വാരം ശ്രീ അഷ്ടാക്ഷര മന്ത്ര ജപം കരിഷ്യേ ॥"
           },
-          "action": "saṅkalpa posture (Chakravarthy; Kidambi has no separate saṅkalpa)",
+          "action": "Say the saṅkalpa in the saṅkalpa posture.",
           "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I perform the japa of the eight-syllable mantra {japaCount} times."
         },
         {
@@ -2511,7 +2770,7 @@
             "telugu": "శ్రీమద్ అష్టాక్షర మహామంత్రస్య బదరికాశ్రమవాసీ శ్రీమన్నారాయణ ఋషిః ।",
             "malayalam": "ശ്രീമദ് അഷ്ടാക്ഷര മഹാമന്ത്രസ്യ ബദരികാശ്രമവാസീ ശ്രീമന്നാരായണ ഋഷിഃ ।"
           },
-          "action": "touch the top of the head",
+          "action": "Touch the top of your head.",
           "meaning": "Of the great eight-syllable mantra the seer is Śrīman Nārāyaṇa, dweller in Badarikāśrama.",
           "audio": "/audio/67910039c6.m4a"
         },
@@ -2525,7 +2784,7 @@
             "telugu": "దేవీ గాయత్రీ ఛందః ।",
             "malayalam": "ദേവീ ഗായത്രീ ഛന്ദഃ ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "The metre is Devī Gāyatrī.",
           "audio": "/audio/1f73467cc5.m4a"
         },
@@ -2539,7 +2798,7 @@
             "telugu": "పరమాత్మా శ్రీమన్నారాయణో దేవతా ।",
             "malayalam": "പരമാത്മാ ശ്രീമന്നാരായണോ ദേവതാ ।"
           },
-          "action": "touch the chest",
+          "action": "Touch your heart.",
           "meaning": "The deity is the Supreme Self, Śrīman Nārāyaṇa.",
           "audio": "/audio/27387014ca.m4a"
         },
@@ -2553,8 +2812,8 @@
             "telugu": "శ్రీమన్నారాయణ ప్రీత్యర్థే జపే వినియోగః ॥",
             "malayalam": "ശ്രീമന്നാരായണ പ്രീത്യർഥേ ജപേ വിനിയോഗഃ ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "It is employed in japa for the pleasure of Śrīman Nārāyaṇa.",
+          "action": "Say this with your palms joined.",
+          "meaning": "It is used for japa for the pleasure of Śrīman Nārāyaṇa.",
           "audio": "/audio/efca8e36c2.m4a"
         },
         {
@@ -2567,18 +2826,22 @@
             "telugu": "సవ్యం పాదం ప్రసార్య శ్రితదురితహరం దక్షిణం కుంచయిత్వా\nజానున్యాధాయ సవ్యేతరం ఇతరభుజం నాగభోగే నిధాయ ।\nపశ్చాద్ బాహుద్వయేన ప్రతిభటశమనే ధారయన్ శంఖచక్రే\nదేవీభూషాదిజుష్టో జనయతు జగతాం శర్మ వైకుంఠనాథః ॥",
             "malayalam": "സവ്യം പാദം പ്രസാര്യ ശ്രിതദുരിതഹരം ദക്ഷിണം കുഞ്ചയിത്വാ\nജാനുന്യാധായ സവ്യേതരം ഇതരഭുജം നാഗഭോഗേ നിധായ ।\nപശ്ചാദ് ബാഹുദ്വയേന പ്രതിഭടശമനേ ധാരയൻ ശംഖചക്രേ\nദേവീഭൂഷാദിജുഷ്ടോ ജനയതു ജഗതാം ശർമ വൈകുണ്ഠനാഥഃ ॥"
           },
-          "action": "hands in añjali; meditate on the Lord",
+          "action": "Say this with your palms joined, meditating on the Lord.",
           "meaning": "May the Lord of Vaikuṇṭha, who removes the sins of those who take refuge in him, bring happiness to the worlds — his left foot stretched forward and the right drawn up, his right hand resting on the knee and the other arm laid on the coils of the serpent, holding in his two rear hands the conch and the discus that quell his foes, attended by the Goddess and adorned with his ornaments.",
           "audio": "/audio/cf1e64a00f.m4a"
         },
         {
           "kind": "note",
-          "text": "Now recite the aṣṭākṣara mantra, as imparted by your ācārya, {japaCount} times (or as many times as resolved). The printed texts do not reproduce the mantra itself."
-        },
-        {
-          "kind": "note",
-          "text": "Chakravarthy closes with ācamanam, sprinkling the japa spot with *oṃ bhūr bhuvas suvaḥ*, and *sarvaṃ śrī kṛṣṇārpaṇam astu*."
+          "text": "Now recite the aṣṭākṣara mantra, as taught by your ācārya, {japaCount} times (or as many times as you resolved). It is not printed here."
         }
+      ],
+      "todo": [
+        "This step is only for those who have received initiation (samāśrayaṇam) from an ācārya (teacher).",
+        "Recite the taniyans (verses of praise) of your ācārya-paramparā (line of teachers).",
+        "Do prāṇāyāma three times, using the aṣṭākṣara mantra in place of the prāṇāyāma mantra.",
+        "Then do the nyāsa and the dhyāna verse.",
+        "Recite the aṣṭākṣara mantra as many times as you resolved for the Gāyatrī.",
+        "Do this step at the point your ācārya or family teaches; families differ on where it goes."
       ]
     },
     {
@@ -2588,7 +2851,6 @@
         "en": "Sending off Gāyatrī"
       },
       "section": "uttaranga",
-      "intro": "After the japa perform prāṇāyāma three times, take the saṅkalpa posture and resolve to perform the upasthānam. Then stand up, do the nyāsa and, with hands in añjali, recite *Uttame śikhare*, taking leave of the Goddess (udvāsana mudrā: open the joined palms outward).",
       "sources": [
         "sandhya.pdf p11",
         "Kidambi p42–43, p74–75, p106–107",
@@ -2608,8 +2870,9 @@
             "malayalam": "ഓം ഭൂഃ । ഓം ഭുവഃ । ഓഗും സുവഃ । ഓം മഹഃ । ഓം ജനഃ । ഓം തപഃ । ഓഗും സ॒ത്യം ।\nഓം തത് സ॑വി॒തുർ വരേ᳚ണ്യം॒ ഭർഗോ॑ ദേ॒വസ്യ॑ ധീമഹി । ധിയോ॒ യോ നഃ॑ പ്രചോ॒ദയാ᳚ത് ॥\nഓം ആപോ॒ ജ്യോതീ॒ രസോ॒ഽമൃതം॒ ബ്രഹ്മ॒ ഭൂർ ഭുവ॒സ്സുവ॒രോം ॥"
           },
           "repeat": 3,
-          "action": "prāṇāyāma, three rounds",
-          "meaning": "Om — the seven worlds. May we meditate upon that adorable light of the divine Creator; may He impel our intellect. Om is the waters, the light, the essence, the nectar of immortality, Brahman — the three realms; Om."
+          "action": "Recite silently while holding your breath, as in the Prāṇāyāmam step.",
+          "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
+          "unit": "rounds"
         },
         {
           "kind": "mantra",
@@ -2624,7 +2887,7 @@
             "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యోపస్థానం కరిష్యే ॥",
             "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യോപസ്ഥാനം കരിഷ്യേ ॥"
           },
-          "action": "saṅkalpa posture (brahmāñjali)",
+          "action": "Say the saṅkalpa in the saṅkalpa posture.",
           "meaning": "For the destruction of all my sins and to please the Supreme Lord, I shall perform the upasthānam of the {kalaEn} sandhyā."
         },
         {
@@ -2640,7 +2903,7 @@
             "telugu": "శ్రీ భగవదాజ్ఞయా శ్రీమన్నారాయణ ప్రీత్యర్థం {kala} సంధ్యా ఉపస్థానం కరిష్యే ॥",
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ ഉപസ്ഥാനം കരിഷ്യേ ॥"
           },
-          "action": "saṅkalpa posture (brahmāñjali)",
+          "action": "Say the saṅkalpa in the saṅkalpa posture.",
           "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I shall perform the upasthānam of the {kalaEn} sandhyā."
         },
         {
@@ -2653,7 +2916,7 @@
             "telugu": "ఉత్తమ ఇత్య్ అనువాకస్య వామదేవ ఋషిః ।",
             "malayalam": "ഉത്തമ ഇത്യ് അനുവാകസ്യ വാമദേവ ഋഷിഃ ।"
           },
-          "action": "stand up; touch the top of the head",
+          "action": "Stand up and touch the top of your head.",
           "meaning": "Of the anuvāka beginning *uttame* the seer is Vāmadeva.",
           "audio": "/audio/c54a9c16bd.m4a"
         },
@@ -2667,7 +2930,7 @@
             "telugu": "అనుష్టుప్ ఛందః ।",
             "malayalam": "അനുഷ്ടുപ് ഛന്ദഃ ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "The metre is anuṣṭup.",
           "audio": "/audio/918805a1fc.m4a"
         },
@@ -2681,7 +2944,7 @@
             "telugu": "గాయత్రీ దేవతా ।",
             "malayalam": "ഗായത്രീ ദേവതാ ।"
           },
-          "action": "touch the chest",
+          "action": "Touch your heart.",
           "meaning": "The deity is Gāyatrī.",
           "audio": "/audio/1329cbc871.m4a"
         },
@@ -2695,8 +2958,8 @@
             "telugu": "గాయత్రీ ఉద్వాసనే వినియోగః ॥",
             "malayalam": "ഗായത്രീ ഉദ്വാസനേ വിനിയോഗഃ ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "It is employed in taking leave of Gāyatrī.",
+          "action": "Say this with your palms joined.",
+          "meaning": "It is used for taking leave of Gāyatrī.",
           "audio": "/audio/2db621eb02.m4a"
         },
         {
@@ -2709,7 +2972,7 @@
             "telugu": "ఉ॒త్తమే॑ శిఖ॑రే దే॒వీ॒ భూ॒మ్యాం ప॑ర్వత॒మూర్ధ॑ని ।\nబ్రా॒హ్మణే᳚భ్యో హ్య॑నుజ్ఞా॒నం॒ గ॒చ్ఛ దే॑వి య॒థా సు॑ఖం ॥",
             "malayalam": "ഉ॒ത്തമേ॑ ശിഖ॑രേ ദേ॒വീ॒ ഭൂ॒മ്യാം പ॑ർവത॒മൂർധ॑നി ।\nബ്രാ॒ഹ്മണേ᳚ഭ്യോ ഹ്യ॑നുജ്ഞാ॒നം॒ ഗ॒ച്ഛ ദേ॑വി യ॒ഥാ സു॑ഖം ॥"
           },
-          "action": "hands in añjali; udvāsana mudrā",
+          "action": "Say this with your palms joined, then open them outward (udvāsana mudrā).",
           "meaning": "O Goddess, having granted your leave to the brāhmaṇas, return at your pleasure to your abode on the highest peak, on the summit of the mountain on earth."
         },
         {
@@ -2717,8 +2980,15 @@
           "tradition": [
             "srivaishnava"
           ],
-          "text": "Some perform the aṣṭākṣara japam at this point rather than immediately after the Gāyatrī japam."
+          "text": "Some families do the aṣṭākṣara japam at this point instead of right after the Gāyatrī japam."
         }
+      ],
+      "todo": [
+        "Do prāṇāyāma three times, as in the Prāṇāyāmam step.",
+        "Take the saṅkalpa posture and resolve to do the upasthānam (the Sun salutation in the next step).",
+        "Stand up and do the nyāsa.",
+        "With palms joined in añjali, recite *Uttame śikhare* to take leave of the Goddess.",
+        "Open your joined palms outward (the *udvāsana mudrā*)."
       ]
     },
     {
@@ -2733,7 +3003,6 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Standing with hands in añjali — facing east in the morning and at noon, west in the evening — do the nyāsa for the hour and recite the hymn to the Sun: to Mitra in the morning, to Āditya at noon, to Varuṇa in the evening.",
       "sources": [
         "sandhya.pdf p11–13",
         "Kidambi p43–44, p75–77, p107–108",
@@ -2755,7 +3024,7 @@
             "telugu": "మిత్రస్యేతి ఉపస్థాన మంత్రస్య విశ్వామిత్ర ఋషిః ।",
             "malayalam": "മിത്രസ്യേതി ഉപസ്ഥാന മന്ത്രസ്യ വിശ്വാമിത്ര ഋഷിഃ ।"
           },
-          "action": "touch the top of the head",
+          "action": "Touch the top of your head.",
           "meaning": "Of the upasthāna mantras beginning *mitrasya* the seer is Viśvāmitra.",
           "audio": "/audio/d1d8011bdf.m4a"
         },
@@ -2772,7 +3041,7 @@
             "telugu": "భురిగ్ గాయత్రీ త్రిష్టుప్ ఛందాగుంసి ।",
             "malayalam": "ഭുരിഗ് ഗായത്രീ ത്രിഷ്ടുപ് ഛന്ദാഗുംസി ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "The metres are gāyatrī and triṣṭup.",
           "audio": "/audio/2b502ba333.m4a"
         },
@@ -2789,7 +3058,7 @@
             "telugu": "మిత్రో దేవతా ।",
             "malayalam": "മിത്രോ ദേവതാ ।"
           },
-          "action": "touch the chest",
+          "action": "Touch your heart.",
           "meaning": "The deity is Mitra.",
           "audio": "/audio/760ec38487.m4a"
         },
@@ -2806,8 +3075,8 @@
             "telugu": "ప్రాతస్సంధ్యోపస్థానే వినియోగః ॥",
             "malayalam": "പ്രാതസ്സന്ധ്യോപസ്ഥാനേ വിനിയോഗഃ ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "They are employed in the upasthānam of the morning sandhyā.",
+          "action": "Say this with your palms joined.",
+          "meaning": "They are used in the Sun salutation of the morning sandhyā.",
           "audio": "/audio/c5f78e9168.m4a"
         },
         {
@@ -2823,7 +3092,7 @@
             "telugu": "మి॒త్రస్య॑ చర్షణీ॒ ధృత॒శ్శ్రవో॑ దే॒వస్య॑ సాన॒సిం ।\nస॒త్యం చి॒త్ర శ్ర॑వస్తమం ॥",
             "malayalam": "മി॒ത്രസ്യ॑ ചർഷണീ॒ ധൃത॒ശ്ശ്രവോ॑ ദേ॒വസ്യ॑ സാന॒സിം ।\nസ॒ത്യം ചി॒ത്ര ശ്ര॑വസ്തമം ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "I praise the glory of the divine Mitra, upholder of peoples — glory that is easily won, true and most wondrous to hear."
         },
         {
@@ -2839,7 +3108,7 @@
             "telugu": "మి॒త్రో జనా॑న్ యాతయతి ప్రజా॒నన్ మి॒త్రో దా॑ధార పృథి॒వీం ఉ॒త ద్యాం ।\nమి॒త్రః కృ॒ష్టీర్ అని॑మిషా॒ఽభిచ॑ష్టే స॒త్యాయ॑ హ॒వ్యం ఘృ॒తవ॑ద్ విధేమ ॥",
             "malayalam": "മി॒ത്രോ ജനാ॑ൻ യാതയതി പ്രജാ॒നൻ മി॒ത്രോ ദാ॑ധാര പൃഥി॒വീം ഉ॒ത ദ്യാം ।\nമി॒ത്രഃ കൃ॒ഷ്ടീർ അനി॑മിഷാ॒ഽഭിച॑ഷ്ടേ സ॒ത്യായ॑ ഹ॒വ്യം ഘൃ॒തവ॑ദ് വിധേമ ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "Mitra, all-knowing, sets people to their tasks; Mitra upholds the earth and the heaven. Mitra gazes with unclosing eyes upon all mankind; to the True One let us offer the oblation soaked in ghee."
         },
         {
@@ -2855,7 +3124,7 @@
             "telugu": "ప్ర స మి॑త్ర॒ మర్తో॑ అస్తు॒ ప్రయ॑స్వా॒న్ యస్త॑ ఆదిత్య॒ శిక్ష॑తి వ్ర॒తేన॑ ।\nన హ॑న్యతే॒ న జీ॑యతే॒ త్వోతో॒ నైనం॒ అగుంహో॑ అశ్నో॒త్య్ అంతి॑తో॒ న దూ॒రాత్ ॥",
             "malayalam": "പ്ര സ മി॑ത്ര॒ മർതോ॑ അസ്തു॒ പ്രയ॑സ്വാ॒ൻ യസ്ത॑ ആദിത്യ॒ ശിക്ഷ॑തി വ്ര॒തേന॑ ।\nന ഹ॑ന്യതേ॒ ന ജീ॑യതേ॒ ത്വോതോ॒ നൈനം॒ അഗുംഹോ॑ അശ്നോ॒ത്യ് അന്തി॑തോ॒ ന ദൂ॒രാത് ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "O Mitra, O Āditya, may the mortal who serves you with his vow and offerings prosper: protected by you he is neither slain nor overcome, and sin does not reach him from near or from far."
         },
         {
@@ -2871,7 +3140,7 @@
             "telugu": "ఆసత్యేనేత్య్ ఆది మంత్రాణాం హిరణ్యస్తూప విశ్వామిత్ర కుత్స వసిష్ఠా ఋషయః ।",
             "malayalam": "ആസത്യേനേത്യ് ആദി മന്ത്രാണാം ഹിരണ്യസ്തൂപ വിശ്വാമിത്ര കുത്സ വസിഷ്ഠാ ഋഷയഃ ।"
           },
-          "action": "touch the top of the head",
+          "action": "Touch the top of your head.",
           "meaning": "Of the mantras beginning *ā satyena* the seers are Hiraṇyastūpa, Viśvāmitra, Kutsa and Vasiṣṭha.",
           "audio": "/audio/ffeee7e56f.m4a"
         },
@@ -2888,7 +3157,7 @@
             "telugu": "త్రిష్టుప్ గాయత్రీ జగతీ ఉష్ణిక్ త్రిష్టుప్ ఛందాగుంసి ।",
             "malayalam": "ത്രിഷ്ടുപ് ഗായത്രീ ജഗതീ ഉഷ്ണിക് ത്രിഷ്ടുപ് ഛന്ദാഗുംസി ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "The metres are triṣṭup, gāyatrī, jagatī, uṣṇik and triṣṭup.",
           "audio": "/audio/d791d3c42e.m4a"
         },
@@ -2905,7 +3174,7 @@
             "telugu": "ఆదిత్యో దేవతా ।",
             "malayalam": "ആദിത്യോ ദേവതാ ।"
           },
-          "action": "touch the chest",
+          "action": "Touch your heart.",
           "meaning": "The deity is Āditya.",
           "audio": "/audio/7f61401f3d.m4a"
         },
@@ -2922,8 +3191,8 @@
             "telugu": "మాధ్యాహ్నిక సంధ్యోపస్థానే వినియోగః ॥",
             "malayalam": "മാധ്യാഹ്നിക സന്ധ്യോപസ്ഥാനേ വിനിയോഗഃ ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "They are employed in the upasthānam of the midday sandhyā.",
+          "action": "Say this with your palms joined.",
+          "meaning": "They are used in the Sun salutation of the midday sandhyā.",
           "audio": "/audio/c56b9bcf4f.m4a"
         },
         {
@@ -2939,7 +3208,7 @@
             "telugu": "ఆ స॒త్యేన॒ రజ॑సా॒ వర్త॑మానో నివే॒శయ॑న్న్ అ॒మృతం॒ మర్త్య॑ఞ్ చ ।\nహి॒ర॒ణ్యయే॑న సవి॒తా రథే॒నాఽఽదే॒వో యా॑తి॒ భువ॑నా వి॒పశ్య॑న్ ॥",
             "malayalam": "ആ സ॒ത്യേന॒ രജ॑സാ॒ വർത॑മാനോ നിവേ॒ശയ॑ന്ന് അ॒മൃതം॒ മർത്യ॑ഞ് ച ।\nഹി॒ര॒ണ്യയേ॑ന സവി॒താ രഥേ॒നാഽഽദേ॒വോ യാ॑തി॒ ഭുവ॑നാ വി॒പശ്യ॑ൻ ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "Moving through the shining realm with truth, settling the immortal and the mortal in their places, the god Savitā comes in his golden chariot, beholding all the worlds."
         },
         {
@@ -2955,7 +3224,7 @@
             "telugu": "ఉద్ వ॒యం తమ॑స॒స్ పరి॒ పశ్యం॑తో॒ జ్యోతి॒ర్ ఉత్త॑రం ।\nదే॒వం దే॑వ॒త్రా సూర్యం॒ అగ॑న్మ॒ జ్యోతి॑ర్ ఉత్త॒మం ॥\nఉదు॒త్యం జా॒తవే॑దసం దే॒వం వ॑హంతి కే॒తవః॑ । దృ॒శే విశ్వా॑య॒ సూర్యం॑ ॥",
             "malayalam": "ഉദ് വ॒യം തമ॑സ॒സ് പരി॒ പശ്യ॑ന്തോ॒ ജ്യോതി॒ർ ഉത്ത॑രം ।\nദേ॒വം ദേ॑വ॒ത്രാ സൂര്യം॒ അഗ॑ന്മ॒ ജ്യോതി॑ർ ഉത്ത॒മം ॥\nഉദു॒ത്യം ജാ॒തവേ॑ദസം ദേ॒വം വ॑ഹന്തി കേ॒തവഃ॑ । ദൃ॒ശേ വിശ്വാ॑യ॒ സൂര്യം॑ ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "Looking up beyond the darkness to the higher light, we have reached Sūrya, god among gods, the highest light. Up rises that god Sūrya, knower of all beings, borne by his rays — for all to see."
         },
         {
@@ -2971,8 +3240,8 @@
             "telugu": "చి॒త్రం దే॒వానాం॒ ఉద॑గా॒ద్ అనీ॑కం చక్షు॑ర్ మి॒త్రస్య॒ వరు॑ణస్యా॒గ్నేః ।\nఆ ప్రా॒ ద్యావా॑పృథి॒వీ అం॒తరి॑క్ష॒గుం సూర్య॑ ఆ॒త్మా జగ॑తస్ త॒స్థుష॑శ్ చ ॥\nతచ్ చక్షు॑ర్ దే॒వహి॑తం పు॒రస్తా᳚చ్ ఛు॒క్రం ఉ॒చ్చర॑త్ ।",
             "malayalam": "ചി॒ത്രം ദേ॒വാനാം॒ ഉദ॑ഗാ॒ദ് അനീ॑കം ചക്ഷു॑ർ മി॒ത്രസ്യ॒ വരു॑ണസ്യാ॒ഗ്നേഃ ।\nആ പ്രാ॒ ദ്യാവാ॑പൃഥി॒വീ അ॒ന്തരി॑ക്ഷ॒ഗും സൂര്യ॑ ആ॒ത്മാ ജഗ॑തസ് ത॒സ്ഥുഷ॑ശ് ച ॥\nതച് ചക്ഷു॑ർ ദേ॒വഹി॑തം പു॒രസ്താ᳚ച് ഛു॒ക്രം ഉ॒ച്ചര॑ത് ।"
           },
-          "action": "hands in añjali",
-          "meaning": "The wondrous face of the gods has risen — the eye of Mitra, Varuṇa and Agni; Sūrya, the Self of all that moves and stands, has filled heaven, earth and the mid-region. That bright eye set by the gods rises in the east."
+          "action": "Say this with your palms joined.",
+          "meaning": "The wondrous face of the gods has risen — the eye of Mitra, Varuṇa and Agni; Sūrya, the Self of all that moves and stands, has filled heaven, earth and the atmosphere. That bright eye set by the gods rises in the east."
         },
         {
           "kind": "mantra",
@@ -2987,7 +3256,7 @@
             "telugu": "పశ్యే॑మ శ॒రద॑శ్శ॒తం । జీవే॑మ శ॒రద॑శ్శ॒తం । నందా॑మ శ॒రద॑శ్శ॒తం । మోదా॑మ శ॒రద॑శ్శ॒తం । భవా॑మ శ॒రద॑శ్శ॒తం । శృణవా॑మ శ॒రద॑శ్శ॒తం । ప్రబ్ర॑వామ శ॒రద॑శ్శ॒తం । అజీ॑తాస్యామ శ॒రద॑శ్శ॒తం । జ్యోక్ చ॒ సూర్యం॑ దృ॒శే ॥",
             "malayalam": "പശ്യേ॑മ ശ॒രദ॑ശ്ശ॒തം । ജീവേ॑മ ശ॒രദ॑ശ്ശ॒തം । നന്ദാ॑മ ശ॒രദ॑ശ്ശ॒തം । മോദാ॑മ ശ॒രദ॑ശ്ശ॒തം । ഭവാ॑മ ശ॒രദ॑ശ്ശ॒തം । ശൃണവാ॑മ ശ॒രദ॑ശ്ശ॒തം । പ്രബ്ര॑വാമ ശ॒രദ॑ശ്ശ॒തം । അജീ॑താസ്യാമ ശ॒രദ॑ശ്ശ॒തം । ജ്യോക് ച॒ സൂര്യം॑ ദൃ॒ശേ ॥"
           },
-          "action": "look at the sun through the vyoma (gālinī) mudrā: left palm up, right palm down, middle and ring fingers of both hands folded in, right index over left little finger and right little finger over left index, the folded fingers tucked under the opposite thumbs, leaving a small slit between the hands",
+          "action": "Look at the sun through the vyoma mudrā while you say this.",
           "meaning": "May we see for a hundred autumns, may we live for a hundred autumns, may we rejoice for a hundred autumns, may we be glad for a hundred autumns, may we flourish for a hundred autumns, may we hear for a hundred autumns, may we speak well for a hundred autumns, may we be undefeated for a hundred autumns — and long may we behold the Sun."
         },
         {
@@ -3003,7 +3272,7 @@
             "telugu": "య ఉద॑గాన్ మహ॒తోఽర్ణవా᳚త్ వి॒భ్రాజ॑మానః సరి॒రస్య॒ మధ్యా॒త్ స మా॑ వృష॒భో లో॑హితా॒క్షస్సూర్యో॑ విప॒శ్చిన్ మన॑సా పునాతు ॥",
             "malayalam": "യ ഉദ॑ഗാൻ മഹ॒തോഽർണവാ᳚ത് വി॒ഭ്രാജ॑മാനഃ സരി॒രസ്യ॒ മധ്യാ॒ത് സ മാ॑ വൃഷ॒ഭോ ലോ॑ഹിതാ॒ക്ഷസ്സൂര്യോ॑ വിപ॒ശ്ചിൻ മന॑സാ പുനാതു ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "He who has risen out of the great ocean, blazing from the midst of the waters — may that Sun, the strong bull, red-eyed and all-seeing, purify me in mind."
         },
         {
@@ -3019,7 +3288,7 @@
             "telugu": "ఇమం మే వరుణేత్య్ ఆది మంత్రాణాం దేవరాత ఋషిః ।",
             "malayalam": "ഇമം മേ വരുണേത്യ് ആദി മന്ത്രാണാം ദേവരാത ഋഷിഃ ।"
           },
-          "action": "touch the top of the head",
+          "action": "Touch the top of your head.",
           "meaning": "Of the mantras beginning *imaṃ me varuṇa* the seer is Devarāta.",
           "audio": "/audio/dccd58c78c.m4a"
         },
@@ -3036,7 +3305,7 @@
             "telugu": "గాయత్రీ త్రిష్టుప్ జగత్యః ఛందాగుంసి ।",
             "malayalam": "ഗായത്രീ ത്രിഷ്ടുപ് ജഗത്യഃ ഛന്ദാഗുംസി ।"
           },
-          "action": "touch the tip of the nose",
+          "action": "Touch the tip of your nose.",
           "meaning": "The metres are gāyatrī, triṣṭup and jagatī.",
           "audio": "/audio/6328190c21.m4a"
         },
@@ -3053,8 +3322,8 @@
             "telugu": "వరుణో దేవతా ।",
             "malayalam": "വരുണോ ദേവതാ ।"
           },
-          "action": "touch the chest",
-          "meaning": "The deity is Savitā.",
+          "action": "Touch your heart.",
+          "meaning": "The deity is Varuṇa.",
           "audio": "/audio/f554e23518.m4a"
         },
         {
@@ -3070,8 +3339,8 @@
             "telugu": "సాయం సంధ్యోపస్థానే వినియోగః ॥",
             "malayalam": "സായം സന്ധ്യോപസ്ഥാനേ വിനിയോഗഃ ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "They are employed in the upasthānam of the evening sandhyā.",
+          "action": "Say this with your palms joined.",
+          "meaning": "They are used in the Sun salutation of the evening sandhyā.",
           "audio": "/audio/1af9d6407d.m4a"
         },
         {
@@ -3087,7 +3356,7 @@
             "telugu": "ఇ॒మం మే॑ వరుణ శ్రుధీ॒ హవం॑ అ॒ద్యా చ॑ మృడయ । త్వాం అ॑వ॒స్యుర్ ఆచ॑కే ॥",
             "malayalam": "ഇ॒മം മേ॑ വരുണ ശ്രുധീ॒ ഹവം॑ അ॒ദ്യാ ച॑ മൃഡയ । ത്വാം അ॑വ॒സ്യുർ ആച॑കേ ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "O Varuṇa, hear this my call and be gracious even now; seeking your protection I approach you."
         },
         {
@@ -3103,7 +3372,7 @@
             "telugu": "తత్ త్వా॑ యామి॒ బ్రహ్మ॑ణా॒ వంద॑మానస్ త॒దా శా᳚స్తే॒ యజ॑మానో హ॒విర్భిః॑ ।\nఅహే॑డమానో వరుణే॒హ బో॒ధ్య్ ఉరు॑శగుంస॒ మా న॒ ఆయుః॒ ప్ర మో॑షీః ॥",
             "malayalam": "തത് ത്വാ॑ യാമി॒ ബ്രഹ്മ॑ണാ॒ വന്ദ॑മാനസ് ത॒ദാ ശാ᳚സ്തേ॒ യജ॑മാനോ ഹ॒വിർഭിഃ॑ ।\nഅഹേ॑ഡമാനോ വരുണേ॒ഹ ബോ॒ധ്യ് ഉരു॑ശഗുംസ॒ മാ ന॒ ആയുഃ॒ പ്ര മോ॑ഷീഃ ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "Praising you with prayer I approach you for that which the sacrificer seeks with his oblations. O Varuṇa of wide renown, be not angry; take heed of us here, and do not steal away our life."
         },
         {
@@ -3119,8 +3388,8 @@
             "telugu": "యచ్ చి॒ద్ ధి తే॒ విశో॑ యథా॒ ప్ర దే॑వ వరుణ వ్ర॒తం ।\nమి॒నీ॒మసి॒ ద్యవి॑ద్యవి ॥",
             "malayalam": "യച് ചി॒ദ് ധി തേ॒ വിശോ॑ യഥാ॒ പ്ര ദേ॑വ വരുണ വ്ര॒തം ।\nമി॒നീ॒മസി॒ ദ്യവി॑ദ്യവി ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "Whatever ordinance of yours, O god Varuṇa, we — like ordinary people — transgress day after day…"
+          "action": "Say this with your palms joined.",
+          "meaning": "Whatever your laws, O god Varuṇa, we break day after day, as ordinary people do."
         },
         {
           "kind": "mantra",
@@ -3135,7 +3404,7 @@
             "telugu": "యత్ కించే॒దం వ॑రుణ॒ దైవ్యే॒ జనే᳚భిద్రో॒హం మ॑ను॒ష్యా᳚శ్ చరా॑మసి ।\nఅచి॑త్తీ॒ యత్ తవ॒ ధర్మా॑ యుయోపి॒మ మా న॒స్ తస్మా॒ద్ ఏన॑సో దేవ రీరిషః ॥",
             "malayalam": "യത് കിഞ്ചേ॒ദം വ॑രുണ॒ ദൈവ്യേ॒ ജനേ᳚ഭിദ്രോ॒ഹം മ॑നു॒ഷ്യാ᳚ശ് ചരാ॑മസി ।\nഅചി॑ത്തീ॒ യത് തവ॒ ധർമാ॑ യുയോപി॒മ മാ ന॒സ് തസ്മാ॒ദ് ഏന॑സോ ദേവ രീരിഷഃ ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "Whatever wrong we humans have here committed against the divine folk, O Varuṇa; whatever of your laws we have broken through heedlessness — O god, do not harm us for that sin."
         },
         {
@@ -3151,8 +3420,54 @@
             "telugu": "కి॒త॒వాసో॒ యద్ రి॑రి॒పుర్ న దీ॒వి యద్ వా॑ ఘా స॒త్యం ఉ॒త యన్ న వి॒ద్మ ।\nసర్వా॒ తా వి ష్య॑ శిథి॒రేవ॑ దే॒వాథా॑ తే స్యామ వరుణ ప్రి॒యాసః॑ ॥",
             "malayalam": "കി॒ത॒വാസോ॒ യദ് രി॑രി॒പുർ ന ദീ॒വി യദ് വാ॑ ഘാ സ॒ത്യം ഉ॒ത യൻ ന വി॒ദ്മ ।\nസർവാ॒ താ വി ഷ്യ॑ ശിഥി॒രേവ॑ ദേ॒വാഥാ॑ തേ സ്യാമ വരുണ പ്രി॒യാസഃ॑ ॥"
           },
-          "action": "hands in añjali",
+          "action": "Say this with your palms joined.",
           "meaning": "Whatever wrong was done, like gamblers cheating at play; whatever we did knowingly, and whatever we know not — loosen all these from us, O god, like slackened bonds, and may we be dear to you, O Varuṇa."
+        }
+      ],
+      "todo": [
+        "Stand with your palms joined in añjali.",
+        "Do the nyāsa for your time of day.",
+        {
+          "text": "Recite the hymn to Mitra.",
+          "kala": [
+            "pratah"
+          ]
+        },
+        {
+          "text": "Recite the hymn to Āditya.",
+          "kala": [
+            "madhyahnika"
+          ]
+        },
+        {
+          "text": "Recite the hymn to Varuṇa.",
+          "kala": [
+            "sayam"
+          ]
+        },
+        {
+          "text": "For the vyoma (gālinī) mudrā, place your left palm up and your right palm down.",
+          "kala": [
+            "madhyahnika"
+          ]
+        },
+        {
+          "text": "Fold the middle and ring fingers of both hands inward.",
+          "kala": [
+            "madhyahnika"
+          ]
+        },
+        {
+          "text": "Put your right index finger over your left little finger, and your right little finger over your left index finger.",
+          "kala": [
+            "madhyahnika"
+          ]
+        },
+        {
+          "text": "Tuck the folded fingers under the opposite thumbs, leaving a small slit between your hands.",
+          "kala": [
+            "madhyahnika"
+          ]
         }
       ]
     },
@@ -3160,7 +3475,7 @@
       "id": "sandhyadi-devata-vandanam",
       "title": {
         "sa": "Sandhyādi devatā vandanam",
-        "en": "Salutation to Sandhyā and the deities (Samaṣṭi-abhivādanam)"
+        "en": "Salutations to Sandhyā and the deities"
       },
       "section": "uttaranga",
       "facing": {
@@ -3168,7 +3483,6 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Stand with hands in añjali mudrā and turn clockwise, saluting the four directions in turn. Morning and noon: begin facing east (east → south → west → north). Evening: begin facing west (west → north → east → south). Return to the starting direction for the last two mantras.",
       "sources": [
         "sandhya.pdf p13",
         "Kidambi p44–45, 77–78, 108–109",
@@ -3187,7 +3501,7 @@
             "telugu": "ఓం సంధ్యాయై నమః ।",
             "malayalam": "ഓം സന്ധ്യായൈ നമഃ ।"
           },
-          "action": "face east (evening: west), hands in añjali",
+          "action": "Face the starting direction with your palms joined in añjali.",
           "meaning": "Salutations to Sandhyā, the goddess of the junctures of the day.",
           "audio": "/audio/d29a15711d.m4a"
         },
@@ -3201,7 +3515,7 @@
             "telugu": "ఓం సావిత్ర్యై నమః ।",
             "malayalam": "ഓം സാവിത്ര്യൈ നമഃ ।"
           },
-          "action": "face south (evening: north)",
+          "action": "Turn a quarter turn clockwise.",
           "meaning": "Salutations to Sāvitrī.",
           "audio": "/audio/ed3f60c0a3.m4a"
         },
@@ -3215,7 +3529,7 @@
             "telugu": "ఓం గాయత్ర్యై నమః ।",
             "malayalam": "ഓം ഗായത്ര്യൈ നമഃ ।"
           },
-          "action": "face west (evening: east)",
+          "action": "Turn a quarter turn clockwise.",
           "meaning": "Salutations to Gāyatrī.",
           "audio": "/audio/17efd8a3b2.m4a"
         },
@@ -3229,7 +3543,7 @@
             "telugu": "ఓం సరస్వత్యై నమః ।",
             "malayalam": "ഓം സരസ്വത്യൈ നമഃ ।"
           },
-          "action": "face north (evening: south)",
+          "action": "Turn a quarter turn clockwise.",
           "meaning": "Salutations to Sarasvatī.",
           "audio": "/audio/944217cbc0.m4a"
         },
@@ -3243,7 +3557,7 @@
             "telugu": "ఓం సర్వాభ్యో దేవతాభ్యో నమో నమః ।",
             "malayalam": "ഓം സർവാഭ്യോ ദേവതാഭ്യോ നമോ നമഃ ।"
           },
-          "action": "face east (evening: west)",
+          "action": "Turn back to the starting direction.",
           "meaning": "Salutations again and again to all the deities.",
           "audio": "/audio/f642995157.m4a"
         },
@@ -3257,21 +3571,35 @@
             "telugu": "కామో ఽకార్షీత్ మన్యుర్ అకార్షీత్ నమో నమః ॥",
             "malayalam": "കാമോ ഽകാർഷീത് മന്യുർ അകാർഷീത് നമോ നമഃ ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "I did not of my own accord commit sin; falling under the sway of desire and anger I sinned unwittingly. Forgive me — I pay my obeisance again and again.",
+          "action": "Say this with your palms joined.",
+          "meaning": "I did not sin of my own accord; falling under the sway of desire and anger I sinned unwittingly. Forgive me — I salute you again and again.",
           "audio": "/audio/6e7a680b8a.m4a"
+        }
+      ],
+      "todo": [
+        "Stand with your palms joined in añjali.",
+        "Turn clockwise, saluting the four directions in turn.",
+        {
+          "text": "Begin facing east, then face south, west and north.",
+          "kala": [
+            "pratah",
+            "madhyahnika"
+          ]
         },
         {
-          "kind": "note",
-          "text": "Chakravarthy adds four namaskārams here."
-        }
+          "text": "Begin facing west, then face north, east and south.",
+          "kala": [
+            "sayam"
+          ]
+        },
+        "Return to the starting direction for the last two mantras."
       ]
     },
     {
       "id": "abhivadanam",
       "title": {
         "sa": "Abhivādanam",
-        "en": "Formal salutation"
+        "en": "Formal salutation with your name"
       },
       "section": "uttaranga",
       "facing": {
@@ -3279,7 +3607,6 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Bend forward at the waist, cross the forearms (right over left) and touch the ears with the hands; state your lineage and name. Then touch the ground (or the feet of elders present) and stand erect. Fill in your own pravara ṛṣis, gotra, sūtra and name; the app substitutes them from your settings.",
       "sources": [
         "sandhya.pdf p13–14",
         "Kidambi p45–46",
@@ -3298,21 +3625,28 @@
             "telugu": "అభివాదయే {pravara} {arsheya} ప్రవరాన్విత {gotra} గోత్రః {sutra} సూత్రః యజుశ్శాఖాధ్యాయీ శ్రీ {name} శర్మా నామాహం అస్మి భోః ॥",
             "malayalam": "അഭിവാദയേ {pravara} {arsheya} പ്രവരാന്വിത {gotra} ഗോത്രഃ {sutra} സൂത്രഃ യജുശ്ശാഖാധ്യായീ ശ്രീ {name} ശർമാ നാമാഹം അസ്മി ഭോഃ ॥"
           },
-          "action": "bend forward, hands crossed touching the ears; then touch the ground",
+          "action": "Say this bent forward with your hands crossed, touching your ears. Then touch the ground.",
           "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
         },
         {
           "kind": "note",
-          "text": "After the pravara ṛṣis say *trayārṣeya* if your pravara has three ṛṣis and *pañcārṣeya* if it has five (see the gotra–pravara table). Worked example (Sandhyavandanam.pdf): *abhivādaye vaiśvāmitra āghamarṣaṇa kauśika trayārṣeya pravarānvita kauśika gotraḥ āpastamba sūtraḥ yajuś śākhādhyāyī śrī lakṣmīnārāyaṇa śarmā nāmāham asmi bhoḥ*."
+          "text": "After the pravara ṛṣis, say *trayārṣeya* if your pravara has three ṛṣis and *pañcārṣeya* if it has five."
         }
       ],
-      "image": "/img/steps/abhivadanam.webp"
+      "image": "/img/steps/abhivadanam.webp",
+      "todo": [
+        "Bend forward at the waist.",
+        "Cross your forearms, right over left, and touch your ears with your hands.",
+        "Say your lineage and name: your pravara (the sages of your lineage), gotra, sūtra and name.",
+        "These are filled in from Settings; blanks appear as “…” until you fill them in.",
+        "Then touch the ground (or the feet of elders who are present) and stand upright."
+      ]
     },
     {
       "id": "dik-vandanam",
       "title": {
         "sa": "Dig-devatā vandanam",
-        "en": "Salutation to the quarters"
+        "en": "Salutations to the directions"
       },
       "section": "uttaranga",
       "facing": {
@@ -3320,7 +3654,6 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Turn clockwise again as before, hands in añjali. Morning and noon start from the east and end with the north; evening starts from the west and ends with the south. Then, facing the starting direction, point the joined palms up and down alternately for the remaining salutations.",
       "sources": [
         "sandhya.pdf p14",
         "Kidambi p46–47, 79–80, 110–111",
@@ -3343,8 +3676,8 @@
             "telugu": "ఓం ప్రాచ్యై దిశే నమః ।",
             "malayalam": "ഓം പ്രാച്യൈ ദിശേ നമഃ ।"
           },
-          "action": "face east",
-          "meaning": "Salutation to the eastern quarter.",
+          "action": "Face east.",
+          "meaning": "Salutations to the eastern quarter.",
           "audio": "/audio/6ace384ad6.m4a"
         },
         {
@@ -3361,8 +3694,8 @@
             "telugu": "ఓం దక్షిణాయై దిశే నమః ।",
             "malayalam": "ഓം ദക്ഷിണായൈ ദിശേ നമഃ ।"
           },
-          "action": "face south",
-          "meaning": "Salutation to the southern quarter.",
+          "action": "Face south.",
+          "meaning": "Salutations to the southern quarter.",
           "audio": "/audio/4641e5af8f.m4a"
         },
         {
@@ -3379,8 +3712,8 @@
             "telugu": "ఓం ప్రతీచ్యై దిశే నమః ।",
             "malayalam": "ഓം പ്രതീച്യൈ ദിശേ നമഃ ।"
           },
-          "action": "face west",
-          "meaning": "Salutation to the western quarter.",
+          "action": "Face west.",
+          "meaning": "Salutations to the western quarter.",
           "audio": "/audio/7127f2abce.m4a"
         },
         {
@@ -3397,8 +3730,8 @@
             "telugu": "ఓం ఉదీచ్యై దిశే నమః ।",
             "malayalam": "ഓം ഉദീച്യൈ ദിശേ നമഃ ।"
           },
-          "action": "face north",
-          "meaning": "Salutation to the northern quarter.",
+          "action": "Face north.",
+          "meaning": "Salutations to the northern quarter.",
           "audio": "/audio/ac3f0dad36.m4a"
         },
         {
@@ -3414,8 +3747,8 @@
             "telugu": "ఓం ప్రతీచ్యై దిశే నమః ।",
             "malayalam": "ഓം പ്രതീച്യൈ ദിശേ നമഃ ।"
           },
-          "action": "face west",
-          "meaning": "Salutation to the western quarter.",
+          "action": "Face west.",
+          "meaning": "Salutations to the western quarter.",
           "audio": "/audio/7127f2abce.m4a"
         },
         {
@@ -3431,8 +3764,8 @@
             "telugu": "ఓం ఉదీచ్యై దిశే నమః ।",
             "malayalam": "ഓം ഉദീച്യൈ ദിശേ നമഃ ।"
           },
-          "action": "face north",
-          "meaning": "Salutation to the northern quarter.",
+          "action": "Face north.",
+          "meaning": "Salutations to the northern quarter.",
           "audio": "/audio/ac3f0dad36.m4a"
         },
         {
@@ -3448,8 +3781,8 @@
             "telugu": "ఓం ప్రాచ్యై దిశే నమః ।",
             "malayalam": "ഓം പ്രാച്യൈ ദിശേ നമഃ ।"
           },
-          "action": "face east",
-          "meaning": "Salutation to the eastern quarter.",
+          "action": "Face east.",
+          "meaning": "Salutations to the eastern quarter.",
           "audio": "/audio/6ace384ad6.m4a"
         },
         {
@@ -3465,8 +3798,8 @@
             "telugu": "ఓం దక్షిణాయై దిశే నమః ।",
             "malayalam": "ഓം ദക്ഷിണായൈ ദിശേ നമഃ ।"
           },
-          "action": "face south",
-          "meaning": "Salutation to the southern quarter.",
+          "action": "Face south.",
+          "meaning": "Salutations to the southern quarter.",
           "audio": "/audio/4641e5af8f.m4a"
         },
         {
@@ -3479,8 +3812,8 @@
             "telugu": "ఓం ఊర్ధ్వాయ నమః ।",
             "malayalam": "ഓം ഊർധ്വായ നമഃ ।"
           },
-          "action": "face east (evening: west); joined palms pointing up, look above",
-          "meaning": "Salutation to what is above.",
+          "action": "Face the starting direction, point your joined palms up and look above.",
+          "meaning": "Salutations to what is above.",
           "audio": "/audio/f3e899b0ed.m4a"
         },
         {
@@ -3493,8 +3826,8 @@
             "telugu": "ఓం అధరాయ నమః ।",
             "malayalam": "ഓം അധരായ നമഃ ।"
           },
-          "action": "joined palms pointing down, look below",
-          "meaning": "Salutation to what is below.",
+          "action": "Point your joined palms down and look below.",
+          "meaning": "Salutations to what is below.",
           "audio": "/audio/7fee8c0c44.m4a"
         },
         {
@@ -3507,8 +3840,8 @@
             "telugu": "ఓం అంతరిక్షాయ నమః ।",
             "malayalam": "ഓം അന്തരിക്ഷായ നമഃ ।"
           },
-          "action": "palms up, look towards the sky",
-          "meaning": "Salutation to the mid-region (atmosphere).",
+          "action": "Point your palms up and look towards the sky.",
+          "meaning": "Salutations to the atmosphere.",
           "audio": "/audio/d81867b4b5.m4a"
         },
         {
@@ -3521,8 +3854,8 @@
             "telugu": "ఓం భూమ్యై నమః ।",
             "malayalam": "ഓം ഭൂമ്യൈ നമഃ ।"
           },
-          "action": "palms down, look towards the earth",
-          "meaning": "Salutation to the Earth.",
+          "action": "Point your palms down and look towards the earth.",
+          "meaning": "Salutations to the Earth.",
           "audio": "/audio/1cd0c33709.m4a"
         },
         {
@@ -3538,8 +3871,8 @@
             "telugu": "ఓం బ్రహ్మణే నమః ।",
             "malayalam": "ഓം ബ്രഹ്മണേ നമഃ ।"
           },
-          "action": "palms up",
-          "meaning": "Salutation to Brahmā.",
+          "action": "Point your palms up.",
+          "meaning": "Salutations to Brahmā.",
           "audio": "/audio/5601b813ae.m4a"
         },
         {
@@ -3552,8 +3885,8 @@
             "telugu": "ఓం విష్ణవే నమః ।",
             "malayalam": "ഓം വിഷ്ണവേ നമഃ ।"
           },
-          "action": "palms down / straight ahead; think of the Lord in the orb of the Sun",
-          "meaning": "Salutation to Viṣṇu.",
+          "action": "Point your palms down or straight ahead, and think of the Lord in the disc of the Sun.",
+          "meaning": "Salutations to Viṣṇu.",
           "audio": "/audio/464369d074.m4a"
         },
         {
@@ -3570,8 +3903,8 @@
             "telugu": "ఓం రుద్రాయ నమః ।",
             "malayalam": "ഓം രുദ്രായ നമഃ ।"
           },
-          "action": "palms up",
-          "meaning": "Salutation to Rudra.",
+          "action": "Point your palms up.",
+          "meaning": "Salutations to Rudra.",
           "audio": "/audio/aaed9124dd.m4a"
         },
         {
@@ -3588,23 +3921,39 @@
             "telugu": "ఓం యమాయ నమః ।",
             "malayalam": "ഓം യമായ നമഃ ।"
           },
-          "action": "palms down",
-          "meaning": "Salutation to Yama.",
+          "action": "Point your palms down.",
+          "meaning": "Salutations to Yama.",
           "audio": "/audio/c0d540a4ef.m4a"
         }
+      ],
+      "todo": [
+        "Stand with your palms joined in añjali and turn clockwise again, as in the previous step.",
+        {
+          "text": "Start from the east and end with the north.",
+          "kala": [
+            "pratah",
+            "madhyahnika"
+          ]
+        },
+        {
+          "text": "Start from the west and end with the south.",
+          "kala": [
+            "sayam"
+          ]
+        },
+        "Then, facing the starting direction, point your joined palms up and down in turn for the remaining salutations."
       ]
     },
     {
       "id": "yama-vandanam",
       "title": {
         "sa": "Yama vandanam",
-        "en": "Salutation to Yama"
+        "en": "Salutations to Yama"
       },
       "section": "uttaranga",
       "tradition": [
         "smarta"
       ],
-      "intro": "Face south, hands in añjali, and contemplating Yama, the Lord of Death, recite.",
       "sources": [
         "sandhya.pdf p14",
         "Sandhyavandanam.pdf p22–23",
@@ -3622,16 +3971,20 @@
             "telugu": "యమాయ ధర్మరాజాయ మృత్యవే చాంతకాయ చ ।\nవైవస్వతాయ కాలాయ సర్వభూతక్షయాయ చ ॥\nఔదుంబరాయ దధ్నాయ నీలాయ పరమేష్ఠినే ।\nవృకోదరాయ చిత్రాయ చిత్రగుప్తాయ వై నమః ॥\nచిత్రగుప్తాయ వై నమ ఓం నమ ఇతి ॥",
             "malayalam": "യമായ ധർമരാജായ മൃത്യവേ ചാന്തകായ ച ।\nവൈവസ്വതായ കാലായ സർവഭൂതക്ഷയായ ച ॥\nഔദുംബരായ ദധ്നായ നീലായ പരമേഷ്ഠിനേ ।\nവൃകോദരായ ചിത്രായ ചിത്രഗുപ്തായ വൈ നമഃ ॥\nചിത്രഗുപ്തായ വൈ നമ ഓം നമ ഇതി ॥"
           },
-          "action": "face south",
+          "action": "Face south and say this with your palms joined.",
           "meaning": "Salutations to Yama, King Dharma, Death, the Ender, the son of Vivasvān (the Sun), Time, the destroyer of all beings; to Audumbara, Dadhna, the blue-hued one, the supreme lord, the insatiable one, the wondrous one, and to Citragupta who records all deeds — salutations."
         }
+      ],
+      "todo": [
+        "Face south and join your palms in añjali.",
+        "Think of Yama, the Lord of Death, as you recite."
       ]
     },
     {
       "id": "siva-prarthana",
       "title": {
         "sa": "Śiva / Viśvarūpa prārthanā",
-        "en": "Prayer to Śiva as the universal form (Harihara vandanam)"
+        "en": "Prayer to Śiva as the universal form"
       },
       "section": "uttaranga",
       "tradition": [
@@ -3642,7 +3995,6 @@
         "madhyahnika": "north",
         "sayam": "north"
       },
-      "intro": "Face north, hands in añjali, and recite.",
       "sources": [
         "sandhya.pdf p14",
         "Sandhyavandanam.pdf p23",
@@ -3659,16 +4011,19 @@
             "telugu": "ఋ॒తగుం స॒త్యం ప॑రం బ్ర॒హ్మ॒ పు॒రుషం॑ కృష్ణ॒ పింగ॑లం ।\nఊ॒ర్ధ్వరే॑తం వి॑రూపా॒క్షం॒ వి॒శ్వరూ॑పాయ॒ వై నమో॒ నమః॑ ॥\nవిశ్వరూపాయ వై నమ ఓం నమ ఇతి ॥",
             "malayalam": "ഋ॒തഗും സ॒ത്യം പ॑രം ബ്ര॒ഹ്മ॒ പു॒രുഷം॑ കൃഷ്ണ॒ പിംഗ॑ലം ।\nഊ॒ർധ്വരേ॑തം വി॑രൂപാ॒ക്ഷം॒ വി॒ശ്വരൂ॑പായ॒ വൈ നമോ॒ നമഃ॑ ॥\nവിശ്വരൂപായ വൈ നമ ഓം നമ ഇതി ॥"
           },
-          "action": "face north",
+          "action": "Say this with your palms joined.",
           "meaning": "The Cosmic Order, the Truth, the Supreme Brahman — the Person dark-blue and tawny, of restrained seed, three-eyed: salutations again and again to Him of universal form."
         }
+      ],
+      "todo": [
+        "Join your palms in añjali and recite."
       ]
     },
     {
       "id": "narmada-vandanam",
       "title": {
         "sa": "Narmadā-sarpa vandanam",
-        "en": "Salutation to Narmadā and protection from serpents"
+        "en": "Salutations to Narmadā and protection from serpents"
       },
       "section": "uttaranga",
       "tradition": [
@@ -3679,7 +4034,6 @@
         "pratah": "east",
         "madhyahnika": "east"
       },
-      "intro": "Some families add this, facing east. Recite with hands in añjali.",
       "sources": [
         "Kaalai p11"
       ],
@@ -3694,17 +4048,21 @@
             "telugu": "నర్మదాయై నమః ప్రాతర్ నర్మదాయై నమో నిశి ।\nనమో ఽస్తు నర్మదే తుభ్యం త్రాహి మాం విషసర్పతః ॥\nఅపసర్ప సర్ప భద్రం తే దూరం గచ్ఛ మహాయశః ।\nజనమేజయస్య యజ్ఞాంతే ఆస్తీక వచనం స్మరన్ ॥\nజరత్కార్వోర్ జరత్కార్వాం సముత్పన్నో మహాయశః ।\nఆస్తీకస్సత్యసంధో మాం పన్నగేభ్యో ఽభిరక్షతు ॥\nపన్నగేభ్యో ఽభిరక్షతు ఓం నమ ఇతి ॥",
             "malayalam": "നർമദായൈ നമഃ പ്രാതർ നർമദായൈ നമോ നിശി ।\nനമോ ഽസ്തു നർമദേ തുഭ്യം ത്രാഹി മാം വിഷസർപതഃ ॥\nഅപസർപ സർപ ഭദ്രം തേ ദൂരം ഗച്ഛ മഹായശഃ ।\nജനമേജയസ്യ യജ്ഞാന്തേ ആസ്തീക വചനം സ്മരൻ ॥\nജരത്കാർവോർ ജരത്കാർവാം സമുത്പന്നോ മഹായശഃ ।\nആസ്തീകസ്സത്യസന്ധോ മാം പന്നഗേഭ്യോ ഽഭിരക്ഷതു ॥\nപന്നഗേഭ്യോ ഽഭിരക്ഷതു ഓം നമ ഇതി ॥"
           },
-          "action": "face east",
-          "meaning": "Salutation to Narmadā by day, salutation to Narmadā by night; salutations to you, Narmadā — protect me from venomous serpents. Go away, serpent — blessings on you — go far, O renowned one, remembering Āstīka's word at the end of Janamejaya's sacrifice. May Āstīka of great renown, true to his vow, born of Jaratkāru and Jaratkāru, protect me from serpents.",
+          "action": "Say this with your palms joined.",
+          "meaning": "Salutations to Narmadā by day, salutation to Narmadā by night; salutations to you, Narmadā — protect me from venomous serpents. Go away, serpent — blessings on you — go far, O renowned one, remembering Āstīka's word at the end of Janamejaya's sacrifice. May Āstīka of great renown, true to his vow, born of Jaratkāru and Jaratkāru, protect me from serpents.",
           "audio": "/audio/26ab5a6e83.m4a"
         }
+      ],
+      "todo": [
+        "Some families add this step.",
+        "Join your palms in añjali and recite."
       ]
     },
     {
       "id": "surya-narayana-vandanam",
       "title": {
         "sa": "Sūrya-Nārāyaṇa vandanam",
-        "en": "Salutation to Nārāyaṇa in the Sun"
+        "en": "Salutations to Nārāyaṇa in the Sun"
       },
       "section": "uttaranga",
       "facing": {
@@ -3712,7 +4070,6 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Face the Sun (east in the morning and at noon, west in the evening) with hands in añjali and, meditating on Nārāyaṇa in the solar orb, recite.",
       "sources": [
         "sandhya.pdf p15",
         "Kidambi p47–48, 80–81, 111–112",
@@ -3734,8 +4091,9 @@
             "telugu": "నమః సవిత్రే జగదేక చక్షుషే జగత్ ప్రసూతి స్థితి నాశ హేతవే ।\nత్రయీమయాయ త్రిగుణాత్మ ధారిణే విరించి నారాయణ శంకరాత్మనే ॥",
             "malayalam": "നമഃ സവിത്രേ ജഗദേക ചക്ഷുഷേ ജഗത് പ്രസൂതി സ്ഥിതി നാശ ഹേതവേ ।\nത്രയീമയായ ത്രിഗുണാത്മ ധാരിണേ വിരിഞ്ചി നാരായണ ശങ്കരാത്മനേ ॥"
           },
-          "meaning": "Salutations to Savitṛ, the sole eye of the world, the cause of the creation, sustenance and dissolution of the universe, who is the three Vedas, who bears the three guṇas, and who is of the nature of Brahmā, Nārāyaṇa and Śaṅkara.",
-          "audio": "/audio/673d181672.m4a"
+          "meaning": "Salutations to Savitā, the sole eye of the world, the cause of the creation, sustenance and dissolution of the universe, who is the three Vedas, who bears the three guṇas, and who is of the nature of Brahmā, Nārāyaṇa and Śaṅkara.",
+          "audio": "/audio/673d181672.m4a",
+          "action": "Say this with your palms joined."
         },
         {
           "kind": "mantra",
@@ -3747,8 +4105,9 @@
             "telugu": "ధ్యేయస్సదా సవితృ మండల మధ్యవర్తీ నారాయణః సరసిజాసన సన్నివిష్టః ।\nకేయూరవాన్ మకర కుండలవాన్ కిరీటీ హారీ హిరణ్మయ వపుః ధృత శంఖ చక్రః ॥",
             "malayalam": "ധ്യേയസ്സദാ സവിതൃ മണ്ഡല മധ്യവർതീ നാരായണഃ സരസിജാസന സന്നിവിഷ്ടഃ ।\nകേയൂരവാൻ മകര കുണ്ഡലവാൻ കിരീടീ ഹാരീ ഹിരണ്മയ വപുഃ ധൃത ശംഖ ചക്രഃ ॥"
           },
-          "meaning": "Nārāyaṇa, seated in the centre of the solar orb on a lotus seat, is ever to be meditated upon — adorned with armlets, makara earrings, crown and necklace, of golden body, holding the conch and discus.",
-          "audio": "/audio/c1f69c88b0.m4a"
+          "meaning": "Nārāyaṇa, seated in the centre of the disc of the Sun on a lotus seat, is ever to be meditated upon — adorned with armlets, makara earrings, crown and necklace, of golden body, holding the conch and discus.",
+          "audio": "/audio/c1f69c88b0.m4a",
+          "action": "Say this with your palms joined."
         },
         {
           "kind": "mantra",
@@ -3761,7 +4120,8 @@
             "malayalam": "ശംഖ ചക്ര ഗദാ പാണേ ദ്വാരകാ നിലയാച്യുത ।\nഗോവിന്ദ പുണ്ഡരീകാക്ഷ രക്ഷ മാം ശരണാഗതം ॥"
           },
           "meaning": "O wielder of conch, discus and mace, dweller in Dvārakā, Acyuta, Govinda, lotus-eyed one — protect me who have taken refuge in You.",
-          "audio": "/audio/abb9303908.m4a"
+          "audio": "/audio/abb9303908.m4a",
+          "action": "Say this with your palms joined."
         },
         {
           "kind": "mantra",
@@ -3776,7 +4136,8 @@
             "telugu": "ఆకాశాత్ పతితం తోయం యథా గచ్ఛతి సాగరం ।\nసర్వదేవ నమస్కారః కేశవం ప్రతి గచ్ఛతి ॥\nకేశవం ప్రతి గచ్ఛత్య్ ఓం నమ ఇతి ॥",
             "malayalam": "ആകാശാത് പതിതം തോയം യഥാ ഗച്ഛതി സാഗരം ।\nസർവദേവ നമസ്കാരഃ കേശവം പ്രതി ഗച്ഛതി ॥\nകേശവം പ്രതി ഗച്ഛത്യ് ഓം നമ ഇതി ॥"
           },
-          "meaning": "Just as water fallen from the sky reaches the ocean, so salutation to any god reaches Keśava alone."
+          "meaning": "Just as water fallen from the sky reaches the ocean, so salutation to any god reaches Keśava alone.",
+          "action": "Say this with your palms joined."
         },
         {
           "kind": "mantra",
@@ -3789,22 +4150,26 @@
             "malayalam": "നമോ ബ്രഹ്മണ്യ ദേവായ ഗോ ബ്രാഹ്മണ ഹിതായ ച ।\nജഗദ്ധിതായ കൃഷ്ണായ ഗോവിന്ദായ നമോ നമഃ ॥"
           },
           "meaning": "Salutations again and again to the God of the brāhmaṇas, the well-wisher of cows and brāhmaṇas, the well-wisher of the world — to Kṛṣṇa, to Govinda.",
-          "audio": "/audio/b4fee3ec04.m4a"
+          "audio": "/audio/b4fee3ec04.m4a",
+          "action": "Say this with your palms joined."
         },
         {
           "kind": "note",
-          "text": "Chakravarthy marks *namo brahmaṇya devāya* optional and prescribes four sāṣṭāṅga namaskārams (full prostrations) after this vandanam."
+          "text": "The verse *namo brahmaṇya devāya* is optional. After this step, do four *sāṣṭāṅga namaskārams* (full prostrations)."
         }
+      ],
+      "todo": [
+        "Join your palms in añjali.",
+        "Think of Nārāyaṇa in the disc of the Sun as you recite."
       ]
     },
     {
       "id": "abhivadanam-2",
       "title": {
         "sa": "Abhivādanam (punaḥ)",
-        "en": "Formal salutation again, and ācamanam"
+        "en": "Formal salutation again, then ācamanam"
       },
       "section": "uttaranga",
-      "intro": "Repeat the abhivādanam exactly as before — bend forward, hands crossed touching the ears, state your lineage and name, touch the ground. Then sit and perform ācamanam (*acyutāya namaḥ, anantāya namaḥ, govindāya namaḥ* and the twelve names).",
       "sources": [
         "sandhya.pdf p15",
         "Kidambi p48, 81, 112",
@@ -3822,20 +4187,20 @@
             "telugu": "అభివాదయే {pravara} {arsheya} ప్రవరాన్విత {gotra} గోత్రః {sutra} సూత్రః యజుశ్శాఖాధ్యాయీ శ్రీ {name} శర్మా నామాహం అస్మి భోః ॥",
             "malayalam": "അഭിവാദയേ {pravara} {arsheya} പ്രവരാന്വിത {gotra} ഗോത്രഃ {sutra} സൂത്രഃ യജുശ്ശാഖാധ്യായീ ശ്രീ {name} ശർമാ നാമാഹം അസ്മി ഭോഃ ॥"
           },
-          "action": "bend forward, hands crossed touching the ears; then touch the ground",
+          "action": "Say this bent forward with your hands crossed, touching your ears. Then touch the ground.",
           "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
-        },
-        {
-          "kind": "note",
-          "text": "Then perform ācamanam."
         }
+      ],
+      "todo": [
+        "Repeat the abhivādanam from the earlier Abhivādanam step: bend forward, cross your hands to your ears, say your lineage and name, and touch the ground.",
+        "Then sit and do the ācamanam: three sips with the three names, then the twelve names."
       ]
     },
     {
       "id": "samarpanam",
       "title": {
         "sa": "Samarpaṇam",
-        "en": "Dedication of the rite"
+        "en": "Offering the rite to the Lord"
       },
       "section": "uttaranga",
       "facing": {
@@ -3843,7 +4208,6 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Sit down. Take a little water in the right palm and, reciting, let it fall to the ground, dedicating everything done to Nārāyaṇa. Śrī Vaiṣṇavas first close the rite with the sātvika tyāgam (hands in añjali).",
       "sources": [
         "sandhya.pdf p15–16",
         "Kidambi p48–49, 81–82, 112–113",
@@ -3865,8 +4229,8 @@
             "telugu": "భగవానేవ స్వనియామ్య స్వరూపస్థితి ప్రవృత్తి స్వశేషతైక రసేన అనేన ఆత్మనా కర్త్రా స్వకీయైశ్చ ఉపకరణైః స్వారాధనైక ప్రయోజనాయ పరమపురుషః సర్వశేషీ శ్రియః పతిః స్వశేషభూతం ఇదం {kala} సంధ్యావందనాఖ్యం కర్మ స్వస్మై స్వప్రీతయే స్వయమేవ కారితవాన్ ॥",
             "malayalam": "ഭഗവാനേവ സ്വനിയാമ്യ സ്വരൂപസ്ഥിതി പ്രവൃത്തി സ്വശേഷതൈക രസേന അനേന ആത്മനാ കർത്രാ സ്വകീയൈശ്ച ഉപകരണൈഃ സ്വാരാധനൈക പ്രയോജനായ പരമപുരുഷഃ സർവശേഷീ ശ്രിയഃ പതിഃ സ്വശേഷഭൂതം ഇദം {kala} സന്ധ്യാവന്ദനാഖ്യം കർമ സ്വസ്മൈ സ്വപ്രീതയേ സ്വയമേവ കാരിതവാൻ ॥"
           },
-          "action": "hands in añjali",
-          "meaning": "The Lord Himself — the Supreme Person, master of all, consort of Śrī — through this self of mine as the doer, whose form, existence and activity He governs and whose sole essence is to be His subordinate, and with His own instruments, for the sole purpose of His own worship, has caused this {kalaEn} sandhyāvandanam, which belongs to Him, to be performed for Himself, for His own pleasure."
+          "action": "Say this with your palms joined in añjali.",
+          "meaning": "The Lord Himself, the Supreme Person, master of all and consort of Śrī, has had this {kalaEn} sandhyāvandanam done through me. I am His servant, my nature and actions are ruled by Him, and the tools I used are His. It was done for His own worship and His own pleasure."
         },
         {
           "kind": "mantra",
@@ -3882,15 +4246,8 @@
             "telugu": "శ్రీరంగ మంగలమణిం కరుణా నివాసం శ్రీ వేంకటాద్రి శిఖరాలయ కాలమేఘం ।\nశ్రీ హస్తిశైల శిఖరోజ్వల పారిజాతం శ్రీశం నమామి శిరసా యదుశైలదీపం ॥",
             "malayalam": "ശ്രീരംഗ മംഗലമണിം കരുണാ നിവാസം ശ്രീ വേങ്കടാദ്രി ശിഖരാലയ കാലമേഘം ।\nശ്രീ ഹസ്തിശൈല ശിഖരോജ്വല പാരിജാതം ശ്രീശം നമാമി ശിരസാ യദുശൈലദീപം ॥"
           },
-          "meaning": "I bow my head to the Lord of Śrī — the auspicious jewel of Śrīraṅgam, abode of compassion; the dark rain-cloud dwelling on the peak of Veṅkaṭādri; the pārijāta shining on the summit of Hastiśaila (Kāñcī); the lamp of Yadu hill (Melkoṭe).",
+          "meaning": "I bow my head to the Lord of Śrī: the auspicious jewel of Śrīraṅgam, abode of compassion; the dark rain-cloud on the peak of Veṅkaṭādri; the pārijāta shining on the summit of Hastiśaila (Kāñcī); the lamp of Yadu hill (Melkoṭe).",
           "audio": "/audio/987467b6d3.m4a"
-        },
-        {
-          "kind": "note",
-          "tradition": [
-            "srivaishnava"
-          ],
-          "text": "Chakravarthy gives this verse as optional (for Ahobila Maṭha śiṣyas); Kidambi includes it for all."
         },
         {
           "kind": "mantra",
@@ -3902,7 +4259,7 @@
             "telugu": "కాయేన వాచా మనసేంద్రియైర్ వా బుద్ధ్యాత్మనా వా ప్రకృతేః స్వభావాత్ ।\nకరోమి యద్ యత్ సకలం పరస్మై నారాయణాయేతి సమర్పయామి ॥",
             "malayalam": "കായേന വാചാ മനസേന്ദ്രിയൈർ വാ ബുദ്ധ്യാത്മനാ വാ പ്രകൃതേഃ സ്വഭാവാത് ।\nകരോമി യദ് യത് സകലം പരസ്മൈ നാരായണായേതി സമർപയാമി ॥"
           },
-          "action": "water in the right palm; let it fall to the ground",
+          "action": "Recite this, then let the water fall from your right palm to the ground.",
           "meaning": "Whatever I do with body, speech, mind or senses, with the intellect or the self, or by the very nature of my disposition — all that I offer to the Supreme Nārāyaṇa.",
           "audio": "/audio/689705d494.m4a"
         },
@@ -3934,13 +4291,24 @@
           "meaning": "Of all the expiations consisting of austerity and ritual action, the highest of them all is the remembrance of Kṛṣṇa.",
           "audio": "/audio/239d132f13.m4a"
         }
+      ],
+      "todo": [
+        "Sit down.",
+        {
+          "text": "First say the sātvika tyāgam with your palms joined in añjali.",
+          "tradition": [
+            "srivaishnava"
+          ]
+        },
+        "Take a little water in your right palm, recite the verse below, and let the water fall to the ground.",
+        "This offers everything you have done to Nārāyaṇa."
       ]
     },
     {
       "id": "samapti",
       "title": {
         "sa": "Samāpti / Japasthāna prokṣaṇam",
-        "en": "Conclusion: sprinkling the place of japa"
+        "en": "Closing: sprinkling the place of japa"
       },
       "section": "uttaranga",
       "facing": {
@@ -3948,7 +4316,6 @@
         "madhyahnika": "east",
         "sayam": "west"
       },
-      "intro": "Take a little water in the hand and sprinkle it on the spot where you sat for the sandhyāvandanam. Touch the sprinkled water with the right ring finger and apply it to the forehead as tilakam. Conclude with brahmārpaṇam, ācamanam and prostration.",
       "sources": [
         "sandhya.pdf p16",
         "Kidambi p48, 81, 112",
@@ -3967,8 +4334,8 @@
             "telugu": "అ॒ద్యా నో॑ దేవ సవితః ప్ర॒జావ॑త్ సావీః॒ సౌభ॑గం । పరా॑ దుః॒ష్వప్నియగుం॑ సువ ॥\nఓం విశ్వా᳚ని దేవ సవితర్ దురి॒తాని పరా॑ సువ । యద్ భ॒ద్రం తన్న॒ ఆసు॑వ ॥",
             "malayalam": "അ॒ദ്യാ നോ॑ ദേവ സവിതഃ പ്ര॒ജാവ॑ത് സാവീഃ॒ സൗഭ॑ഗം । പരാ॑ ദുഃ॒ഷ്വപ്നിയഗും॑ സുവ ॥\nഓം വിശ്വാ᳚നി ദേവ സവിതർ ദുരി॒താനി പരാ॑ സുവ । യദ് ഭ॒ദ്രം തന്ന॒ ആസു॑വ ॥"
           },
-          "action": "sprinkle water on the place of japa; touch it and apply to the forehead",
-          "meaning": "Send us this day, O God Savitṛ, prosperity with progeny; drive away from us the evil dream. O God Savitṛ, drive away from us all sins and misfortunes; send us what is good."
+          "action": "Sprinkle water on the place where you sat, then touch it and apply it to your forehead.",
+          "meaning": "Send us this day, O God Savitā, prosperity with progeny; drive away from us the evil dream. O God Savitā, drive away from us all sins and misfortunes; send us what is good."
         },
         {
           "kind": "mantra",
@@ -3983,8 +4350,8 @@
             "telugu": "ఓం భూర్ భువ॒స్సువః॑ ।",
             "malayalam": "ഓം ഭൂർ ഭുവ॒സ്സുവഃ॑ ।"
           },
-          "action": "sprinkle water on the place of the sandhyāvandanam (Kidambi's form)",
-          "meaning": "Om — earth, mid-region, heaven."
+          "action": "Sprinkle water on the place where you did the sandhyāvandanam.",
+          "meaning": "Om, earth, atmosphere, heaven."
         },
         {
           "kind": "mantra",
@@ -4004,13 +4371,6 @@
           "audio": "/audio/a7db5a2150.m4a"
         },
         {
-          "kind": "note",
-          "tradition": [
-            "srivaishnava"
-          ],
-          "text": "Kidambi performs this sprinkling and the ten *śrī kṛṣṇāya namaḥ* immediately after the second abhivādanam and ācamanam, before the sātvika tyāgam and *kāyena vācā*."
-        },
-        {
           "kind": "mantra",
           "text": {
             "iast": "oṃ tat sat brahmārpaṇam astu ||",
@@ -4020,14 +4380,25 @@
             "telugu": "ఓం తత్ సత్ బ్రహ్మార్పణం అస్తు ॥",
             "malayalam": "ഓം തത് സത് ബ്രഹ്മാർപണം അസ്തു ॥"
           },
-          "action": "pour a little water",
+          "action": "Pour a little water.",
           "meaning": "Om, That is Truth — may this be an offering to Brahman.",
           "audio": "/audio/16f59cef98.m4a"
         },
         {
           "kind": "note",
-          "text": "Perform ācamanam (with the twelve names). Finally prostrate — sāṣṭāṅga namaskāram; Chakravarthy prescribes four prostrations. This completes the {kalaEn} sandhyāvandanam."
+          "text": "Do the ācamanam with the twelve names. Finally, do a *sāṣṭāṅga namaskāram* (full prostration) four times. This completes the {kalaEn} sandhyāvandanam."
         }
+      ],
+      "todo": [
+        "Take a little water in your hand and sprinkle it on the spot where you sat for the sandhyāvandanam.",
+        "Touch the sprinkled water with your right ring finger and apply it to your forehead as a tilakam.",
+        {
+          "text": "After sprinkling, say *śrī kṛṣṇāya namaḥ* ten times.",
+          "tradition": [
+            "srivaishnava"
+          ]
+        },
+        "Finish with the brahmārpaṇam (offering to Brahman), the ācamanam and a prostration."
       ]
     }
   ]

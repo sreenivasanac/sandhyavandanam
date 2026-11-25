@@ -33,3 +33,5 @@ What worked:
 - A figure in profile gets the sacred thread on the near shoulder; the arghya pictures are mirrored for that reason.
 
 What failed: the saṅkalpa posture (hands stacked on the RIGHT thigh) came out on the left thigh in every attempt, including edits, so that step has no picture. Poses were briefed from `docs/reference/source-check-2026-11-25.md` section D. The evening arghya is seated in the sources; the picture shows the standing form.
+
+**Saṅkalpam (2026-11-25, later):** solved by colouring the owner's line drawing of the hands as a close-up (closed right hand on the open left palm, on the right thigh). The model would not draw this stacking from words or from a full-figure photo (it always put the crossing left hand on top), but it kept the hands when asked to recolour a drawing that already had them right. The Śrī Vaiṣṇava version is the same picture with the forearm stripes removed and the skin tone matched back by a channel gain.

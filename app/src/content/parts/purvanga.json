@@ -28,9 +28,16 @@
     },
     "section": "purvanga",
     "facing": {
-      "pratah": "east",
-      "madhyahnika": "east",
-      "sayam": "north"
+      "smarta": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "north"
+      },
+      "srivaishnava": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "east"
+      }
     },
     "sources": [
       "sandhya.pdf p3",
@@ -85,6 +92,18 @@
         "text": "In the evening, face north from here until the offerings to the deities (Tarpaṇam). Only the offering of water to the Sun (Arghya-pradānam) faces west.",
         "kala": [
           "sayam"
+        ],
+        "tradition": [
+          "smarta"
+        ]
+      },
+      {
+        "text": "In the evening you face east until the offering of water to the Sun (Arghya-pradānam), and west after that.",
+        "kala": [
+          "sayam"
+        ],
+        "tradition": [
+          "srivaishnava"
         ]
       }
     ],
@@ -356,7 +375,12 @@
           "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {panchanga}{kala} sandhyām upāsiṣye ||"
         },
         "meaning": "For the destruction of all the sins I have accumulated and to please the Supreme Lord, I now perform my {kalaEn} sandhyā worship.",
-        "action": "Say the saṅkalpa in the saṅkalpa posture."
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
+        "audio": {
+          "pratah": "/audio/e37ad6e753-pratah.m4a",
+          "madhyahnika": "/audio/e37ad6e753-madhyahnika.m4a",
+          "sayam": "/audio/e37ad6e753-sayam.m4a"
+        }
       },
       {
         "kind": "mantra",
@@ -367,7 +391,12 @@
           "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {panchanga}{kala} sandhyām upāsiṣye ||"
         },
         "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now perform my {kalaEn} sandhyā worship.",
-        "action": "Say the saṅkalpa in the saṅkalpa posture."
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
+        "audio": {
+          "pratah": "/audio/5db66128d4-pratah.m4a",
+          "madhyahnika": "/audio/5db66128d4-madhyahnika.m4a",
+          "sayam": "/audio/5db66128d4-sayam.m4a"
+        }
       }
     ],
     "todo": [
@@ -387,7 +416,11 @@
       },
       "If detailed saṅkalpam is switched on in Settings, the day's details (pañcāṅga: year, ayana, ṛtu, month, pakṣa, tithi, vāra, nakṣatra) are added before the time of day (kāla).",
       "Afterwards, release your hands and wash your right palm with water."
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/sankalpam-s.webp",
+      "srivaishnava": "/img/steps/sankalpam-v.webp"
+    }
   },
   {
     "id": "satvika-tyagam",
@@ -410,7 +443,12 @@
           "iast": "bhagavāneva svaniyāmya svarūpasthiti pravṛtti svaśeṣataika rasena anena ātmanā kartrā svakīyaiśca upakaraṇaiḥ svārādhanaika prayojanāya paramapuruṣaḥ sarvaśeṣī śriyaḥ patiḥ svaśeṣabhūtaṃ idaṃ {kala} sandhyāvandanākhyaṃ karma svasmai svaprītaye svayameva kārayati ||"
         },
         "action": "Say this with your palms joined in añjali.",
-        "meaning": "The Lord Himself, the Supreme Person, master of all and consort of Śrī, is having this {kalaEn} sandhyāvandanam done through me. I am His servant, my nature and actions are ruled by Him, and the tools I use are His. It is done for His own worship and His own pleasure."
+        "meaning": "The Lord Himself, the Supreme Person, master of all and consort of Śrī, is having this {kalaEn} sandhyāvandanam done through me. I am His servant, my nature and actions are ruled by Him, and the tools I use are His. It is done for His own worship and His own pleasure.",
+        "audio": {
+          "pratah": "/audio/8ae0ebef9b-pratah.m4a",
+          "madhyahnika": "/audio/8ae0ebef9b-madhyahnika.m4a",
+          "sayam": "/audio/8ae0ebef9b-sayam.m4a"
+        }
       }
     ],
     "todo": [
@@ -619,7 +657,8 @@
           "iast": "āpa̍ḥ punantu pṛthi̱vīṃ pṛ̍thi̱vī pū̱tā pu̍nātu̱ mām | pu̱nantu̱ brahma̍ṇa̱spati̱r brahma̍ pū̱tā pu̍nātu̱ mām | yad ucchi̍ṣṭa̱m abho̎jya̱ṃ yad vā̍ du̱ścari̍ta̱ṃ mama̍ | sarva̍ṃ punantu̱ mām āpo̍'sa̱tāṃ ca̍ prati̱graha̱guṃ svāhā̎ ||"
         },
         "action": "Recite with the water in your right palm, then swallow it.",
-        "meaning": "May the waters purify the earth; may the purified earth purify me. May the Lord of prayer purify me; may the purified Veda purify me. Whatever remnant I have eaten, whatever forbidden food, whatever misdeed of mine, whatever gift accepted from the unworthy — may the waters purify me of all. Svāhā."
+        "meaning": "May the waters purify the earth; may the purified earth purify me. May the Lord of prayer purify me; may the purified Veda purify me. Whatever remnant I have eaten, whatever forbidden food, whatever misdeed of mine, whatever gift accepted from the unworthy — may the waters purify me of all. Svāhā.",
+        "audio": "/audio/a83ed3c3b8.m4a"
       },
       {
         "kind": "mantra",
@@ -800,7 +839,12 @@
         "action": "Say the saṅkalpa in the saṅkalpa posture.",
         "optional": [
           "smarta"
-        ]
+        ],
+        "audio": {
+          "pratah": "/audio/1ea9f1a1ad-pratah.m4a",
+          "madhyahnika": "/audio/1ea9f1a1ad-madhyahnika.m4a",
+          "sayam": "/audio/1ea9f1a1ad-sayam.m4a"
+        }
       },
       {
         "kind": "mantra",
@@ -811,7 +855,12 @@
           "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā arghyapradānaṃ kariṣye ||"
         },
         "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now make the {kalaEn} sandhyā offerings of water to the Sun.",
-        "action": "Say the saṅkalpa in the saṅkalpa posture."
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
+        "audio": {
+          "pratah": "/audio/aa4e695821-pratah.m4a",
+          "madhyahnika": "/audio/aa4e695821-madhyahnika.m4a",
+          "sayam": "/audio/aa4e695821-sayam.m4a"
+        }
       },
       {
         "kind": "mantra",
@@ -915,8 +964,16 @@
       "If you are standing in a river or tank, offer the water with cupped palms."
     ],
     "image": {
-      "smarta": "/img/steps/arghya-s.webp",
-      "srivaishnava": "/img/steps/arghya-v.webp"
+      "smarta": {
+        "pratah": "/img/steps/arghya-s.webp",
+        "madhyahnika": "/img/steps/arghya-s.webp",
+        "sayam": "/img/steps/arghya-seated-s.webp"
+      },
+      "srivaishnava": {
+        "pratah": "/img/steps/arghya-v.webp",
+        "madhyahnika": "/img/steps/arghya-v.webp",
+        "sayam": "/img/steps/arghya-seated-v.webp"
+      }
     }
   },
   {
@@ -969,7 +1026,12 @@
           "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā kālātīta doṣa prāyaścittārthaṃ turīya arghyapradānaṃ kariṣye ||"
         },
         "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now make a fourth offering of water to atone for the fault of doing my {kalaEn} sandhyā after the proper time.",
-        "action": "Say the saṅkalpa in the saṅkalpa posture."
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
+        "audio": {
+          "pratah": "/audio/979f535a20-pratah.m4a",
+          "madhyahnika": "/audio/979f535a20-madhyahnika.m4a",
+          "sayam": "/audio/979f535a20-sayam.m4a"
+        }
       },
       {
         "kind": "mantra",
@@ -1024,8 +1086,16 @@
       "Recite the mantra and make one offering, letting the water flow down from your fingertips onto the plate."
     ],
     "image": {
-      "smarta": "/img/steps/arghya-s.webp",
-      "srivaishnava": "/img/steps/arghya-v.webp"
+      "smarta": {
+        "pratah": "/img/steps/arghya-s.webp",
+        "madhyahnika": "/img/steps/arghya-s.webp",
+        "sayam": "/img/steps/arghya-seated-s.webp"
+      },
+      "srivaishnava": {
+        "pratah": "/img/steps/arghya-v.webp",
+        "madhyahnika": "/img/steps/arghya-v.webp",
+        "sayam": "/img/steps/arghya-seated-v.webp"
+      }
     }
   },
   {
@@ -1082,6 +1152,9 @@
         "text": "In the evening, now turn to face north.",
         "kala": [
           "sayam"
+        ],
+        "tradition": [
+          "smarta"
         ]
       },
       "Place the fingertips of both hands on your chest and close your eyes.",
@@ -1101,9 +1174,12 @@
     },
     "section": "purvanga",
     "facing": {
-      "pratah": "east",
-      "madhyahnika": "east",
-      "sayam": "north"
+      "smarta": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "north"
+      },
+      "srivaishnava": {}
     },
     "sources": [
       "sandhya.pdf p8",
@@ -1166,9 +1242,12 @@
     },
     "section": "purvanga",
     "facing": {
-      "pratah": "east",
-      "madhyahnika": "east",
-      "sayam": "north"
+      "smarta": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "north"
+      },
+      "srivaishnava": {}
     },
     "sources": [
       "sandhya.pdf p8",

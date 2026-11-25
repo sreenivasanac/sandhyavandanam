@@ -50,7 +50,12 @@
           "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā gāyatrī mahāmantra japaṃ kariṣye ||"
         },
         "action": "Say the saṅkalpa in the saṅkalpa posture.",
-        "meaning": "For the absolution of all my sins and to invoke the grace of the Supreme Lord, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the great Gāyatrī mantra."
+        "meaning": "For the absolution of all my sins and to invoke the grace of the Supreme Lord, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the great Gāyatrī mantra.",
+        "audio": {
+          "pratah": "/audio/df2ff45ec3-pratah.m4a",
+          "madhyahnika": "/audio/df2ff45ec3-madhyahnika.m4a",
+          "sayam": "/audio/df2ff45ec3-sayam.m4a"
+        }
       },
       {
         "kind": "mantra",
@@ -61,7 +66,12 @@
           "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā {japaCount} vāraṃ gāyatrī mantra japaṃ kariṣye ||"
         },
         "action": "Say the saṅkalpa in the saṅkalpa posture.",
-        "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the Gāyatrī mantra {japaCount} times."
+        "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the Gāyatrī mantra {japaCount} times.",
+        "audio": {
+          "pratah": "/audio/ee6c6320cf-pratah.m4a",
+          "madhyahnika": "/audio/ee6c6320cf-madhyahnika.m4a",
+          "sayam": "/audio/ee6c6320cf-sayam.m4a"
+        }
       },
       {
         "kind": "note",
@@ -604,7 +614,12 @@
           "iast": "{kala} sandhyā jape viniyogaḥ ||"
         },
         "action": "Say this with your palms joined.",
-        "meaning": "It is used for the japa of the {kalaEn} sandhyā."
+        "meaning": "It is used for the japa of the {kalaEn} sandhyā.",
+        "audio": {
+          "pratah": "/audio/792e656873-pratah.m4a",
+          "madhyahnika": "/audio/792e656873-madhyahnika.m4a",
+          "sayam": "/audio/792e656873-sayam.m4a"
+        }
       },
       {
         "kind": "note",
@@ -829,7 +844,8 @@
           "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {japaCount} vāraṃ śrī aṣṭākṣara mantra japaṃ kariṣye ||"
         },
         "action": "Say the saṅkalpa in the saṅkalpa posture.",
-        "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I perform the japa of the eight-syllable mantra {japaCount} times."
+        "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I perform the japa of the eight-syllable mantra {japaCount} times.",
+        "audio": "/audio/db5f51a21d.m4a"
       },
       {
         "kind": "mantra",
@@ -924,7 +940,12 @@
           "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyopasthānaṃ kariṣye ||"
         },
         "action": "Say the saṅkalpa in the saṅkalpa posture.",
-        "meaning": "For the destruction of all my sins and to please the Supreme Lord, I shall perform the upasthānam of the {kalaEn} sandhyā."
+        "meaning": "For the destruction of all my sins and to please the Supreme Lord, I shall perform the upasthānam of the {kalaEn} sandhyā.",
+        "audio": {
+          "pratah": "/audio/967638c377-pratah.m4a",
+          "madhyahnika": "/audio/967638c377-madhyahnika.m4a",
+          "sayam": "/audio/967638c377-sayam.m4a"
+        }
       },
       {
         "kind": "mantra",
@@ -935,7 +956,12 @@
           "iast": "śrī bhagavadājñayā śrīmannārāyaṇa prītyarthaṃ {kala} sandhyā upasthānaṃ kariṣye ||"
         },
         "action": "Say the saṅkalpa in the saṅkalpa posture.",
-        "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I shall perform the upasthānam of the {kalaEn} sandhyā."
+        "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I shall perform the upasthānam of the {kalaEn} sandhyā.",
+        "audio": {
+          "pratah": "/audio/bcf600fbe6-pratah.m4a",
+          "madhyahnika": "/audio/bcf600fbe6-madhyahnika.m4a",
+          "sayam": "/audio/bcf600fbe6-sayam.m4a"
+        }
       },
       {
         "kind": "mantra",

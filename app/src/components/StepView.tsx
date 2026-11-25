@@ -1,5 +1,5 @@
 import { CHANT_VIDEO, CHANT_VIDEO_AT, KALAS, japaTarget, type Kala } from '../config'
-import { isOptional, type Step } from '../content/schema'
+import { isOptional, pick, type Step } from '../content/schema'
 import { useSettings } from '../lib/settings'
 import { fill, sentences, type Vars } from '../lib/text'
 import { Icon } from './Icon'
@@ -12,8 +12,8 @@ const FACING = { east: 'Face east', north: 'Face north', west: 'Face west' }
 /** One step: title, where to face, what to do, then each line to recite. Sits directly on the page (no card). */
 export function StepView({ step, kala, vars, number }: { step: Step; kala: Kala; vars: Vars; number?: number }) {
   const s = useSettings()
-  const facing = step.facing?.[kala]
-  const image = typeof step.image === 'string' ? step.image : step.image?.[s.tradition]
+  const facing = pick(step.facing, kala, s.tradition)
+  const image = pick(step.image, kala, s.tradition)
   const todo = !s.showInstructions ? []
     : step.todo ? step.todo.map((l) => fill(typeof l === 'string' ? l : l.text, vars))
     : step.intro ? sentences(fill(step.intro, vars)) : []

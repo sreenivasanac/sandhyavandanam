@@ -20,7 +20,7 @@ export const MantraItem = z.object({
   action: z.string().optional(), // what to do while reciting
   repeat: z.union([z.number(), z.partialRecord(z.enum(KALAS), z.number())]).optional(),
   unit: z.enum(['times', 'rounds']).optional(), // how `repeat` is worded: "Say 3 times" (default) or "Do 3 rounds" (prāṇāyāma)
-  audio: z.string().optional(), // reserved: path/URL to chant audio
+  audio: z.union([z.string(), z.partialRecord(z.enum(KALAS), z.string())]).optional(), // chant clip; one per time of day when the line names it
   verified: z.boolean().optional(),
   ...Applicability,
 })
@@ -37,14 +37,17 @@ export type MantraItem = z.infer<typeof MantraItem>
 export const TodoLine = z.union([z.string(), z.object({ text: z.string(), kala: Applicability.kala, tradition: Applicability.tradition })])
 export type TodoLine = z.infer<typeof TodoLine>
 
+const Facing = z.partialRecord(z.enum(KALAS), z.enum(['east', 'north', 'west']))
+const ByKala = z.union([z.string(), z.partialRecord(z.enum(KALAS), z.string())])
+
 export const Step = z.object({
   id: z.string(),
   title: z.object({ sa: z.string(), en: z.string() }),
   section: z.enum(['purvanga', 'uttaranga']),
   intro: z.string().optional(), // legacy: one paragraph, split into lines by sentence
   todo: z.array(TodoLine).optional(), // preferred: one short action per line (markdown-lite); replaces `intro` when present
-  facing: z.partialRecord(z.enum(KALAS), z.enum(['east', 'north', 'west'])).optional(),
-  image: z.union([z.string(), z.record(z.enum(TRADITIONS), z.string())]).optional(), // one picture, or one per tradition (forehead and body marks differ)
+  facing: z.union([Facing, z.record(z.enum(TRADITIONS), Facing)]).optional(), // by time of day; or first by tradition where the traditions differ
+  image: z.union([z.string(), z.record(z.enum(TRADITIONS), ByKala)]).optional(), // one picture, or one per tradition (the body marks differ), which may again differ by time of day
   items: z.array(Item),
   sources: z.array(z.string()).optional(),
   ...Applicability,
@@ -74,4 +77,11 @@ export function stepsFor(content: Content, kala: Kala, tradition: Tradition, wit
 
 export function repeatFor(item: MantraItem, kala: Kala): number | undefined {
   return typeof item.repeat === 'number' ? item.repeat : item.repeat?.[kala]
+}
+
+/** Pick the value for this performance from a field that may be plain, per tradition, per time of day, or both. */
+export function pick<T extends string>(v: undefined | T | Partial<Record<string, T | Partial<Record<Kala, T>>>>, kala: Kala, tradition: Tradition): T | undefined {
+  if (v === undefined || typeof v === 'string') return v
+  const byTradition = tradition in v ? v[tradition] : v // a per-kāla record has no tradition keys
+  return typeof byTradition === 'object' ? (byTradition as Partial<Record<Kala, T>>)[kala] : (byTradition as T | undefined)
 }

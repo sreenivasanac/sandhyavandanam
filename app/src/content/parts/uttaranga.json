@@ -106,9 +106,16 @@
     },
     "section": "uttaranga",
     "facing": {
-      "pratah": "east",
-      "madhyahnika": "north",
-      "sayam": "west"
+      "smarta": {
+        "pratah": "east",
+        "madhyahnika": "north",
+        "sayam": "west"
+      },
+      "srivaishnava": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "west"
+      }
     },
     "sources": [
       "sandhya.pdf p13–14",
@@ -388,7 +395,8 @@
           "iast": "yamāya dharmarājāya mṛtyave cāntakāya ca |\nvaivasvatāya kālāya sarvabhūtakṣayāya ca ||\naudumbarāya dadhnāya nīlāya parameṣṭhine |\nvṛkodarāya citrāya citraguptāya vai namaḥ ||\ncitraguptāya vai nama oṃ nama iti ||"
         },
         "action": "Face south and say this with your palms joined.",
-        "meaning": "Salutations to Yama, King Dharma, Death, the Ender, the son of Vivasvān (the Sun), Time, the destroyer of all beings; to Audumbara, Dadhna, the blue-hued one, the supreme lord, the insatiable one, the wondrous one, and to Citragupta who records all deeds — salutations."
+        "meaning": "Salutations to Yama, King Dharma, Death, the Ender, the son of Vivasvān (the Sun), Time, the destroyer of all beings; to Audumbara, Dadhna, the blue-hued one, the supreme lord, the insatiable one, the wondrous one, and to Citragupta who records all deeds — salutations.",
+        "audio": "/audio/0fa84120f2.m4a"
       }
     ],
     "todo": [
@@ -423,7 +431,8 @@
           "iast": "ṛ̱taguṃ sa̱tyaṃ pa̍raṃ bra̱hma̱ pu̱ruṣa̍ṃ kṛṣṇa̱ piṅga̍lam |\nū̱rdhvare̍taṃ vi̍rūpā̱kṣa̱ṃ vi̱śvarū̍pāya̱ vai namo̱ nama̍ḥ ||\nviśvarūpāya vai nama oṃ nama iti ||"
         },
         "action": "Say this with your palms joined.",
-        "meaning": "The Cosmic Order, the Truth, the Supreme Brahman — the Person dark-blue and tawny, of restrained seed, three-eyed: salutations again and again to Him of universal form."
+        "meaning": "The Cosmic Order, the Truth, the Supreme Brahman — the Person dark-blue and tawny, of restrained seed, three-eyed: salutations again and again to Him of universal form.",
+        "audio": "/audio/8fb0bb9f23.m4a"
       }
     ],
     "todo": [
@@ -523,7 +532,8 @@
           "iast": "ākāśāt patitaṃ toyaṃ yathā gacchati sāgaram |\nsarvadeva namaskāraḥ keśavaṃ prati gacchati ||\nkeśavaṃ prati gacchaty oṃ nama iti ||"
         },
         "meaning": "Just as water fallen from the sky reaches the ocean, so salutation to any god reaches Keśava alone.",
-        "action": "Say this with your palms joined."
+        "action": "Say this with your palms joined.",
+        "audio": "/audio/f99af5ee46.m4a"
       },
       {
         "kind": "mantra",
@@ -560,9 +570,16 @@
     },
     "section": "uttaranga",
     "facing": {
-      "pratah": "east",
-      "madhyahnika": "north",
-      "sayam": "west"
+      "smarta": {
+        "pratah": "east",
+        "madhyahnika": "north",
+        "sayam": "west"
+      },
+      "srivaishnava": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "west"
+      }
     },
     "sources": [
       "sandhya.pdf p15",
@@ -596,9 +613,16 @@
     },
     "section": "uttaranga",
     "facing": {
-      "pratah": "east",
-      "madhyahnika": "east",
-      "sayam": "north"
+      "smarta": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "north"
+      },
+      "srivaishnava": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "west"
+      }
     },
     "sources": [
       "sandhya.pdf p15–16",
@@ -617,7 +641,12 @@
           "iast": "bhagavāneva svaniyāmya svarūpasthiti pravṛtti svaśeṣataika rasena anena ātmanā kartrā svakīyaiśca upakaraṇaiḥ svārādhanaika prayojanāya paramapuruṣaḥ sarvaśeṣī śriyaḥ patiḥ svaśeṣabhūtaṃ idaṃ {kala} sandhyāvandanākhyaṃ karma svasmai svaprītaye svayameva kāritavān ||"
         },
         "action": "Say this with your palms joined in añjali.",
-        "meaning": "The Lord Himself, the Supreme Person, master of all and consort of Śrī, has had this {kalaEn} sandhyāvandanam done through me. I am His servant, my nature and actions are ruled by Him, and the tools I used are His. It was done for His own worship and His own pleasure."
+        "meaning": "The Lord Himself, the Supreme Person, master of all and consort of Śrī, has had this {kalaEn} sandhyāvandanam done through me. I am His servant, my nature and actions are ruled by Him, and the tools I used are His. It was done for His own worship and His own pleasure.",
+        "audio": {
+          "pratah": "/audio/8d5ec5887f-pratah.m4a",
+          "madhyahnika": "/audio/8d5ec5887f-madhyahnika.m4a",
+          "sayam": "/audio/8d5ec5887f-sayam.m4a"
+        }
       },
       {
         "kind": "mantra",
@@ -683,9 +712,12 @@
     },
     "section": "uttaranga",
     "facing": {
-      "pratah": "east",
-      "madhyahnika": "east",
-      "sayam": "north"
+      "smarta": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "north"
+      },
+      "srivaishnava": {}
     },
     "sources": [
       "Sandhyavandanam.pdf p25–26"
@@ -745,9 +777,16 @@
     },
     "section": "uttaranga",
     "facing": {
-      "pratah": "east",
-      "madhyahnika": "east",
-      "sayam": "north"
+      "smarta": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "north"
+      },
+      "srivaishnava": {
+        "pratah": "east",
+        "madhyahnika": "east",
+        "sayam": "west"
+      }
     },
     "sources": [
       "sandhya.pdf p16",

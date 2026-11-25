@@ -82,7 +82,7 @@ def build(outdir: str, vedic: bool = False) -> None:
 
 
 def wire(audio_dir: Path) -> None:
-    """Point every laukika item at its rendered file (any of .opus/.mp3/.wav present)."""
+    """Point every mantra at its rendered file, if there is one (any of .opus/.mp3/.m4a/.wav)."""
     have = {p.stem: p.name for p in audio_dir.iterdir() if p.suffix in (".opus", ".mp3", ".m4a", ".wav")}
     parts_dir = ROOT / "src/content/parts"
     n = 0
@@ -92,12 +92,14 @@ def wire(audio_dir: Path) -> None:
             for item in step["items"]:
                 if item.get("kind") != "mantra":
                     continue
-                t = item["text"]["iast"]
-                if PLACEHOLDER.search(t):
-                    continue
-                name = have.get(item_id(t))
-                if name:
-                    item["audio"] = f"/audio/{name}"
+                i = item_id(item["text"]["iast"])
+                # a line that names the time of day has one clip per kāla (<id>-<kala>); see docs/reference/tools/vagdhenu/segments.py
+                by_kala = {k: f"/audio/{have[f'{i}-{k}']}" for k in ("pratah", "madhyahnika", "sayam") if f"{i}-{k}" in have}
+                if i in have:
+                    item["audio"] = f"/audio/{have[i]}"
+                    n += 1
+                elif by_kala:
+                    item["audio"] = by_kala
                     n += 1
         part.write_text(json.dumps(steps, ensure_ascii=False, indent=2) + "\n")
     print(f"wired {n} items; now run pnpm xlit")

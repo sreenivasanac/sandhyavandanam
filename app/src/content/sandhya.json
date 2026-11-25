@@ -30,9 +30,16 @@
       },
       "section": "purvanga",
       "facing": {
-        "pratah": "east",
-        "madhyahnika": "east",
-        "sayam": "north"
+        "smarta": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "north"
+        },
+        "srivaishnava": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "east"
+        }
       },
       "sources": [
         "sandhya.pdf p3",
@@ -102,6 +109,18 @@
           "text": "In the evening, face north from here until the offerings to the deities (Tarpaṇam). Only the offering of water to the Sun (Arghya-pradānam) faces west.",
           "kala": [
             "sayam"
+          ],
+          "tradition": [
+            "smarta"
+          ]
+        },
+        {
+          "text": "In the evening you face east until the offering of water to the Sun (Arghya-pradānam), and west after that.",
+          "kala": [
+            "sayam"
+          ],
+          "tradition": [
+            "srivaishnava"
           ]
         }
       ],
@@ -453,7 +472,12 @@
             "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {panchanga}{kala} സന്ധ്യാം ഉപാസിഷ്യേ ॥"
           },
           "meaning": "For the destruction of all the sins I have accumulated and to please the Supreme Lord, I now perform my {kalaEn} sandhyā worship.",
-          "action": "Say the saṅkalpa in the saṅkalpa posture."
+          "action": "Say the saṅkalpa in the saṅkalpa posture.",
+          "audio": {
+            "pratah": "/audio/e37ad6e753-pratah.m4a",
+            "madhyahnika": "/audio/e37ad6e753-madhyahnika.m4a",
+            "sayam": "/audio/e37ad6e753-sayam.m4a"
+          }
         },
         {
           "kind": "mantra",
@@ -469,7 +493,12 @@
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {panchanga}{kala} സന്ധ്യാം ഉപാസിഷ്യേ ॥"
           },
           "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now perform my {kalaEn} sandhyā worship.",
-          "action": "Say the saṅkalpa in the saṅkalpa posture."
+          "action": "Say the saṅkalpa in the saṅkalpa posture.",
+          "audio": {
+            "pratah": "/audio/5db66128d4-pratah.m4a",
+            "madhyahnika": "/audio/5db66128d4-madhyahnika.m4a",
+            "sayam": "/audio/5db66128d4-sayam.m4a"
+          }
         }
       ],
       "todo": [
@@ -489,7 +518,11 @@
         },
         "If detailed saṅkalpam is switched on in Settings, the day's details (pañcāṅga: year, ayana, ṛtu, month, pakṣa, tithi, vāra, nakṣatra) are added before the time of day (kāla).",
         "Afterwards, release your hands and wash your right palm with water."
-      ]
+      ],
+      "image": {
+        "smarta": "/img/steps/sankalpam-s.webp",
+        "srivaishnava": "/img/steps/sankalpam-v.webp"
+      }
     },
     {
       "id": "satvika-tyagam",
@@ -517,7 +550,12 @@
             "malayalam": "ഭഗവാനേവ സ്വനിയാമ്യ സ്വരൂപസ്ഥിതി പ്രവൃത്തി സ്വശേഷതൈക രസേന അനേന ആത്മനാ കർത്രാ സ്വകീയൈശ്ച ഉപകരണൈഃ സ്വാരാധനൈക പ്രയോജനായ പരമപുരുഷഃ സർവശേഷീ ശ്രിയഃ പതിഃ സ്വശേഷഭൂതം ഇദം {kala} സന്ധ്യാവന്ദനാഖ്യം കർമ സ്വസ്മൈ സ്വപ്രീതയേ സ്വയമേവ കാരയതി ॥"
           },
           "action": "Say this with your palms joined in añjali.",
-          "meaning": "The Lord Himself, the Supreme Person, master of all and consort of Śrī, is having this {kalaEn} sandhyāvandanam done through me. I am His servant, my nature and actions are ruled by Him, and the tools I use are His. It is done for His own worship and His own pleasure."
+          "meaning": "The Lord Himself, the Supreme Person, master of all and consort of Śrī, is having this {kalaEn} sandhyāvandanam done through me. I am His servant, my nature and actions are ruled by Him, and the tools I use are His. It is done for His own worship and His own pleasure.",
+          "audio": {
+            "pratah": "/audio/8ae0ebef9b-pratah.m4a",
+            "madhyahnika": "/audio/8ae0ebef9b-madhyahnika.m4a",
+            "sayam": "/audio/8ae0ebef9b-sayam.m4a"
+          }
         }
       ],
       "todo": [
@@ -781,7 +819,8 @@
             "malayalam": "ആപഃ॑ പുനന്തു പൃഥി॒വീം പൃ॑ഥി॒വീ പൂ॒താ പു॑നാതു॒ മാം । പു॒നന്തു॒ ബ്രഹ്മ॑ണ॒സ്പതി॒ർ ബ്രഹ്മ॑ പൂ॒താ പു॑നാതു॒ മാം । യദ് ഉച്ഛി॑ഷ്ടം॒ അഭോ᳚ജ്യം॒ യദ് വാ॑ ദു॒ശ്ചരി॑തം॒ മമ॑ । സർവം॑ പുനന്തു॒ മാം ആപോ᳚സ॒താം ച॑ പ്രതി॒ഗ്രഹ॒ഗും സ്വാഹാ᳚ ॥"
           },
           "action": "Recite with the water in your right palm, then swallow it.",
-          "meaning": "May the waters purify the earth; may the purified earth purify me. May the Lord of prayer purify me; may the purified Veda purify me. Whatever remnant I have eaten, whatever forbidden food, whatever misdeed of mine, whatever gift accepted from the unworthy — may the waters purify me of all. Svāhā."
+          "meaning": "May the waters purify the earth; may the purified earth purify me. May the Lord of prayer purify me; may the purified Veda purify me. Whatever remnant I have eaten, whatever forbidden food, whatever misdeed of mine, whatever gift accepted from the unworthy — may the waters purify me of all. Svāhā.",
+          "audio": "/audio/a83ed3c3b8.m4a"
         },
         {
           "kind": "mantra",
@@ -1012,7 +1051,12 @@
           "action": "Say the saṅkalpa in the saṅkalpa posture.",
           "optional": [
             "smarta"
-          ]
+          ],
+          "audio": {
+            "pratah": "/audio/1ea9f1a1ad-pratah.m4a",
+            "madhyahnika": "/audio/1ea9f1a1ad-madhyahnika.m4a",
+            "sayam": "/audio/1ea9f1a1ad-sayam.m4a"
+          }
         },
         {
           "kind": "mantra",
@@ -1028,7 +1072,12 @@
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ അർഘ്യപ്രദാനം കരിഷ്യേ ॥"
           },
           "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now make the {kalaEn} sandhyā offerings of water to the Sun.",
-          "action": "Say the saṅkalpa in the saṅkalpa posture."
+          "action": "Say the saṅkalpa in the saṅkalpa posture.",
+          "audio": {
+            "pratah": "/audio/aa4e695821-pratah.m4a",
+            "madhyahnika": "/audio/aa4e695821-madhyahnika.m4a",
+            "sayam": "/audio/aa4e695821-sayam.m4a"
+          }
         },
         {
           "kind": "mantra",
@@ -1147,8 +1196,16 @@
         "If you are standing in a river or tank, offer the water with cupped palms."
       ],
       "image": {
-        "smarta": "/img/steps/arghya-s.webp",
-        "srivaishnava": "/img/steps/arghya-v.webp"
+        "smarta": {
+          "pratah": "/img/steps/arghya-s.webp",
+          "madhyahnika": "/img/steps/arghya-s.webp",
+          "sayam": "/img/steps/arghya-seated-s.webp"
+        },
+        "srivaishnava": {
+          "pratah": "/img/steps/arghya-v.webp",
+          "madhyahnika": "/img/steps/arghya-v.webp",
+          "sayam": "/img/steps/arghya-seated-v.webp"
+        }
       }
     },
     {
@@ -1216,7 +1273,12 @@
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ കാലാതീത ദോഷ പ്രായശ്ചിത്താർഥം തുരീയ അർഘ്യപ്രദാനം കരിഷ്യേ ॥"
           },
           "meaning": "By the command of the Lord and to please Śrīman Nārāyaṇa, I now make a fourth offering of water to atone for the fault of doing my {kalaEn} sandhyā after the proper time.",
-          "action": "Say the saṅkalpa in the saṅkalpa posture."
+          "action": "Say the saṅkalpa in the saṅkalpa posture.",
+          "audio": {
+            "pratah": "/audio/979f535a20-pratah.m4a",
+            "madhyahnika": "/audio/979f535a20-madhyahnika.m4a",
+            "sayam": "/audio/979f535a20-sayam.m4a"
+          }
         },
         {
           "kind": "mantra",
@@ -1286,8 +1348,16 @@
         "Recite the mantra and make one offering, letting the water flow down from your fingertips onto the plate."
       ],
       "image": {
-        "smarta": "/img/steps/arghya-s.webp",
-        "srivaishnava": "/img/steps/arghya-v.webp"
+        "smarta": {
+          "pratah": "/img/steps/arghya-s.webp",
+          "madhyahnika": "/img/steps/arghya-s.webp",
+          "sayam": "/img/steps/arghya-seated-s.webp"
+        },
+        "srivaishnava": {
+          "pratah": "/img/steps/arghya-v.webp",
+          "madhyahnika": "/img/steps/arghya-v.webp",
+          "sayam": "/img/steps/arghya-seated-v.webp"
+        }
       }
     },
     {
@@ -1359,6 +1429,9 @@
           "text": "In the evening, now turn to face north.",
           "kala": [
             "sayam"
+          ],
+          "tradition": [
+            "smarta"
           ]
         },
         "Place the fingertips of both hands on your chest and close your eyes.",
@@ -1378,9 +1451,12 @@
       },
       "section": "purvanga",
       "facing": {
-        "pratah": "east",
-        "madhyahnika": "east",
-        "sayam": "north"
+        "smarta": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "north"
+        },
+        "srivaishnava": {}
       },
       "sources": [
         "sandhya.pdf p8",
@@ -1463,9 +1539,12 @@
       },
       "section": "purvanga",
       "facing": {
-        "pratah": "east",
-        "madhyahnika": "east",
-        "sayam": "north"
+        "smarta": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "north"
+        },
+        "srivaishnava": {}
       },
       "sources": [
         "sandhya.pdf p8",
@@ -2025,7 +2104,12 @@
             "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ ഗായത്രീ മഹാമന്ത്ര ജപം കരിഷ്യേ ॥"
           },
           "action": "Say the saṅkalpa in the saṅkalpa posture.",
-          "meaning": "For the absolution of all my sins and to invoke the grace of the Supreme Lord, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the great Gāyatrī mantra."
+          "meaning": "For the absolution of all my sins and to invoke the grace of the Supreme Lord, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the great Gāyatrī mantra.",
+          "audio": {
+            "pratah": "/audio/df2ff45ec3-pratah.m4a",
+            "madhyahnika": "/audio/df2ff45ec3-madhyahnika.m4a",
+            "sayam": "/audio/df2ff45ec3-sayam.m4a"
+          }
         },
         {
           "kind": "mantra",
@@ -2041,7 +2125,12 @@
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ {japaCount} വാരം ഗായത്രീ മന്ത്ര ജപം കരിഷ്യേ ॥"
           },
           "action": "Say the saṅkalpa in the saṅkalpa posture.",
-          "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the Gāyatrī mantra {japaCount} times."
+          "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I now, in the course of my {kalaEn} sandhyā, perform the recitation of the Gāyatrī mantra {japaCount} times.",
+          "audio": {
+            "pratah": "/audio/ee6c6320cf-pratah.m4a",
+            "madhyahnika": "/audio/ee6c6320cf-madhyahnika.m4a",
+            "sayam": "/audio/ee6c6320cf-sayam.m4a"
+          }
         },
         {
           "kind": "note",
@@ -2759,7 +2848,12 @@
             "malayalam": "{kala} സന്ധ്യാ ജപേ വിനിയോഗഃ ॥"
           },
           "action": "Say this with your palms joined.",
-          "meaning": "It is used for the japa of the {kalaEn} sandhyā."
+          "meaning": "It is used for the japa of the {kalaEn} sandhyā.",
+          "audio": {
+            "pratah": "/audio/792e656873-pratah.m4a",
+            "madhyahnika": "/audio/792e656873-madhyahnika.m4a",
+            "sayam": "/audio/792e656873-sayam.m4a"
+          }
         },
         {
           "kind": "note",
@@ -3059,7 +3153,8 @@
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {japaCount} വാരം ശ്രീ അഷ്ടാക്ഷര മന്ത്ര ജപം കരിഷ്യേ ॥"
           },
           "action": "Say the saṅkalpa in the saṅkalpa posture.",
-          "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I perform the japa of the eight-syllable mantra {japaCount} times."
+          "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I perform the japa of the eight-syllable mantra {japaCount} times.",
+          "audio": "/audio/db5f51a21d.m4a"
         },
         {
           "kind": "mantra",
@@ -3189,7 +3284,12 @@
             "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യോപസ്ഥാനം കരിഷ്യേ ॥"
           },
           "action": "Say the saṅkalpa in the saṅkalpa posture.",
-          "meaning": "For the destruction of all my sins and to please the Supreme Lord, I shall perform the upasthānam of the {kalaEn} sandhyā."
+          "meaning": "For the destruction of all my sins and to please the Supreme Lord, I shall perform the upasthānam of the {kalaEn} sandhyā.",
+          "audio": {
+            "pratah": "/audio/967638c377-pratah.m4a",
+            "madhyahnika": "/audio/967638c377-madhyahnika.m4a",
+            "sayam": "/audio/967638c377-sayam.m4a"
+          }
         },
         {
           "kind": "mantra",
@@ -3205,7 +3305,12 @@
             "malayalam": "ശ്രീ ഭഗവദാജ്ഞയാ ശ്രീമന്നാരായണ പ്രീത്യർഥം {kala} സന്ധ്യാ ഉപസ്ഥാനം കരിഷ്യേ ॥"
           },
           "action": "Say the saṅkalpa in the saṅkalpa posture.",
-          "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I shall perform the upasthānam of the {kalaEn} sandhyā."
+          "meaning": "By the command of the Lord and for the pleasure of Śrīman Nārāyaṇa, I shall perform the upasthānam of the {kalaEn} sandhyā.",
+          "audio": {
+            "pratah": "/audio/bcf600fbe6-pratah.m4a",
+            "madhyahnika": "/audio/bcf600fbe6-madhyahnika.m4a",
+            "sayam": "/audio/bcf600fbe6-sayam.m4a"
+          }
         },
         {
           "kind": "mantra",
@@ -4008,9 +4113,16 @@
       },
       "section": "uttaranga",
       "facing": {
-        "pratah": "east",
-        "madhyahnika": "north",
-        "sayam": "west"
+        "smarta": {
+          "pratah": "east",
+          "madhyahnika": "north",
+          "sayam": "west"
+        },
+        "srivaishnava": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "west"
+        }
       },
       "sources": [
         "sandhya.pdf p13–14",
@@ -4380,7 +4492,8 @@
             "malayalam": "യമായ ധർമരാജായ മൃത്യവേ ചാന്തകായ ച ।\nവൈവസ്വതായ കാലായ സർവഭൂതക്ഷയായ ച ॥\nഔദുംബരായ ദധ്നായ നീലായ പരമേഷ്ഠിനേ ।\nവൃകോദരായ ചിത്രായ ചിത്രഗുപ്തായ വൈ നമഃ ॥\nചിത്രഗുപ്തായ വൈ നമ ഓം നമ ഇതി ॥"
           },
           "action": "Face south and say this with your palms joined.",
-          "meaning": "Salutations to Yama, King Dharma, Death, the Ender, the son of Vivasvān (the Sun), Time, the destroyer of all beings; to Audumbara, Dadhna, the blue-hued one, the supreme lord, the insatiable one, the wondrous one, and to Citragupta who records all deeds — salutations."
+          "meaning": "Salutations to Yama, King Dharma, Death, the Ender, the son of Vivasvān (the Sun), Time, the destroyer of all beings; to Audumbara, Dadhna, the blue-hued one, the supreme lord, the insatiable one, the wondrous one, and to Citragupta who records all deeds — salutations.",
+          "audio": "/audio/0fa84120f2.m4a"
         }
       ],
       "todo": [
@@ -4420,7 +4533,8 @@
             "malayalam": "ഋ॒തഗും സ॒ത്യം പ॑രം ബ്ര॒ഹ്മ॒ പു॒രുഷം॑ കൃഷ്ണ॒ പിംഗ॑ലം ।\nഊ॒ർധ്വരേ॑തം വി॑രൂപാ॒ക്ഷം॒ വി॒ശ്വരൂ॑പായ॒ വൈ നമോ॒ നമഃ॑ ॥\nവിശ്വരൂപായ വൈ നമ ഓം നമ ഇതി ॥"
           },
           "action": "Say this with your palms joined.",
-          "meaning": "The Cosmic Order, the Truth, the Supreme Brahman — the Person dark-blue and tawny, of restrained seed, three-eyed: salutations again and again to Him of universal form."
+          "meaning": "The Cosmic Order, the Truth, the Supreme Brahman — the Person dark-blue and tawny, of restrained seed, three-eyed: salutations again and again to Him of universal form.",
+          "audio": "/audio/8fb0bb9f23.m4a"
         }
       ],
       "todo": [
@@ -4545,7 +4659,8 @@
             "malayalam": "ആകാശാത് പതിതം തോയം യഥാ ഗച്ഛതി സാഗരം ।\nസർവദേവ നമസ്കാരഃ കേശവം പ്രതി ഗച്ഛതി ॥\nകേശവം പ്രതി ഗച്ഛത്യ് ഓം നമ ഇതി ॥"
           },
           "meaning": "Just as water fallen from the sky reaches the ocean, so salutation to any god reaches Keśava alone.",
-          "action": "Say this with your palms joined."
+          "action": "Say this with your palms joined.",
+          "audio": "/audio/f99af5ee46.m4a"
         },
         {
           "kind": "mantra",
@@ -4587,9 +4702,16 @@
       },
       "section": "uttaranga",
       "facing": {
-        "pratah": "east",
-        "madhyahnika": "north",
-        "sayam": "west"
+        "smarta": {
+          "pratah": "east",
+          "madhyahnika": "north",
+          "sayam": "west"
+        },
+        "srivaishnava": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "west"
+        }
       },
       "sources": [
         "sandhya.pdf p15",
@@ -4628,9 +4750,16 @@
       },
       "section": "uttaranga",
       "facing": {
-        "pratah": "east",
-        "madhyahnika": "east",
-        "sayam": "north"
+        "smarta": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "north"
+        },
+        "srivaishnava": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "west"
+        }
       },
       "sources": [
         "sandhya.pdf p15–16",
@@ -4654,7 +4783,12 @@
             "malayalam": "ഭഗവാനേവ സ്വനിയാമ്യ സ്വരൂപസ്ഥിതി പ്രവൃത്തി സ്വശേഷതൈക രസേന അനേന ആത്മനാ കർത്രാ സ്വകീയൈശ്ച ഉപകരണൈഃ സ്വാരാധനൈക പ്രയോജനായ പരമപുരുഷഃ സർവശേഷീ ശ്രിയഃ പതിഃ സ്വശേഷഭൂതം ഇദം {kala} സന്ധ്യാവന്ദനാഖ്യം കർമ സ്വസ്മൈ സ്വപ്രീതയേ സ്വയമേവ കാരിതവാൻ ॥"
           },
           "action": "Say this with your palms joined in añjali.",
-          "meaning": "The Lord Himself, the Supreme Person, master of all and consort of Śrī, has had this {kalaEn} sandhyāvandanam done through me. I am His servant, my nature and actions are ruled by Him, and the tools I used are His. It was done for His own worship and His own pleasure."
+          "meaning": "The Lord Himself, the Supreme Person, master of all and consort of Śrī, has had this {kalaEn} sandhyāvandanam done through me. I am His servant, my nature and actions are ruled by Him, and the tools I used are His. It was done for His own worship and His own pleasure.",
+          "audio": {
+            "pratah": "/audio/8d5ec5887f-pratah.m4a",
+            "madhyahnika": "/audio/8d5ec5887f-madhyahnika.m4a",
+            "sayam": "/audio/8d5ec5887f-sayam.m4a"
+          }
         },
         {
           "kind": "mantra",
@@ -4740,9 +4874,12 @@
       },
       "section": "uttaranga",
       "facing": {
-        "pratah": "east",
-        "madhyahnika": "east",
-        "sayam": "north"
+        "smarta": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "north"
+        },
+        "srivaishnava": {}
       },
       "sources": [
         "Sandhyavandanam.pdf p25–26"
@@ -4822,9 +4959,16 @@
       },
       "section": "uttaranga",
       "facing": {
-        "pratah": "east",
-        "madhyahnika": "east",
-        "sayam": "north"
+        "smarta": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "north"
+        },
+        "srivaishnava": {
+          "pratah": "east",
+          "madhyahnika": "east",
+          "sayam": "west"
+        }
       },
       "sources": [
         "sandhya.pdf p16",

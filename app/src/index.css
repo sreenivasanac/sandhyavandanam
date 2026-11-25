@@ -233,5 +233,7 @@ html { background: var(--shell); font-size: calc(17.5px * var(--font-scale)); fo
 .sky { background: none; color: var(--ink); border-bottom: 0; }
 .sky .icon-btn { color: var(--ink-2); }
 
-/* step drawings are dark ink on transparent; turn the ink light on the dark page */
-[data-theme='dark'] .step-figure { filter: invert(1) brightness(0.92); }
+/* step pictures are painted on their own cream ground (#fcf3e3); the light page takes that colour's neighbour so they sit in it,
+   and on the dark page they keep the cream panel, a little dimmed */
+.step-figure { background: #fcf3e3; border-radius: 3px; }
+[data-theme='dark'] .step-figure { filter: brightness(0.88); }

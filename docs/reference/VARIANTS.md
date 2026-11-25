@@ -69,3 +69,50 @@ The app (`app/src/content/parts/*.json`) shows one reading. Every alternative th
 | surya-narayana-vandanam | note | namo brahmaṇya devāya optional; four sāṣṭāṅga namaskārams after (Chakravarthy) | — | name dropped |
 | samarpanam | notes | Śrīraṅgam verse shown (optional) | Chakravarthy: optional, for Ahobila Maṭha śiṣyas; Kidambi: for all | |
 | samapti | notes | order as in the app (sprinkling after the samarpaṇam) | Kidambi: this sprinkling and the ten *śrī kṛṣṇāya namaḥ* come right after the second abhivādanam and ācamanam, before the sātvika tyāgam and *kāyena vācā*; Chakravarthy: four prostrations (kept) | **ordering conflict left for the owner** |
+
+## Source check 2026-11-25 (applied)
+
+Owner's rule from this date: **Sandhyavandanam.pdf (Mumbai, "S1")** is the main source for the Smārta text; then the rev7 PDF ("R7"), the scanned Trikala book ("S2") and the T S Ranganathan video ("V"). Kidambi, Chakravarthy and sandhya.pdf are fillers, used where those four are silent. The Śrī Vaiṣṇava variant keeps Kidambi's readings. Details and page references: `source-check-2026-11-25.md`. This table supersedes earlier rows for the same items.
+
+| step id | item | reading now shown (source) | reading moved out of the main Smārta text (source) | note |
+|---|---|---|---|---|
+| acamanam and all later steps | evening facing | north from ācamanam to tarpaṇam, west for arghya, west from the japa saṅkalpa on, north again from samarpaṇam to the end (S1; R7 general note) | east until arghya, west after (Kidambi, Chakravarthy) | `facing` is not per tradition, so Śrī Vaiṣṇavas now see the S1 directions too |
+| acamanam | posture | sit on the plank, hands between the knees; "some squat on the heels" (S1; R7) | squat in kukkuṭāsana as the only posture (sandhya.pdf; S2 drawing) | |
+| acamanam | hand shape | index finger bent to the base of the thumb, other fingers curled into a hollow (S2; R7 similar) | little, ring and middle fingers straight, index bent (earlier app text) | R7: "bend all the fingers except the thumb and the little finger" |
+| acamanam | wiping the lips | optional note (R7: "only a few follow it") | part of the main instructions | not in S1 or S2 |
+| pranayamam | breath and mantra | in through the left with the seven vyāhṛtis, hold with the Gāyatrī, out through the right with *oṃ āpo jyotī*; no opening exhale (S1 p2–3; S2 p.4–5) | exhale first through the right; whole mantra said while holding the breath (earlier app text) | R7 beginner form: inhale with part 1, exhale with parts 2 and 3 |
+| pranayamam and every later prāṇāyāma | rounds | one round at each point; three before the japa (owner's decision) | three rounds at every point (earlier app text) | S1 has one round before the japa as well; S2 "three … nine"; R7 ten |
+| tilakam | status and action | core for Smārta; write *oṃ* on the water with the ring finger (S1 p4; S2; R7 item 5; V) | "only if you did not apply it after your bath"; "trace the mantra on the water" (sandhya.pdf) | still optional for Śrī Vaiṣṇava: Kidambi and Chakravarthy have no tilakam step. R7 places the mark between the eyebrows |
+| prokshanam, punar-marjanam | sprinkling | with the right ring finger, on head and face (S1; S2) | "with your right fingers", on the head | |
+| prokshanam, punar-marjanam | `yasya kṣayāya jinvatha` | on the feet (R7; sandhya.pdf; S2 in punar-mārjanam) | big toes (Chakravarthy); knees/legs (S1); thighs (S2 in prokṣaṇam) | owner's decision: feet |
+| prokshanam, prasanam, punar-marjanam, arghya-pradanam, prayascitta-arghyam, gayatri-upasthanam, surya-upasthanam | ṛṣi / chandas / devatā nyāsa lines | hidden by default for Smārta (`optional: ["smarta"]`); in the normal flow for Śrī Vaiṣṇava (Kidambi) | shown to everyone | in none of S1, S2, R7, V |
+| arghya-pradanam | before the offering | nothing: punar-mārjanam → arghya (S1, S2, R7, V) | prāṇāyāma, saṅkalpa `…sūryārghya pradānaṃ kariṣye` and nyāsa first (sandhya.pdf, Chakravarthy, Kidambi) | kept for Śrī Vaiṣṇava; hidden by default for Smārta |
+| arghya-pradanam | count at noon | two (S1 p7; S2 p.13; R7 item 9; V) | one (Kidambi p61) | `repeat.madhyahnika` 1 → 2 |
+| arghya-pradanam | posture | morning standing; noon standing (some sit); evening sitting, facing west (S2 p.13; R7 item 9) | standing at all three times (Kidambi) | S1 does not say. Noon facing: east (S1, R7); S2 has north |
+| arghya-pradanam | releasing the water | flows down from the fingertips, not over the thumb, onto the plate (S1 "pour the water on the floor"; S2) | thrown up towards the sun (Chakravarthy) | |
+| prayascitta-arghyam | status | a normal step in all three kālas, explained as covering any delay (S1 p8; S2 p.14–15; R7 item 11; V) | "only if you are late"; "at noon only some families" (sandhya.pdf; Kidambi) | |
+| prayascitta-arghyam | mantra | Smārta: the plain Gāyatrī with *oṃ bhūr bhuvas suvaḥ*, as in the main arghya (S1 p8; R7 "as in 9") | seven vyāhṛtis + Gāyatrī + *oṃ āpo jyotī* (Kidambi, Chakravarthy) | long form kept for Śrī Vaiṣṇava |
+| prayascitta-arghyam | Smārta saṅkalpa | `…kālātīta prāyaścittārthaṃ turīyārghya pradānaṃ kariṣye` (as authored) | S1 p8: `kālātīta prāyaścittārtham arghyapradānaṃ kariṣye` with no "turīya" and no preamble | **not changed — owner to decide** |
+| brahma-bhavanam | hands for the meditation | fingertips of both hands on the chest, eyes closed (R7 item 13; S2 drawing) | palms joined in añjali, facing the sun (Kidambi, Chakravarthy) | |
+| tarpanam | hands | a spoonful in the right palm, off the fingertips (S1; S2) | both joined palms as the only way (Chakravarthy) | now "some use both joined palms" |
+| asanam | whole step | hidden by default for Smārta (S2 only among the main sources; not in S1); Smārta posture: sit, touch the floor then the brow with the ring finger (S2 p.21–22) | shown to everyone, standing (Kidambi p33–34) | Śrī Vaiṣṇava lines unchanged |
+| uttaranga-acamanam | whole step | removed: the ācamanam after tarpaṇam already covers it (S1, S2, R7, V) | optional ācamanam at the start of the japa part (sandhya.pdf, Chakravarthy) | step id `uttaranga-acamanam` no longer exists |
+| japa-sankalpam | Gaṇapati dhyānam | core Smārta item at the start of the japa part (S1 p12; S2 p.22; R7 item 18; V) | only inside the optional ācamanam step | same text and audio as before |
+| japa-sankalpam | Smārta saṅkalpa | `…{kala} sandhyā gāyatrī mahāmantra japaṃ kariṣye`, no count (S1 p13) | `…{kala} sandhyā {japaCount} vāraṃ gāyatrī mahāmantra japaṃ kariṣye` (sandhya.pdf form) | **text changed**; the Śrī Vaiṣṇava saṅkalpa keeps the count (Kidambi p34) |
+| japa-sankalpam | counts note | Smārta: 108 morning / 32 noon / 64 evening (S1 p16; S2 p.30; R7 item 23), 28 or 10 as reduced counts | Sanskrit count words for 108 / 28 / 10 shown to everyone | Sanskrit count note now Śrī Vaiṣṇava only |
+| pranayama-nyasam | Gāyatrī nyāsa (`sāvitryā ṛṣir viśvāmitraḥ …`) at this point | hidden by default for Smārta; it is said after the āvāhanam, in gayatri-japam (S1 p15–16; S2 p.28; V) | said here as well (R7 item 21, with the remark "not widely practiced"; Kidambi) | |
+| pranayama-nyasam | Gāyatrī-śiras nyāsa, `oṃ āpo jyotī` body touch, `arkamaṇḍala madhyasthaṃ` | hidden by default for Smārta | shown to everyone (Kidambi) | in none of S1, S2, R7 |
+| pranayama-nyasam | `muktāvidruma` dhyāna | kept here | S2 p.28 says it after the āvāhanam and the Gāyatrī nyāsa; S1 and R7 do not have it | position not changed |
+| kala-dhyanam | time-of-day verses (`prātar dhyāyāmi…`, `madhyandine tu…`, `sāyaṃ sarasvatīṃ…`) | hidden by default for Smārta; `yo devassavitā` stays (S2 p.28–29) | shown to everyone (Kidambi, sandhya.pdf, Chakravarthy) | in none of S1, S2, R7 |
+| gayatri-japam | posture at noon | standing or seated (R7 item 23) | standing only (Chakravarthy) | S2 has the japa seated at all times |
+| gayatri-japam | evening facing | west while the sun is up; "after sunset some face east" (S1 west; S2 p.30) | — | |
+| gayatri-japam | counting | both ways given: two hands (units and tens); or the right hand alone from the middle line of the ring finger (S2 p.30) | two hands only | |
+| gayatri-upasthanam | rising | Smārta: ring finger on the floor while rising, then to the brow (S1 p17; S2) | "stand up", then open the joined palms outward (Kidambi, Chakravarthy) | Śrī Vaiṣṇava lines unchanged. S2 p.31 describes another udvāsana gesture: clasp and twist both hands, rotate them from inside and release |
+| surya-upasthanam | noon facing | east (S1, R7) | north (S2 p.35) | not changed |
+| abhivadanam, abhivadanam-2 | hands | cover the ears with the hands; "some cross the forearms, right over left" (S2 p.39–40) | crossed forearms as the only way | crossing is in none of S1, S2, R7 |
+| abhivadanam, abhivadanam-2 | noon facing | north (S1 p21, p24) | east (Kidambi) | |
+| dik-vandanam | tail of the list | unchanged: `brahmaṇe`, `viṣṇave`, then optional `rudrāya`, `yamāya` | R7 and V add `mṛtyave namaḥ` after `viṣṇave`; R7 notes that `rudrāya namaḥ` is in one book only | **`mṛtyave namaḥ` not added: it is in none of the clean extractions — owner to supply** |
+| narmada-vandanam | status and facing | core for Smārta; east morning and noon, west in the evening (S2 p.43; R7 item 33; V) | optional, "some families add this step" | not in S1. R7: face the Narmadā, i.e. north for South India |
+| surya-narayana-vandanam | `namo brahmaṇya devāya` | hidden by default for Smārta | shown to everyone, described as optional in a note (Kidambi) | S2 has it at the start of the japa part (p.20) |
+| abhivadanam-2, samarpanam, samapti | order at the end | samarpaṇam → ācamanam (new step `acamanam-3`) → japa-place prokṣaṇam → brahmārpaṇam (S1 p24–26; S2; R7 items 36–39; V) | ācamanam right after the second abhivādanam and again after brahmārpaṇam (earlier app text) | Kidambi's own end order (see the samapti row above) is still not applied |
+| samarpanam, samapti | evening facing | north (S1 p24–26; R7 general note) | west | |

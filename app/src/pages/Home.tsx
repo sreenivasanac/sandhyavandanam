@@ -39,7 +39,7 @@ export function Home() {
   const times: Record<Kala, number> = { pratah: rise, madhyahnika: (rise + set) / 2, sayam: set }
   const label: Record<Kala, string> = { pratah: 'Sunrise', madhyahnika: 'Midday', sayam: 'Sunset' }
 
-  const steps = useMemo(() => stepsFor(content, kala, s.tradition), [kala, s.tradition])
+  const steps = useMemo(() => stepsFor(content, kala, s.tradition, s.showOptional), [kala, s.tradition, s.showOptional])
   const resumeAt = resume && resume.kala === kala && resume.day === dayKey() ? steps.findIndex((x) => x.id === resume.stepId) : -1
   const isDone = !!today[kala]
 
@@ -97,7 +97,7 @@ export function Home() {
                   <span className="leader" />
                   <span className="mono muted tabular-nums">{today[k] ? `done ${clock(today[k]!)}` : hasPlace ? clock(times[k]) : KALA_LABEL[k].en.toLowerCase()}</span>
                 </Link>
-                <Link to={`/read/${k}`} className="mono underline underline-offset-4" style={{ color: 'var(--kumkum)' }} aria-label={`Read the ${KALA_LABEL[k].en.toLowerCase()} procedure`}>read</Link>
+                <Link to={`/read/${k}`} className="mono underline underline-offset-4" style={{ color: 'var(--kumkum)' }} aria-label={`All steps of the ${KALA_LABEL[k].en.toLowerCase()} procedure`}>steps</Link>
               </li>
             ))}
           </ul>
@@ -122,7 +122,7 @@ export function Home() {
             {TRADITION_LABEL[s.tradition]}, Kṛṣṇa Yajur Veda (Āpastamba), compiled from the procedure texts of Sunder Kidambi, K. Chakravarthy, Pandit Sri Rama and others. The text is still being reviewed, so where your own teacher or family practice differs, follow them.
           </p>
           <p className="mt-2">
-            Chant clips are a synthesised voice (<a className="underline" href="https://prathosh.in/vagdhenu/" target="_blank" rel="noreferrer">Vāgdhenu</a>) for the non-Vedic lines only. <a className="underline" href={APP.repo} target="_blank" rel="noreferrer">Report a correction</a>. This site counts visits anonymously, without cookies; nothing you enter here leaves your device.
+            Chant clips are a synthesised voice (<a className="underline" href="https://prathosh.in/vagdhenu/" target="_blank" rel="noreferrer">Vāgdhenu</a>) that says each syllable but cannot chant the Vedic tones; each step links to a recorded chant. <a className="underline" href={APP.repo} target="_blank" rel="noreferrer">Report a correction</a>. This site counts visits anonymously, without cookies; nothing you enter here leaves your device.
           </p>
         </footer>
       </main>

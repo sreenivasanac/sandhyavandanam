@@ -8,7 +8,7 @@ A web app (PWA; native later via Capacitor) that guides practitioners through Sa
 
 | Home | A step | Mantra, meaning, chant | Display options |
 |---|---|---|---|
-| ![Home: the sun's path with the three sandhyās](docs/screenshots/home.png) | ![A step with its instructions](docs/screenshots/perform.png) | ![A mantra with transliteration, meaning and chant button](docs/screenshots/mantra.png) | ![Display options sheet](docs/screenshots/display.png) |
+| ![Home: the sun's path with the three sandhyās](docs/screenshots/home.png) | ![A step with its instructions](docs/screenshots/perform.png) | ![A mantra with transliteration, meaning and chant button](docs/screenshots/mantra.png) | ![The step index](docs/screenshots/display.png) |
 
 ## Layout
 - `app/` — the PWA (Vite + React + TS + Tailwind). `pnpm dev | build | test | xlit`.

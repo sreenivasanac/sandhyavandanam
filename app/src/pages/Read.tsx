@@ -2,29 +2,26 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Icon } from '../components/Icon'
 import { DisplaySheet } from '../components/Sheets'
-import { StepView } from '../components/StepView'
 import { KALAS, KALA_LABEL, PHASES, phasesFor, type Kala } from '../config'
-import { content, KALA_VARS } from '../content'
+import { content } from '../content'
 import { stepsFor } from '../content/schema'
 import { useSettings } from '../lib/settings'
-import { varsFrom } from '../lib/text'
 
-/** Read mode: the whole sandhyā as one page for study, with contents by phase. */
+/** Index of one sandhyā: every step by phase, each opening the step-by-step view at that step. */
 export function Read() {
   const { kala: k } = useParams()
   const kala = (KALAS as readonly string[]).includes(k ?? '') ? (k as Kala) : 'pratah'
-  // Each read page is its own search result: give it its own title and canonical address, and put the home ones back on leaving.
+  // Each index page is its own search result: give it its own title and canonical address, and put the home ones back on leaving.
   useEffect(() => {
     const link = document.querySelector<HTMLLinkElement>('link[rel=canonical]')
     const before = { title: document.title, href: link?.href }
-    document.title = `${KALA_LABEL[kala].sa} sandhyā: the full ${KALA_LABEL[kala].en.toLowerCase()} procedure`
+    document.title = `${KALA_LABEL[kala].sa} sandhyā: the steps of the ${KALA_LABEL[kala].en.toLowerCase()} procedure`
     if (link) link.href = `${location.origin}/read/${kala}`
     return () => { document.title = before.title; if (link && before.href) link.href = before.href }
   }, [kala])
   const s = useSettings()
-  const steps = useMemo(() => stepsFor(content, kala, s.tradition), [kala, s.tradition])
+  const steps = useMemo(() => stepsFor(content, kala, s.tradition, s.showOptional), [kala, s.tradition, s.showOptional])
   const phases = useMemo(() => phasesFor(steps.map((x) => x.id)), [steps])
-  const vars = varsFrom(s, KALA_VARS[kala])
   const [display, setDisplay] = useState(false)
   return (
     <div data-kala={kala} className="mx-auto max-w-2xl px-5 pb-24">
@@ -35,28 +32,27 @@ export function Read() {
       </header>
 
       <h1 className="display mt-6 text-4xl">{KALA_LABEL[kala].sa} sandhyā</h1>
-      <p className="muted mt-2">The full {KALA_LABEL[kala].en.toLowerCase()} procedure, {steps.length} steps. <Link className="underline" to={`/perform/${kala}`}>Perform it step by step</Link> when you are ready.</p>
+      <p className="muted mt-2">The {KALA_LABEL[kala].en.toLowerCase()} procedure in {steps.length} steps. Open any step, or start from the first.</p>
+      <Link to={`/perform/${kala}`} className="btn btn-primary btn-lg mt-5 w-full">Begin at step 1</Link>
 
-      <nav aria-label="Contents" className="mt-8 grid gap-6 sm:grid-cols-2">
+      <nav aria-label="Steps" className="mt-8">
         {PHASES.map((ph) => (
-          <div key={ph.id}>
-            <h2 className="mb-1 font-semibold">{ph.en}</h2>
+          <section key={ph.id} className="mb-8">
+            <h2 className="ornament mono mb-1">{ph.en}</h2>
             <ol>
               {steps.map((st, n) => phases[n] === ph && (
-                <li key={st.id}><a href={`#${st.id}`} className="grid min-h-11 grid-cols-[1.8rem_1fr] items-center py-1 hover:underline"><span className="faint tabular-nums">{n + 1}</span><span className="font-serif">{st.title.sa}</span></a></li>
+                <li key={st.id} className="border-b" style={{ borderColor: 'var(--line)' }}>
+                  <Link to={`/perform/${kala}?s=${n}`} className="grid min-h-14 grid-cols-[2rem_1fr_auto] items-center gap-1 py-2.5 transition-opacity active:opacity-60">
+                    <span className="mono muted tabular-nums">{n + 1}</span>
+                    <span><span className="block font-serif text-lg leading-snug">{st.title.sa}</span><span className="muted block text-sm">{st.title.en}</span></span>
+                    <span className="faint"><Icon name="right" size={18} /></span>
+                  </Link>
+                </li>
               ))}
             </ol>
-          </div>
+          </section>
         ))}
       </nav>
-
-      {steps.map((st, i) => (
-        <section key={st.id} id={st.id} className="scroll-mt-16">
-          {phases[i] !== phases[i - 1] && <p className="mt-14 text-sm font-semibold" style={{ color: 'var(--kumkum)' }}>{phases[i].en}</p>}
-          <hr className="rule mb-8 mt-3" />
-          <StepView step={st} kala={kala} vars={vars} number={i + 1} />
-        </section>
-      ))}
       <DisplaySheet open={display} onOpenChange={setDisplay} />
     </div>
   )

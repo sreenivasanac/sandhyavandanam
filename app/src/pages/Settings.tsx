@@ -150,17 +150,18 @@ export function Settings() {
 
       <Section title="Name and lineage">
         <LineageFields />
-        <Field label="Gāyatrī japa count"><div className="flex gap-2" role="radiogroup" aria-label="Japa count">{([108, 28, 10] as const).map((n) => <button key={n} role="radio" aria-checked={s.japaCount === n} className="chip tabular-nums" onClick={() => set({ japaCount: n })}>{n}</button>)}</div></Field>
+        <Field label="Gāyatrī japa count" hint="The full count is 108 in the morning, 32 at noon and 64 in the evening."><div className="flex gap-2" role="radiogroup" aria-label="Japa count">{([108, 28, 10] as const).map((n) => <button key={n} role="radio" aria-checked={s.japaCount === n} className="chip tabular-nums" onClick={() => set({ japaCount: n })}>{n === 108 ? 'Full' : n}</button>)}</div></Field>
       </Section>
 
       <Section title="Script"><ScriptPicker /></Section>
 
       <Section title="What to show">
         <Switch label="Step instructions" hint="What to do, with pictures and notes" v={s.showInstructions} on={(v) => set({ showInstructions: v })} />
+        <Switch label="Optional parts" hint="Extra steps and lines that only some families do" v={s.showOptional} on={(v) => set({ showOptional: v })} />
         <Switch label="Hints on each line" hint="Where to touch, when to pour" v={s.showActions} on={(v) => set({ showActions: v })} />
         <Switch label="Meaning in English" v={s.showMeaning} on={(v) => set({ showMeaning: v })} />
         <Switch label="Roman transliteration" v={s.showTransliteration} on={(v) => set({ showTransliteration: v })} />
-        <Switch label="Chant buttons" hint="A synthesised voice for the non-Vedic lines. A pronunciation aid, not a substitute for a teacher." v={s.showAudio} on={(v) => set({ showAudio: v })} />
+        <Switch label="Chant buttons" hint="A synthesised voice. Vedic mantras are in a flat tone, without svaras. A pronunciation aid, not a substitute for a teacher." v={s.showAudio} on={(v) => set({ showAudio: v })} />
         <div className="mt-4 flex gap-2" role="radiogroup" aria-label="Appearance">
           {(['system', 'light', 'dark'] as const).map((t) => <button key={t} role="radio" aria-checked={s.theme === t} className="chip capitalize" onClick={() => set({ theme: t })}>{t === 'system' ? 'Match device' : t}</button>)}
         </div>

@@ -9,7 +9,7 @@ export type Text = z.infer<typeof Text> & Partial<Record<(typeof SCRIPTS)[number
 const Applicability = {
   kala: z.array(z.enum(KALAS)).optional(), // default: all three
   tradition: z.array(z.enum(TRADITIONS)).optional(), // default: both
-  optional: z.boolean().optional(),
+  optional: z.union([z.boolean(), z.array(z.enum(TRADITIONS))]).optional(), // true: optional for everyone; a list: optional only for those traditions
 }
 
 export const MantraItem = z.object({
@@ -44,7 +44,7 @@ export const Step = z.object({
   intro: z.string().optional(), // legacy: one paragraph, split into lines by sentence
   todo: z.array(TodoLine).optional(), // preferred: one short action per line (markdown-lite); replaces `intro` when present
   facing: z.partialRecord(z.enum(KALAS), z.enum(['east', 'north', 'west'])).optional(),
-  image: z.string().optional(),
+  image: z.union([z.string(), z.record(z.enum(TRADITIONS), z.string())]).optional(), // one picture, or one per tradition (forehead and body marks differ)
   items: z.array(Item),
   sources: z.array(z.string()).optional(),
   ...Applicability,
@@ -56,13 +56,17 @@ export type Content = z.infer<typeof Content>
 const applies = (x: { kala?: Kala[]; tradition?: Tradition[] }, kala: Kala, tradition: Tradition) =>
   (!x.kala || x.kala.includes(kala)) && (!x.tradition || x.tradition.includes(tradition))
 
-/** Steps + items filtered for one performance. */
-export function stepsFor(content: Content, kala: Kala, tradition: Tradition): Step[] {
+/** Is this step or line optional for this tradition? */
+export const isOptional = (x: { optional?: boolean | Tradition[] }, tradition: Tradition) =>
+  Array.isArray(x.optional) ? x.optional.includes(tradition) : !!x.optional
+
+/** Steps + items filtered for one performance. Parts marked `optional` are left out unless `withOptional`. */
+export function stepsFor(content: Content, kala: Kala, tradition: Tradition, withOptional = true): Step[] {
   return content.steps
-    .filter((s) => applies(s, kala, tradition))
+    .filter((s) => applies(s, kala, tradition) && (withOptional || !isOptional(s, tradition)))
     .map((s) => ({
       ...s,
-      items: s.items.filter((i) => applies(i, kala, tradition)),
+      items: s.items.filter((i) => applies(i, kala, tradition) && (withOptional || !isOptional(i, tradition))),
       todo: s.todo?.filter((l) => typeof l === 'string' || applies(l, kala, tradition)),
     }))
     .filter((s) => s.items.length > 0 || s.intro || s.todo?.length)

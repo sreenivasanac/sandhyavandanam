@@ -3,11 +3,13 @@
 # ///
 """Build the Vāgdhenu batch-render shard from the content, and (after rendering) wire audio paths back in.
 
-  uv run scripts/audio_shard.py build /abs/outdir > shard.json   # Vāgdhenu shard (laukika only)
-  uv run scripts/audio_shard.py wire  public/audio               # set item.audio for every rendered file
+  uv run scripts/audio_shard.py build /abs/outdir > shard.json          # Vāgdhenu shard (laukika only)
+  uv run scripts/audio_shard.py build /abs/outdir --vedic > shard.json  # the Vedic mantras, tone marks removed
+  uv run scripts/audio_shard.py wire  public/audio                      # set item.audio for every rendered file
 
-Selection: mantras WITHOUT Vedic svara marks and WITHOUT {placeholders} (Vāgdhenu is laukika-only; personalised
-items can't be pre-rendered). Each shard entry: id (stable hash of the IAST), meter ('gadya' for prose; verse
+Selection: mantras WITHOUT {placeholders} (personalised items can't be pre-rendered). Vāgdhenu cannot chant the Vedic
+tones, so Vedic mantras are rendered with the svara marks stripped: correct syllables, flat tone. The app says so
+beside those clips (an item is Vedic when its IAST carries svara marks). Each shard entry: id (stable hash of the IAST), meter ('gadya' for prose; verse
 detection is left to Vāgdhenu's own metre scan), padas (lines), out (file name).
 """
 import hashlib, json, re, sys
@@ -23,14 +25,18 @@ def item_id(iast: str) -> str:
     return hashlib.sha1(iast.encode()).hexdigest()[:10]
 
 
-def laukika_items():
+DEVA_SVARA = re.compile("[\u0951\u0952\u1CD0-\u1CFF\uA8E0-\uA8FF]")  # udātta, anudātta and the Vedic-extension tone marks
+
+
+def laukika_items(vedic: bool = False):
+    """Mantras to render: the non-Vedic ones by default, the Vedic ones (svara-marked) with vedic=True."""
     data = json.loads(CONTENT.read_text())
     for step in data["steps"]:
         for item in step["items"]:
             if item.get("kind") != "mantra":
                 continue
             t = item["text"]["iast"]
-            if SVARA.search(t) or PLACEHOLDER.search(t):
+            if PLACEHOLDER.search(t) or bool(SVARA.search(t)) != vedic:
                 continue
             yield step, item
 
@@ -46,12 +52,13 @@ def guess_meter(lines: list[str]) -> str:
     return METRE[next(iter(counts))] if len(counts) == 1 and next(iter(counts)) in METRE else "gadya"
 
 
-def build(outdir: str) -> None:
+def build(outdir: str, vedic: bool = False) -> None:
     """Vāgdhenu shard: one clip per unique laukika mantra; padas = lines (Devanagari, dandas stripped)."""
     seen, shard = set(), []
-    for step, item in laukika_items():
+    for step, item in laukika_items(vedic):
         t = item["text"]["iast"]
-        i = item_id(t)
+        i = item_id(t)  # id keeps the svara marks, so it matches the text the app shows
+        t = SVARA.sub("", t)  # everything rendered or logged below is the unaccented text
         if i in seen:
             continue  # same mantra repeated in several steps → render once
         seen.add(i)
@@ -63,7 +70,7 @@ def build(outdir: str) -> None:
         meter = meter if verse else PROSE_REF
         # for prose keep the source's `|` groups as separate padas (short breath groups chant better)
         src_padas = lines if verse else [p.strip() for p in re.split(r"\n|\|\|?", t) if p.strip()]
-        deva = item["text"]["devanagari"]
+        deva = DEVA_SVARA.sub("", item["text"]["devanagari"])
         deva_padas = [p.strip() for p in re.split(r"\n|॥|।", deva) if p.strip()]
         if len(deva_padas) != len(src_padas):  # fall back to whole text as one pada
             deva_padas = [re.sub(r"[।॥\n]+", " ", deva).strip()]
@@ -86,7 +93,7 @@ def wire(audio_dir: Path) -> None:
                 if item.get("kind") != "mantra":
                     continue
                 t = item["text"]["iast"]
-                if SVARA.search(t) or PLACEHOLDER.search(t):
+                if PLACEHOLDER.search(t):
                     continue
                 name = have.get(item_id(t))
                 if name:
@@ -99,7 +106,7 @@ def wire(audio_dir: Path) -> None:
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "build"
     if cmd == "build":
-        build(sys.argv[2] if len(sys.argv) > 2 else "out")
+        build(sys.argv[2] if len(sys.argv) > 2 else "out", "--vedic" in sys.argv)
     elif cmd == "wire":
         wire(Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / "public/audio")
     else:

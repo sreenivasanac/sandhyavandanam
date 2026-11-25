@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { Icon } from '../components/Icon'
 import { DisplaySheet, StepListSheet } from '../components/Sheets'
 import { StepView } from '../components/StepView'
-import { KALAS, KALA_LABEL, PHASES, phasesFor, type Kala } from '../config'
+import { KALAS, KALA_LABEL, PHASES, phasesFor, type Kala, japaTarget } from '../config'
 import { content, KALA_VARS } from '../content'
 import { stepsFor } from '../content/schema'
 import { useWakeLock } from '../lib/hooks'
@@ -21,12 +21,12 @@ export function Perform() {
   const { kala: k } = useParams()
   const kala = (KALAS as readonly string[]).includes(k ?? '') ? (k as Kala) : 'pratah'
   const s = useSettings()
-  const steps = useMemo(() => stepsFor(content, kala, s.tradition), [kala, s.tradition])
+  const steps = useMemo(() => stepsFor(content, kala, s.tradition, s.showOptional), [kala, s.tradition, s.showOptional])
   const phases = useMemo(() => phasesFor(steps.map((x) => x.id)), [steps])
   const [sp, setSp] = useSearchParams()
   const i = Math.min(Math.max(Number(sp.get('s') ?? 0), 0), steps.length - 1)
   const nav = useNavigate()
-  const vars = varsFrom(s, KALA_VARS[kala])
+  const vars = varsFrom(s, { ...KALA_VARS[kala], japaCount: String(japaTarget(s.japaCount, kala)) })
   const { setResume, markDone } = useProgress()
   const [list, setList] = useState(false)
   const [display, setDisplay] = useState(false)

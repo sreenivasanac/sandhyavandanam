@@ -1,5 +1,7 @@
 # Chant / pronunciation audio — research (2026-08-17)
 
+**Status 2026-11-25: Vedic mantras now have clips too.** The owner chose synthesised audio for every mantra. Vāgdhenu cannot chant the tones, so `app/scripts/audio_shard.py build <out> --vedic` renders the 35 distinct Vedic mantras with the svara marks stripped (flat tone, correct syllables), checked with Su-śrotā as before (`~/vagdhenu-work/run-vedic`, checker reinstalled in `~/vagdhenu-work/asr`). The app says so beside the chant setting, and each step links to the T S Ranganathan recording at that step (`CHANT_VIDEO_AT` in `app/src/config.ts`). Mantras with a name, gotra or the day's details cannot be pre-rendered: see `docs/reference/AUDIO_GAPS.md`.
+
 **Status 2026-08-18: DONE for laukika items.** 134 unique clips rendered locally on the M4 Pro (MPS) with Vāgdhenu at production settings (nfe 64, seed 60), loudness-normalised → AAC 64 kbps in `app/public/audio/`, wired to 157 content items by `app/scripts/audio_shard.py wire`. Shard + results: `vagdhenu/shard-2026-08-18.json`, `vagdhenu/results-2026-08-18.json`. Runbook: `VAGDHENU_LOCAL.md`. Not yet audited by ear — please listen to a sample of clips.
 
 ## Audit 2026-11-10 — "what is chanted differs from what is shown"

@@ -3,12 +3,14 @@
     "id": "before-you-begin",
     "title": {
       "sa": "Before you begin",
-      "en": "What you need"
+      "en": "Gathering what you need"
     },
     "section": "purvanga",
     "todo": [
+      "Gather what you need and settle into a clean place, so the rite runs without interruption.",
       "Begin after your bath, in clean clothes (traditionally a dhoti).",
       "Have a small vessel of water and a small spoon (uddharaṇi) in front of you.",
+      "Keep a pot of extra water nearby: one small vessel is not enough for the whole rite.",
       "Keep a plate or tray ready to catch the water you pour out.",
       "Keep an upper cloth (the cloth worn over the shoulders) ready for the Gāyatrī japa.",
       "Choose a clean place with room to stand and to turn all the way around.",
@@ -22,13 +24,13 @@
     "id": "acamanam",
     "title": {
       "sa": "Ācamanam",
-      "en": "Sipping of water"
+      "en": "Purifying body, speech and mind"
     },
     "section": "purvanga",
     "facing": {
       "pratah": "east",
       "madhyahnika": "east",
-      "sayam": "east"
+      "sayam": "north"
     },
     "sources": [
       "sandhya.pdf p3",
@@ -61,33 +63,41 @@
         "text": {
           "iast": "oṃ govindāya namaḥ"
         },
-        "action": "Pour water once more and swallow it. Then wash your hand and wipe your lips as described in the first step.",
+        "action": "Pour water once more and swallow it. Then wash your right hand.",
         "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
         "audio": "/audio/3aa63e480a.m4a"
+      },
+      {
+        "kind": "note",
+        "optional": true,
+        "text": "Some then wipe the lips with the right thumb, from right to left, and wash the hand again."
       }
     ],
-    "image": "/img/steps/acamanam.webp",
     "todo": [
-      "Squat or sit low on your heels (this posture is called kukkuṭāsana).",
-      "Hold a small vessel of water and a small spoon (uddharaṇi).",
-      "Make a hollow of your right palm: keep the little, ring and middle fingers straight and bend the index finger inward.",
+      "This is the inner cleansing: you sip water with three names of the Lord before worship.",
+      "Sit on your plank (some squat on the heels), with your hands between your knees.",
+      "Keep the vessel of water and the small spoon (uddharaṇi) in front of you.",
+      "Cup your right palm: bend the index finger to the base of the thumb and curl the other fingers to make a hollow that holds one spoonful.",
       "Pour a small amount of water into the hollow.",
-      "With each of the three names, take a small sip from the base of your thumb (the brāhma-tīrtha) and swallow it. This purifies body, speech and mind.",
+      "With each of the three names, take a small sip from the base of your thumb (the brāhma-tīrtha) and swallow it.",
       "After the third name, wash your right hand.",
-      "Wipe your lips with the right thumb, from right to left, then wash the hand again.",
       {
-        "text": "In the evening you face east until the offering of water to the Sun (Arghya-pradānam), and west after that.",
+        "text": "In the evening, face north from here until the offerings to the deities (Tarpaṇam). Only the offering of water to the Sun (Arghya-pradānam) faces west.",
         "kala": [
           "sayam"
         ]
       }
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/acamanam-s.webp",
+      "srivaishnava": "/img/steps/acamanam-v.webp"
+    }
   },
   {
     "id": "anga-nyasam",
     "title": {
       "sa": "Aṅga-nyāsam (Keśavādi dvādaśa nāma)",
-      "en": "Touching the body with the twelve names"
+      "en": "Purifying and protecting the whole body"
     },
     "section": "purvanga",
     "sources": [
@@ -214,11 +224,15 @@
       }
     ],
     "todo": [
+      "This is the outer cleansing: you touch the senses and limbs with twelve names of the Lord.",
       "Touch each place named below with your right hand while saying each name.",
       "Each time, rest your thumb against the middle of the finger you are using.",
-      "This makes your body a temple of God.",
       "This continues the ācamanam: three sips, then these twelve names."
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/anga-nyasam-s.webp",
+      "srivaishnava": "/img/steps/anga-nyasam-v.webp"
+    }
   },
   {
     "id": "vighna-apaharanam",
@@ -261,6 +275,7 @@
       }
     ],
     "todo": [
+      "Call on Gaṇapati so that the rite goes on without hindrance.",
       "Gently tap both temples with your knuckles, once after each phrase of the verse (five times in all).",
       "Think that the spiritual nectar collected at the temples is spreading through your body.",
       {
@@ -269,13 +284,17 @@
           "srivaishnava"
         ]
       }
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/vighna-s.webp",
+      "srivaishnava": "/img/steps/vighna-v.webp"
+    }
   },
   {
     "id": "pranayamam",
     "title": {
       "sa": "Prāṇāyāmam",
-      "en": "Control of the breath"
+      "en": "Steadying breath and mind"
     },
     "section": "purvanga",
     "sources": [
@@ -290,31 +309,34 @@
         "text": {
           "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||"
         },
-        "repeat": 3,
-        "action": "Recite silently while holding your breath.",
+        "action": "Say it silently in three parts: breathe in through the left nostril with the seven vyāhṛtis, hold your breath with the Gāyatrī, and breathe out through the right with *oṃ āpo jyotī…*.",
         "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
-        "unit": "rounds"
+        "unit": "rounds",
+        "audio": "/audio/a79bd409a5.m4a"
       },
       {
         "kind": "note",
-        "text": "After the third round, touch your right ear with the fingers of your right hand (this is called śrotrācamanam; Gaṅgā is said to live in the right ear). Then take the *saṅkalpa posture*: left palm face up on your right thigh, right palm face down over it (also called brahmāñjali)."
+        "text": "After the round, touch your right ear with your right hand (this is called śrotrācamanam; Gaṅgā is said to live in the right ear)."
       }
     ],
-    "image": "/img/steps/pranayamam.webp",
     "todo": [
       "Sit upright. Rest your left hand on your left thigh, palm up, with thumb and index finger touching.",
       "Fold the index and middle fingers of your right hand into the palm. The thumb closes the right nostril; the ring and little fingers close the left.",
-      "Close the left nostril and breathe out slowly through the right.",
-      "Close the right nostril, open the left, and breathe in fully.",
-      "Close both nostrils. With mouth and eyes closed, recite the mantra silently in your mind while holding your breath. The mantra includes the seven *vyāhṛtis* (the words naming the seven worlds, *oṃ bhūḥ*, *oṃ bhuvaḥ*, …).",
-      "Open the right nostril and breathe out slowly. This is one round; do three rounds."
-    ]
+      "Close the right nostril with the thumb and breathe in through the left while saying *oṃ bhūḥ … oṃ satyam* in your mind. These are the seven *vyāhṛtis* (the words naming the seven worlds).",
+      "Close both nostrils and hold your breath while saying the Gāyatrī, *oṃ tat savitur … pracodayāt*.",
+      "Release the thumb and breathe out through the right nostril while saying *oṃ āpo jyotī … suvarom*.",
+      "This is one round. Do one round here."
+    ],
+    "image": {
+      "smarta": "/img/steps/pranayamam-s.webp",
+      "srivaishnava": "/img/steps/pranayamam-v.webp"
+    }
   },
   {
     "id": "sankalpam",
     "title": {
       "sa": "Saṅkalpam",
-      "en": "Statement of intent"
+      "en": "Resolving to worship"
     },
     "section": "purvanga",
     "sources": [
@@ -349,8 +371,8 @@
       }
     ],
     "todo": [
-      "Take the saṅkalpa posture from the previous step.",
-      "State your intent for this sandhyā by reciting the saṅkalpa below.",
+      "State what you are about to do and why: to remove your accumulated faults and to please the Lord.",
+      "Take the *saṅkalpa posture*: rest your left palm, facing up, on your right thigh and place your closed right palm over it.",
       {
         "text": "Recite the form beginning *mamopātta…*.",
         "tradition": [
@@ -364,7 +386,7 @@
         ]
       },
       "If detailed saṅkalpam is switched on in Settings, the day's details (pañcāṅga: year, ayana, ṛtu, month, pakṣa, tithi, vāra, nakṣatra) are added before the time of day (kāla).",
-      "Afterwards, wash your right palm with water."
+      "Afterwards, release your hands and wash your right palm with water."
     ]
   },
   {
@@ -400,10 +422,12 @@
     "id": "tilakam",
     "title": {
       "sa": "Tilakam / Ūrdhva-puṇḍram",
-      "en": "Applying the forehead mark"
+      "en": "A mark that you stand before the Lord"
     },
     "section": "purvanga",
-    "optional": true,
+    "optional": [
+      "srivaishnava"
+    ],
     "sources": [
       "sandhya.pdf p5",
       "Sandhyavandanam.pdf p4",
@@ -415,24 +439,26 @@
         "text": {
           "iast": "oṃ śrī keśavāya namaḥ"
         },
-        "action": "Apply the tilakam to your forehead with the wet ring finger.",
+        "action": "Touch the wet ring finger to the middle of your forehead.",
         "meaning": "Om, salutations to Śrī Keśava.",
         "audio": "/audio/895a7feec5.m4a"
       }
     ],
     "todo": [
-      "If you did not apply the tilakam (the mark on the forehead, ūrdhva-puṇḍram) after your bath, apply it now.",
-      "Dip your ring finger in the water in your vessel.",
-      "Trace the mantra on the water.",
-      "Apply the mark to the middle of your forehead while reciting it."
-    ]
+      "Dip your right ring finger in the water in your vessel.",
+      "Write the syllable *oṃ* on the water with that finger.",
+      "Say the mantra and touch the wet finger to the middle of your forehead (some touch the point between the eyebrows)."
+    ],
+    "image": {
+      "smarta": "/img/steps/tilakam-s.webp",
+      "srivaishnava": "/img/steps/tilakam-v.webp"
+    }
   },
   {
     "id": "prokshanam",
-    "image": "/img/steps/prokshanam.webp",
     "title": {
       "sa": "Prokṣaṇam / Mārjanam",
-      "en": "Sprinkling of water"
+      "en": "Purifying body and mind with water"
     },
     "section": "purvanga",
     "sources": [
@@ -450,7 +476,10 @@
         },
         "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
         "meaning": "Of the mantra *āpo hiṣṭhā*, Sindhudvīpa is the seer, devī gāyatrī the metre, the Waters the deity; it is used in the sprinkling of water.",
-        "audio": "/audio/16e916873f.m4a"
+        "audio": "/audio/16e916873f.m4a",
+        "optional": [
+          "smarta"
+        ]
       },
       {
         "kind": "mantra",
@@ -461,23 +490,26 @@
           "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |\ntat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi |\ndhiyo̱ yo na̍ḥ praco̱dayā̎t ||"
         },
         "action": "Sprinkle water on your head three times, once with each line.",
-        "meaning": "Om, earth, atmosphere, heaven. We meditate on the adorable light of the divine Savitā; may He guide our thoughts."
+        "meaning": "Om, earth, atmosphere, heaven. We meditate on the adorable light of the divine Savitā; may He guide our thoughts.",
+        "audio": "/audio/28ad122e27.m4a"
       },
       {
         "kind": "mantra",
         "text": {
           "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍śśi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |"
         },
-        "action": "Sprinkle water on your head seven times, once with each of the seven phrases (each phrase ends at a bar).",
-        "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like loving mothers. We come gladly to Him,"
+        "action": "Sprinkle water on your head and face with your right ring finger seven times, once with each of the seven phrases (each phrase ends at a bar).",
+        "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like loving mothers. We come gladly to Him,",
+        "audio": "/audio/2ece9abd01.m4a"
       },
       {
         "kind": "mantra",
         "text": {
           "iast": "yasya̱ kṣayā̍ya̱ jinva̍tha |"
         },
-        "action": "Sprinkle a little water on your big toes.",
-        "meaning": "for whose dwelling you give us life."
+        "action": "Sprinkle a little water on your feet.",
+        "meaning": "for whose dwelling you give us life.",
+        "audio": "/audio/0320ae0e05.m4a"
       },
       {
         "kind": "mantra",
@@ -485,7 +517,8 @@
           "iast": "āpo̍ ja̱naya̍thā ca naḥ |"
         },
         "action": "Sprinkle water on your head again.",
-        "meaning": "O Waters, make us pure and grant us to be reborn with splendour."
+        "meaning": "O Waters, make us pure and grant us to be reborn with splendour.",
+        "audio": "/audio/10b3fe9164.m4a"
       },
       {
         "kind": "mantra",
@@ -493,22 +526,38 @@
           "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |"
         },
         "action": "Circle a little water clockwise around your head and let the drops fall around you.",
-        "meaning": "Om, earth, atmosphere, heaven."
+        "meaning": "Om, earth, atmosphere, heaven.",
+        "audio": "/audio/f3e42b836a.m4a"
       }
     ],
     "todo": [
+      "The mantra calls on the waters as nourishing mothers.",
       "Hold the vessel in your left hand.",
-      "Do the nyāsa (touches made before a mantra): touch the top of your head while naming the seer (ṛṣi), the tip of your nose for the metre (chandas), and your heart for the deity (devatā).",
-      "Then join your palms in añjali (palms together at the chest) for the mantra's use (viniyoga).",
-      "Take a little water in your right palm (or on your ring finger, using the uddharaṇi).",
-      "Sprinkle it on your head with your right fingers, once with each line."
-    ]
+      {
+        "text": "Do the nyāsa (touches made before a mantra): touch the top of your head while naming the seer (ṛṣi), the tip of your nose for the metre (chandas), and your heart for the deity (devatā).",
+        "tradition": [
+          "srivaishnava"
+        ]
+      },
+      {
+        "text": "Then join your palms in añjali (palms together at the chest) for the mantra's use (viniyoga).",
+        "tradition": [
+          "srivaishnava"
+        ]
+      },
+      "Dip your right ring finger in the water.",
+      "Sprinkle the water on your head and face with that finger, once with each phrase."
+    ],
+    "image": {
+      "smarta": "/img/steps/prokshanam-s.webp",
+      "srivaishnava": "/img/steps/prokshanam-v.webp"
+    }
   },
   {
     "id": "prasanam",
     "title": {
       "sa": "Prāśanam",
-      "en": "Sipping with the atonement mantra"
+      "en": "Atoning for recent faults"
     },
     "section": "purvanga",
     "sources": [
@@ -529,7 +578,10 @@
         },
         "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
         "meaning": "Of the anuvāka beginning *sūryaśca*, Agni is the seer, devī gāyatrī the metre, Sūrya the deity; it is used in the sipping of water.",
-        "audio": "/audio/cb49df60ca.m4a"
+        "audio": "/audio/cb49df60ca.m4a",
+        "optional": [
+          "smarta"
+        ]
       },
       {
         "kind": "mantra",
@@ -540,7 +592,8 @@
           "iast": "sūryaśca mā manyuśca manyupatayaśca manyu̍kṛte̱bhyaḥ | pāpebhyo̍ rakṣa̱ntām | yad rātriyā pāpa̍m akā̱rṣam | manasā vācā̍ hastā̱bhyām | padbhyām udare̍ṇa śi̱śnā | rātri̱s tad ava̍lu̱mpatu | yat kiñca̍ duri̱taṃ mayi̍ | idam ahaṃ mām amṛ̍ta yo̱nau | sūrye jyotiṣi juho̍mi svā̱hā ||"
         },
         "action": "Recite with the water in your right palm, then swallow it.",
-        "meaning": "May the Sun, anger, the lords of anger and the deities of the sins born of anger protect me. Whatever sin I have done by night, by thought, speech, hands, feet, belly or organ, may the night wipe it away. Whatever evil remains in me, I offer into the Sun, the light, the source of immortality. Svāhā."
+        "meaning": "May the Sun, anger, the lords of anger and the deities of the sins born of anger protect me. Whatever sin I have done by night, by thought, speech, hands, feet, belly or organ, may the night wipe it away. Whatever evil remains in me, I offer into the Sun, the light, the source of immortality. Svāhā.",
+        "audio": "/audio/3c6efc7d2d.m4a"
       },
       {
         "kind": "mantra",
@@ -552,7 +605,10 @@
         },
         "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
         "meaning": "Of the anuvāka beginning *āpaḥ punantu*, the Waters are the seer, anuṣṭup the metre, Brahmaṇaspati the deity; it is used in the sipping of water.",
-        "audio": "/audio/8f4683470c.m4a"
+        "audio": "/audio/8f4683470c.m4a",
+        "optional": [
+          "smarta"
+        ]
       },
       {
         "kind": "mantra",
@@ -575,7 +631,10 @@
         },
         "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
         "meaning": "Of the anuvāka beginning *agniśca*, Sūrya is the seer, devī gāyatrī the metre, Agni the deity; it is used in the sipping of water.",
-        "audio": "/audio/93f76f869a.m4a"
+        "audio": "/audio/93f76f869a.m4a",
+        "optional": [
+          "smarta"
+        ]
       },
       {
         "kind": "mantra",
@@ -586,22 +645,33 @@
           "iast": "agniśca mā manyuśca manyupatayaśca manyu̍kṛte̱bhyaḥ | pāpebhyo̍ rakṣa̱ntām | yad ahnā pāpa̍m akā̱rṣam | manasā vācā̍ hastā̱bhyām | padbhyām udare̍ṇa śi̱śnā | aha̱s tad ava̍lu̱mpatu | yat kiñca̍ duri̱taṃ mayi̍ | idam ahaṃ mām amṛ̍ta yo̱nau | satye jyotiṣi juho̍mi svā̱hā ||"
         },
         "action": "Recite with the water in your right palm, then swallow it.",
-        "meaning": "May Agni, anger, the lords of anger and the deities of the sins born of anger protect me. Whatever sin I have done by day, by thought, speech, hands, feet, belly or organ, may the day wipe it away. Whatever evil remains in me, I offer into Truth, the light, the source of immortality. Svāhā."
+        "meaning": "May Agni, anger, the lords of anger and the deities of the sins born of anger protect me. Whatever sin I have done by day, by thought, speech, hands, feet, belly or organ, may the day wipe it away. Whatever evil remains in me, I offer into Truth, the light, the source of immortality. Svāhā.",
+        "audio": "/audio/3dd821c452.m4a"
       }
     ],
     "todo": [
-      "Do the nyāsa, as in Prokṣaṇam: touch your head, nose and heart, then join your palms.",
+      "Ask that the faults of the earlier part of the day or night be removed, and offer yourself into the inner light.",
+      {
+        "text": "Do the nyāsa, as in Prokṣaṇam: touch your head, nose and heart, then join your palms.",
+        "tradition": [
+          "srivaishnava"
+        ]
+      },
       "Pour a small amount of water into the hollow of your right palm.",
       "Recite the mantra for your time of day.",
       "Swallow the water from the base of your thumb (the brāhma-tīrtha).",
       "Then do the ācamanam as in the first step: three sips with the three names, then the twelve names."
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/acamanam-s.webp",
+      "srivaishnava": "/img/steps/acamanam-v.webp"
+    }
   },
   {
     "id": "punar-marjanam",
     "title": {
       "sa": "Punaḥ prokṣaṇam / Punar-mārjanam",
-      "en": "Repeated sprinkling"
+      "en": "Purifying again, with a prayer for long life"
     },
     "section": "purvanga",
     "sources": [
@@ -619,31 +689,37 @@
         },
         "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
         "meaning": "Of the mantra *dadhikrāvṇṇo*, Vāmadeva is the seer, anuṣṭup the metre, Dadhikrāvan the deity; it is used in the sprinkling of water.",
-        "audio": "/audio/6007ea7111.m4a"
+        "audio": "/audio/6007ea7111.m4a",
+        "optional": [
+          "smarta"
+        ]
       },
       {
         "kind": "mantra",
         "text": {
           "iast": "da̱dhi̱krāvṇṇo̍ akāriṣaṃ ji̱ṣṇor aśva̍sya vā̱jina̍ḥ |\nsu̱ra̱bhi no̱ mukhā̍ kara̱t praṇa̱ āyū̍guṃṣi tāriṣat ||"
         },
-        "action": "Sprinkle water on your head four times, once with each quarter of the verse.",
-        "meaning": "I have praised Dadhikrāvan, the victorious, swift steed (the Lord as Hayagrīva). May He make our mouths fragrant and lengthen our lives."
+        "action": "Sprinkle water on your head and face with your right ring finger four times, once with each quarter of the verse.",
+        "meaning": "I have praised Dadhikrāvan, the victorious, swift steed (the Lord as Hayagrīva). May He make our mouths fragrant and lengthen our lives.",
+        "audio": "/audio/9e7d6725f8.m4a"
       },
       {
         "kind": "mantra",
         "text": {
           "iast": "āpo̱ hiṣṭhā ma̍yo̱ bhuva̍ḥ | tā na̍ ū̱rje da̍dhātana | ma̱he raṇā̍ya̱ cakṣa̍se |\nyo va̍śśi̱vata̍mo̱ rasa̍ḥ | tasya̍ bhājayate̱ha na̍ḥ | u̱śa̱tīri̍va mā̱tara̍ḥ |\ntasmā̱ ara̍ṅga māma vaḥ |"
         },
-        "action": "Sprinkle water on your head seven times, once with each of the seven phrases (each phrase ends at a bar).",
-        "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like loving mothers. We come gladly to Him,"
+        "action": "Sprinkle water on your head and face with your right ring finger seven times, once with each of the seven phrases (each phrase ends at a bar).",
+        "meaning": "O Waters, you are indeed the source of bliss; grant us nourishment, that we may behold great delight. Grant us here a share of that most auspicious essence of yours, like loving mothers. We come gladly to Him,",
+        "audio": "/audio/2ece9abd01.m4a"
       },
       {
         "kind": "mantra",
         "text": {
           "iast": "yasya̱ kṣayā̍ya̱ jinva̍tha |"
         },
-        "action": "Sprinkle a little water on your big toes.",
-        "meaning": "for whose dwelling you give us life."
+        "action": "Sprinkle a little water on your feet.",
+        "meaning": "for whose dwelling you give us life.",
+        "audio": "/audio/0320ae0e05.m4a"
       },
       {
         "kind": "mantra",
@@ -651,7 +727,8 @@
           "iast": "āpo̍ ja̱naya̍thā ca naḥ |"
         },
         "action": "Sprinkle water on your head again.",
-        "meaning": "O Waters, make us pure and grant us to be reborn with splendour."
+        "meaning": "O Waters, make us pure and grant us to be reborn with splendour.",
+        "audio": "/audio/10b3fe9164.m4a"
       },
       {
         "kind": "mantra",
@@ -659,21 +736,31 @@
           "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |"
         },
         "action": "Circle a little water clockwise around your head and let the drops fall around you.",
-        "meaning": "Om, earth, atmosphere, heaven."
+        "meaning": "Om, earth, atmosphere, heaven.",
+        "audio": "/audio/f3e42b836a.m4a"
       }
     ],
     "todo": [
-      "This is a second sprinkling, after Prāśanam.",
-      "Do the nyāsa, as in Prokṣaṇam: touch your head, nose and heart, then join your palms.",
-      "Sprinkle water on your head once with each of the four *pādas* (quarter-lines) of the *dadhikrāvṇṇo* verse.",
+      "Ask that your face and senses be made fragrant and your life long.",
+      {
+        "text": "Do the nyāsa, as in Prokṣaṇam: touch your head, nose and heart, then join your palms.",
+        "tradition": [
+          "srivaishnava"
+        ]
+      },
+      "Sprinkle water on your head and face with your right ring finger, once with each of the four *pādas* (quarter-lines) of the *dadhikrāvṇṇo* verse.",
       "Then sprinkle again with *āpo hiṣṭhā*, exactly as in Prokṣaṇam."
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/prokshanam-s.webp",
+      "srivaishnava": "/img/steps/prokshanam-v.webp"
+    }
   },
   {
     "id": "arghya-pradanam",
     "title": {
       "sa": "Arghya-pradānam",
-      "en": "Offering water to the Sun"
+      "en": "Dispelling darkness with water for the Sun"
     },
     "section": "purvanga",
     "facing": {
@@ -694,8 +781,12 @@
         "text": {
           "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||"
         },
-        "action": "Recite silently while holding your breath, as in the Prāṇāyāmam step. Then touch your right ear and take the saṅkalpa posture.",
-        "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds."
+        "action": "Say it silently in three parts, as in the Prāṇāyāmam step: breathe in with the first line, hold with the second, breathe out with the third. Then touch your right ear and take the saṅkalpa posture.",
+        "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
+        "optional": [
+          "smarta"
+        ],
+        "audio": "/audio/a79bd409a5.m4a"
       },
       {
         "kind": "mantra",
@@ -706,7 +797,10 @@
           "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā sūryārghya pradānaṃ kariṣye ||"
         },
         "meaning": "To destroy all my sins and to please the Supreme Lord, I now make the {kalaEn} sandhyā offerings of water to the Sun.",
-        "action": "Say the saṅkalpa in the saṅkalpa posture."
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
+        "optional": [
+          "smarta"
+        ]
       },
       {
         "kind": "mantra",
@@ -726,7 +820,10 @@
         },
         "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
         "meaning": "Of the arghya mantra, Viśvāmitra is the seer, devī gāyatrī the metre, Savitā the deity; it is used for offering arghya (water to the Sun).",
-        "audio": "/audio/35ca08621d.m4a"
+        "audio": "/audio/35ca08621d.m4a",
+        "optional": [
+          "smarta"
+        ]
       },
       {
         "kind": "mantra",
@@ -735,11 +832,12 @@
         },
         "repeat": {
           "pratah": 3,
-          "madhyahnika": 1,
+          "madhyahnika": 2,
           "sayam": 3
         },
-        "action": "Recite this aloud, then rise on your heels, look at the sun and let the water run from your fingertips.",
-        "meaning": "Om, earth, atmosphere, heaven. We meditate on the adorable light of the divine Savitā; may He guide our thoughts."
+        "action": "Recite this aloud, look towards the sun and let the water flow down from your fingertips onto the plate.",
+        "meaning": "Om, earth, atmosphere, heaven. We meditate on the adorable light of the divine Savitā; may He guide our thoughts.",
+        "audio": "/audio/0bafaf0cfb.m4a"
       },
       {
         "kind": "mantra",
@@ -752,15 +850,55 @@
         "audio": "/audio/5ff62204e6.m4a"
       }
     ],
-    "image": "/img/steps/arghya-pradanam.webp",
     "todo": [
-      "Do prāṇāyāma, as in the Prāṇāyāmam step. Then touch your right ear and take the saṅkalpa posture.",
-      "Say the saṅkalpa, then do the nyāsa.",
-      "Stand upright. Hold the vessel between the thumb and index finger of your left hand.",
+      "You offer water to the Sun to drive away the darkness (inner sloth and ignorance) that hides true knowledge.",
+      {
+        "text": "Do prāṇāyāma, as in the Prāṇāyāmam step. Then touch your right ear and take the saṅkalpa posture.",
+        "tradition": [
+          "srivaishnava"
+        ]
+      },
+      {
+        "text": "Say the saṅkalpa, then do the nyāsa.",
+        "tradition": [
+          "srivaishnava"
+        ]
+      },
+      {
+        "text": "Stand upright.",
+        "kala": [
+          "pratah"
+        ]
+      },
+      {
+        "text": "Stand upright (some sit).",
+        "kala": [
+          "madhyahnika"
+        ]
+      },
+      {
+        "text": "Sit, facing west.",
+        "kala": [
+          "sayam"
+        ]
+      },
+      "Hold the vessel between the thumb and index finger of your left hand.",
       "Join both palms facing upward and pour water into the hollow of your joined palms.",
-      "Raise your joined palms to the level of your forehead.",
+      {
+        "text": "Raise your joined palms to the level of your forehead and lift your heels slightly.",
+        "kala": [
+          "pratah",
+          "madhyahnika"
+        ]
+      },
+      {
+        "text": "Raise your joined palms to the level of your forehead.",
+        "kala": [
+          "sayam"
+        ]
+      },
       "Recite the Gāyatrī aloud (in japa later it is silent).",
-      "Look towards the sun, rise on your heels, and let the water run out from your fingertips (the deva-tīrtha), thrown up towards the sun.",
+      "Look towards the sun and let the water flow down from your fingertips (not over the thumb) onto the plate.",
       {
         "text": "Make this offering three times.",
         "kala": [
@@ -769,22 +907,30 @@
         ]
       },
       {
-        "text": "Make this offering once.",
+        "text": "Make this offering twice.",
         "kala": [
           "madhyahnika"
         ]
       },
       "If you are standing in a river or tank, offer the water with cupped palms."
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/arghya-s.webp",
+      "srivaishnava": "/img/steps/arghya-v.webp"
+    }
   },
   {
     "id": "prayascitta-arghyam",
     "title": {
       "sa": "Prāyaścitta-arghyam (turīyārghyam)",
-      "en": "Extra offering if you are late"
+      "en": "Atoning for any delay in the offering"
     },
     "section": "purvanga",
-    "optional": true,
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "west"
+    },
     "sources": [
       "sandhya.pdf p7",
       "Kidambi p29–31, p61–63, p93–95",
@@ -792,6 +938,16 @@
       "Sandhyavandanam.pdf p8"
     ],
     "items": [
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||\noṃ āpo̱ jyotī̱ raso̱'mṛta̱ṃ brahma̱ bhūr bhuva̱ssuva̱rom ||"
+        },
+        "action": "Say it silently in three parts, as in the Prāṇāyāmam step: breathe in with the first line, hold with the second, breathe out with the third.",
+        "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Creator; may He guide our intellect. He is the waters, the light, the flavour and the nectar of immortality, and fills the three worlds.",
+        "unit": "rounds",
+        "audio": "/audio/a79bd409a5.m4a"
+      },
       {
         "kind": "mantra",
         "tradition": [
@@ -821,7 +977,23 @@
         },
         "action": "Do the nyāsa: touch your head, nose and heart, then join your palms in añjali.",
         "meaning": "Of the fourth-arghya mantra, Sāndīpanī is the seer, devī gāyatrī the metre, Savitā the deity; it is used for offering the fourth arghya.",
-        "audio": "/audio/d616c340ee.m4a"
+        "audio": "/audio/d616c340ee.m4a",
+        "optional": [
+          "smarta"
+        ]
+      },
+      {
+        "kind": "mantra",
+        "tradition": [
+          "smarta"
+        ],
+        "text": {
+          "iast": "oṃ bhūr bhuva̱ssuva̍ḥ | tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t ||"
+        },
+        "repeat": 1,
+        "action": "Recite this aloud and let the water flow down from your fingertips onto the plate.",
+        "meaning": "Om, earth, atmosphere, heaven. We meditate on the adorable light of the divine Savitā; may He guide our thoughts.",
+        "audio": "/audio/0bafaf0cfb.m4a"
       },
       {
         "kind": "mantra",
@@ -829,29 +1001,37 @@
           "iast": "oṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam |\noṃ tat sa̍vi̱tur vare̎ṇya̱ṃ bhargo̍ de̱vasya̍ dhīmahi | dhiyo̱ yo na̍ḥ praco̱dayā̎t |\noṃ bhūḥ | oṃ bhuvaḥ | oguṃ suvaḥ | oṃ mahaḥ | oṃ janaḥ | oṃ tapaḥ | oguṃ sa̱tyam ||"
         },
         "repeat": 1,
-        "action": "Recite this, rise on your heels, look at the sun and let the water run from your fingertips.",
-        "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Savitā; may He guide our thoughts. Om, the seven worlds."
+        "action": "Recite this, look towards the sun and let the water run from your fingertips.",
+        "meaning": "Om, the seven worlds. We meditate on the adorable light of the divine Savitā; may He guide our thoughts. Om, the seven worlds.",
+        "tradition": [
+          "srivaishnava"
+        ],
+        "audio": "/audio/290fabd745.m4a"
       }
     ],
     "todo": [
-      "Do this step only if you are doing the sandhyā late: after sunrise in the morning, or after sunset in the evening.",
+      "The offering to the Sun belongs to the exact meeting of day and night. This one extra offering makes up for any delay.",
+      "Do prāṇāyāma once, as in the Prāṇāyāmam step, and touch your right ear.",
+      "Take the saṅkalpa posture and say the saṅkalpa.",
       {
-        "text": "At noon, only some families do this extra offering.",
-        "kala": [
-          "madhyahnika"
+        "text": "Then do the nyāsa.",
+        "tradition": [
+          "srivaishnava"
         ]
       },
-      "Do prāṇāyāma, touch your right ear and take the saṅkalpa posture, as in the Prāṇāyāmam step.",
-      "Say the saṅkalpa, then do the nyāsa.",
-      "Stand with water in your joined palms at forehead level.",
-      "Recite the mantra, rise on your heels, look at the sun and make one extra offering."
-    ]
+      "Hold water in your joined palms, in the same posture and facing the same way as in the previous step.",
+      "Recite the mantra and make one offering, letting the water flow down from your fingertips onto the plate."
+    ],
+    "image": {
+      "smarta": "/img/steps/arghya-s.webp",
+      "srivaishnava": "/img/steps/arghya-v.webp"
+    }
   },
   {
     "id": "brahma-bhavanam",
     "title": {
       "sa": "Ātma-pradakṣiṇam · Sandhyopāsanam (Brahma-bhāvanam)",
-      "en": "Turning around and meditating on the Sun"
+      "en": "Seeing the Sun and the Self as one"
     },
     "section": "purvanga",
     "sources": [
@@ -868,14 +1048,15 @@
           "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |"
         },
         "action": "Circle the water clockwise around your head while turning clockwise.",
-        "meaning": "Om, earth, atmosphere, heaven."
+        "meaning": "Om, earth, atmosphere, heaven.",
+        "audio": "/audio/f3e42b836a.m4a"
       },
       {
         "kind": "mantra",
         "text": {
           "iast": "asāvādityo brahma |"
         },
-        "action": "Say this with your palms joined, contemplating the Lord in the centre of the Sun.",
+        "action": "Say this with your fingertips on your chest, contemplating the Lord in the centre of the Sun.",
         "meaning": "Yonder Sun is Brahman.",
         "audio": "/audio/c5193807a9.m4a"
       },
@@ -896,18 +1077,33 @@
       "Take a little water in your right palm.",
       "Recite *oṃ bhūr bhuvas suvaḥ* and circle your hand clockwise around your head.",
       "At the same time, turn once clockwise on the spot, letting the water fall around you.",
-      "Face the sun with your palms joined in añjali and close your eyes.",
+      {
+        "text": "In the evening, now turn to face north.",
+        "kala": [
+          "sayam"
+        ]
+      },
+      "Place the fingertips of both hands on your chest and close your eyes.",
       "Meditate for a minute or two on the Lord in the centre of the Sun and on the meaning of the words you recite.",
       "Do not rush this."
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/dhyanam-s.webp",
+      "srivaishnava": "/img/steps/dhyanam-v.webp"
+    }
   },
   {
     "id": "acamanam-2",
     "title": {
       "sa": "Ācamanam",
-      "en": "Sipping of water (second time)"
+      "en": "Purifying again before offering to the deities"
     },
     "section": "purvanga",
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "north"
+    },
     "sources": [
       "sandhya.pdf p8",
       "Kidambi p31",
@@ -938,7 +1134,7 @@
         "text": {
           "iast": "oṃ govindāya namaḥ"
         },
-        "action": "Pour water once more and swallow it. Then wash your hand and wipe your lips as described in the first step.",
+        "action": "Pour water once more and swallow it. Then wash your right hand.",
         "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
         "audio": "/audio/3aa63e480a.m4a"
       },
@@ -953,18 +1149,26 @@
       }
     ],
     "todo": [
-      "Squat or sit low on your heels (kukkuṭāsana) and do the ācamanam again.",
+      "Sit on your plank (some squat on the heels) and do the ācamanam again.",
       "Take a sip and swallow it with each of the three names, then touch your body with the twelve names."
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/acamanam-s.webp",
+      "srivaishnava": "/img/steps/acamanam-v.webp"
+    }
   },
   {
     "id": "tarpanam",
-    "image": "/img/steps/tarpanam.webp",
     "title": {
       "sa": "Tarpaṇam",
-      "en": "Offering water to the deities"
+      "en": "Satisfying and thanking the deities"
     },
     "section": "purvanga",
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "north"
+    },
     "sources": [
       "sandhya.pdf p8",
       "Kidambi p31–33 (12 only)",
@@ -981,7 +1185,7 @@
         "text": {
           "iast": "ādityaṃ tarpayāmi |"
         },
-        "action": "Pour water into your joined palms, recite, and let it run out through your fingertips.",
+        "action": "Pour water into your right palm, recite, and let it run off your fingertips.",
         "meaning": "I offer water to Āditya, the Sun.",
         "audio": "/audio/6b542269ce.m4a"
       },
@@ -1086,7 +1290,7 @@
         "text": {
           "iast": "keśavaṃ tarpayāmi |"
         },
-        "action": "Pour water into your joined palms, recite, and let it run out through your fingertips.",
+        "action": "Pour water into your right palm, recite, and let it run off your fingertips.",
         "meaning": "I offer water to Keśava.",
         "audio": "/audio/6fdc0a92d1.m4a"
       },
@@ -1207,11 +1411,9 @@
       }
     ],
     "todo": [
-      "Squat or sit low (kukkuṭāsana). Hold the vessel between the thumb and index finger of your left hand.",
-      "Join both palms facing upward.",
-      "For each name, pour water into the hollow of your joined palms and recite.",
-      "Let the water run out through the fingertips of both hands (the deva-tīrtha) onto the ground or a plate.",
-      "This is like the offering to the Sun, but you do not rise on your heels.",
+      "Stay seated as for the ācamanam. Hold the spoon in your left hand.",
+      "For each name, pour a spoonful of water into your right palm and recite (some use both joined palms).",
+      "Let the water run off your fingertips (the deva-tīrtha) onto the plate.",
       {
         "text": "Offer to the nine planets (grahas) first, then to the twelve names.",
         "tradition": [
@@ -1225,13 +1427,17 @@
         ]
       },
       "The twelve names are forms of Viṣṇu, one for each month."
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/tarpanam-s.webp",
+      "srivaishnava": "/img/steps/tarpanam-v.webp"
+    }
   },
   {
     "id": "asanam",
     "title": {
       "sa": "Japasthala prokṣaṇam · Āsanam",
-      "en": "Preparing your place; the seat mantra"
+      "en": "Sanctifying and steadying your seat"
     },
     "section": "purvanga",
     "facing": {
@@ -1251,7 +1457,8 @@
           "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |"
         },
         "action": "Sprinkle water on the place where you will sit for japa.",
-        "meaning": "Om, earth, atmosphere, heaven."
+        "meaning": "Om, earth, atmosphere, heaven.",
+        "audio": "/audio/f3e42b836a.m4a"
       },
       {
         "kind": "mantra",
@@ -1280,21 +1487,48 @@
         "text": {
           "iast": "pṛthvi tvayā dhṛtā lokā devi tvaṃ viṣṇunā dhṛtā |\ntvaṃ ca dhāraya māṃ devi pavitraṃ kuru cāsanam ||"
         },
-        "action": "Say this with your palms joined.",
+        "action": "Say this prayer to the Earth.",
         "meaning": "O Mother Earth, by you the worlds are supported, and you, O Goddess, are supported by Viṣṇu. Support me too, O Goddess, and purify this seat.",
         "audio": "/audio/7d37c343e3.m4a"
       }
     ],
     "todo": [
+      "Ask the Earth, who bears all, to bear you through the japa.",
       "Sprinkle a little water on a clean spot where you will do the *japa* (quiet repeating of a mantra), reciting *oṃ bhūr bhuvas suvaḥ*.",
-      "Stand on the sprinkled spot.",
+      {
+        "text": "Stand on the sprinkled spot.",
+        "tradition": [
+          "srivaishnava"
+        ]
+      },
+      {
+        "text": "Sit on the sprinkled spot.",
+        "tradition": [
+          "smarta"
+        ]
+      },
       {
         "text": "You may first say the optional prayer to the earth below.",
         "tradition": [
           "smarta"
         ]
       },
-      "Do the nyāsa, as in Prokṣaṇam, then recite the seat mantra with your palms joined in añjali."
+      "Do the nyāsa (touches made before a mantra): touch your head, nose and heart as the line names the seer, metre and deity.",
+      {
+        "text": "Then recite the seat mantra with your palms joined in añjali.",
+        "tradition": [
+          "srivaishnava"
+        ]
+      },
+      {
+        "text": "Then touch the floor with your right ring finger, and after it the point between your eyebrows, while saying the seat mantra *pṛthvi tvayā*.",
+        "tradition": [
+          "smarta"
+        ]
+      }
+    ],
+    "optional": [
+      "smarta"
     ]
   }
 ]

@@ -22,3 +22,14 @@
 ## Step drawings (2026-11-23)
 
 The eight step figures in `app/public/img/steps/` are black ink line drawings from Nano Banana Pro (treg `piapi.image-gen.gemini-3-pro-image`, about $0.105 each), converted to dark ink on a transparent background so they sit on the page colour and invert in dark mode (`.step-figure`). Each was checked by eye: sacred thread from the left shoulder, right hand doing the action, plain forehead (no tradition mark). The tarpaṇam drawing is mirrored for the thread. A saṅkalpa-posture drawing was tried twice and rejected (hands not on the right thigh).
+
+## Coloured step pictures per tradition (2026-11-25)
+
+The ink drawings above were replaced at the owner's request by the earlier flat-colour style, now with the tradition's marks (vibhūti for Smārta, ūrdhva-puṇḍra for Śrī Vaiṣṇava) and the props (plank, pañcapātra, uddharaṇi, plate). 13 scenes × 2 traditions in `app/public/img/steps/<scene>-s.webp` / `-v.webp`; a step's `image` is `{smarta, srivaishnava}`. Generated with Nano Banana Pro through treg (`piapi.image-gen.gemini-3-pro-image`, $0.105 each, about $5.05 in all including rejects), each using an approved sample as the reference image so the man stays the same.
+
+What worked:
+- Describe each hand twice: "his RIGHT hand" and which side of the picture that is.
+- To get the other tradition's version of a good picture, edit it ("keep everything, change only the body marks") instead of generating afresh.
+- A figure in profile gets the sacred thread on the near shoulder; the arghya pictures are mirrored for that reason.
+
+What failed: the saṅkalpa posture (hands stacked on the RIGHT thigh) came out on the left thigh in every attempt, including edits, so that step has no picture. Poses were briefed from `docs/reference/source-check-2026-11-25.md` section D. The evening arghya is seated in the sources; the picture shows the standing form.

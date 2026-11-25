@@ -3,7 +3,7 @@
     "id": "sandhyadi-devata-vandanam",
     "title": {
       "sa": "Sandhyādi devatā vandanam",
-      "en": "Salutations to Sandhyā and the deities"
+      "en": "Bowing to the Goddess and asking pardon"
     },
     "section": "uttaranga",
     "facing": {
@@ -75,6 +75,7 @@
       }
     ],
     "todo": [
+      "Bow to the goddess of the junctures of the day in her forms and to all deities, and ask pardon for what desire and anger made you do.",
       "Stand with your palms joined in añjali.",
       "Turn clockwise, saluting the four directions in turn.",
       {
@@ -91,18 +92,22 @@
         ]
       },
       "Return to the starting direction for the last two mantras."
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/upasthanam-s.webp",
+      "srivaishnava": "/img/steps/upasthanam-v.webp"
+    }
   },
   {
     "id": "abhivadanam",
     "title": {
       "sa": "Abhivādanam",
-      "en": "Formal salutation with your name"
+      "en": "Presenting yourself by lineage and name"
     },
     "section": "uttaranga",
     "facing": {
       "pratah": "east",
-      "madhyahnika": "east",
+      "madhyahnika": "north",
       "sayam": "west"
     },
     "sources": [
@@ -118,7 +123,7 @@
         "text": {
           "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuśśākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||"
         },
-        "action": "Say this bent forward with your hands crossed, touching your ears. Then touch the ground.",
+        "action": "Say this bent forward with your hands over your ears. Then touch the ground.",
         "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
       },
       {
@@ -126,20 +131,23 @@
         "text": "After the pravara ṛṣis, say *trayārṣeya* if your pravara has three ṛṣis and *pañcārṣeya* if it has five."
       }
     ],
-    "image": "/img/steps/abhivadanam.webp",
     "todo": [
       "Bend forward at the waist.",
-      "Cross your forearms, right over left, and touch your ears with your hands.",
+      "Cover your ears with your hands. Some cross the forearms, right over left, to do this.",
       "Say your lineage and name: your pravara (the sages of your lineage), gotra, sūtra and name.",
       "These are filled in from Settings; blanks appear as “…” until you fill them in.",
       "Then touch the ground (or the feet of elders who are present) and stand upright."
-    ]
+    ],
+    "image": {
+      "smarta": "/img/steps/abhivadanam-s.webp",
+      "srivaishnava": "/img/steps/abhivadanam-v.webp"
+    }
   },
   {
     "id": "dik-vandanam",
     "title": {
       "sa": "Dig-devatā vandanam",
-      "en": "Salutations to the directions"
+      "en": "Saluting every direction, above and below"
     },
     "section": "uttaranga",
     "facing": {
@@ -340,7 +348,7 @@
       }
     ],
     "todo": [
-      "Stand with your palms joined in añjali and turn clockwise again, as in the previous step.",
+      "Stand with your palms joined in añjali and turn clockwise again, as you did for the salutations to Sandhyā.",
       {
         "text": "Start from the east and end with the north.",
         "kala": [
@@ -361,7 +369,7 @@
     "id": "yama-vandanam",
     "title": {
       "sa": "Yama vandanam",
-      "en": "Salutations to Yama"
+      "en": "Bowing to Yama, lord of dharma and time"
     },
     "section": "uttaranga",
     "tradition": [
@@ -385,14 +393,14 @@
     ],
     "todo": [
       "Face south and join your palms in añjali.",
-      "Think of Yama, the Lord of Death, as you recite."
+      "Bow to Yama, lord of dharma and of time, and to Citragupta, who keeps the record of deeds."
     ]
   },
   {
     "id": "siva-prarthana",
     "title": {
       "sa": "Śiva / Viśvarūpa prārthanā",
-      "en": "Prayer to Śiva as the universal form"
+      "en": "Saluting the one Supreme, Hari and Hara together"
     },
     "section": "uttaranga",
     "tradition": [
@@ -426,16 +434,16 @@
     "id": "narmada-vandanam",
     "title": {
       "sa": "Narmadā-sarpa vandanam",
-      "en": "Salutations to Narmadā and protection from serpents"
+      "en": "Asking protection from snakes"
     },
     "section": "uttaranga",
     "tradition": [
       "smarta"
     ],
-    "optional": true,
     "facing": {
       "pratah": "east",
-      "madhyahnika": "east"
+      "madhyahnika": "east",
+      "sayam": "west"
     },
     "sources": [
       "Kaalai p11"
@@ -452,7 +460,7 @@
       }
     ],
     "todo": [
-      "Some families add this step.",
+      "Pray to the river Narmadā and the sage Āstīka for protection from snakes.",
       "Join your palms in añjali and recite."
     ]
   },
@@ -460,7 +468,7 @@
     "id": "surya-narayana-vandanam",
     "title": {
       "sa": "Sūrya-Nārāyaṇa vandanam",
-      "en": "Salutations to Nārāyaṇa in the Sun"
+      "en": "Surrendering to Nārāyaṇa in the Sun"
     },
     "section": "uttaranga",
     "facing": {
@@ -524,25 +532,38 @@
         },
         "meaning": "Salutations again and again to the God of the brāhmaṇas, the well-wisher of cows and brāhmaṇas, the well-wisher of the world — to Kṛṣṇa, to Govinda.",
         "audio": "/audio/b4fee3ec04.m4a",
-        "action": "Say this with your palms joined."
+        "action": "Say this with your palms joined.",
+        "optional": [
+          "smarta"
+        ]
       },
       {
         "kind": "note",
-        "text": "The verse *namo brahmaṇya devāya* is optional. After this step, do four *sāṣṭāṅga namaskārams* (full prostrations)."
+        "text": "After this step, do four *sāṣṭāṅga namaskārams* (full prostrations)."
       }
     ],
     "todo": [
       "Join your palms in añjali.",
-      "Think of Nārāyaṇa in the disc of the Sun as you recite."
-    ]
+      "Think of Nārāyaṇa in the disc of the Sun as you recite.",
+      "Every salutation, to any deity, finally reaches Him."
+    ],
+    "image": {
+      "smarta": "/img/steps/upasthanam-s.webp",
+      "srivaishnava": "/img/steps/upasthanam-v.webp"
+    }
   },
   {
     "id": "abhivadanam-2",
     "title": {
       "sa": "Abhivādanam (punaḥ)",
-      "en": "Formal salutation again, then ācamanam"
+      "en": "Presenting yourself once more"
     },
     "section": "uttaranga",
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "north",
+      "sayam": "west"
+    },
     "sources": [
       "sandhya.pdf p15",
       "Kidambi p48, 81, 112",
@@ -555,26 +576,29 @@
         "text": {
           "iast": "abhivādaye {pravara} {arsheya} pravarānvita {gotra} gotraḥ {sutra} sūtraḥ yajuśśākhādhyāyī śrī {name} śarmā nāmāham asmi bhoḥ ||"
         },
-        "action": "Say this bent forward with your hands crossed, touching your ears. Then touch the ground.",
+        "action": "Say this bent forward with your hands over your ears. Then touch the ground.",
         "meaning": "I salute — I, of the pravara of the ṛṣis {pravara}, of the {gotra} gotra, of the {sutra} sūtra, a student of the Yajur śākhā, named {name} śarmā."
       }
     ],
     "todo": [
-      "Repeat the abhivādanam from the earlier Abhivādanam step: bend forward, cross your hands to your ears, say your lineage and name, and touch the ground.",
-      "Then sit and do the ācamanam: three sips with the three names, then the twelve names."
-    ]
+      "Repeat the abhivādanam from the earlier Abhivādanam step: bend forward, cover your ears with your hands, say your lineage and name, and touch the ground."
+    ],
+    "image": {
+      "smarta": "/img/steps/abhivadanam-s.webp",
+      "srivaishnava": "/img/steps/abhivadanam-v.webp"
+    }
   },
   {
     "id": "samarpanam",
     "title": {
       "sa": "Samarpaṇam",
-      "en": "Offering the rite to the Lord"
+      "en": "Offering everything you did to Nārāyaṇa"
     },
     "section": "uttaranga",
     "facing": {
       "pratah": "east",
       "madhyahnika": "east",
-      "sayam": "west"
+      "sayam": "north"
     },
     "sources": [
       "sandhya.pdf p15–16",
@@ -636,6 +660,7 @@
       }
     ],
     "todo": [
+      "Offer everything done by body, speech, mind and nature to Nārāyaṇa.",
       "Sit down.",
       {
         "text": "First say the sātvika tyāgam with your palms joined in añjali.",
@@ -643,21 +668,86 @@
           "srivaishnava"
         ]
       },
-      "Take a little water in your right palm, recite the verse below, and let the water fall to the ground.",
-      "This offers everything you have done to Nārāyaṇa."
-    ]
+      "Take a little water in your right palm, recite the verse below, and let the water fall to the ground."
+    ],
+    "image": {
+      "smarta": "/img/steps/tarpanam-s.webp",
+      "srivaishnava": "/img/steps/tarpanam-v.webp"
+    }
   },
   {
-    "id": "samapti",
+    "id": "acamanam-3",
     "title": {
-      "sa": "Samāpti / Japasthāna prokṣaṇam",
-      "en": "Closing: sprinkling the place of japa"
+      "sa": "Ācamanam",
+      "en": "Purifying once more before the close"
     },
     "section": "uttaranga",
     "facing": {
       "pratah": "east",
       "madhyahnika": "east",
-      "sayam": "west"
+      "sayam": "north"
+    },
+    "sources": [
+      "Sandhyavandanam.pdf p25–26"
+    ],
+    "todo": [
+      "Stay seated and do the ācamanam again.",
+      "Take a sip and swallow it with each of the three names, then touch your body with the twelve names."
+    ],
+    "items": [
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ acyutāya namaḥ"
+        },
+        "action": "Pour a little water into your right palm and swallow it.",
+        "meaning": "Salutations to Acyuta, the unfallen, unchanging one.",
+        "audio": "/audio/ddf14c38a5.m4a"
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ anantāya namaḥ"
+        },
+        "action": "Pour water into your palm again and swallow it.",
+        "meaning": "Salutations to Ananta, the infinite one.",
+        "audio": "/audio/be1844c3a2.m4a"
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ govindāya namaḥ"
+        },
+        "action": "Pour water once more and swallow it. Then wash your right hand.",
+        "meaning": "Salutations to Govinda, protector of the cows and of the earth.",
+        "audio": "/audio/3aa63e480a.m4a"
+      },
+      {
+        "kind": "mantra",
+        "text": {
+          "iast": "oṃ keśavāya namaḥ | oṃ nārāyaṇāya namaḥ | oṃ mādhavāya namaḥ | oṃ govindāya namaḥ | oṃ viṣṇave namaḥ | oṃ madhusūdanāya namaḥ | oṃ trivikramāya namaḥ | oṃ vāmanāya namaḥ | oṃ śrīdharāya namaḥ | oṃ hṛṣīkeśāya namaḥ | oṃ padmanābhāya namaḥ | oṃ dāmodarāya namaḥ ||"
+        },
+        "action": "Touch the same twelve places as in the Aṅga-nyāsam step, one for each name.",
+        "meaning": "Salutations to Keśava, Nārāyaṇa, Mādhava, Govinda, Viṣṇu, Madhusūdana, Trivikrama, Vāmana, Śrīdhara, Hṛṣīkeśa, Padmanābha and Dāmodara.",
+        "audio": "/audio/b4ddf0a701.m4a"
+      }
+    ],
+    "image": {
+      "smarta": "/img/steps/acamanam-s.webp",
+      "srivaishnava": "/img/steps/acamanam-v.webp"
+    }
+  },
+  {
+    "id": "samapti",
+    "title": {
+      "sa": "Samāpti / Japasthāna prokṣaṇam",
+      "en": "Sealing the rite and offering it to Brahman"
+    },
+    "section": "uttaranga",
+    "facing": {
+      "pratah": "east",
+      "madhyahnika": "east",
+      "sayam": "north"
     },
     "sources": [
       "sandhya.pdf p16",
@@ -673,7 +763,8 @@
           "iast": "a̱dyā no̍ deva savitaḥ pra̱jāva̍t sāvī̱ḥ saubha̍gam | parā̍ du̱ḥṣvapniyagu̍ṃ suva ||\noṃ viśvā̎ni deva savitar duri̱tāni parā̍ suva | yad bha̱draṃ tanna̱ āsu̍va ||"
         },
         "action": "Sprinkle water on the place where you sat, then touch it and apply it to your forehead.",
-        "meaning": "Send us this day, O God Savitā, prosperity with progeny; drive away from us the evil dream. O God Savitā, drive away from us all sins and misfortunes; send us what is good."
+        "meaning": "Send us this day, O God Savitā, prosperity with progeny; drive away from us the evil dream. O God Savitā, drive away from us all sins and misfortunes; send us what is good.",
+        "audio": "/audio/dfe54c901e.m4a"
       },
       {
         "kind": "mantra",
@@ -684,7 +775,8 @@
           "iast": "oṃ bhūr bhuva̱ssuva̍ḥ |"
         },
         "action": "Sprinkle water on the place where you did the sandhyāvandanam.",
-        "meaning": "Om, earth, atmosphere, heaven."
+        "meaning": "Om, earth, atmosphere, heaven.",
+        "audio": "/audio/f3e42b836a.m4a"
       },
       {
         "kind": "mantra",
@@ -709,10 +801,11 @@
       },
       {
         "kind": "note",
-        "text": "Do the ācamanam with the twelve names. Finally, do a *sāṣṭāṅga namaskāram* (full prostration) four times. This completes the {kalaEn} sandhyāvandanam."
+        "text": "Finally, do a *sāṣṭāṅga namaskāram* (full prostration) four times. This completes the {kalaEn} sandhyāvandanam."
       }
     ],
     "todo": [
+      "Bless the place, ask for protection and freedom from bad dreams, and hand the whole act over to Brahman.",
       "Take a little water in your hand and sprinkle it on the spot where you sat for the sandhyāvandanam.",
       "Touch the sprinkled water with your right ring finger and apply it to your forehead as a tilakam.",
       {
@@ -721,7 +814,7 @@
           "srivaishnava"
         ]
       },
-      "Finish with the brahmārpaṇam (offering to Brahman), the ācamanam and a prostration."
+      "Finish with the brahmārpaṇam (offering to Brahman): pour a little water as you say it."
     ]
   }
 ]

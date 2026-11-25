@@ -1,5 +1,5 @@
 import type { Kala } from '../config'
-import { repeatFor, type Item } from '../content/schema'
+import { isOptional, repeatFor, type Item } from '../content/schema'
 import { useSettings } from '../lib/settings'
 import { fill, isNyasa, render, stripSvara, type Vars } from '../lib/text'
 import { Chant } from './Chant'
@@ -22,10 +22,10 @@ export function ItemView({ item, kala, vars }: { item: Item; kala: Kala; vars: V
   const hint = s.showActions && item.action
   return (
     <div className="mantra-item py-4">
-      {(hint || item.optional) && (
+      {(hint || isOptional(item, s.tradition)) && (
         <p className="hint mb-1">
           {hint && <Md text={fill(item.action!, vars)} />}
-          {item.optional && <span className="faint">{hint ? ' (optional)' : 'Optional'}</span>}
+          {isOptional(item, s.tradition) && <span className="faint">{hint ? ' (optional)' : 'Optional'}</span>}
         </p>
       )}
       <div className="flex items-start gap-3">

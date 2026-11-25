@@ -20,6 +20,7 @@ export interface Settings {
   showActions: boolean
   showAudio: boolean // chant clips where available
   showInstructions: boolean // the "what to do" list and illustration of each step
+  showOptional: boolean // steps and lines that only some families do; hidden unless switched on
   fontScale: number // 1 = base
   theme: 'system' | 'light' | 'dark'
   // detailed saṅkalpam (panchāṅga) — needs a location
@@ -46,6 +47,7 @@ export const DEFAULTS: Settings = {
   showActions: true,
   showAudio: true,
   showInstructions: true,
+  showOptional: false,
   fontScale: 1,
   theme: 'system',
   detailedSankalpam: false,

@@ -75,10 +75,11 @@ export function DisplaySheet({ open, onOpenChange }: { open: boolean; onOpenChan
       </div>
       <div className="mt-3">
         <Row label="Step instructions" hint="What to do, with pictures and notes" checked={s.showInstructions} onChange={(v) => s.set({ showInstructions: v })} />
+        <Row label="Optional parts" hint="Extra steps and lines that only some families do" checked={s.showOptional} onChange={(v) => s.set({ showOptional: v })} />
         <Row label="Hints on each line" hint="Where to touch, when to pour" checked={s.showActions} onChange={(v) => s.set({ showActions: v })} />
         <Row label="Meaning" checked={s.showMeaning} onChange={(v) => s.set({ showMeaning: v })} />
         <Row label="Roman transliteration" checked={s.showTransliteration} onChange={(v) => s.set({ showTransliteration: v })} />
-        <Row label="Chant buttons" hint="Synthesised voice; non-Vedic lines only" checked={s.showAudio} onChange={(v) => s.set({ showAudio: v })} />
+        <Row label="Chant buttons" hint="Synthesised voice. Vedic mantras are in a flat tone, without svaras" checked={s.showAudio} onChange={(v) => s.set({ showAudio: v })} />
       </div>
       <h3 className="muted mb-2 mt-5 text-sm font-semibold">Script</h3>
       <div className="flex flex-wrap gap-2" role="radiogroup" aria-label="Script">

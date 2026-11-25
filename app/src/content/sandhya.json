@@ -1154,7 +1154,7 @@
     {
       "id": "prayascitta-arghyam",
       "title": {
-        "sa": "Prāyaścitta-arghyam (turīyārghyam)",
+        "sa": "Prāyaścitta-arghyam",
         "en": "Atoning for any delay in the offering"
       },
       "section": "purvanga",
@@ -1191,15 +1191,16 @@
             "smarta"
           ],
           "text": {
-            "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā kālātīta prāyaścittārthaṃ turīyārghya pradānaṃ kariṣye ||",
-            "devanagari": "ममोपात्त समस्त दुरितक्षय द्वारा श्री परमेश्वर प्रीत्यर्थं {kala} सन्ध्या कालातीत प्रायश्चित्तार्थं तुरीयार्घ्य प्रदानं करिष्ये ॥",
-            "tamil": "மமோபாத்த ஸமஸ்த து³ரிதக்ஷய த்³வாரா ஶ்ரீ பரமேஶ்வர ப்ரீத்யர்த²ம் {kala} ஸந்த்⁴யா காலாதீத ப்ராயஶ்சித்தார்த²ம் துரீயார்க்⁴ய ப்ரதா³னம் கரிஷ்யே ॥",
-            "kannada": "ಮಮೋಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯ ದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥಂ {kala} ಸಂಧ್ಯಾ ಕಾಲಾತೀತ ಪ್ರಾಯಶ್ಚಿತ್ತಾರ್ಥಂ ತುರೀಯಾರ್ಘ್ಯ ಪ್ರದಾನಂ ಕರಿಷ್ಯೇ ॥",
-            "telugu": "మమోపాత్త సమస్త దురితక్షయ ద్వారా శ్రీ పరమేశ్వర ప్రీత్యర్థం {kala} సంధ్యా కాలాతీత ప్రాయశ్చిత్తార్థం తురీయార్ఘ్య ప్రదానం కరిష్యే ॥",
-            "malayalam": "മമോപാത്ത സമസ്ത ദുരിതക്ഷയ ദ്വാരാ ശ്രീ പരമേശ്വര പ്രീത്യർഥം {kala} സന്ധ്യാ കാലാതീത പ്രായശ്ചിത്താർഥം തുരീയാർഘ്യ പ്രദാനം കരിഷ്യേ ॥"
+            "iast": "kālātīta prāyaścittārtham arghyapradānaṃ kariṣye |",
+            "devanagari": "कालातीत प्रायश्चित्तार्थम् अर्घ्यप्रदानं करिष्ये ।",
+            "tamil": "காலாதீத ப்ராயஶ்சித்தார்த²ம் அர்க்⁴யப்ரதா³னம் கரிஷ்யே ।",
+            "kannada": "ಕಾಲಾತೀತ ಪ್ರಾಯಶ್ಚಿತ್ತಾರ್ಥಂ ಅರ್ಘ್ಯಪ್ರದಾನಂ ಕರಿಷ್ಯೇ ।",
+            "telugu": "కాలాతీత ప్రాయశ్చిత్తార్థం అర్ఘ్యప్రదానం కరిష్యే ।",
+            "malayalam": "കാലാതീത പ്രായശ്ചിത്താർഥം അർഘ്യപ്രദാനം കരിഷ്യേ ।"
           },
-          "meaning": "To destroy all my sins and to please the Supreme Lord, I now make a fourth offering of water to the Sun to atone for doing my {kalaEn} sandhyā after the proper time.",
-          "action": "Say the saṅkalpa in the saṅkalpa posture."
+          "meaning": "I now offer water to atone for any delay past the proper time.",
+          "action": "Say the saṅkalpa in the saṅkalpa posture.",
+          "audio": "/audio/3917a0e92a.m4a"
         },
         {
           "kind": "mantra",

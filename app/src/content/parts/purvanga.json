@@ -922,7 +922,7 @@
   {
     "id": "prayascitta-arghyam",
     "title": {
-      "sa": "Prāyaścitta-arghyam (turīyārghyam)",
+      "sa": "Prāyaścitta-arghyam",
       "en": "Atoning for any delay in the offering"
     },
     "section": "purvanga",
@@ -954,10 +954,11 @@
           "smarta"
         ],
         "text": {
-          "iast": "mamopātta samasta duritakṣaya dvārā śrī parameśvara prītyarthaṃ {kala} sandhyā kālātīta prāyaścittārthaṃ turīyārghya pradānaṃ kariṣye ||"
+          "iast": "kālātīta prāyaścittārtham arghyapradānaṃ kariṣye |"
         },
-        "meaning": "To destroy all my sins and to please the Supreme Lord, I now make a fourth offering of water to the Sun to atone for doing my {kalaEn} sandhyā after the proper time.",
-        "action": "Say the saṅkalpa in the saṅkalpa posture."
+        "meaning": "I now offer water to atone for any delay past the proper time.",
+        "action": "Say the saṅkalpa in the saṅkalpa posture.",
+        "audio": "/audio/3917a0e92a.m4a"
       },
       {
         "kind": "mantra",

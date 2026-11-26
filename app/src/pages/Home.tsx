@@ -7,6 +7,7 @@ import { content, KALA_VARS } from '../content'
 import { stepsFor } from '../content/schema'
 import { panchanga } from '../lib/panchanga'
 import { dayKey, useProgress } from '../lib/progress'
+import { NATIVE } from '../lib/reminders'
 import { useSettings } from '../lib/settings'
 import { xlit } from '../lib/text'
 
@@ -122,7 +123,7 @@ export function Home() {
             {TRADITION_LABEL[s.tradition]}, Kṛṣṇa Yajur Veda (Āpastamba), compiled from the procedure texts of Sunder Kidambi, K. Chakravarthy, Pandit Sri Rama and others. The text is still being reviewed, so where your own teacher or family practice differs, follow them.
           </p>
           <p className="mt-2">
-            Chant clips are a synthesised voice (<a className="underline" href="https://prathosh.in/vagdhenu/" target="_blank" rel="noreferrer">Vāgdhenu</a>, from Prof. Prathosh A P's <a className="underline" href="https://prathosh.in/vagbodhini/" target="_blank" rel="noreferrer">Vāgbodhinī</a> project at IISc) that says each syllable but cannot chant the Vedic tones; each step links to a recorded chant. <a className="underline" href={APP.repo} target="_blank" rel="noreferrer">Report a correction</a>. This site counts visits anonymously, without cookies; nothing you enter here leaves your device.
+            Chant clips are a synthesised voice (<a className="underline" href="https://prathosh.in/vagdhenu/" target="_blank" rel="noreferrer">Vāgdhenu</a>, from Prof. Prathosh A P's <a className="underline" href="https://prathosh.in/vagbodhini/" target="_blank" rel="noreferrer">Vāgbodhinī</a> project at IISc) that says each syllable but cannot chant the Vedic tones; each step links to a recorded chant. <a className="underline" href={APP.repo} target="_blank" rel="noreferrer">Report a correction</a>. {NATIVE ? 'Nothing you enter here leaves your device.' : 'This site counts visits anonymously, without cookies; nothing you enter here leaves your device.'} <Link className="underline" to="/privacy">Privacy</Link> · <Link className="underline" to="/support">Support</Link>
           </p>
         </footer>
       </main>

@@ -25,7 +25,7 @@ export function Read() {
   const [display, setDisplay] = useState(false)
   return (
     <div data-kala={kala} className="mx-auto max-w-2xl px-5 pb-24">
-      <header className="sticky top-0 z-10 -mx-3 flex h-13 items-center" style={{ background: 'color-mix(in srgb, var(--paper) 92%, transparent)', backdropFilter: 'blur(10px)' }}>
+      <header className="sticky top-0 z-10 -mx-3 box-content flex h-13 items-center pt-[env(safe-area-inset-top)]" style={{ background: 'color-mix(in srgb, var(--paper) 92%, transparent)', backdropFilter: 'blur(10px)' }}>
         <Link to="/" className="icon-btn" aria-label="Home"><Icon name="left" /></Link>
         <span className="mx-auto font-serif text-[1.05rem]">{KALA_LABEL[kala].sa} sandhyā</span>
         <button className="icon-btn" onClick={() => setDisplay(true)} aria-label="Display options"><Icon name="sliders" /></button>

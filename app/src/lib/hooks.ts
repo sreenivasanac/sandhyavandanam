@@ -1,3 +1,5 @@
+import { Capacitor } from '@capacitor/core'
+import { KeepAwake } from '@capacitor-community/keep-awake'
 import { useEffect } from 'react'
 import { useSettings } from './settings'
 
@@ -21,7 +23,13 @@ export function useTheme() {
 /** Keep the screen on while performing (phone on the floor, wet hands). Silently no-ops where unsupported. */
 export function useWakeLock(active: boolean) {
   useEffect(() => {
-    if (!active || !('wakeLock' in navigator)) return
+    if (!active) return
+    if (Capacitor.isNativePlatform()) {
+      // native apps: the system idle timer, which does not depend on the web view's Wake Lock support
+      KeepAwake.keepAwake().catch(() => {})
+      return () => { KeepAwake.allowSleep().catch(() => {}) }
+    }
+    if (!('wakeLock' in navigator)) return
     let lock: WakeLockSentinel | null = null
     const request = async () => {
       try {

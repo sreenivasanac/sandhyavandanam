@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
-import type { Script, Tradition } from '../config'
+import type { Kala, Script, Tradition } from '../config'
 
 export interface Settings {
   onboarded: boolean
@@ -29,6 +29,8 @@ export interface Settings {
   lat?: number
   lon?: number
   place?: string
+  // native apps only: daily reminder time ('HH:MM', 24 h) for each sandhyā that has one switched on
+  reminders: Partial<Record<Kala, string>>
 }
 
 export const DEFAULTS: Settings = {
@@ -52,6 +54,7 @@ export const DEFAULTS: Settings = {
   theme: 'system',
   detailedSankalpam: false,
   calendar: 'solar',
+  reminders: {},
 }
 
 type Store = Settings & { set: (patch: Partial<Settings>) => void; reset: () => void }

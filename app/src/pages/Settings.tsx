@@ -1,10 +1,11 @@
 import { Fragment, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { Icon } from '../components/Icon'
-import { APP, SCRIPTS, SCRIPT_LABEL, TRADITIONS, TRADITION_LABEL, type Tradition } from '../config'
+import { APP, KALAS, KALA_LABEL, SCRIPTS, SCRIPT_LABEL, TRADITIONS, TRADITION_LABEL, type Tradition } from '../config'
 import gotrasJson from '../content/gotras.json'
 import { panchanga } from '../lib/panchanga'
 import { PLACES } from '../lib/places'
+import { NATIVE, allowReminders, defaultTime } from '../lib/reminders'
 import { exportSettings, importSettings, useSettings, type Settings as S } from '../lib/settings'
 import { xlit } from '../lib/text'
 
@@ -141,7 +142,7 @@ export function Settings() {
   }
   return (
     <div className="mx-auto max-w-xl px-5 pb-20">
-      <header className="sticky top-0 z-10 -mx-3 flex h-13 items-center" style={{ background: 'color-mix(in srgb, var(--paper) 92%, transparent)', backdropFilter: 'blur(10px)' }}>
+      <header className="sticky top-0 z-10 -mx-3 box-content flex h-13 items-center pt-[env(safe-area-inset-top)]" style={{ background: 'color-mix(in srgb, var(--paper) 92%, transparent)', backdropFilter: 'blur(10px)' }}>
         <Link to="/" className="icon-btn" aria-label="Home"><Icon name="left" /></Link>
       </header>
       <h1 className="display mb-6 mt-4 text-4xl">Settings</h1>
@@ -196,16 +197,43 @@ export function Settings() {
         </div>
       </Section>
 
+      {NATIVE && <Reminders />}
+
       <Section title="Your data">
-        <p className="muted mb-3">Everything is stored only in this browser. Export it to move to another device.</p>
+        <p className="muted mb-3">{NATIVE ? 'Everything is stored only on this device.' : 'Everything is stored only in this browser. Export it to move to another device.'}</p>
         <div className="flex flex-wrap gap-2">
-          <button className="btn btn-quiet" onClick={() => download('sandhya-settings.json', exportSettings())}>Export settings</button>
-          <button className="btn btn-quiet" onClick={() => fileRef.current?.click()}>Import settings</button>
+          {/* the native web view cannot save a file, so moving settings by file is a website feature */}
+          {!NATIVE && <button className="btn btn-quiet" onClick={() => download('sandhya-settings.json', exportSettings())}>Export settings</button>}
+          {!NATIVE && <button className="btn btn-quiet" onClick={() => fileRef.current?.click()}>Import settings</button>}
           <input ref={fileRef} type="file" accept="application/json" hidden onChange={async (e) => { const f = e.target.files?.[0]; if (f) importSettings(await f.text()) }} />
           <button className="btn btn-plain" onClick={() => confirm('Reset all settings to their defaults?') && s.reset()}>Reset</button>
         </div>
       </Section>
     </div>
+  )
+}
+
+/** Native apps: a daily notification for each sandhyā, at a time the user sets. */
+function Reminders() {
+  const s = useSettings()
+  const [denied, setDenied] = useState(false)
+  const toggle = async (k: (typeof KALAS)[number], on: boolean) => {
+    if (on && !(await allowReminders())) return setDenied(true)
+    setDenied(false)
+    const now = useSettings.getState() // read after the await, so a change made meanwhile is kept
+    s.set({ reminders: { ...now.reminders, [k]: on ? defaultTime(k, now) : undefined } })
+  }
+  return (
+    <Section title="Reminders">
+      <p className="muted mb-2">A notification each day at the times you set. Sunrise and sunset move through the year, so adjust the times now and then.</p>
+      {KALAS.map((k) => (
+        <div key={k} className="flex items-center gap-3">
+          <div className="flex-1"><Switch label={KALA_LABEL[k].en} hint={KALA_LABEL[k].sa} v={!!s.reminders[k]} on={(v) => toggle(k, v)} /></div>
+          {s.reminders[k] && <input type="time" className="input !w-auto tabular-nums" aria-label={`${KALA_LABEL[k].en} reminder time`} value={s.reminders[k]} onChange={(e) => e.target.value && s.set({ reminders: { ...s.reminders, [k]: e.target.value } })} />}
+        </div>
+      ))}
+      {denied && <p className="mt-2 text-sm" style={{ color: 'var(--kumkum)' }} role="alert">Notifications are switched off for this app. Allow them in your phone's Settings, then try again.</p>}
+    </Section>
   )
 }
 

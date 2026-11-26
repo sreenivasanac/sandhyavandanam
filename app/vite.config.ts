@@ -9,6 +9,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     VitePWA({
+      disable: !!process.env.CAP, // native builds (pnpm ios) ship every file in the app bundle; no service worker
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {

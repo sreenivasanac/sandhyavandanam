@@ -237,3 +237,7 @@ html { background: var(--shell); font-size: calc(17.5px * var(--font-scale)); fo
    and on the dark page they keep the cream panel, a little dimmed */
 .step-figure { background: #fcf3e3; border-radius: 3px; }
 [data-theme='dark'] .step-figure { filter: brightness(0.88); }
+
+/* Privacy and Support pages: plain running text */
+.legal h2 { font-family: var(--font-serif, inherit); font-size: 1.3rem; margin: 1.75rem 0 0.4rem; }
+.legal p { margin-bottom: 0.75rem; line-height: 1.6; max-width: 68ch; }

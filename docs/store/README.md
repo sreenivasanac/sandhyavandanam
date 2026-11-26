@@ -7,7 +7,15 @@ The mobile apps are the same code as the website (`app/`), wrapped with [Capacit
 ```bash
 cd app
 pnpm ios                     # web build without the service worker, copied into ios/
-open ios/App/App.xcodeproj   # run on a simulator or phone; Product > Archive to upload
+open ios/App/App.xcodeproj   # run on a simulator or phone
+```
+
+Upload to TestFlight from the command line (team 4D2A8N9MM7; the archive is unsigned because the team has no registered devices, and the export step signs it for distribution):
+
+```bash
+cd app/ios/App
+xcodebuild -project App.xcodeproj -scheme App -configuration Release -destination 'generic/platform=iOS' -archivePath ../build/Sandhya.xcarchive CODE_SIGNING_ALLOWED=NO archive
+cd .. && xcodebuild -exportArchive -archivePath build/Sandhya.xcarchive -exportOptionsPlist ExportOptions.plist -exportPath build/upload -allowProvisioningUpdates
 ```
 
 - Bundle ID `com.pragnyalabs.sandhya`, iPhone only, portrait, iOS 15 or later. All of this is in `app/capacitor.config.ts` and the Xcode project.
@@ -19,7 +27,7 @@ open ios/App/App.xcodeproj   # run on a simulator or phone; Product > Archive to
 
 | Field | Value |
 |---|---|
-| Name (30) | Sandhyavandanam |
+| Name (30) | Sandhyavandanam Guide (plain "Sandhyavandanam" is taken on the App Store) |
 | Subtitle (30) | Guided daily sandhyā ritual |
 | Primary category | Lifestyle |
 | Secondary category | Reference |

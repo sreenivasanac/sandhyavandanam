@@ -91,7 +91,7 @@ Captured at 1320 × 2868 (`docs/store/screenshots/`). The App Store Connect slot
 
 ## State of the listing (25 November 2026)
 
-App record "Sandhyavandanam Guide", Apple ID 6839481751, team 4D2A8N9MM7. Entered: subtitle, categories, description, keywords, promotional text, URLs, copyright, review notes, six screenshots, build 1.0.0 (1), age rating 4+, price free, availability United States and India only, privacy answer "Data Not Collected" (saved, not published), manual release. Still to do by the account holder: Content Rights answer, App Review contact name/phone/email, Publish on the App Privacy page, then Add for Review.
+App record "Sandhyavandanam Guide", Apple ID 6839481751, team 4D2A8N9MM7. Entered: subtitle, categories, description, keywords, promotional text, URLs, copyright, review notes, six screenshots, build 1.0.0 (1), age rating 4+, price free, availability United States and India only, privacy answer "Data Not Collected" (saved, not published), manual release. Availability later widened to 22 countries (no EU, China, South Korea, Indonesia, Vietnam or Brazil). Content Rights answered Yes (has the rights), privacy label published, and version 1.0 submitted to App Review on 25 November 2026; release is manual after approval.
 
 ## Android, later
 

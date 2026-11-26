@@ -25,6 +25,7 @@ A web app (PWA; native later via Capacitor) that guides practitioners through Sa
 - Kaustubha Chakravarthy, *Yajurveda Sandhyavandanam – detailed procedure with illustrations* (2010)
 - Anonymous, *Sandhyavandanam (Smārta, Āpastamba)*
 - Videos: Soulful Mantra — *See, Learn And Perform Sandhyavandanam (Yajur–Smartha)*; Sringeri Gurubandhava — *Meaning of Sandhyavandanam Mantras* (Lalith Gannavaram)
+- **Chant voice**: [Vāgdhenu](https://prathosh.in/vagdhenu/), the metre-aware Sanskrit chant synthesiser from the [Vāgbodhinī](https://prathosh.in/vagbodhini/) project by Prof. Prathosh A P (Indian Institute of Science, Bengaluru), with its Su-śrotā speech recogniser used to check every clip. Code and weights are Apache-2.0. The voice is the author's own; it is used here only to speak the mantra text, and the Vedic mantras are rendered in a flat tone because the model is not made for svara recitation.
 
 ## Deployment
 Static build served by nginx on the pragnyalabs Hetzner server (`/var/www/sandhya`, HTTPS via Let's Encrypt; wildcard DNS for `*.pragnyalabs.com`).

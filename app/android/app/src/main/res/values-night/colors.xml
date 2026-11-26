@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dark theme: the app's dark paper, with light system-bar icons -->
+    <color name="paper">#1D1913</color>
+    <bool name="light_bars">false</bool>
+</resources>

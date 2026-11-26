@@ -11,10 +11,12 @@
     "test": "node --test src/**/*.test.ts",
     "xlit": "PYTHONWARNINGS=ignore uv run scripts/xlit.py",
     "ios": "CAP=1 vite build && cap sync ios",
+    "android": "CAP=1 vite build && cap sync android",
     "deploy": "pnpm test && pnpm build && rsync -az --delete dist/ hetzner-agent:/var/www/sandhya/"
   },
   "dependencies": {
     "@capacitor-community/keep-awake": "^8.0.1",
+    "@capacitor/android": "^8.6.2",
     "@capacitor/core": "^8.6.2",
     "@capacitor/ios": "^8.6.2",
     "@capacitor/local-notifications": "^8.3.1",

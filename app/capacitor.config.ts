@@ -1,13 +1,13 @@
 import type { CapacitorConfig } from '@capacitor/cli'
 
-// One config for every native platform. iOS is set up today; for Android: pnpm add @capacitor/android && pnpm cap add android.
+// One config for every native platform (iOS and Android).
 const config: CapacitorConfig = {
   appId: 'com.pragnyalabs.sandhya',
   appName: 'Sandhyavandanam',
   webDir: 'dist',
   backgroundColor: '#f4ecdc', // paper, shown behind the web view while it loads
   ios: { contentInset: 'never' },
-  plugins: { LocalNotifications: { iconColor: '#7c2018' } },
+  plugins: { LocalNotifications: { smallIcon: 'ic_stat_sandhya', iconColor: '#7c2018' } }, // smallIcon is an Android drawable
 }
 
 export default config

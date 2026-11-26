@@ -93,15 +93,21 @@ Captured at 1320 × 2868 (`docs/store/screenshots/`). The App Store Connect slot
 
 App record "Sandhyavandanam Guide", Apple ID 6839481751, team 4D2A8N9MM7. Entered: subtitle, categories, description, keywords, promotional text, URLs, copyright, review notes, six screenshots, build 1.0.0 (1), age rating 4+, price free, availability United States and India only, privacy answer "Data Not Collected" (saved, not published), manual release. Availability later widened to 22 countries (no EU, China, South Korea, Indonesia, Vietnam or Brazil). Content Rights answered Yes (has the rights), privacy label published, and version 1.0 submitted to App Review on 25 November 2026; release is manual after approval.
 
-## Android, later
+## Android (Google Play)
 
-Nothing in the code is iOS-only. To add it:
+The Android project is `app/android/` (Capacitor, same code and config as iOS). Package `com.pragnyalabs.sandhya`, portrait, Android 7 (API 24) or later, target API 36.
 
 ```bash
+export JAVA_HOME=/opt/homebrew/opt/openjdk@21 ANDROID_HOME=$HOME/Library/Android/sdk
 cd app
-pnpm add @capacitor/android
-pnpm cap add android
-pnpm ios && pnpm cap sync android   # or add an "android" script like "ios"
+pnpm android                                  # web build without the service worker, copied into android/
+cd android && ./gradlew assembleDebug         # app/build/outputs/apk/debug/app-debug.apk, for an emulator or a phone
+./gradlew bundleRelease                       # app/build/outputs/bundle/release/app-release.aab, signed, for Play Console
 ```
 
-Then set the icon, add the `POST_NOTIFICATIONS` and `SCHEDULE_EXACT_ALARM` permissions if exact reminder times are wanted, and create the Play listing from the text above (short description 80 characters: "Step-by-step sandhyā guide: mantras in your script, meanings, pictures, chant."). Google Play needs a developer account ($25 once).
+- Before each upload raise `versionCode` in `app/android/app/build.gradle`.
+- Signing: the upload keystore `app/android/keystore/sandhya-upload.jks` and its passwords in `app/android/keystore.properties` are on the build Mac only, never in git. Back both up; if they are lost, Play Console can reset the upload key because Play App Signing holds the real app key.
+- Reminders are scheduled inexact (they can be a few minutes late), so the app does not ask for the "Alarms & reminders" permission; the exact-alarm permission is removed in the manifest.
+- Emulator: `emulator -avd sandhya` (Pixel 8, API 36). Use `adb -s emulator-5554 …` when a phone is also plugged in.
+
+Play listing: use the App Store text above. Short description (80): "Step-by-step sandhyā guide: mantras in your script, meanings, pictures, chant." Graphics: `docs/store/play-icon-512.png`, `docs/store/play-feature-graphic.png` (1024 × 500), phone screenshots in `docs/store/screenshots/android/`. Data safety: no data collected or shared. A personal Play account must run a closed test with 12 testers opted in for 14 days before production access.

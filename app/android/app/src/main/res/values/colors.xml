@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- window colour behind the web view and system bars: the app's paper -->
+    <color name="paper">#F4ECDC</color>
+    <!-- dark icons in the status and navigation bars on the light paper -->
+    <bool name="light_bars">true</bool>
+</resources>

@@ -30,13 +30,16 @@ export async function allowReminders(): Promise<boolean> {
   return (await LocalNotifications.requestPermissions()).display === 'granted'
 }
 
-/** Make the scheduled notifications match the settings: one repeating daily notification per switched-on sandhyā. */
+/**
+ * Make the scheduled notifications match the settings: one repeating daily notification per switched-on sandhyā.
+ * Inexact on Android: an exact alarm needs the user to grant "Alarms & reminders" in system settings, and a reminder a few minutes late is fine.
+ */
 async function sync(reminders: Settings['reminders']) {
   await LocalNotifications.cancel({ notifications: KALAS.map((k) => ({ id: ID[k] })) })
   const notifications = KALAS.flatMap((k) => {
     const [hour, minute] = (reminders[k] ?? '').split(':').map(Number)
     if (!Number.isInteger(hour) || !Number.isInteger(minute)) return []
-    return [{ id: ID[k], title: `${KALA_LABEL[k].sa} sandhyā`, body: `Time for the ${KALA_LABEL[k].en.toLowerCase()} sandhyāvandanam.`, schedule: { on: { hour, minute }, allowWhileIdle: true }, extra: { kala: k } }]
+    return [{ id: ID[k], title: `${KALA_LABEL[k].sa} sandhyā`, body: `Time for the ${KALA_LABEL[k].en.toLowerCase()} sandhyāvandanam.`, schedule: { on: { hour, minute }, allowWhileIdle: true }, isExactNotification: false, extra: { kala: k } }]
   })
   if (notifications.length) await LocalNotifications.schedule({ notifications })
 }

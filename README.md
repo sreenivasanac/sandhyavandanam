@@ -3,7 +3,7 @@
 A step-by-step guide to the daily sandhyā: what to do, what to say and what it means, one step per screen. It follows Kṛṣṇa Yajur Veda (Āpastamba) in the Smārta and Śrī Vaiṣṇava traditions, for the morning, noon and evening sandhyā.
 
 - **Website** (installable, works offline): https://sandhya.pragnyalabs.com
-- **iPhone app**: the same code wrapped with Capacitor; App Store release in preparation ([docs/store](docs/store/README.md)). Android can be added from the same code.
+- **iPhone and Android apps**: the same code wrapped with Capacitor ([docs/store](docs/store/README.md)). The iPhone app is in App Store review; the Android app is built and waiting for Google Play's closed test.
 
 Free, no account, no advertising. Nothing you enter leaves your device ([privacy](https://sandhya.pragnyalabs.com/privacy)).
 
@@ -46,7 +46,7 @@ Free, no account, no advertising. Nothing you enter leaves your device ([privacy
 The text has been checked against the printed sources listed below (`docs/reference/source-check-2026-11-25.md`) and is still awaiting review by a knowledgeable person (`docs/REVIEW_NOTES.md`). Known gaps in the chant audio are in `docs/reference/AUDIO_GAPS.md`. See [docs/REQUIREMENTS.md](docs/REQUIREMENTS.md) for scope and decisions.
 
 ## Layout
-- `app/` — the app (Vite + React + TS + Tailwind). `pnpm dev | build | test | xlit`; `pnpm ios` builds the iPhone app into `app/ios/`.
+- `app/` — the app (Vite + React + TS + Tailwind). `pnpm dev | build | test | xlit`; `pnpm ios` and `pnpm android` build the phone apps into `app/ios/` and `app/android/`.
 - `docs/store/` — App Store listing text, privacy answers, icon source and build steps.
 - `docs/CONTENT_GUIDE.md` — how mantras/steps are authored; `docs/REVIEW_NOTES.md` — open items for a knowledgeable reviewer.
 - `docs/REQUIREMENTS.md` — product/tech decisions.

@@ -21,6 +21,10 @@ export function Chant({ src }: { src: string }) {
     if (current && current !== a) current.pause()
     current = a
     a.currentTime = 0
+    // Keep the clip for offline use. The player asks for byte ranges, which the service worker cannot store,
+    // so on the website also ask for the whole file: the worker caches that and answers later ranges from it.
+    // Done on every play (a repeat is answered from the cache) so a first try that failed or came too early is made up.
+    if (navigator.serviceWorker?.controller) fetch(src).catch(() => {})
     a.play().then(() => track('chant')).catch(() => setPlaying(false))
   }
   const C = 2 * Math.PI * 19

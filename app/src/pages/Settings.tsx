@@ -1,7 +1,7 @@
 import { Fragment, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { Icon } from '../components/Icon'
-import { APP, KALAS, KALA_LABEL, SCRIPTS, SCRIPT_LABEL, TRADITIONS, TRADITION_LABEL, type Tradition } from '../config'
+import { KALAS, KALA_LABEL, SCRIPTS, SCRIPT_LABEL, TRADITIONS, TRADITION_LABEL, type Tradition } from '../config'
 import gotrasJson from '../content/gotras.json'
 import { panchanga } from '../lib/panchanga'
 import { PLACES } from '../lib/places'
@@ -80,7 +80,7 @@ function LineageFields() {
   )
 }
 
-/** First run: three short screens instead of one long form. Everything can be changed later in Settings. */
+/** Optional set-up at /setup, offered on the home screen to a new visitor: three short screens instead of one long form. Everything can be changed later in Settings. */
 export function Welcome() {
   const s = useSettings()
   const nav = useNavigate()
@@ -95,7 +95,7 @@ export function Welcome() {
   return (
     <div className="mx-auto flex min-h-dvh max-w-xl flex-col px-5 pb-6 pt-[calc(env(safe-area-inset-top)+1rem)]">
       <div className="flex items-center gap-2">
-        {n > 0 ? <button className="icon-btn -ml-2" onClick={() => setN(n - 1)} aria-label="Back"><Icon name="left" /></button> : <span className="font-serif text-lg">{APP.name}</span>}
+        {n > 0 ? <button className="icon-btn -ml-2" onClick={() => setN(n - 1)} aria-label="Back"><Icon name="left" /></button> : <Link to="/" className="icon-btn -ml-2" aria-label="Back to home"><Icon name="left" /></Link>}
         <div className="ml-auto flex gap-1.5" aria-label={`Step ${n + 1} of ${screens.length}`}>
           {screens.map((_, i) => <span key={i} className="h-1.5 w-6 rounded-full" style={{ background: i <= n ? 'var(--kumkum)' : 'var(--line)' }} />)}
         </div>
@@ -152,6 +152,7 @@ export function Settings() {
       <Section title="Name and lineage">
         <LineageFields />
         <Field label="Gāyatrī japa count" hint="The full count is 108 in the morning, 32 at noon and 64 in the evening."><div className="flex gap-2" role="radiogroup" aria-label="Japa count">{([108, 28, 10] as const).map((n) => <button key={n} role="radio" aria-checked={s.japaCount === n} className="chip tabular-nums" onClick={() => set({ japaCount: n })}>{n === 108 ? 'Full' : n}</button>)}</div></Field>
+        <Field label="Gāyatrī japa posture" hint="Most people sit for the japa. Some texts say to stand in the morning, stand or sit at noon, and sit in the evening."><div className="flex flex-wrap gap-2" role="radiogroup" aria-label="Japa posture">{([['seated', 'Seated'], ['byTime', 'By time of day']] as const).map(([v, label]) => <button key={v} role="radio" aria-checked={s.japaPosture === v} className="chip" onClick={() => set({ japaPosture: v })}>{label}</button>)}</div></Field>
       </Section>
 
       <Section title="Script"><ScriptPicker /></Section>

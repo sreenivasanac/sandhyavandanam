@@ -1,6 +1,5 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { useTheme } from './lib/hooks'
-import { useSettings } from './lib/settings'
 import { Home } from './pages/Home'
 import { Privacy, Support } from './pages/Legal'
 import { Perform } from './pages/Perform'
@@ -9,11 +8,11 @@ import { Settings, Welcome } from './pages/Settings'
 
 export default function App() {
   useTheme()
-  const onboarded = useSettings((s) => s.onboarded)
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={onboarded ? <Home /> : <Welcome />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/setup" element={<Welcome />} />
         <Route path="/perform/:kala" element={<Perform />} />
         <Route path="/read/:kala" element={<Read />} />
         <Route path="/settings" element={<Settings />} />

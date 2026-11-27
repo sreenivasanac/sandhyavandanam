@@ -13,9 +13,9 @@ const FACING = { east: 'Face east', north: 'Face north', west: 'Face west' }
 export function StepView({ step, kala, vars, number }: { step: Step; kala: Kala; vars: Vars; number?: number }) {
   const s = useSettings()
   const facing = pick(step.facing, kala, s.tradition)
-  const image = pick(step.image, kala, s.tradition)
+  const image = (s.japaPosture === 'byTime' && pick(step.standingImage, kala, s.tradition)) || pick(step.image, kala, s.tradition)
   const todo = !s.showInstructions ? []
-    : step.todo ? step.todo.map((l) => fill(typeof l === 'string' ? l : l.text, vars))
+    : step.todo ? step.todo.filter((l) => typeof l === 'string' || !l.japa || l.japa === s.japaPosture).map((l) => fill(typeof l === 'string' ? l : l.text, vars))
     : step.intro ? sentences(fill(step.intro, vars)) : []
   const videoAt = CHANT_VIDEO_AT[step.id]?.[KALAS.indexOf(kala)]
   return (

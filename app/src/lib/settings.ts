@@ -13,6 +13,7 @@ export interface Settings {
   nakshatra: string // janma nakṣatra (IAST)
   tradition: Tradition
   japaCount: 108 | 28 | 10
+  japaPosture: 'seated' | 'byTime' // Gāyatrī japa: always seated, or as some texts give it (standing in the morning, either at noon, seated in the evening)
   // display
   script: Script
   showTransliteration: boolean
@@ -43,6 +44,7 @@ export const DEFAULTS: Settings = {
   nakshatra: '',
   tradition: 'smarta',
   japaCount: 108,
+  japaPosture: 'seated',
   script: 'devanagari',
   showTransliteration: true,
   showMeaning: true,

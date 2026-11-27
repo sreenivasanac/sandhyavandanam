@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Icon } from '../components/Icon'
 import { SunArc } from '../components/SunArc'
-import { APP, KALAS, KALA_LABEL, TRADITION_LABEL, suggestKala, type Kala } from '../config'
+import { APP, KALAS, KALA_LABEL, TRADITION_LABEL, suggestKala, type Kala, type Script } from '../config'
 import { content, KALA_VARS } from '../content'
 import { stepsFor } from '../content/schema'
 import { panchanga } from '../lib/panchanga'
@@ -11,6 +11,8 @@ import { NATIVE } from '../lib/reminders'
 import { useSettings } from '../lib/settings'
 import { xlit } from '../lib/text'
 
+// script names for the English sentence shown to a new visitor
+const SCRIPT_EN: Record<Script, string> = { devanagari: 'Devanāgarī', iast: 'Roman', tamil: 'Tamil', kannada: 'Kannada', telugu: 'Telugu', malayalam: 'Malayalam' }
 const clock = (d: Date | number) => new Date(d).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })
 const nominative = (tithi: string) => tithi.replace(/(āyāṃ|yāṃ)$/, (m) => (m === 'āyāṃ' ? 'ā' : 'ī'))
 
@@ -87,6 +89,18 @@ export function Home() {
             )}
           </div>
         </section>
+
+        {/* New visitor: the app opens ready to use with default choices; this says what it is and offers the set-up once. */}
+        {!s.onboarded && (
+          <section className="mt-8 border-y py-5" style={{ borderColor: 'var(--line)' }} aria-label="About this guide">
+            <p>A step-by-step guide to the daily sandhyā: what to do at each step, the mantra in your script, its meaning, and a chant for each line.</p>
+            <p className="muted mt-2">You are seeing the {TRADITION_LABEL[s.tradition]} procedure in {SCRIPT_EN[s.script]} script.</p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <Link to="/setup" className="btn btn-quiet">Choose your tradition and script</Link>
+              <button className="btn btn-plain" onClick={() => s.set({ onboarded: true })}>Keep these</button>
+            </div>
+          </section>
+        )}
 
         <section className="mt-12" aria-label="Today's three sandhyās">
           <h2 className="ornament mono mb-2">Today</h2>

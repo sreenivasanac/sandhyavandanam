@@ -1422,6 +1422,7 @@
         }
       ],
       "todo": [
+        "Stand up: the turn is done standing.",
         "Take a little water in your right palm.",
         "Recite *oṃ bhūr bhuvas suvaḥ* and circle your hand clockwise around your head.",
         "At the same time, turn once clockwise on the spot, letting the water fall around you.",
@@ -1434,6 +1435,7 @@
             "smarta"
           ]
         },
+        "For the meditation that follows you may stay standing or sit down.",
         "Place the fingertips of both hands on your chest and close your eyes.",
         "Meditate for a minute or two on the Lord in the centre of the Sun and on the meaning of the words you recite.",
         "Do not rush this."
@@ -3091,22 +3093,29 @@
           ]
         },
         {
+          "text": "Do the japa seated.",
+          "japa": "seated"
+        },
+        {
           "text": "Do the japa standing.",
           "kala": [
             "pratah"
-          ]
+          ],
+          "japa": "byTime"
         },
         {
           "text": "Do the japa standing or seated.",
           "kala": [
             "madhyahnika"
-          ]
+          ],
+          "japa": "byTime"
         },
         {
           "text": "Do the japa seated.",
           "kala": [
             "sayam"
-          ]
+          ],
+          "japa": "byTime"
         },
         {
           "text": "Face west while the sun is still up; after sunset some face east.",
@@ -3121,8 +3130,18 @@
         "A few repetitions said correctly, with the pauses, are better than many said hurriedly."
       ],
       "image": {
-        "smarta": "/img/steps/japam-s.webp",
-        "srivaishnava": "/img/steps/japam-v.webp"
+        "smarta": "/img/steps/japam-seated-s.webp",
+        "srivaishnava": "/img/steps/japam-seated-v.webp"
+      },
+      "standingImage": {
+        "smarta": {
+          "pratah": "/img/steps/japam-s.webp",
+          "madhyahnika": "/img/steps/japam-s.webp"
+        },
+        "srivaishnava": {
+          "pratah": "/img/steps/japam-v.webp",
+          "madhyahnika": "/img/steps/japam-v.webp"
+        }
       }
     },
     {

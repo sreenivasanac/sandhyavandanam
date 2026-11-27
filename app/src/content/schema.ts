@@ -34,7 +34,8 @@ export type Item = z.infer<typeof Item>
 export type MantraItem = z.infer<typeof MantraItem>
 
 // One line of a step's "what to do" list. A plain string applies always; the object form limits it to a kāla or tradition.
-export const TodoLine = z.union([z.string(), z.object({ text: z.string(), kala: Applicability.kala, tradition: Applicability.tradition })])
+// `japa` ties a line to the "Gāyatrī japa posture" setting: shown only when that choice is made
+export const TodoLine = z.union([z.string(), z.object({ text: z.string(), kala: Applicability.kala, tradition: Applicability.tradition, japa: z.enum(['seated', 'byTime']).optional() })])
 export type TodoLine = z.infer<typeof TodoLine>
 
 const Facing = z.partialRecord(z.enum(KALAS), z.enum(['east', 'north', 'west']))
@@ -48,6 +49,7 @@ export const Step = z.object({
   todo: z.array(TodoLine).optional(), // preferred: one short action per line (markdown-lite); replaces `intro` when present
   facing: z.union([Facing, z.record(z.enum(TRADITIONS), Facing)]).optional(), // by time of day; or first by tradition where the traditions differ
   image: z.union([z.string(), z.record(z.enum(TRADITIONS), ByKala)]).optional(), // one picture, or one per tradition (the body marks differ), which may again differ by time of day
+  standingImage: z.record(z.enum(TRADITIONS), ByKala).optional(), // picture used instead of `image` at the times of day the japa is done standing, when the user chose "by time of day"
   items: z.array(Item),
   sources: z.array(z.string()).optional(),
   ...Applicability,

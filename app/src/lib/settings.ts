@@ -34,6 +34,9 @@ export interface Settings {
   reminders: Partial<Record<Kala, string>>
 }
 
+/** Not yet made their own: never finished set-up and no gotra entered in Settings. */
+export const needsSetup = (s: Pick<Settings, 'onboarded' | 'gotra'>) => !s.onboarded && !s.gotra.trim()
+
 export const DEFAULTS: Settings = {
   onboarded: false,
   name: '',

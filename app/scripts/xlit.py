@@ -3,7 +3,7 @@
 # dependencies = ["aksharamukha>=2.3"]
 # ///
 """Merge src/content/parts/*.json (authored, IAST only) into src/content/sandhya.json and pre-render every
-mantra's IAST into Devanagari/Tamil/Kannada/Telugu/Malayalam. Idempotent.
+mantra's IAST into Devanagari/Tamil/Kannada/Telugu/Malayalam/Grantha. Idempotent.
 
 Run: pnpm xlit   (= uv run scripts/xlit.py)
 Why build-time Python: aksharamukha handles Vedic accents (॒ ॑ ᳚ in the right order) and Tamil superscript
@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent / "src/content"
 CONTENT = ROOT / "sandhya.json"
 PARTS = ["purvanga", "gayatri", "uttaranga"]  # ritual order
 VERSION = "0.2.0"
-TARGETS = {"devanagari": "Devanagari", "tamil": "Tamil", "kannada": "Kannada", "telugu": "Telugu", "malayalam": "Malayalam"}
+TARGETS = {"devanagari": "Devanagari", "tamil": "Tamil", "kannada": "Kannada", "telugu": "Telugu", "malayalam": "Malayalam", "grantha": "Grantha"}
 PLACEHOLDER = re.compile(r"(\{\w+\})")
 
 

@@ -1,5 +1,5 @@
 import { Fragment, useRef, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { Icon } from '../components/Icon'
 import { KALAS, KALA_LABEL, SCRIPTS, SCRIPT_LABEL, TRADITIONS, TRADITION_LABEL, type Tradition } from '../config'
 import gotrasJson from '../content/gotras.json'
@@ -85,7 +85,10 @@ export function Welcome() {
   const s = useSettings()
   const nav = useNavigate()
   const [n, setN] = useState(0)
-  const finish = () => { s.set({ onboarded: true }); nav('/') }
+  // ?back= returns to where set-up was opened from (e.g. the step in progress); same-site paths only
+  const b = useSearchParams()[0].get('back') ?? ''
+  const back = b.startsWith('/') && !b.startsWith('//') ? b : '/'
+  const finish = () => { s.set({ onboarded: true }); nav(back, { replace: true }) }
   const screens = [
     { title: 'Which tradition do you follow?', body: <TraditionPicker /> },
     { title: 'Which script do you read?', body: <ScriptPicker /> },
@@ -95,7 +98,7 @@ export function Welcome() {
   return (
     <div className="mx-auto flex min-h-dvh max-w-xl flex-col px-5 pb-6 pt-[calc(env(safe-area-inset-top)+1rem)]">
       <div className="flex items-center gap-2">
-        {n > 0 ? <button className="icon-btn -ml-2" onClick={() => setN(n - 1)} aria-label="Back"><Icon name="left" /></button> : <Link to="/" className="icon-btn -ml-2" aria-label="Back to home"><Icon name="left" /></Link>}
+        {n > 0 ? <button className="icon-btn -ml-2" onClick={() => setN(n - 1)} aria-label="Back"><Icon name="left" /></button> : <Link to={back} replace className="icon-btn -ml-2" aria-label="Back"><Icon name="left" /></Link>}
         <div className="ml-auto flex gap-1.5" aria-label={`Step ${n + 1} of ${screens.length}`}>
           {screens.map((_, i) => <span key={i} className="h-1.5 w-6 rounded-full" style={{ background: i <= n ? 'var(--kumkum)' : 'var(--line)' }} />)}
         </div>

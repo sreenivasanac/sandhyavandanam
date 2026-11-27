@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import { Drawer } from 'vaul'
 import { PHASES, SCRIPTS, SCRIPT_LABEL, type Phase } from '../config'
 import type { Step } from '../content/schema'
@@ -63,6 +64,7 @@ export function DisplaySheet({ open, onOpenChange }: { open: boolean; onOpenChan
   const all = (v: boolean) => s.set({ showInstructions: v, showActions: v, showMeaning: v, showTransliteration: v })
   const learning = s.showInstructions && s.showActions && s.showMeaning
   const reciting = !s.showInstructions && !s.showActions && !s.showMeaning && !s.showTransliteration
+  const here = useLocation()
   return (
     <Sheet open={open} onOpenChange={onOpenChange} title="Display">
       <div className="grid grid-cols-2 gap-2">
@@ -95,6 +97,7 @@ export function DisplaySheet({ open, onOpenChange }: { open: boolean; onOpenChan
       <div className="flex gap-2" role="radiogroup" aria-label="Appearance">
         {(['system', 'light', 'dark'] as const).map((t) => <button key={t} role="radio" aria-checked={s.theme === t} className="chip capitalize" onClick={() => s.set({ theme: t })}>{t === 'system' ? 'Match device' : t}</button>)}
       </div>
+      <Link className="mt-6 inline-flex min-h-11 items-center underline" style={{ color: 'var(--kumkum)' }} to={`/feedback?from=${encodeURIComponent(here.pathname + here.search)}`}>Report a problem with this step</Link>
     </Sheet>
   )
 }

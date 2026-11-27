@@ -8,7 +8,8 @@ import { content, KALA_VARS } from '../content'
 import { stepsFor } from '../content/schema'
 import { useWakeLock } from '../lib/hooks'
 import { useProgress } from '../lib/progress'
-import { useSettings } from '../lib/settings'
+import { dismiss, useNudgeDue } from '../lib/nudge'
+import { needsSetup, useSettings } from '../lib/settings'
 import { varsFrom } from '../lib/text'
 import { track } from '../lib/track'
 import { useSwipe } from '../lib/useSwipe'
@@ -24,7 +25,9 @@ export function Perform() {
   const steps = useMemo(() => stepsFor(content, kala, s.tradition, s.showOptional), [kala, s.tradition, s.showOptional])
   const phases = useMemo(() => phasesFor(steps.map((x) => x.id)), [steps])
   const [sp, setSp] = useSearchParams()
-  const i = Math.min(Math.max(Number(sp.get('s') ?? 0), 0), steps.length - 1)
+  // ?step=<id> (set when returning from set-up, which may change the tradition and so the list) wins over the ?s= index
+  const byId = steps.findIndex((x) => x.id === sp.get('step'))
+  const i = byId >= 0 ? byId : Math.min(Math.max(Number(sp.get('s') ?? 0), 0), steps.length - 1)
   const nav = useNavigate()
   const vars = varsFrom(s, { ...KALA_VARS[kala], japaCount: String(japaTarget(s.japaCount, kala)) })
   const { setResume, markDone } = useProgress()
@@ -34,6 +37,8 @@ export function Perform() {
   const [dir, setDir] = useState<'next' | 'prev' | null>(null)
   const page = useRef<HTMLDivElement>(null)
   useWakeLock(true)
+  const nudge = useNudgeDue(needsSetup(s) && !list && !display)
+  const here = `/perform/${kala}?s=${i}&step=${steps[i]?.id ?? ''}`
 
   const go = useCallback((n: number, animate = true) => {
     const to = Math.min(Math.max(n, 0), steps.length - 1)
@@ -50,6 +55,7 @@ export function Perform() {
       // A sheet handles its own keys (Escape closes it). It may already have closed by the time this runs, so also honour defaultPrevented.
       if (e.defaultPrevented || list || display || document.querySelector('[role="dialog"]')) return
       if (['SELECT', 'INPUT', 'TEXTAREA'].includes((e.target as HTMLElement).tagName)) return
+      if (e.key === ' ' && (e.target as HTMLElement).closest('button, a')) return // Space presses the focused control
       if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); go(i + 1, false) }
       if (e.key === 'ArrowLeft') go(i - 1, false)
       if (e.key === 'Escape') nav('/')
@@ -102,6 +108,16 @@ export function Perform() {
       </main>
 
       <nav className="fixed inset-x-0 bottom-0 z-10" style={{ background: 'linear-gradient(to top, var(--paper) 72%, transparent)' }}>
+        {nudge && (
+          // Not a dialog: it sits above the step buttons, so the ritual can carry on with it showing.
+          <aside className="nudge mx-auto max-w-2xl px-4" aria-label="Set up">
+            <div className="nudge-card">
+              <p className="min-w-0 flex-1 text-[0.95rem] leading-snug">Make the saṅkalpa yours: your tradition, script, gotra and name.</p>
+              <Link to={`/setup?back=${encodeURIComponent(here)}`} className="btn btn-quiet !min-h-10 !px-3 text-sm">Set up</Link>
+              <button className="btn btn-plain !min-h-10 !px-2 text-sm" onClick={dismiss}>Later</button>
+            </div>
+          </aside>
+        )}
         <div className="mx-auto flex max-w-2xl items-center gap-3 px-4 pt-6" style={{ paddingBottom: 'calc(env(safe-area-inset-bottom) + 0.9rem)' }}>
           <button className="btn btn-quiet btn-lg w-14 !px-0" onClick={prev} disabled={i === 0} aria-label="Previous step"><Icon name="left" /></button>
           {last ? (

@@ -11,6 +11,8 @@
 
 /* Full Noto Serif Tamil (fontsource subset strips the Vedic accent marks U+0951/0952/1CDA) */
 @font-face { font-family: 'Noto Serif Tamil'; src: url('/fonts/NotoSerifTamil-Regular.ttf') format('truetype'); font-display: swap; }
+/* Noto Serif Grantha, subset to Grantha + Vedic marks; loaded only when Grantha text is on screen */
+@font-face { font-family: 'Noto Serif Grantha'; src: url('/fonts/NotoSerifGrantha-Regular.woff2') format('woff2'); font-display: swap; }
 
 @custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
 
@@ -20,7 +22,7 @@
   /* Pothi: the reading face is a serif too; "sans" is kept as the token name for body text. */
   --font-sans: 'Source Serif 4 Variable', 'Tiro Devanagari Sanskrit', Georgia, serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
-  --font-indic: 'Tiro Devanagari Sanskrit', 'Noto Serif Tamil', 'Noto Serif Kannada', 'Noto Serif Telugu', 'Noto Serif Malayalam', serif;
+  --font-indic: 'Tiro Devanagari Sanskrit', 'Noto Serif Tamil', 'Noto Serif Kannada', 'Noto Serif Telugu', 'Noto Serif Malayalam', 'Noto Serif Grantha', serif;
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
 }
@@ -88,6 +90,7 @@ body { min-height: 100dvh; }
 .mantra[lang='sa-Knda'] { font-family: 'Noto Serif Kannada', serif; }
 .mantra[lang='sa-Telu'] { font-family: 'Noto Serif Telugu', serif; }
 .mantra[lang='sa-Mlym'] { font-family: 'Noto Serif Malayalam', serif; }
+.mantra[lang='sa-Gran'] { font-family: 'Noto Serif Grantha', serif; line-height: 2.1; }
 .mantra-quiet { font-size: calc(1.2rem * var(--mantra-scale, 1)); line-height: 1.85; color: var(--ink-2); }
 .hint { color: var(--ink); font-weight: 600; font-size: 0.92rem; line-height: 1.4; }
 .hint::first-letter { text-transform: uppercase; }
@@ -241,3 +244,16 @@ html { background: var(--shell); font-size: calc(17.5px * var(--font-scale)); fo
 /* Privacy and Support pages: plain running text */
 .legal h2 { font-family: var(--font-serif, inherit); font-size: 1.3rem; margin: 1.75rem 0 0.4rem; }
 .legal p { margin-bottom: 0.75rem; line-height: 1.6; max-width: 68ch; overflow-wrap: anywhere; }
+
+/* Set-up link on Home: reads as a link; a slow pulsing dot says it's waiting for them */
+.setup-link { display: flex; align-items: center; gap: 0.6rem; min-height: 2.75rem; color: var(--kumkum); font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+.setup-link > svg { flex: none; }
+.pulse-dot { flex: none; position: relative; width: 0.55rem; height: 0.55rem; border-radius: 50%; background: currentColor; }
+.pulse-dot::after { content: ''; position: absolute; inset: 0; border-radius: 50%; background: currentColor; animation: pulse 1.8s var(--ease-out) infinite; }
+@keyframes pulse { from { transform: scale(1); opacity: 0.6; } to { transform: scale(2.8); opacity: 0; } }
+
+/* In-step set-up reminder: slides up above the step buttons */
+.nudge { animation: nudge-in 320ms var(--ease-out); }
+.nudge-card { display: flex; align-items: center; gap: 0.5rem; padding: 0.6rem 0.6rem 0.6rem 0.9rem; border: 1px solid var(--line); border-radius: 0.75rem; background: var(--surface); box-shadow: 0 6px 20px rgb(0 0 0 / 0.08); }
+@keyframes nudge-in { from { opacity: 0; transform: translateY(16px); } }
+@media (prefers-reduced-motion: reduce) { .pulse-dot::after, .nudge { animation: none; } }

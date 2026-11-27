@@ -8,11 +8,11 @@ import { stepsFor } from '../content/schema'
 import { panchanga } from '../lib/panchanga'
 import { dayKey, useProgress } from '../lib/progress'
 import { NATIVE } from '../lib/reminders'
-import { useSettings } from '../lib/settings'
+import { needsSetup, useSettings } from '../lib/settings'
 import { xlit } from '../lib/text'
 
 // script names for the English sentence shown to a new visitor
-const SCRIPT_EN: Record<Script, string> = { devanagari: 'Devanāgarī', iast: 'Roman', tamil: 'Tamil', kannada: 'Kannada', telugu: 'Telugu', malayalam: 'Malayalam' }
+const SCRIPT_EN: Record<Script, string> = { devanagari: 'Devanāgarī', iast: 'Roman', tamil: 'Tamil', kannada: 'Kannada', telugu: 'Telugu', malayalam: 'Malayalam', grantha: 'Grantha' }
 const clock = (d: Date | number) => new Date(d).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })
 const nominative = (tithi: string) => tithi.replace(/(āyāṃ|yāṃ)$/, (m) => (m === 'āyāṃ' ? 'ā' : 'ī'))
 
@@ -90,15 +90,17 @@ export function Home() {
           </div>
         </section>
 
-        {/* New visitor: the app opens ready to use with default choices; this says what it is and offers the set-up once. */}
-        {!s.onboarded && (
+        {/* Until set-up is done (or a gotra is entered in Settings): what the app is, and a standing link to make it theirs.
+            The step screens add a gentle slide-up reminder (lib/nudge). */}
+        {needsSetup(s) && (
           <section className="mt-8 border-y py-5" style={{ borderColor: 'var(--line)' }} aria-label="About this guide">
             <p>A step-by-step guide to the daily sandhyā: what to do at each step, the mantra in your script, its meaning, and a chant for each line.</p>
             <p className="muted mt-2">You are seeing the {TRADITION_LABEL[s.tradition]} procedure in {SCRIPT_EN[s.script]} script.</p>
-            <div className="mt-4 flex flex-wrap gap-2">
-              <Link to="/setup" className="btn btn-quiet">Choose your tradition and script</Link>
-              <button className="btn btn-plain" onClick={() => s.set({ onboarded: true })}>Keep these</button>
-            </div>
+            <Link to="/setup" className="setup-link mt-4">
+              <span className="pulse-dot" aria-hidden />
+              <span>Enter your tradition, script, gotra and name for the saṅkalpa</span>
+              <Icon name="right" />
+            </Link>
           </section>
         )}
 
@@ -137,7 +139,7 @@ export function Home() {
             {TRADITION_LABEL[s.tradition]}, Kṛṣṇa Yajur Veda (Āpastamba), compiled from the procedure texts of Sunder Kidambi, K. Chakravarthy, Pandit Sri Rama and others. The text is still being reviewed, so where your own teacher or family practice differs, follow them.
           </p>
           <p className="mt-2">
-            Chant clips are a synthesised voice (<a className="underline" href="https://prathosh.in/vagdhenu/" target="_blank" rel="noreferrer">Vāgdhenu</a>, from Prof. Prathosh A P's <a className="underline" href="https://prathosh.in/vagbodhini/" target="_blank" rel="noreferrer">Vāgbodhinī</a> project at IISc) that says each syllable but cannot chant the Vedic tones; each step links to a recorded chant. <a className="underline" href={APP.repo} target="_blank" rel="noreferrer">Report a correction</a>. {NATIVE ? 'Nothing you enter here leaves your device.' : 'This site counts visits anonymously, without cookies; nothing you enter here leaves your device.'} <Link className="underline" to="/privacy">Privacy</Link> · <Link className="underline" to="/support">Support</Link>
+            Chant clips are a synthesised voice (<a className="underline" href="https://prathosh.in/vagdhenu/" target="_blank" rel="noreferrer">Vāgdhenu</a>, from Prof. Prathosh A P's <a className="underline" href="https://prathosh.in/vagbodhini/" target="_blank" rel="noreferrer">Vāgbodhinī</a> project at IISc) that says each syllable but cannot chant the Vedic tones; each step links to a recorded chant. {NATIVE ? 'Nothing you enter here leaves your device.' : 'This site counts visits anonymously, without cookies; nothing you enter here leaves your device.'} <Link className="underline" to="/feedback?from=/">Send feedback</Link> · <Link className="underline" to="/privacy">Privacy</Link> · <Link className="underline" to="/support">Support</Link>
           </p>
         </footer>
       </main>

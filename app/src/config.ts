@@ -8,7 +8,8 @@ export const APP = {
   repo: 'https://github.com/sreenivasanac/sandhyavandanam',
   url: 'https://sandhya.pragnyalabs.com',
   support: 'https://github.com/sreenivasanac/sandhyavandanam/issues', // where the Support page sends questions and corrections
-  policyDate: '25 November 2026', // date shown on the privacy policy; change it whenever the policy text changes
+  feedbackApi: 'https://sandhya.pragnyalabs.com/api/feedback', // server/feedback.py: files the in-app feedback as a GitHub issue
+  policyDate: '27 November 2026', // date shown on the privacy policy; change it whenever the policy text changes
 } as const
 
 // Self-hosted Umami, reached through this site's own /u/ path (nginx proxies it to the Umami container), so the
@@ -35,7 +36,7 @@ export const TRADITION_LABEL: Record<Tradition, string> = {
 }
 
 // Scripts the mantra text can be rendered in. `iast` is the canonical authored form.
-export const SCRIPTS = ['devanagari', 'iast', 'tamil', 'kannada', 'telugu', 'malayalam'] as const
+export const SCRIPTS = ['devanagari', 'iast', 'tamil', 'kannada', 'telugu', 'malayalam', 'grantha'] as const
 export type Script = (typeof SCRIPTS)[number]
 export const SCRIPT_LABEL: Record<Script, string> = {
   devanagari: 'देवनागरी',
@@ -44,6 +45,7 @@ export const SCRIPT_LABEL: Record<Script, string> = {
   kannada: 'ಕನ್ನಡ',
   telugu: 'తెలుగు',
   malayalam: 'മലയാളം',
+  grantha: 'Grantha', // Latin label: few phones ship a Grantha font for UI text
 }
 
 /** Suggest a kāla from the wall clock. Rough windows; the user can override. */

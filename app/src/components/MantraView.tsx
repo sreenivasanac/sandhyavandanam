@@ -6,7 +6,7 @@ import { Chant } from './Chant'
 import { Md } from './Md'
 
 const LANG: Record<string, string> = {
-  devanagari: 'sa-Deva', iast: 'sa-Latn', tamil: 'sa-Taml', kannada: 'sa-Knda', telugu: 'sa-Telu', malayalam: 'sa-Mlym',
+  devanagari: 'sa-Deva', iast: 'sa-Latn', tamil: 'sa-Taml', kannada: 'sa-Knda', telugu: 'sa-Telu', malayalam: 'sa-Mlym', grantha: 'sa-Gran',
 }
 
 /** One line of a step: what to do, the mantra, its transliteration and meaning — or a plain note. */

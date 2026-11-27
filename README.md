@@ -21,7 +21,7 @@ Free, no account, no advertising. Nothing you enter leaves your device ([privacy
 - Parts that only some families do are hidden until you switch on "Optional parts".
 
 **The text**
-- Every mantra in the script you read: Devanāgarī, Tamil, Kannada, Telugu, Malayalam or Roman (IAST), with Vedic accent marks.
+- Every mantra in the script you read: Devanāgarī, Tamil, Kannada, Telugu, Malayalam, Grantha or Roman (IAST), with Vedic accent marks.
 - Roman transliteration and English meaning under each line; each can be switched off.
 - Your name, gotra, pravara and sūtra filled into the abhivādanam (20 gotras with their pravaras built in; you can type any other).
 - Optional detailed saṅkalpam with the year, ayana, ṛtu, month, pakṣa, tithi, weekday and nakṣatra, worked out on the device for your place (solar or lunar month names).
@@ -71,6 +71,8 @@ cd app && pnpm run deploy   # test, build, rsync dist/ to the server (needs the 
 ```
 
 The site was created once with `ssh hetzner-agent 'sudo new-site sandhya /var/www/sandhya'`; redeploys only replace the files.
+
+**Feedback form.** The in-app "Send feedback" form posts to `server/feedback.py` (Python standard library only), which files a GitHub issue labelled `feedback` plus `bug`, `enhancement` or `content`. It runs as the systemd service `sandhya-feedback` on `127.0.0.1:8060`, and nginx sends `sandhya.pragnyalabs.com/api/feedback` to it. It needs `GITHUB_TOKEN` (fine-grained, Issues: read and write on this repo only) in `~/apps/sandhya-feedback/.env`. A contact the sender adds is not put in the public issue; it is kept in `~/apps/sandhya-feedback/contacts.jsonl` on the server. The limit is 5 messages per IP per hour. Redeploy with `rsync server/feedback.py hetzner-agent:apps/sandhya-feedback/ && ssh hetzner-agent 'sudo systemctl restart sandhya-feedback'`.
 
 ## Analytics
 Anonymous usage counts go to a self-hosted [Umami](https://umami.is) (dashboard at `analytics.pragnyalabs.com`; the tracker itself is served first-party from this site at `/u/p.js`, which nginx proxies to Umami) (no cookies; nothing the user types is sent). The tracker loads only on the production host (`ANALYTICS` in `app/src/config.ts`; an empty `websiteId` switches it off). Besides page views the app records four events: `begin` (kāla, tradition, script), `phase` (how far people get), `complete`, and `chant` (a chant clip played). See `app/src/lib/track.ts`.

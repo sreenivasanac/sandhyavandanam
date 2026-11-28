@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { Icon } from '../components/Icon'
 import { DisplaySheet, StepListSheet } from '../components/Sheets'
@@ -12,7 +12,7 @@ import { dismiss, useNudgeDue } from '../lib/nudge'
 import { needsSetup, useSettings } from '../lib/settings'
 import { varsFrom } from '../lib/text'
 import { track } from '../lib/track'
-import { useSwipe } from '../lib/useSwipe'
+import { resetSlide, slideOut, useSwipe } from '../lib/useSwipe'
 
 /**
  * Guided mode: one step per screen. Move with the bottom bar, a swipe, or the arrow keys; the screen stays awake.
@@ -36,6 +36,7 @@ export function Perform() {
   // Direction of the last pointer-initiated move; keyboard moves don't animate (they repeat too often to wait on).
   const [dir, setDir] = useState<'next' | 'prev' | null>(null)
   const page = useRef<HTMLDivElement>(null)
+  const pending = useRef<number | undefined>(undefined)
   useWakeLock(true)
   const nudge = useNudgeDue(needsSetup(s) && !list && !display)
   const here = `/perform/${kala}?s=${i}&step=${steps[i]?.id ?? ''}`
@@ -43,8 +44,11 @@ export function Perform() {
   const go = useCallback((n: number, animate = true) => {
     const to = Math.min(Math.max(n, 0), steps.length - 1)
     if (to === i) return
-    setDir(animate ? (to > i ? 'next' : 'prev') : null)
-    setSp({ s: String(to) }, { replace: true })
+    const d = to > i ? 'next' : 'prev'
+    const swap = () => { setDir(animate ? d : null); setSp({ s: String(to) }, { replace: true }) }
+    clearTimeout(pending.current) // a newer move wins over one still sliding out
+    if (animate && page.current) pending.current = slideOut(page.current, d, swap)
+    else swap()
   }, [i, steps.length, setSp])
   const next = useCallback(() => go(i + 1), [go, i])
   const prev = useCallback(() => go(i - 1), [go, i])
@@ -74,11 +78,12 @@ export function Perform() {
     if (step) setResume(kala, step.id)
   }, [i, kala, step, setResume])
   useSwipe(page, next, prev, i < steps.length - 1, i > 0)
+  useLayoutEffect(() => resetSlide(page.current), [i]) // after a carry-through slide, before the new step paints
 
   if (!step) return <p className="p-8">No steps for this selection yet.</p>
   const last = i === steps.length - 1
   return (
-    <div data-kala={kala} className="mx-auto min-h-dvh max-w-2xl">
+    <div data-kala={kala} className="mx-auto min-h-dvh max-w-2xl overflow-x-clip">
       <header className="sticky top-0 z-10 px-2 pt-[env(safe-area-inset-top)]" style={{ background: 'color-mix(in srgb, var(--paper) 92%, transparent)', backdropFilter: 'blur(10px)' }}>
         <div className="flex h-13 items-center">
           <Link to="/" className="icon-btn" aria-label="Leave and go home"><Icon name="left" /></Link>

@@ -171,10 +171,12 @@ body { min-height: 100dvh; }
 .sheet-handle { width: 2.5rem; height: 0.3rem; border-radius: 999px; background: var(--line); margin: 0.6rem auto 0.2rem; flex: none; }
 
 /* ---------- step change: direction-aware, only for pointer-initiated moves ---------- */
-@keyframes step-next { from { opacity: 0; transform: translateX(14px); } }
-@keyframes step-prev { from { opacity: 0; transform: translateX(-14px); } }
-.step-next { animation: step-next 220ms var(--ease-out); }
-.step-prev { animation: step-prev 220ms var(--ease-out); }
+/* the next step comes in from the side the finger is moving away from (pairs with slideOut in lib/useSwipe) */
+@keyframes step-next { from { opacity: 0; transform: translateX(40%); } }
+@keyframes step-prev { from { opacity: 0; transform: translateX(-40%); } }
+.step-next { animation: step-next 240ms var(--ease-out); }
+.step-prev { animation: step-prev 240ms var(--ease-out); }
+@media (prefers-reduced-motion: reduce) { .step-next, .step-prev { animation: none; } }
 @keyframes rise { from { opacity: 0; transform: translateY(8px); } }
 .rise { animation: rise 420ms var(--ease-out) both; }
 

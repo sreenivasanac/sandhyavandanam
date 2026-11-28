@@ -4,6 +4,7 @@ import { Capacitor } from '@capacitor/core'
 import { LocalNotifications } from '@capacitor/local-notifications'
 import { KALAS, KALA_LABEL, type Kala } from '../config'
 import { panchanga } from './panchanga'
+import { placeOf } from './places'
 import { useSettings, type Settings } from './settings'
 
 export const NATIVE = Capacitor.isNativePlatform()
@@ -15,11 +16,12 @@ const hhmm = (d: Date) => {
   return `${String(Math.floor(m / 60) % 24).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`
 }
 
-/** Starting time for a reminder: a little before today's sunrise / sunset at the saved place, else 6, 12 and 6 by the clock. */
-export function defaultTime(kala: Kala, s: Pick<Settings, 'lat' | 'lon'>): string {
+/** Starting time for a reminder: a little before today's sunrise / sunset at the chosen city or time zone, else 6, 12 and 6 by the clock. */
+export function defaultTime(kala: Kala, s: Pick<Settings, 'lat' | 'lon' | 'place' | 'tz'>): string {
   if (kala === 'madhyahnika') return '12:00'
-  if (s.lat == null || s.lon == null) return kala === 'pratah' ? '06:00' : '18:00'
-  const p = panchanga(new Date(), s.lat, s.lon)
+  const pl = placeOf(s)
+  if (!pl) return kala === 'pratah' ? '06:00' : '18:00'
+  const p = panchanga(new Date(), pl.lat, pl.lon)
   const at = kala === 'pratah' ? p.sunrise : p.sunset
   return at ? hhmm(new Date(at.getTime() - LEAD_MIN * 60e3)) : kala === 'pratah' ? '06:00' : '18:00'
 }

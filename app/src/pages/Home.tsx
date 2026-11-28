@@ -8,6 +8,7 @@ import { stepsFor } from '../content/schema'
 import { panchanga } from '../lib/panchanga'
 import { dayKey, useProgress } from '../lib/progress'
 import { NATIVE } from '../lib/reminders'
+import { placeOf } from '../lib/places'
 import { needsSetup, useSettings } from '../lib/settings'
 import { xlit } from '../lib/text'
 
@@ -28,8 +29,9 @@ export function Home() {
   const { done, resume, clearResume } = useProgress()
   const completed = (useLocation().state as { completed?: Kala } | null)?.completed
   const now = useMemo(() => new Date(), [])
-  const hasPlace = s.lat != null && s.lon != null
-  const p = useMemo(() => (hasPlace ? panchanga(now, s.lat!, s.lon!, s.calendar) : null), [hasPlace, now, s.lat, s.lon, s.calendar])
+  const place = placeOf(s)
+  const hasPlace = place != null
+  const p = useMemo(() => (place ? panchanga(now, place.lat, place.lon, s.calendar) : null), [place?.lat, place?.lon, now, s.calendar]) // eslint-disable-line react-hooks/exhaustive-deps
   const today = done[dayKey()] ?? {}
 
   // Sun position: real sunrise/sunset when a place is saved, otherwise a 6-to-6 day by the clock.
@@ -125,11 +127,11 @@ export function Home() {
           {p ? (
             <>
               <p className="font-serif text-lg leading-relaxed">{p.paksha} {nominative(p.tithi)}, {p.nakshatra} nakṣatra, {p.adhika ? 'adhika ' : ''}{p.masa} māsa</p>
-              <p className="muted mt-1 text-sm italic">Computed for your saved place at today's sunrise. Check it against your pañcāṅgam.</p>
+              <p className="muted mt-1 text-sm italic">Computed for {place!.approx ? <>the {place!.label} time zone (approximate; <Link to="/settings#place" className="underline">choose a city</Link> for exact times)</> : place!.label} at today's sunrise. Check it against your pañcāṅgam.</p>
             </>
           ) : (
             <p className="muted italic">
-              <Link to="/settings#place" className="underline" style={{ color: 'var(--kumkum)' }}>Add your place</Link> to see sunrise and sunset times and today's tithi and nakṣatra here.
+              <Link to="/settings#place" className="underline" style={{ color: 'var(--kumkum)' }}>Choose your time zone</Link> to see sunrise and sunset times and today's tithi and nakṣatra here.
             </p>
           )}
         </section>

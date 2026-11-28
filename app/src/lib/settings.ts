@@ -29,7 +29,8 @@ export interface Settings {
   calendar: 'solar' | 'lunar' // solar = Tamil usage (meṣa māse…), lunar = Kannada/Telugu (caitra māse…)
   lat?: number
   lon?: number
-  place?: string
+  place?: string // a chosen city; without one, the time zone below gives an approximate place
+  tz?: string // IANA time zone chosen in Settings; unset = the device's own (no location permission is ever asked)
   // native apps only: daily reminder time ('HH:MM', 24 h) for each sandhyā that has one switched on
   reminders: Partial<Record<Kala, string>>
 }
@@ -39,6 +40,7 @@ export const needsSetup = (s: Pick<Settings, 'onboarded' | 'gotra'>) => !s.onboa
 
 export const DEFAULTS: Settings = {
   onboarded: false,
+  tz: undefined, // listed so Reset and Import clear a chosen zone (the store merges)
   name: '',
   gotra: '',
   pravara: '',

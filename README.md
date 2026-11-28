@@ -24,7 +24,7 @@ Free, no account, no advertising. Nothing you enter leaves your device ([privacy
 - Every mantra in the script you read: Devanāgarī, Tamil, Kannada, Telugu, Malayalam, Grantha or Roman (IAST), with Vedic accent marks.
 - Roman transliteration and English meaning under each line; each can be switched off.
 - Your name, gotra, pravara and sūtra filled into the abhivādanam (20 gotras with their pravaras built in; you can type any other).
-- Optional detailed saṅkalpam with the year, ayana, ṛtu, month, pakṣa, tithi, weekday and nakṣatra, worked out on the device for your place (solar or lunar month names).
+- Optional detailed saṅkalpam with the year, ayana, ṛtu, month, pakṣa, tithi, weekday and nakṣatra, worked out on the device for your time zone or a chosen city (solar or lunar month names). The app never asks for location: it reads the phone's time zone, with one-tap zones and a searchable list in Settings.
 
 **Chanting**
 - A chant button on 220 of the 222 mantra lines. The voice is synthesised: clear syllables, but Vedic mantras in a flat tone without svaras.

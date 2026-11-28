@@ -78,12 +78,12 @@ The chant buttons use a synthesised voice (Vāgdhenu, from the Vāgbodhinī proj
 ## App privacy answers
 
 - "Do you or your third-party partners collect data from this app?" → **No**. The label reads "Data Not Collected".
-- The app uses location (optional, on the device only, never sent) and local notifications. Neither counts as collection because nothing leaves the phone.
+- The app asks for no location permission (since build 3): sunrise is worked out from the phone's time zone, or a city the user picks. Local notifications are the only permission. Nothing leaves the phone, so nothing counts as collection.
 - No tracking, no advertising identifier, no third-party SDK other than Capacitor.
 
 ## Notes for App Review
 
-> The app is a complete offline guide to a daily Hindu ritual; all content is in the app bundle. No account is needed. To see the whole flow: choose a tradition and script on first launch, then tap "Begin" on the home screen and move through the steps with the arrows. Reminders are local notifications set in Settings > Reminders. Location is optional (Settings > Place) and is used on the device only, for sunrise and sunset times.
+> The app is a complete offline guide to a daily Hindu ritual; all content is in the app bundle. No account is needed. To see the whole flow: choose a tradition and script on first launch, then tap "Begin" on the home screen and move through the steps with the arrows. Reminders are local notifications set in Settings > Reminders. The app does not use location: sunrise and sunset come from the phone's time zone (Settings > Time zone).
 
 ## Screenshots
 

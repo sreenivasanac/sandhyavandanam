@@ -3,6 +3,7 @@ import type { Script } from '../config'
 import type { Text } from '../content/schema'
 import type { Settings } from './settings'
 import { panchanga, panchangaPhrase } from './panchanga.ts'
+import { placeOf } from './places.ts'
 
 // IAST combining svara marks (as authored) → Devanagari-block Vedic marks used by all Indic fonts.
 // anudātta ̱ (U+0331) → ॒ (U+0952); svarita ̍ (U+030D) → ॑ (U+0951); dīrgha-svarita ̎ (U+030E) → ᳚ (U+1CDA)
@@ -26,6 +27,7 @@ export const stripSvara = (s: string) => s.replace(SVARA_RE, '')
 /** Placeholders like {name} {gotra} inside mantra text, values in IAST. */
 export type Vars = Record<string, string>
 export function varsFrom(s: Settings, extra: Vars = {}): Vars {
+  const place = placeOf(s)
   return {
     name: s.name || '…',
     gotra: s.gotra || '…',
@@ -33,7 +35,7 @@ export function varsFrom(s: Settings, extra: Vars = {}): Vars {
     sutra: s.sutra === 'other' ? '…' : s.sutra,
     japaCount: String(s.japaCount),
     arsheya: { 1: 'ekārṣeya', 3: 'trayārṣeya', 5: 'pañcārṣeya' }[s.arsheya],
-    panchanga: s.detailedSankalpam && s.lat != null && s.lon != null ? panchangaPhrase(panchanga(new Date(), s.lat, s.lon, s.calendar)) : '',
+    panchanga: s.detailedSankalpam && place ? panchangaPhrase(panchanga(new Date(), place.lat, place.lon, s.calendar)) : '',
     ...extra,
   }
 }

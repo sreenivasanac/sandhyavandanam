@@ -25,9 +25,9 @@ export function Privacy() {
       <h2>In short</h2>
       <p>There are no accounts, no advertising and no tracking across other apps or sites. What you enter stays on your device.</p>
       <h2>What stays on your device</h2>
-      <p>Your settings and your progress through a sandhyā are stored only on your device. Your name, gotra, pravara, nakṣatra, place (latitude and longitude) and reminder times are never sent to us or to anyone else, from the website or the apps. Clearing the site's data in your browser, or deleting the app, removes them.</p>
+      <p>Your settings and your progress through a sandhyā are stored only on your device. Your name, gotra, pravara, nakṣatra, time zone or city, and reminder times are never sent to us or to anyone else, from the website or the apps. Clearing the site's data in your browser, or deleting the app, removes them.</p>
       <h2>Location</h2>
-      <p>If you choose “Use my location”, your device gives the app your position once, to work out sunrise, sunset and the day's pañcāṅga. The calculation happens on your device. The position is rounded and saved with your other settings, and is not sent anywhere. You can pick a city from the list instead.</p>
+      <p>The app never asks for your location. Sunrise, sunset and the day's pañcāṅga are worked out on your device from its time zone, or from a time zone or nearby city you choose in Settings. That choice is saved with your other settings and is not sent anywhere.</p>
       <h2>Notifications</h2>
       <p>The mobile apps can remind you of each sandhyā. These are local notifications: your phone schedules and shows them itself. No server is involved and no notification token is collected.</p>
       <h2>The mobile apps</h2>

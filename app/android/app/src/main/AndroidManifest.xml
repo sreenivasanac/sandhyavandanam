@@ -39,9 +39,6 @@
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- "Use my location" in Settings: used once, on the device, for sunrise and sunset -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <!-- daily sandhyā reminders (local notifications) -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <!-- reminders are scheduled inexact, so drop the exact-alarm permission the notifications plugin declares -->

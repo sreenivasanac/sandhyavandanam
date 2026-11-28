@@ -4,7 +4,7 @@ import { Icon } from '../components/Icon'
 import { KALAS, KALA_LABEL, SCRIPTS, SCRIPT_LABEL, TRADITIONS, TRADITION_LABEL, type Tradition } from '../config'
 import gotrasJson from '../content/gotras.json'
 import { panchanga } from '../lib/panchanga'
-import { PLACES } from '../lib/places'
+import { ALL_TZ, COMMON_TZ, PLACES, canonTz, deviceTz, placeOf, tzLabel } from '../lib/places'
 import { NATIVE, allowReminders, defaultTime } from '../lib/reminders'
 import { exportSettings, importSettings, useSettings, type Settings as S } from '../lib/settings'
 import { xlit } from '../lib/text'
@@ -132,17 +132,8 @@ const Switch = ({ label, hint, v, on }: { label: string; hint?: string; v: boole
 export function Settings() {
   const s = useSettings()
   const fileRef = useRef<HTMLInputElement>(null)
-  const [locating, setLocating] = useState<'' | 'busy' | 'failed'>('')
   const set = (patch: Partial<S>) => s.set(patch)
-  const hasPlace = s.lat != null && s.lon != null
-  const locate = () => {
-    if (!navigator.geolocation) return setLocating('failed')
-    setLocating('busy')
-    navigator.geolocation.getCurrentPosition(
-      (p) => { set({ lat: +p.coords.latitude.toFixed(2), lon: +p.coords.longitude.toFixed(2), place: 'My location' }); setLocating('') },
-      () => setLocating('failed'),
-    )
-  }
+  const place = placeOf(s)
   return (
     <div className="mx-auto max-w-xl px-5 pb-20">
       <header className="sticky top-0 z-10 -mx-3 box-content flex h-13 items-center pt-[env(safe-area-inset-top)]" style={{ background: 'color-mix(in srgb, var(--paper) 92%, transparent)', backdropFilter: 'blur(10px)' }}>
@@ -172,17 +163,17 @@ export function Settings() {
         </div>
       </Section>
 
-      <Section id="place" title="Place and pañcāṅga">
-        <p className="muted mb-4">Your place sets the sunrise and sunset times on the home screen and the day's tithi and nakṣatra. It stays on this device.</p>
-        <div className="flex flex-wrap gap-2">
-          <select className="input !w-auto flex-1" aria-label="Choose a city" value={PLACES.find(([, la, lo]) => la === s.lat && lo === s.lon)?.[0] ?? ''} onChange={(e) => { const p = PLACES.find(([n]) => n === e.target.value); if (p) set({ place: p[0], lat: p[1], lon: p[2] }) }}>
-            <option value="" disabled>{hasPlace ? s.place || 'Custom location' : 'Choose a city'}</option>
+      <Section id="place" title="Time zone and pañcāṅga">
+        <p className="muted mb-4">Sets the sunrise and sunset times on the home screen and the day's tithi and nakṣatra. It is read from your device's time zone, so the app never asks for your location. It stays on this device.</p>
+        <TimeZonePicker />
+        <Field label="Nearest city" hint="Optional. A time zone is wide, so its sunrise can be off by up to half an hour or more; a city makes it exact.">
+          <select className="input" aria-label="Nearest city" value={PLACES.find(([, la, lo]) => la === s.lat && lo === s.lon)?.[0] ?? (s.lat != null ? '~custom' : '')} onChange={(e) => { const p = PLACES.find(([n]) => n === e.target.value); set(p ? { place: p[0], lat: p[1], lon: p[2] } : { place: undefined, lat: undefined, lon: undefined }) }}>
+            <option value="">None: use the time zone</option>
+            {s.lat != null && !PLACES.some(([, la, lo]) => la === s.lat && lo === s.lon) && <option value="~custom" disabled>{s.place || 'Custom coordinates'}</option>}
             {PLACES.map(([n]) => <option key={n}>{n}</option>)}
           </select>
-          <button className="btn btn-quiet" onClick={locate} disabled={locating === 'busy'}>{locating === 'busy' ? 'Finding…' : 'Use my location'}</button>
-        </div>
-        {locating === 'failed' && <p className="mt-2 text-sm" style={{ color: 'var(--kumkum)' }} role="alert">Couldn't get your location. Choose a city, or enter the coordinates below.</p>}
-        <details className="mt-3">
+        </Field>
+        <details className="mt-1">
           <summary className="muted cursor-pointer text-sm">Enter coordinates</summary>
           <div className="mt-2 grid grid-cols-2 gap-3">
             <Field label="Latitude"><input className="input" type="number" inputMode="decimal" step="0.01" value={s.lat ?? ''} onChange={(e) => set({ lat: e.target.value === '' ? undefined : Number(e.target.value), place: '' })} /></Field>
@@ -197,7 +188,7 @@ export function Settings() {
               <option value="lunar">Lunar, as in Kannada and Telugu usage (caitra, vaiśākha…)</option>
             </select>
           </Field>
-          {hasPlace && <PanchangaPreview />}
+          {place && <PanchangaPreview />}
         </div>
       </Section>
 
@@ -244,11 +235,12 @@ function Reminders() {
 /** Today's computed pañcāṅga so the user can check it against their own calendar. */
 function PanchangaPreview() {
   const s = useSettings()
-  const p = panchanga(new Date(), s.lat!, s.lon!, s.calendar)
+  const pl = placeOf(s)!
+  const p = panchanga(new Date(), pl.lat, pl.lon, s.calendar)
   const rows: [string, string][] = [['Saṃvatsara', p.samvatsara], ['Ayana', p.ayana], ['Ṛtu', p.rtu], ['Māsa', (p.adhika ? 'adhika ' : '') + p.masa], ['Pakṣa', p.paksha], ['Tithi', p.tithi], ['Vāra', p.vara], ['Nakṣatra', p.nakshatra]]
   return (
     <div className="mt-2 rounded-2xl p-4" style={{ background: 'var(--wash)' }}>
-      <p className="mb-2 text-sm font-semibold">Today at your place</p>
+      <p className="mb-2 text-sm font-semibold">Today for {pl.approx ? `the ${pl.label} time zone` : pl.label}</p>
       <dl className="grid grid-cols-[auto_1fr] gap-x-5 gap-y-1">
         {rows.map(([k, v]) => <Fragment key={k}><dt className="muted text-sm">{k}</dt><dd className="font-serif">{v}</dd></Fragment>)}
       </dl>
@@ -261,4 +253,33 @@ function download(name: string, text: string) {
   const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(new Blob([text], { type: 'application/json' })), download: name })
   a.click()
   URL.revokeObjectURL(a.href)
+}
+
+/** Time zone: the device's own by default; one tap for the common ones; type to search all of them for the rest. */
+function TimeZonePicker() {
+  const s = useSettings()
+  const dev = deviceTz()
+  const cur = canonTz(s.tz || dev)
+  const [q, setQ] = useState('')
+  // choosing a zone drops a city from another zone
+  const pick = (tz: string) => { s.set({ tz: tz === dev ? undefined : tz, lat: undefined, lon: undefined, place: undefined }); setQ('') }
+  const hits = q.trim().length < 2 ? [] : ALL_TZ.filter((z) => z.toLowerCase().replace(/_/g, ' ').includes(q.trim().toLowerCase())).slice(0, 8)
+  return (
+    <div className="mb-4">
+      <p className="mb-2 font-semibold">{tzLabel(cur)}{!s.tz && dev ? <span className="muted font-normal"> · from this device</span> : null}</p>
+      <div className="flex flex-wrap gap-2" role="radiogroup" aria-label="Time zone">
+        {COMMON_TZ.map(([label, tz]) => <button key={tz} role="radio" aria-checked={cur === tz} className="chip" onClick={() => pick(tz)}>{label}</button>)}
+        {s.tz && dev && s.tz !== dev && <button className="chip" onClick={() => pick(dev)}>Use this device's ({tzLabel(dev)})</button>}
+      </div>
+      <div className="relative mt-3">
+        <input className="input" type="search" placeholder="Other: type a city or region, e.g. Tokyo, Denver" aria-label="Search time zones" value={q} onChange={(e) => setQ(e.target.value)} autoCapitalize="none" spellCheck={false} />
+        {hits.length > 0 && (
+          <ul className="mt-1 overflow-hidden rounded-xl border" style={{ borderColor: 'var(--line)', background: 'var(--surface)' }} role="listbox" aria-label="Matching time zones">
+            {hits.map((z) => <li key={z}><button role="option" aria-selected={cur === z} className="block min-h-11 w-full px-3 py-2 text-left" onClick={() => pick(z)}>{tzLabel(z)} <span className="muted text-sm">{z}</span></button></li>)}
+          </ul>
+        )}
+        {q.trim().length >= 2 && hits.length === 0 && <p className="muted mt-2 text-sm">No time zone matches. Try the nearest large city.</p>}
+      </div>
+    </div>
+  )
 }
